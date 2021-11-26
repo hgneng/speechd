@@ -52,7 +52,7 @@ sd_skeleton_config_LDADD = $(top_builddir)/src/common/libcommon.la \
 modulebin_PROGRAMS = sd_dummy sd_generic sd_festival sd_cicero sd_ekho
 
 EKHO_ROOT = ../../..
-sd_ekho_SOURCES = ekho.cpp $(audio_SOURCES) $(common_SOURCES)
+sd_ekho_SOURCES = ekho.cpp $(audio_SOURCES) $(common_SOURCES) speak_queue.c
 sd_ekho_CXXFLAGS = -g -DESPEAK_NG_INCLUDE $(ESPEAK_NG_CFLAGS) -I$(EKHO_ROOT)/src -I$(EKHO_ROOT)/utfcpp/source -I$(EKHO_ROOT)/sonic
 sd_ekho_LDADD = $(EKHO_ROOT)/libekho.a -lm -lsndfile \
         @LIB_PULSEAUDIO@  $(MP3LAME_LIBS) \

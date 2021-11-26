@@ -24,7 +24,10 @@
 #include "spd_audio.h"
 #include <speechd_types.h>
 #include "module_utils.h"
+
+extern "C" {
 #include "module_utils_speak_queue.h"
+}
 
 #define HAVE_PULSEAUDIO 1
 #include <ekho.h>
