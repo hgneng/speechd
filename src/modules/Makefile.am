@@ -56,6 +56,7 @@ sd_ekho_SOURCES = ekho.cpp $(audio_SOURCES) $(common_SOURCES) speak_queue.c
 sd_ekho_CXXFLAGS = -g -DESPEAK_NG_INCLUDE $(ESPEAK_NG_CFLAGS) -I$(EKHO_ROOT)/src -I$(EKHO_ROOT)/utfcpp/source -I$(EKHO_ROOT)/sonic
 sd_ekho_LDADD = $(EKHO_ROOT)/libekho.a -lm -lsndfile \
         @LIB_PULSEAUDIO@  $(MP3LAME_LIBS) \
+	-lmpg123 \
         $(top_builddir)/src/common/libcommon.la \
         $(audio_dlopen_modules) \
         $(ESPEAK_NG_LIBS) $(EXTRA_ESPEAK_LIBS) \
