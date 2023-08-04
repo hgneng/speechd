@@ -175,6 +175,7 @@ int ekho_callback(short *wav, int samples, int bits, int channels, int samplerat
 
     module_speak_queue_add_audio(&track, SPD_AUDIO_LE);
   } else if (event == 1) {
+    // module_speak_queue_flush(); // seems not work, doesn't flush pending pcm.
     // Indicate this speech finish. Without this next speech will not begin.
     module_speak_queue_add_end();
   }
