@@ -35,7 +35,7 @@ extern "C" {
 using namespace ekho;
 
 #define MODULE_NAME     "ekho"
-#define MODULE_VERSION  "8.2"
+#define MODULE_VERSION  "10.0"
 
 #define DEBUG_MODULE 1
 DECLARE_DEBUG();
@@ -85,6 +85,7 @@ int module_init(char **status_info) {
     gpEkho = new Ekho();
     gpEkho->setSpeakIsolatedPunctuation();
     module_list_voices();
+    gpEkho->enableEmotiVoice();
 
     // @TODO: confirm the proper size
     ret = module_speak_queue_init(4410000, status_info);
