@@ -1,7 +1,10 @@
 /*
- * ekho.cc - Speech Dispatcher backend for Ekho
+ * ekho.cpp - Speech Dispatcher backend for Ekho
  *
- * Copyright (C) 2012-2013 Cameron Wong (hgneng at gmail.com)
+ * Copyright (C) 2012-2024 Cameron Wong
+ * name in passport: HUANG GUANNENG
+ * email: hgneng at gmail.com
+ * website: https://eguidedog.net
  *
  * This is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by
@@ -17,9 +20,7 @@
  * along with this package; see the file COPYING.  If not, write to
  * the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  * Boston, MA 02110-1301, USA.
- *
  */
-
 
 #include "spd_audio.h"
 #include <speechd_types.h>
@@ -71,7 +72,7 @@ int module_load(void) {
 int module_init(char **status_info) {
     int ret;
 
-    DBG("module_init");
+    DBG("module_init begin");
     INIT_INDEX_MARKING();
 
     *status_info = NULL;
@@ -85,7 +86,7 @@ int module_init(char **status_info) {
     gpEkho = new Ekho();
     gpEkho->setSpeakIsolatedPunctuation();
     module_list_voices();
-    gpEkho->enableEmotiVoice();
+    gpEkho->enableEmotiVoice(false);
 
     // @TODO: confirm the proper size
     ret = module_speak_queue_init(4410000, status_info);
@@ -95,6 +96,7 @@ int module_init(char **status_info) {
     }
 
     *status_info = g_strdup("ekho initialized successfully.");
+    DBG("module_init end");
 
     return 0;
 }

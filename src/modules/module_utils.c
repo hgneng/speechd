@@ -660,6 +660,7 @@ int module_audio_init(char **status_info)
 		    g_strdup
 		    ("Sound output method specified in configuration not supported. "
 		     "Please choose 'oss', 'alsa', 'nas', 'libao' or 'pulse'.");
+		DBG("Sound output method specified in configuration not supported.");
 		return -1;
 	}
 
@@ -683,6 +684,8 @@ int module_audio_init(char **status_info)
 			*status_info =
 			    g_strdup("audio initialized successfully.");
 			return 0;
+		} else {
+			DBG("Opening sound device failed. Reason: %s. %s", error, outputs[i]);
 		}
 		i++;
 	}
