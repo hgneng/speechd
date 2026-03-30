@@ -27,6 +27,9 @@
 #define _GNU_SOURCE
 
 #include <stddef.h>
+#include <stdbool.h>
+#define FALSE false
+#define TRUE true
 
 /* Configuration */
 
@@ -36,7 +39,7 @@
 
 /* Types */
 
-typedef enum { FALSE, TRUE } bool;
+//typedef enum { FALSE, TRUE } bool;
 typedef int Stream;
 typedef int Connection_Id;
 

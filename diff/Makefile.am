@@ -54,8 +54,9 @@ modulebin_PROGRAMS = sd_dummy sd_generic sd_festival sd_cicero sd_ekho
 EKHO_ROOT = ../../..
 sd_ekho_SOURCES = ekho.cpp $(audio_SOURCES) $(common_SOURCES)
 sd_ekho_CXXFLAGS = -g -DESPEAK_NG_INCLUDE $(ESPEAK_NG_CFLAGS) -I$(EKHO_ROOT)/src -I$(EKHO_ROOT)/utfcpp/source -I$(EKHO_ROOT)/sonic
-sd_ekho_LDADD = $(EKHO_ROOT)/libekho.a -lm -lsndfile \
+sd_ekho_LDADD = $(EKHO_ROOT)/libekho.a -lm -lsndfile -lcurl -lsonic\
         @LIB_PULSEAUDIO@  $(MP3LAME_LIBS) \
+		-lmpg123 \
         $(top_builddir)/src/common/libcommon.la \
         $(audio_dlopen_modules) \
         $(ESPEAK_NG_LIBS) $(EXTRA_ESPEAK_LIBS) \
