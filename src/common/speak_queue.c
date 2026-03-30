@@ -2,7 +2,7 @@
  * speak_queue.c - Speak queue helper
  *
  * Copyright (C) 2003,2006,2007 Brailcom, o.p.s.
- * Copyright (C) 2019-2021 Samuel Thibault <samuel.thibault@ens-lyon.org>
+ * Copyright (C) 2019-2021, 2025 Samuel Thibault <samuel.thibault@ens-lyon.org>
  *
  * This is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by
@@ -22,6 +22,10 @@
  * @author Lukas Loehrer
  * Based on ibmtts.c.
  */
+
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#endif
 
 #include <sndfile.h>
 
@@ -239,7 +243,7 @@ module_speak_queue_add_audio(const AudioTrack *track, AudioFormat format)
 	playback_queue_entry->type = SPEAK_QUEUE_QET_AUDIO;
 	playback_queue_entry->data.audio.track = *track;
 	gint nbytes = track->bits / 8 * track->num_samples;
-#if GLIB_VERSION_CUR_STABLE >= G_ENCODE_VERSION(2, 68)
+#if G_ENCODE_VERSION(GLIB_MAJOR_VERSION, GLIB_MINOR_VERSION) >= G_ENCODE_VERSION(2, 68)
 	playback_queue_entry->data.audio.track.samples = g_memdup2(track->samples, nbytes);
 #else
 	playback_queue_entry->data.audio.track.samples = g_memdup(track->samples, nbytes);
@@ -427,6 +431,8 @@ static void *speak_queue_play(void *nothing)
 {
 	char *markId;
 	speak_queue_entry *playback_queue_entry = NULL;
+
+	spd_pthread_setname("speak_queue_play");
 
 	DBG(DBG_MODNAME " Playback thread starting.......");
 
@@ -618,6 +624,8 @@ static void *speak_queue_stop_or_pause(void *nothing)
 {
 	int ret;
 
+	spd_pthread_setname("speak_queue_stop_or_pause");
+
 	DBG(DBG_MODNAME " Stop or pause thread starting.......");
 
 	pthread_mutex_lock(&speak_queue_mutex);
@@ -667,8 +675,8 @@ static void *speak_queue_stop_or_pause(void *nothing)
 		DBG(DBG_MODNAME " Clearing playback queue.");
 		speak_queue_clear_playback_queue();
 
-		int save_pause_state = speak_queue_pause_state;
 		pthread_mutex_lock(&speak_queue_mutex);
+		int save_pause_state = speak_queue_pause_state;
 		module_speak_queue_reset();
 		pthread_mutex_unlock(&speak_queue_mutex);
 

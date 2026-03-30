@@ -70,6 +70,8 @@ void *speak(void *data)
 	int revents;
 	OutputModule *output;
 
+	spd_pthread_setname("speak");
+
 	/* Make interruptible */
 	set_speaking_thread_parameters();
 
@@ -153,7 +155,7 @@ void *speak(void *data)
 					    (MessagePausedList, (void *)NULL,
 					     message_nto_speak);
 					MSG(5,
-					    "Message insterted back to the queues!");
+					    "Message inserted back to the queues!");
 					MessagePausedList =
 					    g_list_remove_link
 					    (MessagePausedList, gl);
@@ -672,11 +674,11 @@ int report_index_mark(TSpeechDMessage * msg, const char *index_mark)
 			      EVENT_INDEX_MARK,
 			      msg->id, msg->settings.uid, index_mark);
 	ret = socket_send_msg(msg->settings.fd, cmd);
+	g_free(cmd);
 	if (ret) {
 		MSG(1, "ERROR: Can't report index mark!");
 		return -1;
 	}
-	g_free(cmd);
 	return 0;
 }
 
@@ -689,11 +691,11 @@ int report_index_mark(TSpeechDMessage * msg, const char *index_mark)
 		cmd = g_strdup_printf(ssip_code"-%d\r\n"ssip_code"-%d\r\n"ssip_msg, \
 		                      msg->id, msg->settings.uid); \
 		ret = socket_send_msg(msg->settings.fd, cmd); \
+		g_free(cmd); \
 		if (ret){ \
 			MSG(2, "ERROR: Can't report index mark!"); \
 			return -1; \
 		} \
-		g_free(cmd); \
 		return 0; \
 	}
 
@@ -811,6 +813,7 @@ GList *queue_remove_message(GList * queue, GList * gl)
 	assert(gl != NULL);
 	assert(gl->data != NULL);
 	msg = (TSpeechDMessage *) gl->data;
+	MSG(5, "Removing message |%s| with priority %d from queue", msg->buf, msg->settings.priority);
 	if (msg->settings.notification & SPD_CANCEL)
 		report_cancel(msg);
 	mem_free_message(gl->data);

@@ -2,7 +2,7 @@
 # DO NOT MODIFY IT!
 # See locale/README.md to know how to import dictionaries
 
-# locale/lv/orca.dic
+# locale/lv/orca-chars.dic
 # Copyright (C) 2004-2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the orca package.
 
@@ -26,6 +26,7 @@ symbols:
 Ó	O AKŪTS	char	norep
 Ô	O JUMTIŅŠ	char	norep
 Ö	O UMLAUTS	char	norep
+×	reizes	some
 Ø	O SVĪTRA	char	norep
 Ù	U GRAVIS	char	norep
 Ú	U AKŪTS	char	norep
@@ -50,6 +51,7 @@ symbols:
 ó	o akūts	char	norep
 ô	o jumtiņš	char	norep
 ö	o umlauts	char	norep
+÷	sadalīts pēc	some
 ø	o svītra	char	norep
 ú	u akūts	char	norep
 ù	u gravis	char	norep

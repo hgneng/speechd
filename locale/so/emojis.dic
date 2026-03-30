@@ -10,33 +10,260 @@ symbols:
 🏿	jidh madaw	none
 ℗	xuquuqda duubista codka	none
 ←	fallaar ku aadan bidix	none
+↚	istarooga falaarta bidix u jeeda	none
 →	fallaarta midigta ku aadan	none
+↛	istarooga falaarta midig u jeeda	none
 ↑	fallaar kor ku aadan	none
 ↓	fallaar hoos ku aadan	none
+↜	fallaarta mawjada ee bidix u jeeda	none
+↝	fallaarta mawjada ee midig u jeeda	none
+↞	falaarta labada madax leh ee u jeeda bidix	none
+↟	falaarta labada madax leh ee u jeeda dhinaca kore	none
+↠	falaarta labada madax leh ee u jeeda dhinaca midig	none
+↡	falaarta labada madax leh ee u jeeda dhinaca hoose	none
+↢	seynta falaarta bidix u jeeda	none
+↣	seynta falaarta midig u jeeda	none
+↤	falaarta bidix u jeeda ee dabada ka malaasan	none
+↥	falaarta kor u jeeda ee dabada ka malaasan	none
+↦	falaarta midig u jeeda ee dabada ka malaasan	none
+↧	falaarta hoos u jeeda ee dabada ka malaasan	none
+↨	falaarta kor hoose ee salka leh	none
+↫	wareega falaarta bidixda u jeeda	none
+↬	wareega falaarta midigta u jeeda	none
+↭	falaarta mawjada ee bidixda iyo midigta u jeeda	none
+↯	falaarta sag-saga ee hoos u jeeda	none
+↰	falaarta kor u jeeda cirifkuna bidixda u jeedo	none
+↱	falaarta kor u jeeda cirifkuna midigta u jeedo	none
+↲	falaarta hoos u jeeda cirifkuna bidixda u jeedo	none
+↳	falaarta hoos u jeeda cirifkuna midigta u jeedo	none
+↴	falaarta midig u jeeda geeskuna hoos u jeedo	none
+↵	falaarta hoos u jeeda geeskuna bidix u jeedo	none
+↶	falaarta lidka jihada saacada ee badh wareega kore	none
+↷	falaarta jihada saacada ee badh wareega kore	none
+↸	falaar u jeeda waqooyi galbeed oo afka gabal ka leh	none
+↹	falaar bidix u jeeda oo afka gabal ka leh oona dul saaran falaar midig u jeeda oo afka gabal ka leh	none
+↺	falaarta lidka jihada saacada ee wareega furan	none
+↻	falaarta jihada saacada ee wareega furan	none
+↼	falaarta dhinaca kore kaliya madaxa ka leh ee bidixda u jeeda	none
+↽	falaarta dhinaca hoose kaliya madaxa ka leh ee bidixda u jeeda	none
+↾	falaarta dhinaca midigta kaliya madaxa ka leh ee kor u jeeda	none
+↿	falaarta dhinaca bidixda kaliya madaxa ka leh ee kor u jeeda	none
+⇀	falaarta dhinaca bidixda kaliya madaxa ka leh ee midigta u jeeda	none
+⇁	falaarta dhinaca midigta kaliya madaxa ka leh ee midigta u jeeda	none
+⇂	falaarta dhinaca midigta kaliya madaxa ka leh ee hoos u jeeda	none
+⇃	falaarta dhinaca bidixda kaliya madaxa ka leh ee hoos u jeeda	none
+⇄	falaar dhinac midig u jeeda oo dul saaran falaar dhinaca bidix u jeeda	none
 ⇅	fallaaro kor iyo hoos ku aadan	none
 ⇆	fallaaro bidix ku aadan oo ka sareeya kuwa midig ku aadan	none
+⇇	labo falaar oo bidix u wada jeeda	none
+⇈	labo falaar oo kor u wada jeeda	none
+⇉	labo falaar oo midig u wada jeeda	none
+⇊	labo falaar oo hoos u wada jeeda	none
+⇋	falaar hal gees leh oo bidix u jeeda oo dul saaran falaar hal gees leh oo midig u jeeda	none
+⇌	falaar hal gees leh oo midig u jeeda oo dul saaran falaar hal gees leh oo bidix u jeeda	none
+⇐	falaar labo jibaaran oo bidix u jeeda	none
+⇍	falaar labo jibaaran oo bidix u jeeda oo istalaab dhexda ku leh	none
+⇑	falaar labo jibaaran oo kor u jeeda	none
+⇒	falaar labo jibaaran oo midig u jeeda	none
+⇏	falaar labo jibaaran oo midig u jeeda oo istallaab dhexda ku leh	none
+⇓	falaar labo jibaaran oo hoos u jeeda	none
+⇔	falaar labo jibaaran oo bidix iyo midig u jeeda	none
+⇎	falaar labo jibaaran oo bidix iyo midig u jeeda oo istallaab dhexda ku leh	none
+⇖	falaar labo jibaaran oo waqooyi galbeed u jeeda	none
+⇗	falaar labo jibaaran oo waqooyi bari u jeeda	none
+⇘	falaar labo jibaaran oo koonfur bari u jeeda	none
+⇙	falaar labo jibaaran oo koonfur galbeed u jeeda	none
+⇚	falaar saddex jibaaran oo bidix u jeeda	none
+⇛	falaar saddex jibaaran oo midig u jeeda	none
+⇜	falaar bidix u jeeda oo dhexda leen laablaabmaya ka leh	none
+⇝	falaar midig u jeeda oo dhexda leen laablaabmaya ka leh	none
+⇞	falaar kor u jeeda oo labo diilmo leh	none
+⇟	falaar hoos u jeeda oo labo diilmo leh	none
+⇠	falaar kala googo’an oo bidix u jeeda	none
+⇡	falaar kala googo’an oo kor u jeeda	none
+⇢	falaar kala googo’an oo midig u jeeda	none
+⇣	falaar kala googo’an oo hoos u jeeda	none
+⇤	falaar bidix u jeeda oo gabal fidsan hor ku leh	none
+⇥	falaar midig u jeeda oo gabal fidsan hor ku leh	none
+⇦	falaar bidix u jeeda oo dhex banaan	none
+⇧	falaar kor u jeeda oo dhex banaan	none
+⇨	falaar midig u jeeda oo dhex banaan	none
+⇩	falaar hoos u jeeda oo dhex banaan	none
+⇪	falaar kor u jeeda oo dhex banaan oona gabal dhex banaan gadaal ku leh	none
+⇵	falaar hoos u jeeda falaar bidix oo kor u jeeda	none
+∀	dhamaan	none
+∂	partial differential	none
+∃	waxaa jiraa	none
+∅	set madhan	none
 ∆	kordhin	none
 ∇	nabla	none
 ∈	curiyaha	none
+∉	aan ahayn curiye	none
+∋	ka kooban tahay si xubin ah	none
+∎	dhamaadka cadaynta	none
+∏	calaamada n-ary	none
+∑	calaamada isku darka ee n-ary	none
+≮	aan ka yareyn	none
 ≠	aan la mid ahayn	none
+≯	aan ka weyneyn	none
 −	calamada maynas	none
 ⁻	calaamada kajar	none
+∓	ka-jarid-ama-ku-darid	none
+∕	islaashta isku qeybinta	none
+∗	calaamada xidigta	none
+∘	calaamda fargashiga	none
+∙	calaamada dhibicda	none
 √	lambarka laba jibaarma	none
+∝	saami ahaan	none
 ∞	calaamada infinity	none
+∟	xagal toosan	none
+∠	xagal	none
+∣	isku qeybinaya	none
+∥	diilmo barbaro ah	none
+∧	madax falaadheedhka hoos u jeeda	none
 ∩	is goys	none
 ∪	midow	none
+∫	integral	none
+∬	integral laban laaban	none
+∮	contour integral	none
+∴	sdiaas darteed	none
+∵	sababtoo ah	none
+∶	saami	none
+∷	saami ahan	none
+∼	calaamada tilde	none
+∽	calaamada tilde oo rogan	none
+∾	s-ta caajisan ee rogan	none
+≃	u siman si asymptotical ah	none
+≅	qiyaas ahan la mid ah	none
 ≈	ku dhawaad la mida	none
+≌	dhamaan isku mid ah	none
+≒	qiyaastii la mid ah sawirka	none
+≖	faraanti isku mid ah	none
 ≡	ay mataano yihiin	none
+≣	si adag ugu dhigma	none
 ≤	ka yar ama la mid ah	none
 ≥	ka wayn ama leeg	none
+≦	ka yar oo dulsaaran la mid ah	none
+≧	ka weyn oo dulsaaran la mid ah	none
+≪	aad uuga yar	none
+≫	aad uuga weyn	none
+≬	u dhaxeeya	none
+≳	ka weyn la mid ah	none
+≺	ka hor dhacaya	none
+≻	beddelaya	none
+⊁	ma beddelayo	none
 ⊂	hoosaadka	none
+⊃	superset	none
+⊆	subset la mid ah	none
+⊇	superset la mid ah	none
+⊕	ku daris wareegsan	none
+⊖	ka jaris wareegsan	none
+⊗	ku dhufasho wareegsan	none
+⊘	islaash qeybin oo wareegsan	none
+⊙	calaamad dhibiceed wareegsan	none
+⊚	calaamada faraantiga oo wareegsan	none
+⊛	calaamada xidigta oo wareegsan	none
+⊞	afar gees dhexda ku daritaan ku leh	none
+⊟	afar gees dhexda ka jaris ku leh	none
+⊥	leen kor u jeeda oo hoosta leen fidsan ku leh	none
+⊮	ma qasbaayo	none
+⊰	ka hor dhacaya si xidhiidh hoos imaada	none
+⊱	beddelaya si xidhiidh hoos imaada	none
+⋭	kuma jiro si koox-hoosaad caadi la mid ah	none
+⊶	asal	none
+⊹	hermitian conjugate matrix	none
+⊿	saddex xagaleed midig	none
+⋁	n-ary logical ama	none
+⋂	kala goyska n-ary	none
+⋃	ururka n-ary	none
+⋅	calamada dhibicda	none
+⋆	calamada xidigta	none
+⋈	ku biirista dabiiciga ah	none
+⋒	labo kala goys	none
+⋘	aad ugu yar	none
+⋙	aad ugu weyn	none
+⋮	seddex dhibic oo toostoos ah	none
+⋯	seddex dhibic oo jiifjiif ah	none
+⋰	geesal seddex dhibiceed midigta kore	none
+⋱	geesal seddex dhibiceed midigta hoose	none
+■	afar gees dhexdiisa la buuxiyay	none
+□	afar gees dhex banaan	none
+▢	afar gees dhex banaan oo geesihiina la wareejiyay	none
+▣	afar geesle dhex banaan oo kujira afar geesle dhexdiisa la buuxiyay	none
+▤	afar gees dhexda loo buuxiyay si dheer dheer ah	none
+▥	afar gees dhexda loo buuxiyay si toosan	none
+▦	afar gees dhexda loo buuxiyay si siman iyo si toosan	none
+▧	afar gees dhexda loo buuxiyay si bidix iyo midig ah	none
+▨	afar gees dhexda loo buuxiyay si midig iyo bidix ah	none
+▩	afar gees dhexda loo buuxiyay si isku tallaab is dhaafsi ah	none
+▬	leydi la buuxiyay	none
+▭	leydi dhex banaan	none
+▮	leydi toosan oo la buuxiyay	none
+▰	leydida barbarta u janjeerta oo la buuxiyay	none
 ▲	saddex xagal buuxda oo kor u taagan	none
+△	saddex geesle dhex banaan oo kor u jeeda	none
+▴	saddex geesle yar oo la buuxiyay oo kor u jeeda	none
+▵	saddex geesle yar oo dhex banaan oo kor u jeeda	none
+▷	saddex geesle dhex banaan oo midig u jeeda	none
+▸	saddex geesle yar oo la buuxiyay oo midig u jeeda	none
+▹	saddex geesle yar oo dhex banaan oo midig u jeeda	none
+►	tilmaame la buuxiyay oo midig u jeeda	none
+▻	tilmaame dhex banaan oo midig u jeeda	none
 ▼	saddex xagal hoos-u-fiiqan	none
+▽	seddex geesle dhex banaan oo hoos u jeeda	none
+▾	seddex geesle la buuxiyay oo hoos u jeeda	none
+▿	seddex geesle yar dhex banaan oo hoos u jeeda	none
+◁	seddex geesle dhex banaan oo bidix u jeeda	none
+◂	seddex geesle yar oo la buuxiyay oo bidix u jeeda	none
+◃	seddex geesle yar oo dhex banaan oo bidix u jeeda	none
+◄	tilmaame la buuxiyay oo bidix u jeeda	none
+◅	tilmaame dhex banaan oo bidix u jeeda	none
+◆	dheyman gudihiisa la buuxiyay	none
+◇	dheyman dhex banaan	none
+◈	dheyman dhex banaan oo uu kujiro dheyman dhexdiisa la buuxiyay	none
+◉	wareeg dhex banaan oo uu kujiro wareeg dhexdiisa la buuxiyay	none
 ◊	qaab dheeman	none
 ○	duleelka goobada	none
+◌	dhibic la goobaabay	none
+◍	wareeg dhexdiisa sida toosan loo buuxiyay	none
+◎	goobaabino isku dhex jiraan	none
 ●	goobada buuxa	none
+◐	goobaabin badhka bidixda la buuxiyay	none
+◑	goobaabin badhka midigta la buuxiyay	none
+◒	goobaabin badhka hoose la buuxiyay	none
+◓	goobaabin badhka kore la buuxiyay	none
+◔	goobaabin afar meelood meesha kore ee midigta laga buuxiyay	none
+◕	goobaabin afar meelood meesha kore ee bidix aan la buuxinin	none
+◖	goobaabin badhka bidixda la buxiyay	none
+◗	goobaabin badhka midigta la buxiyay	none
+◘	bulet rogan	none
+◙	afar gees uu ku dhex jiro goobaabin dhexda la buuxiyay	none
+◜	qaansada dhinaca bidix kore ee afar gees meelka goobaabinta	none
+◝	qaansada dhinaca midig kore ee afar gees meelka goobaabinta	none
+◞	qaansada dhinaca midig hoose ee afar gees meelka goobaabinta	none
+◟	qaansada dhinaca bidix hoose ee afar gees meelka goobaabinta	none
+◠	badhka kore ee goobaabinta	none
+◡	badhka hoose ee goobaabinta	none
+◢	seddex geesle midigta hoose oo la buuxiyay	none
+◣	seddex geesle bidixda hoose oo la buuxiyay	none
+◤	seddex geesle bidixda kore oo la buuxiyay	none
+◥	seddex geesle midigta kore oo la buuxiyay	none
+◦	dhibic dhex banaan	none
 ◯	goobad duleel weeyn	none
+◳	afar geesle dhex banaan oo afar geesle yar ku leh midigta kore	none
+◷	goobaabin dhex banaan oo afar geesle yar ku leh midigta kore	none
+◿	seddex geeslaha dhinaca hoose ee midig	none
 ♪	xadhiga sideedaad	none
+⨧	calaamada ku darista oo labo hoos ka leh	none
+⨯	iskutallaab	none
+⨼	natiijada gudaha	none
+⩣	logical ama labo gabal hoos ku leh	none
+⩽	ka yar siman jiifsan	none
+⪍	ka yar oo ka sareysa siman la mid ah	none
+⪚	labo leen la mid ah ka weyn	none
+⪺	beddelid ka sareysa aan inaba la mid ahayn	none
+♭	fidsan	none
+♯	Seef ah	none
 😀	dareenka wajiga	none
 😃	muuqaalka wejiga indhaha weyn	none
 😄	waji indho dhoola cadynaya leh	none
@@ -47,6 +274,7 @@ symbols:
 😂	waji ilin farxad leh	none
 🙂	waji yara dhoola cadeynaya	none
 🙃	waji hoos-hoos u raaraca	none
+🫠	waji dhalaalaya	none
 😉	waji il jabinaaya	none
 😊	waji iyo indho dhoolo cadeynaaya	none
 😇	waji dhoolo cadeynaya wareeg leh	none
@@ -67,13 +295,17 @@ symbols:
 🤑	waji af-lacag	none
 🤗	waji habsiinaaya	none
 🤭	waji afka gacan ka saaran	none
+🫢	ku wajah indhaha oo ku furan iyo gacmaha oo aad afka saaratay	none
+🫣	wajah indhaha oo fiirinaya	none
 🤫	waji ruxmaya	none
 🤔	waji fakarsan	none
+🫡	wajiga salaameed	none
 🤐	waji af xiran	none
 🤨	waji sunniyo kor u qaadan leh	none
 😐	waji dhexdhexaad ah	none
 😑	waji aan muuqan lahayn	none
 😶	waji af la’aan	none
+🫥	wajiga ku leh dhibco	none
 😶‍🌫	waji daruuro ku jira	none
 😏	waji isku dhagan	none
 😒	waji aan la taaban karin	none
@@ -81,11 +313,15 @@ symbols:
 😬	waji naxdin leh	none
 😮‍💨	waji afka kala qaday	none
 🤥	waji jiifo	none
+🫨	Ruxida madaxa	none
+🙂‍↔	madax u luxida sida jiifsan	none
+🙂‍↕	madax u luxida sida toosan	none
 😌	waji niyad jabn	none
 😔	waji caajisan	none
 😪	waji hurdeysan	none
 🤤	waji dhareer	none
 😴	waji hurdadeysan	none
+🫩	weji ay baagag uga hoos yaalan indhaha	none
 😷	waji maaskaro caafimaad leh	none
 🤒	waji leh heerkulbeegga	none
 🤕	waji leh faashid madaxeed	none
@@ -105,6 +341,7 @@ symbols:
 🤓	waji xirfad la’aan	none
 🧐	waji hal ookiyaalo leh	none
 😕	waji jah wareersan	none
+🫤	ku wajah af dadban	none
 😟	waji walaacsan	none
 🙁	waji yara macbuusan	none
 ☹	waji macbuus	none
@@ -112,7 +349,9 @@ symbols:
 😯	waji iftiimaayo	none
 😲	waji amakaagsan	none
 😳	waji xishood leh	none
+🫪	weji la qaloociyay	none
 🥺	waji doodsan	none
+🥹	wajah adoo oohinta celinaya	none
 😦	waji macbuus af furan leh	none
 😧	waji xanaaqsan	none
 😨	waji cabsi leh	none
@@ -156,7 +395,6 @@ symbols:
 🙈	aan arkeyn daanyeer xun	none
 🙉	aan-maqaleyn-daanyeer xun	none
 🙊	aan la hadleynin daanyeer xun	none
-💋	calaamadda dhunkashada	none
 💌	warqad jaceyl	none
 💘	wadno leh fallaar	none
 💝	wadno mara lagu xiray	none
@@ -171,38 +409,49 @@ symbols:
 ❤‍🔥	wadne ololaya	none
 ❤‍🩹	wadne dhaawacan	none
 ❤	wadno cas	none
+🩷	wadnaha casaan ah	none
 🧡	wadno oranji ah	none
 💛	wadno jaalle ah	none
 💚	wadno cagaaran	none
 💙	wadno buluug ah	none
+🩵	qalbi buluug khafiif ah	none
 💜	wadno midab-buluug-guddud ah	none
 🤎	wadne bunni ah	none
 🖤	wadno madoow	none
+🩶	qalbi cawlan	none
 🤍	wadne cad (cabsi og)	none
+💋	calaamadda dhunkashada	none
 💯	boqol dhibco	none
 💢	calaamadda xanaaqa	none
+🫯	daruur dagaalameyso	none
 💥	isku dhac	none
 💫	wareer	none
 💦	dhibco dhidid ah	none
 💨	tagaayo	none
 🕳	god	none
-💣	bam	none
 💬	balluun hadal	none
 👁‍🗨	il xumbo hadal ku leh	none
 🗨	xumbo hadal bidix	none
 🗯	xanaaqa xumbo midig	none
 💭	baalluunta fakarka	none
-💤	zzz calaamadda hurdada	none
+💤	ZZZ	none
 👋	gacan haadin	none
 🤚	kor u qaaday gacanta gadaal	none
 🖐	gacan iyo faraha ayaa lagu fidiyay	none
 ✋	gacan kor loo qaday	none
 🖖	salaan sharaf	none
+🫱	dhinaca gacanta midig	none
+🫲	dhinaca gacanta bidix	none
+🫳	baabacada gacanta hoose	none
+🫴	Baabacada kore	none
+🫷	gacanta u riixaysa dhinaca bidix	none
+🫸	gacanta riixid bidix u socota	none
 👌	gacanta saxda ah	none
 🤌	faro la isku wada duubay	none
 🤏	qanjaruufo	none
 ✌	gacanta guusha	none
 🤞	faraha gudban; Alla bari	none
+🫰	gacanta farta caarada iyo suulka la dhaafay	none
 🤟	meedaarta waan ku jecelahay ah	none
 🤘	calaamadda geesaha	none
 🤙	gacanta ah isoo wac	none
@@ -212,6 +461,7 @@ symbols:
 🖕	farta dhexe	none
 👇	gacan tilmaamaysa hoos	none
 ☝	farta muujinta tilmaamaysa kor	none
+🫵	tusmo tilmaame daawadaha	none
 👍	suulka kor	none
 👎	suulka hoos	none
 ✊	kor u qaadid tantoonyo (feer)	none
@@ -220,6 +470,7 @@ symbols:
 🤜	feerka tilmaamaya midig	none
 👏	sacabinta gacmaha	none
 🙌	gacmo kor u taagid	none
+🫶	gacanta qalbiga	none
 👐	gacmo furan	none
 🤲	calaacalaha si wadajir ah kor loogu taaggo	none
 🤝	gacan-qaadka salaanta	none
@@ -244,6 +495,7 @@ symbols:
 👁	il	none
 👅	carab	none
 👄	bishimo	none
+🫦	faruurta qaniinaya	none
 👶	cunug	none
 🧒	ilmo	none
 👦	wiil	none
@@ -351,6 +603,7 @@ symbols:
 👷	shaqaale dhismo	none
 👷‍♂	nin shaqaale dhismo ah	none
 👷‍♀	naag shaqaale dhismo ah	none
+🫅	qof leh taaj	none
 🤴	boqor	none
 👸	boqorad	none
 👳	qof cammaamad xiran	none
@@ -365,6 +618,8 @@ symbols:
 👰‍♂	nin niqaamaban	none
 👰‍♀	naag niqaaban	none
 🤰	haweeney uur leh	none
+🫃	nin uur leh	none
+🫄	qof uur leh	none
 🤱	naas-nuujin	none
 👩‍🍼	naag canug quudineeysa	none
 👨‍🍼	nin canug quudinaya	none
@@ -400,6 +655,8 @@ symbols:
 🧟	qof dhintay soo noolaaday	none
 🧟‍♂	nin dhintay oo soo noolaaday	none
 🧟‍♀	haweeney dhimatay soo laabatay	none
+🧌	foolxun	none
+🫈	makhluuqa xaadoolaha	none
 💆	qof loo duugayo	none
 💆‍♂	nin loo duugayo	none
 💆‍♀	haweeneey loo duugayo	none
@@ -427,6 +684,7 @@ symbols:
 🏃	qof ordaya	none
 🏃‍♂	nin ordaya	none
 🏃‍♀	naag ordaysa	none
+🧑‍🩰	qoob ka ciyaare faneed	none
 💃	naag qoob-ka-cayaaraysa	none
 🕺	nin qoob-ka-cayaaraya	none
 🕴	nin suud xiran oo milicsanaya	none
@@ -493,12 +751,17 @@ symbols:
 👬	laba nin oo gacmaha is haysta	none
 💏	shumis	none
 💑	lammaane is jecel	none
-👪	Qooys caruur ah	none
 🗣	Madax hadlaya	none
 👤	Sawir muuqaal dumar qaarka hore mugdi ah	none
 👥	Farshaxan sawir xabad dumar oo mugdi ah	none
 🫂	dad hab isi siinaya	none
+👪	Qooys caruur ah	none
+🧑‍🧑‍🧒	qoys qof weyn, qof weyn, ilmo	none
+🧑‍🧑‍🧒‍🧒	qoys qof weyn, qof weyn, ilmo, ilmo	none
+🧑‍🧒	qoys qof weyn, ilmo	none
+🧑‍🧒‍🧒	qoys qof weyn, ilmo, ilmo	none
 👣	raadad	none
+🫆	sawirka faraha	none
 🦰	timo cas	none
 🦱	timo walaaqan	none
 🦳	caddaan	none
@@ -523,6 +786,8 @@ symbols:
 🐅	shabeel	none
 🐆	haramacad	none
 🐴	waji faras	none
+🫎	deero maraykan	none
+🫏	dameer	none
 🐎	faras	none
 🦄	xayawaan khuraafi ah	none
 🦓	dameer-farow	none
@@ -578,13 +843,17 @@ symbols:
 🕊	qoolleey	none
 🦅	gorgor	none
 🦆	muwaata	none
-🦢	booloboolo	none
+🦢	shimbiraha booloboolada	none
 🦉	guumays	none
 🦤	shimbir boolo	none
 🪶	baalal	none
 🦩	qudunquuto	none
 🦚	daa’uus	none
 🦜	baqbaqaaq	none
+🪽	wing	none
+🐦‍⬛	shimbir madoow	none
+🪿	booloboolo	none
+🐦‍🔥	phoenix	none
 🐸	rah	none
 🐊	yaxaas	none
 🐢	qubo	none
@@ -597,6 +866,7 @@ symbols:
 🐳	nibiriga mataga	none
 🐋	nibiri	none
 🐬	hoon-baro	none
+🫍	nibiriga orkaha	none
 🦭	shaabad	none
 🐟	kalluun	none
 🐠	kalluunka kulaylaha	none
@@ -604,6 +874,13 @@ symbols:
 🦈	kalluun libaax	none
 🐙	farammugo	none
 🐚	xanjaleel wareegaya	none
+🪸	dhagax badeed	none
+🪼	kaluun qolof leh	none
+🦀	carsaanyo	none
+🦞	argoosto	none
+🦐	kalluun qolof la shiilay	none
+🦑	xayawaan badeed	none
+🦪	lohod	none
 🐌	dixiri qolof leh	none
 🦋	balanbaalis	none
 🐛	kutaan	none
@@ -623,6 +900,7 @@ symbols:
 💐	ubaxyo	none
 🌸	ubaxa buundada	none
 💮	ubax cad	none
+🪷	lotus	none
 🏵	ubaxa sharraxa	none
 🌹	ubax koob	none
 🥀	ubaxa didilaaca	none
@@ -630,6 +908,7 @@ symbols:
 🌻	gabbaldaye	none
 🌼	ubax geed	none
 🌷	ubax caano	none
+🪻	hyacinth	none
 🌱	geed naqan	none
 🪴	dhirta guriga	none
 🌲	geed abaareed	none
@@ -643,11 +922,16 @@ symbols:
 🍁	caleen jiifta	none
 🍂	caleen dhacday	none
 🍃	caleen dhex buubaysa dabaysha	none
+🪹	buul faaruq ah	none
+🪺	buul leh ukumo	none
+🍄	barkin waraabe	none
+🪾	geed caleen la’aan ah	none
 🍇	canab	none
-🍈	qare	none
-🍉	xab-xab	none
-🍊	liin	none
+🍈	batiikh	none
+🍉	qare	none
+🍊	liin banbeelo	none
 🍋	liin dhannaan	none
+🍋‍🟩	lin	none
 🍌	moos	none
 🍍	caananaas	none
 🥭	cambe	none
@@ -674,9 +958,13 @@ symbols:
 🥦	barakooli	none
 🧄	toon	none
 🧅	basal	none
-🍄	barkin waraabe	none
 🥜	loows	none
+🫘	digir	none
 🌰	loows duban	none
+🫚	xidid sinjibiil	none
+🫛	Qubka digirta	none
+🍄‍🟫	boqoshaa bunni ah	none
+🫜	khudradda xididka ah	none
 🍞	rooti	none
 🥐	qureec faransiis macaan	none
 🥖	rootiga baguette-ka	none
@@ -728,11 +1016,6 @@ symbols:
 🥟	cajiimid	none
 🥠	buskud macaan	none
 🥡	sabduuqa lohodka lagu qaato	none
-🦀	carsaanyo	none
-🦞	argoosto	none
-🦐	kalluun qolof la shiilay	none
-🦑	xayawaan badeed	none
-🦪	lohod	none
 🍦	jallaato jilicsan	none
 🍧	macmacaan baraf la buburiyay	none
 🍨	jallaato	none
@@ -761,6 +1044,7 @@ symbols:
 🍻	isku dhufsashada koobab khamri ah	none
 🥂	galaasyo isku dhufashada	none
 🥃	galaas dhalo	none
+🫗	ku shubaya dareere	none
 🥤	koob wata istaroow	none
 🧋	shaah xumbaale	none
 🧃	sanduuq cabitaan	none
@@ -771,6 +1055,7 @@ symbols:
 🍴	fargeeta iyo mindi	none
 🥄	qaaddo	none
 🔪	mindi kushiin	none
+🫙	dhalo	none
 🏺	jeeg dheer labo sidda leh	none
 🌍	adduunka muujinaya Yurub-Afrika	none
 🌎	adduunka oo muujinaya Ameerika	none
@@ -781,6 +1066,7 @@ symbols:
 🧭	jiheeye	none
 🏔	buur baraf ah	none
 ⛰	buur	none
+🛘	dhul go’id	none
 🌋	folkano	none
 🗻	buurta fuji	none
 🏕	xero	none
@@ -833,6 +1119,7 @@ symbols:
 🌉	buundada habeenkii	none
 ♨	ilo kulul	none
 🎠	faraska farxad wareegga	none
+🛝	Barxadda ciyaarta	none
 🎡	shaagga gaariga markabka	none
 🎢	dusha sare ee tareeka	none
 💈	tiirka tima-jaraha	none
@@ -881,12 +1168,14 @@ symbols:
 🛤	jidka waddada tareenka	none
 🛢	durbaan saliid ah	none
 ⛽	bamka shidaalka	none
+🛞	gaari	none
 🚨	iftiinka gaariga booliska	none
 🚥	iftiinka taraafikada oo jiifta	none
 🚦	iftiin taraafika oo toosan	none
 🛑	calaamad joogsi	none
 🚧	dhismo	none
 ⚓	baroosinka	none
+🛟	giraan sabanaysa	none
 ⛵	doon shiraac	none
 🛶	huuri	none
 🚤	doon dheeraysa	none
@@ -1044,10 +1333,10 @@ symbols:
 🎯	kudhaca toosan	none
 🪀	qaanso	none
 🪁	abitey	none
+🔫	bastoolad	none
 🎱	kubada barkada 8	none
 🔮	kubada kareemka	none
 🪄	ul mucjiso	none
-🧿	balaayo xijaab	none
 🎮	cayaarta maqal-muuqal	none
 🕹	usha farxada	none
 🎰	mashiinka kabaha	none
@@ -1055,6 +1344,7 @@ symbols:
 🧩	gabal xujo	none
 🧸	boombalo	none
 🪅	boombalaha isbaanishka	none
+🪩	kubada muraayadda	none
 🪆	buulka boombalaha	none
 ♠	farshaxan	none
 ♥	lebiska qalbiga	none
@@ -1091,6 +1381,7 @@ symbols:
 🩳	shoorti	none
 👙	nigis iyo keeshali	none
 👚	dharka dumarka	none
+🪭	taageere gacanta laablaaban	none
 👛	boorso	none
 👜	shandada gacanta	none
 👝	shandad yar	none
@@ -1105,6 +1396,7 @@ symbols:
 👡	sandhalka dumarka	none
 🩰	kabaha ballet-ka	none
 👢	buudh dumar	none
+🪮	timo qaadis	none
 👑	taaj	none
 👒	koofiyad dumar	none
 🎩	koofiyad dheer	none
@@ -1135,14 +1427,18 @@ symbols:
 🎧	dhago	none
 📻	raadiyow	none
 🎷	buun	none
+🎺	fuugwo	none
+🪊	turumbo	none
 🪗	alab muusik	none
 🎸	giitaar	none
 🎹	kiiboodhka muusika	none
-🎺	fuugwo	none
 🎻	seese	none
 🪕	gitaar nooc mareykan ah	none
 🥁	durbaan	none
 🪘	durbaan dheer	none
+🪇	maracas	none
+🪈	biibiile	none
+🪉	gitaar	none
 📱	moobil	none
 📲	moobil leh xariiq	none
 ☎	telefoon	none
@@ -1150,6 +1446,7 @@ symbols:
 📟	ogeysiiye	none
 📠	mishiinka fakiska	none
 🔋	baytari	none
+🪫	batari dabka ka dhacay	none
 🔌	xadhiga dabka	none
 💻	koombuyuutar laabtob ah	none
 🖥	koombuyuutarka miiska	none
@@ -1195,8 +1492,9 @@ symbols:
 📑	qeybaha calaamadeynta buuga	none
 🔖	calaamadeeye	none
 🏷	warqad wax sheegaysa	none
-💰	bac lacaga	none
 🪙	lacag bir ah	none
+💰	bac lacaga	none
+🪎	sanduuqa keyd maaliyadeedka	none
 💴	lacag yeen ah	none
 💵	lacag doolar ah	none
 💶	lacag yuuro ah	none
@@ -1218,7 +1516,7 @@ symbols:
 📭	sanduuq boosto oo furan oo leh calan hooseeya	none
 📮	sanduuq boosto	none
 🗳	sanduuq codeyn oo leh warqad codeyn	none
-✏	beensal	none
+✏	qalin qori	none
 ✒	af-qalin madow	none
 🖋	qalin saxeex	none
 🖊	qalin	none
@@ -1261,7 +1559,7 @@ symbols:
 🛠	dube iyo baanad	none
 🗡	toorey	none
 ⚔	seefo isweydaarsan	none
-🔫	bastoolad	none
+💣	bam	none
 🪃	majo	none
 🏹	leeb iyo qaanso	none
 🛡	gaashaan	none
@@ -1274,11 +1572,13 @@ symbols:
 ⚖	miisaan	none
 🦯	usha cad indhoolaha	none
 🔗	liinki	none
+⛓‍💥	silsillad jabtay	none
 ⛓	silsilado	none
 🪝	jilaab	none
 🧰	tuulbogos	none
 🧲	birlab	none
 🪜	jaranjaro	none
+🪏	badeel	none
 ⚗	qalab nadiifin	none
 🧪	tuyuubka tijaabinta	none
 🧫	saxan wax laga dhex arki karo	none
@@ -1290,7 +1590,9 @@ symbols:
 🩸	dhibic dhiig ah	none
 💊	kiniin	none
 🩹	balastar jilicsan	none
+🩼	qoryo	none
 🩺	qalabka wadnaha lagu dhageysto	none
+🩻	raajo	none
 🚪	albaab	none
 🛗	wiish	none
 🪞	muraayad	none
@@ -1311,6 +1613,7 @@ symbols:
 🧻	duub waraaq ah	none
 🪣	baaldi	none
 🧼	saabuun	none
+🫧	xumbo	none
 🪥	caday	none
 🧽	isboonji	none
 🧯	dab-damiye	none
@@ -1319,8 +1622,11 @@ symbols:
 ⚰	sanduuq	none
 🪦	qudbo	none
 ⚱	aas	none
+🧿	balaayo xijaab	none
+🪬	hamsa	none
 🗿	farshaxanka dadkii hore la sawiray	none
 🪧	calaamad	none
+🪪	kaar aqoonsi	none
 🏧	calaamadda ATM	none
 🚮	calaamadda qashin qubidda	none
 🚰	biyaha la cabi karo	none
@@ -1355,8 +1661,9 @@ symbols:
 ↙	fallaarta hoose ee bidix	none
 ⬅	fallarta bidix	none
 ↖	fallaarta kor ee bidix	none
-↕	fallaarta kor-hoose	none
+↕	falaadh kor u-jeeda	none
 ↔	fallaarta bidix-midig	none
+↮	istarooga falaarta bidix midigta u jeeda	none
 ↩	fallaarta midig u qalloocsan bidix	none
 ↪	fallaarta bidix u qalloocsan midig	none
 ⤴	fallaarta midig u qalloocsan kor	none
@@ -1380,6 +1687,7 @@ symbols:
 ☮	calaamadda nabadda	none
 🕎	shumac caabudaan Yuhuudda	none
 🔯	xiddig lix geeslood oo dhibic leh	none
+🪯	khanda	none
 ♈	laxo	none
 ♉	dibigga Taurus	none
 ♊	mataanaha	none
@@ -1415,6 +1723,7 @@ symbols:
 🔅	daciif	none
 🔆	badhanka dhalaalka	none
 📶	xariiqaha anteenada	none
+🛜	xaraga dhagaha	none
 📳	habka gariirka	none
 📴	dami taleefoonka gacanta	none
 ♀	calaamad dheddig	none
@@ -1424,6 +1733,7 @@ symbols:
 ➕	calaamadda isugeynta	none
 ➖	calaamadda ka jar	none
 ➗	calaamadda isu qaybinta	none
+🟰	calaamado isku mid ah oo culus	none
 ♾	xad la’aan	none
 ❓	calaamad su’aal	none
 ❔	ccalaamad su’aal cad	none
@@ -1449,6 +1759,7 @@ symbols:
 ✴	xiddig siddeed geeslood oo tilmaama	none
 ❇	dhalaal	none
 ™	sumadda ganacsiga	none
+🫟	firdhiye	none
 🔠	geli xarfa weyn oo latin ah	none
 🔡	geli xarfo latin oo yar yar	none
 🔢	geli tirooyin	none
@@ -1513,10 +1824,2375 @@ symbols:
 🏳‍🌈	calanka qaanso roobeed	none
 🏳‍⚧	calanka laba dhidiga	none
 🏴‍☠	calanka burcad badeedda	none
+₢	cruzeiro	none
+₣	french franc	none
+₤	lira	none
+₥	mill	none
+₩	guulaystay	none
 €	yuuro	none
+₰	penny-ga jarmalka	none
 ₱	beeso	none
+₳	austral	none
+₶	livre tournois	none
+₷	spesmilo	none
 ₹	rubiiska hindiya	none
 ₽	cutub lacageedka raashiya	none
+₿	bitkoyn	none
+₨	rupee	none
+👋🏻	gacan haadin jidh fudud	none
+👋🏼	gacan haadin jidh fudud oo dhexe	none
+👋🏽	gacan haadin jidh nooc dhexe	none
+👋🏾	gacan haadin jidh nooc madaw oo dhexe	none
+👋🏿	gacan haadin jidh madaw	none
+🤚🏻	kor u qaaday gacanta gadaal jidh fudud	none
+🤚🏼	kor u qaaday gacanta gadaal jidh fudud oo dhexe	none
+🤚🏽	kor u qaaday gacanta gadaal jidh nooc dhexe	none
+🤚🏾	kor u qaaday gacanta gadaal jidh nooc madaw oo dhexe	none
+🤚🏿	kor u qaaday gacanta gadaal jidh madaw	none
+🖐🏻	gacan iyo faraha ayaa lagu fidiyay jidh fudud	none
+🖐🏼	gacan iyo faraha ayaa lagu fidiyay jidh fudud oo dhexe	none
+🖐🏽	gacan iyo faraha ayaa lagu fidiyay jidh nooc dhexe	none
+🖐🏾	gacan iyo faraha ayaa lagu fidiyay jidh nooc madaw oo dhexe	none
+🖐🏿	gacan iyo faraha ayaa lagu fidiyay jidh madaw	none
+✋🏻	gacan kor loo qaday jidh fudud	none
+✋🏼	gacan kor loo qaday jidh fudud oo dhexe	none
+✋🏽	gacan kor loo qaday jidh nooc dhexe	none
+✋🏾	gacan kor loo qaday jidh nooc madaw oo dhexe	none
+✋🏿	gacan kor loo qaday jidh madaw	none
+🖖🏻	salaan sharaf jidh fudud	none
+🖖🏼	salaan sharaf jidh fudud oo dhexe	none
+🖖🏽	salaan sharaf jidh nooc dhexe	none
+🖖🏾	salaan sharaf jidh nooc madaw oo dhexe	none
+🖖🏿	salaan sharaf jidh madaw	none
+🫱🏻	dhinaca gacanta midig jidh fudud	none
+🫱🏼	dhinaca gacanta midig jidh fudud oo dhexe	none
+🫱🏽	dhinaca gacanta midig jidh nooc dhexe	none
+🫱🏾	dhinaca gacanta midig jidh nooc madaw oo dhexe	none
+🫱🏿	dhinaca gacanta midig jidh madaw	none
+🫱🏻‍🫲🏼	gacan-qaadka salaanta jidh fudud, jidh fudud oo dhexe	none
+🫱🏻‍🫲🏽	gacan-qaadka salaanta jidh fudud, jidh nooc dhexe	none
+🫱🏻‍🫲🏾	gacan-qaadka salaanta jidh fudud, jidh nooc madaw oo dhexe	none
+🫱🏻‍🫲🏿	gacan-qaadka salaanta jidh fudud, jidh madaw	none
+🫱🏼‍🫲🏻	gacan-qaadka salaanta jidh fudud oo dhexe, jidh fudud	none
+🫱🏼‍🫲🏽	gacan-qaadka salaanta jidh fudud oo dhexe, jidh nooc dhexe	none
+🫱🏼‍🫲🏾	gacan-qaadka salaanta jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+🫱🏼‍🫲🏿	gacan-qaadka salaanta jidh fudud oo dhexe, jidh madaw	none
+🫱🏽‍🫲🏻	gacan-qaadka salaanta jidh nooc dhexe, jidh fudud	none
+🫱🏽‍🫲🏼	gacan-qaadka salaanta jidh nooc dhexe, jidh fudud oo dhexe	none
+🫱🏽‍🫲🏾	gacan-qaadka salaanta jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+🫱🏽‍🫲🏿	gacan-qaadka salaanta jidh nooc dhexe, jidh madaw	none
+🫱🏾‍🫲🏻	gacan-qaadka salaanta jidh nooc madaw oo dhexe, jidh fudud	none
+🫱🏾‍🫲🏼	gacan-qaadka salaanta jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+🫱🏾‍🫲🏽	gacan-qaadka salaanta jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+🫱🏾‍🫲🏿	gacan-qaadka salaanta jidh nooc madaw oo dhexe, jidh madaw	none
+🫱🏿‍🫲🏻	gacan-qaadka salaanta jidh madaw, jidh fudud	none
+🫱🏿‍🫲🏼	gacan-qaadka salaanta jidh madaw, jidh fudud oo dhexe	none
+🫱🏿‍🫲🏽	gacan-qaadka salaanta jidh madaw, jidh nooc dhexe	none
+🫱🏿‍🫲🏾	gacan-qaadka salaanta jidh madaw, jidh nooc madaw oo dhexe	none
+🫲🏻	dhinaca gacanta bidix jidh fudud	none
+🫲🏼	dhinaca gacanta bidix jidh fudud oo dhexe	none
+🫲🏽	dhinaca gacanta bidix jidh nooc dhexe	none
+🫲🏾	dhinaca gacanta bidix jidh nooc madaw oo dhexe	none
+🫲🏿	dhinaca gacanta bidix jidh madaw	none
+🫳🏻	baabacada gacanta hoose jidh fudud	none
+🫳🏼	baabacada gacanta hoose jidh fudud oo dhexe	none
+🫳🏽	baabacada gacanta hoose jidh nooc dhexe	none
+🫳🏾	baabacada gacanta hoose jidh nooc madaw oo dhexe	none
+🫳🏿	baabacada gacanta hoose jidh madaw	none
+🫴🏻	Baabacada kore jidh fudud	none
+🫴🏼	Baabacada kore jidh fudud oo dhexe	none
+🫴🏽	Baabacada kore jidh nooc dhexe	none
+🫴🏾	Baabacada kore jidh nooc madaw oo dhexe	none
+🫴🏿	Baabacada kore jidh madaw	none
+🫷🏻	gacanta u riixaysa dhinaca bidix jidh fudud	none
+🫷🏼	gacanta u riixaysa dhinaca bidix jidh fudud oo dhexe	none
+🫷🏽	gacanta u riixaysa dhinaca bidix jidh nooc dhexe	none
+🫷🏾	gacanta u riixaysa dhinaca bidix jidh nooc madaw oo dhexe	none
+🫷🏿	gacanta u riixaysa dhinaca bidix jidh madaw	none
+🫸🏻	gacanta riixid bidix u socota jidh fudud	none
+🫸🏼	gacanta riixid bidix u socota jidh fudud oo dhexe	none
+🫸🏽	gacanta riixid bidix u socota jidh nooc dhexe	none
+🫸🏾	gacanta riixid bidix u socota jidh nooc madaw oo dhexe	none
+🫸🏿	gacanta riixid bidix u socota jidh madaw	none
+👌🏻	gacanta saxda ah jidh fudud	none
+👌🏼	gacanta saxda ah jidh fudud oo dhexe	none
+👌🏽	gacanta saxda ah jidh nooc dhexe	none
+👌🏾	gacanta saxda ah jidh nooc madaw oo dhexe	none
+👌🏿	gacanta saxda ah jidh madaw	none
+🤌🏻	faro la isku wada duubay jidh fudud	none
+🤌🏼	faro la isku wada duubay jidh fudud oo dhexe	none
+🤌🏽	faro la isku wada duubay jidh nooc dhexe	none
+🤌🏾	faro la isku wada duubay jidh nooc madaw oo dhexe	none
+🤌🏿	faro la isku wada duubay jidh madaw	none
+🤏🏻	qanjaruufo jidh fudud	none
+🤏🏼	qanjaruufo jidh fudud oo dhexe	none
+🤏🏽	qanjaruufo jidh nooc dhexe	none
+🤏🏾	qanjaruufo jidh nooc madaw oo dhexe	none
+🤏🏿	qanjaruufo jidh madaw	none
+✌🏻	gacanta guusha jidh fudud	none
+✌🏼	gacanta guusha jidh fudud oo dhexe	none
+✌🏽	gacanta guusha jidh nooc dhexe	none
+✌🏾	gacanta guusha jidh nooc madaw oo dhexe	none
+✌🏿	gacanta guusha jidh madaw	none
+🤞🏻	faraha gudban; Alla bari jidh fudud	none
+🤞🏼	faraha gudban; Alla bari jidh fudud oo dhexe	none
+🤞🏽	faraha gudban; Alla bari jidh nooc dhexe	none
+🤞🏾	faraha gudban; Alla bari jidh nooc madaw oo dhexe	none
+🤞🏿	faraha gudban; Alla bari jidh madaw	none
+🫰🏻	gacanta farta caarada iyo suulka la dhaafay jidh fudud	none
+🫰🏼	gacanta farta caarada iyo suulka la dhaafay jidh fudud oo dhexe	none
+🫰🏽	gacanta farta caarada iyo suulka la dhaafay jidh nooc dhexe	none
+🫰🏾	gacanta farta caarada iyo suulka la dhaafay jidh nooc madaw oo dhexe	none
+🫰🏿	gacanta farta caarada iyo suulka la dhaafay jidh madaw	none
+🤟🏻	meedaarta waan ku jecelahay ah jidh fudud	none
+🤟🏼	meedaarta waan ku jecelahay ah jidh fudud oo dhexe	none
+🤟🏽	meedaarta waan ku jecelahay ah jidh nooc dhexe	none
+🤟🏾	meedaarta waan ku jecelahay ah jidh nooc madaw oo dhexe	none
+🤟🏿	meedaarta waan ku jecelahay ah jidh madaw	none
+🤘🏻	calaamadda geesaha jidh fudud	none
+🤘🏼	calaamadda geesaha jidh fudud oo dhexe	none
+🤘🏽	calaamadda geesaha jidh nooc dhexe	none
+🤘🏾	calaamadda geesaha jidh nooc madaw oo dhexe	none
+🤘🏿	calaamadda geesaha jidh madaw	none
+🤙🏻	gacanta ah isoo wac jidh fudud	none
+🤙🏼	gacanta ah isoo wac jidh fudud oo dhexe	none
+🤙🏽	gacanta ah isoo wac jidh nooc dhexe	none
+🤙🏾	gacanta ah isoo wac jidh nooc madaw oo dhexe	none
+🤙🏿	gacanta ah isoo wac jidh madaw	none
+👈🏻	Gacan tilmaamaysa bidix jidh fudud	none
+👈🏼	Gacan tilmaamaysa bidix jidh fudud oo dhexe	none
+👈🏽	Gacan tilmaamaysa bidix jidh nooc dhexe	none
+👈🏾	Gacan tilmaamaysa bidix jidh nooc madaw oo dhexe	none
+👈🏿	Gacan tilmaamaysa bidix jidh madaw	none
+👉🏻	gacan tilmaamaysa midig jidh fudud	none
+👉🏼	gacan tilmaamaysa midig jidh fudud oo dhexe	none
+👉🏽	gacan tilmaamaysa midig jidh nooc dhexe	none
+👉🏾	gacan tilmaamaysa midig jidh nooc madaw oo dhexe	none
+👉🏿	gacan tilmaamaysa midig jidh madaw	none
+👆🏻	gacan tilmaamaysa kor jidh fudud	none
+👆🏼	gacan tilmaamaysa kor jidh fudud oo dhexe	none
+👆🏽	gacan tilmaamaysa kor jidh nooc dhexe	none
+👆🏾	gacan tilmaamaysa kor jidh nooc madaw oo dhexe	none
+👆🏿	gacan tilmaamaysa kor jidh madaw	none
+🖕🏻	farta dhexe jidh fudud	none
+🖕🏼	farta dhexe jidh fudud oo dhexe	none
+🖕🏽	farta dhexe jidh nooc dhexe	none
+🖕🏾	farta dhexe jidh nooc madaw oo dhexe	none
+🖕🏿	farta dhexe jidh madaw	none
+👇🏻	gacan tilmaamaysa hoos jidh fudud	none
+👇🏼	gacan tilmaamaysa hoos jidh fudud oo dhexe	none
+👇🏽	gacan tilmaamaysa hoos jidh nooc dhexe	none
+👇🏾	gacan tilmaamaysa hoos jidh nooc madaw oo dhexe	none
+👇🏿	gacan tilmaamaysa hoos jidh madaw	none
+☝🏻	farta muujinta tilmaamaysa kor jidh fudud	none
+☝🏼	farta muujinta tilmaamaysa kor jidh fudud oo dhexe	none
+☝🏽	farta muujinta tilmaamaysa kor jidh nooc dhexe	none
+☝🏾	farta muujinta tilmaamaysa kor jidh nooc madaw oo dhexe	none
+☝🏿	farta muujinta tilmaamaysa kor jidh madaw	none
+🫵🏻	tusmo tilmaame daawadaha jidh fudud	none
+🫵🏼	tusmo tilmaame daawadaha jidh fudud oo dhexe	none
+🫵🏽	tusmo tilmaame daawadaha jidh nooc dhexe	none
+🫵🏾	tusmo tilmaame daawadaha jidh nooc madaw oo dhexe	none
+🫵🏿	tusmo tilmaame daawadaha jidh madaw	none
+👍🏻	suulka kor jidh fudud	none
+👍🏼	suulka kor jidh fudud oo dhexe	none
+👍🏽	suulka kor jidh nooc dhexe	none
+👍🏾	suulka kor jidh nooc madaw oo dhexe	none
+👍🏿	suulka kor jidh madaw	none
+👎🏻	suulka hoos jidh fudud	none
+👎🏼	suulka hoos jidh fudud oo dhexe	none
+👎🏽	suulka hoos jidh nooc dhexe	none
+👎🏾	suulka hoos jidh nooc madaw oo dhexe	none
+👎🏿	suulka hoos jidh madaw	none
+✊🏻	kor u qaadid tantoonyo (feer) jidh fudud	none
+✊🏼	kor u qaadid tantoonyo (feer) jidh fudud oo dhexe	none
+✊🏽	kor u qaadid tantoonyo (feer) jidh nooc dhexe	none
+✊🏾	kor u qaadid tantoonyo (feer) jidh nooc madaw oo dhexe	none
+✊🏿	kor u qaadid tantoonyo (feer) jidh madaw	none
+👊🏻	feer soo socoto jidh fudud	none
+👊🏼	feer soo socoto jidh fudud oo dhexe	none
+👊🏽	feer soo socoto jidh nooc dhexe	none
+👊🏾	feer soo socoto jidh nooc madaw oo dhexe	none
+👊🏿	feer soo socoto jidh madaw	none
+🤛🏻	feerka tilmaamaysa bidix jidh fudud	none
+🤛🏼	feerka tilmaamaysa bidix jidh fudud oo dhexe	none
+🤛🏽	feerka tilmaamaysa bidix jidh nooc dhexe	none
+🤛🏾	feerka tilmaamaysa bidix jidh nooc madaw oo dhexe	none
+🤛🏿	feerka tilmaamaysa bidix jidh madaw	none
+🤜🏻	feerka tilmaamaya midig jidh fudud	none
+🤜🏼	feerka tilmaamaya midig jidh fudud oo dhexe	none
+🤜🏽	feerka tilmaamaya midig jidh nooc dhexe	none
+🤜🏾	feerka tilmaamaya midig jidh nooc madaw oo dhexe	none
+🤜🏿	feerka tilmaamaya midig jidh madaw	none
+👏🏻	sacabinta gacmaha jidh fudud	none
+👏🏼	sacabinta gacmaha jidh fudud oo dhexe	none
+👏🏽	sacabinta gacmaha jidh nooc dhexe	none
+👏🏾	sacabinta gacmaha jidh nooc madaw oo dhexe	none
+👏🏿	sacabinta gacmaha jidh madaw	none
+🙌🏻	gacmo kor u taagid jidh fudud	none
+🙌🏼	gacmo kor u taagid jidh fudud oo dhexe	none
+🙌🏽	gacmo kor u taagid jidh nooc dhexe	none
+🙌🏾	gacmo kor u taagid jidh nooc madaw oo dhexe	none
+🙌🏿	gacmo kor u taagid jidh madaw	none
+🫶🏻	gacanta qalbiga jidh fudud	none
+🫶🏼	gacanta qalbiga jidh fudud oo dhexe	none
+🫶🏽	gacanta qalbiga jidh nooc dhexe	none
+🫶🏾	gacanta qalbiga jidh nooc madaw oo dhexe	none
+🫶🏿	gacanta qalbiga jidh madaw	none
+👐🏻	gacmo furan jidh fudud	none
+👐🏼	gacmo furan jidh fudud oo dhexe	none
+👐🏽	gacmo furan jidh nooc dhexe	none
+👐🏾	gacmo furan jidh nooc madaw oo dhexe	none
+👐🏿	gacmo furan jidh madaw	none
+🤲🏻	calaacalaha si wadajir ah kor loogu taaggo jidh fudud	none
+🤲🏼	calaacalaha si wadajir ah kor loogu taaggo jidh fudud oo dhexe	none
+🤲🏽	calaacalaha si wadajir ah kor loogu taaggo jidh nooc dhexe	none
+🤲🏾	calaacalaha si wadajir ah kor loogu taaggo jidh nooc madaw oo dhexe	none
+🤲🏿	calaacalaha si wadajir ah kor loogu taaggo jidh madaw	none
+🤝🏻	gacan-qaadka salaanta jidh fudud	none
+🤝🏼	gacan-qaadka salaanta jidh fudud oo dhexe	none
+🤝🏽	gacan-qaadka salaanta jidh nooc dhexe	none
+🤝🏾	gacan-qaadka salaanta jidh nooc madaw oo dhexe	none
+🤝🏿	gacan-qaadka salaanta jidh madaw	none
+🙏🏻	gacmo laaban jidh fudud	none
+🙏🏼	gacmo laaban jidh fudud oo dhexe	none
+🙏🏽	gacmo laaban jidh nooc dhexe	none
+🙏🏾	gacmo laaban jidh nooc madaw oo dhexe	none
+🙏🏿	gacmo laaban jidh madaw	none
+✍🏻	gacan wax qoraysa jidh fudud	none
+✍🏼	gacan wax qoraysa jidh fudud oo dhexe	none
+✍🏽	gacan wax qoraysa jidh nooc dhexe	none
+✍🏾	gacan wax qoraysa jidh nooc madaw oo dhexe	none
+✍🏿	gacan wax qoraysa jidh madaw	none
+💅🏻	dhalaalinta ciddiyaha jidh fudud	none
+💅🏼	dhalaalinta ciddiyaha jidh fudud oo dhexe	none
+💅🏽	dhalaalinta ciddiyaha jidh nooc dhexe	none
+💅🏾	dhalaalinta ciddiyaha jidh nooc madaw oo dhexe	none
+💅🏿	dhalaalinta ciddiyaha jidh madaw	none
+🤳🏻	sawir iska-qaadis jidh fudud	none
+🤳🏼	sawir iska-qaadis jidh fudud oo dhexe	none
+🤳🏽	sawir iska-qaadis jidh nooc dhexe	none
+🤳🏾	sawir iska-qaadis jidh nooc madaw oo dhexe	none
+🤳🏿	sawir iska-qaadis jidh madaw	none
+💪🏻	suxulka oo laaban jidh fudud	none
+💪🏼	suxulka oo laaban jidh fudud oo dhexe	none
+💪🏽	suxulka oo laaban jidh nooc dhexe	none
+💪🏾	suxulka oo laaban jidh nooc madaw oo dhexe	none
+💪🏿	suxulka oo laaban jidh madaw	none
+🦵🏻	lug jidh fudud	none
+🦵🏼	lug jidh fudud oo dhexe	none
+🦵🏽	lug jidh nooc dhexe	none
+🦵🏾	lug jidh nooc madaw oo dhexe	none
+🦵🏿	lug jidh madaw	none
+🦶🏻	cagta jidh fudud	none
+🦶🏼	cagta jidh fudud oo dhexe	none
+🦶🏽	cagta jidh nooc dhexe	none
+🦶🏾	cagta jidh nooc madaw oo dhexe	none
+🦶🏿	cagta jidh madaw	none
+👂🏻	dhagta jidh fudud	none
+👂🏼	dhagta jidh fudud oo dhexe	none
+👂🏽	dhagta jidh nooc dhexe	none
+👂🏾	dhagta jidh nooc madaw oo dhexe	none
+👂🏿	dhagta jidh madaw	none
+🦻🏻	dhag leh gargaarka maqalka jidh fudud	none
+🦻🏼	dhag leh gargaarka maqalka jidh fudud oo dhexe	none
+🦻🏽	dhag leh gargaarka maqalka jidh nooc dhexe	none
+🦻🏾	dhag leh gargaarka maqalka jidh nooc madaw oo dhexe	none
+🦻🏿	dhag leh gargaarka maqalka jidh madaw	none
+👃🏻	sanka jidh fudud	none
+👃🏼	sanka jidh fudud oo dhexe	none
+👃🏽	sanka jidh nooc dhexe	none
+👃🏾	sanka jidh nooc madaw oo dhexe	none
+👃🏿	sanka jidh madaw	none
+👶🏻	cunug jidh fudud	none
+👶🏼	cunug jidh fudud oo dhexe	none
+👶🏽	cunug jidh nooc dhexe	none
+👶🏾	cunug jidh nooc madaw oo dhexe	none
+👶🏿	cunug jidh madaw	none
+🧒🏻	ilmo jidh fudud	none
+🧒🏼	ilmo jidh fudud oo dhexe	none
+🧒🏽	ilmo jidh nooc dhexe	none
+🧒🏾	ilmo jidh nooc madaw oo dhexe	none
+🧒🏿	ilmo jidh madaw	none
+👦🏻	wiil jidh fudud	none
+👦🏼	wiil jidh fudud oo dhexe	none
+👦🏽	wiil jidh nooc dhexe	none
+👦🏾	wiil jidh nooc madaw oo dhexe	none
+👦🏿	wiil jidh madaw	none
+👧🏻	gabar jidh fudud	none
+👧🏼	gabar jidh fudud oo dhexe	none
+👧🏽	gabar jidh nooc dhexe	none
+👧🏾	gabar jidh nooc madaw oo dhexe	none
+👧🏿	gabar jidh madaw	none
+🧑🏻	qof jidh fudud	none
+🧑🏼	qof jidh fudud oo dhexe	none
+🧑🏽	qof jidh nooc dhexe	none
+🧑🏾	qof jidh nooc madaw oo dhexe	none
+🧑🏿	qof jidh madaw	none
+👱🏻	qof jidh fudud, timo cad	none
+👱🏼	qof jidh fudud oo dhexe, timo cad	none
+👱🏽	qof jidh nooc dhexe, timo cad	none
+👱🏾	qof jidh nooc madaw oo dhexe, timo cad	none
+👱🏿	qof jidh madaw, timo cad	none
+🧑🏻‍❤‍💋‍🧑🏼	shumis qof, qof, jidh fudud, jidh fudud oo dhexe	none
+🧑🏻‍❤‍💋‍🧑🏽	shumis qof, qof, jidh fudud, jidh nooc dhexe	none
+🧑🏻‍❤‍💋‍🧑🏾	shumis qof, qof, jidh fudud, jidh nooc madaw oo dhexe	none
+🧑🏻‍❤‍💋‍🧑🏿	shumis qof, qof, jidh fudud, jidh madaw	none
+🧑🏼‍❤‍💋‍🧑🏻	shumis qof, qof, jidh fudud oo dhexe, jidh fudud	none
+🧑🏼‍❤‍💋‍🧑🏽	shumis qof, qof, jidh fudud oo dhexe, jidh nooc dhexe	none
+🧑🏼‍❤‍💋‍🧑🏾	shumis qof, qof, jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+🧑🏼‍❤‍💋‍🧑🏿	shumis qof, qof, jidh fudud oo dhexe, jidh madaw	none
+🧑🏽‍❤‍💋‍🧑🏻	shumis qof, qof, jidh nooc dhexe, jidh fudud	none
+🧑🏽‍❤‍💋‍🧑🏼	shumis qof, qof, jidh nooc dhexe, jidh fudud oo dhexe	none
+🧑🏽‍❤‍💋‍🧑🏾	shumis qof, qof, jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+🧑🏽‍❤‍💋‍🧑🏿	shumis qof, qof, jidh nooc dhexe, jidh madaw	none
+🧑🏾‍❤‍💋‍🧑🏻	shumis qof, qof, jidh nooc madaw oo dhexe, jidh fudud	none
+🧑🏾‍❤‍💋‍🧑🏼	shumis qof, qof, jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+🧑🏾‍❤‍💋‍🧑🏽	shumis qof, qof, jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+🧑🏾‍❤‍💋‍🧑🏿	shumis qof, qof, jidh nooc madaw oo dhexe, jidh madaw	none
+🧑🏿‍❤‍💋‍🧑🏻	shumis qof, qof, jidh madaw, jidh fudud	none
+🧑🏿‍❤‍💋‍🧑🏼	shumis qof, qof, jidh madaw, jidh fudud oo dhexe	none
+🧑🏿‍❤‍💋‍🧑🏽	shumis qof, qof, jidh madaw, jidh nooc dhexe	none
+🧑🏿‍❤‍💋‍🧑🏾	shumis qof, qof, jidh madaw, jidh nooc madaw oo dhexe	none
+🧑🏻‍❤‍🧑🏼	lammaane is jecel qof, qof, jidh fudud, jidh fudud oo dhexe	none
+🧑🏻‍❤‍🧑🏽	lammaane is jecel qof, qof, jidh fudud, jidh nooc dhexe	none
+🧑🏻‍❤‍🧑🏾	lammaane is jecel qof, qof, jidh fudud, jidh nooc madaw oo dhexe	none
+🧑🏻‍❤‍🧑🏿	lammaane is jecel qof, qof, jidh fudud, jidh madaw	none
+🧑🏼‍❤‍🧑🏻	lammaane is jecel qof, qof, jidh fudud oo dhexe, jidh fudud	none
+🧑🏼‍❤‍🧑🏽	lammaane is jecel qof, qof, jidh fudud oo dhexe, jidh nooc dhexe	none
+🧑🏼‍❤‍🧑🏾	lammaane is jecel qof, qof, jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+🧑🏼‍❤‍🧑🏿	lammaane is jecel qof, qof, jidh fudud oo dhexe, jidh madaw	none
+🧑🏽‍❤‍🧑🏻	lammaane is jecel qof, qof, jidh nooc dhexe, jidh fudud	none
+🧑🏽‍❤‍🧑🏼	lammaane is jecel qof, qof, jidh nooc dhexe, jidh fudud oo dhexe	none
+🧑🏽‍❤‍🧑🏾	lammaane is jecel qof, qof, jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+🧑🏽‍❤‍🧑🏿	lammaane is jecel qof, qof, jidh nooc dhexe, jidh madaw	none
+🧑🏾‍❤‍🧑🏻	lammaane is jecel qof, qof, jidh nooc madaw oo dhexe, jidh fudud	none
+🧑🏾‍❤‍🧑🏼	lammaane is jecel qof, qof, jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+🧑🏾‍❤‍🧑🏽	lammaane is jecel qof, qof, jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+🧑🏾‍❤‍🧑🏿	lammaane is jecel qof, qof, jidh nooc madaw oo dhexe, jidh madaw	none
+🧑🏿‍❤‍🧑🏻	lammaane is jecel qof, qof, jidh madaw, jidh fudud	none
+🧑🏿‍❤‍🧑🏼	lammaane is jecel qof, qof, jidh madaw, jidh fudud oo dhexe	none
+🧑🏿‍❤‍🧑🏽	lammaane is jecel qof, qof, jidh madaw, jidh nooc dhexe	none
+🧑🏿‍❤‍🧑🏾	lammaane is jecel qof, qof, jidh madaw, jidh nooc madaw oo dhexe	none
+🧑🏻‍🫯‍🧑🏼	dad lagdamaya jidh fudud, jidh fudud oo dhexe	none
+🧑🏻‍🫯‍🧑🏽	dad lagdamaya jidh fudud, jidh nooc dhexe	none
+🧑🏻‍🫯‍🧑🏾	dad lagdamaya jidh fudud, jidh nooc madaw oo dhexe	none
+🧑🏻‍🫯‍🧑🏿	dad lagdamaya jidh fudud, jidh madaw	none
+🧑🏼‍🫯‍🧑🏻	dad lagdamaya jidh fudud oo dhexe, jidh fudud	none
+🧑🏼‍🫯‍🧑🏽	dad lagdamaya jidh fudud oo dhexe, jidh nooc dhexe	none
+🧑🏼‍🫯‍🧑🏾	dad lagdamaya jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+🧑🏼‍🫯‍🧑🏿	dad lagdamaya jidh fudud oo dhexe, jidh madaw	none
+🧑🏽‍🫯‍🧑🏻	dad lagdamaya jidh nooc dhexe, jidh fudud	none
+🧑🏽‍🫯‍🧑🏼	dad lagdamaya jidh nooc dhexe, jidh fudud oo dhexe	none
+🧑🏽‍🫯‍🧑🏾	dad lagdamaya jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+🧑🏽‍🫯‍🧑🏿	dad lagdamaya jidh nooc dhexe, jidh madaw	none
+🧑🏾‍🫯‍🧑🏻	dad lagdamaya jidh nooc madaw oo dhexe, jidh fudud	none
+🧑🏾‍🫯‍🧑🏼	dad lagdamaya jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+🧑🏾‍🫯‍🧑🏽	dad lagdamaya jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+🧑🏾‍🫯‍🧑🏿	dad lagdamaya jidh nooc madaw oo dhexe, jidh madaw	none
+🧑🏿‍🫯‍🧑🏻	dad lagdamaya jidh madaw, jidh fudud	none
+🧑🏿‍🫯‍🧑🏼	dad lagdamaya jidh madaw, jidh fudud oo dhexe	none
+🧑🏿‍🫯‍🧑🏽	dad lagdamaya jidh madaw, jidh nooc dhexe	none
+🧑🏿‍🫯‍🧑🏾	dad lagdamaya jidh madaw, jidh nooc madaw oo dhexe	none
+🧑‍🦰	qof timo cas	none
+🧑🏻‍🦰	qof jidh fudud, timo cas	none
+🧑🏼‍🦰	qof jidh fudud oo dhexe, timo cas	none
+🧑🏽‍🦰	qof jidh nooc dhexe, timo cas	none
+🧑🏾‍🦰	qof jidh nooc madaw oo dhexe, timo cas	none
+🧑🏿‍🦰	qof jidh madaw, timo cas	none
+🧑‍🦱	qof timo walaaqan	none
+🧑🏻‍🦱	qof jidh fudud, timo walaaqan	none
+🧑🏼‍🦱	qof jidh fudud oo dhexe, timo walaaqan	none
+🧑🏽‍🦱	qof jidh nooc dhexe, timo walaaqan	none
+🧑🏾‍🦱	qof jidh nooc madaw oo dhexe, timo walaaqan	none
+🧑🏿‍🦱	qof jidh madaw, timo walaaqan	none
+🧑‍🦳	qof caddaan	none
+🧑🏻‍🦳	qof jidh fudud, caddaan	none
+🧑🏼‍🦳	qof jidh fudud oo dhexe, caddaan	none
+🧑🏽‍🦳	qof jidh nooc dhexe, caddaan	none
+🧑🏾‍🦳	qof jidh nooc madaw oo dhexe, caddaan	none
+🧑🏿‍🦳	qof jidh madaw, caddaan	none
+🧑‍🦲	qof bidaar	none
+🧑🏻‍🦲	qof jidh fudud, bidaar	none
+🧑🏼‍🦲	qof jidh fudud oo dhexe, bidaar	none
+🧑🏽‍🦲	qof jidh nooc dhexe, bidaar	none
+🧑🏾‍🦲	qof jidh nooc madaw oo dhexe, bidaar	none
+🧑🏿‍🦲	qof jidh madaw, bidaar	none
+🧑🏻‍🐰‍🧑🏼	dad leh dhaggo bakayle jidh fudud, jidh fudud oo dhexe	none
+🧑🏻‍🐰‍🧑🏽	dad leh dhaggo bakayle jidh fudud, jidh nooc dhexe	none
+🧑🏻‍🐰‍🧑🏾	dad leh dhaggo bakayle jidh fudud, jidh nooc madaw oo dhexe	none
+🧑🏻‍🐰‍🧑🏿	dad leh dhaggo bakayle jidh fudud, jidh madaw	none
+🧑🏼‍🐰‍🧑🏻	dad leh dhaggo bakayle jidh fudud oo dhexe, jidh fudud	none
+🧑🏼‍🐰‍🧑🏽	dad leh dhaggo bakayle jidh fudud oo dhexe, jidh nooc dhexe	none
+🧑🏼‍🐰‍🧑🏾	dad leh dhaggo bakayle jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+🧑🏼‍🐰‍🧑🏿	dad leh dhaggo bakayle jidh fudud oo dhexe, jidh madaw	none
+🧑🏽‍🐰‍🧑🏻	dad leh dhaggo bakayle jidh nooc dhexe, jidh fudud	none
+🧑🏽‍🐰‍🧑🏼	dad leh dhaggo bakayle jidh nooc dhexe, jidh fudud oo dhexe	none
+🧑🏽‍🐰‍🧑🏾	dad leh dhaggo bakayle jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+🧑🏽‍🐰‍🧑🏿	dad leh dhaggo bakayle jidh nooc dhexe, jidh madaw	none
+🧑🏾‍🐰‍🧑🏻	dad leh dhaggo bakayle jidh nooc madaw oo dhexe, jidh fudud	none
+🧑🏾‍🐰‍🧑🏼	dad leh dhaggo bakayle jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+🧑🏾‍🐰‍🧑🏽	dad leh dhaggo bakayle jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+🧑🏾‍🐰‍🧑🏿	dad leh dhaggo bakayle jidh nooc madaw oo dhexe, jidh madaw	none
+🧑🏿‍🐰‍🧑🏻	dad leh dhaggo bakayle jidh madaw, jidh fudud	none
+🧑🏿‍🐰‍🧑🏼	dad leh dhaggo bakayle jidh madaw, jidh fudud oo dhexe	none
+🧑🏿‍🐰‍🧑🏽	dad leh dhaggo bakayle jidh madaw, jidh nooc dhexe	none
+🧑🏿‍🐰‍🧑🏾	dad leh dhaggo bakayle jidh madaw, jidh nooc madaw oo dhexe	none
+👨🏻	ninka jidh fudud	none
+👨🏼	ninka jidh fudud oo dhexe	none
+👨🏽	ninka jidh nooc dhexe	none
+👨🏾	ninka jidh nooc madaw oo dhexe	none
+👨🏿	ninka jidh madaw	none
+🧔🏻	nin jidh fudud, gar	none
+🧔🏼	nin jidh fudud oo dhexe, gar	none
+🧔🏽	nin jidh nooc dhexe, gar	none
+🧔🏾	nin jidh nooc madaw oo dhexe, gar	none
+🧔🏿	nin jidh madaw, gar	none
+🧔🏻‍♂	nin jidh fudud, gadh	none
+🧔🏼‍♂	nin jidh fudud oo dhexe, gadh	none
+🧔🏽‍♂	nin jidh nooc dhexe, gadh	none
+🧔🏾‍♂	nin jidh nooc madaw oo dhexe, gadh	none
+🧔🏿‍♂	nin jidh madaw, gadh	none
+👱🏻‍♂	nin jidh fudud, timo cad	none
+👱🏼‍♂	nin jidh fudud oo dhexe, timo cad	none
+👱🏽‍♂	nin jidh nooc dhexe, timo cad	none
+👱🏾‍♂	nin jidh nooc madaw oo dhexe, timo cad	none
+👱🏿‍♂	nin jidh madaw, timo cad	none
+👨🏻‍❤‍💋‍👨🏻	shumis ninka, ninka, jidh fudud	none
+👨🏻‍❤‍💋‍👨🏼	shumis ninka, ninka, jidh fudud, jidh fudud oo dhexe	none
+👨🏻‍❤‍💋‍👨🏽	shumis ninka, ninka, jidh fudud, jidh nooc dhexe	none
+👨🏻‍❤‍💋‍👨🏾	shumis ninka, ninka, jidh fudud, jidh nooc madaw oo dhexe	none
+👨🏻‍❤‍💋‍👨🏿	shumis ninka, ninka, jidh fudud, jidh madaw	none
+👨🏼‍❤‍💋‍👨🏻	shumis ninka, ninka, jidh fudud oo dhexe, jidh fudud	none
+👨🏼‍❤‍💋‍👨🏼	shumis ninka, ninka, jidh fudud oo dhexe	none
+👨🏼‍❤‍💋‍👨🏽	shumis ninka, ninka, jidh fudud oo dhexe, jidh nooc dhexe	none
+👨🏼‍❤‍💋‍👨🏾	shumis ninka, ninka, jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+👨🏼‍❤‍💋‍👨🏿	shumis ninka, ninka, jidh fudud oo dhexe, jidh madaw	none
+👨🏽‍❤‍💋‍👨🏻	shumis ninka, ninka, jidh nooc dhexe, jidh fudud	none
+👨🏽‍❤‍💋‍👨🏼	shumis ninka, ninka, jidh nooc dhexe, jidh fudud oo dhexe	none
+👨🏽‍❤‍💋‍👨🏽	shumis ninka, ninka, jidh nooc dhexe	none
+👨🏽‍❤‍💋‍👨🏾	shumis ninka, ninka, jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+👨🏽‍❤‍💋‍👨🏿	shumis ninka, ninka, jidh nooc dhexe, jidh madaw	none
+👨🏾‍❤‍💋‍👨🏻	shumis ninka, ninka, jidh nooc madaw oo dhexe, jidh fudud	none
+👨🏾‍❤‍💋‍👨🏼	shumis ninka, ninka, jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+👨🏾‍❤‍💋‍👨🏽	shumis ninka, ninka, jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+👨🏾‍❤‍💋‍👨🏾	shumis ninka, ninka, jidh nooc madaw oo dhexe	none
+👨🏾‍❤‍💋‍👨🏿	shumis ninka, ninka, jidh nooc madaw oo dhexe, jidh madaw	none
+👨🏿‍❤‍💋‍👨🏻	shumis ninka, ninka, jidh madaw, jidh fudud	none
+👨🏿‍❤‍💋‍👨🏼	shumis ninka, ninka, jidh madaw, jidh fudud oo dhexe	none
+👨🏿‍❤‍💋‍👨🏽	shumis ninka, ninka, jidh madaw, jidh nooc dhexe	none
+👨🏿‍❤‍💋‍👨🏾	shumis ninka, ninka, jidh madaw, jidh nooc madaw oo dhexe	none
+👨🏿‍❤‍💋‍👨🏿	shumis ninka, ninka, jidh madaw	none
+👨🏻‍❤‍👨🏻	lammaane is jecel ninka, ninka, jidh fudud	none
+👨🏻‍❤‍👨🏼	lammaane is jecel ninka, ninka, jidh fudud, jidh fudud oo dhexe	none
+👨🏻‍❤‍👨🏽	lammaane is jecel ninka, ninka, jidh fudud, jidh nooc dhexe	none
+👨🏻‍❤‍👨🏾	lammaane is jecel ninka, ninka, jidh fudud, jidh nooc madaw oo dhexe	none
+👨🏻‍❤‍👨🏿	lammaane is jecel ninka, ninka, jidh fudud, jidh madaw	none
+👨🏼‍❤‍👨🏻	lammaane is jecel ninka, ninka, jidh fudud oo dhexe, jidh fudud	none
+👨🏼‍❤‍👨🏼	lammaane is jecel ninka, ninka, jidh fudud oo dhexe	none
+👨🏼‍❤‍👨🏽	lammaane is jecel ninka, ninka, jidh fudud oo dhexe, jidh nooc dhexe	none
+👨🏼‍❤‍👨🏾	lammaane is jecel ninka, ninka, jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+👨🏼‍❤‍👨🏿	lammaane is jecel ninka, ninka, jidh fudud oo dhexe, jidh madaw	none
+👨🏽‍❤‍👨🏻	lammaane is jecel ninka, ninka, jidh nooc dhexe, jidh fudud	none
+👨🏽‍❤‍👨🏼	lammaane is jecel ninka, ninka, jidh nooc dhexe, jidh fudud oo dhexe	none
+👨🏽‍❤‍👨🏽	lammaane is jecel ninka, ninka, jidh nooc dhexe	none
+👨🏽‍❤‍👨🏾	lammaane is jecel ninka, ninka, jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+👨🏽‍❤‍👨🏿	lammaane is jecel ninka, ninka, jidh nooc dhexe, jidh madaw	none
+👨🏾‍❤‍👨🏻	lammaane is jecel ninka, ninka, jidh nooc madaw oo dhexe, jidh fudud	none
+👨🏾‍❤‍👨🏼	lammaane is jecel ninka, ninka, jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+👨🏾‍❤‍👨🏽	lammaane is jecel ninka, ninka, jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+👨🏾‍❤‍👨🏾	lammaane is jecel ninka, ninka, jidh nooc madaw oo dhexe	none
+👨🏾‍❤‍👨🏿	lammaane is jecel ninka, ninka, jidh nooc madaw oo dhexe, jidh madaw	none
+👨🏿‍❤‍👨🏻	lammaane is jecel ninka, ninka, jidh madaw, jidh fudud	none
+👨🏿‍❤‍👨🏼	lammaane is jecel ninka, ninka, jidh madaw, jidh fudud oo dhexe	none
+👨🏿‍❤‍👨🏽	lammaane is jecel ninka, ninka, jidh madaw, jidh nooc dhexe	none
+👨🏿‍❤‍👨🏾	lammaane is jecel ninka, ninka, jidh madaw, jidh nooc madaw oo dhexe	none
+👨🏿‍❤‍👨🏿	lammaane is jecel ninka, ninka, jidh madaw	none
+👨🏻‍🫯‍👨🏼	rag lagdamaya jidh fudud, jidh fudud oo dhexe	none
+👨🏻‍🫯‍👨🏽	rag lagdamaya jidh fudud, jidh nooc dhexe	none
+👨🏻‍🫯‍👨🏾	rag lagdamaya jidh fudud, jidh nooc madaw oo dhexe	none
+👨🏻‍🫯‍👨🏿	rag lagdamaya jidh fudud, jidh madaw	none
+👨🏼‍🫯‍👨🏻	rag lagdamaya jidh fudud oo dhexe, jidh fudud	none
+👨🏼‍🫯‍👨🏽	rag lagdamaya jidh fudud oo dhexe, jidh nooc dhexe	none
+👨🏼‍🫯‍👨🏾	rag lagdamaya jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+👨🏼‍🫯‍👨🏿	rag lagdamaya jidh fudud oo dhexe, jidh madaw	none
+👨🏽‍🫯‍👨🏻	rag lagdamaya jidh nooc dhexe, jidh fudud	none
+👨🏽‍🫯‍👨🏼	rag lagdamaya jidh nooc dhexe, jidh fudud oo dhexe	none
+👨🏽‍🫯‍👨🏾	rag lagdamaya jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+👨🏽‍🫯‍👨🏿	rag lagdamaya jidh nooc dhexe, jidh madaw	none
+👨🏾‍🫯‍👨🏻	rag lagdamaya jidh nooc madaw oo dhexe, jidh fudud	none
+👨🏾‍🫯‍👨🏼	rag lagdamaya jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+👨🏾‍🫯‍👨🏽	rag lagdamaya jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+👨🏾‍🫯‍👨🏿	rag lagdamaya jidh nooc madaw oo dhexe, jidh madaw	none
+👨🏿‍🫯‍👨🏻	rag lagdamaya jidh madaw, jidh fudud	none
+👨🏿‍🫯‍👨🏼	rag lagdamaya jidh madaw, jidh fudud oo dhexe	none
+👨🏿‍🫯‍👨🏽	rag lagdamaya jidh madaw, jidh nooc dhexe	none
+👨🏿‍🫯‍👨🏾	rag lagdamaya jidh madaw, jidh nooc madaw oo dhexe	none
+👨‍🦰	ninka timo cas	none
+👨🏻‍🦰	ninka jidh fudud, timo cas	none
+👨🏼‍🦰	ninka jidh fudud oo dhexe, timo cas	none
+👨🏽‍🦰	ninka jidh nooc dhexe, timo cas	none
+👨🏾‍🦰	ninka jidh nooc madaw oo dhexe, timo cas	none
+👨🏿‍🦰	ninka jidh madaw, timo cas	none
+👨‍🦱	ninka timo walaaqan	none
+👨🏻‍🦱	ninka jidh fudud, timo walaaqan	none
+👨🏼‍🦱	ninka jidh fudud oo dhexe, timo walaaqan	none
+👨🏽‍🦱	ninka jidh nooc dhexe, timo walaaqan	none
+👨🏾‍🦱	ninka jidh nooc madaw oo dhexe, timo walaaqan	none
+👨🏿‍🦱	ninka jidh madaw, timo walaaqan	none
+👨‍🦳	ninka caddaan	none
+👨🏻‍🦳	ninka jidh fudud, caddaan	none
+👨🏼‍🦳	ninka jidh fudud oo dhexe, caddaan	none
+👨🏽‍🦳	ninka jidh nooc dhexe, caddaan	none
+👨🏾‍🦳	ninka jidh nooc madaw oo dhexe, caddaan	none
+👨🏿‍🦳	ninka jidh madaw, caddaan	none
+👨‍🦲	ninka bidaar	none
+👨🏻‍🦲	ninka jidh fudud, bidaar	none
+👨🏼‍🦲	ninka jidh fudud oo dhexe, bidaar	none
+👨🏽‍🦲	ninka jidh nooc dhexe, bidaar	none
+👨🏾‍🦲	ninka jidh nooc madaw oo dhexe, bidaar	none
+👨🏿‍🦲	ninka jidh madaw, bidaar	none
+👨🏻‍🐰‍👨🏼	rag leh dhaggo bakayle jidh fudud, jidh fudud oo dhexe	none
+👨🏻‍🐰‍👨🏽	rag leh dhaggo bakayle jidh fudud, jidh nooc dhexe	none
+👨🏻‍🐰‍👨🏾	rag leh dhaggo bakayle jidh fudud, jidh nooc madaw oo dhexe	none
+👨🏻‍🐰‍👨🏿	rag leh dhaggo bakayle jidh fudud, jidh madaw	none
+👨🏼‍🐰‍👨🏻	rag leh dhaggo bakayle jidh fudud oo dhexe, jidh fudud	none
+👨🏼‍🐰‍👨🏽	rag leh dhaggo bakayle jidh fudud oo dhexe, jidh nooc dhexe	none
+👨🏼‍🐰‍👨🏾	rag leh dhaggo bakayle jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+👨🏼‍🐰‍👨🏿	rag leh dhaggo bakayle jidh fudud oo dhexe, jidh madaw	none
+👨🏽‍🐰‍👨🏻	rag leh dhaggo bakayle jidh nooc dhexe, jidh fudud	none
+👨🏽‍🐰‍👨🏼	rag leh dhaggo bakayle jidh nooc dhexe, jidh fudud oo dhexe	none
+👨🏽‍🐰‍👨🏾	rag leh dhaggo bakayle jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+👨🏽‍🐰‍👨🏿	rag leh dhaggo bakayle jidh nooc dhexe, jidh madaw	none
+👨🏾‍🐰‍👨🏻	rag leh dhaggo bakayle jidh nooc madaw oo dhexe, jidh fudud	none
+👨🏾‍🐰‍👨🏼	rag leh dhaggo bakayle jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+👨🏾‍🐰‍👨🏽	rag leh dhaggo bakayle jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+👨🏾‍🐰‍👨🏿	rag leh dhaggo bakayle jidh nooc madaw oo dhexe, jidh madaw	none
+👨🏿‍🐰‍👨🏻	rag leh dhaggo bakayle jidh madaw, jidh fudud	none
+👨🏿‍🐰‍👨🏼	rag leh dhaggo bakayle jidh madaw, jidh fudud oo dhexe	none
+👨🏿‍🐰‍👨🏽	rag leh dhaggo bakayle jidh madaw, jidh nooc dhexe	none
+👨🏿‍🐰‍👨🏾	rag leh dhaggo bakayle jidh madaw, jidh nooc madaw oo dhexe	none
+👩🏻	naag jidh fudud	none
+👩🏼	naag jidh fudud oo dhexe	none
+👩🏽	naag jidh nooc dhexe	none
+👩🏾	naag jidh nooc madaw oo dhexe	none
+👩🏿	naag jidh madaw	none
+🧔🏻‍♀	gabadh jidh fudud, gadh	none
+🧔🏼‍♀	gabadh jidh fudud oo dhexe, gadh	none
+🧔🏽‍♀	gabadh jidh nooc dhexe, gadh	none
+🧔🏾‍♀	gabadh jidh nooc madaw oo dhexe, gadh	none
+🧔🏿‍♀	gabadh jidh madaw, gadh	none
+👱🏻‍♀	naag jidh fudud, timo cad	none
+👱🏼‍♀	naag jidh fudud oo dhexe, timo cad	none
+👱🏽‍♀	naag jidh nooc dhexe, timo cad	none
+👱🏾‍♀	naag jidh nooc madaw oo dhexe, timo cad	none
+👱🏿‍♀	naag jidh madaw, timo cad	none
+👩🏻‍❤‍💋‍👨🏻	shumis naag, ninka, jidh fudud	none
+👩🏻‍❤‍💋‍👨🏼	shumis naag, ninka, jidh fudud, jidh fudud oo dhexe	none
+👩🏻‍❤‍💋‍👨🏽	shumis naag, ninka, jidh fudud, jidh nooc dhexe	none
+👩🏻‍❤‍💋‍👨🏾	shumis naag, ninka, jidh fudud, jidh nooc madaw oo dhexe	none
+👩🏻‍❤‍💋‍👨🏿	shumis naag, ninka, jidh fudud, jidh madaw	none
+👩🏼‍❤‍💋‍👨🏻	shumis naag, ninka, jidh fudud oo dhexe, jidh fudud	none
+👩🏼‍❤‍💋‍👨🏼	shumis naag, ninka, jidh fudud oo dhexe	none
+👩🏼‍❤‍💋‍👨🏽	shumis naag, ninka, jidh fudud oo dhexe, jidh nooc dhexe	none
+👩🏼‍❤‍💋‍👨🏾	shumis naag, ninka, jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+👩🏼‍❤‍💋‍👨🏿	shumis naag, ninka, jidh fudud oo dhexe, jidh madaw	none
+👩🏽‍❤‍💋‍👨🏻	shumis naag, ninka, jidh nooc dhexe, jidh fudud	none
+👩🏽‍❤‍💋‍👨🏼	shumis naag, ninka, jidh nooc dhexe, jidh fudud oo dhexe	none
+👩🏽‍❤‍💋‍👨🏽	shumis naag, ninka, jidh nooc dhexe	none
+👩🏽‍❤‍💋‍👨🏾	shumis naag, ninka, jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+👩🏽‍❤‍💋‍👨🏿	shumis naag, ninka, jidh nooc dhexe, jidh madaw	none
+👩🏾‍❤‍💋‍👨🏻	shumis naag, ninka, jidh nooc madaw oo dhexe, jidh fudud	none
+👩🏾‍❤‍💋‍👨🏼	shumis naag, ninka, jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+👩🏾‍❤‍💋‍👨🏽	shumis naag, ninka, jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+👩🏾‍❤‍💋‍👨🏾	shumis naag, ninka, jidh nooc madaw oo dhexe	none
+👩🏾‍❤‍💋‍👨🏿	shumis naag, ninka, jidh nooc madaw oo dhexe, jidh madaw	none
+👩🏿‍❤‍💋‍👨🏻	shumis naag, ninka, jidh madaw, jidh fudud	none
+👩🏿‍❤‍💋‍👨🏼	shumis naag, ninka, jidh madaw, jidh fudud oo dhexe	none
+👩🏿‍❤‍💋‍👨🏽	shumis naag, ninka, jidh madaw, jidh nooc dhexe	none
+👩🏿‍❤‍💋‍👨🏾	shumis naag, ninka, jidh madaw, jidh nooc madaw oo dhexe	none
+👩🏿‍❤‍💋‍👨🏿	shumis naag, ninka, jidh madaw	none
+👩🏻‍❤‍💋‍👩🏻	shumis naag, naag, jidh fudud	none
+👩🏻‍❤‍💋‍👩🏼	shumis naag, naag, jidh fudud, jidh fudud oo dhexe	none
+👩🏻‍❤‍💋‍👩🏽	shumis naag, naag, jidh fudud, jidh nooc dhexe	none
+👩🏻‍❤‍💋‍👩🏾	shumis naag, naag, jidh fudud, jidh nooc madaw oo dhexe	none
+👩🏻‍❤‍💋‍👩🏿	shumis naag, naag, jidh fudud, jidh madaw	none
+👩🏼‍❤‍💋‍👩🏻	shumis naag, naag, jidh fudud oo dhexe, jidh fudud	none
+👩🏼‍❤‍💋‍👩🏼	shumis naag, naag, jidh fudud oo dhexe	none
+👩🏼‍❤‍💋‍👩🏽	shumis naag, naag, jidh fudud oo dhexe, jidh nooc dhexe	none
+👩🏼‍❤‍💋‍👩🏾	shumis naag, naag, jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+👩🏼‍❤‍💋‍👩🏿	shumis naag, naag, jidh fudud oo dhexe, jidh madaw	none
+👩🏽‍❤‍💋‍👩🏻	shumis naag, naag, jidh nooc dhexe, jidh fudud	none
+👩🏽‍❤‍💋‍👩🏼	shumis naag, naag, jidh nooc dhexe, jidh fudud oo dhexe	none
+👩🏽‍❤‍💋‍👩🏽	shumis naag, naag, jidh nooc dhexe	none
+👩🏽‍❤‍💋‍👩🏾	shumis naag, naag, jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+👩🏽‍❤‍💋‍👩🏿	shumis naag, naag, jidh nooc dhexe, jidh madaw	none
+👩🏾‍❤‍💋‍👩🏻	shumis naag, naag, jidh nooc madaw oo dhexe, jidh fudud	none
+👩🏾‍❤‍💋‍👩🏼	shumis naag, naag, jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+👩🏾‍❤‍💋‍👩🏽	shumis naag, naag, jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+👩🏾‍❤‍💋‍👩🏾	shumis naag, naag, jidh nooc madaw oo dhexe	none
+👩🏾‍❤‍💋‍👩🏿	shumis naag, naag, jidh nooc madaw oo dhexe, jidh madaw	none
+👩🏿‍❤‍💋‍👩🏻	shumis naag, naag, jidh madaw, jidh fudud	none
+👩🏿‍❤‍💋‍👩🏼	shumis naag, naag, jidh madaw, jidh fudud oo dhexe	none
+👩🏿‍❤‍💋‍👩🏽	shumis naag, naag, jidh madaw, jidh nooc dhexe	none
+👩🏿‍❤‍💋‍👩🏾	shumis naag, naag, jidh madaw, jidh nooc madaw oo dhexe	none
+👩🏿‍❤‍💋‍👩🏿	shumis naag, naag, jidh madaw	none
+👩🏻‍❤‍👨🏻	lammaane is jecel naag, ninka, jidh fudud	none
+👩🏻‍❤‍👨🏼	lammaane is jecel naag, ninka, jidh fudud, jidh fudud oo dhexe	none
+👩🏻‍❤‍👨🏽	lammaane is jecel naag, ninka, jidh fudud, jidh nooc dhexe	none
+👩🏻‍❤‍👨🏾	lammaane is jecel naag, ninka, jidh fudud, jidh nooc madaw oo dhexe	none
+👩🏻‍❤‍👨🏿	lammaane is jecel naag, ninka, jidh fudud, jidh madaw	none
+👩🏼‍❤‍👨🏻	lammaane is jecel naag, ninka, jidh fudud oo dhexe, jidh fudud	none
+👩🏼‍❤‍👨🏼	lammaane is jecel naag, ninka, jidh fudud oo dhexe	none
+👩🏼‍❤‍👨🏽	lammaane is jecel naag, ninka, jidh fudud oo dhexe, jidh nooc dhexe	none
+👩🏼‍❤‍👨🏾	lammaane is jecel naag, ninka, jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+👩🏼‍❤‍👨🏿	lammaane is jecel naag, ninka, jidh fudud oo dhexe, jidh madaw	none
+👩🏽‍❤‍👨🏻	lammaane is jecel naag, ninka, jidh nooc dhexe, jidh fudud	none
+👩🏽‍❤‍👨🏼	lammaane is jecel naag, ninka, jidh nooc dhexe, jidh fudud oo dhexe	none
+👩🏽‍❤‍👨🏽	lammaane is jecel naag, ninka, jidh nooc dhexe	none
+👩🏽‍❤‍👨🏾	lammaane is jecel naag, ninka, jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+👩🏽‍❤‍👨🏿	lammaane is jecel naag, ninka, jidh nooc dhexe, jidh madaw	none
+👩🏾‍❤‍👨🏻	lammaane is jecel naag, ninka, jidh nooc madaw oo dhexe, jidh fudud	none
+👩🏾‍❤‍👨🏼	lammaane is jecel naag, ninka, jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+👩🏾‍❤‍👨🏽	lammaane is jecel naag, ninka, jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+👩🏾‍❤‍👨🏾	lammaane is jecel naag, ninka, jidh nooc madaw oo dhexe	none
+👩🏾‍❤‍👨🏿	lammaane is jecel naag, ninka, jidh nooc madaw oo dhexe, jidh madaw	none
+👩🏿‍❤‍👨🏻	lammaane is jecel naag, ninka, jidh madaw, jidh fudud	none
+👩🏿‍❤‍👨🏼	lammaane is jecel naag, ninka, jidh madaw, jidh fudud oo dhexe	none
+👩🏿‍❤‍👨🏽	lammaane is jecel naag, ninka, jidh madaw, jidh nooc dhexe	none
+👩🏿‍❤‍👨🏾	lammaane is jecel naag, ninka, jidh madaw, jidh nooc madaw oo dhexe	none
+👩🏿‍❤‍👨🏿	lammaane is jecel naag, ninka, jidh madaw	none
+👩🏻‍❤‍👩🏻	lammaane is jecel naag, naag, jidh fudud	none
+👩🏻‍❤‍👩🏼	lammaane is jecel naag, naag, jidh fudud, jidh fudud oo dhexe	none
+👩🏻‍❤‍👩🏽	lammaane is jecel naag, naag, jidh fudud, jidh nooc dhexe	none
+👩🏻‍❤‍👩🏾	lammaane is jecel naag, naag, jidh fudud, jidh nooc madaw oo dhexe	none
+👩🏻‍❤‍👩🏿	lammaane is jecel naag, naag, jidh fudud, jidh madaw	none
+👩🏼‍❤‍👩🏻	lammaane is jecel naag, naag, jidh fudud oo dhexe, jidh fudud	none
+👩🏼‍❤‍👩🏼	lammaane is jecel naag, naag, jidh fudud oo dhexe	none
+👩🏼‍❤‍👩🏽	lammaane is jecel naag, naag, jidh fudud oo dhexe, jidh nooc dhexe	none
+👩🏼‍❤‍👩🏾	lammaane is jecel naag, naag, jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+👩🏼‍❤‍👩🏿	lammaane is jecel naag, naag, jidh fudud oo dhexe, jidh madaw	none
+👩🏽‍❤‍👩🏻	lammaane is jecel naag, naag, jidh nooc dhexe, jidh fudud	none
+👩🏽‍❤‍👩🏼	lammaane is jecel naag, naag, jidh nooc dhexe, jidh fudud oo dhexe	none
+👩🏽‍❤‍👩🏽	lammaane is jecel naag, naag, jidh nooc dhexe	none
+👩🏽‍❤‍👩🏾	lammaane is jecel naag, naag, jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+👩🏽‍❤‍👩🏿	lammaane is jecel naag, naag, jidh nooc dhexe, jidh madaw	none
+👩🏾‍❤‍👩🏻	lammaane is jecel naag, naag, jidh nooc madaw oo dhexe, jidh fudud	none
+👩🏾‍❤‍👩🏼	lammaane is jecel naag, naag, jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+👩🏾‍❤‍👩🏽	lammaane is jecel naag, naag, jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+👩🏾‍❤‍👩🏾	lammaane is jecel naag, naag, jidh nooc madaw oo dhexe	none
+👩🏾‍❤‍👩🏿	lammaane is jecel naag, naag, jidh nooc madaw oo dhexe, jidh madaw	none
+👩🏿‍❤‍👩🏻	lammaane is jecel naag, naag, jidh madaw, jidh fudud	none
+👩🏿‍❤‍👩🏼	lammaane is jecel naag, naag, jidh madaw, jidh fudud oo dhexe	none
+👩🏿‍❤‍👩🏽	lammaane is jecel naag, naag, jidh madaw, jidh nooc dhexe	none
+👩🏿‍❤‍👩🏾	lammaane is jecel naag, naag, jidh madaw, jidh nooc madaw oo dhexe	none
+👩🏿‍❤‍👩🏿	lammaane is jecel naag, naag, jidh madaw	none
+👩🏻‍🫯‍👩🏼	naaga lagdamaya jidh fudud, jidh fudud oo dhexe	none
+👩🏻‍🫯‍👩🏽	naaga lagdamaya jidh fudud, jidh nooc dhexe	none
+👩🏻‍🫯‍👩🏾	naaga lagdamaya jidh fudud, jidh nooc madaw oo dhexe	none
+👩🏻‍🫯‍👩🏿	naaga lagdamaya jidh fudud, jidh madaw	none
+👩🏼‍🫯‍👩🏻	naaga lagdamaya jidh fudud oo dhexe, jidh fudud	none
+👩🏼‍🫯‍👩🏽	naaga lagdamaya jidh fudud oo dhexe, jidh nooc dhexe	none
+👩🏼‍🫯‍👩🏾	naaga lagdamaya jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+👩🏼‍🫯‍👩🏿	naaga lagdamaya jidh fudud oo dhexe, jidh madaw	none
+👩🏽‍🫯‍👩🏻	naaga lagdamaya jidh nooc dhexe, jidh fudud	none
+👩🏽‍🫯‍👩🏼	naaga lagdamaya jidh nooc dhexe, jidh fudud oo dhexe	none
+👩🏽‍🫯‍👩🏾	naaga lagdamaya jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+👩🏽‍🫯‍👩🏿	naaga lagdamaya jidh nooc dhexe, jidh madaw	none
+👩🏾‍🫯‍👩🏻	naaga lagdamaya jidh nooc madaw oo dhexe, jidh fudud	none
+👩🏾‍🫯‍👩🏼	naaga lagdamaya jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+👩🏾‍🫯‍👩🏽	naaga lagdamaya jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+👩🏾‍🫯‍👩🏿	naaga lagdamaya jidh nooc madaw oo dhexe, jidh madaw	none
+👩🏿‍🫯‍👩🏻	naaga lagdamaya jidh madaw, jidh fudud	none
+👩🏿‍🫯‍👩🏼	naaga lagdamaya jidh madaw, jidh fudud oo dhexe	none
+👩🏿‍🫯‍👩🏽	naaga lagdamaya jidh madaw, jidh nooc dhexe	none
+👩🏿‍🫯‍👩🏾	naaga lagdamaya jidh madaw, jidh nooc madaw oo dhexe	none
+👩‍🦰	naag timo cas	none
+👩🏻‍🦰	naag jidh fudud, timo cas	none
+👩🏼‍🦰	naag jidh fudud oo dhexe, timo cas	none
+👩🏽‍🦰	naag jidh nooc dhexe, timo cas	none
+👩🏾‍🦰	naag jidh nooc madaw oo dhexe, timo cas	none
+👩🏿‍🦰	naag jidh madaw, timo cas	none
+👩‍🦱	naag timo walaaqan	none
+👩🏻‍🦱	naag jidh fudud, timo walaaqan	none
+👩🏼‍🦱	naag jidh fudud oo dhexe, timo walaaqan	none
+👩🏽‍🦱	naag jidh nooc dhexe, timo walaaqan	none
+👩🏾‍🦱	naag jidh nooc madaw oo dhexe, timo walaaqan	none
+👩🏿‍🦱	naag jidh madaw, timo walaaqan	none
+👩‍🦳	naag caddaan	none
+👩🏻‍🦳	naag jidh fudud, caddaan	none
+👩🏼‍🦳	naag jidh fudud oo dhexe, caddaan	none
+👩🏽‍🦳	naag jidh nooc dhexe, caddaan	none
+👩🏾‍🦳	naag jidh nooc madaw oo dhexe, caddaan	none
+👩🏿‍🦳	naag jidh madaw, caddaan	none
+👩‍🦲	naag bidaar	none
+👩🏻‍🦲	naag jidh fudud, bidaar	none
+👩🏼‍🦲	naag jidh fudud oo dhexe, bidaar	none
+👩🏽‍🦲	naag jidh nooc dhexe, bidaar	none
+👩🏾‍🦲	naag jidh nooc madaw oo dhexe, bidaar	none
+👩🏿‍🦲	naag jidh madaw, bidaar	none
+👩🏻‍🐰‍👩🏼	naag leh dhaggo bakayle jidh fudud, jidh fudud oo dhexe	none
+👩🏻‍🐰‍👩🏽	naag leh dhaggo bakayle jidh fudud, jidh nooc dhexe	none
+👩🏻‍🐰‍👩🏾	naag leh dhaggo bakayle jidh fudud, jidh nooc madaw oo dhexe	none
+👩🏻‍🐰‍👩🏿	naag leh dhaggo bakayle jidh fudud, jidh madaw	none
+👩🏼‍🐰‍👩🏻	naag leh dhaggo bakayle jidh fudud oo dhexe, jidh fudud	none
+👩🏼‍🐰‍👩🏽	naag leh dhaggo bakayle jidh fudud oo dhexe, jidh nooc dhexe	none
+👩🏼‍🐰‍👩🏾	naag leh dhaggo bakayle jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+👩🏼‍🐰‍👩🏿	naag leh dhaggo bakayle jidh fudud oo dhexe, jidh madaw	none
+👩🏽‍🐰‍👩🏻	naag leh dhaggo bakayle jidh nooc dhexe, jidh fudud	none
+👩🏽‍🐰‍👩🏼	naag leh dhaggo bakayle jidh nooc dhexe, jidh fudud oo dhexe	none
+👩🏽‍🐰‍👩🏾	naag leh dhaggo bakayle jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+👩🏽‍🐰‍👩🏿	naag leh dhaggo bakayle jidh nooc dhexe, jidh madaw	none
+👩🏾‍🐰‍👩🏻	naag leh dhaggo bakayle jidh nooc madaw oo dhexe, jidh fudud	none
+👩🏾‍🐰‍👩🏼	naag leh dhaggo bakayle jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+👩🏾‍🐰‍👩🏽	naag leh dhaggo bakayle jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+👩🏾‍🐰‍👩🏿	naag leh dhaggo bakayle jidh nooc madaw oo dhexe, jidh madaw	none
+👩🏿‍🐰‍👩🏻	naag leh dhaggo bakayle jidh madaw, jidh fudud	none
+👩🏿‍🐰‍👩🏼	naag leh dhaggo bakayle jidh madaw, jidh fudud oo dhexe	none
+👩🏿‍🐰‍👩🏽	naag leh dhaggo bakayle jidh madaw, jidh nooc dhexe	none
+👩🏿‍🐰‍👩🏾	naag leh dhaggo bakayle jidh madaw, jidh nooc madaw oo dhexe	none
+🧓🏻	qof weyn jidh fudud	none
+🧓🏼	qof weyn jidh fudud oo dhexe	none
+🧓🏽	qof weyn jidh nooc dhexe	none
+🧓🏾	qof weyn jidh nooc madaw oo dhexe	none
+🧓🏿	qof weyn jidh madaw	none
+👴🏻	nin da’ weyn jidh fudud	none
+👴🏼	nin da’ weyn jidh fudud oo dhexe	none
+👴🏽	nin da’ weyn jidh nooc dhexe	none
+👴🏾	nin da’ weyn jidh nooc madaw oo dhexe	none
+👴🏿	nin da’ weyn jidh madaw	none
+👵🏻	naag weyn jidh fudud	none
+👵🏼	naag weyn jidh fudud oo dhexe	none
+👵🏽	naag weyn jidh nooc dhexe	none
+👵🏾	naag weyn jidh nooc madaw oo dhexe	none
+👵🏿	naag weyn jidh madaw	none
+🙍🏻	qof wajiga kaduudaya jidh fudud	none
+🙍🏼	qof wajiga kaduudaya jidh fudud oo dhexe	none
+🙍🏽	qof wajiga kaduudaya jidh nooc dhexe	none
+🙍🏾	qof wajiga kaduudaya jidh nooc madaw oo dhexe	none
+🙍🏿	qof wajiga kaduudaya jidh madaw	none
+🙍🏻‍♂	nin wajiga kaduudaya jidh fudud	none
+🙍🏼‍♂	nin wajiga kaduudaya jidh fudud oo dhexe	none
+🙍🏽‍♂	nin wajiga kaduudaya jidh nooc dhexe	none
+🙍🏾‍♂	nin wajiga kaduudaya jidh nooc madaw oo dhexe	none
+🙍🏿‍♂	nin wajiga kaduudaya jidh madaw	none
+🙍🏻‍♀	naag wajiga kaduudaya jidh fudud	none
+🙍🏼‍♀	naag wajiga kaduudaya jidh fudud oo dhexe	none
+🙍🏽‍♀	naag wajiga kaduudaya jidh nooc dhexe	none
+🙍🏾‍♀	naag wajiga kaduudaya jidh nooc madaw oo dhexe	none
+🙍🏿‍♀	naag wajiga kaduudaya jidh madaw	none
+🙎🏻	bushin qaniinidda jidh fudud	none
+🙎🏼	bushin qaniinidda jidh fudud oo dhexe	none
+🙎🏽	bushin qaniinidda jidh nooc dhexe	none
+🙎🏾	bushin qaniinidda jidh nooc madaw oo dhexe	none
+🙎🏿	bushin qaniinidda jidh madaw	none
+🙎🏻‍♂	nin bushinta qaniinaya jidh fudud	none
+🙎🏼‍♂	nin bushinta qaniinaya jidh fudud oo dhexe	none
+🙎🏽‍♂	nin bushinta qaniinaya jidh nooc dhexe	none
+🙎🏾‍♂	nin bushinta qaniinaya jidh nooc madaw oo dhexe	none
+🙎🏿‍♂	nin bushinta qaniinaya jidh madaw	none
+🙎🏻‍♀	naag bushinta qaniinaysa jidh fudud	none
+🙎🏼‍♀	naag bushinta qaniinaysa jidh fudud oo dhexe	none
+🙎🏽‍♀	naag bushinta qaniinaysa jidh nooc dhexe	none
+🙎🏾‍♀	naag bushinta qaniinaysa jidh nooc madaw oo dhexe	none
+🙎🏿‍♀	naag bushinta qaniinaysa jidh madaw	none
+🙅🏻	qof ku meedaaraya MAYA jidh fudud	none
+🙅🏼	qof ku meedaaraya MAYA jidh fudud oo dhexe	none
+🙅🏽	qof ku meedaaraya MAYA jidh nooc dhexe	none
+🙅🏾	qof ku meedaaraya MAYA jidh nooc madaw oo dhexe	none
+🙅🏿	qof ku meedaaraya MAYA jidh madaw	none
+🙅🏻‍♂	nin ku meedaaraya MAYA jidh fudud	none
+🙅🏼‍♂	nin ku meedaaraya MAYA jidh fudud oo dhexe	none
+🙅🏽‍♂	nin ku meedaaraya MAYA jidh nooc dhexe	none
+🙅🏾‍♂	nin ku meedaaraya MAYA jidh nooc madaw oo dhexe	none
+🙅🏿‍♂	nin ku meedaaraya MAYA jidh madaw	none
+🙅🏻‍♀	naag ku meedaaraysa MAYA jidh fudud	none
+🙅🏼‍♀	naag ku meedaaraysa MAYA jidh fudud oo dhexe	none
+🙅🏽‍♀	naag ku meedaaraysa MAYA jidh nooc dhexe	none
+🙅🏾‍♀	naag ku meedaaraysa MAYA jidh nooc madaw oo dhexe	none
+🙅🏿‍♀	naag ku meedaaraysa MAYA jidh madaw	none
+🙆🏻	naag ku meedaaraysa HAA jidh fudud	none
+🙆🏼	naag ku meedaaraysa HAA jidh fudud oo dhexe	none
+🙆🏽	naag ku meedaaraysa HAA jidh nooc dhexe	none
+🙆🏾	naag ku meedaaraysa HAA jidh nooc madaw oo dhexe	none
+🙆🏿	naag ku meedaaraysa HAA jidh madaw	none
+🙆🏻‍♂	nin ku meedaaraya HAA jidh fudud	none
+🙆🏼‍♂	nin ku meedaaraya HAA jidh fudud oo dhexe	none
+🙆🏽‍♂	nin ku meedaaraya HAA jidh nooc dhexe	none
+🙆🏾‍♂	nin ku meedaaraya HAA jidh nooc madaw oo dhexe	none
+🙆🏿‍♂	nin ku meedaaraya HAA jidh madaw	none
+🙆🏻‍♀	haweeney ku meedaaraysa MAYA jidh fudud	none
+🙆🏼‍♀	haweeney ku meedaaraysa MAYA jidh fudud oo dhexe	none
+🙆🏽‍♀	haweeney ku meedaaraysa MAYA jidh nooc dhexe	none
+🙆🏾‍♀	haweeney ku meedaaraysa MAYA jidh nooc madaw oo dhexe	none
+🙆🏿‍♀	haweeney ku meedaaraysa MAYA jidh madaw	none
+💁🏻	qof warbixin bixinaya jidh fudud	none
+💁🏼	qof warbixin bixinaya jidh fudud oo dhexe	none
+💁🏽	qof warbixin bixinaya jidh nooc dhexe	none
+💁🏾	qof warbixin bixinaya jidh nooc madaw oo dhexe	none
+💁🏿	qof warbixin bixinaya jidh madaw	none
+💁🏻‍♂	nin war bixinaya jidh fudud	none
+💁🏼‍♂	nin war bixinaya jidh fudud oo dhexe	none
+💁🏽‍♂	nin war bixinaya jidh nooc dhexe	none
+💁🏾‍♂	nin war bixinaya jidh nooc madaw oo dhexe	none
+💁🏿‍♂	nin war bixinaya jidh madaw	none
+💁🏻‍♀	naag warbixin bixinaysa jidh fudud	none
+💁🏼‍♀	naag warbixin bixinaysa jidh fudud oo dhexe	none
+💁🏽‍♀	naag warbixin bixinaysa jidh nooc dhexe	none
+💁🏾‍♀	naag warbixin bixinaysa jidh nooc madaw oo dhexe	none
+💁🏿‍♀	naag warbixin bixinaysa jidh madaw	none
+🙋🏻	qof gacan taagaya jidh fudud	none
+🙋🏼	qof gacan taagaya jidh fudud oo dhexe	none
+🙋🏽	qof gacan taagaya jidh nooc dhexe	none
+🙋🏾	qof gacan taagaya jidh nooc madaw oo dhexe	none
+🙋🏿	qof gacan taagaya jidh madaw	none
+🙋🏻‍♂	nin gcan taagaya jidh fudud	none
+🙋🏼‍♂	nin gcan taagaya jidh fudud oo dhexe	none
+🙋🏽‍♂	nin gcan taagaya jidh nooc dhexe	none
+🙋🏾‍♂	nin gcan taagaya jidh nooc madaw oo dhexe	none
+🙋🏿‍♂	nin gcan taagaya jidh madaw	none
+🙋🏻‍♀	naag gacan taagaysa jidh fudud	none
+🙋🏼‍♀	naag gacan taagaysa jidh fudud oo dhexe	none
+🙋🏽‍♀	naag gacan taagaysa jidh nooc dhexe	none
+🙋🏾‍♀	naag gacan taagaysa jidh nooc madaw oo dhexe	none
+🙋🏿‍♀	naag gacan taagaysa jidh madaw	none
+🧏🏻	qof dhagoole ah jidh fudud	none
+🧏🏼	qof dhagoole ah jidh fudud oo dhexe	none
+🧏🏽	qof dhagoole ah jidh nooc dhexe	none
+🧏🏾	qof dhagoole ah jidh nooc madaw oo dhexe	none
+🧏🏿	qof dhagoole ah jidh madaw	none
+🧏🏻‍♂	nin dhagoole ah jidh fudud	none
+🧏🏼‍♂	nin dhagoole ah jidh fudud oo dhexe	none
+🧏🏽‍♂	nin dhagoole ah jidh nooc dhexe	none
+🧏🏾‍♂	nin dhagoole ah jidh nooc madaw oo dhexe	none
+🧏🏿‍♂	nin dhagoole ah jidh madaw	none
+🧏🏻‍♀	naag dhagoole ah jidh fudud	none
+🧏🏼‍♀	naag dhagoole ah jidh fudud oo dhexe	none
+🧏🏽‍♀	naag dhagoole ah jidh nooc dhexe	none
+🧏🏾‍♀	naag dhagoole ah jidh nooc madaw oo dhexe	none
+🧏🏿‍♀	naag dhagoole ah jidh madaw	none
+🙇🏻	qof fooraraya jidh fudud	none
+🙇🏼	qof fooraraya jidh fudud oo dhexe	none
+🙇🏽	qof fooraraya jidh nooc dhexe	none
+🙇🏾	qof fooraraya jidh nooc madaw oo dhexe	none
+🙇🏿	qof fooraraya jidh madaw	none
+🙇🏻‍♂	nin fooraraya jidh fudud	none
+🙇🏼‍♂	nin fooraraya jidh fudud oo dhexe	none
+🙇🏽‍♂	nin fooraraya jidh nooc dhexe	none
+🙇🏾‍♂	nin fooraraya jidh nooc madaw oo dhexe	none
+🙇🏿‍♂	nin fooraraya jidh madaw	none
+🙇🏻‍♀	naag fooraraysa jidh fudud	none
+🙇🏼‍♀	naag fooraraysa jidh fudud oo dhexe	none
+🙇🏽‍♀	naag fooraraysa jidh nooc dhexe	none
+🙇🏾‍♀	naag fooraraysa jidh nooc madaw oo dhexe	none
+🙇🏿‍♀	naag fooraraysa jidh madaw	none
+🤦🏻	qof calaacal waji saaranaya jidh fudud	none
+🤦🏼	qof calaacal waji saaranaya jidh fudud oo dhexe	none
+🤦🏽	qof calaacal waji saaranaya jidh nooc dhexe	none
+🤦🏾	qof calaacal waji saaranaya jidh nooc madaw oo dhexe	none
+🤦🏿	qof calaacal waji saaranaya jidh madaw	none
+🤦🏻‍♂	nin calaacal waji saaranaya jidh fudud	none
+🤦🏼‍♂	nin calaacal waji saaranaya jidh fudud oo dhexe	none
+🤦🏽‍♂	nin calaacal waji saaranaya jidh nooc dhexe	none
+🤦🏾‍♂	nin calaacal waji saaranaya jidh nooc madaw oo dhexe	none
+🤦🏿‍♂	nin calaacal waji saaranaya jidh madaw	none
+🤦🏻‍♀	naag calaacal waji saaranaysa jidh fudud	none
+🤦🏼‍♀	naag calaacal waji saaranaysa jidh fudud oo dhexe	none
+🤦🏽‍♀	naag calaacal waji saaranaysa jidh nooc dhexe	none
+🤦🏾‍♀	naag calaacal waji saaranaysa jidh nooc madaw oo dhexe	none
+🤦🏿‍♀	naag calaacal waji saaranaysa jidh madaw	none
+🤷🏻	qof garba-ruxaya jidh fudud	none
+🤷🏼	qof garba-ruxaya jidh fudud oo dhexe	none
+🤷🏽	qof garba-ruxaya jidh nooc dhexe	none
+🤷🏾	qof garba-ruxaya jidh nooc madaw oo dhexe	none
+🤷🏿	qof garba-ruxaya jidh madaw	none
+🤷🏻‍♂	nin garba-ruxaya jidh fudud	none
+🤷🏼‍♂	nin garba-ruxaya jidh fudud oo dhexe	none
+🤷🏽‍♂	nin garba-ruxaya jidh nooc dhexe	none
+🤷🏾‍♂	nin garba-ruxaya jidh nooc madaw oo dhexe	none
+🤷🏿‍♂	nin garba-ruxaya jidh madaw	none
+🤷🏻‍♀	naag garba-ruxaysa jidh fudud	none
+🤷🏼‍♀	naag garba-ruxaysa jidh fudud oo dhexe	none
+🤷🏽‍♀	naag garba-ruxaysa jidh nooc dhexe	none
+🤷🏾‍♀	naag garba-ruxaysa jidh nooc madaw oo dhexe	none
+🤷🏿‍♀	naag garba-ruxaysa jidh madaw	none
+🧑🏻‍⚕	shaqaale caafimaad jidh fudud	none
+🧑🏼‍⚕	shaqaale caafimaad jidh fudud oo dhexe	none
+🧑🏽‍⚕	shaqaale caafimaad jidh nooc dhexe	none
+🧑🏾‍⚕	shaqaale caafimaad jidh nooc madaw oo dhexe	none
+🧑🏿‍⚕	shaqaale caafimaad jidh madaw	none
+👨🏻‍⚕	nin shaqaale caafimaad ah jidh fudud	none
+👨🏼‍⚕	nin shaqaale caafimaad ah jidh fudud oo dhexe	none
+👨🏽‍⚕	nin shaqaale caafimaad ah jidh nooc dhexe	none
+👨🏾‍⚕	nin shaqaale caafimaad ah jidh nooc madaw oo dhexe	none
+👨🏿‍⚕	nin shaqaale caafimaad ah jidh madaw	none
+👩🏻‍⚕	naag shaqaale caafimaad ah jidh fudud	none
+👩🏼‍⚕	naag shaqaale caafimaad ah jidh fudud oo dhexe	none
+👩🏽‍⚕	naag shaqaale caafimaad ah jidh nooc dhexe	none
+👩🏾‍⚕	naag shaqaale caafimaad ah jidh nooc madaw oo dhexe	none
+👩🏿‍⚕	naag shaqaale caafimaad ah jidh madaw	none
+🧑🏻‍🎓	arday jidh fudud	none
+🧑🏼‍🎓	arday jidh fudud oo dhexe	none
+🧑🏽‍🎓	arday jidh nooc dhexe	none
+🧑🏾‍🎓	arday jidh nooc madaw oo dhexe	none
+🧑🏿‍🎓	arday jidh madaw	none
+👨🏻‍🎓	nin arday ah jidh fudud	none
+👨🏼‍🎓	nin arday ah jidh fudud oo dhexe	none
+👨🏽‍🎓	nin arday ah jidh nooc dhexe	none
+👨🏾‍🎓	nin arday ah jidh nooc madaw oo dhexe	none
+👨🏿‍🎓	nin arday ah jidh madaw	none
+👩🏻‍🎓	naag ardayad ah jidh fudud	none
+👩🏼‍🎓	naag ardayad ah jidh fudud oo dhexe	none
+👩🏽‍🎓	naag ardayad ah jidh nooc dhexe	none
+👩🏾‍🎓	naag ardayad ah jidh nooc madaw oo dhexe	none
+👩🏿‍🎓	naag ardayad ah jidh madaw	none
+🧑🏻‍🏫	bare jidh fudud	none
+🧑🏼‍🏫	bare jidh fudud oo dhexe	none
+🧑🏽‍🏫	bare jidh nooc dhexe	none
+🧑🏾‍🏫	bare jidh nooc madaw oo dhexe	none
+🧑🏿‍🏫	bare jidh madaw	none
+👨🏻‍🏫	nin macallin ah jidh fudud	none
+👨🏼‍🏫	nin macallin ah jidh fudud oo dhexe	none
+👨🏽‍🏫	nin macallin ah jidh nooc dhexe	none
+👨🏾‍🏫	nin macallin ah jidh nooc madaw oo dhexe	none
+👨🏿‍🏫	nin macallin ah jidh madaw	none
+👩🏻‍🏫	naag macallimad ah jidh fudud	none
+👩🏼‍🏫	naag macallimad ah jidh fudud oo dhexe	none
+👩🏽‍🏫	naag macallimad ah jidh nooc dhexe	none
+👩🏾‍🏫	naag macallimad ah jidh nooc madaw oo dhexe	none
+👩🏿‍🏫	naag macallimad ah jidh madaw	none
+🧑🏻‍⚖	qaalli jidh fudud	none
+🧑🏼‍⚖	qaalli jidh fudud oo dhexe	none
+🧑🏽‍⚖	qaalli jidh nooc dhexe	none
+🧑🏾‍⚖	qaalli jidh nooc madaw oo dhexe	none
+🧑🏿‍⚖	qaalli jidh madaw	none
+👨🏻‍⚖	nin garsoore ah jidh fudud	none
+👨🏼‍⚖	nin garsoore ah jidh fudud oo dhexe	none
+👨🏽‍⚖	nin garsoore ah jidh nooc dhexe	none
+👨🏾‍⚖	nin garsoore ah jidh nooc madaw oo dhexe	none
+👨🏿‍⚖	nin garsoore ah jidh madaw	none
+👩🏻‍⚖	naag garsoore ah jidh fudud	none
+👩🏼‍⚖	naag garsoore ah jidh fudud oo dhexe	none
+👩🏽‍⚖	naag garsoore ah jidh nooc dhexe	none
+👩🏾‍⚖	naag garsoore ah jidh nooc madaw oo dhexe	none
+👩🏿‍⚖	naag garsoore ah jidh madaw	none
+🧑🏻‍🌾	Beeraley jidh fudud	none
+🧑🏼‍🌾	Beeraley jidh fudud oo dhexe	none
+🧑🏽‍🌾	Beeraley jidh nooc dhexe	none
+🧑🏾‍🌾	Beeraley jidh nooc madaw oo dhexe	none
+🧑🏿‍🌾	Beeraley jidh madaw	none
+👨🏻‍🌾	nin beeraleey ah jidh fudud	none
+👨🏼‍🌾	nin beeraleey ah jidh fudud oo dhexe	none
+👨🏽‍🌾	nin beeraleey ah jidh nooc dhexe	none
+👨🏾‍🌾	nin beeraleey ah jidh nooc madaw oo dhexe	none
+👨🏿‍🌾	nin beeraleey ah jidh madaw	none
+👩🏻‍🌾	naag beeraleeyad ah jidh fudud	none
+👩🏼‍🌾	naag beeraleeyad ah jidh fudud oo dhexe	none
+👩🏽‍🌾	naag beeraleeyad ah jidh nooc dhexe	none
+👩🏾‍🌾	naag beeraleeyad ah jidh nooc madaw oo dhexe	none
+👩🏿‍🌾	naag beeraleeyad ah jidh madaw	none
+🧑🏻‍🍳	cunno kariye jidh fudud	none
+🧑🏼‍🍳	cunno kariye jidh fudud oo dhexe	none
+🧑🏽‍🍳	cunno kariye jidh nooc dhexe	none
+🧑🏾‍🍳	cunno kariye jidh nooc madaw oo dhexe	none
+🧑🏿‍🍳	cunno kariye jidh madaw	none
+👨🏻‍🍳	nin kariye ah jidh fudud	none
+👨🏼‍🍳	nin kariye ah jidh fudud oo dhexe	none
+👨🏽‍🍳	nin kariye ah jidh nooc dhexe	none
+👨🏾‍🍳	nin kariye ah jidh nooc madaw oo dhexe	none
+👨🏿‍🍳	nin kariye ah jidh madaw	none
+👩🏻‍🍳	naag kariso ah jidh fudud	none
+👩🏼‍🍳	naag kariso ah jidh fudud oo dhexe	none
+👩🏽‍🍳	naag kariso ah jidh nooc dhexe	none
+👩🏾‍🍳	naag kariso ah jidh nooc madaw oo dhexe	none
+👩🏿‍🍳	naag kariso ah jidh madaw	none
+🧑🏻‍🔧	makaanik jidh fudud	none
+🧑🏼‍🔧	makaanik jidh fudud oo dhexe	none
+🧑🏽‍🔧	makaanik jidh nooc dhexe	none
+🧑🏾‍🔧	makaanik jidh nooc madaw oo dhexe	none
+🧑🏿‍🔧	makaanik jidh madaw	none
+👨🏻‍🔧	nin makaanik ah jidh fudud	none
+👨🏼‍🔧	nin makaanik ah jidh fudud oo dhexe	none
+👨🏽‍🔧	nin makaanik ah jidh nooc dhexe	none
+👨🏾‍🔧	nin makaanik ah jidh nooc madaw oo dhexe	none
+👨🏿‍🔧	nin makaanik ah jidh madaw	none
+👩🏻‍🔧	naag makaanikad ah jidh fudud	none
+👩🏼‍🔧	naag makaanikad ah jidh fudud oo dhexe	none
+👩🏽‍🔧	naag makaanikad ah jidh nooc dhexe	none
+👩🏾‍🔧	naag makaanikad ah jidh nooc madaw oo dhexe	none
+👩🏿‍🔧	naag makaanikad ah jidh madaw	none
+🧑🏻‍🏭	shaqaale warshadeed jidh fudud	none
+🧑🏼‍🏭	shaqaale warshadeed jidh fudud oo dhexe	none
+🧑🏽‍🏭	shaqaale warshadeed jidh nooc dhexe	none
+🧑🏾‍🏭	shaqaale warshadeed jidh nooc madaw oo dhexe	none
+🧑🏿‍🏭	shaqaale warshadeed jidh madaw	none
+👨🏻‍🏭	nin shaqaale warshad ah jidh fudud	none
+👨🏼‍🏭	nin shaqaale warshad ah jidh fudud oo dhexe	none
+👨🏽‍🏭	nin shaqaale warshad ah jidh nooc dhexe	none
+👨🏾‍🏭	nin shaqaale warshad ah jidh nooc madaw oo dhexe	none
+👨🏿‍🏭	nin shaqaale warshad ah jidh madaw	none
+👩🏻‍🏭	naag shaqaale warshad ah jidh fudud	none
+👩🏼‍🏭	naag shaqaale warshad ah jidh fudud oo dhexe	none
+👩🏽‍🏭	naag shaqaale warshad ah jidh nooc dhexe	none
+👩🏾‍🏭	naag shaqaale warshad ah jidh nooc madaw oo dhexe	none
+👩🏿‍🏭	naag shaqaale warshad ah jidh madaw	none
+🧑🏻‍💼	shaqaale xafiis jidh fudud	none
+🧑🏼‍💼	shaqaale xafiis jidh fudud oo dhexe	none
+🧑🏽‍💼	shaqaale xafiis jidh nooc dhexe	none
+🧑🏾‍💼	shaqaale xafiis jidh nooc madaw oo dhexe	none
+🧑🏿‍💼	shaqaale xafiis jidh madaw	none
+👨🏻‍💼	nin shaqaale xafiis ah jidh fudud	none
+👨🏼‍💼	nin shaqaale xafiis ah jidh fudud oo dhexe	none
+👨🏽‍💼	nin shaqaale xafiis ah jidh nooc dhexe	none
+👨🏾‍💼	nin shaqaale xafiis ah jidh nooc madaw oo dhexe	none
+👨🏿‍💼	nin shaqaale xafiis ah jidh madaw	none
+👩🏻‍💼	naag shaqaale xafiis ah jidh fudud	none
+👩🏼‍💼	naag shaqaale xafiis ah jidh fudud oo dhexe	none
+👩🏽‍💼	naag shaqaale xafiis ah jidh nooc dhexe	none
+👩🏾‍💼	naag shaqaale xafiis ah jidh nooc madaw oo dhexe	none
+👩🏿‍💼	naag shaqaale xafiis ah jidh madaw	none
+🧑🏻‍🔬	saynisyahan jidh fudud	none
+🧑🏼‍🔬	saynisyahan jidh fudud oo dhexe	none
+🧑🏽‍🔬	saynisyahan jidh nooc dhexe	none
+🧑🏾‍🔬	saynisyahan jidh nooc madaw oo dhexe	none
+🧑🏿‍🔬	saynisyahan jidh madaw	none
+👨🏻‍🔬	qabiir saynisyahan ah jidh fudud	none
+👨🏼‍🔬	qabiir saynisyahan ah jidh fudud oo dhexe	none
+👨🏽‍🔬	qabiir saynisyahan ah jidh nooc dhexe	none
+👨🏾‍🔬	qabiir saynisyahan ah jidh nooc madaw oo dhexe	none
+👨🏿‍🔬	qabiir saynisyahan ah jidh madaw	none
+👩🏻‍🔬	haweeney cilmi sayniska taqaan jidh fudud	none
+👩🏼‍🔬	haweeney cilmi sayniska taqaan jidh fudud oo dhexe	none
+👩🏽‍🔬	haweeney cilmi sayniska taqaan jidh nooc dhexe	none
+👩🏾‍🔬	haweeney cilmi sayniska taqaan jidh nooc madaw oo dhexe	none
+👩🏿‍🔬	haweeney cilmi sayniska taqaan jidh madaw	none
+🧑🏻‍💻	Tiknoolajiste jidh fudud	none
+🧑🏼‍💻	Tiknoolajiste jidh fudud oo dhexe	none
+🧑🏽‍💻	Tiknoolajiste jidh nooc dhexe	none
+🧑🏾‍💻	Tiknoolajiste jidh nooc madaw oo dhexe	none
+🧑🏿‍💻	Tiknoolajiste jidh madaw	none
+👨🏻‍💻	nin tiknoolijiste ah jidh fudud	none
+👨🏼‍💻	nin tiknoolijiste ah jidh fudud oo dhexe	none
+👨🏽‍💻	nin tiknoolijiste ah jidh nooc dhexe	none
+👨🏾‍💻	nin tiknoolijiste ah jidh nooc madaw oo dhexe	none
+👨🏿‍💻	nin tiknoolijiste ah jidh madaw	none
+👩🏻‍💻	naag tiknoolijisate ah jidh fudud	none
+👩🏼‍💻	naag tiknoolijisate ah jidh fudud oo dhexe	none
+👩🏽‍💻	naag tiknoolijisate ah jidh nooc dhexe	none
+👩🏾‍💻	naag tiknoolijisate ah jidh nooc madaw oo dhexe	none
+👩🏿‍💻	naag tiknoolijisate ah jidh madaw	none
+🧑🏻‍🎤	heesaa jidh fudud	none
+🧑🏼‍🎤	heesaa jidh fudud oo dhexe	none
+🧑🏽‍🎤	heesaa jidh nooc dhexe	none
+🧑🏾‍🎤	heesaa jidh nooc madaw oo dhexe	none
+🧑🏿‍🎤	heesaa jidh madaw	none
+👨🏻‍🎤	nin fannaan ah jidh fudud	none
+👨🏼‍🎤	nin fannaan ah jidh fudud oo dhexe	none
+👨🏽‍🎤	nin fannaan ah jidh nooc dhexe	none
+👨🏾‍🎤	nin fannaan ah jidh nooc madaw oo dhexe	none
+👨🏿‍🎤	nin fannaan ah jidh madaw	none
+👩🏻‍🎤	naag fannaanad ah jidh fudud	none
+👩🏼‍🎤	naag fannaanad ah jidh fudud oo dhexe	none
+👩🏽‍🎤	naag fannaanad ah jidh nooc dhexe	none
+👩🏾‍🎤	naag fannaanad ah jidh nooc madaw oo dhexe	none
+👩🏿‍🎤	naag fannaanad ah jidh madaw	none
+🧑🏻‍🎨	fanaan jidh fudud	none
+🧑🏼‍🎨	fanaan jidh fudud oo dhexe	none
+🧑🏽‍🎨	fanaan jidh nooc dhexe	none
+🧑🏾‍🎨	fanaan jidh nooc madaw oo dhexe	none
+🧑🏿‍🎨	fanaan jidh madaw	none
+👨🏻‍🎨	nin farsama yaqaan ah jidh fudud	none
+👨🏼‍🎨	nin farsama yaqaan ah jidh fudud oo dhexe	none
+👨🏽‍🎨	nin farsama yaqaan ah jidh nooc dhexe	none
+👨🏾‍🎨	nin farsama yaqaan ah jidh nooc madaw oo dhexe	none
+👨🏿‍🎨	nin farsama yaqaan ah jidh madaw	none
+👩🏻‍🎨	naag farsama yaqaan ah jidh fudud	none
+👩🏼‍🎨	naag farsama yaqaan ah jidh fudud oo dhexe	none
+👩🏽‍🎨	naag farsama yaqaan ah jidh nooc dhexe	none
+👩🏾‍🎨	naag farsama yaqaan ah jidh nooc madaw oo dhexe	none
+👩🏿‍🎨	naag farsama yaqaan ah jidh madaw	none
+🧑🏻‍✈	darawal dayuurad jidh fudud	none
+🧑🏼‍✈	darawal dayuurad jidh fudud oo dhexe	none
+🧑🏽‍✈	darawal dayuurad jidh nooc dhexe	none
+🧑🏾‍✈	darawal dayuurad jidh nooc madaw oo dhexe	none
+🧑🏿‍✈	darawal dayuurad jidh madaw	none
+👨🏻‍✈	nin duuliye ah jidh fudud	none
+👨🏼‍✈	nin duuliye ah jidh fudud oo dhexe	none
+👨🏽‍✈	nin duuliye ah jidh nooc dhexe	none
+👨🏾‍✈	nin duuliye ah jidh nooc madaw oo dhexe	none
+👨🏿‍✈	nin duuliye ah jidh madaw	none
+👩🏻‍✈	naag duuliye ah jidh fudud	none
+👩🏼‍✈	naag duuliye ah jidh fudud oo dhexe	none
+👩🏽‍✈	naag duuliye ah jidh nooc dhexe	none
+👩🏾‍✈	naag duuliye ah jidh nooc madaw oo dhexe	none
+👩🏿‍✈	naag duuliye ah jidh madaw	none
+🧑🏻‍🚀	dayax u safre jidh fudud	none
+🧑🏼‍🚀	dayax u safre jidh fudud oo dhexe	none
+🧑🏽‍🚀	dayax u safre jidh nooc dhexe	none
+🧑🏾‍🚀	dayax u safre jidh nooc madaw oo dhexe	none
+🧑🏿‍🚀	dayax u safre jidh madaw	none
+👨🏻‍🚀	nin cirbixiyeen ah jidh fudud	none
+👨🏼‍🚀	nin cirbixiyeen ah jidh fudud oo dhexe	none
+👨🏽‍🚀	nin cirbixiyeen ah jidh nooc dhexe	none
+👨🏾‍🚀	nin cirbixiyeen ah jidh nooc madaw oo dhexe	none
+👨🏿‍🚀	nin cirbixiyeen ah jidh madaw	none
+👩🏻‍🚀	naag cir bixiyeenad ah jidh fudud	none
+👩🏼‍🚀	naag cir bixiyeenad ah jidh fudud oo dhexe	none
+👩🏽‍🚀	naag cir bixiyeenad ah jidh nooc dhexe	none
+👩🏾‍🚀	naag cir bixiyeenad ah jidh nooc madaw oo dhexe	none
+👩🏿‍🚀	naag cir bixiyeenad ah jidh madaw	none
+🧑🏻‍🚒	dab damis jidh fudud	none
+🧑🏼‍🚒	dab damis jidh fudud oo dhexe	none
+🧑🏽‍🚒	dab damis jidh nooc dhexe	none
+🧑🏾‍🚒	dab damis jidh nooc madaw oo dhexe	none
+🧑🏿‍🚒	dab damis jidh madaw	none
+👨🏻‍🚒	ninka dab-demiska ah jidh fudud	none
+👨🏼‍🚒	ninka dab-demiska ah jidh fudud oo dhexe	none
+👨🏽‍🚒	ninka dab-demiska ah jidh nooc dhexe	none
+👨🏾‍🚒	ninka dab-demiska ah jidh nooc madaw oo dhexe	none
+👨🏿‍🚒	ninka dab-demiska ah jidh madaw	none
+👩🏻‍🚒	naag dab-demis ah jidh fudud	none
+👩🏼‍🚒	naag dab-demis ah jidh fudud oo dhexe	none
+👩🏽‍🚒	naag dab-demis ah jidh nooc dhexe	none
+👩🏾‍🚒	naag dab-demis ah jidh nooc madaw oo dhexe	none
+👩🏿‍🚒	naag dab-demis ah jidh madaw	none
+👮🏻	sarkaal boolis jidh fudud	none
+👮🏼	sarkaal boolis jidh fudud oo dhexe	none
+👮🏽	sarkaal boolis jidh nooc dhexe	none
+👮🏾	sarkaal boolis jidh nooc madaw oo dhexe	none
+👮🏿	sarkaal boolis jidh madaw	none
+👮🏻‍♂	nin sarkaal boolis ah jidh fudud	none
+👮🏼‍♂	nin sarkaal boolis ah jidh fudud oo dhexe	none
+👮🏽‍♂	nin sarkaal boolis ah jidh nooc dhexe	none
+👮🏾‍♂	nin sarkaal boolis ah jidh nooc madaw oo dhexe	none
+👮🏿‍♂	nin sarkaal boolis ah jidh madaw	none
+👮🏻‍♀	haweeney sarkaal boolis ah jidh fudud	none
+👮🏼‍♀	haweeney sarkaal boolis ah jidh fudud oo dhexe	none
+👮🏽‍♀	haweeney sarkaal boolis ah jidh nooc dhexe	none
+👮🏾‍♀	haweeney sarkaal boolis ah jidh nooc madaw oo dhexe	none
+👮🏿‍♀	haweeney sarkaal boolis ah jidh madaw	none
+🕵🏻	dambi-baare jidh fudud	none
+🕵🏼	dambi-baare jidh fudud oo dhexe	none
+🕵🏽	dambi-baare jidh nooc dhexe	none
+🕵🏾	dambi-baare jidh nooc madaw oo dhexe	none
+🕵🏿	dambi-baare jidh madaw	none
+🕵🏻‍♂	nin dambi-baare ah jidh fudud	none
+🕵🏼‍♂	nin dambi-baare ah jidh fudud oo dhexe	none
+🕵🏽‍♂	nin dambi-baare ah jidh nooc dhexe	none
+🕵🏾‍♂	nin dambi-baare ah jidh nooc madaw oo dhexe	none
+🕵🏿‍♂	nin dambi-baare ah jidh madaw	none
+🕵🏻‍♀	naag dambi-baarto ah jidh fudud	none
+🕵🏼‍♀	naag dambi-baarto ah jidh fudud oo dhexe	none
+🕵🏽‍♀	naag dambi-baarto ah jidh nooc dhexe	none
+🕵🏾‍♀	naag dambi-baarto ah jidh nooc madaw oo dhexe	none
+🕵🏿‍♀	naag dambi-baarto ah jidh madaw	none
+💂🏻	ilaaliye jidh fudud	none
+💂🏼	ilaaliye jidh fudud oo dhexe	none
+💂🏽	ilaaliye jidh nooc dhexe	none
+💂🏾	ilaaliye jidh nooc madaw oo dhexe	none
+💂🏿	ilaaliye jidh madaw	none
+💂🏻‍♂	nin illaaliye ah jidh fudud	none
+💂🏼‍♂	nin illaaliye ah jidh fudud oo dhexe	none
+💂🏽‍♂	nin illaaliye ah jidh nooc dhexe	none
+💂🏾‍♂	nin illaaliye ah jidh nooc madaw oo dhexe	none
+💂🏿‍♂	nin illaaliye ah jidh madaw	none
+💂🏻‍♀	haweeney ilaaliye ah jidh fudud	none
+💂🏼‍♀	haweeney ilaaliye ah jidh fudud oo dhexe	none
+💂🏽‍♀	haweeney ilaaliye ah jidh nooc dhexe	none
+💂🏾‍♀	haweeney ilaaliye ah jidh nooc madaw oo dhexe	none
+💂🏿‍♀	haweeney ilaaliye ah jidh madaw	none
+🥷🏻	ninja jidh fudud	none
+🥷🏼	ninja jidh fudud oo dhexe	none
+🥷🏽	ninja jidh nooc dhexe	none
+🥷🏾	ninja jidh nooc madaw oo dhexe	none
+🥷🏿	ninja jidh madaw	none
+👷🏻	shaqaale dhismo jidh fudud	none
+👷🏼	shaqaale dhismo jidh fudud oo dhexe	none
+👷🏽	shaqaale dhismo jidh nooc dhexe	none
+👷🏾	shaqaale dhismo jidh nooc madaw oo dhexe	none
+👷🏿	shaqaale dhismo jidh madaw	none
+👷🏻‍♂	nin shaqaale dhismo ah jidh fudud	none
+👷🏼‍♂	nin shaqaale dhismo ah jidh fudud oo dhexe	none
+👷🏽‍♂	nin shaqaale dhismo ah jidh nooc dhexe	none
+👷🏾‍♂	nin shaqaale dhismo ah jidh nooc madaw oo dhexe	none
+👷🏿‍♂	nin shaqaale dhismo ah jidh madaw	none
+👷🏻‍♀	naag shaqaale dhismo ah jidh fudud	none
+👷🏼‍♀	naag shaqaale dhismo ah jidh fudud oo dhexe	none
+👷🏽‍♀	naag shaqaale dhismo ah jidh nooc dhexe	none
+👷🏾‍♀	naag shaqaale dhismo ah jidh nooc madaw oo dhexe	none
+👷🏿‍♀	naag shaqaale dhismo ah jidh madaw	none
+🫅🏻	qof leh taaj jidh fudud	none
+🫅🏼	qof leh taaj jidh fudud oo dhexe	none
+🫅🏽	qof leh taaj jidh nooc dhexe	none
+🫅🏾	qof leh taaj jidh nooc madaw oo dhexe	none
+🫅🏿	qof leh taaj jidh madaw	none
+🤴🏻	boqor jidh fudud	none
+🤴🏼	boqor jidh fudud oo dhexe	none
+🤴🏽	boqor jidh nooc dhexe	none
+🤴🏾	boqor jidh nooc madaw oo dhexe	none
+🤴🏿	boqor jidh madaw	none
+👸🏻	boqorad jidh fudud	none
+👸🏼	boqorad jidh fudud oo dhexe	none
+👸🏽	boqorad jidh nooc dhexe	none
+👸🏾	boqorad jidh nooc madaw oo dhexe	none
+👸🏿	boqorad jidh madaw	none
+👳🏻	qof cammaamad xiran jidh fudud	none
+👳🏼	qof cammaamad xiran jidh fudud oo dhexe	none
+👳🏽	qof cammaamad xiran jidh nooc dhexe	none
+👳🏾	qof cammaamad xiran jidh nooc madaw oo dhexe	none
+👳🏿	qof cammaamad xiran jidh madaw	none
+👳🏻‍♂	nin cammaamad xiran jidh fudud	none
+👳🏼‍♂	nin cammaamad xiran jidh fudud oo dhexe	none
+👳🏽‍♂	nin cammaamad xiran jidh nooc dhexe	none
+👳🏾‍♂	nin cammaamad xiran jidh nooc madaw oo dhexe	none
+👳🏿‍♂	nin cammaamad xiran jidh madaw	none
+👳🏻‍♀	naag cammaamad xiran jidh fudud	none
+👳🏼‍♀	naag cammaamad xiran jidh fudud oo dhexe	none
+👳🏽‍♀	naag cammaamad xiran jidh nooc dhexe	none
+👳🏾‍♀	naag cammaamad xiran jidh nooc madaw oo dhexe	none
+👳🏿‍♀	naag cammaamad xiran jidh madaw	none
+👲🏻	nin xiran koofiyadda shiinaha jidh fudud	none
+👲🏼	nin xiran koofiyadda shiinaha jidh fudud oo dhexe	none
+👲🏽	nin xiran koofiyadda shiinaha jidh nooc dhexe	none
+👲🏾	nin xiran koofiyadda shiinaha jidh nooc madaw oo dhexe	none
+👲🏿	nin xiran koofiyadda shiinaha jidh madaw	none
+🧕🏻	naag xiran qammaar jidh fudud	none
+🧕🏼	naag xiran qammaar jidh fudud oo dhexe	none
+🧕🏽	naag xiran qammaar jidh nooc dhexe	none
+🧕🏾	naag xiran qammaar jidh nooc madaw oo dhexe	none
+🧕🏿	naag xiran qammaar jidh madaw	none
+🤵🏻	nin xiran suudka rasmiga ah jidh fudud	none
+🤵🏼	nin xiran suudka rasmiga ah jidh fudud oo dhexe	none
+🤵🏽	nin xiran suudka rasmiga ah jidh nooc dhexe	none
+🤵🏾	nin xiran suudka rasmiga ah jidh nooc madaw oo dhexe	none
+🤵🏿	nin xiran suudka rasmiga ah jidh madaw	none
+🤵🏻‍♂	nin xidhan suut ka rasmiga ah jidh fudud	none
+🤵🏼‍♂	nin xidhan suut ka rasmiga ah jidh fudud oo dhexe	none
+🤵🏽‍♂	nin xidhan suut ka rasmiga ah jidh nooc dhexe	none
+🤵🏾‍♂	nin xidhan suut ka rasmiga ah jidh nooc madaw oo dhexe	none
+🤵🏿‍♂	nin xidhan suut ka rasmiga ah jidh madaw	none
+🤵🏻‍♀	gabadh xidhan suut jidh fudud	none
+🤵🏼‍♀	gabadh xidhan suut jidh fudud oo dhexe	none
+🤵🏽‍♀	gabadh xidhan suut jidh nooc dhexe	none
+🤵🏾‍♀	gabadh xidhan suut jidh nooc madaw oo dhexe	none
+🤵🏿‍♀	gabadh xidhan suut jidh madaw	none
+👰🏻	shaqsi niqaam xidhan jidh fudud	none
+👰🏼	shaqsi niqaam xidhan jidh fudud oo dhexe	none
+👰🏽	shaqsi niqaam xidhan jidh nooc dhexe	none
+👰🏾	shaqsi niqaam xidhan jidh nooc madaw oo dhexe	none
+👰🏿	shaqsi niqaam xidhan jidh madaw	none
+👰🏻‍♂	nin niqaamaban jidh fudud	none
+👰🏼‍♂	nin niqaamaban jidh fudud oo dhexe	none
+👰🏽‍♂	nin niqaamaban jidh nooc dhexe	none
+👰🏾‍♂	nin niqaamaban jidh nooc madaw oo dhexe	none
+👰🏿‍♂	nin niqaamaban jidh madaw	none
+👰🏻‍♀	naag niqaaban jidh fudud	none
+👰🏼‍♀	naag niqaaban jidh fudud oo dhexe	none
+👰🏽‍♀	naag niqaaban jidh nooc dhexe	none
+👰🏾‍♀	naag niqaaban jidh nooc madaw oo dhexe	none
+👰🏿‍♀	naag niqaaban jidh madaw	none
+🤰🏻	haweeney uur leh jidh fudud	none
+🤰🏼	haweeney uur leh jidh fudud oo dhexe	none
+🤰🏽	haweeney uur leh jidh nooc dhexe	none
+🤰🏾	haweeney uur leh jidh nooc madaw oo dhexe	none
+🤰🏿	haweeney uur leh jidh madaw	none
+🫃🏻	nin uur leh jidh fudud	none
+🫃🏼	nin uur leh jidh fudud oo dhexe	none
+🫃🏽	nin uur leh jidh nooc dhexe	none
+🫃🏾	nin uur leh jidh nooc madaw oo dhexe	none
+🫃🏿	nin uur leh jidh madaw	none
+🫄🏻	qof uur leh jidh fudud	none
+🫄🏼	qof uur leh jidh fudud oo dhexe	none
+🫄🏽	qof uur leh jidh nooc dhexe	none
+🫄🏾	qof uur leh jidh nooc madaw oo dhexe	none
+🫄🏿	qof uur leh jidh madaw	none
+🤱🏻	naas-nuujin jidh fudud	none
+🤱🏼	naas-nuujin jidh fudud oo dhexe	none
+🤱🏽	naas-nuujin jidh nooc dhexe	none
+🤱🏾	naas-nuujin jidh nooc madaw oo dhexe	none
+🤱🏿	naas-nuujin jidh madaw	none
+👩🏻‍🍼	naag canug quudineeysa jidh fudud	none
+👩🏼‍🍼	naag canug quudineeysa jidh fudud oo dhexe	none
+👩🏽‍🍼	naag canug quudineeysa jidh nooc dhexe	none
+👩🏾‍🍼	naag canug quudineeysa jidh nooc madaw oo dhexe	none
+👩🏿‍🍼	naag canug quudineeysa jidh madaw	none
+👨🏻‍🍼	nin canug quudinaya jidh fudud	none
+👨🏼‍🍼	nin canug quudinaya jidh fudud oo dhexe	none
+👨🏽‍🍼	nin canug quudinaya jidh nooc dhexe	none
+👨🏾‍🍼	nin canug quudinaya jidh nooc madaw oo dhexe	none
+👨🏿‍🍼	nin canug quudinaya jidh madaw	none
+🧑🏻‍🍼	qof canug quudinaya jidh fudud	none
+🧑🏼‍🍼	qof canug quudinaya jidh fudud oo dhexe	none
+🧑🏽‍🍼	qof canug quudinaya jidh nooc dhexe	none
+🧑🏾‍🍼	qof canug quudinaya jidh nooc madaw oo dhexe	none
+🧑🏿‍🍼	qof canug quudinaya jidh madaw	none
+👼🏻	malaa’igta caruurta jidh fudud	none
+👼🏼	malaa’igta caruurta jidh fudud oo dhexe	none
+👼🏽	malaa’igta caruurta jidh nooc dhexe	none
+👼🏾	malaa’igta caruurta jidh nooc madaw oo dhexe	none
+👼🏿	malaa’igta caruurta jidh madaw	none
+🎅🏻	Aabaha Ciidda Masiixigga jidh fudud	none
+🎅🏼	Aabaha Ciidda Masiixigga jidh fudud oo dhexe	none
+🎅🏽	Aabaha Ciidda Masiixigga jidh nooc dhexe	none
+🎅🏾	Aabaha Ciidda Masiixigga jidh nooc madaw oo dhexe	none
+🎅🏿	Aabaha Ciidda Masiixigga jidh madaw	none
+🤶🏻	Marwada Masiixigga jidh fudud	none
+🤶🏼	Marwada Masiixigga jidh fudud oo dhexe	none
+🤶🏽	Marwada Masiixigga jidh nooc dhexe	none
+🤶🏾	Marwada Masiixigga jidh nooc madaw oo dhexe	none
+🤶🏿	Marwada Masiixigga jidh madaw	none
+🧑🏻‍🎄	mx claus jidh fudud	none
+🧑🏼‍🎄	mx claus jidh fudud oo dhexe	none
+🧑🏽‍🎄	mx claus jidh nooc dhexe	none
+🧑🏾‍🎄	mx claus jidh nooc madaw oo dhexe	none
+🧑🏿‍🎄	mx claus jidh madaw	none
+🦸🏻	halyeey ah jidh fudud	none
+🦸🏼	halyeey ah jidh fudud oo dhexe	none
+🦸🏽	halyeey ah jidh nooc dhexe	none
+🦸🏾	halyeey ah jidh nooc madaw oo dhexe	none
+🦸🏿	halyeey ah jidh madaw	none
+🦸🏻‍♂	nin halyeey ah jidh fudud	none
+🦸🏼‍♂	nin halyeey ah jidh fudud oo dhexe	none
+🦸🏽‍♂	nin halyeey ah jidh nooc dhexe	none
+🦸🏾‍♂	nin halyeey ah jidh nooc madaw oo dhexe	none
+🦸🏿‍♂	nin halyeey ah jidh madaw	none
+🦸🏻‍♀	haweeney geesinnimadeedu sareeyso jidh fudud	none
+🦸🏼‍♀	haweeney geesinnimadeedu sareeyso jidh fudud oo dhexe	none
+🦸🏽‍♀	haweeney geesinnimadeedu sareeyso jidh nooc dhexe	none
+🦸🏾‍♀	haweeney geesinnimadeedu sareeyso jidh nooc madaw oo dhexe	none
+🦸🏿‍♀	haweeney geesinnimadeedu sareeyso jidh madaw	none
+🦹🏻	qof sheyddaankiisu sareeyo jidh fudud	none
+🦹🏼	qof sheyddaankiisu sareeyo jidh fudud oo dhexe	none
+🦹🏽	qof sheyddaankiisu sareeyo jidh nooc dhexe	none
+🦹🏾	qof sheyddaankiisu sareeyo jidh nooc madaw oo dhexe	none
+🦹🏿	qof sheyddaankiisu sareeyo jidh madaw	none
+🦹🏻‍♂	nin sheyddaannimadiisu sareeyso jidh fudud	none
+🦹🏼‍♂	nin sheyddaannimadiisu sareeyso jidh fudud oo dhexe	none
+🦹🏽‍♂	nin sheyddaannimadiisu sareeyso jidh nooc dhexe	none
+🦹🏾‍♂	nin sheyddaannimadiisu sareeyso jidh nooc madaw oo dhexe	none
+🦹🏿‍♂	nin sheyddaannimadiisu sareeyso jidh madaw	none
+🦹🏻‍♀	haweeney shayddaannimadeedu sareeyso jidh fudud	none
+🦹🏼‍♀	haweeney shayddaannimadeedu sareeyso jidh fudud oo dhexe	none
+🦹🏽‍♀	haweeney shayddaannimadeedu sareeyso jidh nooc dhexe	none
+🦹🏾‍♀	haweeney shayddaannimadeedu sareeyso jidh nooc madaw oo dhexe	none
+🦹🏿‍♀	haweeney shayddaannimadeedu sareeyso jidh madaw	none
+🧙🏻	sixiroole jidh fudud	none
+🧙🏼	sixiroole jidh fudud oo dhexe	none
+🧙🏽	sixiroole jidh nooc dhexe	none
+🧙🏾	sixiroole jidh nooc madaw oo dhexe	none
+🧙🏿	sixiroole jidh madaw	none
+🧙🏻‍♂	nin xirfad u leh sixirka jidh fudud	none
+🧙🏼‍♂	nin xirfad u leh sixirka jidh fudud oo dhexe	none
+🧙🏽‍♂	nin xirfad u leh sixirka jidh nooc dhexe	none
+🧙🏾‍♂	nin xirfad u leh sixirka jidh nooc madaw oo dhexe	none
+🧙🏿‍♂	nin xirfad u leh sixirka jidh madaw	none
+🧙🏻‍♀	naag xirfad u leh sixirka jidh fudud	none
+🧙🏼‍♀	naag xirfad u leh sixirka jidh fudud oo dhexe	none
+🧙🏽‍♀	naag xirfad u leh sixirka jidh nooc dhexe	none
+🧙🏾‍♀	naag xirfad u leh sixirka jidh nooc madaw oo dhexe	none
+🧙🏿‍♀	naag xirfad u leh sixirka jidh madaw	none
+🧚🏻	qurux badan jidh fudud	none
+🧚🏼	qurux badan jidh fudud oo dhexe	none
+🧚🏽	qurux badan jidh nooc dhexe	none
+🧚🏾	qurux badan jidh nooc madaw oo dhexe	none
+🧚🏿	qurux badan jidh madaw	none
+🧚🏻‍♂	nin qurux badan jidh fudud	none
+🧚🏼‍♂	nin qurux badan jidh fudud oo dhexe	none
+🧚🏽‍♂	nin qurux badan jidh nooc dhexe	none
+🧚🏾‍♂	nin qurux badan jidh nooc madaw oo dhexe	none
+🧚🏿‍♂	nin qurux badan jidh madaw	none
+🧚🏻‍♀	naag qurux badan jidh fudud	none
+🧚🏼‍♀	naag qurux badan jidh fudud oo dhexe	none
+🧚🏽‍♀	naag qurux badan jidh nooc dhexe	none
+🧚🏾‍♀	naag qurux badan jidh nooc madaw oo dhexe	none
+🧚🏿‍♀	naag qurux badan jidh madaw	none
+🧛🏻	reer-aakhiraad dhiig cab ah jidh fudud	none
+🧛🏼	reer-aakhiraad dhiig cab ah jidh fudud oo dhexe	none
+🧛🏽	reer-aakhiraad dhiig cab ah jidh nooc dhexe	none
+🧛🏾	reer-aakhiraad dhiig cab ah jidh nooc madaw oo dhexe	none
+🧛🏿	reer-aakhiraad dhiig cab ah jidh madaw	none
+🧛🏻‍♂	nin reer-aakhiraad dhiig cab ah jidh fudud	none
+🧛🏼‍♂	nin reer-aakhiraad dhiig cab ah jidh fudud oo dhexe	none
+🧛🏽‍♂	nin reer-aakhiraad dhiig cab ah jidh nooc dhexe	none
+🧛🏾‍♂	nin reer-aakhiraad dhiig cab ah jidh nooc madaw oo dhexe	none
+🧛🏿‍♂	nin reer-aakhiraad dhiig cab ah jidh madaw	none
+🧛🏻‍♀	naag reer-aakhiraad dhiig cab ah jidh fudud	none
+🧛🏼‍♀	naag reer-aakhiraad dhiig cab ah jidh fudud oo dhexe	none
+🧛🏽‍♀	naag reer-aakhiraad dhiig cab ah jidh nooc dhexe	none
+🧛🏾‍♀	naag reer-aakhiraad dhiig cab ah jidh nooc madaw oo dhexe	none
+🧛🏿‍♀	naag reer-aakhiraad dhiig cab ah jidh madaw	none
+🧜🏻	qof cajiib ah jidh fudud	none
+🧜🏼	qof cajiib ah jidh fudud oo dhexe	none
+🧜🏽	qof cajiib ah jidh nooc dhexe	none
+🧜🏾	qof cajiib ah jidh nooc madaw oo dhexe	none
+🧜🏿	qof cajiib ah jidh madaw	none
+🧜🏻‍♂	wiilo-maanyo jidh fudud	none
+🧜🏼‍♂	wiilo-maanyo jidh fudud oo dhexe	none
+🧜🏽‍♂	wiilo-maanyo jidh nooc dhexe	none
+🧜🏾‍♂	wiilo-maanyo jidh nooc madaw oo dhexe	none
+🧜🏿‍♂	wiilo-maanyo jidh madaw	none
+🧜🏻‍♀	gabreey-maanyo jidh fudud	none
+🧜🏼‍♀	gabreey-maanyo jidh fudud oo dhexe	none
+🧜🏽‍♀	gabreey-maanyo jidh nooc dhexe	none
+🧜🏾‍♀	gabreey-maanyo jidh nooc madaw oo dhexe	none
+🧜🏿‍♀	gabreey-maanyo jidh madaw	none
+🧝🏻	ruuxaan jidh fudud	none
+🧝🏼	ruuxaan jidh fudud oo dhexe	none
+🧝🏽	ruuxaan jidh nooc dhexe	none
+🧝🏾	ruuxaan jidh nooc madaw oo dhexe	none
+🧝🏿	ruuxaan jidh madaw	none
+🧝🏻‍♂	ruuxaanta ragga jidh fudud	none
+🧝🏼‍♂	ruuxaanta ragga jidh fudud oo dhexe	none
+🧝🏽‍♂	ruuxaanta ragga jidh nooc dhexe	none
+🧝🏾‍♂	ruuxaanta ragga jidh nooc madaw oo dhexe	none
+🧝🏿‍♂	ruuxaanta ragga jidh madaw	none
+🧝🏻‍♀	ruuxaanta haweenka jidh fudud	none
+🧝🏼‍♀	ruuxaanta haweenka jidh fudud oo dhexe	none
+🧝🏽‍♀	ruuxaanta haweenka jidh nooc dhexe	none
+🧝🏾‍♀	ruuxaanta haweenka jidh nooc madaw oo dhexe	none
+🧝🏿‍♀	ruuxaanta haweenka jidh madaw	none
+💆🏻	qof loo duugayo jidh fudud	none
+💆🏼	qof loo duugayo jidh fudud oo dhexe	none
+💆🏽	qof loo duugayo jidh nooc dhexe	none
+💆🏾	qof loo duugayo jidh nooc madaw oo dhexe	none
+💆🏿	qof loo duugayo jidh madaw	none
+💆🏻‍♂	nin loo duugayo jidh fudud	none
+💆🏼‍♂	nin loo duugayo jidh fudud oo dhexe	none
+💆🏽‍♂	nin loo duugayo jidh nooc dhexe	none
+💆🏾‍♂	nin loo duugayo jidh nooc madaw oo dhexe	none
+💆🏿‍♂	nin loo duugayo jidh madaw	none
+💆🏻‍♀	haweeneey loo duugayo jidh fudud	none
+💆🏼‍♀	haweeneey loo duugayo jidh fudud oo dhexe	none
+💆🏽‍♀	haweeneey loo duugayo jidh nooc dhexe	none
+💆🏾‍♀	haweeneey loo duugayo jidh nooc madaw oo dhexe	none
+💆🏿‍♀	haweeneey loo duugayo jidh madaw	none
+💇🏻	qof timaha loo jarayo jidh fudud	none
+💇🏼	qof timaha loo jarayo jidh fudud oo dhexe	none
+💇🏽	qof timaha loo jarayo jidh nooc dhexe	none
+💇🏾	qof timaha loo jarayo jidh nooc madaw oo dhexe	none
+💇🏿	qof timaha loo jarayo jidh madaw	none
+💇🏻‍♂	nin timaha loo jarayo jidh fudud	none
+💇🏼‍♂	nin timaha loo jarayo jidh fudud oo dhexe	none
+💇🏽‍♂	nin timaha loo jarayo jidh nooc dhexe	none
+💇🏾‍♂	nin timaha loo jarayo jidh nooc madaw oo dhexe	none
+💇🏿‍♂	nin timaha loo jarayo jidh madaw	none
+💇🏻‍♀	haweeney timaha loo jarayo jidh fudud	none
+💇🏼‍♀	haweeney timaha loo jarayo jidh fudud oo dhexe	none
+💇🏽‍♀	haweeney timaha loo jarayo jidh nooc dhexe	none
+💇🏾‍♀	haweeney timaha loo jarayo jidh nooc madaw oo dhexe	none
+💇🏿‍♀	haweeney timaha loo jarayo jidh madaw	none
+🚶🏻	qof soconaya jidh fudud	none
+🚶🏼	qof soconaya jidh fudud oo dhexe	none
+🚶🏽	qof soconaya jidh nooc dhexe	none
+🚶🏾	qof soconaya jidh nooc madaw oo dhexe	none
+🚶🏿	qof soconaya jidh madaw	none
+🚶🏻‍♂	nin soconaya jidh fudud	none
+🚶🏼‍♂	nin soconaya jidh fudud oo dhexe	none
+🚶🏽‍♂	nin soconaya jidh nooc dhexe	none
+🚶🏾‍♂	nin soconaya jidh nooc madaw oo dhexe	none
+🚶🏿‍♂	nin soconaya jidh madaw	none
+🚶🏻‍♀	haweeney soconaysa jidh fudud	none
+🚶🏼‍♀	haweeney soconaysa jidh fudud oo dhexe	none
+🚶🏽‍♀	haweeney soconaysa jidh nooc dhexe	none
+🚶🏾‍♀	haweeney soconaysa jidh nooc madaw oo dhexe	none
+🚶🏿‍♀	haweeney soconaysa jidh madaw	none
+🚶‍➡	qof soconaya midig u jeeda	none
+🚶🏻‍➡	qof soconaya jidh fudud, midig u jeeda	none
+🚶🏼‍➡	qof soconaya jidh fudud oo dhexe, midig u jeeda	none
+🚶🏽‍➡	qof soconaya jidh nooc dhexe, midig u jeeda	none
+🚶🏾‍➡	qof soconaya jidh nooc madaw oo dhexe, midig u jeeda	none
+🚶🏿‍➡	qof soconaya jidh madaw, midig u jeeda	none
+🚶‍♀‍➡	haweeney soconaysa midig u jeeda	none
+🚶🏻‍♀‍➡	haweeney soconaysa jidh fudud, midig u jeeda	none
+🚶🏼‍♀‍➡	haweeney soconaysa jidh fudud oo dhexe, midig u jeeda	none
+🚶🏽‍♀‍➡	haweeney soconaysa jidh nooc dhexe, midig u jeeda	none
+🚶🏾‍♀‍➡	haweeney soconaysa jidh nooc madaw oo dhexe, midig u jeeda	none
+🚶🏿‍♀‍➡	haweeney soconaysa jidh madaw, midig u jeeda	none
+🚶‍♂‍➡	nin soconaya midig u jeeda	none
+🚶🏻‍♂‍➡	nin soconaya jidh fudud, midig u jeeda	none
+🚶🏼‍♂‍➡	nin soconaya jidh fudud oo dhexe, midig u jeeda	none
+🚶🏽‍♂‍➡	nin soconaya jidh nooc dhexe, midig u jeeda	none
+🚶🏾‍♂‍➡	nin soconaya jidh nooc madaw oo dhexe, midig u jeeda	none
+🚶🏿‍♂‍➡	nin soconaya jidh madaw, midig u jeeda	none
+🧍🏻	qof taaggan jidh fudud	none
+🧍🏼	qof taaggan jidh fudud oo dhexe	none
+🧍🏽	qof taaggan jidh nooc dhexe	none
+🧍🏾	qof taaggan jidh nooc madaw oo dhexe	none
+🧍🏿	qof taaggan jidh madaw	none
+🧍🏻‍♂	nin taaggan jidh fudud	none
+🧍🏼‍♂	nin taaggan jidh fudud oo dhexe	none
+🧍🏽‍♂	nin taaggan jidh nooc dhexe	none
+🧍🏾‍♂	nin taaggan jidh nooc madaw oo dhexe	none
+🧍🏿‍♂	nin taaggan jidh madaw	none
+🧍🏻‍♀	naag taaggan jidh fudud	none
+🧍🏼‍♀	naag taaggan jidh fudud oo dhexe	none
+🧍🏽‍♀	naag taaggan jidh nooc dhexe	none
+🧍🏾‍♀	naag taaggan jidh nooc madaw oo dhexe	none
+🧍🏿‍♀	naag taaggan jidh madaw	none
+🧎🏻	qof jilbaha dhiganaya jidh fudud	none
+🧎🏼	qof jilbaha dhiganaya jidh fudud oo dhexe	none
+🧎🏽	qof jilbaha dhiganaya jidh nooc dhexe	none
+🧎🏾	qof jilbaha dhiganaya jidh nooc madaw oo dhexe	none
+🧎🏿	qof jilbaha dhiganaya jidh madaw	none
+🧎🏻‍♂	nin jilba dhiganaya jidh fudud	none
+🧎🏼‍♂	nin jilba dhiganaya jidh fudud oo dhexe	none
+🧎🏽‍♂	nin jilba dhiganaya jidh nooc dhexe	none
+🧎🏾‍♂	nin jilba dhiganaya jidh nooc madaw oo dhexe	none
+🧎🏿‍♂	nin jilba dhiganaya jidh madaw	none
+🧎🏻‍♀	naag jilba dhiganaysa jidh fudud	none
+🧎🏼‍♀	naag jilba dhiganaysa jidh fudud oo dhexe	none
+🧎🏽‍♀	naag jilba dhiganaysa jidh nooc dhexe	none
+🧎🏾‍♀	naag jilba dhiganaysa jidh nooc madaw oo dhexe	none
+🧎🏿‍♀	naag jilba dhiganaysa jidh madaw	none
+🧎‍➡	qof jilbaha dhiganaya midig u jeeda	none
+🧎🏻‍➡	qof jilbaha dhiganaya jidh fudud, midig u jeeda	none
+🧎🏼‍➡	qof jilbaha dhiganaya jidh fudud oo dhexe, midig u jeeda	none
+🧎🏽‍➡	qof jilbaha dhiganaya jidh nooc dhexe, midig u jeeda	none
+🧎🏾‍➡	qof jilbaha dhiganaya jidh nooc madaw oo dhexe, midig u jeeda	none
+🧎🏿‍➡	qof jilbaha dhiganaya jidh madaw, midig u jeeda	none
+🧎‍♀‍➡	naag jilba dhiganaysa midig u jeeda	none
+🧎🏻‍♀‍➡	naag jilba dhiganaysa jidh fudud, midig u jeeda	none
+🧎🏼‍♀‍➡	naag jilba dhiganaysa jidh fudud oo dhexe, midig u jeeda	none
+🧎🏽‍♀‍➡	naag jilba dhiganaysa jidh nooc dhexe, midig u jeeda	none
+🧎🏾‍♀‍➡	naag jilba dhiganaysa jidh nooc madaw oo dhexe, midig u jeeda	none
+🧎🏿‍♀‍➡	naag jilba dhiganaysa jidh madaw, midig u jeeda	none
+🧎‍♂‍➡	nin jilba dhiganaya midig u jeeda	none
+🧎🏻‍♂‍➡	nin jilba dhiganaya jidh fudud, midig u jeeda	none
+🧎🏼‍♂‍➡	nin jilba dhiganaya jidh fudud oo dhexe, midig u jeeda	none
+🧎🏽‍♂‍➡	nin jilba dhiganaya jidh nooc dhexe, midig u jeeda	none
+🧎🏾‍♂‍➡	nin jilba dhiganaya jidh nooc madaw oo dhexe, midig u jeeda	none
+🧎🏿‍♂‍➡	nin jilba dhiganaya jidh madaw, midig u jeeda	none
+🧑🏻‍🦯	qof wata bakoorad cas jidh fudud	none
+🧑🏼‍🦯	qof wata bakoorad cas jidh fudud oo dhexe	none
+🧑🏽‍🦯	qof wata bakoorad cas jidh nooc dhexe	none
+🧑🏾‍🦯	qof wata bakoorad cas jidh nooc madaw oo dhexe	none
+🧑🏿‍🦯	qof wata bakoorad cas jidh madaw	none
+🧑‍🦯‍➡	qof wata bakoorad cas midig u jeeda	none
+🧑🏻‍🦯‍➡	qof wata bakoorad cas jidh fudud, midig u jeeda	none
+🧑🏼‍🦯‍➡	qof wata bakoorad cas jidh fudud oo dhexe, midig u jeeda	none
+🧑🏽‍🦯‍➡	qof wata bakoorad cas jidh nooc dhexe, midig u jeeda	none
+🧑🏾‍🦯‍➡	qof wata bakoorad cas jidh nooc madaw oo dhexe, midig u jeeda	none
+🧑🏿‍🦯‍➡	qof wata bakoorad cas jidh madaw, midig u jeeda	none
+👨🏻‍🦯	nin sita usha cad indhoolaha jidh fudud	none
+👨🏼‍🦯	nin sita usha cad indhoolaha jidh fudud oo dhexe	none
+👨🏽‍🦯	nin sita usha cad indhoolaha jidh nooc dhexe	none
+👨🏾‍🦯	nin sita usha cad indhoolaha jidh nooc madaw oo dhexe	none
+👨🏿‍🦯	nin sita usha cad indhoolaha jidh madaw	none
+👨‍🦯‍➡	nin sita usha cad indhoolaha midig u jeeda	none
+👨🏻‍🦯‍➡	nin sita usha cad indhoolaha jidh fudud, midig u jeeda	none
+👨🏼‍🦯‍➡	nin sita usha cad indhoolaha jidh fudud oo dhexe, midig u jeeda	none
+👨🏽‍🦯‍➡	nin sita usha cad indhoolaha jidh nooc dhexe, midig u jeeda	none
+👨🏾‍🦯‍➡	nin sita usha cad indhoolaha jidh nooc madaw oo dhexe, midig u jeeda	none
+👨🏿‍🦯‍➡	nin sita usha cad indhoolaha jidh madaw, midig u jeeda	none
+👩🏻‍🦯	naag sidata usha cad indhoolaha jidh fudud	none
+👩🏼‍🦯	naag sidata usha cad indhoolaha jidh fudud oo dhexe	none
+👩🏽‍🦯	naag sidata usha cad indhoolaha jidh nooc dhexe	none
+👩🏾‍🦯	naag sidata usha cad indhoolaha jidh nooc madaw oo dhexe	none
+👩🏿‍🦯	naag sidata usha cad indhoolaha jidh madaw	none
+👩‍🦯‍➡	naag sidata usha cad indhoolaha midig u jeeda	none
+👩🏻‍🦯‍➡	naag sidata usha cad indhoolaha jidh fudud, midig u jeeda	none
+👩🏼‍🦯‍➡	naag sidata usha cad indhoolaha jidh fudud oo dhexe, midig u jeeda	none
+👩🏽‍🦯‍➡	naag sidata usha cad indhoolaha jidh nooc dhexe, midig u jeeda	none
+👩🏾‍🦯‍➡	naag sidata usha cad indhoolaha jidh nooc madaw oo dhexe, midig u jeeda	none
+👩🏿‍🦯‍➡	naag sidata usha cad indhoolaha jidh madaw, midig u jeeda	none
+🧑🏻‍🦼	qof kufadhiya gaari matoor leh jidh fudud	none
+🧑🏼‍🦼	qof kufadhiya gaari matoor leh jidh fudud oo dhexe	none
+🧑🏽‍🦼	qof kufadhiya gaari matoor leh jidh nooc dhexe	none
+🧑🏾‍🦼	qof kufadhiya gaari matoor leh jidh nooc madaw oo dhexe	none
+🧑🏿‍🦼	qof kufadhiya gaari matoor leh jidh madaw	none
+🧑‍🦼‍➡	qof kufadhiya gaari matoor leh midig u jeeda	none
+🧑🏻‍🦼‍➡	qof kufadhiya gaari matoor leh jidh fudud, midig u jeeda	none
+🧑🏼‍🦼‍➡	qof kufadhiya gaari matoor leh jidh fudud oo dhexe, midig u jeeda	none
+🧑🏽‍🦼‍➡	qof kufadhiya gaari matoor leh jidh nooc dhexe, midig u jeeda	none
+🧑🏾‍🦼‍➡	qof kufadhiya gaari matoor leh jidh nooc madaw oo dhexe, midig u jeeda	none
+🧑🏿‍🦼‍➡	qof kufadhiya gaari matoor leh jidh madaw, midig u jeeda	none
+👨🏻‍🦼	nin saaran kursi curyaan matoor leh jidh fudud	none
+👨🏼‍🦼	nin saaran kursi curyaan matoor leh jidh fudud oo dhexe	none
+👨🏽‍🦼	nin saaran kursi curyaan matoor leh jidh nooc dhexe	none
+👨🏾‍🦼	nin saaran kursi curyaan matoor leh jidh nooc madaw oo dhexe	none
+👨🏿‍🦼	nin saaran kursi curyaan matoor leh jidh madaw	none
+👨‍🦼‍➡	nin saaran kursi curyaan matoor leh midig u jeeda	none
+👨🏻‍🦼‍➡	nin saaran kursi curyaan matoor leh jidh fudud, midig u jeeda	none
+👨🏼‍🦼‍➡	nin saaran kursi curyaan matoor leh jidh fudud oo dhexe, midig u jeeda	none
+👨🏽‍🦼‍➡	nin saaran kursi curyaan matoor leh jidh nooc dhexe, midig u jeeda	none
+👨🏾‍🦼‍➡	nin saaran kursi curyaan matoor leh jidh nooc madaw oo dhexe, midig u jeeda	none
+👨🏿‍🦼‍➡	nin saaran kursi curyaan matoor leh jidh madaw, midig u jeeda	none
+👩🏻‍🦼	gabadh saaran kursi curyaan matoor leh jidh fudud	none
+👩🏼‍🦼	gabadh saaran kursi curyaan matoor leh jidh fudud oo dhexe	none
+👩🏽‍🦼	gabadh saaran kursi curyaan matoor leh jidh nooc dhexe	none
+👩🏾‍🦼	gabadh saaran kursi curyaan matoor leh jidh nooc madaw oo dhexe	none
+👩🏿‍🦼	gabadh saaran kursi curyaan matoor leh jidh madaw	none
+👩‍🦼‍➡	gabadh saaran kursi curyaan matoor leh midig u jeeda	none
+👩🏻‍🦼‍➡	gabadh saaran kursi curyaan matoor leh jidh fudud, midig u jeeda	none
+👩🏼‍🦼‍➡	gabadh saaran kursi curyaan matoor leh jidh fudud oo dhexe, midig u jeeda	none
+👩🏽‍🦼‍➡	gabadh saaran kursi curyaan matoor leh jidh nooc dhexe, midig u jeeda	none
+👩🏾‍🦼‍➡	gabadh saaran kursi curyaan matoor leh jidh nooc madaw oo dhexe, midig u jeeda	none
+👩🏿‍🦼‍➡	gabadh saaran kursi curyaan matoor leh jidh madaw, midig u jeeda	none
+🧑🏻‍🦽	qof ku fadhiya gaari curyaanka gacanta jidh fudud	none
+🧑🏼‍🦽	qof ku fadhiya gaari curyaanka gacanta jidh fudud oo dhexe	none
+🧑🏽‍🦽	qof ku fadhiya gaari curyaanka gacanta jidh nooc dhexe	none
+🧑🏾‍🦽	qof ku fadhiya gaari curyaanka gacanta jidh nooc madaw oo dhexe	none
+🧑🏿‍🦽	qof ku fadhiya gaari curyaanka gacanta jidh madaw	none
+🧑‍🦽‍➡	qof ku fadhiya gaari curyaanka gacanta midig u jeeda	none
+🧑🏻‍🦽‍➡	qof ku fadhiya gaari curyaanka gacanta jidh fudud, midig u jeeda	none
+🧑🏼‍🦽‍➡	qof ku fadhiya gaari curyaanka gacanta jidh fudud oo dhexe, midig u jeeda	none
+🧑🏽‍🦽‍➡	qof ku fadhiya gaari curyaanka gacanta jidh nooc dhexe, midig u jeeda	none
+🧑🏾‍🦽‍➡	qof ku fadhiya gaari curyaanka gacanta jidh nooc madaw oo dhexe, midig u jeeda	none
+🧑🏿‍🦽‍➡	qof ku fadhiya gaari curyaanka gacanta jidh madaw, midig u jeeda	none
+👨🏻‍🦽	nin saaran kursiga curyaanka macmac ah jidh fudud	none
+👨🏼‍🦽	nin saaran kursiga curyaanka macmac ah jidh fudud oo dhexe	none
+👨🏽‍🦽	nin saaran kursiga curyaanka macmac ah jidh nooc dhexe	none
+👨🏾‍🦽	nin saaran kursiga curyaanka macmac ah jidh nooc madaw oo dhexe	none
+👨🏿‍🦽	nin saaran kursiga curyaanka macmac ah jidh madaw	none
+👨‍🦽‍➡	nin saaran kursiga curyaanka macmac ah midig u jeeda	none
+👨🏻‍🦽‍➡	nin saaran kursiga curyaanka macmac ah jidh fudud, midig u jeeda	none
+👨🏼‍🦽‍➡	nin saaran kursiga curyaanka macmac ah jidh fudud oo dhexe, midig u jeeda	none
+👨🏽‍🦽‍➡	nin saaran kursiga curyaanka macmac ah jidh nooc dhexe, midig u jeeda	none
+👨🏾‍🦽‍➡	nin saaran kursiga curyaanka macmac ah jidh nooc madaw oo dhexe, midig u jeeda	none
+👨🏿‍🦽‍➡	nin saaran kursiga curyaanka macmac ah jidh madaw, midig u jeeda	none
+👩🏻‍🦽	naag fadhida kursiga curyaanka macmal ah jidh fudud	none
+👩🏼‍🦽	naag fadhida kursiga curyaanka macmal ah jidh fudud oo dhexe	none
+👩🏽‍🦽	naag fadhida kursiga curyaanka macmal ah jidh nooc dhexe	none
+👩🏾‍🦽	naag fadhida kursiga curyaanka macmal ah jidh nooc madaw oo dhexe	none
+👩🏿‍🦽	naag fadhida kursiga curyaanka macmal ah jidh madaw	none
+👩‍🦽‍➡	naag fadhida kursiga curyaanka macmal ah midig u jeeda	none
+👩🏻‍🦽‍➡	naag fadhida kursiga curyaanka macmal ah jidh fudud, midig u jeeda	none
+👩🏼‍🦽‍➡	naag fadhida kursiga curyaanka macmal ah jidh fudud oo dhexe, midig u jeeda	none
+👩🏽‍🦽‍➡	naag fadhida kursiga curyaanka macmal ah jidh nooc dhexe, midig u jeeda	none
+👩🏾‍🦽‍➡	naag fadhida kursiga curyaanka macmal ah jidh nooc madaw oo dhexe, midig u jeeda	none
+👩🏿‍🦽‍➡	naag fadhida kursiga curyaanka macmal ah jidh madaw, midig u jeeda	none
+🏃🏻	qof ordaya jidh fudud	none
+🏃🏼	qof ordaya jidh fudud oo dhexe	none
+🏃🏽	qof ordaya jidh nooc dhexe	none
+🏃🏾	qof ordaya jidh nooc madaw oo dhexe	none
+🏃🏿	qof ordaya jidh madaw	none
+🏃🏻‍♂	nin ordaya jidh fudud	none
+🏃🏼‍♂	nin ordaya jidh fudud oo dhexe	none
+🏃🏽‍♂	nin ordaya jidh nooc dhexe	none
+🏃🏾‍♂	nin ordaya jidh nooc madaw oo dhexe	none
+🏃🏿‍♂	nin ordaya jidh madaw	none
+🏃🏻‍♀	naag ordaysa jidh fudud	none
+🏃🏼‍♀	naag ordaysa jidh fudud oo dhexe	none
+🏃🏽‍♀	naag ordaysa jidh nooc dhexe	none
+🏃🏾‍♀	naag ordaysa jidh nooc madaw oo dhexe	none
+🏃🏿‍♀	naag ordaysa jidh madaw	none
+🏃‍➡	qof ordaya midig u jeeda	none
+🏃🏻‍➡	qof ordaya jidh fudud, midig u jeeda	none
+🏃🏼‍➡	qof ordaya jidh fudud oo dhexe, midig u jeeda	none
+🏃🏽‍➡	qof ordaya jidh nooc dhexe, midig u jeeda	none
+🏃🏾‍➡	qof ordaya jidh nooc madaw oo dhexe, midig u jeeda	none
+🏃🏿‍➡	qof ordaya jidh madaw, midig u jeeda	none
+🏃‍♀‍➡	naag ordaysa midig u jeeda	none
+🏃🏻‍♀‍➡	naag ordaysa jidh fudud, midig u jeeda	none
+🏃🏼‍♀‍➡	naag ordaysa jidh fudud oo dhexe, midig u jeeda	none
+🏃🏽‍♀‍➡	naag ordaysa jidh nooc dhexe, midig u jeeda	none
+🏃🏾‍♀‍➡	naag ordaysa jidh nooc madaw oo dhexe, midig u jeeda	none
+🏃🏿‍♀‍➡	naag ordaysa jidh madaw, midig u jeeda	none
+🏃‍♂‍➡	nin ordaya midig u jeeda	none
+🏃🏻‍♂‍➡	nin ordaya jidh fudud, midig u jeeda	none
+🏃🏼‍♂‍➡	nin ordaya jidh fudud oo dhexe, midig u jeeda	none
+🏃🏽‍♂‍➡	nin ordaya jidh nooc dhexe, midig u jeeda	none
+🏃🏾‍♂‍➡	nin ordaya jidh nooc madaw oo dhexe, midig u jeeda	none
+🏃🏿‍♂‍➡	nin ordaya jidh madaw, midig u jeeda	none
+🧑🏻‍🩰	qoob ka ciyaare faneed jidh fudud	none
+🧑🏼‍🩰	qoob ka ciyaare faneed jidh fudud oo dhexe	none
+🧑🏽‍🩰	qoob ka ciyaare faneed jidh nooc dhexe	none
+🧑🏾‍🩰	qoob ka ciyaare faneed jidh nooc madaw oo dhexe	none
+🧑🏿‍🩰	qoob ka ciyaare faneed jidh madaw	none
+💃🏻	naag qoob-ka-cayaaraysa jidh fudud	none
+💃🏼	naag qoob-ka-cayaaraysa jidh fudud oo dhexe	none
+💃🏽	naag qoob-ka-cayaaraysa jidh nooc dhexe	none
+💃🏾	naag qoob-ka-cayaaraysa jidh nooc madaw oo dhexe	none
+💃🏿	naag qoob-ka-cayaaraysa jidh madaw	none
+🕺🏻	nin qoob-ka-cayaaraya jidh fudud	none
+🕺🏼	nin qoob-ka-cayaaraya jidh fudud oo dhexe	none
+🕺🏽	nin qoob-ka-cayaaraya jidh nooc dhexe	none
+🕺🏾	nin qoob-ka-cayaaraya jidh nooc madaw oo dhexe	none
+🕺🏿	nin qoob-ka-cayaaraya jidh madaw	none
+🕴🏻	nin suud xiran oo milicsanaya jidh fudud	none
+🕴🏼	nin suud xiran oo milicsanaya jidh fudud oo dhexe	none
+🕴🏽	nin suud xiran oo milicsanaya jidh nooc dhexe	none
+🕴🏾	nin suud xiran oo milicsanaya jidh nooc madaw oo dhexe	none
+🕴🏿	nin suud xiran oo milicsanaya jidh madaw	none
+👯🏻	dad leh dhaggo bakayle jidh fudud	none
+👯🏼	dad leh dhaggo bakayle jidh fudud oo dhexe	none
+👯🏽	dad leh dhaggo bakayle jidh nooc dhexe	none
+👯🏾	dad leh dhaggo bakayle jidh nooc madaw oo dhexe	none
+👯🏿	dad leh dhaggo bakayle jidh madaw	none
+👯🏻‍♂	rag leh dhaggo bakayle jidh fudud	none
+👯🏼‍♂	rag leh dhaggo bakayle jidh fudud oo dhexe	none
+👯🏽‍♂	rag leh dhaggo bakayle jidh nooc dhexe	none
+👯🏾‍♂	rag leh dhaggo bakayle jidh nooc madaw oo dhexe	none
+👯🏿‍♂	rag leh dhaggo bakayle jidh madaw	none
+👯🏻‍♀	naag leh dhaggo bakayle jidh fudud	none
+👯🏼‍♀	naag leh dhaggo bakayle jidh fudud oo dhexe	none
+👯🏽‍♀	naag leh dhaggo bakayle jidh nooc dhexe	none
+👯🏾‍♀	naag leh dhaggo bakayle jidh nooc madaw oo dhexe	none
+👯🏿‍♀	naag leh dhaggo bakayle jidh madaw	none
+🧖🏻	qof ku jira qol uummi ah jidh fudud	none
+🧖🏼	qof ku jira qol uummi ah jidh fudud oo dhexe	none
+🧖🏽	qof ku jira qol uummi ah jidh nooc dhexe	none
+🧖🏾	qof ku jira qol uummi ah jidh nooc madaw oo dhexe	none
+🧖🏿	qof ku jira qol uummi ah jidh madaw	none
+🧖🏻‍♂	nin ku jira qol uummi ah jidh fudud	none
+🧖🏼‍♂	nin ku jira qol uummi ah jidh fudud oo dhexe	none
+🧖🏽‍♂	nin ku jira qol uummi ah jidh nooc dhexe	none
+🧖🏾‍♂	nin ku jira qol uummi ah jidh nooc madaw oo dhexe	none
+🧖🏿‍♂	nin ku jira qol uummi ah jidh madaw	none
+🧖🏻‍♀	naag ku jirta qol uummi ah jidh fudud	none
+🧖🏼‍♀	naag ku jirta qol uummi ah jidh fudud oo dhexe	none
+🧖🏽‍♀	naag ku jirta qol uummi ah jidh nooc dhexe	none
+🧖🏾‍♀	naag ku jirta qol uummi ah jidh nooc madaw oo dhexe	none
+🧖🏿‍♀	naag ku jirta qol uummi ah jidh madaw	none
+🧗🏻	qof meel fuulaya jidh fudud	none
+🧗🏼	qof meel fuulaya jidh fudud oo dhexe	none
+🧗🏽	qof meel fuulaya jidh nooc dhexe	none
+🧗🏾	qof meel fuulaya jidh nooc madaw oo dhexe	none
+🧗🏿	qof meel fuulaya jidh madaw	none
+🧗🏻‍♂	nin meel fuulaya jidh fudud	none
+🧗🏼‍♂	nin meel fuulaya jidh fudud oo dhexe	none
+🧗🏽‍♂	nin meel fuulaya jidh nooc dhexe	none
+🧗🏾‍♂	nin meel fuulaya jidh nooc madaw oo dhexe	none
+🧗🏿‍♂	nin meel fuulaya jidh madaw	none
+🧗🏻‍♀	naag meel fuulaysa jidh fudud	none
+🧗🏼‍♀	naag meel fuulaysa jidh fudud oo dhexe	none
+🧗🏽‍♀	naag meel fuulaysa jidh nooc dhexe	none
+🧗🏾‍♀	naag meel fuulaysa jidh nooc madaw oo dhexe	none
+🧗🏿‍♀	naag meel fuulaysa jidh madaw	none
+🏇🏻	tartan fardoodka jidh fudud	none
+🏇🏼	tartan fardoodka jidh fudud oo dhexe	none
+🏇🏽	tartan fardoodka jidh nooc dhexe	none
+🏇🏾	tartan fardoodka jidh nooc madaw oo dhexe	none
+🏇🏿	tartan fardoodka jidh madaw	none
+🏂🏻	qofka alwaaxa barafka kula socda jidh fudud	none
+🏂🏼	qofka alwaaxa barafka kula socda jidh fudud oo dhexe	none
+🏂🏽	qofka alwaaxa barafka kula socda jidh nooc dhexe	none
+🏂🏾	qofka alwaaxa barafka kula socda jidh nooc madaw oo dhexe	none
+🏂🏿	qofka alwaaxa barafka kula socda jidh madaw	none
+🏌🏻	qof cayaaraya goolof jidh fudud	none
+🏌🏼	qof cayaaraya goolof jidh fudud oo dhexe	none
+🏌🏽	qof cayaaraya goolof jidh nooc dhexe	none
+🏌🏾	qof cayaaraya goolof jidh nooc madaw oo dhexe	none
+🏌🏿	qof cayaaraya goolof jidh madaw	none
+🏌🏻‍♂	nin cayaaraya goolof jidh fudud	none
+🏌🏼‍♂	nin cayaaraya goolof jidh fudud oo dhexe	none
+🏌🏽‍♂	nin cayaaraya goolof jidh nooc dhexe	none
+🏌🏾‍♂	nin cayaaraya goolof jidh nooc madaw oo dhexe	none
+🏌🏿‍♂	nin cayaaraya goolof jidh madaw	none
+🏌🏻‍♀	naag cayaaraysa goolof jidh fudud	none
+🏌🏼‍♀	naag cayaaraysa goolof jidh fudud oo dhexe	none
+🏌🏽‍♀	naag cayaaraysa goolof jidh nooc dhexe	none
+🏌🏾‍♀	naag cayaaraysa goolof jidh nooc madaw oo dhexe	none
+🏌🏿‍♀	naag cayaaraysa goolof jidh madaw	none
+🏄🏻	qof alwaaxa hirka biyaha kula soconaya jidh fudud	none
+🏄🏼	qof alwaaxa hirka biyaha kula soconaya jidh fudud oo dhexe	none
+🏄🏽	qof alwaaxa hirka biyaha kula soconaya jidh nooc dhexe	none
+🏄🏾	qof alwaaxa hirka biyaha kula soconaya jidh nooc madaw oo dhexe	none
+🏄🏿	qof alwaaxa hirka biyaha kula soconaya jidh madaw	none
+🏄🏻‍♂	nin alwaaxa hirka biyaha kula soconaya jidh fudud	none
+🏄🏼‍♂	nin alwaaxa hirka biyaha kula soconaya jidh fudud oo dhexe	none
+🏄🏽‍♂	nin alwaaxa hirka biyaha kula soconaya jidh nooc dhexe	none
+🏄🏾‍♂	nin alwaaxa hirka biyaha kula soconaya jidh nooc madaw oo dhexe	none
+🏄🏿‍♂	nin alwaaxa hirka biyaha kula soconaya jidh madaw	none
+🏄🏻‍♀	naag alwaaxa hirka biyaha kula soconaysa jidh fudud	none
+🏄🏼‍♀	naag alwaaxa hirka biyaha kula soconaysa jidh fudud oo dhexe	none
+🏄🏽‍♀	naag alwaaxa hirka biyaha kula soconaysa jidh nooc dhexe	none
+🏄🏾‍♀	naag alwaaxa hirka biyaha kula soconaysa jidh nooc madaw oo dhexe	none
+🏄🏿‍♀	naag alwaaxa hirka biyaha kula soconaysa jidh madaw	none
+🚣🏻	qof doon wada jidh fudud	none
+🚣🏼	qof doon wada jidh fudud oo dhexe	none
+🚣🏽	qof doon wada jidh nooc dhexe	none
+🚣🏾	qof doon wada jidh nooc madaw oo dhexe	none
+🚣🏿	qof doon wada jidh madaw	none
+🚣🏻‍♂	nin doon wada jidh fudud	none
+🚣🏼‍♂	nin doon wada jidh fudud oo dhexe	none
+🚣🏽‍♂	nin doon wada jidh nooc dhexe	none
+🚣🏾‍♂	nin doon wada jidh nooc madaw oo dhexe	none
+🚣🏿‍♂	nin doon wada jidh madaw	none
+🚣🏻‍♀	naag doon wadda jidh fudud	none
+🚣🏼‍♀	naag doon wadda jidh fudud oo dhexe	none
+🚣🏽‍♀	naag doon wadda jidh nooc dhexe	none
+🚣🏾‍♀	naag doon wadda jidh nooc madaw oo dhexe	none
+🚣🏿‍♀	naag doon wadda jidh madaw	none
+🏊🏻	qof dabaalanaya jidh fudud	none
+🏊🏼	qof dabaalanaya jidh fudud oo dhexe	none
+🏊🏽	qof dabaalanaya jidh nooc dhexe	none
+🏊🏾	qof dabaalanaya jidh nooc madaw oo dhexe	none
+🏊🏿	qof dabaalanaya jidh madaw	none
+🏊🏻‍♂	nin dabaalanaya jidh fudud	none
+🏊🏼‍♂	nin dabaalanaya jidh fudud oo dhexe	none
+🏊🏽‍♂	nin dabaalanaya jidh nooc dhexe	none
+🏊🏾‍♂	nin dabaalanaya jidh nooc madaw oo dhexe	none
+🏊🏿‍♂	nin dabaalanaya jidh madaw	none
+🏊🏻‍♀	naag dabaalanaysa jidh fudud	none
+🏊🏼‍♀	naag dabaalanaysa jidh fudud oo dhexe	none
+🏊🏽‍♀	naag dabaalanaysa jidh nooc dhexe	none
+🏊🏾‍♀	naag dabaalanaysa jidh nooc madaw oo dhexe	none
+🏊🏿‍♀	naag dabaalanaysa jidh madaw	none
+⛹🏻	qof cayaaraya kubadda boodda jidh fudud	none
+⛹🏼	qof cayaaraya kubadda boodda jidh fudud oo dhexe	none
+⛹🏽	qof cayaaraya kubadda boodda jidh nooc dhexe	none
+⛹🏾	qof cayaaraya kubadda boodda jidh nooc madaw oo dhexe	none
+⛹🏿	qof cayaaraya kubadda boodda jidh madaw	none
+⛹🏻‍♂	nin cayaaraya kubadda boodda jidh fudud	none
+⛹🏼‍♂	nin cayaaraya kubadda boodda jidh fudud oo dhexe	none
+⛹🏽‍♂	nin cayaaraya kubadda boodda jidh nooc dhexe	none
+⛹🏾‍♂	nin cayaaraya kubadda boodda jidh nooc madaw oo dhexe	none
+⛹🏿‍♂	nin cayaaraya kubadda boodda jidh madaw	none
+⛹🏻‍♀	naag cayaaraysa kubadda boodda jidh fudud	none
+⛹🏼‍♀	naag cayaaraysa kubadda boodda jidh fudud oo dhexe	none
+⛹🏽‍♀	naag cayaaraysa kubadda boodda jidh nooc dhexe	none
+⛹🏾‍♀	naag cayaaraysa kubadda boodda jidh nooc madaw oo dhexe	none
+⛹🏿‍♀	naag cayaaraysa kubadda boodda jidh madaw	none
+🏋🏻	qof qaadaya culeyska jidh fudud	none
+🏋🏼	qof qaadaya culeyska jidh fudud oo dhexe	none
+🏋🏽	qof qaadaya culeyska jidh nooc dhexe	none
+🏋🏾	qof qaadaya culeyska jidh nooc madaw oo dhexe	none
+🏋🏿	qof qaadaya culeyska jidh madaw	none
+🏋🏻‍♂	nin qaadaya culeyska jidh fudud	none
+🏋🏼‍♂	nin qaadaya culeyska jidh fudud oo dhexe	none
+🏋🏽‍♂	nin qaadaya culeyska jidh nooc dhexe	none
+🏋🏾‍♂	nin qaadaya culeyska jidh nooc madaw oo dhexe	none
+🏋🏿‍♂	nin qaadaya culeyska jidh madaw	none
+🏋🏻‍♀	naag qaadaysa culeyska jidh fudud	none
+🏋🏼‍♀	naag qaadaysa culeyska jidh fudud oo dhexe	none
+🏋🏽‍♀	naag qaadaysa culeyska jidh nooc dhexe	none
+🏋🏾‍♀	naag qaadaysa culeyska jidh nooc madaw oo dhexe	none
+🏋🏿‍♀	naag qaadaysa culeyska jidh madaw	none
+🚴🏻	qof baaskiil wada jidh fudud	none
+🚴🏼	qof baaskiil wada jidh fudud oo dhexe	none
+🚴🏽	qof baaskiil wada jidh nooc dhexe	none
+🚴🏾	qof baaskiil wada jidh nooc madaw oo dhexe	none
+🚴🏿	qof baaskiil wada jidh madaw	none
+🚴🏻‍♂	nin baaskiil wada jidh fudud	none
+🚴🏼‍♂	nin baaskiil wada jidh fudud oo dhexe	none
+🚴🏽‍♂	nin baaskiil wada jidh nooc dhexe	none
+🚴🏾‍♂	nin baaskiil wada jidh nooc madaw oo dhexe	none
+🚴🏿‍♂	nin baaskiil wada jidh madaw	none
+🚴🏻‍♀	naag baaskiil wadda jidh fudud	none
+🚴🏼‍♀	naag baaskiil wadda jidh fudud oo dhexe	none
+🚴🏽‍♀	naag baaskiil wadda jidh nooc dhexe	none
+🚴🏾‍♀	naag baaskiil wadda jidh nooc madaw oo dhexe	none
+🚴🏿‍♀	naag baaskiil wadda jidh madaw	none
+🚵🏻	qof baaskiil buur ku wada jidh fudud	none
+🚵🏼	qof baaskiil buur ku wada jidh fudud oo dhexe	none
+🚵🏽	qof baaskiil buur ku wada jidh nooc dhexe	none
+🚵🏾	qof baaskiil buur ku wada jidh nooc madaw oo dhexe	none
+🚵🏿	qof baaskiil buur ku wada jidh madaw	none
+🚵🏻‍♂	nin baaskiil buur ku wada jidh fudud	none
+🚵🏼‍♂	nin baaskiil buur ku wada jidh fudud oo dhexe	none
+🚵🏽‍♂	nin baaskiil buur ku wada jidh nooc dhexe	none
+🚵🏾‍♂	nin baaskiil buur ku wada jidh nooc madaw oo dhexe	none
+🚵🏿‍♂	nin baaskiil buur ku wada jidh madaw	none
+🚵🏻‍♀	naag baaskiil buur ku wadda jidh fudud	none
+🚵🏼‍♀	naag baaskiil buur ku wadda jidh fudud oo dhexe	none
+🚵🏽‍♀	naag baaskiil buur ku wadda jidh nooc dhexe	none
+🚵🏾‍♀	naag baaskiil buur ku wadda jidh nooc madaw oo dhexe	none
+🚵🏿‍♀	naag baaskiil buur ku wadda jidh madaw	none
+🤸🏻	qof samayanaya jimicsiga gacma saarka jidh fudud	none
+🤸🏼	qof samayanaya jimicsiga gacma saarka jidh fudud oo dhexe	none
+🤸🏽	qof samayanaya jimicsiga gacma saarka jidh nooc dhexe	none
+🤸🏾	qof samayanaya jimicsiga gacma saarka jidh nooc madaw oo dhexe	none
+🤸🏿	qof samayanaya jimicsiga gacma saarka jidh madaw	none
+🤸🏻‍♂	nin jimicsiga gacma saarka samaynaya jidh fudud	none
+🤸🏼‍♂	nin jimicsiga gacma saarka samaynaya jidh fudud oo dhexe	none
+🤸🏽‍♂	nin jimicsiga gacma saarka samaynaya jidh nooc dhexe	none
+🤸🏾‍♂	nin jimicsiga gacma saarka samaynaya jidh nooc madaw oo dhexe	none
+🤸🏿‍♂	nin jimicsiga gacma saarka samaynaya jidh madaw	none
+🤸🏻‍♀	naag jimicsanaysa jidh fudud	none
+🤸🏼‍♀	naag jimicsanaysa jidh fudud oo dhexe	none
+🤸🏽‍♀	naag jimicsanaysa jidh nooc dhexe	none
+🤸🏾‍♀	naag jimicsanaysa jidh nooc madaw oo dhexe	none
+🤸🏿‍♀	naag jimicsanaysa jidh madaw	none
+🤼🏻	dad lagdamaya jidh fudud	none
+🤼🏼	dad lagdamaya jidh fudud oo dhexe	none
+🤼🏽	dad lagdamaya jidh nooc dhexe	none
+🤼🏾	dad lagdamaya jidh nooc madaw oo dhexe	none
+🤼🏿	dad lagdamaya jidh madaw	none
+🤼🏻‍♂	rag lagdamaya jidh fudud	none
+🤼🏼‍♂	rag lagdamaya jidh fudud oo dhexe	none
+🤼🏽‍♂	rag lagdamaya jidh nooc dhexe	none
+🤼🏾‍♂	rag lagdamaya jidh nooc madaw oo dhexe	none
+🤼🏿‍♂	rag lagdamaya jidh madaw	none
+🤼🏻‍♀	naaga lagdamaya jidh fudud	none
+🤼🏼‍♀	naaga lagdamaya jidh fudud oo dhexe	none
+🤼🏽‍♀	naaga lagdamaya jidh nooc dhexe	none
+🤼🏾‍♀	naaga lagdamaya jidh nooc madaw oo dhexe	none
+🤼🏿‍♀	naaga lagdamaya jidh madaw	none
+🤽🏻	qof cayaaraya kubadda biyaha jidh fudud	none
+🤽🏼	qof cayaaraya kubadda biyaha jidh fudud oo dhexe	none
+🤽🏽	qof cayaaraya kubadda biyaha jidh nooc dhexe	none
+🤽🏾	qof cayaaraya kubadda biyaha jidh nooc madaw oo dhexe	none
+🤽🏿	qof cayaaraya kubadda biyaha jidh madaw	none
+🤽🏻‍♂	nin cayaaraya kubadda biyaha jidh fudud	none
+🤽🏼‍♂	nin cayaaraya kubadda biyaha jidh fudud oo dhexe	none
+🤽🏽‍♂	nin cayaaraya kubadda biyaha jidh nooc dhexe	none
+🤽🏾‍♂	nin cayaaraya kubadda biyaha jidh nooc madaw oo dhexe	none
+🤽🏿‍♂	nin cayaaraya kubadda biyaha jidh madaw	none
+🤽🏻‍♀	naag cayaaraysa kubadda biyaha jidh fudud	none
+🤽🏼‍♀	naag cayaaraysa kubadda biyaha jidh fudud oo dhexe	none
+🤽🏽‍♀	naag cayaaraysa kubadda biyaha jidh nooc dhexe	none
+🤽🏾‍♀	naag cayaaraysa kubadda biyaha jidh nooc madaw oo dhexe	none
+🤽🏿‍♀	naag cayaaraysa kubadda biyaha jidh madaw	none
+🤾🏻	qof cayaaraya kubadda gacanta jidh fudud	none
+🤾🏼	qof cayaaraya kubadda gacanta jidh fudud oo dhexe	none
+🤾🏽	qof cayaaraya kubadda gacanta jidh nooc dhexe	none
+🤾🏾	qof cayaaraya kubadda gacanta jidh nooc madaw oo dhexe	none
+🤾🏿	qof cayaaraya kubadda gacanta jidh madaw	none
+🤾🏻‍♂	nin cayaaraya kubadda gacanta jidh fudud	none
+🤾🏼‍♂	nin cayaaraya kubadda gacanta jidh fudud oo dhexe	none
+🤾🏽‍♂	nin cayaaraya kubadda gacanta jidh nooc dhexe	none
+🤾🏾‍♂	nin cayaaraya kubadda gacanta jidh nooc madaw oo dhexe	none
+🤾🏿‍♂	nin cayaaraya kubadda gacanta jidh madaw	none
+🤾🏻‍♀	naag cayaaraysa kubadda gacanta jidh fudud	none
+🤾🏼‍♀	naag cayaaraysa kubadda gacanta jidh fudud oo dhexe	none
+🤾🏽‍♀	naag cayaaraysa kubadda gacanta jidh nooc dhexe	none
+🤾🏾‍♀	naag cayaaraysa kubadda gacanta jidh nooc madaw oo dhexe	none
+🤾🏿‍♀	naag cayaaraysa kubadda gacanta jidh madaw	none
+🤹🏻	qof shaqo badan wada qabanaya jidh fudud	none
+🤹🏼	qof shaqo badan wada qabanaya jidh fudud oo dhexe	none
+🤹🏽	qof shaqo badan wada qabanaya jidh nooc dhexe	none
+🤹🏾	qof shaqo badan wada qabanaya jidh nooc madaw oo dhexe	none
+🤹🏿	qof shaqo badan wada qabanaya jidh madaw	none
+🤹🏻‍♂	nin hawla badan wada qabanaya jidh fudud	none
+🤹🏼‍♂	nin hawla badan wada qabanaya jidh fudud oo dhexe	none
+🤹🏽‍♂	nin hawla badan wada qabanaya jidh nooc dhexe	none
+🤹🏾‍♂	nin hawla badan wada qabanaya jidh nooc madaw oo dhexe	none
+🤹🏿‍♂	nin hawla badan wada qabanaya jidh madaw	none
+🤹🏻‍♀	naag hawla badan wada qabanaysa jidh fudud	none
+🤹🏼‍♀	naag hawla badan wada qabanaysa jidh fudud oo dhexe	none
+🤹🏽‍♀	naag hawla badan wada qabanaysa jidh nooc dhexe	none
+🤹🏾‍♀	naag hawla badan wada qabanaysa jidh nooc madaw oo dhexe	none
+🤹🏿‍♀	naag hawla badan wada qabanaysa jidh madaw	none
+🧘🏻	qof ku jira habka fadhiga luga is gudubka jidh fudud	none
+🧘🏼	qof ku jira habka fadhiga luga is gudubka jidh fudud oo dhexe	none
+🧘🏽	qof ku jira habka fadhiga luga is gudubka jidh nooc dhexe	none
+🧘🏾	qof ku jira habka fadhiga luga is gudubka jidh nooc madaw oo dhexe	none
+🧘🏿	qof ku jira habka fadhiga luga is gudubka jidh madaw	none
+🧘🏻‍♂	nin ku jira habka fadhiga luga is gudubka jidh fudud	none
+🧘🏼‍♂	nin ku jira habka fadhiga luga is gudubka jidh fudud oo dhexe	none
+🧘🏽‍♂	nin ku jira habka fadhiga luga is gudubka jidh nooc dhexe	none
+🧘🏾‍♂	nin ku jira habka fadhiga luga is gudubka jidh nooc madaw oo dhexe	none
+🧘🏿‍♂	nin ku jira habka fadhiga luga is gudubka jidh madaw	none
+🧘🏻‍♀	naag u fadhida habka luga is-gudubka jidh fudud	none
+🧘🏼‍♀	naag u fadhida habka luga is-gudubka jidh fudud oo dhexe	none
+🧘🏽‍♀	naag u fadhida habka luga is-gudubka jidh nooc dhexe	none
+🧘🏾‍♀	naag u fadhida habka luga is-gudubka jidh nooc madaw oo dhexe	none
+🧘🏿‍♀	naag u fadhida habka luga is-gudubka jidh madaw	none
+🛀🏻	qof qubeysanaya jidh fudud	none
+🛀🏼	qof qubeysanaya jidh fudud oo dhexe	none
+🛀🏽	qof qubeysanaya jidh nooc dhexe	none
+🛀🏾	qof qubeysanaya jidh nooc madaw oo dhexe	none
+🛀🏿	qof qubeysanaya jidh madaw	none
+🛌🏻	qof sariir ku jira jidh fudud	none
+🛌🏼	qof sariir ku jira jidh fudud oo dhexe	none
+🛌🏽	qof sariir ku jira jidh nooc dhexe	none
+🛌🏾	qof sariir ku jira jidh nooc madaw oo dhexe	none
+🛌🏿	qof sariir ku jira jidh madaw	none
+🧑🏻‍🤝‍🧑🏻	dad gacmaha is haysta jidh fudud	none
+🧑🏻‍🤝‍🧑🏼	dad gacmaha is haysta jidh fudud, jidh fudud oo dhexe	none
+🧑🏻‍🤝‍🧑🏽	dad gacmaha is haysta jidh fudud, jidh nooc dhexe	none
+🧑🏻‍🤝‍🧑🏾	dad gacmaha is haysta jidh fudud, jidh nooc madaw oo dhexe	none
+🧑🏻‍🤝‍🧑🏿	dad gacmaha is haysta jidh fudud, jidh madaw	none
+🧑🏼‍🤝‍🧑🏻	dad gacmaha is haysta jidh fudud oo dhexe, jidh fudud	none
+🧑🏼‍🤝‍🧑🏼	dad gacmaha is haysta jidh fudud oo dhexe	none
+🧑🏼‍🤝‍🧑🏽	dad gacmaha is haysta jidh fudud oo dhexe, jidh nooc dhexe	none
+🧑🏼‍🤝‍🧑🏾	dad gacmaha is haysta jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+🧑🏼‍🤝‍🧑🏿	dad gacmaha is haysta jidh fudud oo dhexe, jidh madaw	none
+🧑🏽‍🤝‍🧑🏻	dad gacmaha is haysta jidh nooc dhexe, jidh fudud	none
+🧑🏽‍🤝‍🧑🏼	dad gacmaha is haysta jidh nooc dhexe, jidh fudud oo dhexe	none
+🧑🏽‍🤝‍🧑🏽	dad gacmaha is haysta jidh nooc dhexe	none
+🧑🏽‍🤝‍🧑🏾	dad gacmaha is haysta jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+🧑🏽‍🤝‍🧑🏿	dad gacmaha is haysta jidh nooc dhexe, jidh madaw	none
+🧑🏾‍🤝‍🧑🏻	dad gacmaha is haysta jidh nooc madaw oo dhexe, jidh fudud	none
+🧑🏾‍🤝‍🧑🏼	dad gacmaha is haysta jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+🧑🏾‍🤝‍🧑🏽	dad gacmaha is haysta jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+🧑🏾‍🤝‍🧑🏾	dad gacmaha is haysta jidh nooc madaw oo dhexe	none
+🧑🏾‍🤝‍🧑🏿	dad gacmaha is haysta jidh nooc madaw oo dhexe, jidh madaw	none
+🧑🏿‍🤝‍🧑🏻	dad gacmaha is haysta jidh madaw, jidh fudud	none
+🧑🏿‍🤝‍🧑🏼	dad gacmaha is haysta jidh madaw, jidh fudud oo dhexe	none
+🧑🏿‍🤝‍🧑🏽	dad gacmaha is haysta jidh madaw, jidh nooc dhexe	none
+🧑🏿‍🤝‍🧑🏾	dad gacmaha is haysta jidh madaw, jidh nooc madaw oo dhexe	none
+🧑🏿‍🤝‍🧑🏿	dad gacmaha is haysta jidh madaw	none
+👭🏻	haween haysta is gacmaha jidh fudud	none
+👩🏻‍🤝‍👩🏼	haween haysta is gacmaha jidh fudud, jidh fudud oo dhexe	none
+👩🏻‍🤝‍👩🏽	haween haysta is gacmaha jidh fudud, jidh nooc dhexe	none
+👩🏻‍🤝‍👩🏾	haween haysta is gacmaha jidh fudud, jidh nooc madaw oo dhexe	none
+👩🏻‍🤝‍👩🏿	haween haysta is gacmaha jidh fudud, jidh madaw	none
+👩🏼‍🤝‍👩🏻	haween haysta is gacmaha jidh fudud oo dhexe, jidh fudud	none
+👭🏼	haween haysta is gacmaha jidh fudud oo dhexe	none
+👩🏼‍🤝‍👩🏽	haween haysta is gacmaha jidh fudud oo dhexe, jidh nooc dhexe	none
+👩🏼‍🤝‍👩🏾	haween haysta is gacmaha jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+👩🏼‍🤝‍👩🏿	haween haysta is gacmaha jidh fudud oo dhexe, jidh madaw	none
+👩🏽‍🤝‍👩🏻	haween haysta is gacmaha jidh nooc dhexe, jidh fudud	none
+👩🏽‍🤝‍👩🏼	haween haysta is gacmaha jidh nooc dhexe, jidh fudud oo dhexe	none
+👭🏽	haween haysta is gacmaha jidh nooc dhexe	none
+👩🏽‍🤝‍👩🏾	haween haysta is gacmaha jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+👩🏽‍🤝‍👩🏿	haween haysta is gacmaha jidh nooc dhexe, jidh madaw	none
+👩🏾‍🤝‍👩🏻	haween haysta is gacmaha jidh nooc madaw oo dhexe, jidh fudud	none
+👩🏾‍🤝‍👩🏼	haween haysta is gacmaha jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+👩🏾‍🤝‍👩🏽	haween haysta is gacmaha jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+👭🏾	haween haysta is gacmaha jidh nooc madaw oo dhexe	none
+👩🏾‍🤝‍👩🏿	haween haysta is gacmaha jidh nooc madaw oo dhexe, jidh madaw	none
+👩🏿‍🤝‍👩🏻	haween haysta is gacmaha jidh madaw, jidh fudud	none
+👩🏿‍🤝‍👩🏼	haween haysta is gacmaha jidh madaw, jidh fudud oo dhexe	none
+👩🏿‍🤝‍👩🏽	haween haysta is gacmaha jidh madaw, jidh nooc dhexe	none
+👩🏿‍🤝‍👩🏾	haween haysta is gacmaha jidh madaw, jidh nooc madaw oo dhexe	none
+👭🏿	haween haysta is gacmaha jidh madaw	none
+👫🏻	naag iyo nin gacmaha is haysta jidh fudud	none
+👩🏻‍🤝‍👨🏼	naag iyo nin gacmaha is haysta jidh fudud, jidh fudud oo dhexe	none
+👩🏻‍🤝‍👨🏽	naag iyo nin gacmaha is haysta jidh fudud, jidh nooc dhexe	none
+👩🏻‍🤝‍👨🏾	naag iyo nin gacmaha is haysta jidh fudud, jidh nooc madaw oo dhexe	none
+👩🏻‍🤝‍👨🏿	naag iyo nin gacmaha is haysta jidh fudud, jidh madaw	none
+👩🏼‍🤝‍👨🏻	naag iyo nin gacmaha is haysta jidh fudud oo dhexe, jidh fudud	none
+👫🏼	naag iyo nin gacmaha is haysta jidh fudud oo dhexe	none
+👩🏼‍🤝‍👨🏽	naag iyo nin gacmaha is haysta jidh fudud oo dhexe, jidh nooc dhexe	none
+👩🏼‍🤝‍👨🏾	naag iyo nin gacmaha is haysta jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+👩🏼‍🤝‍👨🏿	naag iyo nin gacmaha is haysta jidh fudud oo dhexe, jidh madaw	none
+👩🏽‍🤝‍👨🏻	naag iyo nin gacmaha is haysta jidh nooc dhexe, jidh fudud	none
+👩🏽‍🤝‍👨🏼	naag iyo nin gacmaha is haysta jidh nooc dhexe, jidh fudud oo dhexe	none
+👫🏽	naag iyo nin gacmaha is haysta jidh nooc dhexe	none
+👩🏽‍🤝‍👨🏾	naag iyo nin gacmaha is haysta jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+👩🏽‍🤝‍👨🏿	naag iyo nin gacmaha is haysta jidh nooc dhexe, jidh madaw	none
+👩🏾‍🤝‍👨🏻	naag iyo nin gacmaha is haysta jidh nooc madaw oo dhexe, jidh fudud	none
+👩🏾‍🤝‍👨🏼	naag iyo nin gacmaha is haysta jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+👩🏾‍🤝‍👨🏽	naag iyo nin gacmaha is haysta jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+👫🏾	naag iyo nin gacmaha is haysta jidh nooc madaw oo dhexe	none
+👩🏾‍🤝‍👨🏿	naag iyo nin gacmaha is haysta jidh nooc madaw oo dhexe, jidh madaw	none
+👩🏿‍🤝‍👨🏻	naag iyo nin gacmaha is haysta jidh madaw, jidh fudud	none
+👩🏿‍🤝‍👨🏼	naag iyo nin gacmaha is haysta jidh madaw, jidh fudud oo dhexe	none
+👩🏿‍🤝‍👨🏽	naag iyo nin gacmaha is haysta jidh madaw, jidh nooc dhexe	none
+👩🏿‍🤝‍👨🏾	naag iyo nin gacmaha is haysta jidh madaw, jidh nooc madaw oo dhexe	none
+👫🏿	naag iyo nin gacmaha is haysta jidh madaw	none
+👬🏻	laba nin oo gacmaha is haysta jidh fudud	none
+👨🏻‍🤝‍👨🏼	laba nin oo gacmaha is haysta jidh fudud, jidh fudud oo dhexe	none
+👨🏻‍🤝‍👨🏽	laba nin oo gacmaha is haysta jidh fudud, jidh nooc dhexe	none
+👨🏻‍🤝‍👨🏾	laba nin oo gacmaha is haysta jidh fudud, jidh nooc madaw oo dhexe	none
+👨🏻‍🤝‍👨🏿	laba nin oo gacmaha is haysta jidh fudud, jidh madaw	none
+👨🏼‍🤝‍👨🏻	laba nin oo gacmaha is haysta jidh fudud oo dhexe, jidh fudud	none
+👬🏼	laba nin oo gacmaha is haysta jidh fudud oo dhexe	none
+👨🏼‍🤝‍👨🏽	laba nin oo gacmaha is haysta jidh fudud oo dhexe, jidh nooc dhexe	none
+👨🏼‍🤝‍👨🏾	laba nin oo gacmaha is haysta jidh fudud oo dhexe, jidh nooc madaw oo dhexe	none
+👨🏼‍🤝‍👨🏿	laba nin oo gacmaha is haysta jidh fudud oo dhexe, jidh madaw	none
+👨🏽‍🤝‍👨🏻	laba nin oo gacmaha is haysta jidh nooc dhexe, jidh fudud	none
+👨🏽‍🤝‍👨🏼	laba nin oo gacmaha is haysta jidh nooc dhexe, jidh fudud oo dhexe	none
+👬🏽	laba nin oo gacmaha is haysta jidh nooc dhexe	none
+👨🏽‍🤝‍👨🏾	laba nin oo gacmaha is haysta jidh nooc dhexe, jidh nooc madaw oo dhexe	none
+👨🏽‍🤝‍👨🏿	laba nin oo gacmaha is haysta jidh nooc dhexe, jidh madaw	none
+👨🏾‍🤝‍👨🏻	laba nin oo gacmaha is haysta jidh nooc madaw oo dhexe, jidh fudud	none
+👨🏾‍🤝‍👨🏼	laba nin oo gacmaha is haysta jidh nooc madaw oo dhexe, jidh fudud oo dhexe	none
+👨🏾‍🤝‍👨🏽	laba nin oo gacmaha is haysta jidh nooc madaw oo dhexe, jidh nooc dhexe	none
+👬🏾	laba nin oo gacmaha is haysta jidh nooc madaw oo dhexe	none
+👨🏾‍🤝‍👨🏿	laba nin oo gacmaha is haysta jidh nooc madaw oo dhexe, jidh madaw	none
+👨🏿‍🤝‍👨🏻	laba nin oo gacmaha is haysta jidh madaw, jidh fudud	none
+👨🏿‍🤝‍👨🏼	laba nin oo gacmaha is haysta jidh madaw, jidh fudud oo dhexe	none
+👨🏿‍🤝‍👨🏽	laba nin oo gacmaha is haysta jidh madaw, jidh nooc dhexe	none
+👨🏿‍🤝‍👨🏾	laba nin oo gacmaha is haysta jidh madaw, jidh nooc madaw oo dhexe	none
+👬🏿	laba nin oo gacmaha is haysta jidh madaw	none
+💏🏻	shumis jidh fudud	none
+💏🏼	shumis jidh fudud oo dhexe	none
+💏🏽	shumis jidh nooc dhexe	none
+💏🏾	shumis jidh nooc madaw oo dhexe	none
+💏🏿	shumis jidh madaw	none
+👩‍❤‍💋‍👨	shumis naag, ninka	none
+👨‍❤‍💋‍👨	shumis ninka, ninka	none
+👩‍❤‍💋‍👩	shumis naag, naag	none
+💑🏻	lammaane is jecel jidh fudud	none
+💑🏼	lammaane is jecel jidh fudud oo dhexe	none
+💑🏽	lammaane is jecel jidh nooc dhexe	none
+💑🏾	lammaane is jecel jidh nooc madaw oo dhexe	none
+💑🏿	lammaane is jecel jidh madaw	none
+👩‍❤‍👨	lammaane is jecel naag, ninka	none
+👨‍❤‍👨	lammaane is jecel ninka, ninka	none
+👩‍❤‍👩	lammaane is jecel naag, naag	none
+👨‍👩‍👦	Qooys caruur ah ninka, naag, wiil	none
+👨‍👩‍👧	Qooys caruur ah ninka, naag, gabar	none
+👨‍👩‍👧‍👦	Qooys caruur ah ninka, naag, gabar, wiil	none
+👨‍👩‍👦‍👦	Qooys caruur ah ninka, naag, wiil, wiil	none
+👨‍👩‍👧‍👧	Qooys caruur ah ninka, naag, gabar, gabar	none
+👨‍👨‍👦	Qooys caruur ah ninka, ninka, wiil	none
+👨‍👨‍👧	Qooys caruur ah ninka, ninka, gabar	none
+👨‍👨‍👧‍👦	Qooys caruur ah ninka, ninka, gabar, wiil	none
+👨‍👨‍👦‍👦	Qooys caruur ah ninka, ninka, wiil, wiil	none
+👨‍👨‍👧‍👧	Qooys caruur ah ninka, ninka, gabar, gabar	none
+👩‍👩‍👦	Qooys caruur ah naag, naag, wiil	none
+👩‍👩‍👧	Qooys caruur ah naag, naag, gabar	none
+👩‍👩‍👧‍👦	Qooys caruur ah naag, naag, gabar, wiil	none
+👩‍👩‍👦‍👦	Qooys caruur ah naag, naag, wiil, wiil	none
+👩‍👩‍👧‍👧	Qooys caruur ah naag, naag, gabar, gabar	none
+👨‍👦	Qooys caruur ah ninka, wiil	none
+👨‍👦‍👦	Qooys caruur ah ninka, wiil, wiil	none
+👨‍👧	Qooys caruur ah ninka, gabar	none
+👨‍👧‍👦	Qooys caruur ah ninka, gabar, wiil	none
+👨‍👧‍👧	Qooys caruur ah ninka, gabar, gabar	none
+👩‍👦	Qooys caruur ah naag, wiil	none
+👩‍👦‍👦	Qooys caruur ah naag, wiil, wiil	none
+👩‍👧	Qooys caruur ah naag, gabar	none
+👩‍👧‍👦	Qooys caruur ah naag, gabar, wiil	none
+👩‍👧‍👧	Qooys caruur ah naag, gabar, gabar	none
+🔟	daboolka furaha 10	none
+🇦🇨	calan Jasiiradda Asensiyoon	none
+🇦🇩	calan Andora	none
+🇦🇪	calan Midawga Imaaraatka Carabta	none
+🇦🇫	calan Afgaanistaan	none
+🇦🇬	calan Antigua & Barbuuda	none
+🇦🇮	calan Anguula	none
+🇦🇱	calan Albaaniya	none
+🇦🇲	calan Armeeniya	none
+🇦🇴	calan Angoola	none
+🇦🇶	calan Antaarktika	none
+🇦🇷	calan Arjentiina	none
+🇦🇸	calan Samowa Ameerika	none
+🇦🇹	calan Awsteriya	none
+🇦🇺	calan Awstaraaliya	none
+🇦🇼	calan Aruba	none
+🇦🇽	calan Jasiiradda Aland	none
+🇦🇿	calan Asarbajan	none
+🇧🇦	calan Boosniya & Harsegofina	none
+🇧🇧	calan Baarbadoos	none
+🇧🇩	calan Bangaladhesh	none
+🇧🇪	calan Biljam	none
+🇧🇫	calan Burkiina Faaso	none
+🇧🇬	calan Bulgaariya	none
+🇧🇭	calan Baxreyn	none
+🇧🇮	calan Burundi	none
+🇧🇯	calan Biniin	none
+🇧🇱	calan St. Baathelemiy	none
+🇧🇲	calan Barmuuda	none
+🇧🇳	calan Buruneey	none
+🇧🇴	calan Boliifiya	none
+🇧🇶	calan Karibiyaan Nadarlands	none
+🇧🇷	calan Baraasiil	none
+🇧🇸	calan Bahaamas	none
+🇧🇹	calan Buutan	none
+🇧🇻	calan Buufet Island	none
+🇧🇼	calan Botuswaana	none
+🇧🇾	calan Belarus	none
+🇧🇿	calan Beliis	none
+🇨🇦	calan Kanada	none
+🇨🇨	calan Jasiiradda Kookoos	none
+🇨🇩	calan Jamhuuriyadda Dimuquraadiga Kongo	none
+🇨🇫	calan Jamhuuriyadda Afrikada Dhexe	none
+🇨🇬	calan Kongo	none
+🇨🇭	calan Swiiserlaand	none
+🇨🇮	calan Ayfori Koost	none
+🇨🇰	calan Jasiiradda Kook	none
+🇨🇱	calan Jili	none
+🇨🇲	calan Kaameruun	none
+🇨🇳	calan Shiinaha	none
+🇨🇴	calan Koloombiya	none
+🇨🇵	calan Jasiiradda Kilibarton	none
+🇨🇶	calan Sark	none
+🇨🇷	calan Costa Rica	none
+🇨🇺	calan Kuuba	none
+🇨🇻	calan Jasiiradda Kayb Faarde	none
+🇨🇼	calan Kurakaaw	none
+🇨🇽	calan Jasiiradda Kirismas	none
+🇨🇾	calan Qubrus	none
+🇨🇿	calan Jekiya	none
+🇩🇪	calan Jarmal	none
+🇩🇬	calan Diyeego Karsiya	none
+🇩🇯	calan Jabuuti	none
+🇩🇰	calan Denmark	none
+🇩🇲	calan Dominika	none
+🇩🇴	calan Jamhuuriyaddda Dominika	none
+🇩🇿	calan Aljeeriya	none
+🇪🇦	calan Seyuta & Meliila	none
+🇪🇨	calan Ikuwadoor	none
+🇪🇪	calan Estooniya	none
+🇪🇬	calan Masar	none
+🇪🇭	calan Saxaraha Galbeed	none
+🇪🇷	calan Eritreeya	none
+🇪🇸	calan Isbeyn	none
+🇪🇹	calan Itoobiya	none
+🇪🇺	calan Midowga Yurub	none
+🇫🇮	calan Finland	none
+🇫🇯	calan Fiji	none
+🇫🇰	calan Jaziiradaha Fooklaan	none
+🇫🇲	calan Mikroneesiya	none
+🇫🇴	calan Jasiiradda Faroo	none
+🇫🇷	calan Faransiis	none
+🇬🇦	calan Gaaboon	none
+🇬🇧	calan Boqortooyada Midowday	none
+🇬🇩	calan Giriinaada	none
+🇬🇪	calan Joorjiya	none
+🇬🇫	calan Faransiis Gini	none
+🇬🇬	calan Guurnsey	none
+🇬🇭	calan Gaana	none
+🇬🇮	calan Gibraltar	none
+🇬🇱	calan Greenland	none
+🇬🇲	calan Gambiya	none
+🇬🇳	calan Gini	none
+🇬🇵	calan Guadeluub	none
+🇬🇶	calan Ekuwatooriyal Gini	none
+🇬🇷	calan Giriig	none
+🇬🇸	calan Jasiiradda Joorjiyada Koonfureed & Sandwij	none
+🇬🇹	calan Guwaatamaala	none
+🇬🇺	calan Guaam	none
+🇬🇼	calan Gini-Bisaaw	none
+🇬🇾	calan Guyana	none
+🇭🇰	calan Hong Kong	none
+🇭🇲	calan Jasiiradda Haad & MakDonald	none
+🇭🇳	calan Honduras	none
+🇭🇷	calan Korweeshiya	none
+🇭🇹	calan Haiti	none
+🇭🇺	calan Hangari	none
+🇮🇨	calan Jasiiradda Kanari	none
+🇮🇩	calan Indoneesiya	none
+🇮🇪	calan Ayrlaand	none
+🇮🇱	calan Israaʼiil	none
+🇮🇲	calan Jasiiradda Isle of Man	none
+🇮🇳	calan Hindiya	none
+🇮🇴	calan Dhul xadeedka Badweynta Hindiya ee Ingiriiska	none
+🇮🇶	calan Ciraaq	none
+🇮🇷	calan Iiraan	none
+🇮🇸	calan Ayslaand	none
+🇮🇹	calan Talyaani	none
+🇯🇪	calan Jaarsey	none
+🇯🇲	calan Jamaaika	none
+🇯🇴	calan Urdun	none
+🇯🇵	calan Jabaan	none
+🇰🇪	calan Kenya	none
+🇰🇬	calan Kirgistaan	none
+🇰🇭	calan Kamboodiya	none
+🇰🇮	calan Kiribati	none
+🇰🇲	calan Komooros	none
+🇰🇳	calan St. Kitts iyo Nevis	none
+🇰🇵	calan Kuuriyada Waqooyi	none
+🇰🇷	calan Kuuriyada Koonfureed	none
+🇰🇼	calan Kuwayt	none
+🇰🇾	calan Cayman Islands	none
+🇰🇿	calan Kasaakhistaan	none
+🇱🇦	calan Laos	none
+🇱🇧	calan Lubnaan	none
+🇱🇨	calan St. Lusia	none
+🇱🇮	calan Liyjtensteyn	none
+🇱🇰	calan Sirilaanka	none
+🇱🇷	calan Laybeeriya	none
+🇱🇸	calan Losooto	none
+🇱🇹	calan Lituweeniya	none
+🇱🇺	calan Luksemboorg	none
+🇱🇻	calan Latfiya	none
+🇱🇾	calan Liibya	none
+🇲🇦	calan Morooko	none
+🇲🇨	calan Moonako	none
+🇲🇩	calan Moldofa	none
+🇲🇪	calan Moontenegro	none
+🇲🇫	calan St. Maartin	none
+🇲🇬	calan Madagaskar	none
+🇲🇭	calan Jasiiradda Maarshal	none
+🇲🇰	calan Masedooniya Waqooyi	none
+🇲🇱	calan Maali	none
+🇲🇲	calan Mayanmar	none
+🇲🇳	calan Mongooliya	none
+🇲🇴	calan Makaaw	none
+🇲🇵	calan Jasiiradda Waqooyiga Mariaana	none
+🇲🇶	calan Maartinik	none
+🇲🇷	calan Muritaaniya	none
+🇲🇸	calan Montserrat	none
+🇲🇹	calan Maalta	none
+🇲🇺	calan Mawrishiyaas	none
+🇲🇻	calan Maaldiifis	none
+🇲🇼	calan Malaawi	none
+🇲🇽	calan Meksiko	none
+🇲🇾	calan Malaysiya	none
+🇲🇿	calan Musambiik	none
+🇳🇦	calan Namiibiya	none
+🇳🇨	calan Jasiiradda Niyuu Kaledooniya	none
+🇳🇪	calan Nayjer	none
+🇳🇫	calan Jasiiradda Noorfolk	none
+🇳🇬	calan Nayjeeriya	none
+🇳🇮	calan Nikaraaguwa	none
+🇳🇱	calan Nederlaands	none
+🇳🇴	calan Noorweey	none
+🇳🇵	calan Nebaal	none
+🇳🇷	calan Nauru	none
+🇳🇺	calan Niue	none
+🇳🇿	calan Niyuusiilaand	none
+🇴🇲	calan Cumaan	none
+🇵🇦	calan Baanama	none
+🇵🇪	calan Beeru	none
+🇵🇫	calan Booliyneesiya Faransiiska	none
+🇵🇬	calan Babwa Niyuu Gini	none
+🇵🇭	calan Filibiin	none
+🇵🇰	calan Bakistaan	none
+🇵🇱	calan Booland	none
+🇵🇲	calan St. Pierre iyo Miquelon	none
+🇵🇳	calan Bitkairn	none
+🇵🇷	calan Bueerto Riiko	none
+🇵🇸	calan Dhulka Falastiiniyiinta daanta galbeed iyo marinka qasa	none
+🇵🇹	calan Bortugaal	none
+🇵🇼	calan Balaaw	none
+🇵🇾	calan Baraguaay	none
+🇶🇦	calan Qadar	none
+🇷🇪	calan Riyuuniyon	none
+🇷🇴	calan Rumaaniya	none
+🇷🇸	calan Seerbiya	none
+🇷🇺	calan Ruush	none
+🇷🇼	calan Ruwanda	none
+🇸🇦	calan Sacuudi Carabiya	none
+🇸🇧	calan Jasiiradda Solomon	none
+🇸🇨	calan Sishelis	none
+🇸🇩	calan Suudaan	none
+🇸🇪	calan Iswidhan	none
+🇸🇬	calan Singaboor	none
+🇸🇭	calan Saynt Helena	none
+🇸🇮	calan Islofeeniya	none
+🇸🇯	calan Jasiiradda Sfaldbaad & Jaan Mayen	none
+🇸🇰	calan Islofaakiya	none
+🇸🇱	calan Siraaliyoon	none
+🇸🇲	calan San Marino	none
+🇸🇳	calan Sinigaal	none
+🇸🇴	calan Soomaaliya	none
+🇸🇷	calan Surineym	none
+🇸🇸	calan Koonfur Suudaan	none
+🇸🇹	calan Sao Tome & Birincibal	none
+🇸🇻	calan El Salfadoor	none
+🇸🇽	calan Siint Maarteen	none
+🇸🇾	calan Suuriya	none
+🇸🇿	calan Eswaatiini	none
+🇹🇦	calan Tiristan da Kunha	none
+🇹🇨	calan Turks & Kaikos Island	none
+🇹🇩	calan Jaad	none
+🇹🇫	calan Dhul xadeedka Koonfureed ee Faransiiska	none
+🇹🇬	calan Toogo	none
+🇹🇭	calan Taylaand	none
+🇹🇯	calan Tajikistan	none
+🇹🇰	calan Tokelaaw	none
+🇹🇱	calan Timor-Leste	none
+🇹🇲	calan Turkmenistan	none
+🇹🇳	calan Tuniisiya	none
+🇹🇴	calan Tonga	none
+🇹🇷	calan Turki	none
+🇹🇹	calan Tirinidaad & Tobago	none
+🇹🇻	calan Tufaalu	none
+🇹🇼	calan Taywaan	none
+🇹🇿	calan Tansaaniya	none
+🇺🇦	calan Yukrayn	none
+🇺🇬	calan Ugaanda	none
+🇺🇲	calan Jasiiradaha ka baxsan Maraykanka	none
+🇺🇳	calan Qaramada Midoobay	none
+🇺🇸	calan Maraykanka	none
+🇺🇾	calan Uruguwaay	none
+🇺🇿	calan Usbakistan	none
+🇻🇦	calan Magaalada Faatikaan	none
+🇻🇨	calan St. Finsent & Girenadiins	none
+🇻🇪	calan Fenisuweela	none
+🇻🇬	calan Biritish Farjin Island	none
+🇻🇮	calan U.S Fargin Island	none
+🇻🇳	calan Fiyetnaam	none
+🇻🇺	calan Fanuaatu	none
+🇼🇫	calan Walis & Futuna	none
+🇼🇸	calan Samoowa	none
+🇽🇰	calan Koosofo	none
+🇾🇪	calan Yaman	none
+🇾🇹	calan Mayotte	none
+🇿🇦	calan Koonfur Afrika	none
+🇿🇲	calan Saambiya	none
+🇿🇼	calan Simbaabwe	none
+🏴󠁧󠁢󠁥󠁮󠁧󠁿	calan Ingiriiska	none
+🏴󠁧󠁢󠁳󠁣󠁴󠁿	calan Skotland	none
+🏴󠁧󠁢󠁷󠁬󠁳󠁿	calan Waalis	none
 ₡	Kolonka Kosta Riika	none
 ₦	Nairada Neyjeeriya	none
 ₪	Niyuu Shekelka Israaiil	none

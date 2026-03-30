@@ -222,8 +222,7 @@ int module_load(void)
 }
 
 #define ABORT(msg) g_string_append(info, msg); \
-	*status_info = info->str; \
-	g_string_free(info, 0); \
+	*status_info = g_string_free(info, 0); \
 	return -1;
 
 int module_init(char **status_info)
@@ -269,13 +268,15 @@ int module_init(char **status_info)
 
 	/* Get festival voice list */
 	festival_voice_list = festivalGetVoices(festival_info);
+	if (!festival_voice_list) {
+		ABORT("No voice list");
+	}
 
 	cache_init();
 
 	festival_speaking = 0;
 
-	*status_info = info->str;
-	g_string_free(info, 0);
+	*status_info = g_string_free(info, 0);
 
 	return 0;
 }
@@ -284,6 +285,8 @@ int module_init(char **status_info)
 
 SPDVoice **module_list_voices(void)
 {
+	g_free(festival_voice_list);
+	festival_voice_list = festivalGetVoices(festival_info);
 	return festival_voice_list;
 }
 
@@ -381,8 +384,7 @@ static SPDVoice **festivalGetVoices(FT_Info * info)
 	SPDVoice **result;
 
 	FEST_SEND_CMD("(apply append (voice-list-language-codes))");
-	festival_read_response(info, &reply);
-	if (reply == NULL) {
+	if (festival_read_response(info, &reply)) {
 		DBG("ERROR: Invalid reply for voice-list");
 		return NULL;
 	}
@@ -390,6 +392,7 @@ static SPDVoice **festivalGetVoices(FT_Info * info)
 	reply[strlen(reply) - 1] = 0;
 	DBG("Voice list reply: |%s|", reply);
 	voices = lisp_list_get_vect(reply);
+	g_free(reply);
 	if (voices == NULL) {
 		DBG("ERROR: Can't parse voice listing reply into vector");
 		return NULL;
@@ -410,7 +413,7 @@ static SPDVoice **festivalGetVoices(FT_Info * info)
 			continue;
 		else {
 			result[j] = g_malloc(sizeof(SPDVoice));
-			result[j]->name = voices[i];
+			result[j]->name = strdup(voices[i]);
 			lang = voices[i + 1];
 			if (lang && !strcmp(lang, "nil"))
 				lang = NULL;
@@ -430,6 +433,7 @@ static SPDVoice **festivalGetVoices(FT_Info * info)
 		}
 	}
 	result[j] = NULL;
+	g_strfreev(voices);
 	return result;
 }
 
@@ -472,7 +476,7 @@ void module_speak_sync(const char *festival_message, size_t bytes, SPDMessageTyp
 	int terminate = 0;
 	int first;
 
-	char *callback;
+	char *callback = NULL;
 
 	DBG("module_speak()\n");
 
@@ -667,14 +671,16 @@ void module_speak_sync(const char *festival_message, size_t bytes, SPDMessageTyp
 			if (callback != NULL) {
 				DBG("Reporting mark %s", callback);
 				module_report_index_mark (callback);
-				g_free(callback);
 				if (festival_pause_requested &&
 					!strncmp(callback,
 						INDEX_MARK_BODY,
 						INDEX_MARK_BODY_LEN)) {
 					DBG("Pause requested, pausing.");
+					g_free(callback);
 					CLEAN_UP(0, module_report_event_pause);
 				}
+				g_free(callback);
+				callback = NULL;
 				continue;
 			}
 		} else {	/* is event */
@@ -922,12 +928,12 @@ int cache_clean(size_t new_element_size)
 			return -1;
 		}
 		centry = gl->data;
-		FestivalCache.size -= centry->size;
 		DBG("Cache: Removing element with key '%s'", centry->key);
-		if (FestivalCache.size < 0) {
-			DBG("Error: Cache: FestivalCache.size < 0, this shouldn't be.");
+		if (FestivalCache.size < centry->size) {
+			DBG("Error: Cache: FestivalCache.size < centry->size, this shouldn't be.");
 			return -1;
 		}
+		FestivalCache.size -= centry->size;
 		/* Remove the data itself from the hash table */
 		g_hash_table_remove(centry->p_caches, centry->key);
 		/* Remove the associated entry in the counter list */
@@ -997,16 +1003,16 @@ int cache_insert(char *key, SPDMessageType msgtype, FT_Wave * fwave)
 	if (cache_lookup(key, msgtype, 0) != NULL)
 		return 0;
 
-	key_table = cache_gen_key(msgtype);
-
-	DBG("Cache: Inserting wave with key:'%s' into table '%s'", key,
-	    key_table);
-
 	/* Clean less used cache entries if the size would exceed max. size */
 	if ((FestivalCache.size + fwave->num_samples * sizeof(short))
 	    > (FestivalCacheMaxKBytes * 1024))
 		if (cache_clean(fwave->num_samples * sizeof(short)) != 0)
 			return -1;
+
+	key_table = cache_gen_key(msgtype);
+
+	DBG("Cache: Inserting wave with key:'%s' into table '%s'", key,
+	    key_table);
 
 	/* Select the right table according to language, voice, etc. or create a new one */
 	cache = g_hash_table_lookup(FestivalCache.caches, key_table);

@@ -1,7 +1,7 @@
 /*
  * skeleton0.c - Trivial module example
  *
- * Copyright (C) 2020-2021 Samuel Thibault <samuel.thibault@ens-lyon.org>
+ * Copyright (C) 2020-2022, 2025 Samuel Thibault <samuel.thibault@ens-lyon.org>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -39,9 +39,13 @@
 #include <espeak-ng/espeak_ng.h>
 #include <espeak-ng/speak_lib.h>
 
-#include "module_main.h"
+#include "spd_module_main.h"
 
 static int stop_requested;
+
+static char *voicetype;
+static char *voicename;
+static char *language;
 
 int module_config(const char *configfile)
 {
@@ -86,12 +90,12 @@ SPDVoice **module_list_voices(void)
 	SPDVoice **ret = malloc(3*sizeof(*ret));
 
 	ret[0] = malloc(sizeof(*(ret[0])));
-	ret[0]->name = strdup("English_(America)");
+	ret[0]->name = strdup("English (America)");
 	ret[0]->language = strdup("en");
 	ret[0]->variant = NULL;
 
 	ret[1] = malloc(sizeof(*(ret[0])));
-	ret[1]->name = strdup("French_(France)");
+	ret[1]->name = strdup("French (France)");
 	ret[1]->language = strdup("fr");
 	ret[1]->variant = NULL;
 
@@ -109,26 +113,16 @@ int module_set(const char *var, const char *val)
 	fprintf(stderr,"got var '%s' to be set to '%s'\n", var, val);
 
 	if (!strcmp(var, "voice")) {
-		/* TODO */
+		free(voicetype);
+		voicetype = strdup(val);
 		return 0;
 	} else if (!strcmp(var, "synthesis_voice")) {
-		if (strcmp(val, "NULL") != 0) {
-			result = espeak_ng_SetVoiceByName(val);
-			if (result != ENS_OK) {
-				espeak_ng_PrintStatusCodeMessage(result, stderr, NULL);
-				return -1;
-			}
-		}
+		free(voicename);
+		voicename = strdup(val);
 		return 0;
 	} else if (!strcmp(var, "language")) {
-		espeak_VOICE voice_select;
-		memset(&voice_select, 0, sizeof(voice_select));
-		voice_select.languages = val;
-		result = espeak_ng_SetVoiceByProperties(&voice_select);
-		if (result != ENS_OK) {
-			espeak_ng_PrintStatusCodeMessage(result, stderr, NULL);
-			return -1;
-		}
+		free(language);
+		language = strdup(val);
 		return 0;
 	} else if (!strcmp(var, "rate")) {
 		/* TODO */
@@ -226,11 +220,57 @@ int module_loop(void)
 	return ret;
 }
 
+static void set_voice(void)
+{
+	espeak_ng_STATUS result;
+
+	if (voicetype || language) {
+		fprintf(stderr, "setting voice type %s language %s\n", voicetype ? voicetype : "none", language ? language : "none");
+
+		espeak_VOICE voice_select;
+		memset(&voice_select, 0, sizeof(voice_select));
+
+		if (voicetype) {
+			if (!strncmp(voicetype, "male", 4)) {
+				voice_select.gender = 1;
+				voice_select.variant = atoi(voicetype+4) - 1;
+			} else if (!strncmp(voicetype, "female", 6)) {
+				voice_select.gender = 2;
+				voice_select.variant = atoi(voicetype+6) - 1;
+			} else if (!strncmp(voicetype, "child_male", 10)) {
+				voice_select.gender = 1;
+				voice_select.age = 10;
+			} else if (!strncmp(voicetype, "child_female", 12)) {
+				voice_select.gender = 2;
+				voice_select.age = 10;
+			}
+		}
+
+		if (language) {
+			voice_select.languages = language;
+		}
+
+		result = espeak_ng_SetVoiceByProperties(&voice_select);
+		if (result != ENS_OK)
+			espeak_ng_PrintStatusCodeMessage(result, stderr, NULL);
+	}
+
+	if (voicename && strcmp(voicename, "NULL") != 0) {
+		fprintf(stderr, "setting voice name %s\n", voicename);
+
+		result = espeak_ng_SetVoiceByName(voicename);
+		if (result != ENS_OK)
+			espeak_ng_PrintStatusCodeMessage(result, stderr, NULL);
+	}
+}
+
 /* Synchronous version, when the synthesis doesn't implement asynchronous
  * processing in another thread. */
 void module_speak_sync(const char *data, size_t bytes, SPDMessageType msgtype)
 {
 	stop_requested = 0;
+
+	set_voice();
 
 	module_speak_ok();
 
@@ -239,7 +279,7 @@ void module_speak_sync(const char *data, size_t bytes, SPDMessageType msgtype)
 	module_report_event_begin();
 
 	/* TODO: ideally, espeak would call a callback from times to times, so
-	 * we'd be able to call module_process_STDIN_FILENO, 0) in it so as to
+	 * we'd be able to call module_process(STDIN_FILENO, 0) in it so as to
 	 * process any stop request from the server before the end of the synth.
 	 */
 	espeak_Synth(data, strlen(data) + 1, 0, POS_CHARACTER, 0,
@@ -255,6 +295,8 @@ size_t module_pause(void)
 	fprintf(stderr, "pausing\n");
 	stop_requested = 1;
 
+	module_report_event_stop();
+
 	return 0;
 }
 
@@ -263,6 +305,8 @@ int module_stop(void)
 	/* Unsupported: Stop any current synth */
 	fprintf(stderr, "stopping\n");
 	stop_requested = 1;
+
+	module_report_event_stop();
 
 	return 0;
 }

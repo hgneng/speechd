@@ -13,7 +13,7 @@
 # Copyright (C) 2017 Colomban Wendling <cwendling@hypra.fr>
 # Copyright (C) 2017 Jan Tojnar <jtojnar@gmail.com>
 # Copyright (C) 2018 Raphaël POITEVIN <rpoitevin@hypra.fr>
-# Copyright (C) 2018-2021 Samuel Thibault <samuel.thibault@ens-lyon.org>
+# Copyright (C) 2018-2025 Samuel Thibault <samuel.thibault@ens-lyon.org>
 # Copyright (C) 2018 Alan Coopersmith <alan.coopersmith@oracle.com>
 #
 # This program is free software; you can redistribute it and/or modify it under
@@ -30,7 +30,12 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 AC_PREREQ([2.63])
-AC_INIT([speech-dispatcher], [m4_esyscmd(./git-version-gen .tarball-version)], [speechd-discuss@nongnu.org])
+m4_define([MAJOR_VERSION], [0])
+m4_define([MINOR_VERSION], [12])
+m4_define([MICRO_VERSION], [0])
+m4_define([AC_PACKAGE_VERSION],[MAJOR_VERSION.MINOR_VERSION.MICRO_VERSION])
+AC_INIT([speech-dispatcher], [AC_PACKAGE_VERSION], [speechd-discuss@nongnu.org])
+AC_USE_SYSTEM_EXTENSIONS
 AC_CONFIG_MACRO_DIRS([m4])
 AM_INIT_AUTOMAKE([foreign info-in-builddir])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES(yes)])
@@ -46,9 +51,9 @@ then
 fi
 
 # Split version number
-MAJOR_VERSION="$(./split-version.sh -ma)"
-MINOR_VERSION="$(./split-version.sh -mi)"
-MICRO_VERSION="$(./split-version.sh -mc)"
+[MAJOR_VERSION]=MAJOR_VERSION
+[MINOR_VERSION]=MINOR_VERSION
+[MICRO_VERSION]=MICRO_VERSION
 AC_SUBST([MAJOR_VERSION])
 AC_SUBST([MINOR_VERSION])
 AC_SUBST([MICRO_VERSION])
@@ -63,13 +68,53 @@ AC_PROG_INSTALL
 AC_CHECK_PROGS([HELP2MAN], [help2man])
 AM_CONDITIONAL([HAVE_HELP2MAN], [test "x$HELP2MAN" != "x"])
 
+
 # Checks for libraries.
 AC_SEARCH_LIBS([sqrt], [m], [],
 	[AC_MSG_FAILURE([Math library missing])])
 AC_SEARCH_LIBS([pthread_create], [pthread], [],
 	[AC_MSG_FAILURE([Threads library missing])])
-AC_SEARCH_LIBS([lt_dlopen], [ltdl], [],
-	[AC_MSG_FAILURE([ltdl library missing])])
+AC_CHECK_DECL([pthread_setname_np], AC_CHECK_FUNCS([pthread_setname_np]), , [#include <pthread.h>])
+AC_ARG_ENABLE([ltdl],
+	[AS_HELP_STRING([--disable-ltdl], [do not use ltdl for modules])],
+	[],
+	[enable_ltdl=check])
+
+if test x$enable_ltdl != xno;
+then
+	AC_SEARCH_LIBS([lt_dlopen], [ltdl], [use_ltdl=yes], [use_ltdl=no])
+	if test x$use_ltdl = xno ;
+	then
+		if test x$enable_ltdl = xyes ;
+		then
+			AC_MSG_FAILURE([ltdl requested but missing])
+		fi
+		enable_ltdl=no
+	fi
+fi
+
+if test x$enable_ltdl = xno;
+then
+	AC_DEFINE(USE_DLOPEN, [1], [Use dlopen rather than lt_dlopen])
+	AC_SEARCH_LIBS([dlopen], [dl], [],
+		[AC_MSG_FAILURE([dlopen missing])])
+fi
+
+if test x$enable_shared = xyes;
+then
+	default_shim=shim
+else
+	default_shim=no
+fi
+
+case "$host" in
+	*-*darwin*)
+		darwin_host=yes
+		default_shim=no
+		AC_DEFINE(DARWIN_HOST, [1], [Building for Darwin])
+		;;
+esac
+AM_CONDITIONAL(DARWIN_HOST, test "$darwin_host" = yes)
 
 PKG_CHECK_MODULES([GLIB], [glib-2.0 >= 2.36])
 AC_SUBST([GLIB_CFLAGS])
@@ -90,6 +135,8 @@ AC_SUBST([DOTCONF_LIBS])
 PKG_CHECK_MODULES([SNDFILE], [sndfile >= 1.0.2])
 AC_SUBST([SNDFILE_CFLAGS])
 AC_SUBST([SNDFILE_LIBS])
+
+PKG_CHECK_MODULES([LIBSYSTEMD], [libsystemd], [have_libsystemd=yes], [:])
 
 # Checks for header files.
 AC_CHECK_HEADERS([arpa/inet.h fcntl.h langinfo.h limits.h netdb.h])
@@ -137,6 +184,10 @@ AC_SUBST([EXTRA_SOCKET_LIBS])
 AC_SUBST([ERROR_CFLAGS])
 AC_SUBST([RDYNAMIC])
 
+AC_ARG_ENABLE([doc],
+              [AS_HELP_STRING([--disable-doc], [turn off documentation])])
+AM_CONDITIONAL(ENABLE_DOC, test "$enable_doc" != "no")
+
 # Check for python support.
 # Python 3 or greater required
 AC_ARG_ENABLE([python],
@@ -150,7 +201,7 @@ AS_IF([test $enable_python != "no"],
 			[AC_MSG_FAILURE([python 3 or greater is not available])])])])
 AM_CONDITIONAL([HAVE_PYTHON], [test $enable_python = "yes"])
 
-output_modules="cicero dummy festival generic"
+output_modules="cicero dummy festival openjtalk generic"
 # checks for output modules
 # check for espeak support
 AC_ARG_WITH([espeak],
@@ -191,10 +242,9 @@ AC_ARG_WITH([flite],
 	[with_flite=check])
 AS_IF([test $with_flite != "no"],
 	[AC_CHECK_LIB([flite], [flite_init],
-		[flite_basic="-lflite"],
+		[flite_basic="-lflite -lm"],
 		[AS_IF([test $with_flite = "yes"],
-			[AC_MSG_FAILURE([libflite is not available])])],
-		[-lm])
+			[AC_MSG_FAILURE([libflite is not available])])])
 	AC_CHECK_LIB([flite_usenglish], [usenglish_init],
 		[flite_basic="-lflite_usenglish ${flite_basic}"],
 		[AS_IF([test $with_flite = "yes"],
@@ -205,25 +255,36 @@ AS_IF([test $with_flite != "no"],
 		[AS_IF([test $with_flite = "yes"],
 			[AC_MSG_FAILURE([libflite_cmulex is not available])])],
 		[-lflite -lm])
+
 	AC_CHECK_LIB([flite_cmu_us_kal16], [register_cmu_us_kal16],
-		[with_flite=yes;
-		flite_kal="-lflite_cmu_us_kal16";
-		AC_DEFINE([HAVE_REGISTER_CMU_US_KAL16], [1],
-			[Use cmu_register_us_kal16 to register the 16-bit voice.])],
-		[AC_CHECK_LIB([flite_cmu_us_kal16], [register_cmu_us_kal],
-			[with_flite=yes;
-			flite_kal="-lflite_cmu_us_kal16"],
-			[AC_CHECK_LIB([flite_cmu_us_kal], [register_cmu_us_kal],
-				[with_flite=yes;
-				flite_kal="-lflite_cmu_us_kal"],
-				[AS_IF([test $with_flite = "yes"],
-					[AC_MSG_FAILURE([no flite voices found])])],
-				[$flite_basic -lm])],
-			[$flite_basic -lm])],
-		[$flite_basic -lm])])
+		[with_flite=yes; flite_voices="$flite_voices -lflite_cmu_us_kal16"
+		 AC_DEFINE([HAVE_REGISTER_CMU_US_KAL16], [1],
+                       [Use cmu_register_us_kal16 to register the kal 16-bit voice.])],
+		[], [$flite_basic])
+	AC_CHECK_LIB([flite_cmu_us_kal], [register_cmu_us_kal],
+		[with_flite=yes; flite_voices="$flite_voices -lflite_cmu_us_kal"
+		 AC_DEFINE([HAVE_REGISTER_CMU_US_KAL], [1],
+                       [Use cmu_register_us_kal to register the kal 8-bit voice.])],
+		[], [$flite_basic])
+	AC_CHECK_LIB([flite_cmu_us_awb], [register_cmu_us_awb],
+		[with_flite=yes; flite_voices="$flite_voices -lflite_cmu_us_awb"
+		 AC_DEFINE([HAVE_REGISTER_CMU_US_AWB], [1],
+                       [Use cmu_register_us_kal to register the awb voice.])],
+		[], [$flite_basic])
+	AC_CHECK_LIB([flite_cmu_us_rms], [register_cmu_us_rms],
+		[with_flite=yes; flite_voices="$flite_voices -lflite_cmu_us_rms"
+		 AC_DEFINE([HAVE_REGISTER_CMU_US_RMS], [1],
+                       [Use cmu_register_us_kal to register the rms voice.])],
+		[], [$flite_basic])
+	AC_CHECK_LIB([flite_cmu_us_slt], [register_cmu_us_slt],
+		[with_flite=yes; flite_voices="$flite_voices -lflite_cmu_us_slt"
+		 AC_DEFINE([HAVE_REGISTER_CMU_US_SLT], [1],
+                       [Use cmu_register_us_kal to register the slt voice.])],
+		[], [$flite_basic])
+])
 AM_CONDITIONAL([flite_support], [test $with_flite = "yes"])
 AC_SUBST([flite_basic])
-AC_SUBST([flite_kal])
+AC_SUBST([flite_voices])
 AS_IF([test $with_flite = "yes"], [output_modules="${output_modules} flite"])
 
 AC_CHECK_PROGS([FLITE], [flite])
@@ -248,10 +309,7 @@ AS_IF([test $with_ibmtts = yes -o $with_ibmtts = check],
 		ibmtts_include="-I/opt/IBM/ibmtts/inc/"],
 		[AS_IF([test $with_ibmtts = "yes"],
 			[AC_MSG_FAILURE([IBMTTS is not available])])
-		 with_ibmtts=shim])])
-if test "$with_ibmtts" = shim -a $enable_shared = no; then
-  with_ibmtts=no
-fi
+		 with_ibmtts=$default_shim])])
 AM_CONDITIONAL([ibmtts_support], [test $with_ibmtts != no])
 AM_CONDITIONAL([ibmtts_shim], [test $with_ibmtts = shim])
 AC_SUBST([ibmtts_include])
@@ -267,10 +325,7 @@ AS_IF([test $with_voxin = yes -o $with_voxin = check],
 		[with_voxin=yes],
 		[AS_IF([test "$with_voxin" = yes],
 			[AC_MSG_FAILURE([Voxin is not available])])
-		 with_voxin=shim])])
-if test "$with_voxin" = shim -a $enable_shared = no; then
-  with_voxin=no
-fi
+		 with_voxin=$default_shim])])
 AM_CONDITIONAL([voxin_support], [test "$with_voxin" != no])
 AM_CONDITIONAL([voxin_shim], [test "$with_voxin" = shim])
 AS_IF([test "$with_voxin" != no], [output_modules="${output_modules} voxin"])
@@ -311,10 +366,7 @@ AS_IF([test "$with_baratinoo" = yes -o "$with_baratinoo" = check],
 		[with_baratinoo=yes],
 		[AS_IF([test "$with_baratinoo" = yes],
 			[AC_MSG_FAILURE([Voxygen Baratinoo is not available])])
-		 with_baratinoo=shim])])
-if test "$with_baratinoo" = shim -a $enable_shared = no; then
-  with_baratinoo=no
-fi
+		 with_baratinoo=$default_shim])])
 AM_CONDITIONAL([baratinoo_support], [test "$with_baratinoo" != no])
 AM_CONDITIONAL([baratinoo_shim], [test "$with_baratinoo" = shim])
 AS_IF([test "$with_baratinoo" != no], [output_modules="${output_modules} baratinoo"])
@@ -329,14 +381,80 @@ AS_IF([test $with_kali = yes -o $with_kali = check],
 		[with_kali=yes],
 		[AS_IF([test $with_kali = "yes"],
 			[AC_MSG_FAILURE([Kali is not available])])
-		 with_kali=shim],
+		 with_kali=$default_shim],
 		[-lKGlobal -lKTrans -lKParle -lKAnalyse])])
-if test "$with_kali" = shim -a $enable_shared = no; then
-  with_kali=no
-fi
 AM_CONDITIONAL([kali_support], [test $with_kali != no])
 AM_CONDITIONAL([kali_shim], [test $with_kali = shim])
 AS_IF([test $with_kali != no], [output_modules="${output_modules} kali"])
+
+# check for piper support
+AC_ARG_WITH([piper],
+	[AS_HELP_STRING([--with-piper=/path], [include Piper support])],
+	[],
+	[with_piper=no])
+AS_IF([test $with_espeak = yes -a $with_piper != no], [
+	# We currently need various headers of piper
+	PIPER_SRC_DIR="$with_piper/src/cpp"
+	OLDCXXFLAGS="$CXXFLAGS"
+	OLDLDFLAGS="$LDFLAGS"
+	CXXFLAGS="$CXXFLAGS -I$PIPER_SRC_DIR"
+
+	AS_IF([test $with_piper != no],
+		[PKG_CHECK_MODULES([ONNXRUNTIME], [libonnxruntime], [
+				CXXFLAGS="$CXXFLAGS $ONNXRUNTIME_CFLAGS"
+				LDFLAGS="$LDFLAGS $ONNXRUNTIME_LIBS"
+			], [AC_CHECK_LIB([onnxruntime], [OrtGetApiBase],
+				[ONNXRUNTIME_LIBS="-lonnxruntime"],
+				[with_piper=no])
+			])])
+
+	AS_IF([test $with_piper != no],
+		[PKG_CHECK_MODULES([RUBBERBAND], [rubberband], [
+				CXXFLAGS="$CXXFLAGS $RUBBERBAND_CFLAGS"
+				LDFLAGS="$LDFLAGS $RUBBERBAND_LIBS"
+			], [with_piper=no])])
+
+	AC_LANG_PUSH(C++)
+	AS_IF([test $with_piper != no],
+		[AC_CHECK_LIB([piper_phonemize], [_ZN5piper19DEFAULT_PHONEME_MAPB5cxx11E],
+			[:],
+			[with_piper=no])])
+
+	AS_IF([test $with_piper != no],
+		[AC_CHECK_HEADER([json.hpp],
+			[],
+			[with_piper=no])])
+	AS_IF([test $with_piper != no],
+		[AC_CHECK_HEADER([piper.hpp],
+			[],
+			[with_piper=no])])
+	AS_IF([test $with_piper != no],
+		[AC_CHECK_HEADER([utf8.h],
+			[],
+			[with_piper=no])])
+	AS_IF([test $with_piper != no],
+		[AC_CHECK_HEADER([wavfile.hpp],
+			[],
+			[with_piper=no])])
+
+	AS_IF([test $with_piper != no],
+		# We need espeak with https://github.com/espeak-ng/espeak-ng/pull/2127 applied
+		[AC_CHECK_LIB([espeak-ng], [espeak_TextToPhonemesWithTerminator],
+			[:],
+			[with_piper=no],
+			[$ESPEAK_NG_LIBS])])
+
+	AC_LANG_POP(C++)
+	CXXFLAGS="$OLDCXXFLAGS"
+	LDFLAGS="$OLDLDFLAGS"
+])
+AM_CONDITIONAL([piper_support], [test $with_piper != no])
+AS_IF([test $with_piper != no], [output_modules="${output_modules} cxxpiper"])
+AC_SUBST([PIPER_SRC_DIR])
+AC_SUBST([ONNXRUNTIME_CFLAGS])
+AC_SUBST([ONNXRUNTIME_LIBS])
+AC_SUBST([RUBBERBAND_CFLAGS])
+AC_SUBST([RUBBERBAND_LIBS])
 
 audio_dlopen='-dlopen force'
 audio_dlopen_modules=
@@ -352,7 +470,7 @@ AC_ARG_WITH([pulse],
 	[],
 	[with_pulse=check])
 AS_IF([test $with_pulse != "no"],
-	[PKG_CHECK_MODULES([PULSE], [libpulse-simple],
+	[PKG_CHECK_MODULES([PULSE], [libpulse],
 		[with_pulse=yes
 		AS_IF([test -z "$default_audio_method"],
 			[default_audio_method=pulse])
@@ -381,6 +499,22 @@ AM_CONDITIONAL([libao_support], [test $with_libao = "yes"])
 AC_SUBST([LIBAO_CFLAGS])
 AC_SUBST([LIBAO_LIBS])
 AS_IF([test $with_libao = "yes"], [audio_methods="${audio_methods} libao"])
+
+# check for pipewire support
+AC_ARG_WITH([pipewire],
+	[AS_HELP_STRING([--with-pipewire], [include pipewire support])],
+	[],
+	[with_pipewire=check])
+AS_IF([test $with_pipewire != "no"],
+	[PKG_CHECK_MODULES([pipewire], [libpipewire-0.3],
+		[with_pipewire=yes
+		audio_dlopen_modules="$audio_dlopen_modules -dlopen ../audio/spd_pipewire.la"],
+		[AS_IF([test $with_pipewire = yes],
+			[AC_MSG_FAILURE([pipewire is not available])])])])
+AM_CONDITIONAL([pipewire_support], [test $with_pipewire = "yes"])
+AC_SUBST([pipewire_CFLAGS])
+AC_SUBST([pipewire_LIBS])
+AS_IF([test $with_pipewire = "yes"], [audio_methods="${audio_methods} pipewire"])
 
 # check for alsa support
 AC_ARG_WITH([alsa],
@@ -465,6 +599,8 @@ clientconfdir='${spdconfdir}/clients'
 AC_SUBST([clientconfdir])
 moduleconfdir='${spdconfdir}/modules'
 AC_SUBST([moduleconfdir])
+pwpuconfdir='${sysconfdir}/pipewire/pipewire-pulse.conf.d'
+AC_SUBST([pwpuconfdir])
 
 # Paths for read-only copy of configuration files:
 spdconforigdir='${datadir}/speech-dispatcher/conf'
@@ -486,7 +622,7 @@ AC_SUBST([localedatadir])
 
 # Path for module binaries:
 AC_ARG_WITH([module-bindir],
-	AS_HELP_STRING([--with-module-bindir],[Directory where to install speech-dispatcher modules (defaults to ${libdir}/speech-dispatcher-modules)]),
+	AS_HELP_STRING([--with-module-bindir],[Directory where to install speech-dispatcher modules (defaults to ${libexecdir}/speech-dispatcher-modules)]),
 	[modulebindir=$withval], [modulebindir='${libexecdir}/speech-dispatcher-modules'])
 AC_SUBST([modulebindir])
 
@@ -515,6 +651,17 @@ if test "x$with_systemdsystemunitdir" != xno; then
         AC_SUBST([systemdsystemunitdir], [$with_systemdsystemunitdir])
 fi
 AM_CONDITIONAL(HAVE_SYSTEMD, [test -n "$with_systemdsystemunitdir" -a "x$with_systemdsystemunitdir" != xno ])
+AC_ARG_WITH([systemduserunitdir],
+        AS_HELP_STRING([--with-systemduserunitdir=DIR], [Directory for systemd user service files]),
+        [], [with_systemduserunitdir=$($PKG_CONFIG --variable=systemduserunitdir systemd)])
+if test -n "$have_libsystemd" -a -n "$with_systemduserunitdir" -a "x$with_systemduserunitdir" != xno ; then
+        use_libsystemd=yes
+        AC_SUBST([systemduserunitdir], [$with_systemduserunitdir])
+        AC_DEFINE([USE_LIBSYSTEMD], [1], [Used for activation via socket])
+fi
+AM_CONDITIONAL([USE_LIBSYSTEMD], [test "x$use_libsystemd" = "xyes"])
+
+AM_CONDITIONAL(BUILD_HTML_DOC, [test "$EMAIL" = samuel.thibault@ens-lyon.org])
 
 LIB_PULSEAUDIO=""
 CFLAG_PULSEAUDIO=""
@@ -530,7 +677,8 @@ AS_IF([test "x$with_pulseaudio" != xno],
             [])])
 
 AC_CONFIG_FILES([Makefile
-		 run-speechd
+                 run-speechd
+                 run-spd-say
                  speech-dispatcher.pc
                  config/Makefile
                  config/clients/Makefile
@@ -554,7 +702,7 @@ AC_CONFIG_FILES([Makefile
                  src/modules/Makefile
                  src/server/Makefile
                  src/tests/Makefile],
-	 	[chmod +x run-speechd])
+                [chmod +x run-speechd run-spd-say])
 AC_OUTPUT
 AC_MSG_NOTICE([output modules to be built are $output_modules])
 AC_MSG_NOTICE([audio methods to be built are $audio_methods])

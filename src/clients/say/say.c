@@ -27,7 +27,10 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include <assert.h>
+#include <fcntl.h>
+#include <sys/stat.h>
 #include <semaphore.h>
 #include <errno.h>
 #include <getopt.h>
@@ -47,12 +50,12 @@
 
 #define MAX_LINELEN 16384
 
-sem_t semaphore;
+sem_t *semaphore;
 
 /* Callback for Speech Dispatcher notifications */
 void end_of_speech(size_t msg_id, size_t client_id, SPDNotificationType type)
 {
-	sem_post(&semaphore);
+	sem_post(semaphore);
 }
 
 void index_mark(size_t msg_id, size_t client_id, SPDNotificationType type, char *index_mark)
@@ -128,13 +131,13 @@ int main(int argc, char **argv)
 			printf("Invalid language!\n");
 	} else {
 		char *locale = strdup(setlocale(LC_MESSAGES, NULL));
-		char *dot = index(locale, '.');
+		char *dot = strchr(locale, '.');
 		if (dot)
 			*dot = 0;
-		char *at = index(locale, '@');
+		char *at = strchr(locale, '@');
 		if (at)
 			*at = 0;
-		char *underscore = index(locale, '_');
+		char *underscore = strchr(locale, '_');
 		if (underscore)
 			*underscore = '-';
 		if (spd_set_language(conn, locale))
@@ -160,6 +163,8 @@ int main(int argc, char **argv)
 		} else {
 			printf("Output modules not found.\n");
 		}
+
+		free_spd_modules(list);
 	}
 
 	if (voice_type != NULL) {
@@ -196,13 +201,14 @@ int main(int argc, char **argv)
 		SPDVoice **list;
 		int i;
 
-		list = spd_list_synthesis_voices(conn);
+		list = spd_list_synthesis_voices2(conn, language, NULL);
 		if (list != NULL) {
 			printf("%25s%25s%25s\n", "NAME", "LANGUAGE", "VARIANT");
 			for (i = 0; list[i]; i++) {
 				printf("%25s%25s%25s\n", list[i]->name,
 				       list[i]->language, list[i]->variant);
 			}
+			free_spd_voices(list);
 		} else {
 			printf("Failed to get voice list.\n");
 		}
@@ -281,12 +287,15 @@ int main(int argc, char **argv)
 			printf("Invalid sound_icon!\n");
 
 	if (wait_till_end) {
-		ret = sem_init(&semaphore, 0, 0);
-		if (ret < 0) {
+		char name[64];
+		snprintf(name, sizeof(name), "/speechd-say-%d", getpid());
+		semaphore = sem_open(name, O_CREAT | O_EXCL, S_IRUSR | S_IWUSR, 0);
+		if (semaphore == SEM_FAILED) {
 			fprintf(stderr, "Can't initialize semaphore: %s",
 				strerror(errno));
 			return 0;
 		}
+		sem_unlink(name);
 
 		/* Notify when the message is canceled or the speech terminates */
 		conn->callback_end = end_of_speech;
@@ -305,13 +314,13 @@ int main(int argc, char **argv)
 
 			if (err == -1) {
 				fprintf(stderr,
-					"Speech Dispatcher failed to say character");
+					"Speech Dispatcher failed to say character\n");
 				exit(1);
 			}
 
 			/* Wait till the callback is called */
 			if (wait_till_end)
-				sem_wait(&semaphore);
+				sem_wait(semaphore);
 		}
 	}
 	else if (key) {
@@ -322,13 +331,13 @@ int main(int argc, char **argv)
 
 			if (err == -1) {
 				fprintf(stderr,
-					"Speech Dispatcher failed to say key");
+					"Speech Dispatcher failed to say key\n");
 				exit(1);
 			}
 
 			/* Wait till the callback is called */
 			if (wait_till_end)
-				sem_wait(&semaphore);
+				sem_wait(semaphore);
 		}
 	}
 	else if (pipe_mode == 1) {
@@ -343,7 +352,7 @@ int main(int argc, char **argv)
 			} else {
 				spd_say(conn, spd_priority, line);
 				if (wait_till_end)
-					sem_wait(&semaphore);
+					sem_wait(semaphore);
 			}
 		}
 		free(line);
@@ -356,13 +365,13 @@ int main(int argc, char **argv)
 			    spd_sayf(conn, spd_priority, "%s", (char *)argv[optind]);
 			if (err == -1) {
 				fprintf(stderr,
-					"Speech Dispatcher failed to say message");
+					"Speech Dispatcher failed to say message\n");
 				exit(1);
 			}
 
 			/* Wait till the callback is called */
 			if (wait_till_end)
-				sem_wait(&semaphore);
+				sem_wait(semaphore);
 		}
 	}
 

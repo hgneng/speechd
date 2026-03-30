@@ -10,7 +10,7 @@ symbols:
 🏿	tmavý odstín pleti	none
 ℗	znak práv ke zvukovému záznamu	none
 ←	šipka ukazující doleva	none
-↚	přeškrutnutá šipka doleva	none
+↚	přeškrtnutá šipka doleva	none
 →	šipka ukazující doprava	none
 ↛	přeškrtnutá šipka doprava	none
 ↑	šipka ukazující nahoru	none
@@ -28,54 +28,240 @@ symbols:
 ↦	šipka vpravo od zarážky	none
 ↧	šipka dolů od zarážky	none
 ↨	šipka nahoru a dolů se základnou	none
-↫	špika doleva se smyčkou	none
-↬	špika doprava se smyčkou	none
-↭	vlnící se šipka doleva a doprava	none
-↯	cik cak šipka dolů	none
+↫	šipka doleva se smyčkou	none
+↬	šipka doprava se smyčkou	none
+↭	vlnitá šipka doleva a doprava	none
+↯	klikatá šipka dolů	none
 ↰	šipka směrem nahoru a doleva	none
 ↱	šipka směrem nahoru a doprava	none
-↲	šipka směrem dolu a doleva	none
-↳	šipka směrem dolu a doprava	none
-↴	šipka doprava a dolu	none
+↲	šipka směrem dolů a doleva	none
+↳	šipka směrem dolů a doprava	none
+↴	šipka doprava a dolů	none
 ↵	šipka dolů a doleva	none
 ↶	polokruhová šipka horní proti směru ručiček	none
 ↷	polokruhová šipka horní po směru ručiček	none
-↸	šipka směřijící na severozápad s horní zarážkou	none
+↸	šipka na severozápad s horní zarážkou	none
 ↹	šipka doleva se zarážkou nad šipkou doprava se zarážkou	none
-↺	šipka na otevřené kružnici proti směru ručiček	none
-↻	šipka na otevřené kružnici po směru ručiček	none
+↺	otevřená kruhová šipka proti směru ručiček	none
+↻	otevřená kruhová šipka po směru ručiček	none
 ↼	praporek nahoře směrem doleva	none
 ↽	praporek dole směrem doleva	none
 ↾	praporek vpravo směrem nahoru	none
 ↿	praporek vlevo směrem nahoru	none
 ⇀	praporek nahoře směrem doprava	none
 ⇁	praporek dole směrem doprava	none
-⇂	pravorek vpravo směrem dolů	none
+⇂	praporek vpravo směrem dolů	none
 ⇃	praporek vlevo směrem dolů	none
+⇄	šipka doprava nad šipkou doleva	none
 ⇅	šipky nahoru a dolů	none
 ⇆	šipka doleva nad šipkou doprava	none
+⇇	dvě šipky doleva	none
+⇈	dvě šipky nahoru	none
+⇉	dvě šipky doprava	none
+⇊	dvě šipky dolů	none
+⇋	praporek nahoře směrem doleva nad praporkem dole směrem doprava	none
+⇌	praporek nahoře směrem doprava nad praporkem dole směrem doleva	none
+⇐	zdvojená šipka doleva	none
+⇍	přeškrtnutá zdvojená šipka doleva	none
+⇑	zdvojená šipka nahoru	none
+⇒	zdvojená šipka doprava	none
+⇏	přeškrtnutá zdvojená šipka doprava	none
+⇓	zdvojená šipka dolů	none
+⇔	obousměrná zdvojená šipka	none
+⇎	přeškrtnutá obousměrná zdvojená šipka	none
+⇖	zdvojená šipka na severozápad	none
+⇗	zdvojená šipka na severovýchod	none
+⇘	zdvojená šipka na jihovýchod	none
+⇙	zdvojená šipka na jihozápad	none
+⇚	ztrojená šipka doleva	none
+⇛	ztrojená šipka doprava	none
+⇜	klikatá šipka doleva	none
+⇝	klikatá šipka doprava	none
+⇞	dvojitě přeškrtnutá šipka nahoru	none
+⇟	dvojitě přeškrtnutá šipka dolů	none
+⇠	přerušovaná šipka doleva	none
+⇡	přerušovaná šipka nahoru	none
+⇢	přerušovaná šipka doprava	none
+⇣	přerušovaná šipka dolů	none
+⇤	šipka doleva k zarážce	none
+⇥	šipka doprava k zarážce	none
+⇦	bílá šipka doleva	none
+⇧	bílá šipka nahoru	none
+⇨	bílá šipka doprava	none
+⇩	bílá šipka dolů	none
+⇪	bílá šipka nahoru se základnou	none
+⇵	šipka dolů vedle šipky nahoru	none
+∀	pro každé	none
+∂	parciální derivace	none
+∃	existuje	none
+∅	prázdná množina	none
 ∆	delta	none
 ∇	nabla	none
 ∈	prvek množiny	none
+∉	není prvkem	none
+∋	obsahuje člen	none
+∎	konec důkazu	none
+∏	součin řady	none
+∑	suma	none
+≮	ne méně než	none
 ≠	nerovná se	none
+≯	ne více než	none
 −	znaménko minus	none
 ⁻	minus jako horní index	none
+∓	minus nebo plus	none
+∕	dělicí lomítko	none
+∗	operátor hvězdička	none
+∘	operátor kroužek	none
+∙	operátor plné kolečko	none
 √	druhá odmocnina	none
+∝	je úměrné	none
 ∞	znak nekonečna	none
+∟	pravý úhel	none
+∠	úhel	none
+∣	je dělitelem	none
+∥	je rovnoběžné s	none
+∧	logický součin	none
 ∩	průnik	none
 ∪	sjednocení	none
+∫	integrál	none
+∬	dvojný integrál	none
+∮	křivkový integrál	none
+∴	proto	none
+∵	protože	none
+∶	poměr	none
+∷	vzájemný poměr	none
+∼	operátor vlnovka	none
+∽	obrácená vlnovka	none
+∾	obrácené ležaté s	none
+≃	je asymptoticky ekvivalentní	none
+≅	je shodné s	none
 ≈	rovná se přibližně	none
+≌	vše se rovná	none
+≒	je přibližně rovno nebo je obrazem	none
+≖	kroužek v rovnítku	none
 ≡	shoduje se	none
+≣	je striktně ekvivalentní	none
 ≤	je menší nebo rovno	none
 ≥	je větší nebo rovno	none
+≦	je menší než nad rovná se	none
+≧	je větší než nad rovná se	none
+≪	je mnohem menší než	none
+≫	je mnohem větší než	none
+≬	má neprázdný průnik s	none
+≳	je větší než nebo ekvivalentní	none
+≺	předchází	none
+≻	následuje	none
+⊁	nenásleduje	none
 ⊂	podmnožina	none
+⊃	je nadmnožinou	none
+⊆	je podmnožinou nebo se rovná	none
+⊇	je nadmnožinou nebo se rovná	none
+⊕	plus v kroužku	none
+⊖	minus v kroužku	none
+⊗	krát v kroužku	none
+⊘	lomeno v kroužku	none
+⊙	operátor tečka v kroužku	none
+⊚	operátor kroužek v kroužku	none
+⊛	operátor hvězdička v kroužku	none
+⊞	plus ve čtverečku	none
+⊟	minus ve čtverečku	none
+⊥	je kolmé k	none
+⊮	nevynucuje	none
+⊰	předchází v relaci	none
+⊱	následuje v relaci	none
+⋭	neobsahuje jako normální podgrupu a není rovno	none
+⊶	je originálem	none
+⊹	hermitovsky sdružená matice	none
+⊿	pravoúhlý trojúhelník	none
+⋁	n-ární logický součet	none
+⋂	n-ární průnik	none
+⋃	n-ární sjednocení	none
+⋅	operátor tečka	none
+⋆	operátor hvězda	none
+⋈	přirozené spojení relací	none
+⋒	dvojitý průnik	none
+⋘	mnohem mnohem menší než	none
+⋙	mnohem mnohem větší než	none
+⋮	svislá výpustka	none
+⋯	středová vodorovná výpustka	none
+⋰	diagonální výpustka doprava nahoru	none
+⋱	diagonální výpustka doprava dolů	none
+■	plný čtverec	none
+□	prázdný čtverec	none
+▢	prázdný čtverec se zaoblenými rohy	none
+▣	plný čtvereček v prázdném čtverci	none
+▤	čtverec s vodorovnou výplní	none
+▥	čtverec se svislou výplní	none
+▦	čtverec s kostičkovanou výplní	none
+▧	čtverec s diagonální výplní klesající zleva doprava	none
+▨	čtverec s diagonální výplní klesající zprava doleva	none
+▩	čtverec s diagonální kostičkovanou výplní	none
+▬	plný obdélník	none
+▭	prázdný obdélník	none
+▮	plný svislý obdélník	none
+▰	plný rovnoběžník	none
 ▲	vyplněný trojúhelník směřující nahoru	none
+△	prázdný trojúhelník vrcholem nahoru	none
+▴	plný trojúhelníček vrcholem nahoru	none
+▵	prázdný trojúhelníček vrcholem nahoru	none
+▷	prázdný trojúhelník vrcholem doprava	none
+▸	plný trojúhelníček vrcholem doprava	none
+▹	prázdný trojúhelníček vrcholem doprava	none
+►	plný ukazatel doprava	none
+▻	prázdný ukazatel doprava	none
 ▼	vyplněný trojúhelník směřující dolů	none
+▽	prázdný trojúhelník vrcholem dolů	none
+▾	plný trojúhelníček vrcholem dolů	none
+▿	prázdný trojúhelníček vrcholem dolů	none
+◁	prázdný trojúhelník vrcholem doleva	none
+◂	plný trojúhelníček vrcholem doleva	none
+◃	prázdný trojúhelníček vrcholem doleva	none
+◄	plný ukazatel doleva	none
+◅	prázdný ukazatel doleva	none
+◆	plný kosočtverec	none
+◇	prázdný kosočtverec	none
+◈	plný kosočtvereček v prázdném kosočtverci	none
+◉	plný kroužek v prázdném kruhu	none
 ◊	kosočtverec	none
 ○	prázdný kroužek	none
+◌	tečkovaný kruh	none
+◍	kruh se svislou výplní	none
+◎	soustředné kružnice	none
 ●	plný kroužek	none
+◐	kruh s vyplněnou levou polovinou	none
+◑	kruh s vyplněnou pravou polovinou	none
+◒	kruh s vyplněnou dolní polovinou	none
+◓	kruh s vyplněnou horní polovinou	none
+◔	kruh s vyplněnou pravou horní čtvrtinou	none
+◕	kruh s prázdnou levou horní čtvrtinou	none
+◖	plný levý půlkruh	none
+◗	plný pravý půlkruh	none
+◘	negativní kolečko	none
+◙	bílá kružnice v plném čtverci	none
+◜	levá horní čtvrtina kruhového oblouku	none
+◝	pravá horní čtvrtina kruhového oblouku	none
+◞	pravá dolní čtvrtina kruhového oblouku	none
+◟	levá dolní čtvrtina kruhového oblouku	none
+◠	horní polovina kruhového oblouku	none
+◡	dolní polovina kruhového oblouku	none
+◢	plný trojúhelník s pravým úhlem vpravo dole	none
+◣	plný trojúhelník s pravým úhlem vlevo dole	none
+◤	plný trojúhelník s pravým úhlem vlevo nahoře	none
+◥	plný trojúhelník s pravým úhlem vpravo nahoře	none
+◦	prázdné kolečko	none
 ◯	prázdný kruh	none
+◳	prázdný čtverec s pravou horní čtvrtinou	none
+◷	prázdný kruh s pravou horní čtvrtinou	none
+◿	prázdný trojúhelník s pravým úhlem vpravo dole	none
 ♪	osminová nota	none
+⨧	plus s dolním indexem dva	none
+⨯	kartézský součin	none
+⨼	vnitřní součin	none
+⩣	dvojitě podtržený logický součet	none
+⩽	je menší nebo rovno se šikmým rovnítkem	none
+⪍	je menší než nad přibližně rovno	none
+⪚	rovná se nad je větší než	none
+⪺	následuje nad není přibližně rovno	none
 ♭	bé	none
 ♯	křížek (posuvka)	none
 😀	zubící se obličej	none
@@ -88,6 +274,7 @@ symbols:
 😂	obličej slzící smíchy	none
 🙂	obličej s mírným úsměvem	none
 🙃	převrácený obličej	none
+🫠	tající obličej	none
 😉	mrkající obličej	none
 😊	smějící se obličej s usměvavýma očima	none
 😇	usmívající se obličej se svatozáří	none
@@ -108,13 +295,17 @@ symbols:
 🤑	obličej s penězi na jazyku	none
 🤗	obličej s otevřenou náručí	none
 🤭	obličej s dlaní před pusou	none
+🫢	obličej s otevřenýma očima a dlaní před pusou	none
+🫣	obličej vykukující jedním okem	none
 🤫	obličej s prstem na puse	none
 🤔	zamyšlený obličej	none
+🫡	salutující obličej	none
 🤐	obličej s pusou na zip	none
 🤨	obličej se zvednutým obočím	none
 😐	obličej s neutrálním výrazem	none
 😑	obličej bez výrazu	none
 😶	obličej bez úst	none
+🫥	obličej s tečkovaným obrysem	none
 😶‍🌫	obličej v oblacích	none
 😏	ušklíbající se obličej	none
 😒	obličej se znuděným výrazem	none
@@ -122,11 +313,15 @@ symbols:
 😬	grimasa s vyceněnými zuby	none
 😮‍💨	vydechující obličej	none
 🤥	obličej lháře	none
+🫨	třesoucí se obličej	none
+🙂‍↔	kroucení hlavou ze strany na stranu	none
+🙂‍↕	kývání hlavou nahoru a dolů	none
 😌	obličej s výrazem úlevy	none
 😔	obličej se skleslým výrazem	none
 😪	ospalý obličej	none
 🤤	slintající obličej	none
 😴	spící obličej	none
+🫩	obličej s kruhy pod očima	none
 😷	obličej s lékařskou rouškou	none
 🤒	obličej s teploměrem	none
 🤕	obličej s ovázanou hlavou	none
@@ -146,6 +341,7 @@ symbols:
 🤓	obličej šprta	none
 🧐	obličej s brýlovým monoklem	none
 😕	zmatený obličej	none
+🫤	obličej s pusou našikmo	none
 😟	ustaraný obličej	none
 🙁	mírně zamračený obličej	none
 ☹	zamračený obličej	none
@@ -153,7 +349,9 @@ symbols:
 😯	obličej se zaraženým výrazem	none
 😲	užaslý obličej	none
 😳	červenající se obličej	none
+🫪	pokřivený obličej	none
 🥺	prosebný obličej	none
+🥹	obličej se slzami na krajíčku	none
 😦	zamračený obličej s otevřenou pusou	none
 😧	obličej s úzkostným výrazem	none
 😨	ustrašený obličej	none
@@ -197,7 +395,6 @@ symbols:
 🙈	opička „nic nevidím“	none
 🙉	opička „nic neslyším“	none
 🙊	opička „nic nepovím“	none
-💋	otisk rtů	none
 💌	milostný dopis	none
 💘	srdce se šípem	none
 💝	srdce s mašlí	none
@@ -212,22 +409,26 @@ symbols:
 ❤‍🔥	hořící srdce	none
 ❤‍🩹	záplatované srdce	none
 ❤	rudé srdce	none
+🩷	růžové srdce	none
 🧡	oranžové srdce	none
 💛	žluté srdce	none
 💚	zelené srdce	none
 💙	modré srdce	none
+🩵	světlemodré srdce	none
 💜	fialové srdce	none
 🤎	hnědé srdce	none
 🖤	černé srdce	none
+🩶	šedé srdce	none
 🤍	bílé srdce	none
+💋	otisk rtů	none
 💯	sto bodů	none
 💢	japonský symbol hněvu	none
+🫯	oblak sršící hádkou	none
 💥	srážka	none
 💫	závrať	none
 💦	kapky potu	none
 💨	spěch	none
 🕳	díra	none
-💣	bomba	none
 💬	řečová bublina	none
 👁‍🗨	oko v řečové bublině	none
 🗨	levá řečová bublina	none
@@ -239,11 +440,18 @@ symbols:
 🖐	ruka s roztaženými prsty	none
 ✋	zvednutá ruka	none
 🖖	vulkánský pozdrav	none
+🫱	ruka otočená doprava	none
+🫲	ruka otočená doleva	none
+🫳	ruka otočená dlaní dolů	none
+🫴	ruka otočená dlaní vzhůru	none
+🫷	ruka tlačící vlevo	none
+🫸	ruka tlačící vpravo	none
 👌	gesto OK	none
 🤌	špetka z pěti prstů	none
 🤏	gesto „málo“	none
 ✌	gesto vítězství	none
 🤞	zkřížené prsty	none
+🫰	ruka se zkříženým palcem a ukazováčkem	none
 🤟	gesto „miluji tě“	none
 🤘	gesto parohů	none
 🤙	gesto „zavolej mi“	none
@@ -253,6 +461,7 @@ symbols:
 🖕	prostředníček	none
 👇	ruka s prstem ukazujícím dolů	none
 ☝	ruka ukazující nahoru	none
+🫵	ukazováček namířený na diváka	none
 👍	palec nahoru	none
 👎	palec dolů	none
 ✊	zvednutá pěst	none
@@ -261,6 +470,7 @@ symbols:
 🤜	pěst mířící doprava	none
 👏	tleskající ruce	none
 🙌	zvednuté ruce	none
+🫶	ruce spojené do tvaru srdce	none
 👐	rozevřené dlaně	none
 🤲	zdvižené dlaně vedle sebe	none
 🤝	stisk rukou	none
@@ -285,6 +495,7 @@ symbols:
 👁	oko	none
 👅	jazyk	none
 👄	ústa	none
+🫦	skousnutý ret	none
 👶	nemluvně	none
 🧒	dítě	none
 👦	chlapec	none
@@ -392,6 +603,7 @@ symbols:
 👷	dělník na stavbě	none
 👷‍♂	stavební dělník	none
 👷‍♀	stavební dělnice	none
+🫅	člověk s korunou na hlavě	none
 🤴	princ	none
 👸	princezna	none
 👳	člověk s turbanem	none
@@ -406,6 +618,8 @@ symbols:
 👰‍♂	muž se závojem	none
 👰‍♀	žena se závojem	none
 🤰	těhotná žena	none
+🫃	těhotný muž	none
+🫄	těhotná osoba	none
 🤱	kojení	none
 👩‍🍼	žena krmící dítě z lahve	none
 👨‍🍼	muž krmící dítě z lahve	none
@@ -441,6 +655,8 @@ symbols:
 🧟	zombie	none
 🧟‍♂	nemrtvý muž	none
 🧟‍♀	nemrtvá žena	none
+🧌	troll	none
+🫈	chlupatý tvor	none
 💆	osoba na masáži obličeje	none
 💆‍♂	muž na masáži obličeje	none
 💆‍♀	žena na masáži obličeje	none
@@ -468,6 +684,7 @@ symbols:
 🏃	běžící osoba	none
 🏃‍♂	běžící muž	none
 🏃‍♀	běžící žena	none
+🧑‍🩰	baletní tanečník	none
 💃	tanečnice	none
 🕺	tanečník	none
 🕴	levitující byznysmen	none
@@ -534,12 +751,17 @@ symbols:
 👬	dva muži držící se za ruce	none
 💏	polibek	none
 💑	pár se srdcem	none
-👪	rodina	none
 🗣	mluvící hlava	none
 👤	silueta busty	none
 👥	silueta dvojice bust	none
 🫂	objímající se lidé	none
+👪	rodina	none
+🧑‍🧑‍🧒	rodina dospělý, dospělý, dítě	none
+🧑‍🧑‍🧒‍🧒	rodina dospělý, dospělý, dítě, dítě	none
+🧑‍🧒	rodina dospělý, dítě	none
+🧑‍🧒‍🧒	rodina dospělý, dítě, dítě	none
 👣	stopy	none
+🫆	otisk prstu	none
 🦰	zrzavé vlasy	none
 🦱	kudrnaté vlasy	none
 🦳	bílé vlasy	none
@@ -564,6 +786,8 @@ symbols:
 🐅	tygr	none
 🐆	leopard	none
 🐴	hlava koně	none
+🫎	los	none
+🫏	osel	none
 🐎	kůň	none
 🦄	hlava jednorožce	none
 🦓	zebra	none
@@ -626,6 +850,10 @@ symbols:
 🦩	plameňák	none
 🦚	páv	none
 🦜	papoušek	none
+🪽	křídlo	none
+🐦‍⬛	černý pták	none
+🪿	husa	none
+🐦‍🔥	fénix	none
 🐸	hlava žáby	none
 🐊	krokodýl	none
 🐢	želva	none
@@ -638,6 +866,7 @@ symbols:
 🐳	velryba stříkající vodu	none
 🐋	velryba	none
 🐬	delfín	none
+🫍	kosatka	none
 🦭	tuleň	none
 🐟	ryba	none
 🐠	tropická ryba	none
@@ -645,6 +874,13 @@ symbols:
 🦈	žralok	none
 🐙	chobotnice	none
 🐚	ulita	none
+🪸	korál	none
+🪼	medúza	none
+🦀	krab	none
+🦞	humr	none
+🦐	kreveta	none
+🦑	oliheň	none
+🦪	ústřice	none
 🐌	hlemýžď	none
 🦋	motýl	none
 🐛	housenka	none
@@ -664,6 +900,7 @@ symbols:
 💐	kytice	none
 🌸	třešňový květ	none
 💮	bílá květina	none
+🪷	lotos	none
 🏵	rozeta	none
 🌹	růže	none
 🥀	zvadlá květina	none
@@ -671,6 +908,7 @@ symbols:
 🌻	slunečnice	none
 🌼	květ	none
 🌷	tulipán	none
+🪻	hyacint	none
 🌱	výhonek	none
 🪴	květina v květináči	none
 🌲	jehličnatý strom	none
@@ -684,11 +922,16 @@ symbols:
 🍁	javorový list	none
 🍂	spadlý list	none
 🍃	padající list ve větru	none
+🪹	prázdné hnízdo	none
+🪺	hnízdo s vejci	none
+🍄	houba	none
+🪾	strom bez listí	none
 🍇	hrozny	none
 🍈	cukrový meloun	none
 🍉	meloun	none
 🍊	mandarinka	none
 🍋	citron	none
+🍋‍🟩	limeta	none
 🍌	banán	none
 🍍	ananas	none
 🥭	mango	none
@@ -715,9 +958,13 @@ symbols:
 🥦	brokolice	none
 🧄	česnek	none
 🧅	cibule	none
-🍄	houba	none
 🥜	arašídy	none
+🫘	fazole	none
 🌰	kaštan	none
+🫚	zázvor	none
+🫛	hrachový lusk	none
+🍄‍🟫	hnědá houba	none
+🫜	kořenová zelenina	none
 🍞	chleba	none
 🥐	croissant	none
 🥖	bageta	none
@@ -769,11 +1016,6 @@ symbols:
 🥟	piroh	none
 🥠	čínský koláček štěstí	none
 🥡	krabice na jídlo	none
-🦀	krab	none
-🦞	humr	none
-🦐	kreveta	none
-🦑	oliheň	none
-🦪	ústřice	none
 🍦	točená zmrzlina	none
 🍧	ledová tříšť	none
 🍨	kopečková zmrzlina	none
@@ -802,6 +1044,7 @@ symbols:
 🍻	cinkající půllitry piva	none
 🥂	cinkající sklenice	none
 🥃	sklenice whisky	none
+🫗	vylévání tekutiny	none
 🥤	pohárek s brčkem	none
 🧋	bublinkový čaj	none
 🧃	nápoj v krabičce	none
@@ -812,6 +1055,7 @@ symbols:
 🍴	vidlička a nůž	none
 🥄	lžíce	none
 🔪	kuchyňský nůž	none
+🫙	dóza	none
 🏺	amfora	none
 🌍	glóbus s Evropou a Afrikou	none
 🌎	glóbus se Severní a Jižní Amerikou	none
@@ -822,6 +1066,7 @@ symbols:
 🧭	kompas	none
 🏔	zasněžená hora	none
 ⛰	hora	none
+🛘	sesuv půdy	none
 🌋	sopka	none
 🗻	hora Fudži	none
 🏕	tábor	none
@@ -874,6 +1119,7 @@ symbols:
 🌉	most v noci	none
 ♨	horké prameny	none
 🎠	kolotočový kůň	none
+🛝	dětská skluzavka	none
 🎡	ruské kolo	none
 🎢	horská dráha	none
 💈	značka holičství	none
@@ -913,7 +1159,7 @@ symbols:
 🦽	mechanický invalidní vozík	none
 🦼	elektrický invalidní vozík	none
 🛺	autorikša	none
-🚲	kolo	none
+🚲	jízdní kolo	none
 🛴	koloběžka	none
 🛹	skateboard	none
 🛼	kolečková brusle	none
@@ -922,12 +1168,14 @@ symbols:
 🛤	železniční trať	none
 🛢	barel	none
 ⛽	benzínová pumpa	none
+🛞	kolo	none
 🚨	policejní maják	none
 🚥	vodorovný semafor	none
 🚦	svislý semafor	none
 🛑	značka stop	none
 🚧	stavební zábrana	none
 ⚓	kotva	none
+🛟	záchranný kruh	none
 ⛵	plachetnice	none
 🛶	kánoe	none
 🚤	motorový člun	none
@@ -1085,10 +1333,10 @@ symbols:
 🎯	přesný zásah do terče	none
 🪀	jojo	none
 🪁	papírový drak	none
+🔫	vodní pistole	none
 🎱	kulečníková koule 8	none
 🔮	křišťálová koule	none
 🪄	kouzelná hůlka	none
-🧿	amulet nazar	none
 🎮	videohra	none
 🕹	joystick	none
 🎰	výherní automat	none
@@ -1096,6 +1344,7 @@ symbols:
 🧩	puzzle	none
 🧸	medvídek	none
 🪅	piñata	none
+🪩	zrcadlová koule	none
 🪆	matrjoška	none
 ♠	piky	none
 ♥	srdce	none
@@ -1132,6 +1381,7 @@ symbols:
 🩳	šortky	none
 👙	bikiny	none
 👚	dámská blůza	none
+🪭	vějíř	none
 👛	peněženka	none
 👜	kabelka	none
 👝	kosmetická taška	none
@@ -1146,6 +1396,7 @@ symbols:
 👡	dámský sandál	none
 🩰	baletní piškoty	none
 👢	dámská kozačka	none
+🪮	hřeben na kudrnaté vlasy	none
 👑	koruna	none
 👒	dámský klobouk	none
 🎩	cylindr	none
@@ -1176,14 +1427,18 @@ symbols:
 🎧	sluchátka	none
 📻	rádio	none
 🎷	saxofon	none
+🎺	trubka	none
+🪊	pozoun	none
 🪗	akordeon	none
 🎸	kytara	none
 🎹	klávesy	none
-🎺	trubka	none
 🎻	housle	none
 🪕	banjo	none
 🥁	buben	none
 🪘	protáhlý buben	none
+🪇	rumbakoule	none
+🪈	flétna	none
+🪉	harfa	none
 📱	mobil	none
 📲	mobil se šipkou	none
 ☎	telefon	none
@@ -1191,6 +1446,7 @@ symbols:
 📟	pager	none
 📠	fax	none
 🔋	baterie	none
+🪫	slabá baterie	none
 🔌	zástrčka	none
 💻	notebook	none
 🖥	počítač	none
@@ -1236,8 +1492,9 @@ symbols:
 📑	stránky se záložkami	none
 🔖	záložka	none
 🏷	visačka	none
-💰	pytel peněz	none
 🪙	mince	none
+💰	pytel peněz	none
+🪎	truhla s pokladem	none
 💴	jenová bankovka	none
 💵	dolarová bankovka	none
 💶	eurobankovka	none
@@ -1302,7 +1559,7 @@ symbols:
 🛠	kladivo a maticový klíč	none
 🗡	dýka	none
 ⚔	zkřížené meče	none
-🔫	vodní pistole	none
+💣	bomba	none
 🪃	bumerang	none
 🏹	luk a šíp	none
 🛡	štít	none
@@ -1315,11 +1572,13 @@ symbols:
 ⚖	miskové váhy	none
 🦯	slepecká hůl	none
 🔗	články řetězu	none
+⛓‍💥	přetržený řetěz	none
 ⛓	řetězy	none
 🪝	hák	none
 🧰	box na nářadí	none
 🧲	magnet	none
 🪜	žebřík	none
+🪏	lopata	none
 ⚗	křivule	none
 🧪	zkumavka	none
 🧫	Petriho miska	none
@@ -1331,7 +1590,9 @@ symbols:
 🩸	kapka krve	none
 💊	pilulka	none
 🩹	náplast	none
+🩼	berle	none
 🩺	stetoskop	none
+🩻	rentgen	none
 🚪	dveře	none
 🛗	výtah	none
 🪞	zrcadlo	none
@@ -1352,6 +1613,7 @@ symbols:
 🧻	role papíru	none
 🪣	kbelík	none
 🧼	mýdlo	none
+🫧	bubliny	none
 🪥	zubní kartáček	none
 🧽	mycí houba	none
 🧯	hasicí přístroj	none
@@ -1360,8 +1622,11 @@ symbols:
 ⚰	rakev	none
 🪦	náhrobek	none
 ⚱	pohřební urna	none
+🧿	amulet nazar	none
+🪬	hamsa	none
 🗿	socha moai	none
 🪧	cedule	none
+🪪	průkaz	none
 🏧	značka bankomatu	none
 🚮	značka odpadkového koše	none
 🚰	pitná voda	none
@@ -1422,6 +1687,7 @@ symbols:
 ☮	symbol míru	none
 🕎	sedmiramenný svícen	none
 🔯	šesticípá hvězda s tečkou uprostřed	none
+🪯	khanda	none
 ♈	skopec	none
 ♉	býk	none
 ♊	blíženci	none
@@ -1457,6 +1723,7 @@ symbols:
 🔅	tlačítko ztlumení jasu	none
 🔆	tlačítko zvýšení jasu	none
 📶	indikátor síly signálu	none
+🛜	bezdrátové připojení	none
 📳	vibrační režim	none
 📴	vypnutý mobilní telefon	none
 ♀	symbol ženského pohlaví	none
@@ -1466,6 +1733,7 @@ symbols:
 ➕	znak plus	none
 ➖	znak minus	none
 ➗	znak dělení	none
+🟰	tučný znak rovnosti	none
 ♾	nekonečno	none
 ❓	červený otazník	none
 ❔	bílý otazník	none
@@ -1491,6 +1759,7 @@ symbols:
 ✴	osmicípá hvězda	none
 ❇	jiskra	none
 ™	znak ochranné známky	none
+🫟	skvrna	none
 🔠	zadávání v latince, velká písmena	none
 🔡	zadávání v latince, malá písmena	none
 🔢	zadávání čísel	none
@@ -1555,13 +1824,21 @@ symbols:
 🏳‍🌈	duhová vlajka	none
 🏳‍⚧	vlajka trans hrdosti	none
 🏴‍☠	pirátská vlajka	none
+₢	cruzeiro	none
+₣	francouzský frank	none
+₤	lira	none
 ₥	mill	none
 ₩	won	none
 €	euro	none
+₰	německý fenik	none
 ₱	peso	none
+₳	austral	none
+₶	tourská libra	none
+₷	spesmilo	none
 ₹	indická rupie	none
 ₽	rubl	none
 ₿	bitcoin	none
+₨	rupie	none
 👋🏻	mávající ruka světlý odstín pleti	none
 👋🏼	mávající ruka středně světlý odstín pleti	none
 👋🏽	mávající ruka střední odstín pleti	none
@@ -1587,6 +1864,56 @@ symbols:
 🖖🏽	vulkánský pozdrav střední odstín pleti	none
 🖖🏾	vulkánský pozdrav středně tmavý odstín pleti	none
 🖖🏿	vulkánský pozdrav tmavý odstín pleti	none
+🫱🏻	ruka otočená doprava světlý odstín pleti	none
+🫱🏼	ruka otočená doprava středně světlý odstín pleti	none
+🫱🏽	ruka otočená doprava střední odstín pleti	none
+🫱🏾	ruka otočená doprava středně tmavý odstín pleti	none
+🫱🏿	ruka otočená doprava tmavý odstín pleti	none
+🫱🏻‍🫲🏼	stisk rukou světlý odstín pleti, středně světlý odstín pleti	none
+🫱🏻‍🫲🏽	stisk rukou světlý odstín pleti, střední odstín pleti	none
+🫱🏻‍🫲🏾	stisk rukou světlý odstín pleti, středně tmavý odstín pleti	none
+🫱🏻‍🫲🏿	stisk rukou světlý odstín pleti, tmavý odstín pleti	none
+🫱🏼‍🫲🏻	stisk rukou středně světlý odstín pleti, světlý odstín pleti	none
+🫱🏼‍🫲🏽	stisk rukou středně světlý odstín pleti, střední odstín pleti	none
+🫱🏼‍🫲🏾	stisk rukou středně světlý odstín pleti, středně tmavý odstín pleti	none
+🫱🏼‍🫲🏿	stisk rukou středně světlý odstín pleti, tmavý odstín pleti	none
+🫱🏽‍🫲🏻	stisk rukou střední odstín pleti, světlý odstín pleti	none
+🫱🏽‍🫲🏼	stisk rukou střední odstín pleti, středně světlý odstín pleti	none
+🫱🏽‍🫲🏾	stisk rukou střední odstín pleti, středně tmavý odstín pleti	none
+🫱🏽‍🫲🏿	stisk rukou střední odstín pleti, tmavý odstín pleti	none
+🫱🏾‍🫲🏻	stisk rukou středně tmavý odstín pleti, světlý odstín pleti	none
+🫱🏾‍🫲🏼	stisk rukou středně tmavý odstín pleti, středně světlý odstín pleti	none
+🫱🏾‍🫲🏽	stisk rukou středně tmavý odstín pleti, střední odstín pleti	none
+🫱🏾‍🫲🏿	stisk rukou středně tmavý odstín pleti, tmavý odstín pleti	none
+🫱🏿‍🫲🏻	stisk rukou tmavý odstín pleti, světlý odstín pleti	none
+🫱🏿‍🫲🏼	stisk rukou tmavý odstín pleti, středně světlý odstín pleti	none
+🫱🏿‍🫲🏽	stisk rukou tmavý odstín pleti, střední odstín pleti	none
+🫱🏿‍🫲🏾	stisk rukou tmavý odstín pleti, středně tmavý odstín pleti	none
+🫲🏻	ruka otočená doleva světlý odstín pleti	none
+🫲🏼	ruka otočená doleva středně světlý odstín pleti	none
+🫲🏽	ruka otočená doleva střední odstín pleti	none
+🫲🏾	ruka otočená doleva středně tmavý odstín pleti	none
+🫲🏿	ruka otočená doleva tmavý odstín pleti	none
+🫳🏻	ruka otočená dlaní dolů světlý odstín pleti	none
+🫳🏼	ruka otočená dlaní dolů středně světlý odstín pleti	none
+🫳🏽	ruka otočená dlaní dolů střední odstín pleti	none
+🫳🏾	ruka otočená dlaní dolů středně tmavý odstín pleti	none
+🫳🏿	ruka otočená dlaní dolů tmavý odstín pleti	none
+🫴🏻	ruka otočená dlaní vzhůru světlý odstín pleti	none
+🫴🏼	ruka otočená dlaní vzhůru středně světlý odstín pleti	none
+🫴🏽	ruka otočená dlaní vzhůru střední odstín pleti	none
+🫴🏾	ruka otočená dlaní vzhůru středně tmavý odstín pleti	none
+🫴🏿	ruka otočená dlaní vzhůru tmavý odstín pleti	none
+🫷🏻	ruka tlačící vlevo světlý odstín pleti	none
+🫷🏼	ruka tlačící vlevo středně světlý odstín pleti	none
+🫷🏽	ruka tlačící vlevo střední odstín pleti	none
+🫷🏾	ruka tlačící vlevo středně tmavý odstín pleti	none
+🫷🏿	ruka tlačící vlevo tmavý odstín pleti	none
+🫸🏻	ruka tlačící vpravo světlý odstín pleti	none
+🫸🏼	ruka tlačící vpravo středně světlý odstín pleti	none
+🫸🏽	ruka tlačící vpravo střední odstín pleti	none
+🫸🏾	ruka tlačící vpravo středně tmavý odstín pleti	none
+🫸🏿	ruka tlačící vpravo tmavý odstín pleti	none
 👌🏻	gesto OK světlý odstín pleti	none
 👌🏼	gesto OK středně světlý odstín pleti	none
 👌🏽	gesto OK střední odstín pleti	none
@@ -1612,6 +1939,11 @@ symbols:
 🤞🏽	zkřížené prsty střední odstín pleti	none
 🤞🏾	zkřížené prsty středně tmavý odstín pleti	none
 🤞🏿	zkřížené prsty tmavý odstín pleti	none
+🫰🏻	ruka se zkříženým palcem a ukazováčkem světlý odstín pleti	none
+🫰🏼	ruka se zkříženým palcem a ukazováčkem středně světlý odstín pleti	none
+🫰🏽	ruka se zkříženým palcem a ukazováčkem střední odstín pleti	none
+🫰🏾	ruka se zkříženým palcem a ukazováčkem středně tmavý odstín pleti	none
+🫰🏿	ruka se zkříženým palcem a ukazováčkem tmavý odstín pleti	none
 🤟🏻	gesto „miluji tě“ světlý odstín pleti	none
 🤟🏼	gesto „miluji tě“ středně světlý odstín pleti	none
 🤟🏽	gesto „miluji tě“ střední odstín pleti	none
@@ -1657,6 +1989,11 @@ symbols:
 ☝🏽	ruka ukazující nahoru střední odstín pleti	none
 ☝🏾	ruka ukazující nahoru středně tmavý odstín pleti	none
 ☝🏿	ruka ukazující nahoru tmavý odstín pleti	none
+🫵🏻	ukazováček namířený na diváka světlý odstín pleti	none
+🫵🏼	ukazováček namířený na diváka středně světlý odstín pleti	none
+🫵🏽	ukazováček namířený na diváka střední odstín pleti	none
+🫵🏾	ukazováček namířený na diváka středně tmavý odstín pleti	none
+🫵🏿	ukazováček namířený na diváka tmavý odstín pleti	none
 👍🏻	palec nahoru světlý odstín pleti	none
 👍🏼	palec nahoru středně světlý odstín pleti	none
 👍🏽	palec nahoru střední odstín pleti	none
@@ -1697,6 +2034,11 @@ symbols:
 🙌🏽	zvednuté ruce střední odstín pleti	none
 🙌🏾	zvednuté ruce středně tmavý odstín pleti	none
 🙌🏿	zvednuté ruce tmavý odstín pleti	none
+🫶🏻	ruce spojené do tvaru srdce světlý odstín pleti	none
+🫶🏼	ruce spojené do tvaru srdce středně světlý odstín pleti	none
+🫶🏽	ruce spojené do tvaru srdce střední odstín pleti	none
+🫶🏾	ruce spojené do tvaru srdce středně tmavý odstín pleti	none
+🫶🏿	ruce spojené do tvaru srdce tmavý odstín pleti	none
 👐🏻	rozevřené dlaně světlý odstín pleti	none
 👐🏼	rozevřené dlaně středně světlý odstín pleti	none
 👐🏽	rozevřené dlaně střední odstín pleti	none
@@ -1707,6 +2049,11 @@ symbols:
 🤲🏽	zdvižené dlaně vedle sebe střední odstín pleti	none
 🤲🏾	zdvižené dlaně vedle sebe středně tmavý odstín pleti	none
 🤲🏿	zdvižené dlaně vedle sebe tmavý odstín pleti	none
+🤝🏻	stisk rukou světlý odstín pleti	none
+🤝🏼	stisk rukou středně světlý odstín pleti	none
+🤝🏽	stisk rukou střední odstín pleti	none
+🤝🏾	stisk rukou středně tmavý odstín pleti	none
+🤝🏿	stisk rukou tmavý odstín pleti	none
 🙏🏻	sepjaté ruce světlý odstín pleti	none
 🙏🏼	sepjaté ruce středně světlý odstín pleti	none
 🙏🏽	sepjaté ruce střední odstín pleti	none
@@ -1787,46 +2134,66 @@ symbols:
 👱🏽	člověk s blond vlasy střední odstín pleti	none
 👱🏾	člověk s blond vlasy středně tmavý odstín pleti	none
 👱🏿	člověk s blond vlasy tmavý odstín pleti	none
-🧑🏻‍❤‍💋‍🧑🏼	polibek dospělý člověk, dospělý člověk, světlý odstín pleti a středně světlý odstín pleti	none
-🧑🏻‍❤‍💋‍🧑🏽	polibek dospělý člověk, dospělý člověk, světlý odstín pleti a střední odstín pleti	none
-🧑🏻‍❤‍💋‍🧑🏾	polibek dospělý člověk, dospělý člověk, světlý odstín pleti a středně tmavý odstín pleti	none
-🧑🏻‍❤‍💋‍🧑🏿	polibek dospělý člověk, dospělý člověk, světlý odstín pleti a tmavý odstín pleti	none
-🧑🏼‍❤‍💋‍🧑🏻	polibek dospělý člověk, dospělý člověk, středně světlý odstín pleti a světlý odstín pleti	none
-🧑🏼‍❤‍💋‍🧑🏽	polibek dospělý člověk, dospělý člověk, středně světlý odstín pleti a střední odstín pleti	none
-🧑🏼‍❤‍💋‍🧑🏾	polibek dospělý člověk, dospělý člověk, středně světlý odstín pleti a středně tmavý odstín pleti	none
-🧑🏼‍❤‍💋‍🧑🏿	polibek dospělý člověk, dospělý člověk, středně světlý odstín pleti a tmavý odstín pleti	none
-🧑🏽‍❤‍💋‍🧑🏻	polibek dospělý člověk, dospělý člověk, střední odstín pleti a světlý odstín pleti	none
-🧑🏽‍❤‍💋‍🧑🏼	polibek dospělý člověk, dospělý člověk, střední odstín pleti a středně světlý odstín pleti	none
-🧑🏽‍❤‍💋‍🧑🏾	polibek dospělý člověk, dospělý člověk, střední odstín pleti a středně tmavý odstín pleti	none
-🧑🏽‍❤‍💋‍🧑🏿	polibek dospělý člověk, dospělý člověk, střední odstín pleti a tmavý odstín pleti	none
-🧑🏾‍❤‍💋‍🧑🏻	polibek dospělý člověk, dospělý člověk, středně tmavý odstín pleti a světlý odstín pleti	none
-🧑🏾‍❤‍💋‍🧑🏼	polibek dospělý člověk, dospělý člověk, středně tmavý odstín pleti a středně světlý odstín pleti	none
-🧑🏾‍❤‍💋‍🧑🏽	polibek dospělý člověk, dospělý člověk, středně tmavý odstín pleti a střední odstín pleti	none
-🧑🏾‍❤‍💋‍🧑🏿	polibek dospělý člověk, dospělý člověk, středně tmavý odstín pleti a tmavý odstín pleti	none
-🧑🏿‍❤‍💋‍🧑🏻	polibek dospělý člověk, dospělý člověk, tmavý odstín pleti a světlý odstín pleti	none
-🧑🏿‍❤‍💋‍🧑🏼	polibek dospělý člověk, dospělý člověk, tmavý odstín pleti a středně světlý odstín pleti	none
-🧑🏿‍❤‍💋‍🧑🏽	polibek dospělý člověk, dospělý člověk, tmavý odstín pleti a střední odstín pleti	none
-🧑🏿‍❤‍💋‍🧑🏾	polibek dospělý člověk, dospělý člověk, tmavý odstín pleti a středně tmavý odstín pleti	none
-🧑🏻‍❤‍🧑🏼	pár se srdcem dospělý člověk, dospělý člověk, světlý odstín pleti a středně světlý odstín pleti	none
-🧑🏻‍❤‍🧑🏽	pár se srdcem dospělý člověk, dospělý člověk, světlý odstín pleti a střední odstín pleti	none
-🧑🏻‍❤‍🧑🏾	pár se srdcem dospělý člověk, dospělý člověk, světlý odstín pleti a středně tmavý odstín pleti	none
-🧑🏻‍❤‍🧑🏿	pár se srdcem dospělý člověk, dospělý člověk, světlý odstín pleti a tmavý odstín pleti	none
-🧑🏼‍❤‍🧑🏻	pár se srdcem dospělý člověk, dospělý člověk, středně světlý odstín pleti a světlý odstín pleti	none
-🧑🏼‍❤‍🧑🏽	pár se srdcem dospělý člověk, dospělý člověk, středně světlý odstín pleti a střední odstín pleti	none
-🧑🏼‍❤‍🧑🏾	pár se srdcem dospělý člověk, dospělý člověk, středně světlý odstín pleti a středně tmavý odstín pleti	none
-🧑🏼‍❤‍🧑🏿	pár se srdcem dospělý člověk, dospělý člověk, středně světlý odstín pleti a tmavý odstín pleti	none
-🧑🏽‍❤‍🧑🏻	pár se srdcem dospělý člověk, dospělý člověk, střední odstín pleti a světlý odstín pleti	none
-🧑🏽‍❤‍🧑🏼	pár se srdcem dospělý člověk, dospělý člověk, střední odstín pleti a středně světlý odstín pleti	none
-🧑🏽‍❤‍🧑🏾	pár se srdcem dospělý člověk, dospělý člověk, střední odstín pleti a středně tmavý odstín pleti	none
-🧑🏽‍❤‍🧑🏿	pár se srdcem dospělý člověk, dospělý člověk, střední odstín pleti a tmavý odstín pleti	none
-🧑🏾‍❤‍🧑🏻	pár se srdcem dospělý člověk, dospělý člověk, středně tmavý odstín pleti a světlý odstín pleti	none
-🧑🏾‍❤‍🧑🏼	pár se srdcem dospělý člověk, dospělý člověk, středně tmavý odstín pleti a středně světlý odstín pleti	none
-🧑🏾‍❤‍🧑🏽	pár se srdcem dospělý člověk, dospělý člověk, středně tmavý odstín pleti a střední odstín pleti	none
-🧑🏾‍❤‍🧑🏿	pár se srdcem dospělý člověk, dospělý člověk, středně tmavý odstín pleti a tmavý odstín pleti	none
-🧑🏿‍❤‍🧑🏻	pár se srdcem dospělý člověk, dospělý člověk, tmavý odstín pleti a světlý odstín pleti	none
-🧑🏿‍❤‍🧑🏼	pár se srdcem dospělý člověk, dospělý člověk, tmavý odstín pleti a středně světlý odstín pleti	none
-🧑🏿‍❤‍🧑🏽	pár se srdcem dospělý člověk, dospělý člověk, tmavý odstín pleti a střední odstín pleti	none
-🧑🏿‍❤‍🧑🏾	pár se srdcem dospělý člověk, dospělý člověk, tmavý odstín pleti a středně tmavý odstín pleti	none
+🧑🏻‍❤‍💋‍🧑🏼	polibek dospělý člověk, dospělý člověk, světlý odstín pleti a středně světlý odstín pleti	none
+🧑🏻‍❤‍💋‍🧑🏽	polibek dospělý člověk, dospělý člověk, světlý odstín pleti a střední odstín pleti	none
+🧑🏻‍❤‍💋‍🧑🏾	polibek dospělý člověk, dospělý člověk, světlý odstín pleti a středně tmavý odstín pleti	none
+🧑🏻‍❤‍💋‍🧑🏿	polibek dospělý člověk, dospělý člověk, světlý odstín pleti a tmavý odstín pleti	none
+🧑🏼‍❤‍💋‍🧑🏻	polibek dospělý člověk, dospělý člověk, středně světlý odstín pleti a světlý odstín pleti	none
+🧑🏼‍❤‍💋‍🧑🏽	polibek dospělý člověk, dospělý člověk, středně světlý odstín pleti a střední odstín pleti	none
+🧑🏼‍❤‍💋‍🧑🏾	polibek dospělý člověk, dospělý člověk, středně světlý odstín pleti a středně tmavý odstín pleti	none
+🧑🏼‍❤‍💋‍🧑🏿	polibek dospělý člověk, dospělý člověk, středně světlý odstín pleti a tmavý odstín pleti	none
+🧑🏽‍❤‍💋‍🧑🏻	polibek dospělý člověk, dospělý člověk, střední odstín pleti a světlý odstín pleti	none
+🧑🏽‍❤‍💋‍🧑🏼	polibek dospělý člověk, dospělý člověk, střední odstín pleti a středně světlý odstín pleti	none
+🧑🏽‍❤‍💋‍🧑🏾	polibek dospělý člověk, dospělý člověk, střední odstín pleti a středně tmavý odstín pleti	none
+🧑🏽‍❤‍💋‍🧑🏿	polibek dospělý člověk, dospělý člověk, střední odstín pleti a tmavý odstín pleti	none
+🧑🏾‍❤‍💋‍🧑🏻	polibek dospělý člověk, dospělý člověk, středně tmavý odstín pleti a světlý odstín pleti	none
+🧑🏾‍❤‍💋‍🧑🏼	polibek dospělý člověk, dospělý člověk, středně tmavý odstín pleti a středně světlý odstín pleti	none
+🧑🏾‍❤‍💋‍🧑🏽	polibek dospělý člověk, dospělý člověk, středně tmavý odstín pleti a střední odstín pleti	none
+🧑🏾‍❤‍💋‍🧑🏿	polibek dospělý člověk, dospělý člověk, středně tmavý odstín pleti a tmavý odstín pleti	none
+🧑🏿‍❤‍💋‍🧑🏻	polibek dospělý člověk, dospělý člověk, tmavý odstín pleti a světlý odstín pleti	none
+🧑🏿‍❤‍💋‍🧑🏼	polibek dospělý člověk, dospělý člověk, tmavý odstín pleti a středně světlý odstín pleti	none
+🧑🏿‍❤‍💋‍🧑🏽	polibek dospělý člověk, dospělý člověk, tmavý odstín pleti a střední odstín pleti	none
+🧑🏿‍❤‍💋‍🧑🏾	polibek dospělý člověk, dospělý člověk, tmavý odstín pleti a středně tmavý odstín pleti	none
+🧑🏻‍❤‍🧑🏼	pár se srdcem dospělý člověk, dospělý člověk, světlý odstín pleti a středně světlý odstín pleti	none
+🧑🏻‍❤‍🧑🏽	pár se srdcem dospělý člověk, dospělý člověk, světlý odstín pleti a střední odstín pleti	none
+🧑🏻‍❤‍🧑🏾	pár se srdcem dospělý člověk, dospělý člověk, světlý odstín pleti a středně tmavý odstín pleti	none
+🧑🏻‍❤‍🧑🏿	pár se srdcem dospělý člověk, dospělý člověk, světlý odstín pleti a tmavý odstín pleti	none
+🧑🏼‍❤‍🧑🏻	pár se srdcem dospělý člověk, dospělý člověk, středně světlý odstín pleti a světlý odstín pleti	none
+🧑🏼‍❤‍🧑🏽	pár se srdcem dospělý člověk, dospělý člověk, středně světlý odstín pleti a střední odstín pleti	none
+🧑🏼‍❤‍🧑🏾	pár se srdcem dospělý člověk, dospělý člověk, středně světlý odstín pleti a středně tmavý odstín pleti	none
+🧑🏼‍❤‍🧑🏿	pár se srdcem dospělý člověk, dospělý člověk, středně světlý odstín pleti a tmavý odstín pleti	none
+🧑🏽‍❤‍🧑🏻	pár se srdcem dospělý člověk, dospělý člověk, střední odstín pleti a světlý odstín pleti	none
+🧑🏽‍❤‍🧑🏼	pár se srdcem dospělý člověk, dospělý člověk, střední odstín pleti a středně světlý odstín pleti	none
+🧑🏽‍❤‍🧑🏾	pár se srdcem dospělý člověk, dospělý člověk, střední odstín pleti a středně tmavý odstín pleti	none
+🧑🏽‍❤‍🧑🏿	pár se srdcem dospělý člověk, dospělý člověk, střední odstín pleti a tmavý odstín pleti	none
+🧑🏾‍❤‍🧑🏻	pár se srdcem dospělý člověk, dospělý člověk, středně tmavý odstín pleti a světlý odstín pleti	none
+🧑🏾‍❤‍🧑🏼	pár se srdcem dospělý člověk, dospělý člověk, středně tmavý odstín pleti a středně světlý odstín pleti	none
+🧑🏾‍❤‍🧑🏽	pár se srdcem dospělý člověk, dospělý člověk, středně tmavý odstín pleti a střední odstín pleti	none
+🧑🏾‍❤‍🧑🏿	pár se srdcem dospělý člověk, dospělý člověk, středně tmavý odstín pleti a tmavý odstín pleti	none
+🧑🏿‍❤‍🧑🏻	pár se srdcem dospělý člověk, dospělý člověk, tmavý odstín pleti a světlý odstín pleti	none
+🧑🏿‍❤‍🧑🏼	pár se srdcem dospělý člověk, dospělý člověk, tmavý odstín pleti a středně světlý odstín pleti	none
+🧑🏿‍❤‍🧑🏽	pár se srdcem dospělý člověk, dospělý člověk, tmavý odstín pleti a střední odstín pleti	none
+🧑🏿‍❤‍🧑🏾	pár se srdcem dospělý člověk, dospělý člověk, tmavý odstín pleti a středně tmavý odstín pleti	none
+🧑🏻‍🫯‍🧑🏼	zápasící dvojice světlý odstín pleti, středně světlý odstín pleti	none
+🧑🏻‍🫯‍🧑🏽	zápasící dvojice světlý odstín pleti, střední odstín pleti	none
+🧑🏻‍🫯‍🧑🏾	zápasící dvojice světlý odstín pleti, středně tmavý odstín pleti	none
+🧑🏻‍🫯‍🧑🏿	zápasící dvojice světlý odstín pleti, tmavý odstín pleti	none
+🧑🏼‍🫯‍🧑🏻	zápasící dvojice středně světlý odstín pleti, světlý odstín pleti	none
+🧑🏼‍🫯‍🧑🏽	zápasící dvojice středně světlý odstín pleti, střední odstín pleti	none
+🧑🏼‍🫯‍🧑🏾	zápasící dvojice středně světlý odstín pleti, středně tmavý odstín pleti	none
+🧑🏼‍🫯‍🧑🏿	zápasící dvojice středně světlý odstín pleti, tmavý odstín pleti	none
+🧑🏽‍🫯‍🧑🏻	zápasící dvojice střední odstín pleti, světlý odstín pleti	none
+🧑🏽‍🫯‍🧑🏼	zápasící dvojice střední odstín pleti, středně světlý odstín pleti	none
+🧑🏽‍🫯‍🧑🏾	zápasící dvojice střední odstín pleti, středně tmavý odstín pleti	none
+🧑🏽‍🫯‍🧑🏿	zápasící dvojice střední odstín pleti, tmavý odstín pleti	none
+🧑🏾‍🫯‍🧑🏻	zápasící dvojice středně tmavý odstín pleti, světlý odstín pleti	none
+🧑🏾‍🫯‍🧑🏼	zápasící dvojice středně tmavý odstín pleti, středně světlý odstín pleti	none
+🧑🏾‍🫯‍🧑🏽	zápasící dvojice středně tmavý odstín pleti, střední odstín pleti	none
+🧑🏾‍🫯‍🧑🏿	zápasící dvojice středně tmavý odstín pleti, tmavý odstín pleti	none
+🧑🏿‍🫯‍🧑🏻	zápasící dvojice tmavý odstín pleti, světlý odstín pleti	none
+🧑🏿‍🫯‍🧑🏼	zápasící dvojice tmavý odstín pleti, středně světlý odstín pleti	none
+🧑🏿‍🫯‍🧑🏽	zápasící dvojice tmavý odstín pleti, střední odstín pleti	none
+🧑🏿‍🫯‍🧑🏾	zápasící dvojice tmavý odstín pleti, středně tmavý odstín pleti	none
 🧑‍🦰	dospělý člověk zrzavé vlasy	none
 🧑🏻‍🦰	dospělý člověk světlý odstín pleti, zrzavé vlasy	none
 🧑🏼‍🦰	dospělý člověk středně světlý odstín pleti, zrzavé vlasy	none
@@ -1851,6 +2218,26 @@ symbols:
 🧑🏽‍🦲	dospělý člověk střední odstín pleti, bez vlasů	none
 🧑🏾‍🦲	dospělý člověk středně tmavý odstín pleti, bez vlasů	none
 🧑🏿‍🦲	dospělý člověk tmavý odstín pleti, bez vlasů	none
+🧑🏻‍🐰‍🧑🏼	osoby se zaječími oušky světlý odstín pleti, středně světlý odstín pleti	none
+🧑🏻‍🐰‍🧑🏽	osoby se zaječími oušky světlý odstín pleti, střední odstín pleti	none
+🧑🏻‍🐰‍🧑🏾	osoby se zaječími oušky světlý odstín pleti, středně tmavý odstín pleti	none
+🧑🏻‍🐰‍🧑🏿	osoby se zaječími oušky světlý odstín pleti, tmavý odstín pleti	none
+🧑🏼‍🐰‍🧑🏻	osoby se zaječími oušky středně světlý odstín pleti, světlý odstín pleti	none
+🧑🏼‍🐰‍🧑🏽	osoby se zaječími oušky středně světlý odstín pleti, střední odstín pleti	none
+🧑🏼‍🐰‍🧑🏾	osoby se zaječími oušky středně světlý odstín pleti, středně tmavý odstín pleti	none
+🧑🏼‍🐰‍🧑🏿	osoby se zaječími oušky středně světlý odstín pleti, tmavý odstín pleti	none
+🧑🏽‍🐰‍🧑🏻	osoby se zaječími oušky střední odstín pleti, světlý odstín pleti	none
+🧑🏽‍🐰‍🧑🏼	osoby se zaječími oušky střední odstín pleti, středně světlý odstín pleti	none
+🧑🏽‍🐰‍🧑🏾	osoby se zaječími oušky střední odstín pleti, středně tmavý odstín pleti	none
+🧑🏽‍🐰‍🧑🏿	osoby se zaječími oušky střední odstín pleti, tmavý odstín pleti	none
+🧑🏾‍🐰‍🧑🏻	osoby se zaječími oušky středně tmavý odstín pleti, světlý odstín pleti	none
+🧑🏾‍🐰‍🧑🏼	osoby se zaječími oušky středně tmavý odstín pleti, středně světlý odstín pleti	none
+🧑🏾‍🐰‍🧑🏽	osoby se zaječími oušky středně tmavý odstín pleti, střední odstín pleti	none
+🧑🏾‍🐰‍🧑🏿	osoby se zaječími oušky středně tmavý odstín pleti, tmavý odstín pleti	none
+🧑🏿‍🐰‍🧑🏻	osoby se zaječími oušky tmavý odstín pleti, světlý odstín pleti	none
+🧑🏿‍🐰‍🧑🏼	osoby se zaječími oušky tmavý odstín pleti, středně světlý odstín pleti	none
+🧑🏿‍🐰‍🧑🏽	osoby se zaječími oušky tmavý odstín pleti, střední odstín pleti	none
+🧑🏿‍🐰‍🧑🏾	osoby se zaječími oušky tmavý odstín pleti, středně tmavý odstín pleti	none
 👨🏻	muž světlý odstín pleti	none
 👨🏼	muž středně světlý odstín pleti	none
 👨🏽	muž střední odstín pleti	none
@@ -1871,56 +2258,76 @@ symbols:
 👱🏽‍♂	blonďák střední odstín pleti	none
 👱🏾‍♂	blonďák středně tmavý odstín pleti	none
 👱🏿‍♂	blonďák tmavý odstín pleti	none
-👨🏻‍❤‍💋‍👨🏻	polibek muž, muž a světlý odstín pleti	none
-👨🏻‍❤‍💋‍👨🏼	polibek muž, muž, světlý odstín pleti a středně světlý odstín pleti	none
-👨🏻‍❤‍💋‍👨🏽	polibek muž, muž, světlý odstín pleti a střední odstín pleti	none
-👨🏻‍❤‍💋‍👨🏾	polibek muž, muž, světlý odstín pleti a středně tmavý odstín pleti	none
-👨🏻‍❤‍💋‍👨🏿	polibek muž, muž, světlý odstín pleti a tmavý odstín pleti	none
-👨🏼‍❤‍💋‍👨🏻	polibek muž, muž, středně světlý odstín pleti a světlý odstín pleti	none
-👨🏼‍❤‍💋‍👨🏼	polibek muž, muž a středně světlý odstín pleti	none
-👨🏼‍❤‍💋‍👨🏽	polibek muž, muž, středně světlý odstín pleti a střední odstín pleti	none
-👨🏼‍❤‍💋‍👨🏾	polibek muž, muž, středně světlý odstín pleti a středně tmavý odstín pleti	none
-👨🏼‍❤‍💋‍👨🏿	polibek muž, muž, středně světlý odstín pleti a tmavý odstín pleti	none
-👨🏽‍❤‍💋‍👨🏻	polibek muž, muž, střední odstín pleti a světlý odstín pleti	none
-👨🏽‍❤‍💋‍👨🏼	polibek muž, muž, střední odstín pleti a středně světlý odstín pleti	none
-👨🏽‍❤‍💋‍👨🏽	polibek muž, muž a střední odstín pleti	none
-👨🏽‍❤‍💋‍👨🏾	polibek muž, muž, střední odstín pleti a středně tmavý odstín pleti	none
-👨🏽‍❤‍💋‍👨🏿	polibek muž, muž, střední odstín pleti a tmavý odstín pleti	none
-👨🏾‍❤‍💋‍👨🏻	polibek muž, muž, středně tmavý odstín pleti a světlý odstín pleti	none
-👨🏾‍❤‍💋‍👨🏼	polibek muž, muž, středně tmavý odstín pleti a středně světlý odstín pleti	none
-👨🏾‍❤‍💋‍👨🏽	polibek muž, muž, středně tmavý odstín pleti a střední odstín pleti	none
-👨🏾‍❤‍💋‍👨🏾	polibek muž, muž a středně tmavý odstín pleti	none
-👨🏾‍❤‍💋‍👨🏿	polibek muž, muž, středně tmavý odstín pleti a tmavý odstín pleti	none
-👨🏿‍❤‍💋‍👨🏻	polibek muž, muž, tmavý odstín pleti a světlý odstín pleti	none
-👨🏿‍❤‍💋‍👨🏼	polibek muž, muž, tmavý odstín pleti a středně světlý odstín pleti	none
-👨🏿‍❤‍💋‍👨🏽	polibek muž, muž, tmavý odstín pleti a střední odstín pleti	none
-👨🏿‍❤‍💋‍👨🏾	polibek muž, muž, tmavý odstín pleti a středně tmavý odstín pleti	none
-👨🏿‍❤‍💋‍👨🏿	polibek muž, muž a tmavý odstín pleti	none
-👨🏻‍❤‍👨🏻	pár se srdcem muž, muž a světlý odstín pleti	none
-👨🏻‍❤‍👨🏼	pár se srdcem muž, muž, světlý odstín pleti a středně světlý odstín pleti	none
-👨🏻‍❤‍👨🏽	pár se srdcem muž, muž, světlý odstín pleti a střední odstín pleti	none
-👨🏻‍❤‍👨🏾	pár se srdcem muž, muž, světlý odstín pleti a středně tmavý odstín pleti	none
-👨🏻‍❤‍👨🏿	pár se srdcem muž, muž, světlý odstín pleti a tmavý odstín pleti	none
-👨🏼‍❤‍👨🏻	pár se srdcem muž, muž, středně světlý odstín pleti a světlý odstín pleti	none
-👨🏼‍❤‍👨🏼	pár se srdcem muž, muž a středně světlý odstín pleti	none
-👨🏼‍❤‍👨🏽	pár se srdcem muž, muž, středně světlý odstín pleti a střední odstín pleti	none
-👨🏼‍❤‍👨🏾	pár se srdcem muž, muž, středně světlý odstín pleti a středně tmavý odstín pleti	none
-👨🏼‍❤‍👨🏿	pár se srdcem muž, muž, středně světlý odstín pleti a tmavý odstín pleti	none
-👨🏽‍❤‍👨🏻	pár se srdcem muž, muž, střední odstín pleti a světlý odstín pleti	none
-👨🏽‍❤‍👨🏼	pár se srdcem muž, muž, střední odstín pleti a středně světlý odstín pleti	none
-👨🏽‍❤‍👨🏽	pár se srdcem muž, muž a střední odstín pleti	none
-👨🏽‍❤‍👨🏾	pár se srdcem muž, muž, střední odstín pleti a středně tmavý odstín pleti	none
-👨🏽‍❤‍👨🏿	pár se srdcem muž, muž, střední odstín pleti a tmavý odstín pleti	none
-👨🏾‍❤‍👨🏻	pár se srdcem muž, muž, středně tmavý odstín pleti a světlý odstín pleti	none
-👨🏾‍❤‍👨🏼	pár se srdcem muž, muž, středně tmavý odstín pleti a středně světlý odstín pleti	none
-👨🏾‍❤‍👨🏽	pár se srdcem muž, muž, středně tmavý odstín pleti a střední odstín pleti	none
-👨🏾‍❤‍👨🏾	pár se srdcem muž, muž a středně tmavý odstín pleti	none
-👨🏾‍❤‍👨🏿	pár se srdcem muž, muž, středně tmavý odstín pleti a tmavý odstín pleti	none
-👨🏿‍❤‍👨🏻	pár se srdcem muž, muž, tmavý odstín pleti a světlý odstín pleti	none
-👨🏿‍❤‍👨🏼	pár se srdcem muž, muž, tmavý odstín pleti a středně světlý odstín pleti	none
-👨🏿‍❤‍👨🏽	pár se srdcem muž, muž, tmavý odstín pleti a střední odstín pleti	none
-👨🏿‍❤‍👨🏾	pár se srdcem muž, muž, tmavý odstín pleti a středně tmavý odstín pleti	none
-👨🏿‍❤‍👨🏿	pár se srdcem muž, muž a tmavý odstín pleti	none
+👨🏻‍❤‍💋‍👨🏻	polibek muž, muž a světlý odstín pleti	none
+👨🏻‍❤‍💋‍👨🏼	polibek muž, muž, světlý odstín pleti a středně světlý odstín pleti	none
+👨🏻‍❤‍💋‍👨🏽	polibek muž, muž, světlý odstín pleti a střední odstín pleti	none
+👨🏻‍❤‍💋‍👨🏾	polibek muž, muž, světlý odstín pleti a středně tmavý odstín pleti	none
+👨🏻‍❤‍💋‍👨🏿	polibek muž, muž, světlý odstín pleti a tmavý odstín pleti	none
+👨🏼‍❤‍💋‍👨🏻	polibek muž, muž, středně světlý odstín pleti a světlý odstín pleti	none
+👨🏼‍❤‍💋‍👨🏼	polibek muž, muž a středně světlý odstín pleti	none
+👨🏼‍❤‍💋‍👨🏽	polibek muž, muž, středně světlý odstín pleti a střední odstín pleti	none
+👨🏼‍❤‍💋‍👨🏾	polibek muž, muž, středně světlý odstín pleti a středně tmavý odstín pleti	none
+👨🏼‍❤‍💋‍👨🏿	polibek muž, muž, středně světlý odstín pleti a tmavý odstín pleti	none
+👨🏽‍❤‍💋‍👨🏻	polibek muž, muž, střední odstín pleti a světlý odstín pleti	none
+👨🏽‍❤‍💋‍👨🏼	polibek muž, muž, střední odstín pleti a středně světlý odstín pleti	none
+👨🏽‍❤‍💋‍👨🏽	polibek muž, muž a střední odstín pleti	none
+👨🏽‍❤‍💋‍👨🏾	polibek muž, muž, střední odstín pleti a středně tmavý odstín pleti	none
+👨🏽‍❤‍💋‍👨🏿	polibek muž, muž, střední odstín pleti a tmavý odstín pleti	none
+👨🏾‍❤‍💋‍👨🏻	polibek muž, muž, středně tmavý odstín pleti a světlý odstín pleti	none
+👨🏾‍❤‍💋‍👨🏼	polibek muž, muž, středně tmavý odstín pleti a středně světlý odstín pleti	none
+👨🏾‍❤‍💋‍👨🏽	polibek muž, muž, středně tmavý odstín pleti a střední odstín pleti	none
+👨🏾‍❤‍💋‍👨🏾	polibek muž, muž a středně tmavý odstín pleti	none
+👨🏾‍❤‍💋‍👨🏿	polibek muž, muž, středně tmavý odstín pleti a tmavý odstín pleti	none
+👨🏿‍❤‍💋‍👨🏻	polibek muž, muž, tmavý odstín pleti a světlý odstín pleti	none
+👨🏿‍❤‍💋‍👨🏼	polibek muž, muž, tmavý odstín pleti a středně světlý odstín pleti	none
+👨🏿‍❤‍💋‍👨🏽	polibek muž, muž, tmavý odstín pleti a střední odstín pleti	none
+👨🏿‍❤‍💋‍👨🏾	polibek muž, muž, tmavý odstín pleti a středně tmavý odstín pleti	none
+👨🏿‍❤‍💋‍👨🏿	polibek muž, muž a tmavý odstín pleti	none
+👨🏻‍❤‍👨🏻	pár se srdcem muž, muž a světlý odstín pleti	none
+👨🏻‍❤‍👨🏼	pár se srdcem muž, muž, světlý odstín pleti a středně světlý odstín pleti	none
+👨🏻‍❤‍👨🏽	pár se srdcem muž, muž, světlý odstín pleti a střední odstín pleti	none
+👨🏻‍❤‍👨🏾	pár se srdcem muž, muž, světlý odstín pleti a středně tmavý odstín pleti	none
+👨🏻‍❤‍👨🏿	pár se srdcem muž, muž, světlý odstín pleti a tmavý odstín pleti	none
+👨🏼‍❤‍👨🏻	pár se srdcem muž, muž, středně světlý odstín pleti a světlý odstín pleti	none
+👨🏼‍❤‍👨🏼	pár se srdcem muž, muž a středně světlý odstín pleti	none
+👨🏼‍❤‍👨🏽	pár se srdcem muž, muž, středně světlý odstín pleti a střední odstín pleti	none
+👨🏼‍❤‍👨🏾	pár se srdcem muž, muž, středně světlý odstín pleti a středně tmavý odstín pleti	none
+👨🏼‍❤‍👨🏿	pár se srdcem muž, muž, středně světlý odstín pleti a tmavý odstín pleti	none
+👨🏽‍❤‍👨🏻	pár se srdcem muž, muž, střední odstín pleti a světlý odstín pleti	none
+👨🏽‍❤‍👨🏼	pár se srdcem muž, muž, střední odstín pleti a středně světlý odstín pleti	none
+👨🏽‍❤‍👨🏽	pár se srdcem muž, muž a střední odstín pleti	none
+👨🏽‍❤‍👨🏾	pár se srdcem muž, muž, střední odstín pleti a středně tmavý odstín pleti	none
+👨🏽‍❤‍👨🏿	pár se srdcem muž, muž, střední odstín pleti a tmavý odstín pleti	none
+👨🏾‍❤‍👨🏻	pár se srdcem muž, muž, středně tmavý odstín pleti a světlý odstín pleti	none
+👨🏾‍❤‍👨🏼	pár se srdcem muž, muž, středně tmavý odstín pleti a středně světlý odstín pleti	none
+👨🏾‍❤‍👨🏽	pár se srdcem muž, muž, středně tmavý odstín pleti a střední odstín pleti	none
+👨🏾‍❤‍👨🏾	pár se srdcem muž, muž a středně tmavý odstín pleti	none
+👨🏾‍❤‍👨🏿	pár se srdcem muž, muž, středně tmavý odstín pleti a tmavý odstín pleti	none
+👨🏿‍❤‍👨🏻	pár se srdcem muž, muž, tmavý odstín pleti a světlý odstín pleti	none
+👨🏿‍❤‍👨🏼	pár se srdcem muž, muž, tmavý odstín pleti a středně světlý odstín pleti	none
+👨🏿‍❤‍👨🏽	pár se srdcem muž, muž, tmavý odstín pleti a střední odstín pleti	none
+👨🏿‍❤‍👨🏾	pár se srdcem muž, muž, tmavý odstín pleti a středně tmavý odstín pleti	none
+👨🏿‍❤‍👨🏿	pár se srdcem muž, muž a tmavý odstín pleti	none
+👨🏻‍🫯‍👨🏼	zápasící muži světlý odstín pleti, středně světlý odstín pleti	none
+👨🏻‍🫯‍👨🏽	zápasící muži světlý odstín pleti, střední odstín pleti	none
+👨🏻‍🫯‍👨🏾	zápasící muži světlý odstín pleti, středně tmavý odstín pleti	none
+👨🏻‍🫯‍👨🏿	zápasící muži světlý odstín pleti, tmavý odstín pleti	none
+👨🏼‍🫯‍👨🏻	zápasící muži středně světlý odstín pleti, světlý odstín pleti	none
+👨🏼‍🫯‍👨🏽	zápasící muži středně světlý odstín pleti, střední odstín pleti	none
+👨🏼‍🫯‍👨🏾	zápasící muži středně světlý odstín pleti, středně tmavý odstín pleti	none
+👨🏼‍🫯‍👨🏿	zápasící muži středně světlý odstín pleti, tmavý odstín pleti	none
+👨🏽‍🫯‍👨🏻	zápasící muži střední odstín pleti, světlý odstín pleti	none
+👨🏽‍🫯‍👨🏼	zápasící muži střední odstín pleti, středně světlý odstín pleti	none
+👨🏽‍🫯‍👨🏾	zápasící muži střední odstín pleti, středně tmavý odstín pleti	none
+👨🏽‍🫯‍👨🏿	zápasící muži střední odstín pleti, tmavý odstín pleti	none
+👨🏾‍🫯‍👨🏻	zápasící muži středně tmavý odstín pleti, světlý odstín pleti	none
+👨🏾‍🫯‍👨🏼	zápasící muži středně tmavý odstín pleti, středně světlý odstín pleti	none
+👨🏾‍🫯‍👨🏽	zápasící muži středně tmavý odstín pleti, střední odstín pleti	none
+👨🏾‍🫯‍👨🏿	zápasící muži středně tmavý odstín pleti, tmavý odstín pleti	none
+👨🏿‍🫯‍👨🏻	zápasící muži tmavý odstín pleti, světlý odstín pleti	none
+👨🏿‍🫯‍👨🏼	zápasící muži tmavý odstín pleti, středně světlý odstín pleti	none
+👨🏿‍🫯‍👨🏽	zápasící muži tmavý odstín pleti, střední odstín pleti	none
+👨🏿‍🫯‍👨🏾	zápasící muži tmavý odstín pleti, středně tmavý odstín pleti	none
 👨‍🦰	muž zrzavé vlasy	none
 👨🏻‍🦰	muž světlý odstín pleti, zrzavé vlasy	none
 👨🏼‍🦰	muž středně světlý odstín pleti, zrzavé vlasy	none
@@ -1945,6 +2352,26 @@ symbols:
 👨🏽‍🦲	muž střední odstín pleti, bez vlasů	none
 👨🏾‍🦲	muž středně tmavý odstín pleti, bez vlasů	none
 👨🏿‍🦲	muž tmavý odstín pleti, bez vlasů	none
+👨🏻‍🐰‍👨🏼	muži se zaječími oušky světlý odstín pleti, středně světlý odstín pleti	none
+👨🏻‍🐰‍👨🏽	muži se zaječími oušky světlý odstín pleti, střední odstín pleti	none
+👨🏻‍🐰‍👨🏾	muži se zaječími oušky světlý odstín pleti, středně tmavý odstín pleti	none
+👨🏻‍🐰‍👨🏿	muži se zaječími oušky světlý odstín pleti, tmavý odstín pleti	none
+👨🏼‍🐰‍👨🏻	muži se zaječími oušky středně světlý odstín pleti, světlý odstín pleti	none
+👨🏼‍🐰‍👨🏽	muži se zaječími oušky středně světlý odstín pleti, střední odstín pleti	none
+👨🏼‍🐰‍👨🏾	muži se zaječími oušky středně světlý odstín pleti, středně tmavý odstín pleti	none
+👨🏼‍🐰‍👨🏿	muži se zaječími oušky středně světlý odstín pleti, tmavý odstín pleti	none
+👨🏽‍🐰‍👨🏻	muži se zaječími oušky střední odstín pleti, světlý odstín pleti	none
+👨🏽‍🐰‍👨🏼	muži se zaječími oušky střední odstín pleti, středně světlý odstín pleti	none
+👨🏽‍🐰‍👨🏾	muži se zaječími oušky střední odstín pleti, středně tmavý odstín pleti	none
+👨🏽‍🐰‍👨🏿	muži se zaječími oušky střední odstín pleti, tmavý odstín pleti	none
+👨🏾‍🐰‍👨🏻	muži se zaječími oušky středně tmavý odstín pleti, světlý odstín pleti	none
+👨🏾‍🐰‍👨🏼	muži se zaječími oušky středně tmavý odstín pleti, středně světlý odstín pleti	none
+👨🏾‍🐰‍👨🏽	muži se zaječími oušky středně tmavý odstín pleti, střední odstín pleti	none
+👨🏾‍🐰‍👨🏿	muži se zaječími oušky středně tmavý odstín pleti, tmavý odstín pleti	none
+👨🏿‍🐰‍👨🏻	muži se zaječími oušky tmavý odstín pleti, světlý odstín pleti	none
+👨🏿‍🐰‍👨🏼	muži se zaječími oušky tmavý odstín pleti, středně světlý odstín pleti	none
+👨🏿‍🐰‍👨🏽	muži se zaječími oušky tmavý odstín pleti, střední odstín pleti	none
+👨🏿‍🐰‍👨🏾	muži se zaječími oušky tmavý odstín pleti, středně tmavý odstín pleti	none
 👩🏻	žena světlý odstín pleti	none
 👩🏼	žena středně světlý odstín pleti	none
 👩🏽	žena střední odstín pleti	none
@@ -1960,106 +2387,126 @@ symbols:
 👱🏽‍♀	blondýna střední odstín pleti	none
 👱🏾‍♀	blondýna středně tmavý odstín pleti	none
 👱🏿‍♀	blondýna tmavý odstín pleti	none
-👩🏻‍❤‍💋‍👨🏻	polibek žena, muž a světlý odstín pleti	none
-👩🏻‍❤‍💋‍👨🏼	polibek žena, muž, světlý odstín pleti a středně světlý odstín pleti	none
-👩🏻‍❤‍💋‍👨🏽	polibek žena, muž, světlý odstín pleti a střední odstín pleti	none
-👩🏻‍❤‍💋‍👨🏾	polibek žena, muž, světlý odstín pleti a středně tmavý odstín pleti	none
-👩🏻‍❤‍💋‍👨🏿	polibek žena, muž, světlý odstín pleti a tmavý odstín pleti	none
-👩🏼‍❤‍💋‍👨🏻	polibek žena, muž, středně světlý odstín pleti a světlý odstín pleti	none
-👩🏼‍❤‍💋‍👨🏼	polibek žena, muž a středně světlý odstín pleti	none
-👩🏼‍❤‍💋‍👨🏽	polibek žena, muž, středně světlý odstín pleti a střední odstín pleti	none
-👩🏼‍❤‍💋‍👨🏾	polibek žena, muž, středně světlý odstín pleti a středně tmavý odstín pleti	none
-👩🏼‍❤‍💋‍👨🏿	polibek žena, muž, středně světlý odstín pleti a tmavý odstín pleti	none
-👩🏽‍❤‍💋‍👨🏻	polibek žena, muž, střední odstín pleti a světlý odstín pleti	none
-👩🏽‍❤‍💋‍👨🏼	polibek žena, muž, střední odstín pleti a středně světlý odstín pleti	none
-👩🏽‍❤‍💋‍👨🏽	polibek žena, muž a střední odstín pleti	none
-👩🏽‍❤‍💋‍👨🏾	polibek žena, muž, střední odstín pleti a středně tmavý odstín pleti	none
-👩🏽‍❤‍💋‍👨🏿	polibek žena, muž, střední odstín pleti a tmavý odstín pleti	none
-👩🏾‍❤‍💋‍👨🏻	polibek žena, muž, středně tmavý odstín pleti a světlý odstín pleti	none
-👩🏾‍❤‍💋‍👨🏼	polibek žena, muž, středně tmavý odstín pleti a středně světlý odstín pleti	none
-👩🏾‍❤‍💋‍👨🏽	polibek žena, muž, středně tmavý odstín pleti a střední odstín pleti	none
-👩🏾‍❤‍💋‍👨🏾	polibek žena, muž a středně tmavý odstín pleti	none
-👩🏾‍❤‍💋‍👨🏿	polibek žena, muž, středně tmavý odstín pleti a tmavý odstín pleti	none
-👩🏿‍❤‍💋‍👨🏻	polibek žena, muž, tmavý odstín pleti a světlý odstín pleti	none
-👩🏿‍❤‍💋‍👨🏼	polibek žena, muž, tmavý odstín pleti a středně světlý odstín pleti	none
-👩🏿‍❤‍💋‍👨🏽	polibek žena, muž, tmavý odstín pleti a střední odstín pleti	none
-👩🏿‍❤‍💋‍👨🏾	polibek žena, muž, tmavý odstín pleti a středně tmavý odstín pleti	none
-👩🏿‍❤‍💋‍👨🏿	polibek žena, muž a tmavý odstín pleti	none
-👩🏻‍❤‍💋‍👩🏻	polibek žena, žena a světlý odstín pleti	none
-👩🏻‍❤‍💋‍👩🏼	polibek žena, žena, světlý odstín pleti a středně světlý odstín pleti	none
-👩🏻‍❤‍💋‍👩🏽	polibek žena, žena, světlý odstín pleti a střední odstín pleti	none
-👩🏻‍❤‍💋‍👩🏾	polibek žena, žena, světlý odstín pleti a středně tmavý odstín pleti	none
-👩🏻‍❤‍💋‍👩🏿	polibek žena, žena, světlý odstín pleti a tmavý odstín pleti	none
-👩🏼‍❤‍💋‍👩🏻	polibek žena, žena, středně světlý odstín pleti a světlý odstín pleti	none
-👩🏼‍❤‍💋‍👩🏼	polibek žena, žena a středně světlý odstín pleti	none
-👩🏼‍❤‍💋‍👩🏽	polibek žena, žena, středně světlý odstín pleti a střední odstín pleti	none
-👩🏼‍❤‍💋‍👩🏾	polibek žena, žena, středně světlý odstín pleti a středně tmavý odstín pleti	none
-👩🏼‍❤‍💋‍👩🏿	polibek žena, žena, středně světlý odstín pleti a tmavý odstín pleti	none
-👩🏽‍❤‍💋‍👩🏻	polibek žena, žena, střední odstín pleti a světlý odstín pleti	none
-👩🏽‍❤‍💋‍👩🏼	polibek žena, žena, střední odstín pleti a středně světlý odstín pleti	none
-👩🏽‍❤‍💋‍👩🏽	polibek žena, žena a střední odstín pleti	none
-👩🏽‍❤‍💋‍👩🏾	polibek žena, žena, střední odstín pleti a středně tmavý odstín pleti	none
-👩🏽‍❤‍💋‍👩🏿	polibek žena, žena, střední odstín pleti a tmavý odstín pleti	none
-👩🏾‍❤‍💋‍👩🏻	polibek žena, žena, středně tmavý odstín pleti a světlý odstín pleti	none
-👩🏾‍❤‍💋‍👩🏼	polibek žena, žena, středně tmavý odstín pleti a středně světlý odstín pleti	none
-👩🏾‍❤‍💋‍👩🏽	polibek žena, žena, středně tmavý odstín pleti a střední odstín pleti	none
-👩🏾‍❤‍💋‍👩🏾	polibek žena, žena a středně tmavý odstín pleti	none
-👩🏾‍❤‍💋‍👩🏿	polibek žena, žena, středně tmavý odstín pleti a tmavý odstín pleti	none
-👩🏿‍❤‍💋‍👩🏻	polibek žena, žena, tmavý odstín pleti a světlý odstín pleti	none
-👩🏿‍❤‍💋‍👩🏼	polibek žena, žena, tmavý odstín pleti a středně světlý odstín pleti	none
-👩🏿‍❤‍💋‍👩🏽	polibek žena, žena, tmavý odstín pleti a střední odstín pleti	none
-👩🏿‍❤‍💋‍👩🏾	polibek žena, žena, tmavý odstín pleti a středně tmavý odstín pleti	none
-👩🏿‍❤‍💋‍👩🏿	polibek žena, žena a tmavý odstín pleti	none
-👩🏻‍❤‍👨🏻	pár se srdcem žena, muž a světlý odstín pleti	none
-👩🏻‍❤‍👨🏼	pár se srdcem žena, muž, světlý odstín pleti a středně světlý odstín pleti	none
-👩🏻‍❤‍👨🏽	pár se srdcem žena, muž, světlý odstín pleti a střední odstín pleti	none
-👩🏻‍❤‍👨🏾	pár se srdcem žena, muž, světlý odstín pleti a středně tmavý odstín pleti	none
-👩🏻‍❤‍👨🏿	pár se srdcem žena, muž, světlý odstín pleti a tmavý odstín pleti	none
-👩🏼‍❤‍👨🏻	pár se srdcem žena, muž, středně světlý odstín pleti a světlý odstín pleti	none
-👩🏼‍❤‍👨🏼	pár se srdcem žena, muž a středně světlý odstín pleti	none
-👩🏼‍❤‍👨🏽	pár se srdcem žena, muž, středně světlý odstín pleti a střední odstín pleti	none
-👩🏼‍❤‍👨🏾	pár se srdcem žena, muž, středně světlý odstín pleti a středně tmavý odstín pleti	none
-👩🏼‍❤‍👨🏿	pár se srdcem žena, muž, středně světlý odstín pleti a tmavý odstín pleti	none
-👩🏽‍❤‍👨🏻	pár se srdcem žena, muž, střední odstín pleti a světlý odstín pleti	none
-👩🏽‍❤‍👨🏼	pár se srdcem žena, muž, střední odstín pleti a středně světlý odstín pleti	none
-👩🏽‍❤‍👨🏽	pár se srdcem žena, muž a střední odstín pleti	none
-👩🏽‍❤‍👨🏾	pár se srdcem žena, muž, střední odstín pleti a středně tmavý odstín pleti	none
-👩🏽‍❤‍👨🏿	pár se srdcem žena, muž, střední odstín pleti a tmavý odstín pleti	none
-👩🏾‍❤‍👨🏻	pár se srdcem žena, muž, středně tmavý odstín pleti a světlý odstín pleti	none
-👩🏾‍❤‍👨🏼	pár se srdcem žena, muž, středně tmavý odstín pleti a středně světlý odstín pleti	none
-👩🏾‍❤‍👨🏽	pár se srdcem žena, muž, středně tmavý odstín pleti a střední odstín pleti	none
-👩🏾‍❤‍👨🏾	pár se srdcem žena, muž a středně tmavý odstín pleti	none
-👩🏾‍❤‍👨🏿	pár se srdcem žena, muž, středně tmavý odstín pleti a tmavý odstín pleti	none
-👩🏿‍❤‍👨🏻	pár se srdcem žena, muž, tmavý odstín pleti a světlý odstín pleti	none
-👩🏿‍❤‍👨🏼	pár se srdcem žena, muž, tmavý odstín pleti a středně světlý odstín pleti	none
-👩🏿‍❤‍👨🏽	pár se srdcem žena, muž, tmavý odstín pleti a střední odstín pleti	none
-👩🏿‍❤‍👨🏾	pár se srdcem žena, muž, tmavý odstín pleti a středně tmavý odstín pleti	none
-👩🏿‍❤‍👨🏿	pár se srdcem žena, muž a tmavý odstín pleti	none
-👩🏻‍❤‍👩🏻	pár se srdcem žena, žena a světlý odstín pleti	none
-👩🏻‍❤‍👩🏼	pár se srdcem žena, žena, světlý odstín pleti a středně světlý odstín pleti	none
-👩🏻‍❤‍👩🏽	pár se srdcem žena, žena, světlý odstín pleti a střední odstín pleti	none
-👩🏻‍❤‍👩🏾	pár se srdcem žena, žena, světlý odstín pleti a středně tmavý odstín pleti	none
-👩🏻‍❤‍👩🏿	pár se srdcem žena, žena, světlý odstín pleti a tmavý odstín pleti	none
-👩🏼‍❤‍👩🏻	pár se srdcem žena, žena, středně světlý odstín pleti a světlý odstín pleti	none
-👩🏼‍❤‍👩🏼	pár se srdcem žena, žena a středně světlý odstín pleti	none
-👩🏼‍❤‍👩🏽	pár se srdcem žena, žena, středně světlý odstín pleti a střední odstín pleti	none
-👩🏼‍❤‍👩🏾	pár se srdcem žena, žena, středně světlý odstín pleti a středně tmavý odstín pleti	none
-👩🏼‍❤‍👩🏿	pár se srdcem žena, žena, středně světlý odstín pleti a tmavý odstín pleti	none
-👩🏽‍❤‍👩🏻	pár se srdcem žena, žena, střední odstín pleti a světlý odstín pleti	none
-👩🏽‍❤‍👩🏼	pár se srdcem žena, žena, střední odstín pleti a středně světlý odstín pleti	none
-👩🏽‍❤‍👩🏽	pár se srdcem žena, žena a střední odstín pleti	none
-👩🏽‍❤‍👩🏾	pár se srdcem žena, žena, střední odstín pleti a středně tmavý odstín pleti	none
-👩🏽‍❤‍👩🏿	pár se srdcem žena, žena, střední odstín pleti a tmavý odstín pleti	none
-👩🏾‍❤‍👩🏻	pár se srdcem žena, žena, středně tmavý odstín pleti a světlý odstín pleti	none
-👩🏾‍❤‍👩🏼	pár se srdcem žena, žena, středně tmavý odstín pleti a středně světlý odstín pleti	none
-👩🏾‍❤‍👩🏽	pár se srdcem žena, žena, středně tmavý odstín pleti a střední odstín pleti	none
-👩🏾‍❤‍👩🏾	pár se srdcem žena, žena a středně tmavý odstín pleti	none
-👩🏾‍❤‍👩🏿	pár se srdcem žena, žena, středně tmavý odstín pleti a tmavý odstín pleti	none
-👩🏿‍❤‍👩🏻	pár se srdcem žena, žena, tmavý odstín pleti a světlý odstín pleti	none
-👩🏿‍❤‍👩🏼	pár se srdcem žena, žena, tmavý odstín pleti a středně světlý odstín pleti	none
-👩🏿‍❤‍👩🏽	pár se srdcem žena, žena, tmavý odstín pleti a střední odstín pleti	none
-👩🏿‍❤‍👩🏾	pár se srdcem žena, žena, tmavý odstín pleti a středně tmavý odstín pleti	none
-👩🏿‍❤‍👩🏿	pár se srdcem žena, žena a tmavý odstín pleti	none
+👩🏻‍❤‍💋‍👨🏻	polibek žena, muž a světlý odstín pleti	none
+👩🏻‍❤‍💋‍👨🏼	polibek žena, muž, světlý odstín pleti a středně světlý odstín pleti	none
+👩🏻‍❤‍💋‍👨🏽	polibek žena, muž, světlý odstín pleti a střední odstín pleti	none
+👩🏻‍❤‍💋‍👨🏾	polibek žena, muž, světlý odstín pleti a středně tmavý odstín pleti	none
+👩🏻‍❤‍💋‍👨🏿	polibek žena, muž, světlý odstín pleti a tmavý odstín pleti	none
+👩🏼‍❤‍💋‍👨🏻	polibek žena, muž, středně světlý odstín pleti a světlý odstín pleti	none
+👩🏼‍❤‍💋‍👨🏼	polibek žena, muž a středně světlý odstín pleti	none
+👩🏼‍❤‍💋‍👨🏽	polibek žena, muž, středně světlý odstín pleti a střední odstín pleti	none
+👩🏼‍❤‍💋‍👨🏾	polibek žena, muž, středně světlý odstín pleti a středně tmavý odstín pleti	none
+👩🏼‍❤‍💋‍👨🏿	polibek žena, muž, středně světlý odstín pleti a tmavý odstín pleti	none
+👩🏽‍❤‍💋‍👨🏻	polibek žena, muž, střední odstín pleti a světlý odstín pleti	none
+👩🏽‍❤‍💋‍👨🏼	polibek žena, muž, střední odstín pleti a středně světlý odstín pleti	none
+👩🏽‍❤‍💋‍👨🏽	polibek žena, muž a střední odstín pleti	none
+👩🏽‍❤‍💋‍👨🏾	polibek žena, muž, střední odstín pleti a středně tmavý odstín pleti	none
+👩🏽‍❤‍💋‍👨🏿	polibek žena, muž, střední odstín pleti a tmavý odstín pleti	none
+👩🏾‍❤‍💋‍👨🏻	polibek žena, muž, středně tmavý odstín pleti a světlý odstín pleti	none
+👩🏾‍❤‍💋‍👨🏼	polibek žena, muž, středně tmavý odstín pleti a středně světlý odstín pleti	none
+👩🏾‍❤‍💋‍👨🏽	polibek žena, muž, středně tmavý odstín pleti a střední odstín pleti	none
+👩🏾‍❤‍💋‍👨🏾	polibek žena, muž a středně tmavý odstín pleti	none
+👩🏾‍❤‍💋‍👨🏿	polibek žena, muž, středně tmavý odstín pleti a tmavý odstín pleti	none
+👩🏿‍❤‍💋‍👨🏻	polibek žena, muž, tmavý odstín pleti a světlý odstín pleti	none
+👩🏿‍❤‍💋‍👨🏼	polibek žena, muž, tmavý odstín pleti a středně světlý odstín pleti	none
+👩🏿‍❤‍💋‍👨🏽	polibek žena, muž, tmavý odstín pleti a střední odstín pleti	none
+👩🏿‍❤‍💋‍👨🏾	polibek žena, muž, tmavý odstín pleti a středně tmavý odstín pleti	none
+👩🏿‍❤‍💋‍👨🏿	polibek žena, muž a tmavý odstín pleti	none
+👩🏻‍❤‍💋‍👩🏻	polibek žena, žena a světlý odstín pleti	none
+👩🏻‍❤‍💋‍👩🏼	polibek žena, žena, světlý odstín pleti a středně světlý odstín pleti	none
+👩🏻‍❤‍💋‍👩🏽	polibek žena, žena, světlý odstín pleti a střední odstín pleti	none
+👩🏻‍❤‍💋‍👩🏾	polibek žena, žena, světlý odstín pleti a středně tmavý odstín pleti	none
+👩🏻‍❤‍💋‍👩🏿	polibek žena, žena, světlý odstín pleti a tmavý odstín pleti	none
+👩🏼‍❤‍💋‍👩🏻	polibek žena, žena, středně světlý odstín pleti a světlý odstín pleti	none
+👩🏼‍❤‍💋‍👩🏼	polibek žena, žena a středně světlý odstín pleti	none
+👩🏼‍❤‍💋‍👩🏽	polibek žena, žena, středně světlý odstín pleti a střední odstín pleti	none
+👩🏼‍❤‍💋‍👩🏾	polibek žena, žena, středně světlý odstín pleti a středně tmavý odstín pleti	none
+👩🏼‍❤‍💋‍👩🏿	polibek žena, žena, středně světlý odstín pleti a tmavý odstín pleti	none
+👩🏽‍❤‍💋‍👩🏻	polibek žena, žena, střední odstín pleti a světlý odstín pleti	none
+👩🏽‍❤‍💋‍👩🏼	polibek žena, žena, střední odstín pleti a středně světlý odstín pleti	none
+👩🏽‍❤‍💋‍👩🏽	polibek žena, žena a střední odstín pleti	none
+👩🏽‍❤‍💋‍👩🏾	polibek žena, žena, střední odstín pleti a středně tmavý odstín pleti	none
+👩🏽‍❤‍💋‍👩🏿	polibek žena, žena, střední odstín pleti a tmavý odstín pleti	none
+👩🏾‍❤‍💋‍👩🏻	polibek žena, žena, středně tmavý odstín pleti a světlý odstín pleti	none
+👩🏾‍❤‍💋‍👩🏼	polibek žena, žena, středně tmavý odstín pleti a středně světlý odstín pleti	none
+👩🏾‍❤‍💋‍👩🏽	polibek žena, žena, středně tmavý odstín pleti a střední odstín pleti	none
+👩🏾‍❤‍💋‍👩🏾	polibek žena, žena a středně tmavý odstín pleti	none
+👩🏾‍❤‍💋‍👩🏿	polibek žena, žena, středně tmavý odstín pleti a tmavý odstín pleti	none
+👩🏿‍❤‍💋‍👩🏻	polibek žena, žena, tmavý odstín pleti a světlý odstín pleti	none
+👩🏿‍❤‍💋‍👩🏼	polibek žena, žena, tmavý odstín pleti a středně světlý odstín pleti	none
+👩🏿‍❤‍💋‍👩🏽	polibek žena, žena, tmavý odstín pleti a střední odstín pleti	none
+👩🏿‍❤‍💋‍👩🏾	polibek žena, žena, tmavý odstín pleti a středně tmavý odstín pleti	none
+👩🏿‍❤‍💋‍👩🏿	polibek žena, žena a tmavý odstín pleti	none
+👩🏻‍❤‍👨🏻	pár se srdcem žena, muž a světlý odstín pleti	none
+👩🏻‍❤‍👨🏼	pár se srdcem žena, muž, světlý odstín pleti a středně světlý odstín pleti	none
+👩🏻‍❤‍👨🏽	pár se srdcem žena, muž, světlý odstín pleti a střední odstín pleti	none
+👩🏻‍❤‍👨🏾	pár se srdcem žena, muž, světlý odstín pleti a středně tmavý odstín pleti	none
+👩🏻‍❤‍👨🏿	pár se srdcem žena, muž, světlý odstín pleti a tmavý odstín pleti	none
+👩🏼‍❤‍👨🏻	pár se srdcem žena, muž, středně světlý odstín pleti a světlý odstín pleti	none
+👩🏼‍❤‍👨🏼	pár se srdcem žena, muž a středně světlý odstín pleti	none
+👩🏼‍❤‍👨🏽	pár se srdcem žena, muž, středně světlý odstín pleti a střední odstín pleti	none
+👩🏼‍❤‍👨🏾	pár se srdcem žena, muž, středně světlý odstín pleti a středně tmavý odstín pleti	none
+👩🏼‍❤‍👨🏿	pár se srdcem žena, muž, středně světlý odstín pleti a tmavý odstín pleti	none
+👩🏽‍❤‍👨🏻	pár se srdcem žena, muž, střední odstín pleti a světlý odstín pleti	none
+👩🏽‍❤‍👨🏼	pár se srdcem žena, muž, střední odstín pleti a středně světlý odstín pleti	none
+👩🏽‍❤‍👨🏽	pár se srdcem žena, muž a střední odstín pleti	none
+👩🏽‍❤‍👨🏾	pár se srdcem žena, muž, střední odstín pleti a středně tmavý odstín pleti	none
+👩🏽‍❤‍👨🏿	pár se srdcem žena, muž, střední odstín pleti a tmavý odstín pleti	none
+👩🏾‍❤‍👨🏻	pár se srdcem žena, muž, středně tmavý odstín pleti a světlý odstín pleti	none
+👩🏾‍❤‍👨🏼	pár se srdcem žena, muž, středně tmavý odstín pleti a středně světlý odstín pleti	none
+👩🏾‍❤‍👨🏽	pár se srdcem žena, muž, středně tmavý odstín pleti a střední odstín pleti	none
+👩🏾‍❤‍👨🏾	pár se srdcem žena, muž a středně tmavý odstín pleti	none
+👩🏾‍❤‍👨🏿	pár se srdcem žena, muž, středně tmavý odstín pleti a tmavý odstín pleti	none
+👩🏿‍❤‍👨🏻	pár se srdcem žena, muž, tmavý odstín pleti a světlý odstín pleti	none
+👩🏿‍❤‍👨🏼	pár se srdcem žena, muž, tmavý odstín pleti a středně světlý odstín pleti	none
+👩🏿‍❤‍👨🏽	pár se srdcem žena, muž, tmavý odstín pleti a střední odstín pleti	none
+👩🏿‍❤‍👨🏾	pár se srdcem žena, muž, tmavý odstín pleti a středně tmavý odstín pleti	none
+👩🏿‍❤‍👨🏿	pár se srdcem žena, muž a tmavý odstín pleti	none
+👩🏻‍❤‍👩🏻	pár se srdcem žena, žena a světlý odstín pleti	none
+👩🏻‍❤‍👩🏼	pár se srdcem žena, žena, světlý odstín pleti a středně světlý odstín pleti	none
+👩🏻‍❤‍👩🏽	pár se srdcem žena, žena, světlý odstín pleti a střední odstín pleti	none
+👩🏻‍❤‍👩🏾	pár se srdcem žena, žena, světlý odstín pleti a středně tmavý odstín pleti	none
+👩🏻‍❤‍👩🏿	pár se srdcem žena, žena, světlý odstín pleti a tmavý odstín pleti	none
+👩🏼‍❤‍👩🏻	pár se srdcem žena, žena, středně světlý odstín pleti a světlý odstín pleti	none
+👩🏼‍❤‍👩🏼	pár se srdcem žena, žena a středně světlý odstín pleti	none
+👩🏼‍❤‍👩🏽	pár se srdcem žena, žena, středně světlý odstín pleti a střední odstín pleti	none
+👩🏼‍❤‍👩🏾	pár se srdcem žena, žena, středně světlý odstín pleti a středně tmavý odstín pleti	none
+👩🏼‍❤‍👩🏿	pár se srdcem žena, žena, středně světlý odstín pleti a tmavý odstín pleti	none
+👩🏽‍❤‍👩🏻	pár se srdcem žena, žena, střední odstín pleti a světlý odstín pleti	none
+👩🏽‍❤‍👩🏼	pár se srdcem žena, žena, střední odstín pleti a středně světlý odstín pleti	none
+👩🏽‍❤‍👩🏽	pár se srdcem žena, žena a střední odstín pleti	none
+👩🏽‍❤‍👩🏾	pár se srdcem žena, žena, střední odstín pleti a středně tmavý odstín pleti	none
+👩🏽‍❤‍👩🏿	pár se srdcem žena, žena, střední odstín pleti a tmavý odstín pleti	none
+👩🏾‍❤‍👩🏻	pár se srdcem žena, žena, středně tmavý odstín pleti a světlý odstín pleti	none
+👩🏾‍❤‍👩🏼	pár se srdcem žena, žena, středně tmavý odstín pleti a středně světlý odstín pleti	none
+👩🏾‍❤‍👩🏽	pár se srdcem žena, žena, středně tmavý odstín pleti a střední odstín pleti	none
+👩🏾‍❤‍👩🏾	pár se srdcem žena, žena a středně tmavý odstín pleti	none
+👩🏾‍❤‍👩🏿	pár se srdcem žena, žena, středně tmavý odstín pleti a tmavý odstín pleti	none
+👩🏿‍❤‍👩🏻	pár se srdcem žena, žena, tmavý odstín pleti a světlý odstín pleti	none
+👩🏿‍❤‍👩🏼	pár se srdcem žena, žena, tmavý odstín pleti a středně světlý odstín pleti	none
+👩🏿‍❤‍👩🏽	pár se srdcem žena, žena, tmavý odstín pleti a střední odstín pleti	none
+👩🏿‍❤‍👩🏾	pár se srdcem žena, žena, tmavý odstín pleti a středně tmavý odstín pleti	none
+👩🏿‍❤‍👩🏿	pár se srdcem žena, žena a tmavý odstín pleti	none
+👩🏻‍🫯‍👩🏼	zápasící ženy světlý odstín pleti, středně světlý odstín pleti	none
+👩🏻‍🫯‍👩🏽	zápasící ženy světlý odstín pleti, střední odstín pleti	none
+👩🏻‍🫯‍👩🏾	zápasící ženy světlý odstín pleti, středně tmavý odstín pleti	none
+👩🏻‍🫯‍👩🏿	zápasící ženy světlý odstín pleti, tmavý odstín pleti	none
+👩🏼‍🫯‍👩🏻	zápasící ženy středně světlý odstín pleti, světlý odstín pleti	none
+👩🏼‍🫯‍👩🏽	zápasící ženy středně světlý odstín pleti, střední odstín pleti	none
+👩🏼‍🫯‍👩🏾	zápasící ženy středně světlý odstín pleti, středně tmavý odstín pleti	none
+👩🏼‍🫯‍👩🏿	zápasící ženy středně světlý odstín pleti, tmavý odstín pleti	none
+👩🏽‍🫯‍👩🏻	zápasící ženy střední odstín pleti, světlý odstín pleti	none
+👩🏽‍🫯‍👩🏼	zápasící ženy střední odstín pleti, středně světlý odstín pleti	none
+👩🏽‍🫯‍👩🏾	zápasící ženy střední odstín pleti, středně tmavý odstín pleti	none
+👩🏽‍🫯‍👩🏿	zápasící ženy střední odstín pleti, tmavý odstín pleti	none
+👩🏾‍🫯‍👩🏻	zápasící ženy středně tmavý odstín pleti, světlý odstín pleti	none
+👩🏾‍🫯‍👩🏼	zápasící ženy středně tmavý odstín pleti, středně světlý odstín pleti	none
+👩🏾‍🫯‍👩🏽	zápasící ženy středně tmavý odstín pleti, střední odstín pleti	none
+👩🏾‍🫯‍👩🏿	zápasící ženy středně tmavý odstín pleti, tmavý odstín pleti	none
+👩🏿‍🫯‍👩🏻	zápasící ženy tmavý odstín pleti, světlý odstín pleti	none
+👩🏿‍🫯‍👩🏼	zápasící ženy tmavý odstín pleti, středně světlý odstín pleti	none
+👩🏿‍🫯‍👩🏽	zápasící ženy tmavý odstín pleti, střední odstín pleti	none
+👩🏿‍🫯‍👩🏾	zápasící ženy tmavý odstín pleti, středně tmavý odstín pleti	none
 👩‍🦰	žena zrzavé vlasy	none
 👩🏻‍🦰	žena světlý odstín pleti, zrzavé vlasy	none
 👩🏼‍🦰	žena středně světlý odstín pleti, zrzavé vlasy	none
@@ -2084,6 +2531,26 @@ symbols:
 👩🏽‍🦲	žena střední odstín pleti, bez vlasů	none
 👩🏾‍🦲	žena středně tmavý odstín pleti, bez vlasů	none
 👩🏿‍🦲	žena tmavý odstín pleti, bez vlasů	none
+👩🏻‍🐰‍👩🏼	ženy se zaječími oušky světlý odstín pleti, středně světlý odstín pleti	none
+👩🏻‍🐰‍👩🏽	ženy se zaječími oušky světlý odstín pleti, střední odstín pleti	none
+👩🏻‍🐰‍👩🏾	ženy se zaječími oušky světlý odstín pleti, středně tmavý odstín pleti	none
+👩🏻‍🐰‍👩🏿	ženy se zaječími oušky světlý odstín pleti, tmavý odstín pleti	none
+👩🏼‍🐰‍👩🏻	ženy se zaječími oušky středně světlý odstín pleti, světlý odstín pleti	none
+👩🏼‍🐰‍👩🏽	ženy se zaječími oušky středně světlý odstín pleti, střední odstín pleti	none
+👩🏼‍🐰‍👩🏾	ženy se zaječími oušky středně světlý odstín pleti, středně tmavý odstín pleti	none
+👩🏼‍🐰‍👩🏿	ženy se zaječími oušky středně světlý odstín pleti, tmavý odstín pleti	none
+👩🏽‍🐰‍👩🏻	ženy se zaječími oušky střední odstín pleti, světlý odstín pleti	none
+👩🏽‍🐰‍👩🏼	ženy se zaječími oušky střední odstín pleti, středně světlý odstín pleti	none
+👩🏽‍🐰‍👩🏾	ženy se zaječími oušky střední odstín pleti, středně tmavý odstín pleti	none
+👩🏽‍🐰‍👩🏿	ženy se zaječími oušky střední odstín pleti, tmavý odstín pleti	none
+👩🏾‍🐰‍👩🏻	ženy se zaječími oušky středně tmavý odstín pleti, světlý odstín pleti	none
+👩🏾‍🐰‍👩🏼	ženy se zaječími oušky středně tmavý odstín pleti, středně světlý odstín pleti	none
+👩🏾‍🐰‍👩🏽	ženy se zaječími oušky středně tmavý odstín pleti, střední odstín pleti	none
+👩🏾‍🐰‍👩🏿	ženy se zaječími oušky středně tmavý odstín pleti, tmavý odstín pleti	none
+👩🏿‍🐰‍👩🏻	ženy se zaječími oušky tmavý odstín pleti, světlý odstín pleti	none
+👩🏿‍🐰‍👩🏼	ženy se zaječími oušky tmavý odstín pleti, středně světlý odstín pleti	none
+👩🏿‍🐰‍👩🏽	ženy se zaječími oušky tmavý odstín pleti, střední odstín pleti	none
+👩🏿‍🐰‍👩🏾	ženy se zaječími oušky tmavý odstín pleti, středně tmavý odstín pleti	none
 🧓🏻	starší dospělý člověk světlý odstín pleti	none
 🧓🏼	starší dospělý člověk středně světlý odstín pleti	none
 🧓🏽	starší dospělý člověk střední odstín pleti	none
@@ -2554,6 +3021,11 @@ symbols:
 👷🏽‍♀	stavební dělnice střední odstín pleti	none
 👷🏾‍♀	stavební dělnice středně tmavý odstín pleti	none
 👷🏿‍♀	stavební dělnice tmavý odstín pleti	none
+🫅🏻	člověk s korunou na hlavě světlý odstín pleti	none
+🫅🏼	člověk s korunou na hlavě středně světlý odstín pleti	none
+🫅🏽	člověk s korunou na hlavě střední odstín pleti	none
+🫅🏾	člověk s korunou na hlavě středně tmavý odstín pleti	none
+🫅🏿	člověk s korunou na hlavě tmavý odstín pleti	none
 🤴🏻	princ světlý odstín pleti	none
 🤴🏼	princ středně světlý odstín pleti	none
 🤴🏽	princ střední odstín pleti	none
@@ -2624,6 +3096,16 @@ symbols:
 🤰🏽	těhotná žena střední odstín pleti	none
 🤰🏾	těhotná žena středně tmavý odstín pleti	none
 🤰🏿	těhotná žena tmavý odstín pleti	none
+🫃🏻	těhotný muž světlý odstín pleti	none
+🫃🏼	těhotný muž středně světlý odstín pleti	none
+🫃🏽	těhotný muž střední odstín pleti	none
+🫃🏾	těhotný muž středně tmavý odstín pleti	none
+🫃🏿	těhotný muž tmavý odstín pleti	none
+🫄🏻	těhotná osoba světlý odstín pleti	none
+🫄🏼	těhotná osoba středně světlý odstín pleti	none
+🫄🏽	těhotná osoba střední odstín pleti	none
+🫄🏾	těhotná osoba středně tmavý odstín pleti	none
+🫄🏿	těhotná osoba tmavý odstín pleti	none
 🤱🏻	kojení světlý odstín pleti	none
 🤱🏼	kojení středně světlý odstín pleti	none
 🤱🏽	kojení střední odstín pleti	none
@@ -2814,6 +3296,24 @@ symbols:
 🚶🏽‍♀	kráčející žena střední odstín pleti	none
 🚶🏾‍♀	kráčející žena středně tmavý odstín pleti	none
 🚶🏿‍♀	kráčející žena tmavý odstín pleti	none
+🚶‍➡	kráčející osoba – směr doprava	none
+🚶🏻‍➡	kráčející osoba světlý odstín pleti, – směr doprava	none
+🚶🏼‍➡	kráčející osoba středně světlý odstín pleti, – směr doprava	none
+🚶🏽‍➡	kráčející osoba střední odstín pleti, – směr doprava	none
+🚶🏾‍➡	kráčející osoba středně tmavý odstín pleti, – směr doprava	none
+🚶🏿‍➡	kráčející osoba tmavý odstín pleti, – směr doprava	none
+🚶‍♀‍➡	kráčející žena – směr doprava	none
+🚶🏻‍♀‍➡	kráčející žena světlý odstín pleti, – směr doprava	none
+🚶🏼‍♀‍➡	kráčející žena středně světlý odstín pleti, – směr doprava	none
+🚶🏽‍♀‍➡	kráčející žena střední odstín pleti, – směr doprava	none
+🚶🏾‍♀‍➡	kráčející žena středně tmavý odstín pleti, – směr doprava	none
+🚶🏿‍♀‍➡	kráčející žena tmavý odstín pleti, – směr doprava	none
+🚶‍♂‍➡	kráčející muž – směr doprava	none
+🚶🏻‍♂‍➡	kráčející muž světlý odstín pleti, – směr doprava	none
+🚶🏼‍♂‍➡	kráčející muž středně světlý odstín pleti, – směr doprava	none
+🚶🏽‍♂‍➡	kráčející muž střední odstín pleti, – směr doprava	none
+🚶🏾‍♂‍➡	kráčející muž středně tmavý odstín pleti, – směr doprava	none
+🚶🏿‍♂‍➡	kráčející muž tmavý odstín pleti, – směr doprava	none
 🧍🏻	stojící osoba světlý odstín pleti	none
 🧍🏼	stojící osoba středně světlý odstín pleti	none
 🧍🏽	stojící osoba střední odstín pleti	none
@@ -2844,51 +3344,123 @@ symbols:
 🧎🏽‍♀	klečící žena střední odstín pleti	none
 🧎🏾‍♀	klečící žena středně tmavý odstín pleti	none
 🧎🏿‍♀	klečící žena tmavý odstín pleti	none
+🧎‍➡	klečící osoba – směr doprava	none
+🧎🏻‍➡	klečící osoba světlý odstín pleti, – směr doprava	none
+🧎🏼‍➡	klečící osoba středně světlý odstín pleti, – směr doprava	none
+🧎🏽‍➡	klečící osoba střední odstín pleti, – směr doprava	none
+🧎🏾‍➡	klečící osoba středně tmavý odstín pleti, – směr doprava	none
+🧎🏿‍➡	klečící osoba tmavý odstín pleti, – směr doprava	none
+🧎‍♀‍➡	klečící žena – směr doprava	none
+🧎🏻‍♀‍➡	klečící žena světlý odstín pleti, – směr doprava	none
+🧎🏼‍♀‍➡	klečící žena středně světlý odstín pleti, – směr doprava	none
+🧎🏽‍♀‍➡	klečící žena střední odstín pleti, – směr doprava	none
+🧎🏾‍♀‍➡	klečící žena středně tmavý odstín pleti, – směr doprava	none
+🧎🏿‍♀‍➡	klečící žena tmavý odstín pleti, – směr doprava	none
+🧎‍♂‍➡	klečící muž – směr doprava	none
+🧎🏻‍♂‍➡	klečící muž světlý odstín pleti, – směr doprava	none
+🧎🏼‍♂‍➡	klečící muž středně světlý odstín pleti, – směr doprava	none
+🧎🏽‍♂‍➡	klečící muž střední odstín pleti, – směr doprava	none
+🧎🏾‍♂‍➡	klečící muž středně tmavý odstín pleti, – směr doprava	none
+🧎🏿‍♂‍➡	klečící muž tmavý odstín pleti, – směr doprava	none
 🧑🏻‍🦯	člověk se slepeckou holí světlý odstín pleti	none
 🧑🏼‍🦯	člověk se slepeckou holí středně světlý odstín pleti	none
 🧑🏽‍🦯	člověk se slepeckou holí střední odstín pleti	none
 🧑🏾‍🦯	člověk se slepeckou holí středně tmavý odstín pleti	none
 🧑🏿‍🦯	člověk se slepeckou holí tmavý odstín pleti	none
+🧑‍🦯‍➡	člověk se slepeckou holí – směr doprava	none
+🧑🏻‍🦯‍➡	člověk se slepeckou holí světlý odstín pleti, – směr doprava	none
+🧑🏼‍🦯‍➡	člověk se slepeckou holí středně světlý odstín pleti, – směr doprava	none
+🧑🏽‍🦯‍➡	člověk se slepeckou holí střední odstín pleti, – směr doprava	none
+🧑🏾‍🦯‍➡	člověk se slepeckou holí středně tmavý odstín pleti, – směr doprava	none
+🧑🏿‍🦯‍➡	člověk se slepeckou holí tmavý odstín pleti, – směr doprava	none
 👨🏻‍🦯	muž se slepeckou holí světlý odstín pleti	none
 👨🏼‍🦯	muž se slepeckou holí středně světlý odstín pleti	none
 👨🏽‍🦯	muž se slepeckou holí střední odstín pleti	none
 👨🏾‍🦯	muž se slepeckou holí středně tmavý odstín pleti	none
 👨🏿‍🦯	muž se slepeckou holí tmavý odstín pleti	none
+👨‍🦯‍➡	muž se slepeckou holí – směr doprava	none
+👨🏻‍🦯‍➡	muž se slepeckou holí světlý odstín pleti, – směr doprava	none
+👨🏼‍🦯‍➡	muž se slepeckou holí středně světlý odstín pleti, – směr doprava	none
+👨🏽‍🦯‍➡	muž se slepeckou holí střední odstín pleti, – směr doprava	none
+👨🏾‍🦯‍➡	muž se slepeckou holí středně tmavý odstín pleti, – směr doprava	none
+👨🏿‍🦯‍➡	muž se slepeckou holí tmavý odstín pleti, – směr doprava	none
 👩🏻‍🦯	žena se slepeckou holí světlý odstín pleti	none
 👩🏼‍🦯	žena se slepeckou holí středně světlý odstín pleti	none
 👩🏽‍🦯	žena se slepeckou holí střední odstín pleti	none
 👩🏾‍🦯	žena se slepeckou holí středně tmavý odstín pleti	none
 👩🏿‍🦯	žena se slepeckou holí tmavý odstín pleti	none
+👩‍🦯‍➡	žena se slepeckou holí – směr doprava	none
+👩🏻‍🦯‍➡	žena se slepeckou holí světlý odstín pleti, – směr doprava	none
+👩🏼‍🦯‍➡	žena se slepeckou holí středně světlý odstín pleti, – směr doprava	none
+👩🏽‍🦯‍➡	žena se slepeckou holí střední odstín pleti, – směr doprava	none
+👩🏾‍🦯‍➡	žena se slepeckou holí středně tmavý odstín pleti, – směr doprava	none
+👩🏿‍🦯‍➡	žena se slepeckou holí tmavý odstín pleti, – směr doprava	none
 🧑🏻‍🦼	člověk na elektrickém invalidním vozíku světlý odstín pleti	none
 🧑🏼‍🦼	člověk na elektrickém invalidním vozíku středně světlý odstín pleti	none
 🧑🏽‍🦼	člověk na elektrickém invalidním vozíku střední odstín pleti	none
 🧑🏾‍🦼	člověk na elektrickém invalidním vozíku středně tmavý odstín pleti	none
 🧑🏿‍🦼	člověk na elektrickém invalidním vozíku tmavý odstín pleti	none
+🧑‍🦼‍➡	člověk na elektrickém invalidním vozíku – směr doprava	none
+🧑🏻‍🦼‍➡	člověk na elektrickém invalidním vozíku světlý odstín pleti, – směr doprava	none
+🧑🏼‍🦼‍➡	člověk na elektrickém invalidním vozíku středně světlý odstín pleti, – směr doprava	none
+🧑🏽‍🦼‍➡	člověk na elektrickém invalidním vozíku střední odstín pleti, – směr doprava	none
+🧑🏾‍🦼‍➡	člověk na elektrickém invalidním vozíku středně tmavý odstín pleti, – směr doprava	none
+🧑🏿‍🦼‍➡	člověk na elektrickém invalidním vozíku tmavý odstín pleti, – směr doprava	none
 👨🏻‍🦼	muž na elektrickém invalidním vozíku světlý odstín pleti	none
 👨🏼‍🦼	muž na elektrickém invalidním vozíku středně světlý odstín pleti	none
 👨🏽‍🦼	muž na elektrickém invalidním vozíku střední odstín pleti	none
 👨🏾‍🦼	muž na elektrickém invalidním vozíku středně tmavý odstín pleti	none
 👨🏿‍🦼	muž na elektrickém invalidním vozíku tmavý odstín pleti	none
+👨‍🦼‍➡	muž na elektrickém invalidním vozíku – směr doprava	none
+👨🏻‍🦼‍➡	muž na elektrickém invalidním vozíku světlý odstín pleti, – směr doprava	none
+👨🏼‍🦼‍➡	muž na elektrickém invalidním vozíku středně světlý odstín pleti, – směr doprava	none
+👨🏽‍🦼‍➡	muž na elektrickém invalidním vozíku střední odstín pleti, – směr doprava	none
+👨🏾‍🦼‍➡	muž na elektrickém invalidním vozíku středně tmavý odstín pleti, – směr doprava	none
+👨🏿‍🦼‍➡	muž na elektrickém invalidním vozíku tmavý odstín pleti, – směr doprava	none
 👩🏻‍🦼	žena na elektrickém invalidním vozíku světlý odstín pleti	none
 👩🏼‍🦼	žena na elektrickém invalidním vozíku středně světlý odstín pleti	none
 👩🏽‍🦼	žena na elektrickém invalidním vozíku střední odstín pleti	none
 👩🏾‍🦼	žena na elektrickém invalidním vozíku středně tmavý odstín pleti	none
 👩🏿‍🦼	žena na elektrickém invalidním vozíku tmavý odstín pleti	none
+👩‍🦼‍➡	žena na elektrickém invalidním vozíku – směr doprava	none
+👩🏻‍🦼‍➡	žena na elektrickém invalidním vozíku světlý odstín pleti, – směr doprava	none
+👩🏼‍🦼‍➡	žena na elektrickém invalidním vozíku středně světlý odstín pleti, – směr doprava	none
+👩🏽‍🦼‍➡	žena na elektrickém invalidním vozíku střední odstín pleti, – směr doprava	none
+👩🏾‍🦼‍➡	žena na elektrickém invalidním vozíku středně tmavý odstín pleti, – směr doprava	none
+👩🏿‍🦼‍➡	žena na elektrickém invalidním vozíku tmavý odstín pleti, – směr doprava	none
 🧑🏻‍🦽	člověk na mechanickém invalidním vozíku světlý odstín pleti	none
 🧑🏼‍🦽	člověk na mechanickém invalidním vozíku středně světlý odstín pleti	none
 🧑🏽‍🦽	člověk na mechanickém invalidním vozíku střední odstín pleti	none
 🧑🏾‍🦽	člověk na mechanickém invalidním vozíku středně tmavý odstín pleti	none
 🧑🏿‍🦽	člověk na mechanickém invalidním vozíku tmavý odstín pleti	none
+🧑‍🦽‍➡	člověk na mechanickém invalidním vozíku – směr doprava	none
+🧑🏻‍🦽‍➡	člověk na mechanickém invalidním vozíku světlý odstín pleti, – směr doprava	none
+🧑🏼‍🦽‍➡	člověk na mechanickém invalidním vozíku středně světlý odstín pleti, – směr doprava	none
+🧑🏽‍🦽‍➡	člověk na mechanickém invalidním vozíku střední odstín pleti, – směr doprava	none
+🧑🏾‍🦽‍➡	člověk na mechanickém invalidním vozíku středně tmavý odstín pleti, – směr doprava	none
+🧑🏿‍🦽‍➡	člověk na mechanickém invalidním vozíku tmavý odstín pleti, – směr doprava	none
 👨🏻‍🦽	muž na mechanickém invalidním vozíku světlý odstín pleti	none
 👨🏼‍🦽	muž na mechanickém invalidním vozíku středně světlý odstín pleti	none
 👨🏽‍🦽	muž na mechanickém invalidním vozíku střední odstín pleti	none
 👨🏾‍🦽	muž na mechanickém invalidním vozíku středně tmavý odstín pleti	none
 👨🏿‍🦽	muž na mechanickém invalidním vozíku tmavý odstín pleti	none
+👨‍🦽‍➡	muž na mechanickém invalidním vozíku – směr doprava	none
+👨🏻‍🦽‍➡	muž na mechanickém invalidním vozíku světlý odstín pleti, – směr doprava	none
+👨🏼‍🦽‍➡	muž na mechanickém invalidním vozíku středně světlý odstín pleti, – směr doprava	none
+👨🏽‍🦽‍➡	muž na mechanickém invalidním vozíku střední odstín pleti, – směr doprava	none
+👨🏾‍🦽‍➡	muž na mechanickém invalidním vozíku středně tmavý odstín pleti, – směr doprava	none
+👨🏿‍🦽‍➡	muž na mechanickém invalidním vozíku tmavý odstín pleti, – směr doprava	none
 👩🏻‍🦽	žena na mechanickém invalidním vozíku světlý odstín pleti	none
 👩🏼‍🦽	žena na mechanickém invalidním vozíku středně světlý odstín pleti	none
 👩🏽‍🦽	žena na mechanickém invalidním vozíku střední odstín pleti	none
 👩🏾‍🦽	žena na mechanickém invalidním vozíku středně tmavý odstín pleti	none
 👩🏿‍🦽	žena na mechanickém invalidním vozíku tmavý odstín pleti	none
+👩‍🦽‍➡	žena na mechanickém invalidním vozíku – směr doprava	none
+👩🏻‍🦽‍➡	žena na mechanickém invalidním vozíku světlý odstín pleti, – směr doprava	none
+👩🏼‍🦽‍➡	žena na mechanickém invalidním vozíku středně světlý odstín pleti, – směr doprava	none
+👩🏽‍🦽‍➡	žena na mechanickém invalidním vozíku střední odstín pleti, – směr doprava	none
+👩🏾‍🦽‍➡	žena na mechanickém invalidním vozíku středně tmavý odstín pleti, – směr doprava	none
+👩🏿‍🦽‍➡	žena na mechanickém invalidním vozíku tmavý odstín pleti, – směr doprava	none
 🏃🏻	běžící osoba světlý odstín pleti	none
 🏃🏼	běžící osoba středně světlý odstín pleti	none
 🏃🏽	běžící osoba střední odstín pleti	none
@@ -2904,6 +3476,29 @@ symbols:
 🏃🏽‍♀	běžící žena střední odstín pleti	none
 🏃🏾‍♀	běžící žena středně tmavý odstín pleti	none
 🏃🏿‍♀	běžící žena tmavý odstín pleti	none
+🏃‍➡	běžící osoba – směr doprava	none
+🏃🏻‍➡	běžící osoba světlý odstín pleti, – směr doprava	none
+🏃🏼‍➡	běžící osoba středně světlý odstín pleti, – směr doprava	none
+🏃🏽‍➡	běžící osoba střední odstín pleti, – směr doprava	none
+🏃🏾‍➡	běžící osoba středně tmavý odstín pleti, – směr doprava	none
+🏃🏿‍➡	běžící osoba tmavý odstín pleti, – směr doprava	none
+🏃‍♀‍➡	běžící žena – směr doprava	none
+🏃🏻‍♀‍➡	běžící žena světlý odstín pleti, – směr doprava	none
+🏃🏼‍♀‍➡	běžící žena středně světlý odstín pleti, – směr doprava	none
+🏃🏽‍♀‍➡	běžící žena střední odstín pleti, – směr doprava	none
+🏃🏾‍♀‍➡	běžící žena středně tmavý odstín pleti, – směr doprava	none
+🏃🏿‍♀‍➡	běžící žena tmavý odstín pleti, – směr doprava	none
+🏃‍♂‍➡	běžící muž – směr doprava	none
+🏃🏻‍♂‍➡	běžící muž světlý odstín pleti, – směr doprava	none
+🏃🏼‍♂‍➡	běžící muž středně světlý odstín pleti, – směr doprava	none
+🏃🏽‍♂‍➡	běžící muž střední odstín pleti, – směr doprava	none
+🏃🏾‍♂‍➡	běžící muž středně tmavý odstín pleti, – směr doprava	none
+🏃🏿‍♂‍➡	běžící muž tmavý odstín pleti, – směr doprava	none
+🧑🏻‍🩰	baletní tanečník světlý odstín pleti	none
+🧑🏼‍🩰	baletní tanečník středně světlý odstín pleti	none
+🧑🏽‍🩰	baletní tanečník střední odstín pleti	none
+🧑🏾‍🩰	baletní tanečník středně tmavý odstín pleti	none
+🧑🏿‍🩰	baletní tanečník tmavý odstín pleti	none
 💃🏻	tanečnice světlý odstín pleti	none
 💃🏼	tanečnice středně světlý odstín pleti	none
 💃🏽	tanečnice střední odstín pleti	none
@@ -2919,6 +3514,21 @@ symbols:
 🕴🏽	levitující byznysmen střední odstín pleti	none
 🕴🏾	levitující byznysmen středně tmavý odstín pleti	none
 🕴🏿	levitující byznysmen tmavý odstín pleti	none
+👯🏻	osoby se zaječími oušky světlý odstín pleti	none
+👯🏼	osoby se zaječími oušky středně světlý odstín pleti	none
+👯🏽	osoby se zaječími oušky střední odstín pleti	none
+👯🏾	osoby se zaječími oušky středně tmavý odstín pleti	none
+👯🏿	osoby se zaječími oušky tmavý odstín pleti	none
+👯🏻‍♂	muži se zaječími oušky světlý odstín pleti	none
+👯🏼‍♂	muži se zaječími oušky středně světlý odstín pleti	none
+👯🏽‍♂	muži se zaječími oušky střední odstín pleti	none
+👯🏾‍♂	muži se zaječími oušky středně tmavý odstín pleti	none
+👯🏿‍♂	muži se zaječími oušky tmavý odstín pleti	none
+👯🏻‍♀	ženy se zaječími oušky světlý odstín pleti	none
+👯🏼‍♀	ženy se zaječími oušky středně světlý odstín pleti	none
+👯🏽‍♀	ženy se zaječími oušky střední odstín pleti	none
+👯🏾‍♀	ženy se zaječími oušky středně tmavý odstín pleti	none
+👯🏿‍♀	ženy se zaječími oušky tmavý odstín pleti	none
 🧖🏻	osoba v sauně světlý odstín pleti	none
 🧖🏼	osoba v sauně středně světlý odstín pleti	none
 🧖🏽	osoba v sauně střední odstín pleti	none
@@ -3094,6 +3704,21 @@ symbols:
 🤸🏽‍♀	žena dělající přemet stranou střední odstín pleti	none
 🤸🏾‍♀	žena dělající přemet stranou středně tmavý odstín pleti	none
 🤸🏿‍♀	žena dělající přemet stranou tmavý odstín pleti	none
+🤼🏻	zápasící dvojice světlý odstín pleti	none
+🤼🏼	zápasící dvojice středně světlý odstín pleti	none
+🤼🏽	zápasící dvojice střední odstín pleti	none
+🤼🏾	zápasící dvojice středně tmavý odstín pleti	none
+🤼🏿	zápasící dvojice tmavý odstín pleti	none
+🤼🏻‍♂	zápasící muži světlý odstín pleti	none
+🤼🏼‍♂	zápasící muži středně světlý odstín pleti	none
+🤼🏽‍♂	zápasící muži střední odstín pleti	none
+🤼🏾‍♂	zápasící muži středně tmavý odstín pleti	none
+🤼🏿‍♂	zápasící muži tmavý odstín pleti	none
+🤼🏻‍♀	zápasící ženy světlý odstín pleti	none
+🤼🏼‍♀	zápasící ženy středně světlý odstín pleti	none
+🤼🏽‍♀	zápasící ženy střední odstín pleti	none
+🤼🏾‍♀	zápasící ženy středně tmavý odstín pleti	none
+🤼🏿‍♀	zápasící ženy tmavý odstín pleti	none
 🤽🏻	osoba hrající vodní pólo světlý odstín pleti	none
 🤽🏼	osoba hrající vodní pólo středně světlý odstín pleti	none
 🤽🏽	osoba hrající vodní pólo střední odstín pleti	none
@@ -3280,31 +3905,31 @@ symbols:
 👩‍❤‍👨	pár se srdcem žena, muž	none
 👨‍❤‍👨	pár se srdcem muž, muž	none
 👩‍❤‍👩	pár se srdcem žena, žena	none
-👨‍👩‍👦	rodina muž, žena a chlapec	none
-👨‍👩‍👧	rodina muž, žena a dívka	none
-👨‍👩‍👧‍👦	rodina muž, žena, dívka a chlapec	none
-👨‍👩‍👦‍👦	rodina muž, žena, chlapec a chlapec	none
-👨‍👩‍👧‍👧	rodina muž, žena, dívka a dívka	none
-👨‍👨‍👦	rodina muž, muž a chlapec	none
-👨‍👨‍👧	rodina muž, muž a dívka	none
-👨‍👨‍👧‍👦	rodina muž, muž, dívka a chlapec	none
-👨‍👨‍👦‍👦	rodina muž, muž, chlapec a chlapec	none
-👨‍👨‍👧‍👧	rodina muž, muž, dívka a dívka	none
-👩‍👩‍👦	rodina žena, žena a chlapec	none
-👩‍👩‍👧	rodina žena, žena a dívka	none
-👩‍👩‍👧‍👦	rodina žena, žena, dívka a chlapec	none
-👩‍👩‍👦‍👦	rodina žena, žena, chlapec a chlapec	none
-👩‍👩‍👧‍👧	rodina žena, žena, dívka a dívka	none
+👨‍👩‍👦	rodina muž, žena a chlapec	none
+👨‍👩‍👧	rodina muž, žena a dívka	none
+👨‍👩‍👧‍👦	rodina muž, žena, dívka a chlapec	none
+👨‍👩‍👦‍👦	rodina muž, žena, chlapec a chlapec	none
+👨‍👩‍👧‍👧	rodina muž, žena, dívka a dívka	none
+👨‍👨‍👦	rodina muž, muž a chlapec	none
+👨‍👨‍👧	rodina muž, muž a dívka	none
+👨‍👨‍👧‍👦	rodina muž, muž, dívka a chlapec	none
+👨‍👨‍👦‍👦	rodina muž, muž, chlapec a chlapec	none
+👨‍👨‍👧‍👧	rodina muž, muž, dívka a dívka	none
+👩‍👩‍👦	rodina žena, žena a chlapec	none
+👩‍👩‍👧	rodina žena, žena a dívka	none
+👩‍👩‍👧‍👦	rodina žena, žena, dívka a chlapec	none
+👩‍👩‍👦‍👦	rodina žena, žena, chlapec a chlapec	none
+👩‍👩‍👧‍👧	rodina žena, žena, dívka a dívka	none
 👨‍👦	rodina muž, chlapec	none
-👨‍👦‍👦	rodina muž, chlapec a chlapec	none
+👨‍👦‍👦	rodina muž, chlapec a chlapec	none
 👨‍👧	rodina muž, dívka	none
-👨‍👧‍👦	rodina muž, dívka a chlapec	none
-👨‍👧‍👧	rodina muž, dívka a dívka	none
+👨‍👧‍👦	rodina muž, dívka a chlapec	none
+👨‍👧‍👧	rodina muž, dívka a dívka	none
 👩‍👦	rodina žena, chlapec	none
-👩‍👦‍👦	rodina žena, chlapec a chlapec	none
+👩‍👦‍👦	rodina žena, chlapec a chlapec	none
 👩‍👧	rodina žena, dívka	none
-👩‍👧‍👦	rodina žena, dívka a chlapec	none
-👩‍👧‍👧	rodina žena, dívka a dívka	none
+👩‍👧‍👦	rodina žena, dívka a chlapec	none
+👩‍👧‍👧	rodina žena, dívka a dívka	none
 🔟	klávesa 10	none
 🇦🇨	vlajka Ascension	none
 🇦🇩	vlajka Andorra	none
@@ -3357,6 +3982,7 @@ symbols:
 🇨🇳	vlajka Čína	none
 🇨🇴	vlajka Kolumbie	none
 🇨🇵	vlajka Clippertonův ostrov	none
+🇨🇶	vlajka Sark	none
 🇨🇷	vlajka Kostarika	none
 🇨🇺	vlajka Kuba	none
 🇨🇻	vlajka Kapverdy	none
@@ -3569,7 +4195,6 @@ symbols:
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	vlajka Wales	none
 ₡	kostarický colón	none
 ₦	nigerijská naira	none
-₧	španělská peseta	none
 ₪	izraelský nový šekel	none
 ₫	vietnamský dong	none
 ₭	laoský kip	none
@@ -3581,3 +4206,4 @@ symbols:
 ₺	turecká lira	none
 ₼	ázerbájdžánský manat	none
 ₾	gruzínské lari	none
+₧	španělská peseta	none

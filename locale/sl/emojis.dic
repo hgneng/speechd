@@ -10,9 +10,9 @@ symbols:
 🏿	temen ten kože	none
 ℗	avtorske pravice za zvočni posnetek	none
 ←	puščica, obrnjena v levo	none
-↚	prečrtana puščica levo	none
+↚	puščica levo s poševnico	none
 →	puščica, obrnjena v desno	none
-↛	prečrtana puščica desno	none
+↛	puščica desno s poševnico	none
 ↑	puščica, obrnjena navzgor	none
 ↓	puščica, obrnjena navzdol	none
 ↜	vijugasta puščica levo	none
@@ -38,12 +38,12 @@ symbols:
 ↳	puščica navzdol desno	none
 ↴	kotna puščica desno navzdol	none
 ↵	kotna puščica levo navzdol	none
-↶	zgornja polkrožna puščica v nasprotni smeri urinega kazalca	none
-↷	zgornja polkrožna puščica v smeri urinega kazalca	none
+↶	zgornja polkrožna puščica v nasprotni smeri urnega kazalca	none
+↷	zgornja polkrožna puščica v smeri urnega kazalca	none
 ↸	puščica severozahod z dolgo črtico zgoraj	none
 ↹	puščica levo s črtico nad puščico desno s črtico	none
-↺	odprta krožna puščica v nasprotni smeri urinega kazalca	none
-↻	odprta krožna puščica v smeri urinega kazalca	none
+↺	odprta krožna puščica v nasprotni smeri urnega kazalca	none
+↻	odprta krožna puščica v smeri urnega kazalca	none
 ↼	harpuna levo z ostjo navzgor	none
 ↽	harpuna levo z ostjo navzdol	none
 ↾	harpuna navzgor z desno ostjo	none
@@ -52,30 +52,216 @@ symbols:
 ⇁	harpuna desno z ostjo navzdol	none
 ⇂	harpuna navzdol z desno ostjo	none
 ⇃	harpuna navzdol z levo ostjo	none
+⇄	puščica desno nad puščico levo	none
 ⇅	puščici, obrnjeni navzgor in navzdol	none
 ⇆	puščica v levo nad puščico v desno	none
+⇇	par puščic levo	none
+⇈	par puščic navzgor	none
+⇉	par puščic desno	none
+⇊	par puščic navzdol	none
+⇋	harpuna levo nad harpuno desno	none
+⇌	harpuna desno nad harpuno levo	none
+⇐	dvojna puščica levo	none
+⇍	dvojna prečrtana puščica levo	none
+⇑	dvojna puščica navzgor	none
+⇒	dvojna puščica desno	none
+⇏	dvojna prečrtana puščica desno	none
+⇓	dvojna puščica navzdol	none
+⇔	dvojna puščica levo-desno	none
+⇎	dvojna prečrtana puščica levo-desno	none
+⇖	dvojna puščica severozahod	none
+⇗	dvojna puščica severovzhod	none
+⇘	dvojna puščica jugovzhod	none
+⇙	dvojna puščica jugozahod	none
+⇚	trojna puščica levo	none
+⇛	trojna puščica desno	none
+⇜	valovita puščica levo	none
+⇝	valovita puščica desno	none
+⇞	dvakrat prečrtana puščica navzgor	none
+⇟	dvakrat prečrtana puščica navzdol	none
+⇠	črtkana puščica levo	none
+⇡	črtkana puščica navzgor	none
+⇢	črtkana puščica desno	none
+⇣	črtkana puščica navzdol	none
+⇤	puščica levo s črtico	none
+⇥	puščica desno s črtico	none
+⇦	votla puščica levo	none
+⇧	votla puščica navzgor	none
+⇨	votla puščica desno	none
+⇩	votla puščica navzdol	none
+⇪	votla puščica od črte navzgor	none
+⇵	puščica navzdol levo od puščice navzgor	none
+∀	za vse	none
+∂	parcialni diferencial	none
+∃	obstaja	none
+∅	prazna množica	none
 ∆	razlika	none
 ∇	nabla	none
 ∈	je element množice	none
+∉	ni element	none
+∋	vključuje kot element	none
+∎	znak za konec	none
+∏	produkt n-skupine	none
+∑	vsota n-skupine	none
+≮	ne manjše od	none
 ≠	ni enako	none
+≯	ne večje od	none
 −	znak za minus	none
 ⁻	nadpisani minus	none
+∓	minus ali plus	none
+∕	poševnica za deljenje	none
+∗	operator zvezdice	none
+∘	operator obroča	none
+∙	operator vrstične oznake	none
 √	kvadratni koren	none
+∝	sorazmerno	none
 ∞	znak za neskončno	none
+∟	pravi kot	none
+∠	kot	none
+∣	deljenje	none
+∥	vzporedno	none
+∧	logični in	none
 ∩	presek	none
 ∪	unija	none
-≈	približno enako	none
+∫	integral	none
+∬	dvojni integral	none
+∮	obrisni integral	none
+∴	zato	none
+∵	ker	none
+∶	razmerje	none
+∷	sorazmerje	none
+∼	operator vijuge	none
+∽	obrnjena vijuga	none
+∾	obrnjen ležeči s	none
+≃	asimptotično enako	none
+≅	približno enako	none
+≈	skoraj enako	none
+≌	vse enako	none
+≒	približno enako preslikavi	none
+≖	obroč v enačaju	none
 ≡	je enako	none
+≣	povsem enako	none
 ≤	manjše ali enako	none
 ≥	večje ali enako	none
+≦	manjše od nad enačajem	none
+≧	večje od nad enačajem	none
+≪	veliko manjše od	none
+≫	veliko večje od	none
+≬	med	none
+≳	večje od enakovredno	none
+≺	predhodnik	none
+≻	naslednik	none
+⊁	ni naslednik	none
 ⊂	je podmnožica množice	none
+⊃	nadmnožica	none
+⊆	je podmnožica	none
+⊇	je nadmnožica	none
+⊕	plus v krogu	none
+⊖	minus v krogu	none
+⊗	krat v krogu	none
+⊘	poševnica za deljenje v krogu	none
+⊙	operator pike v krogu	none
+⊚	operator obroča v krogu	none
+⊛	operator zvezdice v krogu	none
+⊞	plus v kvadratu	none
+⊟	minus v kvadratu	none
+⊥	žebljiček navzgor	none
+⊮	ne vsiljuje	none
+⊰	predhodnik v razmerju	none
+⊱	naslednik v razmerju	none
+⋭	ne vsebuje kot običajna podskupina, enaka	none
+⊶	original	none
+⊹	hermitska konjugirana matrika	none
+⊿	pravokotni trikotnik	none
+⋁	logična n-skupina ali	none
+⋂	presek n-skupin	none
+⋃	unija n-skupin	none
+⋅	operator pike	none
+⋆	operator zvezde	none
+⋈	naravna združitev	none
+⋒	dvojni presek	none
+⋘	zelo veliko manj kot	none
+⋙	zelo veliko več kot	none
+⋮	navpične tri pike	none
+⋯	tri pike v sredi vodoravno	none
+⋰	tri pike v diagonali gor desno	none
+⋱	tri pike v diagonali dol desno	none
+■	poln kvadrat	none
+□	prazen kvadrat	none
+▢	prazen kvadrat z zaobljenimi koti	none
+▣	poln kvadrat v praznem kvadratu	none
+▤	kvadrat z vodoravnim polnilom	none
+▥	kvadrat z navpičnim polnilom	none
+▦	kvadrat s pravokotnim križnim polnilom	none
+▧	kvadrat s poševnim polnilom od leve navzdol	none
+▨	kvadrat s poševnim polnilom od desne navzgor	none
+▩	kvadrat z diagonalnim križnim polnilom	none
+▬	poln pravokotnik	none
+▭	prazen pravokotnik	none
+▮	poln navpičen pravokotnik	none
+▰	poln paralelogram	none
 ▲	poln navzgor obrnjen trikotnik	none
+△	prazen trikotnik, obrnjen navzgor	none
+▴	poln majhen trikotnik, obrnjen navzgor	none
+▵	prazen majhen trikotnik, obrnjen navzgor	none
+▷	prazen trikotnik, obrnjen v desno	none
+▸	poln majhen trikotnik, obrnjen v desno	none
+▹	prazen majhen trikotnik, obrnjen v desno	none
+►	poln kazalec, obrnjen v desno	none
+▻	prazen kazalec, obrnjen v desno	none
 ▼	poln navzdol obrnjen trikotnik	none
+▽	prazen trikotnik, obrnjen navzdol	none
+▾	poln majhen trikotnik, obrnjen navzdol	none
+▿	prazen majhen trikotnik, obrnjen navzdol	none
+◁	prazen trikotnik, obrnjen v levo	none
+◂	poln majhen trikotnik, obrnjen v levo	none
+◃	prazen majhen trikotnik, obrnjen v levo	none
+◄	poln kazalec, obrnjen v levo	none
+◅	prazen kazalec, obrnjen v levo	none
+◆	poln karo	none
+◇	prazen karo	none
+◈	poln karo v praznem karu	none
+◉	poln krog v praznem krogu	none
 ◊	romb	none
 ○	votel krog	none
+◌	pikčast krog	none
+◍	krog z navpičnim polnilom	none
+◎	koncentrična kroga	none
 ●	poln krog	none
+◐	krog s polno levo polovico	none
+◑	krog s polno desno polovico	none
+◒	krog s polno spodnjo polovico	none
+◓	krog s polno zgornjo polovico	none
+◔	krog s polno desno zgornjo četrtino	none
+◕	poln krog s prazno levo zgornjo četrtino	none
+◖	polna leva polovica kroga	none
+◗	polna desna polovica kroga	none
+◘	obratna vrstična oznaka	none
+◙	prazen krog v polnem kvadratu	none
+◜	zgornja leva četrtina krožnega loka	none
+◝	zgornja desna četrtina krožnega loka	none
+◞	spodnja desna četrtina krožnega loka	none
+◟	spodnja leva četrtina krožnega loka	none
+◠	zgornji polkrog	none
+◡	spodnji polkrog	none
+◢	poln spodnji desni trikotnik	none
+◣	poln spodnji levi trikotnik	none
+◤	poln zgornji levi trikotnik	none
+◥	poln zgornji desni trikotnik	none
+◦	prazna vrstična oznaka	none
 ◯	velik votel krog	none
+◳	prazen kvadrat z zgornjo desno četrtino	none
+◷	prazen krog z zgornjo desno četrtino	none
+◿	spodnji desni trikotnik	none
 ♪	osminka	none
+⨧	plus s podpisano številko 2	none
+⨯	vektorski produkt	none
+⨼	notranji produkt	none
+⩣	logična ali dvojna podčrta	none
+⩽	manjše od s poševnim enačajem	none
+⪍	manjše od nad približno enako	none
+⪚	dvočrtni enačaj nad večje od	none
+⪺	naslednik nad skoraj enako	none
 ♭	nižaj	none
 ♯	višaj	none
 😀	režeči obraz	none
@@ -88,6 +274,7 @@ symbols:
 😂	obraz s solzami veselja	none
 🙂	rahlo smejoči obraz	none
 🙃	na glavo obrnjen obraz	none
+🫠	taleči se obraz	none
 😉	obraz s pomežikom	none
 😊	smejoči obraz s smejočimi očmi	none
 😇	smejoči obraz s svetniškim sijem	none
@@ -104,29 +291,37 @@ symbols:
 😛	obraz z molečim jezikom	none
 😜	obraz z molečim jezikom in pomežikom	none
 🤪	nor obraz	none
-😝	obraz z molečim jezikom in trdno zaprtimi očmi	none
+😝	obraz z molečim jezikom in zaprtimi očmi	none
 🤑	obraz z denarjem namesto ust	none
 🤗	obraz, ki objema	none
 🤭	obraz z roko čez usta	none
+🫢	obraz z razprtimi očmi in roko pred usti	none
+🫣	obraz s pogledujočim očesom	none
 🤫	obraz s prstom čez usta	none
 🤔	razmišljujoči obraz	none
+🫡	salutirajoč obraz	none
 🤐	obraz z usti v obliki zadrge	none
 🤨	obraz z dvignjenimi obrvmi	none
 😐	nevtralni obraz	none
 😑	brezizrazni obraz	none
 😶	obraz brez ust	none
+🫥	obraz s črtkasto črto	none
 😶‍🌫	obraz v oblakih	none
 😏	obraz s privoščljivim nasmeškom	none
 😒	obraz s hladnim nasmeškom	none
 🙄	obraz z zavijajočimi očmi	none
 😬	spačen obraz	none
-😮‍💨	obraz, ki izdihne	none
+😮‍💨	obraz med izdihovanjem	none
 🤥	lažnivi obraz	none
+🫨	tresoči se obraz	none
+🙂‍↔	vodoravno premikanje glave	none
+🙂‍↕	navpično premikanje glave	none
 😌	olajšan obraz	none
 😔	brezvoljen obraz	none
 😪	zaspan obraz	none
 🤤	obraz, ki se slini	none
 😴	speči obraz	none
+🫩	obraz s podočnjaki	none
 😷	obraz z medicinsko masko	none
 🤒	obraz s termometrom	none
 🤕	obraz, obvezan s povojem	none
@@ -146,6 +341,7 @@ symbols:
 🤓	piflarski obraz	none
 🧐	obraz z monoklom	none
 😕	zmeden obraz	none
+🫤	obraz s poševnimi usti	none
 😟	zaskrbljen obraz	none
 🙁	nekoliko namrščen obraz	none
 ☹	namrščen obraz	none
@@ -154,6 +350,7 @@ symbols:
 😲	začuden obraz	none
 😳	zardeli obraz	none
 🥺	proseč obraz	none
+🥹	obraz, ki zadržuje jok	none
 😦	namrščen obraz z odprtimi usti	none
 😧	trpeč obraz	none
 😨	bojazljiv obraz	none
@@ -197,7 +394,6 @@ symbols:
 🙈	opica, ki ne vidi ničesar	none
 🙉	opica, ki ne sliši ničesar	none
 🙊	opica, ki ničesar ne govori	none
-💋	sled šminke po poljubu	none
 💌	ljubezensko pismo	none
 💘	srce s puščico	none
 💝	srce s pentljo	none
@@ -212,22 +408,26 @@ symbols:
 ❤‍🔥	goreče srce	none
 ❤‍🩹	zakrpano srce	none
 ❤	rdeče srce	none
+🩷	rožnato srce	none
 🧡	oranžno srce	none
 💛	rumeno srce	none
 💚	zeleno srce	none
 💙	modro srce	none
+🩵	svetlomodro srce	none
 💜	vijolično srce	none
 🤎	rjavo srce	none
 🖤	črno srce	none
+🩶	sivo srce	none
 🤍	belo srce	none
+💋	sled šminke po poljubu	none
 💯	sto točk	none
 💢	simbol jeze	none
+🫯	spor v oblaku	none
 💥	trk	none
 💫	omotica	none
 💦	potne kapljice	none
 💨	švigniti	none
 🕳	luknja	none
-💣	bomba	none
 💬	oblaček z govorom	none
 👁‍🗨	oko v oblačku z govorom	none
 🗨	levi oblaček z govorom	none
@@ -239,11 +439,18 @@ symbols:
 🖐	dvignjena dlan z razprtimi prsti	none
 ✋	dvignjena dlan	none
 🖖	vulkanski pozdrav	none
+🫱	roka, obrnjena v desno	none
+🫲	roka, obrnjena v levo	none
+🫳	roka z dlanjo navzdol	none
+🫴	roka z dlanjo navzgor	none
+🫷	dlan, ki potiska v levo	none
+🫸	dlan, ki potiska v desno	none
 👌	roka, ki kaže V REDU	none
 🤌	prsti, stisnjeni skupaj	none
 🤏	roka s ščepcem	none
 ✌	dlan s prstoma, ki kažeta znak za zmago	none
 🤞	prekrižani prsti	none
+🫰	roka s prekrižanima kazalcem in palcem	none
 🤟	znak za ljubim te	none
 🤘	znak za rogove	none
 🤙	pokliči me	none
@@ -253,6 +460,7 @@ symbols:
 🖕	sredinec	none
 👇	hrbtna stran dlani s kazalcem, ki kaže dol	none
 ☝	kazalec, ki kaže gor	none
+🫵	kazalec, usmerjen v opazovalca	none
 👍	palec gor	none
 👎	palec dol	none
 ✊	dvignjena pest	none
@@ -261,6 +469,7 @@ symbols:
 🤜	pest, obrnjena desno	none
 👏	ploskajoči dlani	none
 🙌	oseba, ki dvigne roke	none
+🫶	roki, sklenjeni v obliki srca	none
 👐	odprti dlani	none
 🤲	dvignjeni odprti dlani	none
 🤝	rokovanje	none
@@ -285,6 +494,7 @@ symbols:
 👁	oko	none
 👅	jezik	none
 👄	usta	none
+🫦	grizenje ustnice	none
 👶	dojenček	none
 🧒	otrok	none
 👦	fant	none
@@ -392,6 +602,7 @@ symbols:
 👷	gradbenik	none
 👷‍♂	gradbeni delavec	none
 👷‍♀	gradbena delavka	none
+🫅	oseba s krono	none
 🤴	princ	none
 👸	princesa	none
 👳	oseba s turbanom	none
@@ -406,6 +617,8 @@ symbols:
 👰‍♂	moški s pajčolanom	none
 👰‍♀	ženska s pajčolanom	none
 🤰	nosečnica	none
+🫃	noseč moški	none
+🫄	noseča oseba	none
 🤱	dojenje	none
 👩‍🍼	ženska, ki doji dojenčka	none
 👨‍🍼	moški, ki hrani dojenčka	none
@@ -441,6 +654,8 @@ symbols:
 🧟	zombi	none
 🧟‍♂	zombi moški	none
 🧟‍♀	zombi ženska	none
+🧌	trol	none
+🫈	kosmato bitje	none
 💆	masaža obraza	none
 💆‍♂	moški na masaži obraza	none
 💆‍♀	ženska na masaži obraza	none
@@ -468,6 +683,7 @@ symbols:
 🏃	tekač	none
 🏃‍♂	moški, ki teče	none
 🏃‍♀	ženska, ki teče	none
+🧑‍🩰	baletka	none
 💃	ženska, ki pleše	none
 🕺	plesalec	none
 🕴	moški v poslovni obleki, ki lebdi	none
@@ -534,12 +750,17 @@ symbols:
 👬	moška se držita za roke	none
 💏	poljub	none
 💑	par s srčkom	none
-👪	družina	none
 🗣	govoreča glava	none
 👤	silhueta doprsja	none
 👥	silhueti doprsja	none
 🫂	osebi, ki se objemata	none
+👪	družina	none
+🧑‍🧑‍🧒	družina odrasel, odrasel, otrok	none
+🧑‍🧑‍🧒‍🧒	družina odrasel, odrasel, otrok, otrok	none
+🧑‍🧒	družina odrasla oseba, otrok	none
+🧑‍🧒‍🧒	družina odrasla oseba, otrok, otrok	none
 👣	stopinje	none
+🫆	prstni odtis	none
 🦰	rdeči lasje	none
 🦱	kodrasti lasje	none
 🦳	sivi lasje	none
@@ -564,6 +785,8 @@ symbols:
 🐅	tiger	none
 🐆	leopard	none
 🐴	konjev obraz	none
+🫎	los	none
+🫏	osel	none
 🐎	konj	none
 🦄	samorog	none
 🦓	zebra	none
@@ -626,6 +849,10 @@ symbols:
 🦩	flamingo	none
 🦚	pav	none
 🦜	papagaj	none
+🪽	krilo	none
+🐦‍⬛	kos	none
+🪿	gos	none
+🐦‍🔥	feniks	none
 🐸	žaba	none
 🐊	krokodil	none
 🐢	želva	none
@@ -638,6 +865,7 @@ symbols:
 🐳	kit, ki brizga vodo	none
 🐋	kit	none
 🐬	delfin	none
+🫍	orka	none
 🦭	tjulenj	none
 🐟	riba	none
 🐠	tropska riba	none
@@ -645,6 +873,13 @@ symbols:
 🦈	morski pes	none
 🐙	hobotnica	none
 🐚	spiralna školjka	none
+🪸	korala	none
+🪼	meduza	none
+🦀	rakovica	none
+🦞	jastog	none
+🦐	morski rakec	none
+🦑	ligenj	none
+🦪	ostriga	none
 🐌	polž	none
 🦋	metulj	none
 🐛	žuželka	none
@@ -664,6 +899,7 @@ symbols:
 💐	šopek	none
 🌸	češnjev cvet	none
 💮	bela cvetlica	none
+🪷	lotos	none
 🏵	rozeta	none
 🌹	vrtnica	none
 🥀	ovenela roža	none
@@ -671,6 +907,7 @@ symbols:
 🌻	sončnica	none
 🌼	cvet	none
 🌷	tulipan	none
+🪻	hijacinta	none
 🌱	sadika	none
 🪴	lončnica	none
 🌲	zimzeleno drevo	none
@@ -684,11 +921,16 @@ symbols:
 🍁	javorov list	none
 🍂	padlo listje	none
 🍃	listje, ki se vrtinči v vetru	none
+🪹	prazno gnezdo	none
+🪺	gnezdo z jajcema	none
+🍄	goba	none
+🪾	drevo brez listja	none
 🍇	grozdje	none
 🍈	melona	none
 🍉	lubenica	none
 🍊	mandarina	none
 🍋	limona	none
+🍋‍🟩	limeta	none
 🍌	banana	none
 🍍	ananas	none
 🥭	mango	none
@@ -711,13 +953,17 @@ symbols:
 🌶	feferon	none
 🫑	paprika	none
 🥒	kumara	none
-🥬	listnato zelena	none
+🥬	listnata zelenjava	none
 🥦	brokoli	none
 🧄	česen	none
 🧅	čebula	none
-🍄	goba	none
 🥜	arašidi	none
+🫘	fižol	none
 🌰	kostanj	none
+🫚	korenina ingverja	none
+🫛	strok graha	none
+🍄‍🟫	šampinjon	none
+🫜	korenasta zelenjava	none
 🍞	kruh	none
 🥐	rogljič	none
 🥖	bageta	none
@@ -769,11 +1015,6 @@ symbols:
 🥟	cmok	none
 🥠	piškotek sreče	none
 🥡	embalaža za hrano	none
-🦀	rakovica	none
-🦞	jastog	none
-🦐	morski rakec	none
-🦑	ligenj	none
-🦪	ostriga	none
 🍦	rahel sladoled	none
 🍧	nastrgan led	none
 🍨	sladoled	none
@@ -802,6 +1043,7 @@ symbols:
 🍻	nazdravljanje z vrčkoma za pivo	none
 🥂	nazdravljanje	none
 🥃	kozarec žgane pijače	none
+🫗	zlivanje tekočine	none
 🥤	kozarec s slamico	none
 🧋	čaj s kroglicami	none
 🧃	tetrapak s pijačo	none
@@ -812,6 +1054,7 @@ symbols:
 🍴	vilice in nož	none
 🥄	žlica	none
 🔪	kuhinjski nož	none
+🫙	kozarec za vlaganje	none
 🏺	amfora	none
 🌍	globus z Evropo in Afriko	none
 🌎	globus s Severno in Južno Ameriko	none
@@ -822,6 +1065,7 @@ symbols:
 🧭	kompas	none
 🏔	zasnežena gora	none
 ⛰	gora	none
+🛘	zemeljski plaz	none
 🌋	vulkan	none
 🗻	gora Fuji	none
 🏕	kampiranje	none
@@ -874,6 +1118,7 @@ symbols:
 🌉	most ponoči	none
 ♨	termalni vrelec	none
 🎠	konj na vrtiljaku	none
+🛝	tobogan	none
 🎡	panoramsko kolo	none
 🎢	vlakec smrti	none
 💈	brivski izvesek	none
@@ -922,12 +1167,14 @@ symbols:
 🛤	železniška proga	none
 🛢	naftni sod	none
 ⛽	črpalka za gorivo	none
+🛞	avtomobilsko kolo	none
 🚨	policijska luč	none
 🚥	vodoravni semafor	none
 🚦	navpični semafor	none
 🛑	znak stop	none
 🚧	zaprto zaradi gradnje	none
 ⚓	sidro	none
+🛟	rešilni obroč	none
 ⛵	jadrnica	none
 🛶	kanu	none
 🚤	gliser	none
@@ -1085,10 +1332,10 @@ symbols:
 🎯	zadetek v polno	none
 🪀	jojo	none
 🪁	zmaj (igrača)	none
+🔫	vodna pištola	none
 🎱	biljard	none
 🔮	kristalna krogla	none
 🪄	čarobna palica	none
-🧿	amulet zlobno oko	none
 🎮	videoigra	none
 🕹	igralna palica	none
 🎰	igralni avtomat	none
@@ -1096,6 +1343,7 @@ symbols:
 🧩	delček sestavljanke	none
 🧸	medvedek	none
 🪅	pinjata	none
+🪩	disko krogla	none
 🪆	babuška	none
 ♠	pik	none
 ♥	srce	none
@@ -1132,6 +1380,7 @@ symbols:
 🩳	kratke hlače	none
 👙	bikini	none
 👚	ženska oblačila	none
+🪭	pahljača	none
 👛	drobižnica	none
 👜	ročna torbica	none
 👝	večerna torbica	none
@@ -1146,6 +1395,7 @@ symbols:
 👡	ženski sandali	none
 🩰	baletni čeveljci	none
 👢	ženski škorenj	none
+🪮	glavnik za v lase	none
 👑	krona	none
 👒	ženski klobuk	none
 🎩	cilinder	none
@@ -1176,14 +1426,18 @@ symbols:
 🎧	slušalka	none
 📻	radio	none
 🎷	saksofon	none
+🎺	trobenta	none
+🪊	pozavna	none
 🪗	harmonika	none
 🎸	kitara	none
 🎹	klaviatura	none
-🎺	trobenta	none
 🎻	violina	none
 🪕	bendžo	none
 🥁	boben	none
 🪘	visok boben	none
+🪇	marake	none
+🪈	flavta	none
+🪉	harfa	none
 📱	mobilni telefon	none
 📲	mobilni telefon s puščico	none
 ☎	telefon	none
@@ -1191,6 +1445,7 @@ symbols:
 📟	pozivnik	none
 📠	telefaks	none
 🔋	baterija	none
+🪫	skoraj prazna baterija	none
 🔌	električni vtikač	none
 💻	prenosnik	none
 🖥	namizni računalnik	none
@@ -1236,8 +1491,9 @@ symbols:
 📑	zaznamki na straneh	none
 🔖	zaznamek	none
 🏷	etiketa	none
-💰	vreča denarja	none
 🪙	kovanec	none
+💰	vreča denarja	none
+🪎	skrinja z zakladom	none
 💴	bankovec za jen	none
 💵	dolarski bankovec	none
 💶	evrski bankovec	none
@@ -1302,7 +1558,7 @@ symbols:
 🛠	kladivo in ključ	none
 🗡	bodalo	none
 ⚔	prekrižana meča	none
-🔫	vodna pištola	none
+💣	bomba	none
 🪃	bumerang	none
 🏹	lok in puščica	none
 🛡	ščit	none
@@ -1315,11 +1571,13 @@ symbols:
 ⚖	tehtnica	none
 🦯	palica za slepe	none
 🔗	člen	none
+⛓‍💥	strgana veriga	none
 ⛓	verige	none
 🪝	kljuka	none
 🧰	zaboj za orodje	none
 🧲	magnet	none
 🪜	lestev	none
+🪏	lopata	none
 ⚗	destilator	none
 🧪	epruveta	none
 🧫	petrijevka	none
@@ -1331,7 +1589,9 @@ symbols:
 🩸	kaplja krvi	none
 💊	tableta	none
 🩹	samolepilni obliž	none
+🩼	bergla	none
 🩺	stetoskop	none
+🩻	rentgen	none
 🚪	vrata	none
 🛗	dvigalo	none
 🪞	zrcalo	none
@@ -1352,6 +1612,7 @@ symbols:
 🧻	zvitek papirja	none
 🪣	vedro	none
 🧼	milo	none
+🫧	mehurčki	none
 🪥	zobna ščetka	none
 🧽	spužva	none
 🧯	gasilni aparat	none
@@ -1360,8 +1621,11 @@ symbols:
 ⚰	krsta	none
 🪦	nagrobnik	none
 ⚱	žara	none
+🧿	amulet zlobno oko	none
+🪬	roka Fatime	none
 🗿	moai	none
 🪧	plakat	none
+🪪	osebni dokument	none
 🏧	znak za bankomat	none
 🚮	znak za smeti v košu	none
 🚰	pitna voda	none
@@ -1398,7 +1662,7 @@ symbols:
 ↖	puščica levo gor	none
 ↕	puščica gor dol	none
 ↔	puščica levo desno	none
-↮	prečrtana puščica levo-desno	none
+↮	puščica levo-desno s poševnico	none
 ↩	puščica desno, ki se ukrivlja v levo	none
 ↪	puščica levo, ki se ukrivlja v desno	none
 ⤴	puščica desno, ki se ukrivlja gor	none
@@ -1422,6 +1686,7 @@ symbols:
 ☮	simbol za mir	none
 🕎	menora	none
 🔯	šestkraka zvezda s piko	none
+🪯	khanda	none
 ♈	astrološki znak ovna	none
 ♉	bik	none
 ♊	dvojčka	none
@@ -1457,6 +1722,7 @@ symbols:
 🔅	gumb za zatemnitev	none
 🔆	gumb za svetlost	none
 📶	signal	none
+🛜	brezžična povezava	none
 📳	način vibriranja	none
 📴	mobilni telefon izklopljen	none
 ♀	znak za ženski spol	none
@@ -1466,6 +1732,7 @@ symbols:
 ➕	plus	none
 ➖	minus	none
 ➗	deli	none
+🟰	znak za enakovrednost	none
 ♾	neskončnost	none
 ❓	rdeč vprašaj	none
 ❔	bel vprašaj	none
@@ -1491,6 +1758,7 @@ symbols:
 ✴	osemkraka zvezda	none
 ❇	iskra	none
 ™	blagovna znamka	none
+🫟	packa	none
 🔠	vnos velikih črk latinice	none
 🔡	vnos malih črk latinice	none
 🔢	vnos številk	none
@@ -1555,13 +1823,21 @@ symbols:
 🏳‍🌈	mavrična zastava	none
 🏳‍⚧	transspolna zastava	none
 🏴‍☠	piratska zastava	none
+₢	cruzeiro	none
+₣	francoski frank	none
+₤	lira	none
 ₥	tisočinka	none
 ₩	won	none
 €	evro	none
+₰	nemški pfenig	none
 ₱	peso	none
+₳	avstral	none
+₶	livre tournois	none
+₷	spesmilo	none
 ₹	indijska rupija	none
 ₽	rubelj	none
 ₿	bitcoin	none
+₨	rupija	none
 👋🏻	mahajoča dlan svetel ten kože	none
 👋🏼	mahajoča dlan srednje svetel ten kože	none
 👋🏽	mahajoča dlan srednji ten kože	none
@@ -1587,6 +1863,56 @@ symbols:
 🖖🏽	vulkanski pozdrav srednji ten kože	none
 🖖🏾	vulkanski pozdrav srednje temen ten kože	none
 🖖🏿	vulkanski pozdrav temen ten kože	none
+🫱🏻	roka, obrnjena v desno svetel ten kože	none
+🫱🏼	roka, obrnjena v desno srednje svetel ten kože	none
+🫱🏽	roka, obrnjena v desno srednji ten kože	none
+🫱🏾	roka, obrnjena v desno srednje temen ten kože	none
+🫱🏿	roka, obrnjena v desno temen ten kože	none
+🫱🏻‍🫲🏼	rokovanje svetel ten kože in srednje svetel ten kože	none
+🫱🏻‍🫲🏽	rokovanje svetel ten kože in srednji ten kože	none
+🫱🏻‍🫲🏾	rokovanje svetel ten kože in srednje temen ten kože	none
+🫱🏻‍🫲🏿	rokovanje svetel ten kože in temen ten kože	none
+🫱🏼‍🫲🏻	rokovanje srednje svetel ten kože in svetel ten kože	none
+🫱🏼‍🫲🏽	rokovanje srednje svetel ten kože in srednji ten kože	none
+🫱🏼‍🫲🏾	rokovanje srednje svetel ten kože in srednje temen ten kože	none
+🫱🏼‍🫲🏿	rokovanje srednje svetel ten kože in temen ten kože	none
+🫱🏽‍🫲🏻	rokovanje srednji ten kože in svetel ten kože	none
+🫱🏽‍🫲🏼	rokovanje srednji ten kože in srednje svetel ten kože	none
+🫱🏽‍🫲🏾	rokovanje srednji ten kože in srednje temen ten kože	none
+🫱🏽‍🫲🏿	rokovanje srednji ten kože in temen ten kože	none
+🫱🏾‍🫲🏻	rokovanje srednje temen ten kože in svetel ten kože	none
+🫱🏾‍🫲🏼	rokovanje srednje temen ten kože in srednje svetel ten kože	none
+🫱🏾‍🫲🏽	rokovanje srednje temen ten kože in srednji ten kože	none
+🫱🏾‍🫲🏿	rokovanje srednje temen ten kože in temen ten kože	none
+🫱🏿‍🫲🏻	rokovanje temen ten kože in svetel ten kože	none
+🫱🏿‍🫲🏼	rokovanje temen ten kože in srednje svetel ten kože	none
+🫱🏿‍🫲🏽	rokovanje temen ten kože in srednji ten kože	none
+🫱🏿‍🫲🏾	rokovanje temen ten kože in srednje temen ten kože	none
+🫲🏻	roka, obrnjena v levo svetel ten kože	none
+🫲🏼	roka, obrnjena v levo srednje svetel ten kože	none
+🫲🏽	roka, obrnjena v levo srednji ten kože	none
+🫲🏾	roka, obrnjena v levo srednje temen ten kože	none
+🫲🏿	roka, obrnjena v levo temen ten kože	none
+🫳🏻	roka z dlanjo navzdol svetel ten kože	none
+🫳🏼	roka z dlanjo navzdol srednje svetel ten kože	none
+🫳🏽	roka z dlanjo navzdol srednji ten kože	none
+🫳🏾	roka z dlanjo navzdol srednje temen ten kože	none
+🫳🏿	roka z dlanjo navzdol temen ten kože	none
+🫴🏻	roka z dlanjo navzgor svetel ten kože	none
+🫴🏼	roka z dlanjo navzgor srednje svetel ten kože	none
+🫴🏽	roka z dlanjo navzgor srednji ten kože	none
+🫴🏾	roka z dlanjo navzgor srednje temen ten kože	none
+🫴🏿	roka z dlanjo navzgor temen ten kože	none
+🫷🏻	dlan, ki potiska v levo svetel ten kože	none
+🫷🏼	dlan, ki potiska v levo srednje svetel ten kože	none
+🫷🏽	dlan, ki potiska v levo srednji ten kože	none
+🫷🏾	dlan, ki potiska v levo srednje temen ten kože	none
+🫷🏿	dlan, ki potiska v levo temen ten kože	none
+🫸🏻	dlan, ki potiska v desno svetel ten kože	none
+🫸🏼	dlan, ki potiska v desno srednje svetel ten kože	none
+🫸🏽	dlan, ki potiska v desno srednji ten kože	none
+🫸🏾	dlan, ki potiska v desno srednje temen ten kože	none
+🫸🏿	dlan, ki potiska v desno temen ten kože	none
 👌🏻	roka, ki kaže V REDU svetel ten kože	none
 👌🏼	roka, ki kaže V REDU srednje svetel ten kože	none
 👌🏽	roka, ki kaže V REDU srednji ten kože	none
@@ -1612,6 +1938,11 @@ symbols:
 🤞🏽	prekrižani prsti srednji ten kože	none
 🤞🏾	prekrižani prsti srednje temen ten kože	none
 🤞🏿	prekrižani prsti temen ten kože	none
+🫰🏻	roka s prekrižanima kazalcem in palcem svetel ten kože	none
+🫰🏼	roka s prekrižanima kazalcem in palcem srednje svetel ten kože	none
+🫰🏽	roka s prekrižanima kazalcem in palcem srednji ten kože	none
+🫰🏾	roka s prekrižanima kazalcem in palcem srednje temen ten kože	none
+🫰🏿	roka s prekrižanima kazalcem in palcem temen ten kože	none
 🤟🏻	znak za ljubim te svetel ten kože	none
 🤟🏼	znak za ljubim te srednje svetel ten kože	none
 🤟🏽	znak za ljubim te srednji ten kože	none
@@ -1657,6 +1988,11 @@ symbols:
 ☝🏽	kazalec, ki kaže gor srednji ten kože	none
 ☝🏾	kazalec, ki kaže gor srednje temen ten kože	none
 ☝🏿	kazalec, ki kaže gor temen ten kože	none
+🫵🏻	kazalec, usmerjen v opazovalca svetel ten kože	none
+🫵🏼	kazalec, usmerjen v opazovalca srednje svetel ten kože	none
+🫵🏽	kazalec, usmerjen v opazovalca srednji ten kože	none
+🫵🏾	kazalec, usmerjen v opazovalca srednje temen ten kože	none
+🫵🏿	kazalec, usmerjen v opazovalca temen ten kože	none
 👍🏻	palec gor svetel ten kože	none
 👍🏼	palec gor srednje svetel ten kože	none
 👍🏽	palec gor srednji ten kože	none
@@ -1697,6 +2033,11 @@ symbols:
 🙌🏽	oseba, ki dvigne roke srednji ten kože	none
 🙌🏾	oseba, ki dvigne roke srednje temen ten kože	none
 🙌🏿	oseba, ki dvigne roke temen ten kože	none
+🫶🏻	roki, sklenjeni v obliki srca svetel ten kože	none
+🫶🏼	roki, sklenjeni v obliki srca srednje svetel ten kože	none
+🫶🏽	roki, sklenjeni v obliki srca srednji ten kože	none
+🫶🏾	roki, sklenjeni v obliki srca srednje temen ten kože	none
+🫶🏿	roki, sklenjeni v obliki srca temen ten kože	none
 👐🏻	odprti dlani svetel ten kože	none
 👐🏼	odprti dlani srednje svetel ten kože	none
 👐🏽	odprti dlani srednji ten kože	none
@@ -1707,6 +2048,11 @@ symbols:
 🤲🏽	dvignjeni odprti dlani srednji ten kože	none
 🤲🏾	dvignjeni odprti dlani srednje temen ten kože	none
 🤲🏿	dvignjeni odprti dlani temen ten kože	none
+🤝🏻	rokovanje svetel ten kože	none
+🤝🏼	rokovanje srednje svetel ten kože	none
+🤝🏽	rokovanje srednji ten kože	none
+🤝🏾	rokovanje srednje temen ten kože	none
+🤝🏿	rokovanje temen ten kože	none
 🙏🏻	staknjeni dlani svetel ten kože	none
 🙏🏼	staknjeni dlani srednje svetel ten kože	none
 🙏🏽	staknjeni dlani srednji ten kože	none
@@ -1827,6 +2173,26 @@ symbols:
 🧑🏿‍❤‍🧑🏼	par s srčkom odrasla oseba, odrasla oseba, temen ten kože in srednje svetel ten kože	none
 🧑🏿‍❤‍🧑🏽	par s srčkom odrasla oseba, odrasla oseba, temen ten kože in srednji ten kože	none
 🧑🏿‍❤‍🧑🏾	par s srčkom odrasla oseba, odrasla oseba, temen ten kože in srednje temen ten kože	none
+🧑🏻‍🫯‍🧑🏼	rokoborba svetel ten kože in srednje svetel ten kože	none
+🧑🏻‍🫯‍🧑🏽	rokoborba svetel ten kože in srednji ten kože	none
+🧑🏻‍🫯‍🧑🏾	rokoborba svetel ten kože in srednje temen ten kože	none
+🧑🏻‍🫯‍🧑🏿	rokoborba svetel ten kože in temen ten kože	none
+🧑🏼‍🫯‍🧑🏻	rokoborba srednje svetel ten kože in svetel ten kože	none
+🧑🏼‍🫯‍🧑🏽	rokoborba srednje svetel ten kože in srednji ten kože	none
+🧑🏼‍🫯‍🧑🏾	rokoborba srednje svetel ten kože in srednje temen ten kože	none
+🧑🏼‍🫯‍🧑🏿	rokoborba srednje svetel ten kože in temen ten kože	none
+🧑🏽‍🫯‍🧑🏻	rokoborba srednji ten kože in svetel ten kože	none
+🧑🏽‍🫯‍🧑🏼	rokoborba srednji ten kože in srednje svetel ten kože	none
+🧑🏽‍🫯‍🧑🏾	rokoborba srednji ten kože in srednje temen ten kože	none
+🧑🏽‍🫯‍🧑🏿	rokoborba srednji ten kože in temen ten kože	none
+🧑🏾‍🫯‍🧑🏻	rokoborba srednje temen ten kože in svetel ten kože	none
+🧑🏾‍🫯‍🧑🏼	rokoborba srednje temen ten kože in srednje svetel ten kože	none
+🧑🏾‍🫯‍🧑🏽	rokoborba srednje temen ten kože in srednji ten kože	none
+🧑🏾‍🫯‍🧑🏿	rokoborba srednje temen ten kože in temen ten kože	none
+🧑🏿‍🫯‍🧑🏻	rokoborba temen ten kože in svetel ten kože	none
+🧑🏿‍🫯‍🧑🏼	rokoborba temen ten kože in srednje svetel ten kože	none
+🧑🏿‍🫯‍🧑🏽	rokoborba temen ten kože in srednji ten kože	none
+🧑🏿‍🫯‍🧑🏾	rokoborba temen ten kože in srednje temen ten kože	none
 🧑‍🦰	odrasla oseba rdeči lasje	none
 🧑🏻‍🦰	odrasla oseba svetel ten kože in rdeči lasje	none
 🧑🏼‍🦰	odrasla oseba srednje svetel ten kože in rdeči lasje	none
@@ -1851,6 +2217,26 @@ symbols:
 🧑🏽‍🦲	odrasla oseba srednji ten kože in plešast	none
 🧑🏾‍🦲	odrasla oseba srednje temen ten kože in plešast	none
 🧑🏿‍🦲	odrasla oseba temen ten kože in plešast	none
+🧑🏻‍🐰‍🧑🏼	žurerski ženski svetel ten kože in srednje svetel ten kože	none
+🧑🏻‍🐰‍🧑🏽	žurerski ženski svetel ten kože in srednji ten kože	none
+🧑🏻‍🐰‍🧑🏾	žurerski ženski svetel ten kože in srednje temen ten kože	none
+🧑🏻‍🐰‍🧑🏿	žurerski ženski svetel ten kože in temen ten kože	none
+🧑🏼‍🐰‍🧑🏻	žurerski ženski srednje svetel ten kože in svetel ten kože	none
+🧑🏼‍🐰‍🧑🏽	žurerski ženski srednje svetel ten kože in srednji ten kože	none
+🧑🏼‍🐰‍🧑🏾	žurerski ženski srednje svetel ten kože in srednje temen ten kože	none
+🧑🏼‍🐰‍🧑🏿	žurerski ženski srednje svetel ten kože in temen ten kože	none
+🧑🏽‍🐰‍🧑🏻	žurerski ženski srednji ten kože in svetel ten kože	none
+🧑🏽‍🐰‍🧑🏼	žurerski ženski srednji ten kože in srednje svetel ten kože	none
+🧑🏽‍🐰‍🧑🏾	žurerski ženski srednji ten kože in srednje temen ten kože	none
+🧑🏽‍🐰‍🧑🏿	žurerski ženski srednji ten kože in temen ten kože	none
+🧑🏾‍🐰‍🧑🏻	žurerski ženski srednje temen ten kože in svetel ten kože	none
+🧑🏾‍🐰‍🧑🏼	žurerski ženski srednje temen ten kože in srednje svetel ten kože	none
+🧑🏾‍🐰‍🧑🏽	žurerski ženski srednje temen ten kože in srednji ten kože	none
+🧑🏾‍🐰‍🧑🏿	žurerski ženski srednje temen ten kože in temen ten kože	none
+🧑🏿‍🐰‍🧑🏻	žurerski ženski temen ten kože in svetel ten kože	none
+🧑🏿‍🐰‍🧑🏼	žurerski ženski temen ten kože in srednje svetel ten kože	none
+🧑🏿‍🐰‍🧑🏽	žurerski ženski temen ten kože in srednji ten kože	none
+🧑🏿‍🐰‍🧑🏾	žurerski ženski temen ten kože in srednje temen ten kože	none
 👨🏻	moški svetel ten kože	none
 👨🏼	moški srednje svetel ten kože	none
 👨🏽	moški srednji ten kože	none
@@ -1921,6 +2307,26 @@ symbols:
 👨🏿‍❤‍👨🏽	par s srčkom moški, moški, temen ten kože in srednji ten kože	none
 👨🏿‍❤‍👨🏾	par s srčkom moški, moški, temen ten kože in srednje temen ten kože	none
 👨🏿‍❤‍👨🏿	par s srčkom moški, moški in temen ten kože	none
+👨🏻‍🫯‍👨🏼	moška rokoborba svetel ten kože in srednje svetel ten kože	none
+👨🏻‍🫯‍👨🏽	moška rokoborba svetel ten kože in srednji ten kože	none
+👨🏻‍🫯‍👨🏾	moška rokoborba svetel ten kože in srednje temen ten kože	none
+👨🏻‍🫯‍👨🏿	moška rokoborba svetel ten kože in temen ten kože	none
+👨🏼‍🫯‍👨🏻	moška rokoborba srednje svetel ten kože in svetel ten kože	none
+👨🏼‍🫯‍👨🏽	moška rokoborba srednje svetel ten kože in srednji ten kože	none
+👨🏼‍🫯‍👨🏾	moška rokoborba srednje svetel ten kože in srednje temen ten kože	none
+👨🏼‍🫯‍👨🏿	moška rokoborba srednje svetel ten kože in temen ten kože	none
+👨🏽‍🫯‍👨🏻	moška rokoborba srednji ten kože in svetel ten kože	none
+👨🏽‍🫯‍👨🏼	moška rokoborba srednji ten kože in srednje svetel ten kože	none
+👨🏽‍🫯‍👨🏾	moška rokoborba srednji ten kože in srednje temen ten kože	none
+👨🏽‍🫯‍👨🏿	moška rokoborba srednji ten kože in temen ten kože	none
+👨🏾‍🫯‍👨🏻	moška rokoborba srednje temen ten kože in svetel ten kože	none
+👨🏾‍🫯‍👨🏼	moška rokoborba srednje temen ten kože in srednje svetel ten kože	none
+👨🏾‍🫯‍👨🏽	moška rokoborba srednje temen ten kože in srednji ten kože	none
+👨🏾‍🫯‍👨🏿	moška rokoborba srednje temen ten kože in temen ten kože	none
+👨🏿‍🫯‍👨🏻	moška rokoborba temen ten kože in svetel ten kože	none
+👨🏿‍🫯‍👨🏼	moška rokoborba temen ten kože in srednje svetel ten kože	none
+👨🏿‍🫯‍👨🏽	moška rokoborba temen ten kože in srednji ten kože	none
+👨🏿‍🫯‍👨🏾	moška rokoborba temen ten kože in srednje temen ten kože	none
 👨‍🦰	moški rdeči lasje	none
 👨🏻‍🦰	moški svetel ten kože in rdeči lasje	none
 👨🏼‍🦰	moški srednje svetel ten kože in rdeči lasje	none
@@ -1945,6 +2351,26 @@ symbols:
 👨🏽‍🦲	moški srednji ten kože in plešast	none
 👨🏾‍🦲	moški srednje temen ten kože in plešast	none
 👨🏿‍🦲	moški temen ten kože in plešast	none
+👨🏻‍🐰‍👨🏼	moška zabava svetel ten kože in srednje svetel ten kože	none
+👨🏻‍🐰‍👨🏽	moška zabava svetel ten kože in srednji ten kože	none
+👨🏻‍🐰‍👨🏾	moška zabava svetel ten kože in srednje temen ten kože	none
+👨🏻‍🐰‍👨🏿	moška zabava svetel ten kože in temen ten kože	none
+👨🏼‍🐰‍👨🏻	moška zabava srednje svetel ten kože in svetel ten kože	none
+👨🏼‍🐰‍👨🏽	moška zabava srednje svetel ten kože in srednji ten kože	none
+👨🏼‍🐰‍👨🏾	moška zabava srednje svetel ten kože in srednje temen ten kože	none
+👨🏼‍🐰‍👨🏿	moška zabava srednje svetel ten kože in temen ten kože	none
+👨🏽‍🐰‍👨🏻	moška zabava srednji ten kože in svetel ten kože	none
+👨🏽‍🐰‍👨🏼	moška zabava srednji ten kože in srednje svetel ten kože	none
+👨🏽‍🐰‍👨🏾	moška zabava srednji ten kože in srednje temen ten kože	none
+👨🏽‍🐰‍👨🏿	moška zabava srednji ten kože in temen ten kože	none
+👨🏾‍🐰‍👨🏻	moška zabava srednje temen ten kože in svetel ten kože	none
+👨🏾‍🐰‍👨🏼	moška zabava srednje temen ten kože in srednje svetel ten kože	none
+👨🏾‍🐰‍👨🏽	moška zabava srednje temen ten kože in srednji ten kože	none
+👨🏾‍🐰‍👨🏿	moška zabava srednje temen ten kože in temen ten kože	none
+👨🏿‍🐰‍👨🏻	moška zabava temen ten kože in svetel ten kože	none
+👨🏿‍🐰‍👨🏼	moška zabava temen ten kože in srednje svetel ten kože	none
+👨🏿‍🐰‍👨🏽	moška zabava temen ten kože in srednji ten kože	none
+👨🏿‍🐰‍👨🏾	moška zabava temen ten kože in srednje temen ten kože	none
 👩🏻	ženska svetel ten kože	none
 👩🏼	ženska srednje svetel ten kože	none
 👩🏽	ženska srednji ten kože	none
@@ -2060,6 +2486,26 @@ symbols:
 👩🏿‍❤‍👩🏽	par s srčkom ženska, ženska, temen ten kože in srednji ten kože	none
 👩🏿‍❤‍👩🏾	par s srčkom ženska, ženska, temen ten kože in srednje temen ten kože	none
 👩🏿‍❤‍👩🏿	par s srčkom ženska, ženska in temen ten kože	none
+👩🏻‍🫯‍👩🏼	ženska rokoborba svetel ten kože in srednje svetel ten kože	none
+👩🏻‍🫯‍👩🏽	ženska rokoborba svetel ten kože in srednji ten kože	none
+👩🏻‍🫯‍👩🏾	ženska rokoborba svetel ten kože in srednje temen ten kože	none
+👩🏻‍🫯‍👩🏿	ženska rokoborba svetel ten kože in temen ten kože	none
+👩🏼‍🫯‍👩🏻	ženska rokoborba srednje svetel ten kože in svetel ten kože	none
+👩🏼‍🫯‍👩🏽	ženska rokoborba srednje svetel ten kože in srednji ten kože	none
+👩🏼‍🫯‍👩🏾	ženska rokoborba srednje svetel ten kože in srednje temen ten kože	none
+👩🏼‍🫯‍👩🏿	ženska rokoborba srednje svetel ten kože in temen ten kože	none
+👩🏽‍🫯‍👩🏻	ženska rokoborba srednji ten kože in svetel ten kože	none
+👩🏽‍🫯‍👩🏼	ženska rokoborba srednji ten kože in srednje svetel ten kože	none
+👩🏽‍🫯‍👩🏾	ženska rokoborba srednji ten kože in srednje temen ten kože	none
+👩🏽‍🫯‍👩🏿	ženska rokoborba srednji ten kože in temen ten kože	none
+👩🏾‍🫯‍👩🏻	ženska rokoborba srednje temen ten kože in svetel ten kože	none
+👩🏾‍🫯‍👩🏼	ženska rokoborba srednje temen ten kože in srednje svetel ten kože	none
+👩🏾‍🫯‍👩🏽	ženska rokoborba srednje temen ten kože in srednji ten kože	none
+👩🏾‍🫯‍👩🏿	ženska rokoborba srednje temen ten kože in temen ten kože	none
+👩🏿‍🫯‍👩🏻	ženska rokoborba temen ten kože in svetel ten kože	none
+👩🏿‍🫯‍👩🏼	ženska rokoborba temen ten kože in srednje svetel ten kože	none
+👩🏿‍🫯‍👩🏽	ženska rokoborba temen ten kože in srednji ten kože	none
+👩🏿‍🫯‍👩🏾	ženska rokoborba temen ten kože in srednje temen ten kože	none
 👩‍🦰	ženska rdeči lasje	none
 👩🏻‍🦰	ženska svetel ten kože in rdeči lasje	none
 👩🏼‍🦰	ženska srednje svetel ten kože in rdeči lasje	none
@@ -2084,6 +2530,26 @@ symbols:
 👩🏽‍🦲	ženska srednji ten kože in plešast	none
 👩🏾‍🦲	ženska srednje temen ten kože in plešast	none
 👩🏿‍🦲	ženska temen ten kože in plešast	none
+👩🏻‍🐰‍👩🏼	ženska zabava svetel ten kože in srednje svetel ten kože	none
+👩🏻‍🐰‍👩🏽	ženska zabava svetel ten kože in srednji ten kože	none
+👩🏻‍🐰‍👩🏾	ženska zabava svetel ten kože in srednje temen ten kože	none
+👩🏻‍🐰‍👩🏿	ženska zabava svetel ten kože in temen ten kože	none
+👩🏼‍🐰‍👩🏻	ženska zabava srednje svetel ten kože in svetel ten kože	none
+👩🏼‍🐰‍👩🏽	ženska zabava srednje svetel ten kože in srednji ten kože	none
+👩🏼‍🐰‍👩🏾	ženska zabava srednje svetel ten kože in srednje temen ten kože	none
+👩🏼‍🐰‍👩🏿	ženska zabava srednje svetel ten kože in temen ten kože	none
+👩🏽‍🐰‍👩🏻	ženska zabava srednji ten kože in svetel ten kože	none
+👩🏽‍🐰‍👩🏼	ženska zabava srednji ten kože in srednje svetel ten kože	none
+👩🏽‍🐰‍👩🏾	ženska zabava srednji ten kože in srednje temen ten kože	none
+👩🏽‍🐰‍👩🏿	ženska zabava srednji ten kože in temen ten kože	none
+👩🏾‍🐰‍👩🏻	ženska zabava srednje temen ten kože in svetel ten kože	none
+👩🏾‍🐰‍👩🏼	ženska zabava srednje temen ten kože in srednje svetel ten kože	none
+👩🏾‍🐰‍👩🏽	ženska zabava srednje temen ten kože in srednji ten kože	none
+👩🏾‍🐰‍👩🏿	ženska zabava srednje temen ten kože in temen ten kože	none
+👩🏿‍🐰‍👩🏻	ženska zabava temen ten kože in svetel ten kože	none
+👩🏿‍🐰‍👩🏼	ženska zabava temen ten kože in srednje svetel ten kože	none
+👩🏿‍🐰‍👩🏽	ženska zabava temen ten kože in srednji ten kože	none
+👩🏿‍🐰‍👩🏾	ženska zabava temen ten kože in srednje temen ten kože	none
 🧓🏻	starejši odrasli svetel ten kože	none
 🧓🏼	starejši odrasli srednje svetel ten kože	none
 🧓🏽	starejši odrasli srednji ten kože	none
@@ -2554,6 +3020,11 @@ symbols:
 👷🏽‍♀	gradbena delavka srednji ten kože	none
 👷🏾‍♀	gradbena delavka srednje temen ten kože	none
 👷🏿‍♀	gradbena delavka temen ten kože	none
+🫅🏻	oseba s krono svetel ten kože	none
+🫅🏼	oseba s krono srednje svetel ten kože	none
+🫅🏽	oseba s krono srednji ten kože	none
+🫅🏾	oseba s krono srednje temen ten kože	none
+🫅🏿	oseba s krono temen ten kože	none
 🤴🏻	princ svetel ten kože	none
 🤴🏼	princ srednje svetel ten kože	none
 🤴🏽	princ srednji ten kože	none
@@ -2624,6 +3095,16 @@ symbols:
 🤰🏽	nosečnica srednji ten kože	none
 🤰🏾	nosečnica srednje temen ten kože	none
 🤰🏿	nosečnica temen ten kože	none
+🫃🏻	noseč moški svetel ten kože	none
+🫃🏼	noseč moški srednje svetel ten kože	none
+🫃🏽	noseč moški srednji ten kože	none
+🫃🏾	noseč moški srednje temen ten kože	none
+🫃🏿	noseč moški temen ten kože	none
+🫄🏻	noseča oseba svetel ten kože	none
+🫄🏼	noseča oseba srednje svetel ten kože	none
+🫄🏽	noseča oseba srednji ten kože	none
+🫄🏾	noseča oseba srednje temen ten kože	none
+🫄🏿	noseča oseba temen ten kože	none
 🤱🏻	dojenje svetel ten kože	none
 🤱🏼	dojenje srednje svetel ten kože	none
 🤱🏽	dojenje srednji ten kože	none
@@ -2814,6 +3295,24 @@ symbols:
 🚶🏽‍♀	ženska, ki hodi srednji ten kože	none
 🚶🏾‍♀	ženska, ki hodi srednje temen ten kože	none
 🚶🏿‍♀	ženska, ki hodi temen ten kože	none
+🚶‍➡	pešec , obrnjen v desno	none
+🚶🏻‍➡	pešec svetel ten kože in , obrnjen v desno	none
+🚶🏼‍➡	pešec srednje svetel ten kože in , obrnjen v desno	none
+🚶🏽‍➡	pešec srednji ten kože in , obrnjen v desno	none
+🚶🏾‍➡	pešec srednje temen ten kože in , obrnjen v desno	none
+🚶🏿‍➡	pešec temen ten kože in , obrnjen v desno	none
+🚶‍♀‍➡	ženska, ki hodi , obrnjen v desno	none
+🚶🏻‍♀‍➡	ženska, ki hodi svetel ten kože in , obrnjen v desno	none
+🚶🏼‍♀‍➡	ženska, ki hodi srednje svetel ten kože in , obrnjen v desno	none
+🚶🏽‍♀‍➡	ženska, ki hodi srednji ten kože in , obrnjen v desno	none
+🚶🏾‍♀‍➡	ženska, ki hodi srednje temen ten kože in , obrnjen v desno	none
+🚶🏿‍♀‍➡	ženska, ki hodi temen ten kože in , obrnjen v desno	none
+🚶‍♂‍➡	moški, ki hodi , obrnjen v desno	none
+🚶🏻‍♂‍➡	moški, ki hodi svetel ten kože in , obrnjen v desno	none
+🚶🏼‍♂‍➡	moški, ki hodi srednje svetel ten kože in , obrnjen v desno	none
+🚶🏽‍♂‍➡	moški, ki hodi srednji ten kože in , obrnjen v desno	none
+🚶🏾‍♂‍➡	moški, ki hodi srednje temen ten kože in , obrnjen v desno	none
+🚶🏿‍♂‍➡	moški, ki hodi temen ten kože in , obrnjen v desno	none
 🧍🏻	stoječa oseba svetel ten kože	none
 🧍🏼	stoječa oseba srednje svetel ten kože	none
 🧍🏽	stoječa oseba srednji ten kože	none
@@ -2844,51 +3343,123 @@ symbols:
 🧎🏽‍♀	klečeča ženska srednji ten kože	none
 🧎🏾‍♀	klečeča ženska srednje temen ten kože	none
 🧎🏿‍♀	klečeča ženska temen ten kože	none
+🧎‍➡	klečeča oseba , obrnjen v desno	none
+🧎🏻‍➡	klečeča oseba svetel ten kože in , obrnjen v desno	none
+🧎🏼‍➡	klečeča oseba srednje svetel ten kože in , obrnjen v desno	none
+🧎🏽‍➡	klečeča oseba srednji ten kože in , obrnjen v desno	none
+🧎🏾‍➡	klečeča oseba srednje temen ten kože in , obrnjen v desno	none
+🧎🏿‍➡	klečeča oseba temen ten kože in , obrnjen v desno	none
+🧎‍♀‍➡	klečeča ženska , obrnjen v desno	none
+🧎🏻‍♀‍➡	klečeča ženska svetel ten kože in , obrnjen v desno	none
+🧎🏼‍♀‍➡	klečeča ženska srednje svetel ten kože in , obrnjen v desno	none
+🧎🏽‍♀‍➡	klečeča ženska srednji ten kože in , obrnjen v desno	none
+🧎🏾‍♀‍➡	klečeča ženska srednje temen ten kože in , obrnjen v desno	none
+🧎🏿‍♀‍➡	klečeča ženska temen ten kože in , obrnjen v desno	none
+🧎‍♂‍➡	klečeč moški , obrnjen v desno	none
+🧎🏻‍♂‍➡	klečeč moški svetel ten kože in , obrnjen v desno	none
+🧎🏼‍♂‍➡	klečeč moški srednje svetel ten kože in , obrnjen v desno	none
+🧎🏽‍♂‍➡	klečeč moški srednji ten kože in , obrnjen v desno	none
+🧎🏾‍♂‍➡	klečeč moški srednje temen ten kože in , obrnjen v desno	none
+🧎🏿‍♂‍➡	klečeč moški temen ten kože in , obrnjen v desno	none
 🧑🏻‍🦯	oseba s palico za slepe svetel ten kože	none
 🧑🏼‍🦯	oseba s palico za slepe srednje svetel ten kože	none
 🧑🏽‍🦯	oseba s palico za slepe srednji ten kože	none
 🧑🏾‍🦯	oseba s palico za slepe srednje temen ten kože	none
 🧑🏿‍🦯	oseba s palico za slepe temen ten kože	none
+🧑‍🦯‍➡	oseba s palico za slepe , obrnjen v desno	none
+🧑🏻‍🦯‍➡	oseba s palico za slepe svetel ten kože in , obrnjen v desno	none
+🧑🏼‍🦯‍➡	oseba s palico za slepe srednje svetel ten kože in , obrnjen v desno	none
+🧑🏽‍🦯‍➡	oseba s palico za slepe srednji ten kože in , obrnjen v desno	none
+🧑🏾‍🦯‍➡	oseba s palico za slepe srednje temen ten kože in , obrnjen v desno	none
+🧑🏿‍🦯‍➡	oseba s palico za slepe temen ten kože in , obrnjen v desno	none
 👨🏻‍🦯	moški s palico za slepe svetel ten kože	none
 👨🏼‍🦯	moški s palico za slepe srednje svetel ten kože	none
 👨🏽‍🦯	moški s palico za slepe srednji ten kože	none
 👨🏾‍🦯	moški s palico za slepe srednje temen ten kože	none
 👨🏿‍🦯	moški s palico za slepe temen ten kože	none
+👨‍🦯‍➡	moški s palico za slepe , obrnjen v desno	none
+👨🏻‍🦯‍➡	moški s palico za slepe svetel ten kože in , obrnjen v desno	none
+👨🏼‍🦯‍➡	moški s palico za slepe srednje svetel ten kože in , obrnjen v desno	none
+👨🏽‍🦯‍➡	moški s palico za slepe srednji ten kože in , obrnjen v desno	none
+👨🏾‍🦯‍➡	moški s palico za slepe srednje temen ten kože in , obrnjen v desno	none
+👨🏿‍🦯‍➡	moški s palico za slepe temen ten kože in , obrnjen v desno	none
 👩🏻‍🦯	ženska s palico za slepe svetel ten kože	none
 👩🏼‍🦯	ženska s palico za slepe srednje svetel ten kože	none
 👩🏽‍🦯	ženska s palico za slepe srednji ten kože	none
 👩🏾‍🦯	ženska s palico za slepe srednje temen ten kože	none
 👩🏿‍🦯	ženska s palico za slepe temen ten kože	none
+👩‍🦯‍➡	ženska s palico za slepe , obrnjen v desno	none
+👩🏻‍🦯‍➡	ženska s palico za slepe svetel ten kože in , obrnjen v desno	none
+👩🏼‍🦯‍➡	ženska s palico za slepe srednje svetel ten kože in , obrnjen v desno	none
+👩🏽‍🦯‍➡	ženska s palico za slepe srednji ten kože in , obrnjen v desno	none
+👩🏾‍🦯‍➡	ženska s palico za slepe srednje temen ten kože in , obrnjen v desno	none
+👩🏿‍🦯‍➡	ženska s palico za slepe temen ten kože in , obrnjen v desno	none
 🧑🏻‍🦼	oseba na motoriziranem invalidskem vozičku svetel ten kože	none
 🧑🏼‍🦼	oseba na motoriziranem invalidskem vozičku srednje svetel ten kože	none
 🧑🏽‍🦼	oseba na motoriziranem invalidskem vozičku srednji ten kože	none
 🧑🏾‍🦼	oseba na motoriziranem invalidskem vozičku srednje temen ten kože	none
 🧑🏿‍🦼	oseba na motoriziranem invalidskem vozičku temen ten kože	none
+🧑‍🦼‍➡	oseba na motoriziranem invalidskem vozičku , obrnjen v desno	none
+🧑🏻‍🦼‍➡	oseba na motoriziranem invalidskem vozičku svetel ten kože in , obrnjen v desno	none
+🧑🏼‍🦼‍➡	oseba na motoriziranem invalidskem vozičku srednje svetel ten kože in , obrnjen v desno	none
+🧑🏽‍🦼‍➡	oseba na motoriziranem invalidskem vozičku srednji ten kože in , obrnjen v desno	none
+🧑🏾‍🦼‍➡	oseba na motoriziranem invalidskem vozičku srednje temen ten kože in , obrnjen v desno	none
+🧑🏿‍🦼‍➡	oseba na motoriziranem invalidskem vozičku temen ten kože in , obrnjen v desno	none
 👨🏻‍🦼	moški na motoriziranem invalidskem vozičku svetel ten kože	none
 👨🏼‍🦼	moški na motoriziranem invalidskem vozičku srednje svetel ten kože	none
 👨🏽‍🦼	moški na motoriziranem invalidskem vozičku srednji ten kože	none
 👨🏾‍🦼	moški na motoriziranem invalidskem vozičku srednje temen ten kože	none
 👨🏿‍🦼	moški na motoriziranem invalidskem vozičku temen ten kože	none
+👨‍🦼‍➡	moški na motoriziranem invalidskem vozičku , obrnjen v desno	none
+👨🏻‍🦼‍➡	moški na motoriziranem invalidskem vozičku svetel ten kože in , obrnjen v desno	none
+👨🏼‍🦼‍➡	moški na motoriziranem invalidskem vozičku srednje svetel ten kože in , obrnjen v desno	none
+👨🏽‍🦼‍➡	moški na motoriziranem invalidskem vozičku srednji ten kože in , obrnjen v desno	none
+👨🏾‍🦼‍➡	moški na motoriziranem invalidskem vozičku srednje temen ten kože in , obrnjen v desno	none
+👨🏿‍🦼‍➡	moški na motoriziranem invalidskem vozičku temen ten kože in , obrnjen v desno	none
 👩🏻‍🦼	ženska na motoriziranem invalidskem vozičku svetel ten kože	none
 👩🏼‍🦼	ženska na motoriziranem invalidskem vozičku srednje svetel ten kože	none
 👩🏽‍🦼	ženska na motoriziranem invalidskem vozičku srednji ten kože	none
 👩🏾‍🦼	ženska na motoriziranem invalidskem vozičku srednje temen ten kože	none
 👩🏿‍🦼	ženska na motoriziranem invalidskem vozičku temen ten kože	none
+👩‍🦼‍➡	ženska na motoriziranem invalidskem vozičku , obrnjen v desno	none
+👩🏻‍🦼‍➡	ženska na motoriziranem invalidskem vozičku svetel ten kože in , obrnjen v desno	none
+👩🏼‍🦼‍➡	ženska na motoriziranem invalidskem vozičku srednje svetel ten kože in , obrnjen v desno	none
+👩🏽‍🦼‍➡	ženska na motoriziranem invalidskem vozičku srednji ten kože in , obrnjen v desno	none
+👩🏾‍🦼‍➡	ženska na motoriziranem invalidskem vozičku srednje temen ten kože in , obrnjen v desno	none
+👩🏿‍🦼‍➡	ženska na motoriziranem invalidskem vozičku temen ten kože in , obrnjen v desno	none
 🧑🏻‍🦽	oseba na ročnem invalidskem vozičku svetel ten kože	none
 🧑🏼‍🦽	oseba na ročnem invalidskem vozičku srednje svetel ten kože	none
 🧑🏽‍🦽	oseba na ročnem invalidskem vozičku srednji ten kože	none
 🧑🏾‍🦽	oseba na ročnem invalidskem vozičku srednje temen ten kože	none
 🧑🏿‍🦽	oseba na ročnem invalidskem vozičku temen ten kože	none
+🧑‍🦽‍➡	oseba na ročnem invalidskem vozičku , obrnjen v desno	none
+🧑🏻‍🦽‍➡	oseba na ročnem invalidskem vozičku svetel ten kože in , obrnjen v desno	none
+🧑🏼‍🦽‍➡	oseba na ročnem invalidskem vozičku srednje svetel ten kože in , obrnjen v desno	none
+🧑🏽‍🦽‍➡	oseba na ročnem invalidskem vozičku srednji ten kože in , obrnjen v desno	none
+🧑🏾‍🦽‍➡	oseba na ročnem invalidskem vozičku srednje temen ten kože in , obrnjen v desno	none
+🧑🏿‍🦽‍➡	oseba na ročnem invalidskem vozičku temen ten kože in , obrnjen v desno	none
 👨🏻‍🦽	moški na ročnem invalidskem vozičku svetel ten kože	none
 👨🏼‍🦽	moški na ročnem invalidskem vozičku srednje svetel ten kože	none
 👨🏽‍🦽	moški na ročnem invalidskem vozičku srednji ten kože	none
 👨🏾‍🦽	moški na ročnem invalidskem vozičku srednje temen ten kože	none
 👨🏿‍🦽	moški na ročnem invalidskem vozičku temen ten kože	none
+👨‍🦽‍➡	moški na ročnem invalidskem vozičku , obrnjen v desno	none
+👨🏻‍🦽‍➡	moški na ročnem invalidskem vozičku svetel ten kože in , obrnjen v desno	none
+👨🏼‍🦽‍➡	moški na ročnem invalidskem vozičku srednje svetel ten kože in , obrnjen v desno	none
+👨🏽‍🦽‍➡	moški na ročnem invalidskem vozičku srednji ten kože in , obrnjen v desno	none
+👨🏾‍🦽‍➡	moški na ročnem invalidskem vozičku srednje temen ten kože in , obrnjen v desno	none
+👨🏿‍🦽‍➡	moški na ročnem invalidskem vozičku temen ten kože in , obrnjen v desno	none
 👩🏻‍🦽	ženska na ročnem invalidskem vozičku svetel ten kože	none
 👩🏼‍🦽	ženska na ročnem invalidskem vozičku srednje svetel ten kože	none
 👩🏽‍🦽	ženska na ročnem invalidskem vozičku srednji ten kože	none
 👩🏾‍🦽	ženska na ročnem invalidskem vozičku srednje temen ten kože	none
 👩🏿‍🦽	ženska na ročnem invalidskem vozičku temen ten kože	none
+👩‍🦽‍➡	ženska na ročnem invalidskem vozičku , obrnjen v desno	none
+👩🏻‍🦽‍➡	ženska na ročnem invalidskem vozičku svetel ten kože in , obrnjen v desno	none
+👩🏼‍🦽‍➡	ženska na ročnem invalidskem vozičku srednje svetel ten kože in , obrnjen v desno	none
+👩🏽‍🦽‍➡	ženska na ročnem invalidskem vozičku srednji ten kože in , obrnjen v desno	none
+👩🏾‍🦽‍➡	ženska na ročnem invalidskem vozičku srednje temen ten kože in , obrnjen v desno	none
+👩🏿‍🦽‍➡	ženska na ročnem invalidskem vozičku temen ten kože in , obrnjen v desno	none
 🏃🏻	tekač svetel ten kože	none
 🏃🏼	tekač srednje svetel ten kože	none
 🏃🏽	tekač srednji ten kože	none
@@ -2904,6 +3475,29 @@ symbols:
 🏃🏽‍♀	ženska, ki teče srednji ten kože	none
 🏃🏾‍♀	ženska, ki teče srednje temen ten kože	none
 🏃🏿‍♀	ženska, ki teče temen ten kože	none
+🏃‍➡	tekač , obrnjen v desno	none
+🏃🏻‍➡	tekač svetel ten kože in , obrnjen v desno	none
+🏃🏼‍➡	tekač srednje svetel ten kože in , obrnjen v desno	none
+🏃🏽‍➡	tekač srednji ten kože in , obrnjen v desno	none
+🏃🏾‍➡	tekač srednje temen ten kože in , obrnjen v desno	none
+🏃🏿‍➡	tekač temen ten kože in , obrnjen v desno	none
+🏃‍♀‍➡	ženska, ki teče , obrnjen v desno	none
+🏃🏻‍♀‍➡	ženska, ki teče svetel ten kože in , obrnjen v desno	none
+🏃🏼‍♀‍➡	ženska, ki teče srednje svetel ten kože in , obrnjen v desno	none
+🏃🏽‍♀‍➡	ženska, ki teče srednji ten kože in , obrnjen v desno	none
+🏃🏾‍♀‍➡	ženska, ki teče srednje temen ten kože in , obrnjen v desno	none
+🏃🏿‍♀‍➡	ženska, ki teče temen ten kože in , obrnjen v desno	none
+🏃‍♂‍➡	moški, ki teče , obrnjen v desno	none
+🏃🏻‍♂‍➡	moški, ki teče svetel ten kože in , obrnjen v desno	none
+🏃🏼‍♂‍➡	moški, ki teče srednje svetel ten kože in , obrnjen v desno	none
+🏃🏽‍♂‍➡	moški, ki teče srednji ten kože in , obrnjen v desno	none
+🏃🏾‍♂‍➡	moški, ki teče srednje temen ten kože in , obrnjen v desno	none
+🏃🏿‍♂‍➡	moški, ki teče temen ten kože in , obrnjen v desno	none
+🧑🏻‍🩰	baletka svetel ten kože	none
+🧑🏼‍🩰	baletka srednje svetel ten kože	none
+🧑🏽‍🩰	baletka srednji ten kože	none
+🧑🏾‍🩰	baletka srednje temen ten kože	none
+🧑🏿‍🩰	baletka temen ten kože	none
 💃🏻	ženska, ki pleše svetel ten kože	none
 💃🏼	ženska, ki pleše srednje svetel ten kože	none
 💃🏽	ženska, ki pleše srednji ten kože	none
@@ -2919,6 +3513,21 @@ symbols:
 🕴🏽	moški v poslovni obleki, ki lebdi srednji ten kože	none
 🕴🏾	moški v poslovni obleki, ki lebdi srednje temen ten kože	none
 🕴🏿	moški v poslovni obleki, ki lebdi temen ten kože	none
+👯🏻	žurerski ženski svetel ten kože	none
+👯🏼	žurerski ženski srednje svetel ten kože	none
+👯🏽	žurerski ženski srednji ten kože	none
+👯🏾	žurerski ženski srednje temen ten kože	none
+👯🏿	žurerski ženski temen ten kože	none
+👯🏻‍♂	moška zabava svetel ten kože	none
+👯🏼‍♂	moška zabava srednje svetel ten kože	none
+👯🏽‍♂	moška zabava srednji ten kože	none
+👯🏾‍♂	moška zabava srednje temen ten kože	none
+👯🏿‍♂	moška zabava temen ten kože	none
+👯🏻‍♀	ženska zabava svetel ten kože	none
+👯🏼‍♀	ženska zabava srednje svetel ten kože	none
+👯🏽‍♀	ženska zabava srednji ten kože	none
+👯🏾‍♀	ženska zabava srednje temen ten kože	none
+👯🏿‍♀	ženska zabava temen ten kože	none
 🧖🏻	oseba v parni savni svetel ten kože	none
 🧖🏼	oseba v parni savni srednje svetel ten kože	none
 🧖🏽	oseba v parni savni srednji ten kože	none
@@ -3094,6 +3703,21 @@ symbols:
 🤸🏽‍♀	ženska, ki dela premet vstran srednji ten kože	none
 🤸🏾‍♀	ženska, ki dela premet vstran srednje temen ten kože	none
 🤸🏿‍♀	ženska, ki dela premet vstran temen ten kože	none
+🤼🏻	rokoborba svetel ten kože	none
+🤼🏼	rokoborba srednje svetel ten kože	none
+🤼🏽	rokoborba srednji ten kože	none
+🤼🏾	rokoborba srednje temen ten kože	none
+🤼🏿	rokoborba temen ten kože	none
+🤼🏻‍♂	moška rokoborba svetel ten kože	none
+🤼🏼‍♂	moška rokoborba srednje svetel ten kože	none
+🤼🏽‍♂	moška rokoborba srednji ten kože	none
+🤼🏾‍♂	moška rokoborba srednje temen ten kože	none
+🤼🏿‍♂	moška rokoborba temen ten kože	none
+🤼🏻‍♀	ženska rokoborba svetel ten kože	none
+🤼🏼‍♀	ženska rokoborba srednje svetel ten kože	none
+🤼🏽‍♀	ženska rokoborba srednji ten kože	none
+🤼🏾‍♀	ženska rokoborba srednje temen ten kože	none
+🤼🏿‍♀	ženska rokoborba temen ten kože	none
 🤽🏻	vaterpolo svetel ten kože	none
 🤽🏼	vaterpolo srednje svetel ten kože	none
 🤽🏽	vaterpolo srednji ten kože	none
@@ -3305,7 +3929,6 @@ symbols:
 👩‍👧	družina ženska in dekle	none
 👩‍👧‍👦	družina ženska, dekle in fant	none
 👩‍👧‍👧	družina ženska, dekle in dekle	none
-🔟	keycap 10	none
 🇦🇨	zastava Otok Ascension	none
 🇦🇩	zastava Andora	none
 🇦🇪	zastava Združeni arabski emirati	none
@@ -3321,7 +3944,7 @@ symbols:
 🇦🇹	zastava Avstrija	none
 🇦🇺	zastava Avstralija	none
 🇦🇼	zastava Aruba	none
-🇦🇽	zastava Ålandski otoki	none
+🇦🇽	zastava Alandski otoki	none
 🇦🇿	zastava Azerbajdžan	none
 🇧🇦	zastava Bosna in Hercegovina	none
 🇧🇧	zastava Barbados	none
@@ -3332,7 +3955,7 @@ symbols:
 🇧🇭	zastava Bahrajn	none
 🇧🇮	zastava Burundi	none
 🇧🇯	zastava Benin	none
-🇧🇱	zastava Saint Barthélemy	none
+🇧🇱	zastava Sveti Bartolomej	none
 🇧🇲	zastava Bermudi	none
 🇧🇳	zastava Brunej	none
 🇧🇴	zastava Bolivija	none
@@ -3357,6 +3980,7 @@ symbols:
 🇨🇳	zastava Kitajska	none
 🇨🇴	zastava Kolumbija	none
 🇨🇵	zastava Otok Clipperton	none
+🇨🇶	zastava Sark	none
 🇨🇷	zastava Kostarika	none
 🇨🇺	zastava Kuba	none
 🇨🇻	zastava Zelenortski otoki	none
@@ -3397,12 +4021,12 @@ symbols:
 🇬🇱	zastava Grenlandija	none
 🇬🇲	zastava Gambija	none
 🇬🇳	zastava Gvineja	none
-🇬🇵	zastava Guadeloupe	none
+🇬🇵	zastava Gvadelup	none
 🇬🇶	zastava Ekvatorialna Gvineja	none
 🇬🇷	zastava Grčija	none
 🇬🇸	zastava Južna Georgia in Južni Sandwichevi otoki	none
 🇬🇹	zastava Gvatemala	none
-🇬🇺	zastava Guam	none
+🇬🇺	zastava Gvam	none
 🇬🇼	zastava Gvineja Bissau	none
 🇬🇾	zastava Gvajana	none
 🇭🇰	zastava Posebno upravno območje Ljudske republike Kitajske Hongkong	none
@@ -3431,15 +4055,15 @@ symbols:
 🇰🇭	zastava Kambodža	none
 🇰🇮	zastava Kiribati	none
 🇰🇲	zastava Komori	none
-🇰🇳	zastava Saint Kitts in Nevis	none
+🇰🇳	zastava Sveti Krištof in Nevis	none
 🇰🇵	zastava Severna Koreja	none
 🇰🇷	zastava Južna Koreja	none
 🇰🇼	zastava Kuvajt	none
-🇰🇾	zastava Kajmanski otoki	none
+🇰🇾	zastava Kajmanji otoki	none
 🇰🇿	zastava Kazahstan	none
 🇱🇦	zastava Laos	none
 🇱🇧	zastava Libanon	none
-🇱🇨	zastava Saint Lucia	none
+🇱🇨	zastava Sveta Lucija	none
 🇱🇮	zastava Lihtenštajn	none
 🇱🇰	zastava Šrilanka	none
 🇱🇷	zastava Liberija	none
@@ -3452,20 +4076,20 @@ symbols:
 🇲🇨	zastava Monako	none
 🇲🇩	zastava Moldavija	none
 🇲🇪	zastava Črna gora	none
-🇲🇫	zastava Saint Martin	none
+🇲🇫	zastava Francoski Sveti Martin	none
 🇲🇬	zastava Madagaskar	none
 🇲🇭	zastava Marshallovi otoki	none
 🇲🇰	zastava Severna Makedonija	none
 🇲🇱	zastava Mali	none
 🇲🇲	zastava Mjanmar (Burma)	none
 🇲🇳	zastava Mongolija	none
-🇲🇴	zastava Posebno upravno območje Ljudske republike Kitajske Macao	none
+🇲🇴	zastava Posebno upravno območje Kitajske Makav	none
 🇲🇵	zastava Severni Marianski otoki	none
 🇲🇶	zastava Martinik	none
 🇲🇷	zastava Mavretanija	none
 🇲🇸	zastava Montserrat	none
 🇲🇹	zastava Malta	none
-🇲🇺	zastava Mauritius	none
+🇲🇺	zastava Mavricij	none
 🇲🇻	zastava Maldivi	none
 🇲🇼	zastava Malavi	none
 🇲🇽	zastava Mehika	none
@@ -3491,12 +4115,12 @@ symbols:
 🇵🇭	zastava Filipini	none
 🇵🇰	zastava Pakistan	none
 🇵🇱	zastava Poljska	none
-🇵🇲	zastava Saint Pierre in Miquelon	none
+🇵🇲	zastava Sveta Peter in Mihael	none
 🇵🇳	zastava Pitcairn	none
 🇵🇷	zastava Portoriko	none
 🇵🇸	zastava Palestinsko ozemlje	none
 🇵🇹	zastava Portugalska	none
-🇵🇼	zastava Palau	none
+🇵🇼	zastava Palav	none
 🇵🇾	zastava Paragvaj	none
 🇶🇦	zastava Katar	none
 🇷🇪	zastava Reunion	none
@@ -3520,9 +4144,9 @@ symbols:
 🇸🇴	zastava Somalija	none
 🇸🇷	zastava Surinam	none
 🇸🇸	zastava Južni Sudan	none
-🇸🇹	zastava Sao Tome in Principe	none
+🇸🇹	zastava Sveti Tomaž in Princ	none
 🇸🇻	zastava Salvador	none
-🇸🇽	zastava Sint Maarten	none
+🇸🇽	zastava Nizozemski Sveti Martin	none
 🇸🇾	zastava Sirija	none
 🇸🇿	zastava Esvatini	none
 🇹🇦	zastava Tristan da Cunha	none
@@ -3532,7 +4156,7 @@ symbols:
 🇹🇬	zastava Togo	none
 🇹🇭	zastava Tajska	none
 🇹🇯	zastava Tadžikistan	none
-🇹🇰	zastava Tokelau	none
+🇹🇰	zastava Tokelav	none
 🇹🇱	zastava Timor-Leste	none
 🇹🇲	zastava Turkmenistan	none
 🇹🇳	zastava Tunizija	none
@@ -3550,7 +4174,7 @@ symbols:
 🇺🇾	zastava Urugvaj	none
 🇺🇿	zastava Uzbekistan	none
 🇻🇦	zastava Vatikan	none
-🇻🇨	zastava Saint Vincent in Grenadine	none
+🇻🇨	zastava Sveti Vincencij in Grenadine	none
 🇻🇪	zastava Venezuela	none
 🇻🇬	zastava Britanski Deviški otoki	none
 🇻🇮	zastava Ameriški Deviški otoki	none
@@ -3569,15 +4193,15 @@ symbols:
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	zastava Wales	none
 ₡	kostariški kolon	none
 ₦	nigerijska naira	none
-₧	španska pezeta	none
 ₪	izraelski šekel	none
-₫	vientnamski dong	none
+₫	vietnamski dong	none
 ₭	laoški kip	none
 ₮	mongolski tugrik	none
 ₲	paragvajski gvarani	none
 ₴	ukrajinska grivna	none
 ₵	ganski cedi	none
 ₸	kazahstanski tenge	none
-₺	nova turška lira	none
+₺	turška lira	none
 ₼	azerbajdžanski manat	none
 ₾	gruzijski lari	none
+₧	španska pezeta	none

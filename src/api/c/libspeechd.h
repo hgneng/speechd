@@ -1,5 +1,5 @@
 /*
- * libspeechd.h - Shared library for easy acces to Speech Dispatcher functions (header)
+ * libspeechd.h - Shared library for easy access to Speech Dispatcher functions (header)
  *
  * Copyright (C) 2001, 2002, 2003, 2004 Brailcom, o.p.s.
  *
@@ -86,8 +86,11 @@ typedef struct {
 
 	/* PRIVATE */
 	int socket;
-	FILE *stream;
+	void *stream;
 	SPDConnectionMode mode;
+	char *buf;
+	size_t buf_start;
+	size_t buf_used;
 
 	pthread_mutex_t ssip_mutex;
 
@@ -107,6 +110,8 @@ SPDConnection *spd_open2(const char *client_name, const char *connection_name,
 			 const char *user_name, SPDConnectionMode mode,
 			 const SPDConnectionAddress * address, int autospawn,
 			 char **error_result);
+
+int spd_fd(SPDConnection * connection);
 
 int spd_get_client_id(SPDConnection * connection);
 
@@ -232,7 +237,9 @@ void free_spd_modules(char **);
 char *spd_get_output_module(SPDConnection * connection);
 
 char **spd_list_voices(SPDConnection * connection);
+void free_spd_symbolic_voices(char **voices);
 SPDVoice **spd_list_synthesis_voices(SPDConnection * connection);
+SPDVoice **spd_list_synthesis_voices2(SPDConnection * connection, const char *language, const char *variant);
 void free_spd_voices(SPDVoice ** voices);
 char **spd_execute_command_with_list_reply(SPDConnection * connection,
 					   const char *command);

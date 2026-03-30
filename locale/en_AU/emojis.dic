@@ -3,6 +3,7 @@
 # See locale/README.md to know how to import dictionaries
 
 symbols:
+⋭	does not contain as normal subgroup equal	none
 🤫	shooshing face	none
 🖖	Vulcan salute	none
 🎅	Santa	none
@@ -16,28 +17,27 @@ symbols:
 🚴‍♂	man riding a bike	none
 🚴‍♀	woman riding a bike	none
 🐠	reef fish	none
+🦐	prawn	none
 🐛	caterpillar	none
 🪴	pot plant	none
 🍊	mandarin	none
-🍆	eggplant	none
-🥖	French stick	none
-🍔	hamburger	none
+🌽	sweetcorn	none
+🫑	capsicum	none
+🫘	kidney beans	none
+🫚	ginger	none
 🥙	pita roll	none
 🥗	garden salad	none
 🍤	battered prawn	none
 🥡	takeaway container	none
-🦐	prawn	none
 🍦	soft serve	none
 🍧	granita	none
-🍪	cookie	none
 🍮	baked custard	none
 🧃	drink carton	none
 🗻	mount Fuji	none
 ⛩	Shinto shrine	none
-🕋	Kaaba	none
 🎠	merry-go-round	none
 🎪	big top	none
-🚃	tram	none
+🚃	train carriage	none
 🚊	oncoming light rail	none
 🚎	trolley bus	none
 🚒	fire truck	none
@@ -45,6 +45,7 @@ symbols:
 🛻	ute	none
 🚛	articulated truck	none
 🦼	mobility scooter	none
+🛴	scooter	none
 🛼	rollerskate	none
 🛣	freeway	none
 ⛽	petrol pump	none
@@ -60,13 +61,11 @@ symbols:
 ⛱	beach umbrella	none
 🎍	bamboo decoration	none
 🎁	gift	none
-⚽	soccer ball	none
 🏉	rugby ball	none
+🥏	frisbee	none
 🎳	tenpin bowling	none
 🥅	goal cage	none
 🎣	fishing rod	none
-🛷	sled	none
-🧿	evil-eye amulet	none
 🎰	pokie	none
 🪡	needle and thread	none
 👚	blouse	none
@@ -75,7 +74,6 @@ symbols:
 👟	sneaker	none
 🧢	baseball cap	none
 📀	DVD	none
-🎥	movie camera	none
 💡	light globe	none
 💹	graph increasing with yen	none
 📤	out tray	none
@@ -92,14 +90,15 @@ symbols:
 📌	drawing-pin	none
 📍	round drawing-pin	none
 🗄	filing cabinet	none
+🗑	waste paper basket	none
 🦯	long mobility cane	none
 🧬	DNA	none
 📡	satellite dish	none
 🩹	bandaid	none
-🛋	couch and lamp	none
 🪤	mouse trap	none
+🛒	shopping trolley	none
+🧿	evil-eye amulet	none
 🚾	WC	none
-🛂	border security	none
 🚱	non-drinkable water	none
 ✝	Christian cross	none
 ⏩	fast forward button	none
@@ -121,21 +120,45 @@ symbols:
 🧑🏽‍🦯	person with long mobility cane medium skin tone	none
 🧑🏾‍🦯	person with long mobility cane medium-dark skin tone	none
 🧑🏿‍🦯	person with long mobility cane dark skin tone	none
+🧑‍🦯‍➡	person with long mobility cane facing right	none
+🧑🏻‍🦯‍➡	person with long mobility cane light skin tone, facing right	none
+🧑🏼‍🦯‍➡	person with long mobility cane medium-light skin tone, facing right	none
+🧑🏽‍🦯‍➡	person with long mobility cane medium skin tone, facing right	none
+🧑🏾‍🦯‍➡	person with long mobility cane medium-dark skin tone, facing right	none
+🧑🏿‍🦯‍➡	person with long mobility cane dark skin tone, facing right	none
 🧑🏻‍🦼	person in motorised wheelchair light skin tone	none
 🧑🏼‍🦼	person in motorised wheelchair medium-light skin tone	none
 🧑🏽‍🦼	person in motorised wheelchair medium skin tone	none
 🧑🏾‍🦼	person in motorised wheelchair medium-dark skin tone	none
 🧑🏿‍🦼	person in motorised wheelchair dark skin tone	none
+🧑‍🦼‍➡	person in motorised wheelchair facing right	none
+🧑🏻‍🦼‍➡	person in motorised wheelchair light skin tone, facing right	none
+🧑🏼‍🦼‍➡	person in motorised wheelchair medium-light skin tone, facing right	none
+🧑🏽‍🦼‍➡	person in motorised wheelchair medium skin tone, facing right	none
+🧑🏾‍🦼‍➡	person in motorised wheelchair medium-dark skin tone, facing right	none
+🧑🏿‍🦼‍➡	person in motorised wheelchair dark skin tone, facing right	none
 👨🏻‍🦼	man in motorised wheelchair light skin tone	none
 👨🏼‍🦼	man in motorised wheelchair medium-light skin tone	none
 👨🏽‍🦼	man in motorised wheelchair medium skin tone	none
 👨🏾‍🦼	man in motorised wheelchair medium-dark skin tone	none
 👨🏿‍🦼	man in motorised wheelchair dark skin tone	none
+👨‍🦼‍➡	man in motorised wheelchair facing right	none
+👨🏻‍🦼‍➡	man in motorised wheelchair light skin tone, facing right	none
+👨🏼‍🦼‍➡	man in motorised wheelchair medium-light skin tone, facing right	none
+👨🏽‍🦼‍➡	man in motorised wheelchair medium skin tone, facing right	none
+👨🏾‍🦼‍➡	man in motorised wheelchair medium-dark skin tone, facing right	none
+👨🏿‍🦼‍➡	man in motorised wheelchair dark skin tone, facing right	none
 👩🏻‍🦼	woman in motorised wheelchair light skin tone	none
 👩🏼‍🦼	woman in motorised wheelchair medium-light skin tone	none
 👩🏽‍🦼	woman in motorised wheelchair medium skin tone	none
 👩🏾‍🦼	woman in motorised wheelchair medium-dark skin tone	none
 👩🏿‍🦼	woman in motorised wheelchair dark skin tone	none
+👩‍🦼‍➡	woman in motorised wheelchair facing right	none
+👩🏻‍🦼‍➡	woman in motorised wheelchair light skin tone, facing right	none
+👩🏼‍🦼‍➡	woman in motorised wheelchair medium-light skin tone, facing right	none
+👩🏽‍🦼‍➡	woman in motorised wheelchair medium skin tone, facing right	none
+👩🏾‍🦼‍➡	woman in motorised wheelchair medium-dark skin tone, facing right	none
+👩🏿‍🦼‍➡	woman in motorised wheelchair dark skin tone, facing right	none
 🧖🏻‍♂	man in steam room light skin tone	none
 🧖🏼‍♂	man in steam room medium-light skin tone	none
 🧖🏽‍♂	man in steam room medium skin tone	none
@@ -161,4 +184,17 @@ symbols:
 🚴🏽‍♀	woman riding a bike medium skin tone	none
 🚴🏾‍♀	woman riding a bike medium-dark skin tone	none
 🚴🏿‍♀	woman riding a bike dark skin tone	none
+🇦🇬	flag Antigua and Barbuda	none
+🇧🇦	flag Bosnia and Herzegovina	none
+🇪🇦	flag Ceuta and Melilla	none
+🇬🇸	flag South Georgia and South Sandwich Islands	none
+🇭🇲	flag Heard Island and McDonald Islands	none
+🇰🇳	flag St Kitts and Nevis	none
+🇵🇲	flag St Pierre and Miquelon	none
+🇸🇯	flag Svalbard and Jan Mayen	none
+🇸🇹	flag São Tomé and Príncipe	none
+🇹🇨	flag Turks and Caicos Islands	none
+🇹🇹	flag Trinidad and Tobago	none
+🇻🇨	flag St Vincent and the Grenadines	none
+🇼🇫	flag Wallis and Futuna	none
 ₪	Israeli Shekel	none

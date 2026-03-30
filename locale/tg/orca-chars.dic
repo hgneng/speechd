@@ -2,7 +2,7 @@
 # DO NOT MODIFY IT!
 # See locale/README.md to know how to import dictionaries
 
-# locale/tg/orca.dic
+# locale/tg/orca-chars.dic
 # Copyright (C) 2004-2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the orca package.
 
@@ -30,6 +30,7 @@ symbols:
 Ô	О-и дароз	char	norep
 Õ	О-и тилда	char	norep
 Ö	О-и умляут	char	norep
+×	зарб	some
 Ø	О-и шикаста	char	norep
 Ù	У-и паст	char	norep
 Ú	У-и зада	char	norep
@@ -59,6 +60,7 @@ symbols:
 ô	о-и дароз	char	norep
 õ	о-и тилда	char	norep
 ö	о-и умляут	char	norep
+÷	тақсимшуда бо	some
 ø	о-и бурида	char	norep
 þ	торн	char	norep
 ú	у-и зада	char	norep

@@ -41,7 +41,7 @@ symbols:
 ↶	anticlockwise top semicircle arrow	none
 ↷	clockwise top semicircle arrow	none
 ↸	north west arrow long bar	none
-↹	leftwards arrow bar over rightwards arrow bar	none
+↹	leftwards over rightwards arrow bars	none
 ↺	anticlockwise open circle arrow	none
 ↻	clockwise open circle arrow	none
 ↼	leftwards harpoon barb upwards	none
@@ -274,6 +274,7 @@ symbols:
 😂	face with tears of joy	none
 🙂	slightly smiling face	none
 🙃	upside-down face	none
+🫠	melting face	none
 😉	winking face	none
 😊	smiling face with smiling eyes	none
 😇	smiling face with halo	none
@@ -292,15 +293,19 @@ symbols:
 🤪	zany face	none
 😝	squinting face with tongue	none
 🤑	money-mouth face	none
-🤗	hugging face	none
+🤗	smiling face with open hands	none
 🤭	face with hand over mouth	none
+🫢	face with open eyes and hand over mouth	none
+🫣	face with peeking eye	none
 🤫	shushing face	none
 🤔	thinking face	none
+🫡	saluting face	none
 🤐	zipper-mouth face	none
 🤨	face with raised eyebrow	none
 😐	neutral face	none
 😑	expressionless face	none
 😶	face without mouth	none
+🫥	dotted line face	none
 😶‍🌫	face in clouds	none
 😏	smirking face	none
 😒	unamused face	none
@@ -308,11 +313,15 @@ symbols:
 😬	grimacing face	none
 😮‍💨	face exhaling	none
 🤥	lying face	none
+🫨	shaking face	none
+🙂‍↔	head shaking horizontally	none
+🙂‍↕	head shaking vertically	none
 😌	relieved face	none
 😔	pensive face	none
 😪	sleepy face	none
 🤤	drooling face	none
 😴	sleeping face	none
+🫩	face with bags under eyes	none
 😷	face with medical mask	none
 🤒	face with thermometer	none
 🤕	face with head-bandage	none
@@ -322,7 +331,7 @@ symbols:
 🥵	hot face	none
 🥶	cold face	none
 🥴	woozy face	none
-😵	knocked-out face	none
+😵	face with crossed-out eyes	none
 😵‍💫	face with spiral eyes	none
 🤯	exploding head	none
 🤠	cowboy hat face	none
@@ -332,6 +341,7 @@ symbols:
 🤓	nerd face	none
 🧐	face with monocle	none
 😕	confused face	none
+🫤	face with diagonal mouth	none
 😟	worried face	none
 🙁	slightly frowning face	none
 ☹	frowning face	none
@@ -339,7 +349,9 @@ symbols:
 😯	hushed face	none
 😲	astonished face	none
 😳	flushed face	none
+🫪	distorted face	none
 🥺	pleading face	none
+🥹	face holding back tears	none
 😦	frowning face with open mouth	none
 😧	anguished face	none
 😨	fearful face	none
@@ -356,7 +368,7 @@ symbols:
 😫	tired face	none
 🥱	yawning face	none
 😤	face with steam from nose	none
-😡	pouting face	none
+😡	enraged face	none
 😠	angry face	none
 🤬	face with symbols on mouth	none
 😈	smiling face with horns	none
@@ -383,7 +395,6 @@ symbols:
 🙈	see-no-evil monkey	none
 🙉	hear-no-evil monkey	none
 🙊	speak-no-evil monkey	none
-💋	kiss mark	none
 💌	love letter	none
 💘	heart with arrow	none
 💝	heart with ribbon	none
@@ -398,38 +409,49 @@ symbols:
 ❤‍🔥	heart on fire	none
 ❤‍🩹	mending heart	none
 ❤	red heart	none
+🩷	pink heart	none
 🧡	orange heart	none
 💛	yellow heart	none
 💚	green heart	none
 💙	blue heart	none
+🩵	light blue heart	none
 💜	purple heart	none
 🤎	brown heart	none
 🖤	black heart	none
+🩶	grey heart	none
 🤍	white heart	none
+💋	kiss mark	none
 💯	hundred points	none
 💢	anger symbol	none
+🫯	fight cloud	none
 💥	collision	none
 💫	dizzy	none
 💦	sweat droplets	none
 💨	dashing away	none
 🕳	hole	none
-💣	bomb	none
 💬	speech balloon	none
 👁‍🗨	eye in speech bubble	none
 🗨	left speech bubble	none
 🗯	right anger bubble	none
 💭	thought balloon	none
-💤	zzz	none
+💤	ZZZ	none
 👋	waving hand	none
 🤚	raised back of hand	none
 🖐	hand with fingers splayed	none
 ✋	raised hand	none
 🖖	vulcan salute	none
+🫱	rightwards hand	none
+🫲	leftwards hand	none
+🫳	palm down hand	none
+🫴	palm up hand	none
+🫷	leftwards pushing hand	none
+🫸	rightwards pushing hand	none
 👌	OK hand	none
 🤌	pinched fingers	none
 🤏	pinching hand	none
 ✌	victory hand	none
 🤞	crossed fingers	none
+🫰	hand with index finger and thumb crossed	none
 🤟	love-you gesture	none
 🤘	sign of the horns	none
 🤙	call me hand	none
@@ -439,6 +461,7 @@ symbols:
 🖕	middle finger	none
 👇	backhand index pointing down	none
 ☝	index pointing up	none
+🫵	index pointing at the viewer	none
 👍	thumbs up	none
 👎	thumbs down	none
 ✊	raised fist	none
@@ -447,6 +470,7 @@ symbols:
 🤜	right-facing fist	none
 👏	clapping hands	none
 🙌	raising hands	none
+🫶	heart hands	none
 👐	open hands	none
 🤲	palms up together	none
 🤝	handshake	none
@@ -471,6 +495,7 @@ symbols:
 👁	eye	none
 👅	tongue	none
 👄	mouth	none
+🫦	biting lip	none
 👶	baby	none
 🧒	child	none
 👦	boy	none
@@ -578,6 +603,7 @@ symbols:
 👷	construction worker	none
 👷‍♂	man construction worker	none
 👷‍♀	woman construction worker	none
+🫅	person with crown	none
 🤴	prince	none
 👸	princess	none
 👳	person wearing turban	none
@@ -592,6 +618,8 @@ symbols:
 👰‍♂	man with veil	none
 👰‍♀	woman with veil	none
 🤰	pregnant woman	none
+🫃	pregnant man	none
+🫄	pregnant person	none
 🤱	breast-feeding	none
 👩‍🍼	woman feeding baby	none
 👨‍🍼	man feeding baby	none
@@ -599,7 +627,7 @@ symbols:
 👼	baby angel	none
 🎅	Santa Claus	none
 🤶	Mrs. Claus	none
-🧑‍🎄	mx claus	none
+🧑‍🎄	Mx Claus	none
 🦸	superhero	none
 🦸‍♂	man superhero	none
 🦸‍♀	woman superhero	none
@@ -627,6 +655,8 @@ symbols:
 🧟	zombie	none
 🧟‍♂	man zombie	none
 🧟‍♀	woman zombie	none
+🧌	troll	none
+🫈	hairy creature	none
 💆	person getting massage	none
 💆‍♂	man getting massage	none
 💆‍♀	woman getting massage	none
@@ -654,6 +684,7 @@ symbols:
 🏃	person running	none
 🏃‍♂	man running	none
 🏃‍♀	woman running	none
+🧑‍🩰	ballet dancer	none
 💃	woman dancing	none
 🕺	man dancing	none
 🕴	person in suit levitating	none
@@ -720,12 +751,17 @@ symbols:
 👬	men holding hands	none
 💏	kiss	none
 💑	couple with heart	none
-👪	family	none
 🗣	speaking head	none
 👤	bust in silhouette	none
 👥	busts in silhouette	none
 🫂	people hugging	none
+👪	family	none
+🧑‍🧑‍🧒	family adult, adult, child	none
+🧑‍🧑‍🧒‍🧒	family adult, adult, child, child	none
+🧑‍🧒	family adult, child	none
+🧑‍🧒‍🧒	family adult, child, child	none
 👣	footprints	none
+🫆	fingerprint	none
 🦰	red hair	none
 🦱	curly hair	none
 🦳	white hair	none
@@ -750,6 +786,8 @@ symbols:
 🐅	tiger	none
 🐆	leopard	none
 🐴	horse face	none
+🫎	moose	none
+🫏	donkey	none
 🐎	horse	none
 🦄	unicorn	none
 🦓	zebra	none
@@ -812,6 +850,10 @@ symbols:
 🦩	flamingo	none
 🦚	peacock	none
 🦜	parrot	none
+🪽	wing	none
+🐦‍⬛	black bird	none
+🪿	goose	none
+🐦‍🔥	phoenix	none
 🐸	frog	none
 🐊	crocodile	none
 🐢	turtle	none
@@ -824,6 +866,7 @@ symbols:
 🐳	spouting whale	none
 🐋	whale	none
 🐬	dolphin	none
+🫍	orca	none
 🦭	seal	none
 🐟	fish	none
 🐠	tropical fish	none
@@ -831,6 +874,13 @@ symbols:
 🦈	shark	none
 🐙	octopus	none
 🐚	spiral shell	none
+🪸	coral	none
+🪼	jellyfish	none
+🦀	crab	none
+🦞	lobster	none
+🦐	shrimp	none
+🦑	squid	none
+🦪	oyster	none
 🐌	snail	none
 🦋	butterfly	none
 🐛	bug	none
@@ -850,6 +900,7 @@ symbols:
 💐	bouquet	none
 🌸	cherry blossom	none
 💮	white flower	none
+🪷	lotus	none
 🏵	rosette	none
 🌹	rose	none
 🥀	wilted flower	none
@@ -857,6 +908,7 @@ symbols:
 🌻	sunflower	none
 🌼	blossom	none
 🌷	tulip	none
+🪻	hyacinth	none
 🌱	seedling	none
 🪴	potted plant	none
 🌲	evergreen tree	none
@@ -870,11 +922,16 @@ symbols:
 🍁	maple leaf	none
 🍂	fallen leaf	none
 🍃	leaf fluttering in wind	none
+🪹	empty nest	none
+🪺	nest with eggs	none
+🍄	mushroom	none
+🪾	leafless tree	none
 🍇	grapes	none
 🍈	melon	none
 🍉	watermelon	none
 🍊	tangerine	none
 🍋	lemon	none
+🍋‍🟩	lime	none
 🍌	banana	none
 🍍	pineapple	none
 🥭	mango	none
@@ -901,9 +958,13 @@ symbols:
 🥦	broccoli	none
 🧄	garlic	none
 🧅	onion	none
-🍄	mushroom	none
 🥜	peanuts	none
+🫘	beans	none
 🌰	chestnut	none
+🫚	ginger root	none
+🫛	pea pod	none
+🍄‍🟫	brown mushroom	none
+🫜	root vegetable	none
 🍞	bread	none
 🥐	croissant	none
 🥖	baguette bread	none
@@ -955,11 +1016,6 @@ symbols:
 🥟	dumpling	none
 🥠	fortune cookie	none
 🥡	takeout box	none
-🦀	crab	none
-🦞	lobster	none
-🦐	shrimp	none
-🦑	squid	none
-🦪	oyster	none
 🍦	soft ice cream	none
 🍧	shaved ice	none
 🍨	ice cream	none
@@ -988,6 +1044,7 @@ symbols:
 🍻	clinking beer mugs	none
 🥂	clinking glasses	none
 🥃	tumbler glass	none
+🫗	pouring liquid	none
 🥤	cup with straw	none
 🧋	bubble tea	none
 🧃	beverage box	none
@@ -998,6 +1055,7 @@ symbols:
 🍴	fork and knife	none
 🥄	spoon	none
 🔪	kitchen knife	none
+🫙	jar	none
 🏺	amphora	none
 🌍	globe showing Europe-Africa	none
 🌎	globe showing Americas	none
@@ -1008,6 +1066,7 @@ symbols:
 🧭	compass	none
 🏔	snow-capped mountain	none
 ⛰	mountain	none
+🛘	landslide	none
 🌋	volcano	none
 🗻	mount fuji	none
 🏕	camping	none
@@ -1060,6 +1119,7 @@ symbols:
 🌉	bridge at night	none
 ♨	hot springs	none
 🎠	carousel horse	none
+🛝	playground slide	none
 🎡	ferris wheel	none
 🎢	roller coaster	none
 💈	barber pole	none
@@ -1108,12 +1168,14 @@ symbols:
 🛤	railway track	none
 🛢	oil drum	none
 ⛽	fuel pump	none
+🛞	wheel	none
 🚨	police car light	none
 🚥	horizontal traffic light	none
 🚦	vertical traffic light	none
 🛑	stop sign	none
 🚧	construction	none
 ⚓	anchor	none
+🛟	ring buoy	none
 ⛵	sailboat	none
 🛶	canoe	none
 🚤	speedboat	none
@@ -1271,10 +1333,10 @@ symbols:
 🎯	bullseye	none
 🪀	yo-yo	none
 🪁	kite	none
+🔫	water pistol	none
 🎱	pool 8 ball	none
 🔮	crystal ball	none
 🪄	magic wand	none
-🧿	nazar amulet	none
 🎮	video game	none
 🕹	joystick	none
 🎰	slot machine	none
@@ -1282,6 +1344,7 @@ symbols:
 🧩	puzzle piece	none
 🧸	teddy bear	none
 🪅	piñata	none
+🪩	mirror ball	none
 🪆	nesting dolls	none
 ♠	spade suit	none
 ♥	heart suit	none
@@ -1318,6 +1381,7 @@ symbols:
 🩳	shorts	none
 👙	bikini	none
 👚	woman’s clothes	none
+🪭	folding hand fan	none
 👛	purse	none
 👜	handbag	none
 👝	clutch bag	none
@@ -1332,6 +1396,7 @@ symbols:
 👡	woman’s sandal	none
 🩰	ballet shoes	none
 👢	woman’s boot	none
+🪮	hair pick	none
 👑	crown	none
 👒	woman’s hat	none
 🎩	top hat	none
@@ -1362,14 +1427,18 @@ symbols:
 🎧	headphone	none
 📻	radio	none
 🎷	saxophone	none
+🎺	trumpet	none
+🪊	trombone	none
 🪗	accordion	none
 🎸	guitar	none
 🎹	musical keyboard	none
-🎺	trumpet	none
 🎻	violin	none
 🪕	banjo	none
 🥁	drum	none
 🪘	long drum	none
+🪇	maracas	none
+🪈	flute	none
+🪉	harp	none
 📱	mobile phone	none
 📲	mobile phone with arrow	none
 ☎	telephone	none
@@ -1377,6 +1446,7 @@ symbols:
 📟	pager	none
 📠	fax machine	none
 🔋	battery	none
+🪫	low battery	none
 🔌	electric plug	none
 💻	laptop	none
 🖥	desktop computer	none
@@ -1422,8 +1492,9 @@ symbols:
 📑	bookmark tabs	none
 🔖	bookmark	none
 🏷	label	none
-💰	money bag	none
 🪙	coin	none
+💰	money bag	none
+🪎	treasure chest	none
 💴	yen banknote	none
 💵	dollar banknote	none
 💶	euro banknote	none
@@ -1488,7 +1559,7 @@ symbols:
 🛠	hammer and wrench	none
 🗡	dagger	none
 ⚔	crossed swords	none
-🔫	water pistol	none
+💣	bomb	none
 🪃	boomerang	none
 🏹	bow and arrow	none
 🛡	shield	none
@@ -1501,11 +1572,13 @@ symbols:
 ⚖	balance scale	none
 🦯	white cane	none
 🔗	link	none
+⛓‍💥	broken chain	none
 ⛓	chains	none
 🪝	hook	none
 🧰	toolbox	none
 🧲	magnet	none
 🪜	ladder	none
+🪏	shovel	none
 ⚗	alembic	none
 🧪	test tube	none
 🧫	petri dish	none
@@ -1517,7 +1590,9 @@ symbols:
 🩸	drop of blood	none
 💊	pill	none
 🩹	adhesive bandage	none
+🩼	crutch	none
 🩺	stethoscope	none
+🩻	x-ray	none
 🚪	door	none
 🛗	elevator	none
 🪞	mirror	none
@@ -1538,6 +1613,7 @@ symbols:
 🧻	roll of paper	none
 🪣	bucket	none
 🧼	soap	none
+🫧	bubbles	none
 🪥	toothbrush	none
 🧽	sponge	none
 🧯	fire extinguisher	none
@@ -1546,8 +1622,11 @@ symbols:
 ⚰	coffin	none
 🪦	headstone	none
 ⚱	funeral urn	none
+🧿	nazar amulet	none
+🪬	hamsa	none
 🗿	moai	none
 🪧	placard	none
+🪪	identification card	none
 🏧	ATM sign	none
 🚮	litter in bin sign	none
 🚰	potable water	none
@@ -1608,6 +1687,7 @@ symbols:
 ☮	peace symbol	none
 🕎	menorah	none
 🔯	dotted six-pointed star	none
+🪯	khanda	none
 ♈	Aries	none
 ♉	Taurus	none
 ♊	Gemini	none
@@ -1643,6 +1723,7 @@ symbols:
 🔅	dim button	none
 🔆	bright button	none
 📶	antenna bars	none
+🛜	wireless	none
 📳	vibration mode	none
 📴	mobile phone off	none
 ♀	female sign	none
@@ -1652,6 +1733,7 @@ symbols:
 ➕	plus	none
 ➖	minus	none
 ➗	divide	none
+🟰	heavy equals sign	none
 ♾	infinity	none
 ❓	red question mark	none
 ❔	white question mark	none
@@ -1677,6 +1759,7 @@ symbols:
 ✴	eight-pointed star	none
 ❇	sparkle	none
 ™	trade mark	none
+🫟	splatter	none
 🔠	input latin uppercase	none
 🔡	input latin lowercase	none
 🔢	input numbers	none
@@ -1781,6 +1864,56 @@ symbols:
 🖖🏽	vulcan salute medium skin tone	none
 🖖🏾	vulcan salute medium-dark skin tone	none
 🖖🏿	vulcan salute dark skin tone	none
+🫱🏻	rightwards hand light skin tone	none
+🫱🏼	rightwards hand medium-light skin tone	none
+🫱🏽	rightwards hand medium skin tone	none
+🫱🏾	rightwards hand medium-dark skin tone	none
+🫱🏿	rightwards hand dark skin tone	none
+🫱🏻‍🫲🏼	handshake light skin tone, medium-light skin tone	none
+🫱🏻‍🫲🏽	handshake light skin tone, medium skin tone	none
+🫱🏻‍🫲🏾	handshake light skin tone, medium-dark skin tone	none
+🫱🏻‍🫲🏿	handshake light skin tone, dark skin tone	none
+🫱🏼‍🫲🏻	handshake medium-light skin tone, light skin tone	none
+🫱🏼‍🫲🏽	handshake medium-light skin tone, medium skin tone	none
+🫱🏼‍🫲🏾	handshake medium-light skin tone, medium-dark skin tone	none
+🫱🏼‍🫲🏿	handshake medium-light skin tone, dark skin tone	none
+🫱🏽‍🫲🏻	handshake medium skin tone, light skin tone	none
+🫱🏽‍🫲🏼	handshake medium skin tone, medium-light skin tone	none
+🫱🏽‍🫲🏾	handshake medium skin tone, medium-dark skin tone	none
+🫱🏽‍🫲🏿	handshake medium skin tone, dark skin tone	none
+🫱🏾‍🫲🏻	handshake medium-dark skin tone, light skin tone	none
+🫱🏾‍🫲🏼	handshake medium-dark skin tone, medium-light skin tone	none
+🫱🏾‍🫲🏽	handshake medium-dark skin tone, medium skin tone	none
+🫱🏾‍🫲🏿	handshake medium-dark skin tone, dark skin tone	none
+🫱🏿‍🫲🏻	handshake dark skin tone, light skin tone	none
+🫱🏿‍🫲🏼	handshake dark skin tone, medium-light skin tone	none
+🫱🏿‍🫲🏽	handshake dark skin tone, medium skin tone	none
+🫱🏿‍🫲🏾	handshake dark skin tone, medium-dark skin tone	none
+🫲🏻	leftwards hand light skin tone	none
+🫲🏼	leftwards hand medium-light skin tone	none
+🫲🏽	leftwards hand medium skin tone	none
+🫲🏾	leftwards hand medium-dark skin tone	none
+🫲🏿	leftwards hand dark skin tone	none
+🫳🏻	palm down hand light skin tone	none
+🫳🏼	palm down hand medium-light skin tone	none
+🫳🏽	palm down hand medium skin tone	none
+🫳🏾	palm down hand medium-dark skin tone	none
+🫳🏿	palm down hand dark skin tone	none
+🫴🏻	palm up hand light skin tone	none
+🫴🏼	palm up hand medium-light skin tone	none
+🫴🏽	palm up hand medium skin tone	none
+🫴🏾	palm up hand medium-dark skin tone	none
+🫴🏿	palm up hand dark skin tone	none
+🫷🏻	leftwards pushing hand light skin tone	none
+🫷🏼	leftwards pushing hand medium-light skin tone	none
+🫷🏽	leftwards pushing hand medium skin tone	none
+🫷🏾	leftwards pushing hand medium-dark skin tone	none
+🫷🏿	leftwards pushing hand dark skin tone	none
+🫸🏻	rightwards pushing hand light skin tone	none
+🫸🏼	rightwards pushing hand medium-light skin tone	none
+🫸🏽	rightwards pushing hand medium skin tone	none
+🫸🏾	rightwards pushing hand medium-dark skin tone	none
+🫸🏿	rightwards pushing hand dark skin tone	none
 👌🏻	OK hand light skin tone	none
 👌🏼	OK hand medium-light skin tone	none
 👌🏽	OK hand medium skin tone	none
@@ -1806,6 +1939,11 @@ symbols:
 🤞🏽	crossed fingers medium skin tone	none
 🤞🏾	crossed fingers medium-dark skin tone	none
 🤞🏿	crossed fingers dark skin tone	none
+🫰🏻	hand with index finger and thumb crossed light skin tone	none
+🫰🏼	hand with index finger and thumb crossed medium-light skin tone	none
+🫰🏽	hand with index finger and thumb crossed medium skin tone	none
+🫰🏾	hand with index finger and thumb crossed medium-dark skin tone	none
+🫰🏿	hand with index finger and thumb crossed dark skin tone	none
 🤟🏻	love-you gesture light skin tone	none
 🤟🏼	love-you gesture medium-light skin tone	none
 🤟🏽	love-you gesture medium skin tone	none
@@ -1851,6 +1989,11 @@ symbols:
 ☝🏽	index pointing up medium skin tone	none
 ☝🏾	index pointing up medium-dark skin tone	none
 ☝🏿	index pointing up dark skin tone	none
+🫵🏻	index pointing at the viewer light skin tone	none
+🫵🏼	index pointing at the viewer medium-light skin tone	none
+🫵🏽	index pointing at the viewer medium skin tone	none
+🫵🏾	index pointing at the viewer medium-dark skin tone	none
+🫵🏿	index pointing at the viewer dark skin tone	none
 👍🏻	thumbs up light skin tone	none
 👍🏼	thumbs up medium-light skin tone	none
 👍🏽	thumbs up medium skin tone	none
@@ -1891,6 +2034,11 @@ symbols:
 🙌🏽	raising hands medium skin tone	none
 🙌🏾	raising hands medium-dark skin tone	none
 🙌🏿	raising hands dark skin tone	none
+🫶🏻	heart hands light skin tone	none
+🫶🏼	heart hands medium-light skin tone	none
+🫶🏽	heart hands medium skin tone	none
+🫶🏾	heart hands medium-dark skin tone	none
+🫶🏿	heart hands dark skin tone	none
 👐🏻	open hands light skin tone	none
 👐🏼	open hands medium-light skin tone	none
 👐🏽	open hands medium skin tone	none
@@ -1901,6 +2049,11 @@ symbols:
 🤲🏽	palms up together medium skin tone	none
 🤲🏾	palms up together medium-dark skin tone	none
 🤲🏿	palms up together dark skin tone	none
+🤝🏻	handshake light skin tone	none
+🤝🏼	handshake medium-light skin tone	none
+🤝🏽	handshake medium skin tone	none
+🤝🏾	handshake medium-dark skin tone	none
+🤝🏿	handshake dark skin tone	none
 🙏🏻	folded hands light skin tone	none
 🙏🏼	folded hands medium-light skin tone	none
 🙏🏽	folded hands medium skin tone	none
@@ -2021,6 +2174,26 @@ symbols:
 🧑🏿‍❤‍🧑🏼	couple with heart person, person, dark skin tone, medium-light skin tone	none
 🧑🏿‍❤‍🧑🏽	couple with heart person, person, dark skin tone, medium skin tone	none
 🧑🏿‍❤‍🧑🏾	couple with heart person, person, dark skin tone, medium-dark skin tone	none
+🧑🏻‍🫯‍🧑🏼	people wrestling light skin tone, medium-light skin tone	none
+🧑🏻‍🫯‍🧑🏽	people wrestling light skin tone, medium skin tone	none
+🧑🏻‍🫯‍🧑🏾	people wrestling light skin tone, medium-dark skin tone	none
+🧑🏻‍🫯‍🧑🏿	people wrestling light skin tone, dark skin tone	none
+🧑🏼‍🫯‍🧑🏻	people wrestling medium-light skin tone, light skin tone	none
+🧑🏼‍🫯‍🧑🏽	people wrestling medium-light skin tone, medium skin tone	none
+🧑🏼‍🫯‍🧑🏾	people wrestling medium-light skin tone, medium-dark skin tone	none
+🧑🏼‍🫯‍🧑🏿	people wrestling medium-light skin tone, dark skin tone	none
+🧑🏽‍🫯‍🧑🏻	people wrestling medium skin tone, light skin tone	none
+🧑🏽‍🫯‍🧑🏼	people wrestling medium skin tone, medium-light skin tone	none
+🧑🏽‍🫯‍🧑🏾	people wrestling medium skin tone, medium-dark skin tone	none
+🧑🏽‍🫯‍🧑🏿	people wrestling medium skin tone, dark skin tone	none
+🧑🏾‍🫯‍🧑🏻	people wrestling medium-dark skin tone, light skin tone	none
+🧑🏾‍🫯‍🧑🏼	people wrestling medium-dark skin tone, medium-light skin tone	none
+🧑🏾‍🫯‍🧑🏽	people wrestling medium-dark skin tone, medium skin tone	none
+🧑🏾‍🫯‍🧑🏿	people wrestling medium-dark skin tone, dark skin tone	none
+🧑🏿‍🫯‍🧑🏻	people wrestling dark skin tone, light skin tone	none
+🧑🏿‍🫯‍🧑🏼	people wrestling dark skin tone, medium-light skin tone	none
+🧑🏿‍🫯‍🧑🏽	people wrestling dark skin tone, medium skin tone	none
+🧑🏿‍🫯‍🧑🏾	people wrestling dark skin tone, medium-dark skin tone	none
 🧑‍🦰	person red hair	none
 🧑🏻‍🦰	person light skin tone, red hair	none
 🧑🏼‍🦰	person medium-light skin tone, red hair	none
@@ -2045,6 +2218,26 @@ symbols:
 🧑🏽‍🦲	person medium skin tone, bald	none
 🧑🏾‍🦲	person medium-dark skin tone, bald	none
 🧑🏿‍🦲	person dark skin tone, bald	none
+🧑🏻‍🐰‍🧑🏼	people with bunny ears light skin tone, medium-light skin tone	none
+🧑🏻‍🐰‍🧑🏽	people with bunny ears light skin tone, medium skin tone	none
+🧑🏻‍🐰‍🧑🏾	people with bunny ears light skin tone, medium-dark skin tone	none
+🧑🏻‍🐰‍🧑🏿	people with bunny ears light skin tone, dark skin tone	none
+🧑🏼‍🐰‍🧑🏻	people with bunny ears medium-light skin tone, light skin tone	none
+🧑🏼‍🐰‍🧑🏽	people with bunny ears medium-light skin tone, medium skin tone	none
+🧑🏼‍🐰‍🧑🏾	people with bunny ears medium-light skin tone, medium-dark skin tone	none
+🧑🏼‍🐰‍🧑🏿	people with bunny ears medium-light skin tone, dark skin tone	none
+🧑🏽‍🐰‍🧑🏻	people with bunny ears medium skin tone, light skin tone	none
+🧑🏽‍🐰‍🧑🏼	people with bunny ears medium skin tone, medium-light skin tone	none
+🧑🏽‍🐰‍🧑🏾	people with bunny ears medium skin tone, medium-dark skin tone	none
+🧑🏽‍🐰‍🧑🏿	people with bunny ears medium skin tone, dark skin tone	none
+🧑🏾‍🐰‍🧑🏻	people with bunny ears medium-dark skin tone, light skin tone	none
+🧑🏾‍🐰‍🧑🏼	people with bunny ears medium-dark skin tone, medium-light skin tone	none
+🧑🏾‍🐰‍🧑🏽	people with bunny ears medium-dark skin tone, medium skin tone	none
+🧑🏾‍🐰‍🧑🏿	people with bunny ears medium-dark skin tone, dark skin tone	none
+🧑🏿‍🐰‍🧑🏻	people with bunny ears dark skin tone, light skin tone	none
+🧑🏿‍🐰‍🧑🏼	people with bunny ears dark skin tone, medium-light skin tone	none
+🧑🏿‍🐰‍🧑🏽	people with bunny ears dark skin tone, medium skin tone	none
+🧑🏿‍🐰‍🧑🏾	people with bunny ears dark skin tone, medium-dark skin tone	none
 👨🏻	man light skin tone	none
 👨🏼	man medium-light skin tone	none
 👨🏽	man medium skin tone	none
@@ -2115,6 +2308,26 @@ symbols:
 👨🏿‍❤‍👨🏽	couple with heart man, man, dark skin tone, medium skin tone	none
 👨🏿‍❤‍👨🏾	couple with heart man, man, dark skin tone, medium-dark skin tone	none
 👨🏿‍❤‍👨🏿	couple with heart man, man, dark skin tone	none
+👨🏻‍🫯‍👨🏼	men wrestling light skin tone, medium-light skin tone	none
+👨🏻‍🫯‍👨🏽	men wrestling light skin tone, medium skin tone	none
+👨🏻‍🫯‍👨🏾	men wrestling light skin tone, medium-dark skin tone	none
+👨🏻‍🫯‍👨🏿	men wrestling light skin tone, dark skin tone	none
+👨🏼‍🫯‍👨🏻	men wrestling medium-light skin tone, light skin tone	none
+👨🏼‍🫯‍👨🏽	men wrestling medium-light skin tone, medium skin tone	none
+👨🏼‍🫯‍👨🏾	men wrestling medium-light skin tone, medium-dark skin tone	none
+👨🏼‍🫯‍👨🏿	men wrestling medium-light skin tone, dark skin tone	none
+👨🏽‍🫯‍👨🏻	men wrestling medium skin tone, light skin tone	none
+👨🏽‍🫯‍👨🏼	men wrestling medium skin tone, medium-light skin tone	none
+👨🏽‍🫯‍👨🏾	men wrestling medium skin tone, medium-dark skin tone	none
+👨🏽‍🫯‍👨🏿	men wrestling medium skin tone, dark skin tone	none
+👨🏾‍🫯‍👨🏻	men wrestling medium-dark skin tone, light skin tone	none
+👨🏾‍🫯‍👨🏼	men wrestling medium-dark skin tone, medium-light skin tone	none
+👨🏾‍🫯‍👨🏽	men wrestling medium-dark skin tone, medium skin tone	none
+👨🏾‍🫯‍👨🏿	men wrestling medium-dark skin tone, dark skin tone	none
+👨🏿‍🫯‍👨🏻	men wrestling dark skin tone, light skin tone	none
+👨🏿‍🫯‍👨🏼	men wrestling dark skin tone, medium-light skin tone	none
+👨🏿‍🫯‍👨🏽	men wrestling dark skin tone, medium skin tone	none
+👨🏿‍🫯‍👨🏾	men wrestling dark skin tone, medium-dark skin tone	none
 👨‍🦰	man red hair	none
 👨🏻‍🦰	man light skin tone, red hair	none
 👨🏼‍🦰	man medium-light skin tone, red hair	none
@@ -2139,6 +2352,26 @@ symbols:
 👨🏽‍🦲	man medium skin tone, bald	none
 👨🏾‍🦲	man medium-dark skin tone, bald	none
 👨🏿‍🦲	man dark skin tone, bald	none
+👨🏻‍🐰‍👨🏼	men with bunny ears light skin tone, medium-light skin tone	none
+👨🏻‍🐰‍👨🏽	men with bunny ears light skin tone, medium skin tone	none
+👨🏻‍🐰‍👨🏾	men with bunny ears light skin tone, medium-dark skin tone	none
+👨🏻‍🐰‍👨🏿	men with bunny ears light skin tone, dark skin tone	none
+👨🏼‍🐰‍👨🏻	men with bunny ears medium-light skin tone, light skin tone	none
+👨🏼‍🐰‍👨🏽	men with bunny ears medium-light skin tone, medium skin tone	none
+👨🏼‍🐰‍👨🏾	men with bunny ears medium-light skin tone, medium-dark skin tone	none
+👨🏼‍🐰‍👨🏿	men with bunny ears medium-light skin tone, dark skin tone	none
+👨🏽‍🐰‍👨🏻	men with bunny ears medium skin tone, light skin tone	none
+👨🏽‍🐰‍👨🏼	men with bunny ears medium skin tone, medium-light skin tone	none
+👨🏽‍🐰‍👨🏾	men with bunny ears medium skin tone, medium-dark skin tone	none
+👨🏽‍🐰‍👨🏿	men with bunny ears medium skin tone, dark skin tone	none
+👨🏾‍🐰‍👨🏻	men with bunny ears medium-dark skin tone, light skin tone	none
+👨🏾‍🐰‍👨🏼	men with bunny ears medium-dark skin tone, medium-light skin tone	none
+👨🏾‍🐰‍👨🏽	men with bunny ears medium-dark skin tone, medium skin tone	none
+👨🏾‍🐰‍👨🏿	men with bunny ears medium-dark skin tone, dark skin tone	none
+👨🏿‍🐰‍👨🏻	men with bunny ears dark skin tone, light skin tone	none
+👨🏿‍🐰‍👨🏼	men with bunny ears dark skin tone, medium-light skin tone	none
+👨🏿‍🐰‍👨🏽	men with bunny ears dark skin tone, medium skin tone	none
+👨🏿‍🐰‍👨🏾	men with bunny ears dark skin tone, medium-dark skin tone	none
 👩🏻	woman light skin tone	none
 👩🏼	woman medium-light skin tone	none
 👩🏽	woman medium skin tone	none
@@ -2254,6 +2487,26 @@ symbols:
 👩🏿‍❤‍👩🏽	couple with heart woman, woman, dark skin tone, medium skin tone	none
 👩🏿‍❤‍👩🏾	couple with heart woman, woman, dark skin tone, medium-dark skin tone	none
 👩🏿‍❤‍👩🏿	couple with heart woman, woman, dark skin tone	none
+👩🏻‍🫯‍👩🏼	women wrestling light skin tone, medium-light skin tone	none
+👩🏻‍🫯‍👩🏽	women wrestling light skin tone, medium skin tone	none
+👩🏻‍🫯‍👩🏾	women wrestling light skin tone, medium-dark skin tone	none
+👩🏻‍🫯‍👩🏿	women wrestling light skin tone, dark skin tone	none
+👩🏼‍🫯‍👩🏻	women wrestling medium-light skin tone, light skin tone	none
+👩🏼‍🫯‍👩🏽	women wrestling medium-light skin tone, medium skin tone	none
+👩🏼‍🫯‍👩🏾	women wrestling medium-light skin tone, medium-dark skin tone	none
+👩🏼‍🫯‍👩🏿	women wrestling medium-light skin tone, dark skin tone	none
+👩🏽‍🫯‍👩🏻	women wrestling medium skin tone, light skin tone	none
+👩🏽‍🫯‍👩🏼	women wrestling medium skin tone, medium-light skin tone	none
+👩🏽‍🫯‍👩🏾	women wrestling medium skin tone, medium-dark skin tone	none
+👩🏽‍🫯‍👩🏿	women wrestling medium skin tone, dark skin tone	none
+👩🏾‍🫯‍👩🏻	women wrestling medium-dark skin tone, light skin tone	none
+👩🏾‍🫯‍👩🏼	women wrestling medium-dark skin tone, medium-light skin tone	none
+👩🏾‍🫯‍👩🏽	women wrestling medium-dark skin tone, medium skin tone	none
+👩🏾‍🫯‍👩🏿	women wrestling medium-dark skin tone, dark skin tone	none
+👩🏿‍🫯‍👩🏻	women wrestling dark skin tone, light skin tone	none
+👩🏿‍🫯‍👩🏼	women wrestling dark skin tone, medium-light skin tone	none
+👩🏿‍🫯‍👩🏽	women wrestling dark skin tone, medium skin tone	none
+👩🏿‍🫯‍👩🏾	women wrestling dark skin tone, medium-dark skin tone	none
 👩‍🦰	woman red hair	none
 👩🏻‍🦰	woman light skin tone, red hair	none
 👩🏼‍🦰	woman medium-light skin tone, red hair	none
@@ -2278,6 +2531,26 @@ symbols:
 👩🏽‍🦲	woman medium skin tone, bald	none
 👩🏾‍🦲	woman medium-dark skin tone, bald	none
 👩🏿‍🦲	woman dark skin tone, bald	none
+👩🏻‍🐰‍👩🏼	women with bunny ears light skin tone, medium-light skin tone	none
+👩🏻‍🐰‍👩🏽	women with bunny ears light skin tone, medium skin tone	none
+👩🏻‍🐰‍👩🏾	women with bunny ears light skin tone, medium-dark skin tone	none
+👩🏻‍🐰‍👩🏿	women with bunny ears light skin tone, dark skin tone	none
+👩🏼‍🐰‍👩🏻	women with bunny ears medium-light skin tone, light skin tone	none
+👩🏼‍🐰‍👩🏽	women with bunny ears medium-light skin tone, medium skin tone	none
+👩🏼‍🐰‍👩🏾	women with bunny ears medium-light skin tone, medium-dark skin tone	none
+👩🏼‍🐰‍👩🏿	women with bunny ears medium-light skin tone, dark skin tone	none
+👩🏽‍🐰‍👩🏻	women with bunny ears medium skin tone, light skin tone	none
+👩🏽‍🐰‍👩🏼	women with bunny ears medium skin tone, medium-light skin tone	none
+👩🏽‍🐰‍👩🏾	women with bunny ears medium skin tone, medium-dark skin tone	none
+👩🏽‍🐰‍👩🏿	women with bunny ears medium skin tone, dark skin tone	none
+👩🏾‍🐰‍👩🏻	women with bunny ears medium-dark skin tone, light skin tone	none
+👩🏾‍🐰‍👩🏼	women with bunny ears medium-dark skin tone, medium-light skin tone	none
+👩🏾‍🐰‍👩🏽	women with bunny ears medium-dark skin tone, medium skin tone	none
+👩🏾‍🐰‍👩🏿	women with bunny ears medium-dark skin tone, dark skin tone	none
+👩🏿‍🐰‍👩🏻	women with bunny ears dark skin tone, light skin tone	none
+👩🏿‍🐰‍👩🏼	women with bunny ears dark skin tone, medium-light skin tone	none
+👩🏿‍🐰‍👩🏽	women with bunny ears dark skin tone, medium skin tone	none
+👩🏿‍🐰‍👩🏾	women with bunny ears dark skin tone, medium-dark skin tone	none
 🧓🏻	older person light skin tone	none
 🧓🏼	older person medium-light skin tone	none
 🧓🏽	older person medium skin tone	none
@@ -2748,6 +3021,11 @@ symbols:
 👷🏽‍♀	woman construction worker medium skin tone	none
 👷🏾‍♀	woman construction worker medium-dark skin tone	none
 👷🏿‍♀	woman construction worker dark skin tone	none
+🫅🏻	person with crown light skin tone	none
+🫅🏼	person with crown medium-light skin tone	none
+🫅🏽	person with crown medium skin tone	none
+🫅🏾	person with crown medium-dark skin tone	none
+🫅🏿	person with crown dark skin tone	none
 🤴🏻	prince light skin tone	none
 🤴🏼	prince medium-light skin tone	none
 🤴🏽	prince medium skin tone	none
@@ -2818,6 +3096,16 @@ symbols:
 🤰🏽	pregnant woman medium skin tone	none
 🤰🏾	pregnant woman medium-dark skin tone	none
 🤰🏿	pregnant woman dark skin tone	none
+🫃🏻	pregnant man light skin tone	none
+🫃🏼	pregnant man medium-light skin tone	none
+🫃🏽	pregnant man medium skin tone	none
+🫃🏾	pregnant man medium-dark skin tone	none
+🫃🏿	pregnant man dark skin tone	none
+🫄🏻	pregnant person light skin tone	none
+🫄🏼	pregnant person medium-light skin tone	none
+🫄🏽	pregnant person medium skin tone	none
+🫄🏾	pregnant person medium-dark skin tone	none
+🫄🏿	pregnant person dark skin tone	none
 🤱🏻	breast-feeding light skin tone	none
 🤱🏼	breast-feeding medium-light skin tone	none
 🤱🏽	breast-feeding medium skin tone	none
@@ -2853,11 +3141,11 @@ symbols:
 🤶🏽	Mrs. Claus medium skin tone	none
 🤶🏾	Mrs. Claus medium-dark skin tone	none
 🤶🏿	Mrs. Claus dark skin tone	none
-🧑🏻‍🎄	mx claus light skin tone	none
-🧑🏼‍🎄	mx claus medium-light skin tone	none
-🧑🏽‍🎄	mx claus medium skin tone	none
-🧑🏾‍🎄	mx claus medium-dark skin tone	none
-🧑🏿‍🎄	mx claus dark skin tone	none
+🧑🏻‍🎄	Mx Claus light skin tone	none
+🧑🏼‍🎄	Mx Claus medium-light skin tone	none
+🧑🏽‍🎄	Mx Claus medium skin tone	none
+🧑🏾‍🎄	Mx Claus medium-dark skin tone	none
+🧑🏿‍🎄	Mx Claus dark skin tone	none
 🦸🏻	superhero light skin tone	none
 🦸🏼	superhero medium-light skin tone	none
 🦸🏽	superhero medium skin tone	none
@@ -3008,6 +3296,24 @@ symbols:
 🚶🏽‍♀	woman walking medium skin tone	none
 🚶🏾‍♀	woman walking medium-dark skin tone	none
 🚶🏿‍♀	woman walking dark skin tone	none
+🚶‍➡	person walking facing right	none
+🚶🏻‍➡	person walking light skin tone, facing right	none
+🚶🏼‍➡	person walking medium-light skin tone, facing right	none
+🚶🏽‍➡	person walking medium skin tone, facing right	none
+🚶🏾‍➡	person walking medium-dark skin tone, facing right	none
+🚶🏿‍➡	person walking dark skin tone, facing right	none
+🚶‍♀‍➡	woman walking facing right	none
+🚶🏻‍♀‍➡	woman walking light skin tone, facing right	none
+🚶🏼‍♀‍➡	woman walking medium-light skin tone, facing right	none
+🚶🏽‍♀‍➡	woman walking medium skin tone, facing right	none
+🚶🏾‍♀‍➡	woman walking medium-dark skin tone, facing right	none
+🚶🏿‍♀‍➡	woman walking dark skin tone, facing right	none
+🚶‍♂‍➡	man walking facing right	none
+🚶🏻‍♂‍➡	man walking light skin tone, facing right	none
+🚶🏼‍♂‍➡	man walking medium-light skin tone, facing right	none
+🚶🏽‍♂‍➡	man walking medium skin tone, facing right	none
+🚶🏾‍♂‍➡	man walking medium-dark skin tone, facing right	none
+🚶🏿‍♂‍➡	man walking dark skin tone, facing right	none
 🧍🏻	person standing light skin tone	none
 🧍🏼	person standing medium-light skin tone	none
 🧍🏽	person standing medium skin tone	none
@@ -3038,51 +3344,123 @@ symbols:
 🧎🏽‍♀	woman kneeling medium skin tone	none
 🧎🏾‍♀	woman kneeling medium-dark skin tone	none
 🧎🏿‍♀	woman kneeling dark skin tone	none
+🧎‍➡	person kneeling facing right	none
+🧎🏻‍➡	person kneeling light skin tone, facing right	none
+🧎🏼‍➡	person kneeling medium-light skin tone, facing right	none
+🧎🏽‍➡	person kneeling medium skin tone, facing right	none
+🧎🏾‍➡	person kneeling medium-dark skin tone, facing right	none
+🧎🏿‍➡	person kneeling dark skin tone, facing right	none
+🧎‍♀‍➡	woman kneeling facing right	none
+🧎🏻‍♀‍➡	woman kneeling light skin tone, facing right	none
+🧎🏼‍♀‍➡	woman kneeling medium-light skin tone, facing right	none
+🧎🏽‍♀‍➡	woman kneeling medium skin tone, facing right	none
+🧎🏾‍♀‍➡	woman kneeling medium-dark skin tone, facing right	none
+🧎🏿‍♀‍➡	woman kneeling dark skin tone, facing right	none
+🧎‍♂‍➡	man kneeling facing right	none
+🧎🏻‍♂‍➡	man kneeling light skin tone, facing right	none
+🧎🏼‍♂‍➡	man kneeling medium-light skin tone, facing right	none
+🧎🏽‍♂‍➡	man kneeling medium skin tone, facing right	none
+🧎🏾‍♂‍➡	man kneeling medium-dark skin tone, facing right	none
+🧎🏿‍♂‍➡	man kneeling dark skin tone, facing right	none
 🧑🏻‍🦯	person with white cane light skin tone	none
 🧑🏼‍🦯	person with white cane medium-light skin tone	none
 🧑🏽‍🦯	person with white cane medium skin tone	none
 🧑🏾‍🦯	person with white cane medium-dark skin tone	none
 🧑🏿‍🦯	person with white cane dark skin tone	none
+🧑‍🦯‍➡	person with white cane facing right	none
+🧑🏻‍🦯‍➡	person with white cane light skin tone, facing right	none
+🧑🏼‍🦯‍➡	person with white cane medium-light skin tone, facing right	none
+🧑🏽‍🦯‍➡	person with white cane medium skin tone, facing right	none
+🧑🏾‍🦯‍➡	person with white cane medium-dark skin tone, facing right	none
+🧑🏿‍🦯‍➡	person with white cane dark skin tone, facing right	none
 👨🏻‍🦯	man with white cane light skin tone	none
 👨🏼‍🦯	man with white cane medium-light skin tone	none
 👨🏽‍🦯	man with white cane medium skin tone	none
 👨🏾‍🦯	man with white cane medium-dark skin tone	none
 👨🏿‍🦯	man with white cane dark skin tone	none
+👨‍🦯‍➡	man with white cane facing right	none
+👨🏻‍🦯‍➡	man with white cane light skin tone, facing right	none
+👨🏼‍🦯‍➡	man with white cane medium-light skin tone, facing right	none
+👨🏽‍🦯‍➡	man with white cane medium skin tone, facing right	none
+👨🏾‍🦯‍➡	man with white cane medium-dark skin tone, facing right	none
+👨🏿‍🦯‍➡	man with white cane dark skin tone, facing right	none
 👩🏻‍🦯	woman with white cane light skin tone	none
 👩🏼‍🦯	woman with white cane medium-light skin tone	none
 👩🏽‍🦯	woman with white cane medium skin tone	none
 👩🏾‍🦯	woman with white cane medium-dark skin tone	none
 👩🏿‍🦯	woman with white cane dark skin tone	none
+👩‍🦯‍➡	woman with white cane facing right	none
+👩🏻‍🦯‍➡	woman with white cane light skin tone, facing right	none
+👩🏼‍🦯‍➡	woman with white cane medium-light skin tone, facing right	none
+👩🏽‍🦯‍➡	woman with white cane medium skin tone, facing right	none
+👩🏾‍🦯‍➡	woman with white cane medium-dark skin tone, facing right	none
+👩🏿‍🦯‍➡	woman with white cane dark skin tone, facing right	none
 🧑🏻‍🦼	person in motorized wheelchair light skin tone	none
 🧑🏼‍🦼	person in motorized wheelchair medium-light skin tone	none
 🧑🏽‍🦼	person in motorized wheelchair medium skin tone	none
 🧑🏾‍🦼	person in motorized wheelchair medium-dark skin tone	none
 🧑🏿‍🦼	person in motorized wheelchair dark skin tone	none
+🧑‍🦼‍➡	person in motorized wheelchair facing right	none
+🧑🏻‍🦼‍➡	person in motorized wheelchair light skin tone, facing right	none
+🧑🏼‍🦼‍➡	person in motorized wheelchair medium-light skin tone, facing right	none
+🧑🏽‍🦼‍➡	person in motorized wheelchair medium skin tone, facing right	none
+🧑🏾‍🦼‍➡	person in motorized wheelchair medium-dark skin tone, facing right	none
+🧑🏿‍🦼‍➡	person in motorized wheelchair dark skin tone, facing right	none
 👨🏻‍🦼	man in motorized wheelchair light skin tone	none
 👨🏼‍🦼	man in motorized wheelchair medium-light skin tone	none
 👨🏽‍🦼	man in motorized wheelchair medium skin tone	none
 👨🏾‍🦼	man in motorized wheelchair medium-dark skin tone	none
 👨🏿‍🦼	man in motorized wheelchair dark skin tone	none
+👨‍🦼‍➡	man in motorized wheelchair facing right	none
+👨🏻‍🦼‍➡	man in motorized wheelchair light skin tone, facing right	none
+👨🏼‍🦼‍➡	man in motorized wheelchair medium-light skin tone, facing right	none
+👨🏽‍🦼‍➡	man in motorized wheelchair medium skin tone, facing right	none
+👨🏾‍🦼‍➡	man in motorized wheelchair medium-dark skin tone, facing right	none
+👨🏿‍🦼‍➡	man in motorized wheelchair dark skin tone, facing right	none
 👩🏻‍🦼	woman in motorized wheelchair light skin tone	none
 👩🏼‍🦼	woman in motorized wheelchair medium-light skin tone	none
 👩🏽‍🦼	woman in motorized wheelchair medium skin tone	none
 👩🏾‍🦼	woman in motorized wheelchair medium-dark skin tone	none
 👩🏿‍🦼	woman in motorized wheelchair dark skin tone	none
+👩‍🦼‍➡	woman in motorized wheelchair facing right	none
+👩🏻‍🦼‍➡	woman in motorized wheelchair light skin tone, facing right	none
+👩🏼‍🦼‍➡	woman in motorized wheelchair medium-light skin tone, facing right	none
+👩🏽‍🦼‍➡	woman in motorized wheelchair medium skin tone, facing right	none
+👩🏾‍🦼‍➡	woman in motorized wheelchair medium-dark skin tone, facing right	none
+👩🏿‍🦼‍➡	woman in motorized wheelchair dark skin tone, facing right	none
 🧑🏻‍🦽	person in manual wheelchair light skin tone	none
 🧑🏼‍🦽	person in manual wheelchair medium-light skin tone	none
 🧑🏽‍🦽	person in manual wheelchair medium skin tone	none
 🧑🏾‍🦽	person in manual wheelchair medium-dark skin tone	none
 🧑🏿‍🦽	person in manual wheelchair dark skin tone	none
+🧑‍🦽‍➡	person in manual wheelchair facing right	none
+🧑🏻‍🦽‍➡	person in manual wheelchair light skin tone, facing right	none
+🧑🏼‍🦽‍➡	person in manual wheelchair medium-light skin tone, facing right	none
+🧑🏽‍🦽‍➡	person in manual wheelchair medium skin tone, facing right	none
+🧑🏾‍🦽‍➡	person in manual wheelchair medium-dark skin tone, facing right	none
+🧑🏿‍🦽‍➡	person in manual wheelchair dark skin tone, facing right	none
 👨🏻‍🦽	man in manual wheelchair light skin tone	none
 👨🏼‍🦽	man in manual wheelchair medium-light skin tone	none
 👨🏽‍🦽	man in manual wheelchair medium skin tone	none
 👨🏾‍🦽	man in manual wheelchair medium-dark skin tone	none
 👨🏿‍🦽	man in manual wheelchair dark skin tone	none
+👨‍🦽‍➡	man in manual wheelchair facing right	none
+👨🏻‍🦽‍➡	man in manual wheelchair light skin tone, facing right	none
+👨🏼‍🦽‍➡	man in manual wheelchair medium-light skin tone, facing right	none
+👨🏽‍🦽‍➡	man in manual wheelchair medium skin tone, facing right	none
+👨🏾‍🦽‍➡	man in manual wheelchair medium-dark skin tone, facing right	none
+👨🏿‍🦽‍➡	man in manual wheelchair dark skin tone, facing right	none
 👩🏻‍🦽	woman in manual wheelchair light skin tone	none
 👩🏼‍🦽	woman in manual wheelchair medium-light skin tone	none
 👩🏽‍🦽	woman in manual wheelchair medium skin tone	none
 👩🏾‍🦽	woman in manual wheelchair medium-dark skin tone	none
 👩🏿‍🦽	woman in manual wheelchair dark skin tone	none
+👩‍🦽‍➡	woman in manual wheelchair facing right	none
+👩🏻‍🦽‍➡	woman in manual wheelchair light skin tone, facing right	none
+👩🏼‍🦽‍➡	woman in manual wheelchair medium-light skin tone, facing right	none
+👩🏽‍🦽‍➡	woman in manual wheelchair medium skin tone, facing right	none
+👩🏾‍🦽‍➡	woman in manual wheelchair medium-dark skin tone, facing right	none
+👩🏿‍🦽‍➡	woman in manual wheelchair dark skin tone, facing right	none
 🏃🏻	person running light skin tone	none
 🏃🏼	person running medium-light skin tone	none
 🏃🏽	person running medium skin tone	none
@@ -3098,6 +3476,29 @@ symbols:
 🏃🏽‍♀	woman running medium skin tone	none
 🏃🏾‍♀	woman running medium-dark skin tone	none
 🏃🏿‍♀	woman running dark skin tone	none
+🏃‍➡	person running facing right	none
+🏃🏻‍➡	person running light skin tone, facing right	none
+🏃🏼‍➡	person running medium-light skin tone, facing right	none
+🏃🏽‍➡	person running medium skin tone, facing right	none
+🏃🏾‍➡	person running medium-dark skin tone, facing right	none
+🏃🏿‍➡	person running dark skin tone, facing right	none
+🏃‍♀‍➡	woman running facing right	none
+🏃🏻‍♀‍➡	woman running light skin tone, facing right	none
+🏃🏼‍♀‍➡	woman running medium-light skin tone, facing right	none
+🏃🏽‍♀‍➡	woman running medium skin tone, facing right	none
+🏃🏾‍♀‍➡	woman running medium-dark skin tone, facing right	none
+🏃🏿‍♀‍➡	woman running dark skin tone, facing right	none
+🏃‍♂‍➡	man running facing right	none
+🏃🏻‍♂‍➡	man running light skin tone, facing right	none
+🏃🏼‍♂‍➡	man running medium-light skin tone, facing right	none
+🏃🏽‍♂‍➡	man running medium skin tone, facing right	none
+🏃🏾‍♂‍➡	man running medium-dark skin tone, facing right	none
+🏃🏿‍♂‍➡	man running dark skin tone, facing right	none
+🧑🏻‍🩰	ballet dancer light skin tone	none
+🧑🏼‍🩰	ballet dancer medium-light skin tone	none
+🧑🏽‍🩰	ballet dancer medium skin tone	none
+🧑🏾‍🩰	ballet dancer medium-dark skin tone	none
+🧑🏿‍🩰	ballet dancer dark skin tone	none
 💃🏻	woman dancing light skin tone	none
 💃🏼	woman dancing medium-light skin tone	none
 💃🏽	woman dancing medium skin tone	none
@@ -3113,6 +3514,21 @@ symbols:
 🕴🏽	person in suit levitating medium skin tone	none
 🕴🏾	person in suit levitating medium-dark skin tone	none
 🕴🏿	person in suit levitating dark skin tone	none
+👯🏻	people with bunny ears light skin tone	none
+👯🏼	people with bunny ears medium-light skin tone	none
+👯🏽	people with bunny ears medium skin tone	none
+👯🏾	people with bunny ears medium-dark skin tone	none
+👯🏿	people with bunny ears dark skin tone	none
+👯🏻‍♂	men with bunny ears light skin tone	none
+👯🏼‍♂	men with bunny ears medium-light skin tone	none
+👯🏽‍♂	men with bunny ears medium skin tone	none
+👯🏾‍♂	men with bunny ears medium-dark skin tone	none
+👯🏿‍♂	men with bunny ears dark skin tone	none
+👯🏻‍♀	women with bunny ears light skin tone	none
+👯🏼‍♀	women with bunny ears medium-light skin tone	none
+👯🏽‍♀	women with bunny ears medium skin tone	none
+👯🏾‍♀	women with bunny ears medium-dark skin tone	none
+👯🏿‍♀	women with bunny ears dark skin tone	none
 🧖🏻	person in steamy room light skin tone	none
 🧖🏼	person in steamy room medium-light skin tone	none
 🧖🏽	person in steamy room medium skin tone	none
@@ -3288,6 +3704,21 @@ symbols:
 🤸🏽‍♀	woman cartwheeling medium skin tone	none
 🤸🏾‍♀	woman cartwheeling medium-dark skin tone	none
 🤸🏿‍♀	woman cartwheeling dark skin tone	none
+🤼🏻	people wrestling light skin tone	none
+🤼🏼	people wrestling medium-light skin tone	none
+🤼🏽	people wrestling medium skin tone	none
+🤼🏾	people wrestling medium-dark skin tone	none
+🤼🏿	people wrestling dark skin tone	none
+🤼🏻‍♂	men wrestling light skin tone	none
+🤼🏼‍♂	men wrestling medium-light skin tone	none
+🤼🏽‍♂	men wrestling medium skin tone	none
+🤼🏾‍♂	men wrestling medium-dark skin tone	none
+🤼🏿‍♂	men wrestling dark skin tone	none
+🤼🏻‍♀	women wrestling light skin tone	none
+🤼🏼‍♀	women wrestling medium-light skin tone	none
+🤼🏽‍♀	women wrestling medium skin tone	none
+🤼🏾‍♀	women wrestling medium-dark skin tone	none
+🤼🏿‍♀	women wrestling dark skin tone	none
 🤽🏻	person playing water polo light skin tone	none
 🤽🏼	person playing water polo medium-light skin tone	none
 🤽🏽	person playing water polo medium skin tone	none
@@ -3551,6 +3982,7 @@ symbols:
 🇨🇳	flag China	none
 🇨🇴	flag Colombia	none
 🇨🇵	flag Clipperton Island	none
+🇨🇶	flag Sark	none
 🇨🇷	flag Costa Rica	none
 🇨🇺	flag Cuba	none
 🇨🇻	flag Cape Verde	none
@@ -3731,7 +4163,7 @@ symbols:
 🇹🇲	flag Turkmenistan	none
 🇹🇳	flag Tunisia	none
 🇹🇴	flag Tonga	none
-🇹🇷	flag Turkey	none
+🇹🇷	flag Türkiye	none
 🇹🇹	flag Trinidad & Tobago	none
 🇹🇻	flag Tuvalu	none
 🇹🇼	flag Taiwan	none
@@ -3763,7 +4195,6 @@ symbols:
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	flag Wales	none
 ₡	Costa Rican Colón	none
 ₦	Nigerian Naira	none
-₧	Spanish Peseta	none
 ₪	Israeli New Shekel	none
 ₫	Vietnamese Dong	none
 ₭	Laotian Kip	none
@@ -3775,3 +4206,4 @@ symbols:
 ₺	Turkish Lira	none
 ₼	Azerbaijani Manat	none
 ₾	Georgian Lari	none
+₧	Spanish Peseta	none

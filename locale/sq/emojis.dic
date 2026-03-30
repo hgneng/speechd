@@ -72,7 +72,7 @@ symbols:
 ⇖	shigjetë dyshe veriperëndim	none
 ⇗	shigjetë dyshe verilindje	none
 ⇘	shigjetë dyshe juglindje	none
-⇙	shigjetë dyshe jugperëndim	none
+⇙	shigjetë dyshe drejt jugperëndimit	none
 ⇚	shigjetë treshe majtas	none
 ⇛	shigjetë treshe djathtas	none
 ⇜	shigjetë e përdredhur majtas	none
@@ -112,7 +112,7 @@ symbols:
 ∕	thyesë pjesëtimi	none
 ∗	operator yllth	none
 ∘	operator rreth	none
-∙	operator pikë	none
+∙	operator pikësim	none
 √	rrënja katrore	none
 ∝	përpjesëtimor	none
 ∞	shenja e infinitit	none
@@ -136,17 +136,132 @@ symbols:
 ≃	barazim asimptotik	none
 ≅	afërsisht baraz	none
 ≈	thuajse baras	none
+≌	të gjitha baras	none
+≒	afërsisht baras me imazhin	none
+≖	unazë barazimi	none
 ≡	njëlloj me	none
+≣	barasvlerë strikte	none
 ≤	më e vogël ose baras	none
 ≥	më e madhe ose baras	none
+≦	më pak ose baras	none
+≧	më shumë ose baras	none
+≪	shumë më pak	none
+≫	shumë më shumë	none
+≬	ndërmjet	none
+≳	më shumë ose afërsisht	none
+≺	pararend	none
+≻	tejkalon	none
+⊁	nuk tejkalon	none
 ⊂	nënbashkësi e	none
+⊃	mbibashkësi	none
+⊆	nënbashkësia baras	none
+⊇	mbibashkësia baras	none
+⊕	rreth me plus	none
+⊖	rreth me minus	none
+⊗	rreth me kryq	none
+⊘	rreth me thyesë	none
+⊙	operator rrethi me pikë	none
+⊚	operator rrethi me rreth	none
+⊛	operator rrethi me yll	none
+⊞	katror me plus	none
+⊟	katror me minus	none
+⊥	thumb lart	none
+⊮	nuk detyron	none
+⊰	pararend në raport	none
+⊱	tejkalon në raport	none
+⋭	nuk përmban si të barabartë nëngrupi normal	none
+⊶	origjinal	none
+⊹	matricë lidhjeje hermitiane	none
+⊿	trekëndësh kënddrejtë	none
+⋁	n-ar logjik ose	none
+⋂	ndërprerje n-are	none
+⋃	bashkim n-ar	none
+⋅	operator pikë	none
+⋆	operator yll	none
+⋈	bashkim natyral	none
+⋒	ndërprerje dyshe	none
+⋘	shumë më pak se	none
+⋙	shumë më shumë se	none
+⋮	trepikësh vertikal	none
+⋯	trepikësh horizontal mesi	none
+⋰	trepikësh diagonal djathtas lart	none
+⋱	trepikësh diagonal djathtas poshtë	none
+■	katror i mbushur	none
+□	katror i zbrazët	none
+▢	katror i zbrazët me kënde të harkuara	none
+▣	katror i zbrazët me katror të mbushur	none
+▤	katror me mbushje horizontale	none
+▥	katror me mbushje vertikale	none
+▦	katror me mbushje rrjete drejtkëndore	none
+▧	katror me mbushje majtas lart djathtas poshtë	none
+▨	katror me mbushje djathtas lart majtas poshtë	none
+▩	katror me mbushje rrjete diagonale	none
+▬	drejtkëndësh i mbushur	none
+▭	drejtkëndësh i zbrazët	none
+▮	drejtkëndësh i mbushur vertikal	none
+▰	paralelogram i mbushur	none
 ▲	trekëndësh i mbushur, me drejtim lart	none
+△	trekëndësh i zbrazët me drejtim lart	none
+▴	trekëndësh i mbushur i vogël me drejtim lart	none
+▵	trekëndësh i zbrazët i vogël me drejtim lart	none
+▷	trekëndësh i zbrazët i me drejtim djathtas	none
+▸	trekëndësh i mbushur i vogël me drejtim djathtas	none
+▹	trekëndësh i mbushur i zbrazët me drejtim djathtas	none
+►	tregues i mbushur me drejtim djathtas	none
+▻	tregues i zbrazët me drejtim djathtas	none
 ▼	trekëndësh i mbushur, me drejtim poshtë	none
+▽	tregues i mbushur me drejtim poshtë	none
+▾	trekëndësh i mbushur i vogël me drejtim poshtë	none
+▿	trekëndësh i zbrazët i vogël me drejtim poshtë	none
+◁	trekëndësh i zbrazët me drejtim majtas	none
+◂	trekëndësh i mbushur i vogël me drejtim majtas	none
+◃	trekëndësh i zbrazët i vogël me drejtim majtas	none
+◄	tregues i mbushur me drejtim majtas	none
+◅	tregues i zbrazët me drejtim majtas	none
+◆	romb i mbushur	none
+◇	romb i zbrazët	none
+◈	romb i zbrazët me romb të mbushur	none
+◉	rreth i zbrazët me rreth të mbushur	none
 ◊	romb	none
 ○	rreth bosh	none
+◌	rreth i pikëzuar	none
+◍	rreth me mbushje vertikale	none
+◎	rrathë bashkëqendrorë	none
 ●	rreth i mbushur	none
+◐	rreth gjysmë i mbushur majtas	none
+◑	rreth gjysmë i mbushur djathtas	none
+◒	rreth gjysmë i mbushur poshtë	none
+◓	rreth gjysmë i mbushur lart	none
+◔	rreth me sektor të mbushur djathtas lart	none
+◕	rreth i mbushur përveç sektorit majtas lart	none
+◖	gjysmërreth i mbushur i majtë	none
+◗	gjysmërreth i mbushur i djathtë	none
+◘	pikë e anasjellë	none
+◙	katror i mbushur me rreth të zbrazët	none
+◜	hark sektori majtas lart	none
+◝	hark sektori djathtas lart	none
+◞	hark rrethor në çerekrrethin e djathtë poshtë	none
+◟	hark sektori majtas poshtë	none
+◠	gjysmëhark lart	none
+◡	gjysmëhark poshtë	none
+◢	trekëndësh i mbushur djathtas poshtë	none
+◣	trekëndësh i mbushur majtas poshtë	none
+◤	trekëndësh i mbushur majtas lart	none
+◥	trekëndësh i mbushur djathtas lart	none
+◦	pikë e zbrazët	none
 ◯	rreth i madh bosh	none
+◳	katror i zbrazët me sektor djathtas lart	none
+◷	rreth i zbrazët me sektor djathtas lart	none
+◿	trekëndësh djathtas poshtë	none
 ♪	nota e tetë	none
+⨧	plus dy subskript	none
+⨯	kryq vektorial produkti	none
+⨼	produkt i brendshëm	none
+⩣	nënviza logjike ose dyshe	none
+⩽	më pak ose baras i pjerrët	none
+⪍	më pak ose përafërsisht	none
+⪚	më shumë ose baras me dy rreshta	none
+⪺	tejkalon ose përafërsisht	none
 ♭	bemol	none
 ♯	diez	none
 😀	fytyrë e zgërdheshur	none
@@ -159,6 +274,7 @@ symbols:
 😂	fytyrë me lot gëzimi	none
 🙂	fytyrë pak e qeshur	none
 🙃	fytyrë përmbys	none
+🫠	fytyrë që shkrin	none
 😉	fytyrë që shkel syrin	none
 😊	fytyrë e qeshur me sy të qeshur	none
 😇	fytyrë e qeshur me aureolë	none
@@ -179,13 +295,17 @@ symbols:
 🤑	fytyrë me gjuhë si para	none
 🤗	fytyrë që përqafon	none
 🤭	fytyrë me dorën mbi gojë	none
+🫢	fytyrë me sy të hapur dhe dorën mbi gojë	none
+🫣	fytyrë me sy përgjues	none
 🤫	fytyrë që bën "shtttt!"	none
 🤔	fytyrë që mendohet	none
+🫡	fytyrë përshëndetëse	none
 🤐	fytyrë me gojën e kyçur	none
 🤨	fytyrë me vetull të ngritur	none
 😐	fytyrë neutrale	none
 😑	fytyrë pa shprehje	none
 😶	fytyrë pa gojë	none
+🫥	fytyrë me vijë të pikëzuar	none
 😶‍🌫	fytyrë në re	none
 😏	fytyrë e vetëkënaqur	none
 😒	fytyrë e pakënaqur	none
@@ -193,11 +313,15 @@ symbols:
 😬	fytyrë e ngërdheshur	none
 😮‍💨	fytyrë me shfryrje	none
 🤥	fytyrë mashtrimi	none
+🫨	fytyrë që tundet	none
+🙂‍↔	kokë që tundet horizontalisht	none
+🙂‍↕	kokë që tundet vertikalisht	none
 😌	fytyrë e lehtësuar	none
 😔	fytyrë e menduar	none
 😪	fytyrë e përgjumur	none
 🤤	fytyrë jargëse	none
 😴	fytyrë në gjumë	none
+🫩	fytyrë me qeska poshtë syve	none
 😷	fytyrë me maskë mjekësore	none
 🤒	fytyrë me termometër	none
 🤕	fytyrë me fashë në kokë	none
@@ -217,6 +341,7 @@ symbols:
 🤓	fytyrë peshkopi	none
 🧐	fytyrë me monokël	none
 😕	fytyrë e hutuar	none
+🫤	fytyrë me gojë diagonale	none
 😟	fytyrë e shqetësuar	none
 🙁	fytyrë pak e vrenjtur	none
 ☹	fytyrë e vrenjtur	none
@@ -224,7 +349,9 @@ symbols:
 😯	fytyrë e heshtur	none
 😲	fytyrë e çuditur	none
 😳	fytyrë e skuqur	none
+🫪	fytyrë e shtrembëruar	none
 🥺	fytyrë qaramane	none
+🥹	fytyrë që mezi mban lotët	none
 😦	fytyrë e vrenjtur me gojë të hapur	none
 😧	fytyrë në ankth	none
 😨	fytyrë e frikësuar	none
@@ -268,7 +395,6 @@ symbols:
 🙈	mos shiko gjëra të këqija	none
 🙉	mos dëgjo fjalët e këqija	none
 🙊	mos fol gjëra të këqija	none
-💋	shenja e puthjes	none
 💌	letër dashurie	none
 💘	zemër me shigjetë	none
 💝	zemër me fjongo	none
@@ -283,22 +409,26 @@ symbols:
 ❤‍🔥	zemër në flakë	none
 ❤‍🩹	zemër në shërim	none
 ❤	zemër e kuqe	none
+🩷	zemër ngjyrë rozë	none
 🧡	zemër ngjyrë portokalli	none
 💛	zemër e verdhë	none
 💚	zemër jeshile	none
 💙	zemër blu	none
+🩵	zemër ngjyrë blu e çelët	none
 💜	zemër ngjyrë vjollcë	none
 🤎	zemër në ngjyrë kafe	none
 🖤	zemër e zezë	none
+🩶	zemër ngjyrë gri	none
 🤍	zemër e bardhë	none
+💋	shenja e puthjes	none
 💯	njëqind pikë	none
 💢	simboli i zemërimit	none
+🫯	re grindjesh	none
 💥	përplasje	none
 💫	i trullosur	none
 💦	pika djerse	none
 💨	i vrullshëm	none
 🕳	vrimë	none
-💣	bombë	none
 💬	flluskë e të folurit	none
 👁‍🗨	sy në flluskën e të folurit	none
 🗨	flluskë e të folurit majtas	none
@@ -310,11 +440,18 @@ symbols:
 🖐	dorë e ngritur me gishtat të hapur	none
 ✋	dorë e ngritur	none
 🖖	përshëndetja e vulkanit	none
+🫱	dorë djathtas	none
+🫲	dorë majtas	none
+🫳	dorë me pëllëmbë poshtë	none
+🫴	dorë me pëllëmbë lart	none
+🫷	dorë që shtyn majtas	none
+🫸	dorë që shtyn djathtas	none
 👌	«ok» me dorë	none
 🤌	gishta të mbledhur	none
 🤏	dorështrënguar	none
 ✌	dora e fitores	none
 🤞	gishta të kryqëzuar	none
+🫰	dorë me gishtin tregues dhe të madhin të kapur	none
 🤟	gjesti "të dua"	none
 🤘	shenja e brirëve	none
 🤙	dorë me shenjën “më telefono”	none
@@ -324,6 +461,7 @@ symbols:
 🖕	gishti i mesit	none
 👇	gisht tregues i drejtuar poshtë	none
 ☝	gisht tregues që tregon lart	none
+🫵	gishti tregues nga shikuesi	none
 👍	gishti i madh lart	none
 👎	gishti i madh poshtë	none
 ✊	grusht i ngritur	none
@@ -332,6 +470,7 @@ symbols:
 🤜	grusht i djathtë në anën e përparme	none
 👏	duar që duartrokasin	none
 🙌	njeri që ngre duart	none
+🫶	duar si zemër	none
 👐	duar të hapura	none
 🤲	pëllëmbë të bashkuara	none
 🤝	shtrëngim duarsh	none
@@ -356,6 +495,7 @@ symbols:
 👁	sy	none
 👅	gjuhë	none
 👄	gojë	none
+🫦	kafshim buze	none
 👶	bebe	none
 🧒	fëmijë	none
 👦	djalë	none
@@ -463,6 +603,7 @@ symbols:
 👷	punëtor ndërtimi	none
 👷‍♂	murator	none
 👷‍♀	muratore	none
+🫅	person me kurorë	none
 🤴	princ	none
 👸	princeshë	none
 👳	burrë me çallmë	none
@@ -477,6 +618,8 @@ symbols:
 👰‍♂	burrë me vello	none
 👰‍♀	grua me vello	none
 🤰	grua shtatzënë	none
+🫃	burrë shtatzënë	none
+🫄	person shtatzënë	none
 🤱	gji	none
 👩‍🍼	grua që ushqen foshnjë	none
 👨‍🍼	burrë që ushqen foshnjë	none
@@ -512,6 +655,8 @@ symbols:
 🧟	zombi	none
 🧟‍♂	burrë zombi	none
 🧟‍♀	grua zombi	none
+🧌	xhuxh	none
+🫈	krijesë leshatore	none
 💆	masazh fytyre	none
 💆‍♂	burrë që i bëhet masazh fytyre	none
 💆‍♀	grua që i bëhet masazh fytyre	none
@@ -539,6 +684,7 @@ symbols:
 🏃	vrapues	none
 🏃‍♂	burrë që vrapon	none
 🏃‍♀	grua që vrapon	none
+🧑‍🩰	balerin	none
 💃	grua që kërcen	none
 🕺	burrë që kërcen	none
 🕴	burrë me kostum që ngrihet	none
@@ -605,12 +751,17 @@ symbols:
 👬	dy burra të kapur për duarsh	none
 💏	puthje	none
 💑	çift me zemër	none
-👪	familje	none
 🗣	kokë që flet	none
 👤	bust siluetë	none
 👥	buste siluetë	none
 🫂	njerëz që përqafohen	none
+👪	familje	none
+🧑‍🧑‍🧒	familje i rritur, i rritur, fëmijë	none
+🧑‍🧑‍🧒‍🧒	familje i rritur, i rritur, fëmijë, fëmijë	none
+🧑‍🧒	familje i rritur, fëmijë	none
+🧑‍🧒‍🧒	familje i rritur, fëmijë, fëmijë	none
 👣	gjurmë këmbësh	none
+🫆	gjurmë gishti	none
 🦰	flokë të kuqe	none
 🦱	flokë kaçurrele	none
 🦳	flokë të bardha	none
@@ -635,6 +786,8 @@ symbols:
 🐅	tigër	none
 🐆	leopard	none
 🐴	fytyrë kali	none
+🫎	dre brilopatë	none
+🫏	gomar	none
 🐎	kalë	none
 🦄	fytyrë njëbrirëshi	none
 🦓	zebër	none
@@ -697,6 +850,10 @@ symbols:
 🦩	flamingo	none
 🦚	pallua	none
 🦜	papagall	none
+🪽	krah	none
+🐦‍⬛	zog i zi	none
+🪿	patë	none
+🐦‍🔥	feniks	none
 🐸	fytyrë bretkose	none
 🐊	krokodil	none
 🐢	breshkë	none
@@ -709,6 +866,7 @@ symbols:
 🐳	balenë që hedh ujë	none
 🐋	balenë	none
 🐬	delfin	none
+🫍	orkë	none
 🦭	fokë	none
 🐟	peshk	none
 🐠	peshk tropikal	none
@@ -716,6 +874,13 @@ symbols:
 🦈	peshkaqen	none
 🐙	oktapod	none
 🐚	guaskë spirale	none
+🪸	koral	none
+🪼	kandil deti	none
+🦀	gaforre	none
+🦞	karavidhe	none
+🦐	karkalec deti	none
+🦑	kallamar	none
+🦪	gocë deti	none
 🐌	kërmill	none
 🦋	flutur	none
 🐛	shumëkëmbësh	none
@@ -735,6 +900,7 @@ symbols:
 💐	buqetë	none
 🌸	lule qershie	none
 💮	lule e bardhë	none
+🪷	zambak uji	none
 🏵	rozetë	none
 🌹	trëndafil	none
 🥀	lule e vyshkur	none
@@ -742,6 +908,7 @@ symbols:
 🌻	luledielli	none
 🌼	lule	none
 🌷	tulipan	none
+🪻	zymbyl	none
 🌱	filiz	none
 🪴	bimë në vazo	none
 🌲	gjelbërim i përjetshëm	none
@@ -755,11 +922,16 @@ symbols:
 🍁	gjethe panje	none
 🍂	gjethe e rënë	none
 🍃	gjethe që fluturon në erë	none
+🪹	fole bosh	none
+🪺	fole me vezë	none
+🍄	kërpudhë	none
+🪾	pemë e zhveshur	none
 🍇	rrush	none
 🍈	pjepër	none
 🍉	shalqi	none
 🍊	mandarinë	none
 🍋	limon	none
+🍋‍🟩	limon jeshil	none
 🍌	banane	none
 🍍	ananas	none
 🥭	mango	none
@@ -786,9 +958,13 @@ symbols:
 🥦	brokoli	none
 🧄	hudhër	none
 🧅	qepë	none
-🍄	kërpudhë	none
 🥜	kikirik	none
+🫘	fasule	none
 🌰	lajthi	none
+🫚	rrënjë xhenxhefili	none
+🫛	bizele bishtajë	none
+🍄‍🟫	kërpudhë kafe	none
+🫜	perime me rrënjë	none
 🍞	bukë	none
 🥐	kroasant	none
 🥖	bagetë	none
@@ -840,11 +1016,6 @@ symbols:
 🥟	top brumi i mbushur	none
 🥠	biskotë fati	none
 🥡	kuti për ushqim me vete	none
-🦀	gaforre	none
-🦞	karavidhe	none
-🦐	karkalec deti	none
-🦑	kallamar	none
-🦪	gocë deti	none
 🍦	akullore e butë	none
 🍧	akull i grirë	none
 🍨	akullore	none
@@ -873,6 +1044,7 @@ symbols:
 🍻	kriklla birre që trokiten	none
 🥂	trokitje gotash	none
 🥃	gotë	none
+🫗	hedhje lëngu	none
 🥤	gotë me pipë	none
 🧋	çaj me flluska	none
 🧃	kuti pijeje	none
@@ -883,6 +1055,7 @@ symbols:
 🍴	pirun dhe thikë	none
 🥄	lugë	none
 🔪	thikë kuzhine	none
+🫙	kanë	none
 🏺	amforë	none
 🌍	globi që tregon Evropën dhe Afrikën	none
 🌎	globi që tregon Amerikat	none
@@ -893,6 +1066,7 @@ symbols:
 🧭	busull	none
 🏔	mal i mbuluar me borë në majë	none
 ⛰	mal	none
+🛘	rrëshqitje dheu	none
 🌋	vullkan	none
 🗻	mali i Fuxhit	none
 🏕	kamp	none
@@ -945,6 +1119,7 @@ symbols:
 🌉	urë natën	none
 ♨	llixhë	none
 🎠	kalë në karusel	none
+🛝	rrëshqitëse këndi lojërash	none
 🎡	rrotullame	none
 🎢	tren lojërash me valëzim	none
 💈	shenja e berberit	none
@@ -993,12 +1168,14 @@ symbols:
 🛤	shina	none
 🛢	fuçi karburanti	none
 ⛽	pompë karburanti	none
+🛞	rrotë	none
 🚨	dritat sinjalizuese të policisë	none
 🚥	semafor horizontal	none
 🚦	semafor vertikal	none
 🛑	shenja “ndalo”	none
 🚧	ndërtim	none
 ⚓	spirancë	none
+🛟	bovë rrethore	none
 ⛵	varkë me vela	none
 🛶	kaike	none
 🚤	motobarkë e shpejtë	none
@@ -1156,10 +1333,10 @@ symbols:
 🎯	goditje e drejtpërdrejtë	none
 🪀	jo-jo	none
 🪁	balonë	none
+🔫	pistoletë	none
 🎱	bilardo	none
 🔮	top kristali	none
 🪄	shkop magjik	none
-🧿	hajmali kundër syrit të keq	none
 🎮	videolojë	none
 🕹	levë	none
 🎰	lojë me monedha	none
@@ -1167,6 +1344,7 @@ symbols:
 🧩	lojë me bashkim pjesësh figure	none
 🧸	arush pelushi	none
 🪅	pinjata	none
+🪩	sferë diskoje	none
 🪆	matrioshka	none
 ♠	figurë maç	none
 ♥	figurë kupë	none
@@ -1203,6 +1381,7 @@ symbols:
 🩳	pantallona të shkurtra	none
 👙	bikini	none
 👚	rroba femrash	none
+🪭	freskore	none
 👛	kuletë	none
 👜	çantë dore	none
 👝	çantë	none
@@ -1217,6 +1396,7 @@ symbols:
 👡	sandale femrash	none
 🩰	këpucë baleti	none
 👢	çizme femrash	none
+🪮	krehër për të mbledhur flokët	none
 👑	kurorë	none
 👒	kapelë femrash	none
 🎩	kapelë cilindrike	none
@@ -1247,14 +1427,18 @@ symbols:
 🎧	kufje	none
 📻	radio	none
 🎷	saksofon	none
+🎺	trombë	none
+🪊	trombon	none
 🪗	fizarmonikë	none
 🎸	kitarë	none
 🎹	tastierë muzikore	none
-🎺	trombë	none
 🎻	violinë	none
 🪕	banxho	none
 🥁	daulle	none
 🪘	daulle e gjatë	none
+🪇	maraka	none
+🪈	flaut	none
+🪉	harpë	none
 📱	celular	none
 📲	celular me shigjetë	none
 ☎	telefon	none
@@ -1262,6 +1446,7 @@ symbols:
 📟	biper	none
 📠	faks	none
 🔋	bateri	none
+🪫	bateri e ulët	none
 🔌	spinë elektrike	none
 💻	laptop	none
 🖥	kompjuter desktop	none
@@ -1307,8 +1492,9 @@ symbols:
 📑	skedat e faqeshënuesve	none
 🔖	faqeshënues	none
 🏷	etiketë	none
-💰	qese parash	none
 🪙	monedhë	none
+💰	qese parash	none
+🪎	arkë thesari	none
 💴	kartëmonedhë jeni	none
 💵	kartëmonedhë dollari	none
 💶	kartëmonedhë euroje	none
@@ -1373,7 +1559,7 @@ symbols:
 🛠	çekiç dhe çelës	none
 🗡	kamë	none
 ⚔	shpata të kryqëzuara	none
-🔫	pistoletë	none
+💣	bombë	none
 🪃	bumerang	none
 🏹	hark dhe shigjetë	none
 🛡	mburojë	none
@@ -1386,11 +1572,13 @@ symbols:
 ⚖	peshore	none
 🦯	shkop gjurmimi	none
 🔗	lidh	none
+⛓‍💥	zinxhir i këputur	none
 ⛓	zinxhirë	none
 🪝	kanxhë	none
 🧰	kuti veglash	none
 🧲	magnet	none
 🪜	shkallë	none
+🪏	lopatë	none
 ⚗	lambik	none
 🧪	epruvetë	none
 🧫	lamelë	none
@@ -1402,7 +1590,9 @@ symbols:
 🩸	pikë gjaku	none
 💊	pilulë	none
 🩹	fashë ngjitëse	none
+🩼	patericë	none
 🩺	stetoskop	none
+🩻	grafi	none
 🚪	derë	none
 🛗	ashensor	none
 🪞	pasqyrë	none
@@ -1423,6 +1613,7 @@ symbols:
 🧻	rrotë letre	none
 🪣	kovë	none
 🧼	sapun	none
+🫧	flluska	none
 🪥	furçë dhëmbësh	none
 🧽	sfungjer	none
 🧯	fikës zjarri	none
@@ -1431,8 +1622,11 @@ symbols:
 ⚰	arkivol	none
 🪦	gur varri	none
 ⚱	urnë funerali	none
+🧿	hajmali kundër syrit të keq	none
+🪬	hajmali	none
 🗿	moai	none
 🪧	pankartë	none
+🪪	letërnjoftim	none
 🏧	shenja e bankomatit	none
 🚮	shenja e koshit të mbeturinave	none
 🚰	ujë i pijshëm	none
@@ -1493,6 +1687,7 @@ symbols:
 ☮	simboli i paqes	none
 🕎	hanukia	none
 🔯	yll me gjashtë cepa me pikë	none
+🪯	kandë	none
 ♈	dashi	none
 ♉	demi	none
 ♊	binjakët	none
@@ -1528,6 +1723,7 @@ symbols:
 🔅	butoni i zbehjes	none
 🔆	butoni i ndriçimit	none
 📶	shiritat e antenës	none
+🛜	lidhje me valë	none
 📳	modaliteti i dridhjeve	none
 📴	fik celularin	none
 ♀	shenja femër	none
@@ -1537,6 +1733,7 @@ symbols:
 ➕	shenja plus e trashë	none
 ➖	shenja minus e trashë	none
 ➗	shenja e pjesëtimit e trashë	none
+🟰	shenjë e fortë barazie	none
 ♾	pafundësi	none
 ❓	shenja e pikëpyetjes e kuqe	none
 ❔	pikëpyetje e bardhë	none
@@ -1562,6 +1759,7 @@ symbols:
 ✴	yll me tetë cepa	none
 ❇	xixëllim	none
 ™	markë tregtare	none
+🫟	spërkë	none
 🔠	fut shkronja latine kapitale	none
 🔡	fut shkronja latine jokapitale	none
 🔢	fut numra	none
@@ -1626,13 +1824,21 @@ symbols:
 🏳‍🌈	flamur i ylbertë	none
 🏳‍⚧	flamur blu, rozë dhe i bardhë	none
 🏴‍☠	flamur piratësh	none
+₢	kruseiro	none
+₣	frangë franceze	none
+₤	lirë	none
 ₥	mill	none
 ₩	uon	none
 €	euro	none
+₰	qindarkë gjermane	none
 ₱	pezo	none
+₳	austral	none
+₶	lirë tureze	none
+₷	spesmilo	none
 ₹	rupi indiane	none
 ₽	rubël	none
 ₿	bitcoin	none
+₨	rupi	none
 👋🏻	dorë që tundet nuancë lëkure e çelët	none
 👋🏼	dorë që tundet nuancë lëkure gjysmë e çelët	none
 👋🏽	dorë që tundet nuancë lëkure zeshkane	none
@@ -1658,6 +1864,56 @@ symbols:
 🖖🏽	përshëndetja e vulkanit nuancë lëkure zeshkane	none
 🖖🏾	përshëndetja e vulkanit nuancë lëkure gjysmë e errët	none
 🖖🏿	përshëndetja e vulkanit nuancë lëkure e errët	none
+🫱🏻	dorë djathtas nuancë lëkure e çelët	none
+🫱🏼	dorë djathtas nuancë lëkure gjysmë e çelët	none
+🫱🏽	dorë djathtas nuancë lëkure zeshkane	none
+🫱🏾	dorë djathtas nuancë lëkure gjysmë e errët	none
+🫱🏿	dorë djathtas nuancë lëkure e errët	none
+🫱🏻‍🫲🏼	shtrëngim duarsh nuancë lëkure e çelët e nuancë lëkure gjysmë e çelët	none
+🫱🏻‍🫲🏽	shtrëngim duarsh nuancë lëkure e çelët e nuancë lëkure zeshkane	none
+🫱🏻‍🫲🏾	shtrëngim duarsh nuancë lëkure e çelët e nuancë lëkure gjysmë e errët	none
+🫱🏻‍🫲🏿	shtrëngim duarsh nuancë lëkure e çelët e nuancë lëkure e errët	none
+🫱🏼‍🫲🏻	shtrëngim duarsh nuancë lëkure gjysmë e çelët e nuancë lëkure e çelët	none
+🫱🏼‍🫲🏽	shtrëngim duarsh nuancë lëkure gjysmë e çelët e nuancë lëkure zeshkane	none
+🫱🏼‍🫲🏾	shtrëngim duarsh nuancë lëkure gjysmë e çelët e nuancë lëkure gjysmë e errët	none
+🫱🏼‍🫲🏿	shtrëngim duarsh nuancë lëkure gjysmë e çelët e nuancë lëkure e errët	none
+🫱🏽‍🫲🏻	shtrëngim duarsh nuancë lëkure zeshkane e nuancë lëkure e çelët	none
+🫱🏽‍🫲🏼	shtrëngim duarsh nuancë lëkure zeshkane e nuancë lëkure gjysmë e çelët	none
+🫱🏽‍🫲🏾	shtrëngim duarsh nuancë lëkure zeshkane e nuancë lëkure gjysmë e errët	none
+🫱🏽‍🫲🏿	shtrëngim duarsh nuancë lëkure zeshkane e nuancë lëkure e errët	none
+🫱🏾‍🫲🏻	shtrëngim duarsh nuancë lëkure gjysmë e errët e nuancë lëkure e çelët	none
+🫱🏾‍🫲🏼	shtrëngim duarsh nuancë lëkure gjysmë e errët e nuancë lëkure gjysmë e çelët	none
+🫱🏾‍🫲🏽	shtrëngim duarsh nuancë lëkure gjysmë e errët e nuancë lëkure zeshkane	none
+🫱🏾‍🫲🏿	shtrëngim duarsh nuancë lëkure gjysmë e errët e nuancë lëkure e errët	none
+🫱🏿‍🫲🏻	shtrëngim duarsh nuancë lëkure e errët e nuancë lëkure e çelët	none
+🫱🏿‍🫲🏼	shtrëngim duarsh nuancë lëkure e errët e nuancë lëkure gjysmë e çelët	none
+🫱🏿‍🫲🏽	shtrëngim duarsh nuancë lëkure e errët e nuancë lëkure zeshkane	none
+🫱🏿‍🫲🏾	shtrëngim duarsh nuancë lëkure e errët e nuancë lëkure gjysmë e errët	none
+🫲🏻	dorë majtas nuancë lëkure e çelët	none
+🫲🏼	dorë majtas nuancë lëkure gjysmë e çelët	none
+🫲🏽	dorë majtas nuancë lëkure zeshkane	none
+🫲🏾	dorë majtas nuancë lëkure gjysmë e errët	none
+🫲🏿	dorë majtas nuancë lëkure e errët	none
+🫳🏻	dorë me pëllëmbë poshtë nuancë lëkure e çelët	none
+🫳🏼	dorë me pëllëmbë poshtë nuancë lëkure gjysmë e çelët	none
+🫳🏽	dorë me pëllëmbë poshtë nuancë lëkure zeshkane	none
+🫳🏾	dorë me pëllëmbë poshtë nuancë lëkure gjysmë e errët	none
+🫳🏿	dorë me pëllëmbë poshtë nuancë lëkure e errët	none
+🫴🏻	dorë me pëllëmbë lart nuancë lëkure e çelët	none
+🫴🏼	dorë me pëllëmbë lart nuancë lëkure gjysmë e çelët	none
+🫴🏽	dorë me pëllëmbë lart nuancë lëkure zeshkane	none
+🫴🏾	dorë me pëllëmbë lart nuancë lëkure gjysmë e errët	none
+🫴🏿	dorë me pëllëmbë lart nuancë lëkure e errët	none
+🫷🏻	dorë që shtyn majtas nuancë lëkure e çelët	none
+🫷🏼	dorë që shtyn majtas nuancë lëkure gjysmë e çelët	none
+🫷🏽	dorë që shtyn majtas nuancë lëkure zeshkane	none
+🫷🏾	dorë që shtyn majtas nuancë lëkure gjysmë e errët	none
+🫷🏿	dorë që shtyn majtas nuancë lëkure e errët	none
+🫸🏻	dorë që shtyn djathtas nuancë lëkure e çelët	none
+🫸🏼	dorë që shtyn djathtas nuancë lëkure gjysmë e çelët	none
+🫸🏽	dorë që shtyn djathtas nuancë lëkure zeshkane	none
+🫸🏾	dorë që shtyn djathtas nuancë lëkure gjysmë e errët	none
+🫸🏿	dorë që shtyn djathtas nuancë lëkure e errët	none
 👌🏻	«ok» me dorë nuancë lëkure e çelët	none
 👌🏼	«ok» me dorë nuancë lëkure gjysmë e çelët	none
 👌🏽	«ok» me dorë nuancë lëkure zeshkane	none
@@ -1683,6 +1939,11 @@ symbols:
 🤞🏽	gishta të kryqëzuar nuancë lëkure zeshkane	none
 🤞🏾	gishta të kryqëzuar nuancë lëkure gjysmë e errët	none
 🤞🏿	gishta të kryqëzuar nuancë lëkure e errët	none
+🫰🏻	dorë me gishtin tregues dhe të madhin të kapur nuancë lëkure e çelët	none
+🫰🏼	dorë me gishtin tregues dhe të madhin të kapur nuancë lëkure gjysmë e çelët	none
+🫰🏽	dorë me gishtin tregues dhe të madhin të kapur nuancë lëkure zeshkane	none
+🫰🏾	dorë me gishtin tregues dhe të madhin të kapur nuancë lëkure gjysmë e errët	none
+🫰🏿	dorë me gishtin tregues dhe të madhin të kapur nuancë lëkure e errët	none
 🤟🏻	gjesti "të dua" nuancë lëkure e çelët	none
 🤟🏼	gjesti "të dua" nuancë lëkure gjysmë e çelët	none
 🤟🏽	gjesti "të dua" nuancë lëkure zeshkane	none
@@ -1728,6 +1989,11 @@ symbols:
 ☝🏽	gisht tregues që tregon lart nuancë lëkure zeshkane	none
 ☝🏾	gisht tregues që tregon lart nuancë lëkure gjysmë e errët	none
 ☝🏿	gisht tregues që tregon lart nuancë lëkure e errët	none
+🫵🏻	gishti tregues nga shikuesi nuancë lëkure e çelët	none
+🫵🏼	gishti tregues nga shikuesi nuancë lëkure gjysmë e çelët	none
+🫵🏽	gishti tregues nga shikuesi nuancë lëkure zeshkane	none
+🫵🏾	gishti tregues nga shikuesi nuancë lëkure gjysmë e errët	none
+🫵🏿	gishti tregues nga shikuesi nuancë lëkure e errët	none
 👍🏻	gishti i madh lart nuancë lëkure e çelët	none
 👍🏼	gishti i madh lart nuancë lëkure gjysmë e çelët	none
 👍🏽	gishti i madh lart nuancë lëkure zeshkane	none
@@ -1768,6 +2034,11 @@ symbols:
 🙌🏽	njeri që ngre duart nuancë lëkure zeshkane	none
 🙌🏾	njeri që ngre duart nuancë lëkure gjysmë e errët	none
 🙌🏿	njeri që ngre duart nuancë lëkure e errët	none
+🫶🏻	duar si zemër nuancë lëkure e çelët	none
+🫶🏼	duar si zemër nuancë lëkure gjysmë e çelët	none
+🫶🏽	duar si zemër nuancë lëkure zeshkane	none
+🫶🏾	duar si zemër nuancë lëkure gjysmë e errët	none
+🫶🏿	duar si zemër nuancë lëkure e errët	none
 👐🏻	duar të hapura nuancë lëkure e çelët	none
 👐🏼	duar të hapura nuancë lëkure gjysmë e çelët	none
 👐🏽	duar të hapura nuancë lëkure zeshkane	none
@@ -1778,6 +2049,11 @@ symbols:
 🤲🏽	pëllëmbë të bashkuara nuancë lëkure zeshkane	none
 🤲🏾	pëllëmbë të bashkuara nuancë lëkure gjysmë e errët	none
 🤲🏿	pëllëmbë të bashkuara nuancë lëkure e errët	none
+🤝🏻	shtrëngim duarsh nuancë lëkure e çelët	none
+🤝🏼	shtrëngim duarsh nuancë lëkure gjysmë e çelët	none
+🤝🏽	shtrëngim duarsh nuancë lëkure zeshkane	none
+🤝🏾	shtrëngim duarsh nuancë lëkure gjysmë e errët	none
+🤝🏿	shtrëngim duarsh nuancë lëkure e errët	none
 🙏🏻	duar të mbledhura nuancë lëkure e çelët	none
 🙏🏼	duar të mbledhura nuancë lëkure gjysmë e çelët	none
 🙏🏽	duar të mbledhura nuancë lëkure zeshkane	none
@@ -1898,6 +2174,26 @@ symbols:
 🧑🏿‍❤‍🧑🏼	çift me zemër fëmijë i rritur, fëmijë i rritur, nuancë lëkure e errët e nuancë lëkure gjysmë e çelët	none
 🧑🏿‍❤‍🧑🏽	çift me zemër fëmijë i rritur, fëmijë i rritur, nuancë lëkure e errët e nuancë lëkure zeshkane	none
 🧑🏿‍❤‍🧑🏾	çift me zemër fëmijë i rritur, fëmijë i rritur, nuancë lëkure e errët e nuancë lëkure gjysmë e errët	none
+🧑🏻‍🫯‍🧑🏼	mundës nuancë lëkure e çelët e nuancë lëkure gjysmë e çelët	none
+🧑🏻‍🫯‍🧑🏽	mundës nuancë lëkure e çelët e nuancë lëkure zeshkane	none
+🧑🏻‍🫯‍🧑🏾	mundës nuancë lëkure e çelët e nuancë lëkure gjysmë e errët	none
+🧑🏻‍🫯‍🧑🏿	mundës nuancë lëkure e çelët e nuancë lëkure e errët	none
+🧑🏼‍🫯‍🧑🏻	mundës nuancë lëkure gjysmë e çelët e nuancë lëkure e çelët	none
+🧑🏼‍🫯‍🧑🏽	mundës nuancë lëkure gjysmë e çelët e nuancë lëkure zeshkane	none
+🧑🏼‍🫯‍🧑🏾	mundës nuancë lëkure gjysmë e çelët e nuancë lëkure gjysmë e errët	none
+🧑🏼‍🫯‍🧑🏿	mundës nuancë lëkure gjysmë e çelët e nuancë lëkure e errët	none
+🧑🏽‍🫯‍🧑🏻	mundës nuancë lëkure zeshkane e nuancë lëkure e çelët	none
+🧑🏽‍🫯‍🧑🏼	mundës nuancë lëkure zeshkane e nuancë lëkure gjysmë e çelët	none
+🧑🏽‍🫯‍🧑🏾	mundës nuancë lëkure zeshkane e nuancë lëkure gjysmë e errët	none
+🧑🏽‍🫯‍🧑🏿	mundës nuancë lëkure zeshkane e nuancë lëkure e errët	none
+🧑🏾‍🫯‍🧑🏻	mundës nuancë lëkure gjysmë e errët e nuancë lëkure e çelët	none
+🧑🏾‍🫯‍🧑🏼	mundës nuancë lëkure gjysmë e errët e nuancë lëkure gjysmë e çelët	none
+🧑🏾‍🫯‍🧑🏽	mundës nuancë lëkure gjysmë e errët e nuancë lëkure zeshkane	none
+🧑🏾‍🫯‍🧑🏿	mundës nuancë lëkure gjysmë e errët e nuancë lëkure e errët	none
+🧑🏿‍🫯‍🧑🏻	mundës nuancë lëkure e errët e nuancë lëkure e çelët	none
+🧑🏿‍🫯‍🧑🏼	mundës nuancë lëkure e errët e nuancë lëkure gjysmë e çelët	none
+🧑🏿‍🫯‍🧑🏽	mundës nuancë lëkure e errët e nuancë lëkure zeshkane	none
+🧑🏿‍🫯‍🧑🏾	mundës nuancë lëkure e errët e nuancë lëkure gjysmë e errët	none
 🧑‍🦰	fëmijë i rritur flokë të kuqe	none
 🧑🏻‍🦰	fëmijë i rritur nuancë lëkure e çelët e flokë të kuqe	none
 🧑🏼‍🦰	fëmijë i rritur nuancë lëkure gjysmë e çelët e flokë të kuqe	none
@@ -1922,6 +2218,26 @@ symbols:
 🧑🏽‍🦲	fëmijë i rritur nuancë lëkure zeshkane e qeros	none
 🧑🏾‍🦲	fëmijë i rritur nuancë lëkure gjysmë e errët e qeros	none
 🧑🏿‍🦲	fëmijë i rritur nuancë lëkure e errët e qeros	none
+🧑🏻‍🐰‍🧑🏼	gra duke festuar nuancë lëkure e çelët e nuancë lëkure gjysmë e çelët	none
+🧑🏻‍🐰‍🧑🏽	gra duke festuar nuancë lëkure e çelët e nuancë lëkure zeshkane	none
+🧑🏻‍🐰‍🧑🏾	gra duke festuar nuancë lëkure e çelët e nuancë lëkure gjysmë e errët	none
+🧑🏻‍🐰‍🧑🏿	gra duke festuar nuancë lëkure e çelët e nuancë lëkure e errët	none
+🧑🏼‍🐰‍🧑🏻	gra duke festuar nuancë lëkure gjysmë e çelët e nuancë lëkure e çelët	none
+🧑🏼‍🐰‍🧑🏽	gra duke festuar nuancë lëkure gjysmë e çelët e nuancë lëkure zeshkane	none
+🧑🏼‍🐰‍🧑🏾	gra duke festuar nuancë lëkure gjysmë e çelët e nuancë lëkure gjysmë e errët	none
+🧑🏼‍🐰‍🧑🏿	gra duke festuar nuancë lëkure gjysmë e çelët e nuancë lëkure e errët	none
+🧑🏽‍🐰‍🧑🏻	gra duke festuar nuancë lëkure zeshkane e nuancë lëkure e çelët	none
+🧑🏽‍🐰‍🧑🏼	gra duke festuar nuancë lëkure zeshkane e nuancë lëkure gjysmë e çelët	none
+🧑🏽‍🐰‍🧑🏾	gra duke festuar nuancë lëkure zeshkane e nuancë lëkure gjysmë e errët	none
+🧑🏽‍🐰‍🧑🏿	gra duke festuar nuancë lëkure zeshkane e nuancë lëkure e errët	none
+🧑🏾‍🐰‍🧑🏻	gra duke festuar nuancë lëkure gjysmë e errët e nuancë lëkure e çelët	none
+🧑🏾‍🐰‍🧑🏼	gra duke festuar nuancë lëkure gjysmë e errët e nuancë lëkure gjysmë e çelët	none
+🧑🏾‍🐰‍🧑🏽	gra duke festuar nuancë lëkure gjysmë e errët e nuancë lëkure zeshkane	none
+🧑🏾‍🐰‍🧑🏿	gra duke festuar nuancë lëkure gjysmë e errët e nuancë lëkure e errët	none
+🧑🏿‍🐰‍🧑🏻	gra duke festuar nuancë lëkure e errët e nuancë lëkure e çelët	none
+🧑🏿‍🐰‍🧑🏼	gra duke festuar nuancë lëkure e errët e nuancë lëkure gjysmë e çelët	none
+🧑🏿‍🐰‍🧑🏽	gra duke festuar nuancë lëkure e errët e nuancë lëkure zeshkane	none
+🧑🏿‍🐰‍🧑🏾	gra duke festuar nuancë lëkure e errët e nuancë lëkure gjysmë e errët	none
 👨🏻	burrë nuancë lëkure e çelët	none
 👨🏼	burrë nuancë lëkure gjysmë e çelët	none
 👨🏽	burrë nuancë lëkure zeshkane	none
@@ -1992,6 +2308,26 @@ symbols:
 👨🏿‍❤‍👨🏽	çift me zemër burrë, burrë, nuancë lëkure e errët e nuancë lëkure zeshkane	none
 👨🏿‍❤‍👨🏾	çift me zemër burrë, burrë, nuancë lëkure e errët e nuancë lëkure gjysmë e errët	none
 👨🏿‍❤‍👨🏿	çift me zemër burrë, burrë e nuancë lëkure e errët	none
+👨🏻‍🫯‍👨🏼	burra që bëjnë mundje nuancë lëkure e çelët e nuancë lëkure gjysmë e çelët	none
+👨🏻‍🫯‍👨🏽	burra që bëjnë mundje nuancë lëkure e çelët e nuancë lëkure zeshkane	none
+👨🏻‍🫯‍👨🏾	burra që bëjnë mundje nuancë lëkure e çelët e nuancë lëkure gjysmë e errët	none
+👨🏻‍🫯‍👨🏿	burra që bëjnë mundje nuancë lëkure e çelët e nuancë lëkure e errët	none
+👨🏼‍🫯‍👨🏻	burra që bëjnë mundje nuancë lëkure gjysmë e çelët e nuancë lëkure e çelët	none
+👨🏼‍🫯‍👨🏽	burra që bëjnë mundje nuancë lëkure gjysmë e çelët e nuancë lëkure zeshkane	none
+👨🏼‍🫯‍👨🏾	burra që bëjnë mundje nuancë lëkure gjysmë e çelët e nuancë lëkure gjysmë e errët	none
+👨🏼‍🫯‍👨🏿	burra që bëjnë mundje nuancë lëkure gjysmë e çelët e nuancë lëkure e errët	none
+👨🏽‍🫯‍👨🏻	burra që bëjnë mundje nuancë lëkure zeshkane e nuancë lëkure e çelët	none
+👨🏽‍🫯‍👨🏼	burra që bëjnë mundje nuancë lëkure zeshkane e nuancë lëkure gjysmë e çelët	none
+👨🏽‍🫯‍👨🏾	burra që bëjnë mundje nuancë lëkure zeshkane e nuancë lëkure gjysmë e errët	none
+👨🏽‍🫯‍👨🏿	burra që bëjnë mundje nuancë lëkure zeshkane e nuancë lëkure e errët	none
+👨🏾‍🫯‍👨🏻	burra që bëjnë mundje nuancë lëkure gjysmë e errët e nuancë lëkure e çelët	none
+👨🏾‍🫯‍👨🏼	burra që bëjnë mundje nuancë lëkure gjysmë e errët e nuancë lëkure gjysmë e çelët	none
+👨🏾‍🫯‍👨🏽	burra që bëjnë mundje nuancë lëkure gjysmë e errët e nuancë lëkure zeshkane	none
+👨🏾‍🫯‍👨🏿	burra që bëjnë mundje nuancë lëkure gjysmë e errët e nuancë lëkure e errët	none
+👨🏿‍🫯‍👨🏻	burra që bëjnë mundje nuancë lëkure e errët e nuancë lëkure e çelët	none
+👨🏿‍🫯‍👨🏼	burra që bëjnë mundje nuancë lëkure e errët e nuancë lëkure gjysmë e çelët	none
+👨🏿‍🫯‍👨🏽	burra që bëjnë mundje nuancë lëkure e errët e nuancë lëkure zeshkane	none
+👨🏿‍🫯‍👨🏾	burra që bëjnë mundje nuancë lëkure e errët e nuancë lëkure gjysmë e errët	none
 👨‍🦰	burrë flokë të kuqe	none
 👨🏻‍🦰	burrë nuancë lëkure e çelët e flokë të kuqe	none
 👨🏼‍🦰	burrë nuancë lëkure gjysmë e çelët e flokë të kuqe	none
@@ -2016,6 +2352,26 @@ symbols:
 👨🏽‍🦲	burrë nuancë lëkure zeshkane e qeros	none
 👨🏾‍🦲	burrë nuancë lëkure gjysmë e errët e qeros	none
 👨🏿‍🦲	burrë nuancë lëkure e errët e qeros	none
+👨🏻‍🐰‍👨🏼	burra që festojnë nuancë lëkure e çelët e nuancë lëkure gjysmë e çelët	none
+👨🏻‍🐰‍👨🏽	burra që festojnë nuancë lëkure e çelët e nuancë lëkure zeshkane	none
+👨🏻‍🐰‍👨🏾	burra që festojnë nuancë lëkure e çelët e nuancë lëkure gjysmë e errët	none
+👨🏻‍🐰‍👨🏿	burra që festojnë nuancë lëkure e çelët e nuancë lëkure e errët	none
+👨🏼‍🐰‍👨🏻	burra që festojnë nuancë lëkure gjysmë e çelët e nuancë lëkure e çelët	none
+👨🏼‍🐰‍👨🏽	burra që festojnë nuancë lëkure gjysmë e çelët e nuancë lëkure zeshkane	none
+👨🏼‍🐰‍👨🏾	burra që festojnë nuancë lëkure gjysmë e çelët e nuancë lëkure gjysmë e errët	none
+👨🏼‍🐰‍👨🏿	burra që festojnë nuancë lëkure gjysmë e çelët e nuancë lëkure e errët	none
+👨🏽‍🐰‍👨🏻	burra që festojnë nuancë lëkure zeshkane e nuancë lëkure e çelët	none
+👨🏽‍🐰‍👨🏼	burra që festojnë nuancë lëkure zeshkane e nuancë lëkure gjysmë e çelët	none
+👨🏽‍🐰‍👨🏾	burra që festojnë nuancë lëkure zeshkane e nuancë lëkure gjysmë e errët	none
+👨🏽‍🐰‍👨🏿	burra që festojnë nuancë lëkure zeshkane e nuancë lëkure e errët	none
+👨🏾‍🐰‍👨🏻	burra që festojnë nuancë lëkure gjysmë e errët e nuancë lëkure e çelët	none
+👨🏾‍🐰‍👨🏼	burra që festojnë nuancë lëkure gjysmë e errët e nuancë lëkure gjysmë e çelët	none
+👨🏾‍🐰‍👨🏽	burra që festojnë nuancë lëkure gjysmë e errët e nuancë lëkure zeshkane	none
+👨🏾‍🐰‍👨🏿	burra që festojnë nuancë lëkure gjysmë e errët e nuancë lëkure e errët	none
+👨🏿‍🐰‍👨🏻	burra që festojnë nuancë lëkure e errët e nuancë lëkure e çelët	none
+👨🏿‍🐰‍👨🏼	burra që festojnë nuancë lëkure e errët e nuancë lëkure gjysmë e çelët	none
+👨🏿‍🐰‍👨🏽	burra që festojnë nuancë lëkure e errët e nuancë lëkure zeshkane	none
+👨🏿‍🐰‍👨🏾	burra që festojnë nuancë lëkure e errët e nuancë lëkure gjysmë e errët	none
 👩🏻	grua nuancë lëkure e çelët	none
 👩🏼	grua nuancë lëkure gjysmë e çelët	none
 👩🏽	grua nuancë lëkure zeshkane	none
@@ -2131,6 +2487,26 @@ symbols:
 👩🏿‍❤‍👩🏽	çift me zemër grua, grua, nuancë lëkure e errët e nuancë lëkure zeshkane	none
 👩🏿‍❤‍👩🏾	çift me zemër grua, grua, nuancë lëkure e errët e nuancë lëkure gjysmë e errët	none
 👩🏿‍❤‍👩🏿	çift me zemër grua, grua e nuancë lëkure e errët	none
+👩🏻‍🫯‍👩🏼	gra që bëjnë mundje nuancë lëkure e çelët e nuancë lëkure gjysmë e çelët	none
+👩🏻‍🫯‍👩🏽	gra që bëjnë mundje nuancë lëkure e çelët e nuancë lëkure zeshkane	none
+👩🏻‍🫯‍👩🏾	gra që bëjnë mundje nuancë lëkure e çelët e nuancë lëkure gjysmë e errët	none
+👩🏻‍🫯‍👩🏿	gra që bëjnë mundje nuancë lëkure e çelët e nuancë lëkure e errët	none
+👩🏼‍🫯‍👩🏻	gra që bëjnë mundje nuancë lëkure gjysmë e çelët e nuancë lëkure e çelët	none
+👩🏼‍🫯‍👩🏽	gra që bëjnë mundje nuancë lëkure gjysmë e çelët e nuancë lëkure zeshkane	none
+👩🏼‍🫯‍👩🏾	gra që bëjnë mundje nuancë lëkure gjysmë e çelët e nuancë lëkure gjysmë e errët	none
+👩🏼‍🫯‍👩🏿	gra që bëjnë mundje nuancë lëkure gjysmë e çelët e nuancë lëkure e errët	none
+👩🏽‍🫯‍👩🏻	gra që bëjnë mundje nuancë lëkure zeshkane e nuancë lëkure e çelët	none
+👩🏽‍🫯‍👩🏼	gra që bëjnë mundje nuancë lëkure zeshkane e nuancë lëkure gjysmë e çelët	none
+👩🏽‍🫯‍👩🏾	gra që bëjnë mundje nuancë lëkure zeshkane e nuancë lëkure gjysmë e errët	none
+👩🏽‍🫯‍👩🏿	gra që bëjnë mundje nuancë lëkure zeshkane e nuancë lëkure e errët	none
+👩🏾‍🫯‍👩🏻	gra që bëjnë mundje nuancë lëkure gjysmë e errët e nuancë lëkure e çelët	none
+👩🏾‍🫯‍👩🏼	gra që bëjnë mundje nuancë lëkure gjysmë e errët e nuancë lëkure gjysmë e çelët	none
+👩🏾‍🫯‍👩🏽	gra që bëjnë mundje nuancë lëkure gjysmë e errët e nuancë lëkure zeshkane	none
+👩🏾‍🫯‍👩🏿	gra që bëjnë mundje nuancë lëkure gjysmë e errët e nuancë lëkure e errët	none
+👩🏿‍🫯‍👩🏻	gra që bëjnë mundje nuancë lëkure e errët e nuancë lëkure e çelët	none
+👩🏿‍🫯‍👩🏼	gra që bëjnë mundje nuancë lëkure e errët e nuancë lëkure gjysmë e çelët	none
+👩🏿‍🫯‍👩🏽	gra që bëjnë mundje nuancë lëkure e errët e nuancë lëkure zeshkane	none
+👩🏿‍🫯‍👩🏾	gra që bëjnë mundje nuancë lëkure e errët e nuancë lëkure gjysmë e errët	none
 👩‍🦰	grua flokë të kuqe	none
 👩🏻‍🦰	grua nuancë lëkure e çelët e flokë të kuqe	none
 👩🏼‍🦰	grua nuancë lëkure gjysmë e çelët e flokë të kuqe	none
@@ -2155,6 +2531,26 @@ symbols:
 👩🏽‍🦲	grua nuancë lëkure zeshkane e qeros	none
 👩🏾‍🦲	grua nuancë lëkure gjysmë e errët e qeros	none
 👩🏿‍🦲	grua nuancë lëkure e errët e qeros	none
+👩🏻‍🐰‍👩🏼	gra që festojnë nuancë lëkure e çelët e nuancë lëkure gjysmë e çelët	none
+👩🏻‍🐰‍👩🏽	gra që festojnë nuancë lëkure e çelët e nuancë lëkure zeshkane	none
+👩🏻‍🐰‍👩🏾	gra që festojnë nuancë lëkure e çelët e nuancë lëkure gjysmë e errët	none
+👩🏻‍🐰‍👩🏿	gra që festojnë nuancë lëkure e çelët e nuancë lëkure e errët	none
+👩🏼‍🐰‍👩🏻	gra që festojnë nuancë lëkure gjysmë e çelët e nuancë lëkure e çelët	none
+👩🏼‍🐰‍👩🏽	gra që festojnë nuancë lëkure gjysmë e çelët e nuancë lëkure zeshkane	none
+👩🏼‍🐰‍👩🏾	gra që festojnë nuancë lëkure gjysmë e çelët e nuancë lëkure gjysmë e errët	none
+👩🏼‍🐰‍👩🏿	gra që festojnë nuancë lëkure gjysmë e çelët e nuancë lëkure e errët	none
+👩🏽‍🐰‍👩🏻	gra që festojnë nuancë lëkure zeshkane e nuancë lëkure e çelët	none
+👩🏽‍🐰‍👩🏼	gra që festojnë nuancë lëkure zeshkane e nuancë lëkure gjysmë e çelët	none
+👩🏽‍🐰‍👩🏾	gra që festojnë nuancë lëkure zeshkane e nuancë lëkure gjysmë e errët	none
+👩🏽‍🐰‍👩🏿	gra që festojnë nuancë lëkure zeshkane e nuancë lëkure e errët	none
+👩🏾‍🐰‍👩🏻	gra që festojnë nuancë lëkure gjysmë e errët e nuancë lëkure e çelët	none
+👩🏾‍🐰‍👩🏼	gra që festojnë nuancë lëkure gjysmë e errët e nuancë lëkure gjysmë e çelët	none
+👩🏾‍🐰‍👩🏽	gra që festojnë nuancë lëkure gjysmë e errët e nuancë lëkure zeshkane	none
+👩🏾‍🐰‍👩🏿	gra që festojnë nuancë lëkure gjysmë e errët e nuancë lëkure e errët	none
+👩🏿‍🐰‍👩🏻	gra që festojnë nuancë lëkure e errët e nuancë lëkure e çelët	none
+👩🏿‍🐰‍👩🏼	gra që festojnë nuancë lëkure e errët e nuancë lëkure gjysmë e çelët	none
+👩🏿‍🐰‍👩🏽	gra që festojnë nuancë lëkure e errët e nuancë lëkure zeshkane	none
+👩🏿‍🐰‍👩🏾	gra që festojnë nuancë lëkure e errët e nuancë lëkure gjysmë e errët	none
 🧓🏻	i ri nuancë lëkure e çelët	none
 🧓🏼	i ri nuancë lëkure gjysmë e çelët	none
 🧓🏽	i ri nuancë lëkure zeshkane	none
@@ -2625,6 +3021,11 @@ symbols:
 👷🏽‍♀	muratore nuancë lëkure zeshkane	none
 👷🏾‍♀	muratore nuancë lëkure gjysmë e errët	none
 👷🏿‍♀	muratore nuancë lëkure e errët	none
+🫅🏻	person me kurorë nuancë lëkure e çelët	none
+🫅🏼	person me kurorë nuancë lëkure gjysmë e çelët	none
+🫅🏽	person me kurorë nuancë lëkure zeshkane	none
+🫅🏾	person me kurorë nuancë lëkure gjysmë e errët	none
+🫅🏿	person me kurorë nuancë lëkure e errët	none
 🤴🏻	princ nuancë lëkure e çelët	none
 🤴🏼	princ nuancë lëkure gjysmë e çelët	none
 🤴🏽	princ nuancë lëkure zeshkane	none
@@ -2695,6 +3096,16 @@ symbols:
 🤰🏽	grua shtatzënë nuancë lëkure zeshkane	none
 🤰🏾	grua shtatzënë nuancë lëkure gjysmë e errët	none
 🤰🏿	grua shtatzënë nuancë lëkure e errët	none
+🫃🏻	burrë shtatzënë nuancë lëkure e çelët	none
+🫃🏼	burrë shtatzënë nuancë lëkure gjysmë e çelët	none
+🫃🏽	burrë shtatzënë nuancë lëkure zeshkane	none
+🫃🏾	burrë shtatzënë nuancë lëkure gjysmë e errët	none
+🫃🏿	burrë shtatzënë nuancë lëkure e errët	none
+🫄🏻	person shtatzënë nuancë lëkure e çelët	none
+🫄🏼	person shtatzënë nuancë lëkure gjysmë e çelët	none
+🫄🏽	person shtatzënë nuancë lëkure zeshkane	none
+🫄🏾	person shtatzënë nuancë lëkure gjysmë e errët	none
+🫄🏿	person shtatzënë nuancë lëkure e errët	none
 🤱🏻	gji nuancë lëkure e çelët	none
 🤱🏼	gji nuancë lëkure gjysmë e çelët	none
 🤱🏽	gji nuancë lëkure zeshkane	none
@@ -2885,6 +3296,24 @@ symbols:
 🚶🏽‍♀	grua që ecën nuancë lëkure zeshkane	none
 🚶🏾‍♀	grua që ecën nuancë lëkure gjysmë e errët	none
 🚶🏿‍♀	grua që ecën nuancë lëkure e errët	none
+🚶‍➡	këmbësor me drejtim djathtas	none
+🚶🏻‍➡	këmbësor nuancë lëkure e çelët e me drejtim djathtas	none
+🚶🏼‍➡	këmbësor nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+🚶🏽‍➡	këmbësor nuancë lëkure zeshkane e me drejtim djathtas	none
+🚶🏾‍➡	këmbësor nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+🚶🏿‍➡	këmbësor nuancë lëkure e errët e me drejtim djathtas	none
+🚶‍♀‍➡	grua që ecën me drejtim djathtas	none
+🚶🏻‍♀‍➡	grua që ecën nuancë lëkure e çelët e me drejtim djathtas	none
+🚶🏼‍♀‍➡	grua që ecën nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+🚶🏽‍♀‍➡	grua që ecën nuancë lëkure zeshkane e me drejtim djathtas	none
+🚶🏾‍♀‍➡	grua që ecën nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+🚶🏿‍♀‍➡	grua që ecën nuancë lëkure e errët e me drejtim djathtas	none
+🚶‍♂‍➡	burrë që ecën me drejtim djathtas	none
+🚶🏻‍♂‍➡	burrë që ecën nuancë lëkure e çelët e me drejtim djathtas	none
+🚶🏼‍♂‍➡	burrë që ecën nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+🚶🏽‍♂‍➡	burrë që ecën nuancë lëkure zeshkane e me drejtim djathtas	none
+🚶🏾‍♂‍➡	burrë që ecën nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+🚶🏿‍♂‍➡	burrë që ecën nuancë lëkure e errët e me drejtim djathtas	none
 🧍🏻	person në këmbë nuancë lëkure e çelët	none
 🧍🏼	person në këmbë nuancë lëkure gjysmë e çelët	none
 🧍🏽	person në këmbë nuancë lëkure zeshkane	none
@@ -2915,51 +3344,123 @@ symbols:
 🧎🏽‍♀	grua në gjunjë nuancë lëkure zeshkane	none
 🧎🏾‍♀	grua në gjunjë nuancë lëkure gjysmë e errët	none
 🧎🏿‍♀	grua në gjunjë nuancë lëkure e errët	none
+🧎‍➡	person në gjunjë me drejtim djathtas	none
+🧎🏻‍➡	person në gjunjë nuancë lëkure e çelët e me drejtim djathtas	none
+🧎🏼‍➡	person në gjunjë nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+🧎🏽‍➡	person në gjunjë nuancë lëkure zeshkane e me drejtim djathtas	none
+🧎🏾‍➡	person në gjunjë nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+🧎🏿‍➡	person në gjunjë nuancë lëkure e errët e me drejtim djathtas	none
+🧎‍♀‍➡	grua në gjunjë me drejtim djathtas	none
+🧎🏻‍♀‍➡	grua në gjunjë nuancë lëkure e çelët e me drejtim djathtas	none
+🧎🏼‍♀‍➡	grua në gjunjë nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+🧎🏽‍♀‍➡	grua në gjunjë nuancë lëkure zeshkane e me drejtim djathtas	none
+🧎🏾‍♀‍➡	grua në gjunjë nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+🧎🏿‍♀‍➡	grua në gjunjë nuancë lëkure e errët e me drejtim djathtas	none
+🧎‍♂‍➡	burrë në gjunjë me drejtim djathtas	none
+🧎🏻‍♂‍➡	burrë në gjunjë nuancë lëkure e çelët e me drejtim djathtas	none
+🧎🏼‍♂‍➡	burrë në gjunjë nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+🧎🏽‍♂‍➡	burrë në gjunjë nuancë lëkure zeshkane e me drejtim djathtas	none
+🧎🏾‍♂‍➡	burrë në gjunjë nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+🧎🏿‍♂‍➡	burrë në gjunjë nuancë lëkure e errët e me drejtim djathtas	none
 🧑🏻‍🦯	person me shkop gjurmimi nuancë lëkure e çelët	none
 🧑🏼‍🦯	person me shkop gjurmimi nuancë lëkure gjysmë e çelët	none
 🧑🏽‍🦯	person me shkop gjurmimi nuancë lëkure zeshkane	none
 🧑🏾‍🦯	person me shkop gjurmimi nuancë lëkure gjysmë e errët	none
 🧑🏿‍🦯	person me shkop gjurmimi nuancë lëkure e errët	none
+🧑‍🦯‍➡	person me shkop gjurmimi me drejtim djathtas	none
+🧑🏻‍🦯‍➡	person me shkop gjurmimi nuancë lëkure e çelët e me drejtim djathtas	none
+🧑🏼‍🦯‍➡	person me shkop gjurmimi nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+🧑🏽‍🦯‍➡	person me shkop gjurmimi nuancë lëkure zeshkane e me drejtim djathtas	none
+🧑🏾‍🦯‍➡	person me shkop gjurmimi nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+🧑🏿‍🦯‍➡	person me shkop gjurmimi nuancë lëkure e errët e me drejtim djathtas	none
 👨🏻‍🦯	burrë me shkop gjurmimi nuancë lëkure e çelët	none
 👨🏼‍🦯	burrë me shkop gjurmimi nuancë lëkure gjysmë e çelët	none
 👨🏽‍🦯	burrë me shkop gjurmimi nuancë lëkure zeshkane	none
 👨🏾‍🦯	burrë me shkop gjurmimi nuancë lëkure gjysmë e errët	none
 👨🏿‍🦯	burrë me shkop gjurmimi nuancë lëkure e errët	none
+👨‍🦯‍➡	burrë me shkop gjurmimi me drejtim djathtas	none
+👨🏻‍🦯‍➡	burrë me shkop gjurmimi nuancë lëkure e çelët e me drejtim djathtas	none
+👨🏼‍🦯‍➡	burrë me shkop gjurmimi nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+👨🏽‍🦯‍➡	burrë me shkop gjurmimi nuancë lëkure zeshkane e me drejtim djathtas	none
+👨🏾‍🦯‍➡	burrë me shkop gjurmimi nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+👨🏿‍🦯‍➡	burrë me shkop gjurmimi nuancë lëkure e errët e me drejtim djathtas	none
 👩🏻‍🦯	grua me shkop gjurmimi nuancë lëkure e çelët	none
 👩🏼‍🦯	grua me shkop gjurmimi nuancë lëkure gjysmë e çelët	none
 👩🏽‍🦯	grua me shkop gjurmimi nuancë lëkure zeshkane	none
 👩🏾‍🦯	grua me shkop gjurmimi nuancë lëkure gjysmë e errët	none
 👩🏿‍🦯	grua me shkop gjurmimi nuancë lëkure e errët	none
+👩‍🦯‍➡	grua me shkop gjurmimi me drejtim djathtas	none
+👩🏻‍🦯‍➡	grua me shkop gjurmimi nuancë lëkure e çelët e me drejtim djathtas	none
+👩🏼‍🦯‍➡	grua me shkop gjurmimi nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+👩🏽‍🦯‍➡	grua me shkop gjurmimi nuancë lëkure zeshkane e me drejtim djathtas	none
+👩🏾‍🦯‍➡	grua me shkop gjurmimi nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+👩🏿‍🦯‍➡	grua me shkop gjurmimi nuancë lëkure e errët e me drejtim djathtas	none
 🧑🏻‍🦼	person në karrocë të motorizuar invalidi nuancë lëkure e çelët	none
 🧑🏼‍🦼	person në karrocë të motorizuar invalidi nuancë lëkure gjysmë e çelët	none
 🧑🏽‍🦼	person në karrocë të motorizuar invalidi nuancë lëkure zeshkane	none
 🧑🏾‍🦼	person në karrocë të motorizuar invalidi nuancë lëkure gjysmë e errët	none
 🧑🏿‍🦼	person në karrocë të motorizuar invalidi nuancë lëkure e errët	none
+🧑‍🦼‍➡	person në karrocë të motorizuar invalidi me drejtim djathtas	none
+🧑🏻‍🦼‍➡	person në karrocë të motorizuar invalidi nuancë lëkure e çelët e me drejtim djathtas	none
+🧑🏼‍🦼‍➡	person në karrocë të motorizuar invalidi nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+🧑🏽‍🦼‍➡	person në karrocë të motorizuar invalidi nuancë lëkure zeshkane e me drejtim djathtas	none
+🧑🏾‍🦼‍➡	person në karrocë të motorizuar invalidi nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+🧑🏿‍🦼‍➡	person në karrocë të motorizuar invalidi nuancë lëkure e errët e me drejtim djathtas	none
 👨🏻‍🦼	burrë në karrocë të motorizuar invalidi nuancë lëkure e çelët	none
 👨🏼‍🦼	burrë në karrocë të motorizuar invalidi nuancë lëkure gjysmë e çelët	none
 👨🏽‍🦼	burrë në karrocë të motorizuar invalidi nuancë lëkure zeshkane	none
 👨🏾‍🦼	burrë në karrocë të motorizuar invalidi nuancë lëkure gjysmë e errët	none
 👨🏿‍🦼	burrë në karrocë të motorizuar invalidi nuancë lëkure e errët	none
+👨‍🦼‍➡	burrë në karrocë të motorizuar invalidi me drejtim djathtas	none
+👨🏻‍🦼‍➡	burrë në karrocë të motorizuar invalidi nuancë lëkure e çelët e me drejtim djathtas	none
+👨🏼‍🦼‍➡	burrë në karrocë të motorizuar invalidi nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+👨🏽‍🦼‍➡	burrë në karrocë të motorizuar invalidi nuancë lëkure zeshkane e me drejtim djathtas	none
+👨🏾‍🦼‍➡	burrë në karrocë të motorizuar invalidi nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+👨🏿‍🦼‍➡	burrë në karrocë të motorizuar invalidi nuancë lëkure e errët e me drejtim djathtas	none
 👩🏻‍🦼	grua në karrocë të motorizuar invalidi nuancë lëkure e çelët	none
 👩🏼‍🦼	grua në karrocë të motorizuar invalidi nuancë lëkure gjysmë e çelët	none
 👩🏽‍🦼	grua në karrocë të motorizuar invalidi nuancë lëkure zeshkane	none
 👩🏾‍🦼	grua në karrocë të motorizuar invalidi nuancë lëkure gjysmë e errët	none
 👩🏿‍🦼	grua në karrocë të motorizuar invalidi nuancë lëkure e errët	none
+👩‍🦼‍➡	grua në karrocë të motorizuar invalidi me drejtim djathtas	none
+👩🏻‍🦼‍➡	grua në karrocë të motorizuar invalidi nuancë lëkure e çelët e me drejtim djathtas	none
+👩🏼‍🦼‍➡	grua në karrocë të motorizuar invalidi nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+👩🏽‍🦼‍➡	grua në karrocë të motorizuar invalidi nuancë lëkure zeshkane e me drejtim djathtas	none
+👩🏾‍🦼‍➡	grua në karrocë të motorizuar invalidi nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+👩🏿‍🦼‍➡	grua në karrocë të motorizuar invalidi nuancë lëkure e errët e me drejtim djathtas	none
 🧑🏻‍🦽	person në karrocë invalidi manuale nuancë lëkure e çelët	none
 🧑🏼‍🦽	person në karrocë invalidi manuale nuancë lëkure gjysmë e çelët	none
 🧑🏽‍🦽	person në karrocë invalidi manuale nuancë lëkure zeshkane	none
 🧑🏾‍🦽	person në karrocë invalidi manuale nuancë lëkure gjysmë e errët	none
 🧑🏿‍🦽	person në karrocë invalidi manuale nuancë lëkure e errët	none
+🧑‍🦽‍➡	person në karrocë invalidi manuale me drejtim djathtas	none
+🧑🏻‍🦽‍➡	person në karrocë invalidi manuale nuancë lëkure e çelët e me drejtim djathtas	none
+🧑🏼‍🦽‍➡	person në karrocë invalidi manuale nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+🧑🏽‍🦽‍➡	person në karrocë invalidi manuale nuancë lëkure zeshkane e me drejtim djathtas	none
+🧑🏾‍🦽‍➡	person në karrocë invalidi manuale nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+🧑🏿‍🦽‍➡	person në karrocë invalidi manuale nuancë lëkure e errët e me drejtim djathtas	none
 👨🏻‍🦽	burrë në karrocë manuale invalidi nuancë lëkure e çelët	none
 👨🏼‍🦽	burrë në karrocë manuale invalidi nuancë lëkure gjysmë e çelët	none
 👨🏽‍🦽	burrë në karrocë manuale invalidi nuancë lëkure zeshkane	none
 👨🏾‍🦽	burrë në karrocë manuale invalidi nuancë lëkure gjysmë e errët	none
 👨🏿‍🦽	burrë në karrocë manuale invalidi nuancë lëkure e errët	none
+👨‍🦽‍➡	burrë në karrocë manuale invalidi me drejtim djathtas	none
+👨🏻‍🦽‍➡	burrë në karrocë manuale invalidi nuancë lëkure e çelët e me drejtim djathtas	none
+👨🏼‍🦽‍➡	burrë në karrocë manuale invalidi nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+👨🏽‍🦽‍➡	burrë në karrocë manuale invalidi nuancë lëkure zeshkane e me drejtim djathtas	none
+👨🏾‍🦽‍➡	burrë në karrocë manuale invalidi nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+👨🏿‍🦽‍➡	burrë në karrocë manuale invalidi nuancë lëkure e errët e me drejtim djathtas	none
 👩🏻‍🦽	grua në karrocë manuale invalidi nuancë lëkure e çelët	none
 👩🏼‍🦽	grua në karrocë manuale invalidi nuancë lëkure gjysmë e çelët	none
 👩🏽‍🦽	grua në karrocë manuale invalidi nuancë lëkure zeshkane	none
 👩🏾‍🦽	grua në karrocë manuale invalidi nuancë lëkure gjysmë e errët	none
 👩🏿‍🦽	grua në karrocë manuale invalidi nuancë lëkure e errët	none
+👩‍🦽‍➡	grua në karrocë manuale invalidi me drejtim djathtas	none
+👩🏻‍🦽‍➡	grua në karrocë manuale invalidi nuancë lëkure e çelët e me drejtim djathtas	none
+👩🏼‍🦽‍➡	grua në karrocë manuale invalidi nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+👩🏽‍🦽‍➡	grua në karrocë manuale invalidi nuancë lëkure zeshkane e me drejtim djathtas	none
+👩🏾‍🦽‍➡	grua në karrocë manuale invalidi nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+👩🏿‍🦽‍➡	grua në karrocë manuale invalidi nuancë lëkure e errët e me drejtim djathtas	none
 🏃🏻	vrapues nuancë lëkure e çelët	none
 🏃🏼	vrapues nuancë lëkure gjysmë e çelët	none
 🏃🏽	vrapues nuancë lëkure zeshkane	none
@@ -2975,6 +3476,29 @@ symbols:
 🏃🏽‍♀	grua që vrapon nuancë lëkure zeshkane	none
 🏃🏾‍♀	grua që vrapon nuancë lëkure gjysmë e errët	none
 🏃🏿‍♀	grua që vrapon nuancë lëkure e errët	none
+🏃‍➡	vrapues me drejtim djathtas	none
+🏃🏻‍➡	vrapues nuancë lëkure e çelët e me drejtim djathtas	none
+🏃🏼‍➡	vrapues nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+🏃🏽‍➡	vrapues nuancë lëkure zeshkane e me drejtim djathtas	none
+🏃🏾‍➡	vrapues nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+🏃🏿‍➡	vrapues nuancë lëkure e errët e me drejtim djathtas	none
+🏃‍♀‍➡	grua që vrapon me drejtim djathtas	none
+🏃🏻‍♀‍➡	grua që vrapon nuancë lëkure e çelët e me drejtim djathtas	none
+🏃🏼‍♀‍➡	grua që vrapon nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+🏃🏽‍♀‍➡	grua që vrapon nuancë lëkure zeshkane e me drejtim djathtas	none
+🏃🏾‍♀‍➡	grua që vrapon nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+🏃🏿‍♀‍➡	grua që vrapon nuancë lëkure e errët e me drejtim djathtas	none
+🏃‍♂‍➡	burrë që vrapon me drejtim djathtas	none
+🏃🏻‍♂‍➡	burrë që vrapon nuancë lëkure e çelët e me drejtim djathtas	none
+🏃🏼‍♂‍➡	burrë që vrapon nuancë lëkure gjysmë e çelët e me drejtim djathtas	none
+🏃🏽‍♂‍➡	burrë që vrapon nuancë lëkure zeshkane e me drejtim djathtas	none
+🏃🏾‍♂‍➡	burrë që vrapon nuancë lëkure gjysmë e errët e me drejtim djathtas	none
+🏃🏿‍♂‍➡	burrë që vrapon nuancë lëkure e errët e me drejtim djathtas	none
+🧑🏻‍🩰	balerin nuancë lëkure e çelët	none
+🧑🏼‍🩰	balerin nuancë lëkure gjysmë e çelët	none
+🧑🏽‍🩰	balerin nuancë lëkure zeshkane	none
+🧑🏾‍🩰	balerin nuancë lëkure gjysmë e errët	none
+🧑🏿‍🩰	balerin nuancë lëkure e errët	none
 💃🏻	grua që kërcen nuancë lëkure e çelët	none
 💃🏼	grua që kërcen nuancë lëkure gjysmë e çelët	none
 💃🏽	grua që kërcen nuancë lëkure zeshkane	none
@@ -2990,6 +3514,21 @@ symbols:
 🕴🏽	burrë me kostum që ngrihet nuancë lëkure zeshkane	none
 🕴🏾	burrë me kostum që ngrihet nuancë lëkure gjysmë e errët	none
 🕴🏿	burrë me kostum që ngrihet nuancë lëkure e errët	none
+👯🏻	gra duke festuar nuancë lëkure e çelët	none
+👯🏼	gra duke festuar nuancë lëkure gjysmë e çelët	none
+👯🏽	gra duke festuar nuancë lëkure zeshkane	none
+👯🏾	gra duke festuar nuancë lëkure gjysmë e errët	none
+👯🏿	gra duke festuar nuancë lëkure e errët	none
+👯🏻‍♂	burra që festojnë nuancë lëkure e çelët	none
+👯🏼‍♂	burra që festojnë nuancë lëkure gjysmë e çelët	none
+👯🏽‍♂	burra që festojnë nuancë lëkure zeshkane	none
+👯🏾‍♂	burra që festojnë nuancë lëkure gjysmë e errët	none
+👯🏿‍♂	burra që festojnë nuancë lëkure e errët	none
+👯🏻‍♀	gra që festojnë nuancë lëkure e çelët	none
+👯🏼‍♀	gra që festojnë nuancë lëkure gjysmë e çelët	none
+👯🏽‍♀	gra që festojnë nuancë lëkure zeshkane	none
+👯🏾‍♀	gra që festojnë nuancë lëkure gjysmë e errët	none
+👯🏿‍♀	gra që festojnë nuancë lëkure e errët	none
 🧖🏻	person në dhomë me avull nuancë lëkure e çelët	none
 🧖🏼	person në dhomë me avull nuancë lëkure gjysmë e çelët	none
 🧖🏽	person në dhomë me avull nuancë lëkure zeshkane	none
@@ -3165,6 +3704,21 @@ symbols:
 🤸🏽‍♀	grua që bën kapërdimje nuancë lëkure zeshkane	none
 🤸🏾‍♀	grua që bën kapërdimje nuancë lëkure gjysmë e errët	none
 🤸🏿‍♀	grua që bën kapërdimje nuancë lëkure e errët	none
+🤼🏻	mundës nuancë lëkure e çelët	none
+🤼🏼	mundës nuancë lëkure gjysmë e çelët	none
+🤼🏽	mundës nuancë lëkure zeshkane	none
+🤼🏾	mundës nuancë lëkure gjysmë e errët	none
+🤼🏿	mundës nuancë lëkure e errët	none
+🤼🏻‍♂	burra që bëjnë mundje nuancë lëkure e çelët	none
+🤼🏼‍♂	burra që bëjnë mundje nuancë lëkure gjysmë e çelët	none
+🤼🏽‍♂	burra që bëjnë mundje nuancë lëkure zeshkane	none
+🤼🏾‍♂	burra që bëjnë mundje nuancë lëkure gjysmë e errët	none
+🤼🏿‍♂	burra që bëjnë mundje nuancë lëkure e errët	none
+🤼🏻‍♀	gra që bëjnë mundje nuancë lëkure e çelët	none
+🤼🏼‍♀	gra që bëjnë mundje nuancë lëkure gjysmë e çelët	none
+🤼🏽‍♀	gra që bëjnë mundje nuancë lëkure zeshkane	none
+🤼🏾‍♀	gra që bëjnë mundje nuancë lëkure gjysmë e errët	none
+🤼🏿‍♀	gra që bëjnë mundje nuancë lëkure e errët	none
 🤽🏻	vaterpolo nuancë lëkure e çelët	none
 🤽🏼	vaterpolo nuancë lëkure gjysmë e çelët	none
 🤽🏽	vaterpolo nuancë lëkure zeshkane	none
@@ -3428,6 +3982,7 @@ symbols:
 🇨🇳	flamur Kinë	none
 🇨🇴	flamur Kolumbi	none
 🇨🇵	flamur Ishulli Klipërton	none
+🇨🇶	flamur Sark	none
 🇨🇷	flamur Kosta-Rikë	none
 🇨🇺	flamur Kubë	none
 🇨🇻	flamur Kepi i Gjelbër	none

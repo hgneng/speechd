@@ -10,13 +10,13 @@ symbols:
 🏿	hudtype 6	none
 ℗	opphavsrett for lydopptak	none
 ←	pil mot venstre	none
-↚	pil venstre med strek	none
+↚	pil venstre med skråstrek	none
 →	pil mot høyre	none
-↛	pil høyre med strek	none
+↛	pil høyre med skråstrek	none
 ↑	pil oppover	none
 ↓	pil nedover	none
-↜	bølgepil mot venstre med strek	none
-↝	bølgepil mot høyre med strek	none
+↜	bølgepil mot venstre	none
+↝	bølgepil mot høyre	none
 ↞	pil venstre med to mothaker	none
 ↟	pil opp med to mothaker	none
 ↠	pil høyre med to mothaker	none
@@ -41,7 +41,7 @@ symbols:
 ↶	halvsirkelpil mot klokken	none
 ↷	halvsirkelpil med klokken	none
 ↸	pil mot nordvest med strek over	none
-↹	pil venstre mot loddrett strek over pil høyre mot loddrett strek	none
+↹	pil venstre over pil høyre mot loddrette streker	none
 ↺	pil åpen sirkel mot klokken	none
 ↻	pil åpen sirkel med klokken	none
 ↼	harpunpil venstre med mothake opp	none
@@ -59,8 +59,8 @@ symbols:
 ⇈	parallelle piler opp	none
 ⇉	parallelle piler mot høyre	none
 ⇊	parallelle piler ned	none
-⇋	harpunpil mot venstre over harpunpil mot høyre	none
-⇌	harpunpil mot høyre over harpunpil mot venstre	none
+⇋	harpunpil venstre over harpunpil høyre	none
+⇌	harpunpil høyre over harpunpil venstre	none
 ⇐	dobbeltpil venstre	none
 ⇍	dobbeltpil venstre med strek	none
 ⇑	dobbeltpil opp	none
@@ -68,7 +68,7 @@ symbols:
 ⇏	dobbeltpil høyre med strek	none
 ⇓	dobbeltpil ned	none
 ⇔	dobbeltpil begge veier	none
-⇎	dobbeltpil med strek begge veier	none
+⇎	dobbeltpil begge veier med strek	none
 ⇖	dobbeltpil nordvest	none
 ⇗	dobbeltpil nordøst	none
 ⇘	dobbeltpil sørøst	none
@@ -90,36 +90,183 @@ symbols:
 ⇨	hul pil høyre	none
 ⇩	hul pil ned	none
 ⇪	hul pil opp fra vannrett strek	none
-⇵	pil ned til høyre for pil opp	none
+⇵	pil ned til venstre for pil opp	none
 ∀	allkvantor	none
-∂	partielt derivert	none
+∂	partiellderivert	none
+∃	eksistenskvantor	none
+∅	den tomme mengden	none
 ∆	matematisk endring	none
 ∇	nabla	none
 ∈	element i	none
+∉	er ikke element i	none
+∋	inneholder som medlem	none
+∎	slutt på bevis	none
+∏	produkt	none
+∑	sum	none
+≮	er ikke mindre enn	none
 ≠	er ikke lik	none
+≯	er ikke større enn	none
 −	minustegn	none
 ⁻	hevet minustegn	none
+∓	minus-pluss	none
+∕	skråstrek for divisjon	none
+∗	asteriskoperator	none
+∘	ringoperator	none
+∙	punktoperator	none
 √	kvadratrot	none
+∝	er proporsjonal med	none
 ∞	uendelighetstegn	none
+∟	rett vinkel	none
+∠	vinkel	none
+∣	divisor	none
+∥	parallell	none
+∧	logisk og	none
 ∩	snitt	none
 ∪	union	none
+∫	integral	none
+∬	dobbelt integral	none
+∮	konturintegral	none
+∴	derfor	none
+∵	fordi	none
+∶	forhold	none
+∷	proporsjon	none
+∼	tildeoperator	none
+∽	omvendt tilde	none
+∾	speilvendt liggende s	none
+≃	asymptotisk lik	none
+≅	tilnærmet lik	none
 ≈	er tilnærmet lik	none
+≌	kongruent	none
+≒	tilnærmet lik bildet	none
+≖	ring i likhetstegn	none
 ≡	identisk lik	none
+≣	strengt ekvivalent	none
 ≤	er mindre enn eller lik	none
 ≥	er større enn eller lik	none
+≦	mindre enn over likhetstegn	none
+≧	større enn over likhetstegn	none
+≪	mye mindre enn	none
+≫	mye større enn	none
+≬	mellom	none
+≳	tilnærmet større enn	none
+≺	kommer før	none
+≻	kommer etter	none
+⊁	kommer ikke etter	none
 ⊂	delmengde av	none
+⊃	supermengde	none
+⊆	delmengde lik	none
+⊇	supermengde lik	none
+⊕	plusstegn i sirkel	none
+⊖	minustegn i sirkel	none
+⊗	multipliseringstegn i sirkel	none
+⊘	skråstrek for divisjon i sirkel	none
+⊙	prikkoperator i sirkel	none
+⊚	ringoperator i sirkel	none
+⊛	stjerneoperator i sirkel	none
+⊞	plusstegn i firkant	none
+⊟	minustegn i firkant	none
+⊥	falsum	none
+⊮	tvinger ikke	none
+⊰	kommer før under relasjon	none
+⊱	kommer etter under relasjon	none
+⋭	inneholder ikke som normal delgruppe lik	none
+⊶	original	none
+⊹	hermitisk konjugert matrise	none
+⊿	rettvinklet trekant	none
+⋁	n-ær logisk eller	none
+⋂	n-ært snitt	none
+⋃	n-ær union	none
+⋅	prikkoperator	none
+⋆	stjerneoperator	none
+⋈	naturlig skjøt	none
+⋒	dobbelt snitt	none
+⋘	veldig mye mindre enn	none
+⋙	veldig mye større enn	none
+⋮	loddrett ellipse	none
+⋯	sentrert vannrett ellipse	none
+⋰	diagonal ellipse opp mot høyre	none
+⋱	diagonal ellipse ned mot høyre	none
+■	fylt kvadrat	none
+□	hult kvadrat	none
+▢	hult kvadrat med avrundede hjørner	none
+▣	hult kvadrat rundt et fylt kvadrat	none
+▤	kvadrat med vannrett fyll	none
+▥	kvadrat med loddrett fyll	none
+▦	kvadrat med rettvinklet rutefyll	none
+▧	kvadrat med diagonalt fyll ned mot høyre	none
+▨	kvadrat med diagonalt fyll ned mot venstre	none
+▩	kvadrat med diagonalt rutefyll	none
+▬	fylt rektangel	none
+▭	hult rektangel	none
+▮	fylt vertikalt rektangel	none
+▰	fylt parallellogram	none
 ▲	fylt trekant som peker opp	none
+△	hul trekant som peker opp	none
+▴	liten fylt trekant som peker opp	none
+▵	liten hul trekant som peker opp	none
+▷	hul trekant som peker mot høyre	none
+▸	liten fylt trekant som peker mot høyre	none
+▹	liten hul trekant som peker mot høyre	none
+►	fylt peker som peker mot høyre	none
+▻	hul peker som peker mot høyre	none
 ▼	fylt trekant som peker ned	none
-◊	hult rutersymbol	none
+▽	hul trekant som peker ned	none
+▾	liten fylt trekant som peker ned	none
+▿	liten hul trekant som peker ned	none
+◁	hul trekant som peker mot venstre	none
+◂	liten fylt trekant som peker mot venstre	none
+◃	liten hul trekant som peker mot venstre	none
+◄	fylt peker som peker mot venstre	none
+◅	hul peker som peker mot venstre	none
+◆	fylt rutersymbol	none
+◇	hult rutersymbol	none
+◈	hult rutersymbol rundt fylt rutersymbol	none
+◉	hul sirkel rundt fylt sirkel	none
+◊	hult rombesymbol	none
 ○	hul sirkel	none
+◌	stiplet sirkel	none
+◍	sirkel med loddrett fyll	none
+◎	konsentriske sirkler	none
 ●	fylt sirkel	none
+◐	sirkel med venstre halvdel fylt	none
+◑	sirkel med høyre halvdel fylt	none
+◒	sirkel med nedre halvdel fylt	none
+◓	sirkel med øvre halvdel fylt	none
+◔	sirkel med øvre høyre kvadrant fylt	none
+◕	sirkel med alt unntatt øvre venstre kvadrant fylt	none
+◖	fylt venstre halvsirkel	none
+◗	fylt høyre halvsirkel	none
+◘	invertert punkttegn	none
+◙	fylt kvadrat rundt hul sirkel	none
+◜	sirkelbue øvre venstre kvadrant	none
+◝	sirkelbue øvre høyre kvadrant	none
+◞	sirkelbue nedre høyre kvadrant	none
+◟	sirkelbue nedre venstre kvadrant	none
+◠	øvre halvsirkel	none
+◡	nedre halvsirkel	none
+◢	fylt trekant med rett vinkel nede til høyre	none
+◣	fylt trekant med rett vinkel nede til venstre	none
+◤	fylt trekant med rett vinkel oppe til venstre	none
+◥	fylt trekant med rett vinkel oppe til høyre	none
+◦	hult punkttegn	none
 ◯	stor hul sirkel	none
+◳	hult kvadrat øvre høyre kvadrant	none
+◷	hul sirkel øvre høyre kvadrant	none
+◿	hul trekant med rett vinkel nede til høyre	none
 ♪	åttendelsnote	none
+⨧	plusstegn med senket totall	none
+⨯	kryssprodukt av vektorer	none
+⨼	indreprodukt	none
+⩣	logisk eller dobbelt understreket	none
+⩽	mindre enn eller lik med likhetstegn på skrå	none
+⪍	mindre enn eller lik over asymptotisk lik	none
+⪚	likhetstegn over større enn	none
+⪺	kommer etter over ikke tilnærmet lik	none
 ♭	note-b	none
 ♯	note-kryss	none
 😀	glisefjes	none
 😃	glisende fjes med vidåpne øyne	none
-😄	smilefjes med åpen munn og smilende øyne	none
+😄	glisende fjes med smilende øyne	none
 😁	glisefjes med smilende øyne	none
 😆	smil med sammenknepne øyne	none
 😅	glisende fjes som svetter	none
@@ -127,6 +274,7 @@ symbols:
 😂	gledestårer	none
 🙂	smiler litt	none
 🙃	fjes som er opp-ned	none
+🫠	fjes som smelter	none
 😉	blunkende ansikt	none
 😊	smil med smilende øyne	none
 😇	smil med glorie	none
@@ -147,13 +295,17 @@ symbols:
 🤑	pengegal	none
 🤗	fjes som gir klem	none
 🤭	hånden over munnen	none
+🫢	fjes med åpne øyne og hånd over munnen	none
+🫣	fjes som titter frem bak hendene	none
 🤫	hysj	none
 🤔	tenkefjes	none
+🫡	fjes som viser honnør	none
 🤐	fjes med glidelåsmunn	none
 🤨	hevet øyenbryn	none
 😐	nøytral	none
 😑	uttrykksløs	none
 😶	uten munn	none
+🫥	fjes med stiplet omriss	none
 😶‍🌫	fjes i skyer	none
 😏	lurt smil	none
 😒	misfornøyd	none
@@ -161,11 +313,15 @@ symbols:
 😬	grimase	none
 😮‍💨	puster ut	none
 🤥	lyver	none
+🫨	skjelvende fjes	none
+🙂‍↔	ristende hode	none
+🙂‍↕	nikkende hode	none
 😌	lettet	none
 😔	tankefull	none
 😪	søvnig	none
 🤤	sikler	none
 😴	sover	none
+🫩	fjes med poser under øynene	none
 😷	fjes med munnbind	none
 🤒	fjes med termometer	none
 🤕	bandasjert hode	none
@@ -185,6 +341,7 @@ symbols:
 🤓	nerdefjes	none
 🧐	fjes med monokkel	none
 😕	forvirret	none
+🫤	fjes med diagonal munn	none
 😟	bekymret	none
 🙁	litt surt fjes	none
 ☹	surt fjes	none
@@ -192,7 +349,9 @@ symbols:
 😯	overrasket	none
 😲	sjokkert	none
 😳	rødmer	none
+🫪	fordreid fjes	none
 🥺	bedende fjes	none
+🥹	fjes som holder tilbake tårene	none
 😦	oppgitt	none
 😧	pine	none
 😨	redd	none
@@ -236,7 +395,6 @@ symbols:
 🙈	ser ingenting ondt	none
 🙉	hører ingenting ondt	none
 🙊	sier ingenting ondt	none
-💋	kyssemerke	none
 💌	kjærlighesbrev	none
 💘	hjerte med pil	none
 💝	hjerte med bånd	none
@@ -251,22 +409,26 @@ symbols:
 ❤‍🔥	hjerte i brann	none
 ❤‍🩹	lindret hjerte	none
 ❤	rødt hjerte	none
+🩷	rosa hjerte	none
 🧡	oransje hjerte	none
 💛	gult hjerte	none
 💚	grønt hjerte	none
 💙	blått hjerte	none
+🩵	lyseblått hjerte	none
 💜	lilla hjerte	none
 🤎	brunt hjerte	none
 🖤	svart hjerte	none
+🩶	grått hjerte	none
 🤍	hvitt hjerte	none
+💋	kyssemerke	none
 💯	hundre poeng	none
 💢	sinne	none
+🫯	slåsskampsky	none
 💥	krasj	none
 💫	svimmel	none
 💦	svettedråper	none
 💨	stikker av	none
 🕳	hull i bakken	none
-💣	bombe	none
 💬	snakkeboble	none
 👁‍🗨	øye i snakkeboble	none
 🗨	snakkeboble mot venstre	none
@@ -278,11 +440,18 @@ symbols:
 🖐	flat hånd med spredte fingre	none
 ✋	hevet hånd	none
 🖖	Vulcan-hilsen	none
+🫱	hånd mot høyre	none
+🫲	hånd mot venstre	none
+🫳	håndflaten ned	none
+🫴	håndflaten opp	none
+🫷	håndflate hevet mot venstre	none
+🫸	håndflate hevet mot høyre	none
 👌	OK-hånd	none
 🤌	hånd med fingertuppene sammen	none
 🤏	hånd som klyper	none
 ✌	seierstegn	none
 🤞	kryssede fingre	none
+🫰	hånd med pekefinger og tommel krysset	none
 🤟	glad i deg-tegn	none
 🤘	rock’n’roll	none
 🤙	ring meg-hånd	none
@@ -292,6 +461,7 @@ symbols:
 🖕	langfinger	none
 👇	peker ned – bakhånd	none
 ☝	peker opp	none
+🫵	pekefinger peker på leseren	none
 👍	tommel opp	none
 👎	tommel ned	none
 ✊	hevet knyttneve	none
@@ -300,6 +470,7 @@ symbols:
 🤜	knyttneve mot høyre	none
 👏	klappende hender	none
 🙌	hevede hender	none
+🫶	hjertehender	none
 👐	åpne hender	none
 🤲	håndflatene sammen	none
 🤝	håndhilse	none
@@ -324,6 +495,7 @@ symbols:
 👁	øye	none
 👅	tunge	none
 👄	munn	none
+🫦	bite seg i leppen	none
 👶	baby	none
 🧒	barn	none
 👦	gutt	none
@@ -431,6 +603,7 @@ symbols:
 👷	anleggsarbeider	none
 👷‍♂	mannlig anleggsarbeider	none
 👷‍♀	kvinnelig anleggsarbeider	none
+🫅	person med krone	none
 🤴	prins	none
 👸	prinsesse	none
 👳	turbankledd person	none
@@ -445,6 +618,8 @@ symbols:
 👰‍♂	mann med slør	none
 👰‍♀	kvinne med slør	none
 🤰	gravid kvinne	none
+🫃	gravid mann	none
+🫄	gravid person	none
 🤱	ammer	none
 👩‍🍼	kvinne som mater baby	none
 👨‍🍼	mann som mater baby	none
@@ -480,6 +655,8 @@ symbols:
 🧟	zombie	none
 🧟‍♂	mannlig zombie	none
 🧟‍♀	kvinnelig zombie	none
+🧌	troll	none
+🫈	hårete vesen	none
 💆	ansiktsmassasje	none
 💆‍♂	mann som får ansiktsmassasje	none
 💆‍♀	kvinne som får ansiktsmassasje	none
@@ -507,6 +684,7 @@ symbols:
 🏃	løper	none
 🏃‍♂	mannlig løper	none
 🏃‍♀	kvinnelig løper	none
+🧑‍🩰	ballettdanser	none
 💃	dansende kvinne	none
 🕺	dansende mann	none
 🕴	svevende mann i dress	none
@@ -573,12 +751,17 @@ symbols:
 👬	menn som leier	none
 💏	kyss	none
 💑	par med hjerte	none
-👪	familie	none
 🗣	snakkende hode i profil	none
 👤	silhuett av byste	none
 👥	silhuett av byster	none
 🫂	klem	none
+👪	familie	none
+🧑‍🧑‍🧒	familie voksen, voksen, barn	none
+🧑‍🧑‍🧒‍🧒	familie voksen, voksen, barn, barn	none
+🧑‍🧒	familie voksen, barn	none
+🧑‍🧒‍🧒	familie voksen, barn, barn	none
 👣	fotavtrykk	none
+🫆	fingeravtrykk	none
 🦰	rødt hår	none
 🦱	kruset hår	none
 🦳	grått hår	none
@@ -603,6 +786,8 @@ symbols:
 🐅	tiger	none
 🐆	leopard	none
 🐴	hestefjes	none
+🫎	elg	none
+🫏	esel	none
 🐎	hest	none
 🦄	enhjørning	none
 🦓	sebra	none
@@ -665,6 +850,10 @@ symbols:
 🦩	flamingo	none
 🦚	påfugl	none
 🦜	papegøye	none
+🪽	vinge	none
+🐦‍⬛	svart fugl	none
+🪿	gås	none
+🐦‍🔥	føniks	none
 🐸	frosk	none
 🐊	krokodille	none
 🐢	skilpadde	none
@@ -677,6 +866,7 @@ symbols:
 🐳	sprutende hval	none
 🐋	hval	none
 🐬	delfin	none
+🫍	spekkhogger	none
 🦭	sel	none
 🐟	fisk	none
 🐠	tropisk fisk	none
@@ -684,6 +874,13 @@ symbols:
 🦈	hai	none
 🐙	blekksprut	none
 🐚	spiralskjell	none
+🪸	korall	none
+🪼	manet	none
+🦀	krabbe	none
+🦞	hummer	none
+🦐	reke	none
+🦑	akkar	none
+🦪	østers	none
 🐌	snegle	none
 🦋	sommerfugl	none
 🐛	insekt	none
@@ -703,6 +900,7 @@ symbols:
 💐	bukett	none
 🌸	kirsebærblomst	none
 💮	hvit blomst	none
+🪷	lotusblomst	none
 🏵	rosett	none
 🌹	rose	none
 🥀	vissen blomst	none
@@ -710,6 +908,7 @@ symbols:
 🌻	solsikke	none
 🌼	blomst	none
 🌷	tulipan	none
+🪻	hyasint	none
 🌱	spire	none
 🪴	potteplante	none
 🌲	bartre	none
@@ -723,11 +922,16 @@ symbols:
 🍁	lønneblad	none
 🍂	høstblad	none
 🍃	blader i vind	none
+🪹	tomt rede	none
+🪺	rede med egg	none
+🍄	sopp	none
+🪾	bladløst tre	none
 🍇	druer	none
-🍈	honningmelon	none
+🍈	melon	none
 🍉	vannmelon	none
 🍊	mandarin	none
 🍋	sitron	none
+🍋‍🟩	lime	none
 🍌	banan	none
 🍍	ananas	none
 🥭	mango	none
@@ -754,9 +958,13 @@ symbols:
 🥦	brokkoli	none
 🧄	hvitløk	none
 🧅	løk	none
-🍄	sopp	none
 🥜	peanøtter	none
+🫘	bønner	none
 🌰	kastanje	none
+🫚	ingefærrot	none
+🫛	ertebelg	none
+🍄‍🟫	brun sopp	none
+🫜	rotgrønnsak	none
 🍞	brød	none
 🥐	croissant	none
 🥖	bagett	none
@@ -808,11 +1016,6 @@ symbols:
 🥟	dumpling	none
 🥠	lykkekake	none
 🥡	takeaway-eske	none
-🦀	krabbe	none
-🦞	hummer	none
-🦐	reke	none
-🦑	akkar	none
-🦪	østers	none
 🍦	soft-is	none
 🍧	slush-is	none
 🍨	iskrem	none
@@ -841,6 +1044,7 @@ symbols:
 🍻	ølkrus som skåler	none
 🥂	glass som skåler	none
 🥃	whiskyglass	none
+🫗	helle væske	none
 🥤	kopp med sugerør	none
 🧋	boble-te	none
 🧃	drikkekartong	none
@@ -851,6 +1055,7 @@ symbols:
 🍴	kniv og gaffel	none
 🥄	skje	none
 🔪	kokkekniv	none
+🫙	krukke	none
 🏺	amfora	none
 🌍	jordklode med Europa og Afrika	none
 🌎	jordklode med Amerika	none
@@ -861,6 +1066,7 @@ symbols:
 🧭	kompass	none
 🏔	snødekt fjell	none
 ⛰	fjell	none
+🛘	jordskred	none
 🌋	vulkan	none
 🗻	Fuji-fjellet	none
 🏕	telttur	none
@@ -913,6 +1119,7 @@ symbols:
 🌉	bro om natten	none
 ♨	varme kilder	none
 🎠	karusellhest	none
+🛝	sklie	none
 🎡	pariserhjul	none
 🎢	berg-og-dal-bane	none
 💈	barberskilt	none
@@ -961,12 +1168,14 @@ symbols:
 🛤	jernbanespor	none
 🛢	oljefat	none
 ⛽	bensinpumpe	none
+🛞	hjul	none
 🚨	politilys	none
 🚥	horisontale trafikklys	none
 🚦	vertikale trafiklys	none
 🛑	stoppskilt	none
 🚧	anleggsarbeid	none
 ⚓	anker	none
+🛟	livbøye	none
 ⛵	seilbåt	none
 🛶	kano	none
 🚤	speedbåt	none
@@ -1124,10 +1333,10 @@ symbols:
 🎯	blink	none
 🪀	jojo	none
 🪁	papirdrage	none
+🔫	vannpistol	none
 🎱	biljard	none
 🔮	krystallkule	none
 🪄	tryllestav	none
-🧿	nazar	none
 🎮	videospill	none
 🕹	joystick	none
 🎰	spilleautomat	none
@@ -1135,6 +1344,7 @@ symbols:
 🧩	puslespillbrikke	none
 🧸	teddybjørn	none
 🪅	piñata	none
+🪩	speilkule	none
 🪆	matrjosjka	none
 ♠	spar	none
 ♥	hjerter	none
@@ -1171,6 +1381,7 @@ symbols:
 🩳	shorts	none
 👙	bikini	none
 👚	dameklær	none
+🪭	håndvifte	none
 👛	portemoné	none
 👜	håndveske	none
 👝	clutch-veske	none
@@ -1185,6 +1396,7 @@ symbols:
 👡	damesandal	none
 🩰	ballettsko	none
 👢	damestøvlett	none
+🪮	afrokam	none
 👑	krone	none
 👒	damehatt	none
 🎩	flosshatt	none
@@ -1215,14 +1427,18 @@ symbols:
 🎧	hodetelefoner	none
 📻	radio	none
 🎷	saksofon	none
+🎺	trompet	none
+🪊	trombone	none
 🪗	trekkspill	none
 🎸	gitar	none
 🎹	piano	none
-🎺	trompet	none
 🎻	fiolin	none
 🪕	banjo	none
 🥁	tromme	none
 🪘	langtromme	none
+🪇	marakas	none
+🪈	fløyte	none
+🪉	harpe	none
 📱	mobiltelefon	none
 📲	mobiltelefon med pil	none
 ☎	telefon	none
@@ -1230,6 +1446,7 @@ symbols:
 📟	personsøker	none
 📠	faksmaskin	none
 🔋	batteri	none
+🪫	lite batteri	none
 🔌	støpsel	none
 💻	bærbar datamaskin	none
 🖥	stasjonær datamaskin	none
@@ -1275,8 +1492,9 @@ symbols:
 📑	bokmerkefane	none
 🔖	bokmerke	none
 🏷	etikett	none
-💰	pengesekk	none
 🪙	mynt	none
+💰	pengesekk	none
+🪎	skattkiste	none
 💴	yenseddel	none
 💵	dollarseddel	none
 💶	euroseddel	none
@@ -1341,7 +1559,7 @@ symbols:
 🛠	hammer og fastnøkkel	none
 🗡	dolk	none
 ⚔	sverd i kryss	none
-🔫	vannpistol	none
+💣	bombe	none
 🪃	bumerang	none
 🏹	pil og bue	none
 🛡	skjold	none
@@ -1354,11 +1572,13 @@ symbols:
 ⚖	likearmet skålvekt	none
 🦯	blindestokk	none
 🔗	lenke	none
+⛓‍💥	brutt lenke	none
 ⛓	kjetting	none
 🪝	krok	none
 🧰	verktøykasse	none
 🧲	magnet	none
 🪜	stige	none
+🪏	spade	none
 ⚗	destillerkolbe	none
 🧪	prøverør	none
 🧫	petriskål	none
@@ -1370,7 +1590,9 @@ symbols:
 🩸	bloddråpe	none
 💊	pille	none
 🩹	plaster	none
+🩼	krykke	none
 🩺	stetoskop	none
+🩻	røntgen	none
 🚪	dør	none
 🛗	heis	none
 🪞	speil	none
@@ -1391,6 +1613,7 @@ symbols:
 🧻	rull med papir	none
 🪣	bøtte	none
 🧼	såpe	none
+🫧	bobler	none
 🪥	tannbørste	none
 🧽	svamp	none
 🧯	brannslukningsapparat	none
@@ -1399,8 +1622,11 @@ symbols:
 ⚰	kiste	none
 🪦	gravstein	none
 ⚱	urne	none
+🧿	nazar	none
+🪬	hamsa	none
 🗿	moai-statue	none
 🪧	plakat	none
+🪪	ID-kort	none
 🏧	minibankskilt	none
 🚮	avfallsskilt	none
 🚰	drikkevann	none
@@ -1437,7 +1663,7 @@ symbols:
 ↖	pil opp-venstre	none
 ↕	pil opp og ned	none
 ↔	pil venstre-høyre	none
-↮	pil begge veier med strek	none
+↮	pil begge veier med skråstrek	none
 ↩	pil som bøyer mot venstre	none
 ↪	pil som bøyer mot høyre	none
 ⤴	pil som bøyer opp	none
@@ -1461,6 +1687,7 @@ symbols:
 ☮	fredssymbol	none
 🕎	menora	none
 🔯	sekstagget stjerne med prikk	none
+🪯	khanda	none
 ♈	Væren	none
 ♉	Tyren	none
 ♊	Tvillingene	none
@@ -1496,6 +1723,7 @@ symbols:
 🔅	lite lys-knapp	none
 🔆	mye lys-knapp	none
 📶	mobilsignaler	none
+🛜	trådløst	none
 📳	vibreringsmodus	none
 📴	mobiltelefon av	none
 ♀	kvinnesymbol	none
@@ -1505,6 +1733,7 @@ symbols:
 ➕	pluss	none
 ➖	minus	none
 ➗	dele	none
+🟰	likhetstegn i fet skrift	none
 ♾	uendelig	none
 ❓	rødt spørsmålstegn	none
 ❔	hvitt spørsmålstegn	none
@@ -1530,6 +1759,7 @@ symbols:
 ✴	åttetagget stjerne	none
 ❇	gnist	none
 ™	varemerke	none
+🫟	sprut	none
 🔠	store bokstaver	none
 🔡	små bokstaver	none
 🔢	tall	none
@@ -1568,14 +1798,14 @@ symbols:
 🟦	blått kvadrat	none
 🟪	lilla kvadrat	none
 🟫	brunt kvadrat	none
-⬛	stor svart firkant	none
-⬜	stor hvit firkant	none
-◼	mellomstor svart firkant	none
-◻	mellomstor hvit firkant	none
-◾	liten/mellomstor svart firkant	none
-◽	liten/mellomstor hvit firkant	none
-▪	liten svart firkant	none
-▫	liten hvit firkant	none
+⬛	stort svart kvadrat	none
+⬜	stort hvitt kvadrat	none
+◼	mellomstort svart kvadrat	none
+◻	mellomstort hvitt kvadrat	none
+◾	lite/mellomstort svart kvadrat	none
+◽	lite/mellomstort hvitt kvadrat	none
+▪	lite, svart kvadrat	none
+▫	lite, hvitt kvadrat	none
 🔶	stort oransje rutersymbol	none
 🔷	stort blått rutersymbol	none
 🔸	lite oransje rutersymbol	none
@@ -1594,13 +1824,21 @@ symbols:
 🏳‍🌈	regnbueflagg	none
 🏳‍⚧	transpersonflagg	none
 🏴‍☠	sjørøverflagg	none
+₢	cruzeiro	none
+₣	fransk franc	none
+₤	lire	none
 ₥	mill	none
 ₩	won	none
 €	euro	none
+₰	tysk pfennig	none
 ₱	peso	none
+₳	austral	none
+₶	livre tournois	none
+₷	spesmilo	none
 ₹	indiske rupi	none
 ₽	rubler	none
 ₿	bitcoin	none
+₨	rupi	none
 👋🏻	vinkende hånd hudtype 1–2	none
 👋🏼	vinkende hånd hudtype 3	none
 👋🏽	vinkende hånd hudtype 4	none
@@ -1626,6 +1864,56 @@ symbols:
 🖖🏽	Vulcan-hilsen hudtype 4	none
 🖖🏾	Vulcan-hilsen hudtype 5	none
 🖖🏿	Vulcan-hilsen hudtype 6	none
+🫱🏻	hånd mot høyre hudtype 1–2	none
+🫱🏼	hånd mot høyre hudtype 3	none
+🫱🏽	hånd mot høyre hudtype 4	none
+🫱🏾	hånd mot høyre hudtype 5	none
+🫱🏿	hånd mot høyre hudtype 6	none
+🫱🏻‍🫲🏼	håndhilse hudtype 1–2, hudtype 3	none
+🫱🏻‍🫲🏽	håndhilse hudtype 1–2, hudtype 4	none
+🫱🏻‍🫲🏾	håndhilse hudtype 1–2, hudtype 5	none
+🫱🏻‍🫲🏿	håndhilse hudtype 1–2, hudtype 6	none
+🫱🏼‍🫲🏻	håndhilse hudtype 3, hudtype 1–2	none
+🫱🏼‍🫲🏽	håndhilse hudtype 3, hudtype 4	none
+🫱🏼‍🫲🏾	håndhilse hudtype 3, hudtype 5	none
+🫱🏼‍🫲🏿	håndhilse hudtype 3, hudtype 6	none
+🫱🏽‍🫲🏻	håndhilse hudtype 4, hudtype 1–2	none
+🫱🏽‍🫲🏼	håndhilse hudtype 4, hudtype 3	none
+🫱🏽‍🫲🏾	håndhilse hudtype 4, hudtype 5	none
+🫱🏽‍🫲🏿	håndhilse hudtype 4, hudtype 6	none
+🫱🏾‍🫲🏻	håndhilse hudtype 5, hudtype 1–2	none
+🫱🏾‍🫲🏼	håndhilse hudtype 5, hudtype 3	none
+🫱🏾‍🫲🏽	håndhilse hudtype 5, hudtype 4	none
+🫱🏾‍🫲🏿	håndhilse hudtype 5, hudtype 6	none
+🫱🏿‍🫲🏻	håndhilse hudtype 6, hudtype 1–2	none
+🫱🏿‍🫲🏼	håndhilse hudtype 6, hudtype 3	none
+🫱🏿‍🫲🏽	håndhilse hudtype 6, hudtype 4	none
+🫱🏿‍🫲🏾	håndhilse hudtype 6, hudtype 5	none
+🫲🏻	hånd mot venstre hudtype 1–2	none
+🫲🏼	hånd mot venstre hudtype 3	none
+🫲🏽	hånd mot venstre hudtype 4	none
+🫲🏾	hånd mot venstre hudtype 5	none
+🫲🏿	hånd mot venstre hudtype 6	none
+🫳🏻	håndflaten ned hudtype 1–2	none
+🫳🏼	håndflaten ned hudtype 3	none
+🫳🏽	håndflaten ned hudtype 4	none
+🫳🏾	håndflaten ned hudtype 5	none
+🫳🏿	håndflaten ned hudtype 6	none
+🫴🏻	håndflaten opp hudtype 1–2	none
+🫴🏼	håndflaten opp hudtype 3	none
+🫴🏽	håndflaten opp hudtype 4	none
+🫴🏾	håndflaten opp hudtype 5	none
+🫴🏿	håndflaten opp hudtype 6	none
+🫷🏻	håndflate hevet mot venstre hudtype 1–2	none
+🫷🏼	håndflate hevet mot venstre hudtype 3	none
+🫷🏽	håndflate hevet mot venstre hudtype 4	none
+🫷🏾	håndflate hevet mot venstre hudtype 5	none
+🫷🏿	håndflate hevet mot venstre hudtype 6	none
+🫸🏻	håndflate hevet mot høyre hudtype 1–2	none
+🫸🏼	håndflate hevet mot høyre hudtype 3	none
+🫸🏽	håndflate hevet mot høyre hudtype 4	none
+🫸🏾	håndflate hevet mot høyre hudtype 5	none
+🫸🏿	håndflate hevet mot høyre hudtype 6	none
 👌🏻	OK-hånd hudtype 1–2	none
 👌🏼	OK-hånd hudtype 3	none
 👌🏽	OK-hånd hudtype 4	none
@@ -1651,6 +1939,11 @@ symbols:
 🤞🏽	kryssede fingre hudtype 4	none
 🤞🏾	kryssede fingre hudtype 5	none
 🤞🏿	kryssede fingre hudtype 6	none
+🫰🏻	hånd med pekefinger og tommel krysset hudtype 1–2	none
+🫰🏼	hånd med pekefinger og tommel krysset hudtype 3	none
+🫰🏽	hånd med pekefinger og tommel krysset hudtype 4	none
+🫰🏾	hånd med pekefinger og tommel krysset hudtype 5	none
+🫰🏿	hånd med pekefinger og tommel krysset hudtype 6	none
 🤟🏻	glad i deg-tegn hudtype 1–2	none
 🤟🏼	glad i deg-tegn hudtype 3	none
 🤟🏽	glad i deg-tegn hudtype 4	none
@@ -1696,6 +1989,11 @@ symbols:
 ☝🏽	peker opp hudtype 4	none
 ☝🏾	peker opp hudtype 5	none
 ☝🏿	peker opp hudtype 6	none
+🫵🏻	pekefinger peker på leseren hudtype 1–2	none
+🫵🏼	pekefinger peker på leseren hudtype 3	none
+🫵🏽	pekefinger peker på leseren hudtype 4	none
+🫵🏾	pekefinger peker på leseren hudtype 5	none
+🫵🏿	pekefinger peker på leseren hudtype 6	none
 👍🏻	tommel opp hudtype 1–2	none
 👍🏼	tommel opp hudtype 3	none
 👍🏽	tommel opp hudtype 4	none
@@ -1736,6 +2034,11 @@ symbols:
 🙌🏽	hevede hender hudtype 4	none
 🙌🏾	hevede hender hudtype 5	none
 🙌🏿	hevede hender hudtype 6	none
+🫶🏻	hjertehender hudtype 1–2	none
+🫶🏼	hjertehender hudtype 3	none
+🫶🏽	hjertehender hudtype 4	none
+🫶🏾	hjertehender hudtype 5	none
+🫶🏿	hjertehender hudtype 6	none
 👐🏻	åpne hender hudtype 1–2	none
 👐🏼	åpne hender hudtype 3	none
 👐🏽	åpne hender hudtype 4	none
@@ -1746,6 +2049,11 @@ symbols:
 🤲🏽	håndflatene sammen hudtype 4	none
 🤲🏾	håndflatene sammen hudtype 5	none
 🤲🏿	håndflatene sammen hudtype 6	none
+🤝🏻	håndhilse hudtype 1–2	none
+🤝🏼	håndhilse hudtype 3	none
+🤝🏽	håndhilse hudtype 4	none
+🤝🏾	håndhilse hudtype 5	none
+🤝🏿	håndhilse hudtype 6	none
 🙏🏻	foldede hender hudtype 1–2	none
 🙏🏼	foldede hender hudtype 3	none
 🙏🏽	foldede hender hudtype 4	none
@@ -1866,6 +2174,26 @@ symbols:
 🧑🏿‍❤‍🧑🏼	par med hjerte voksen, voksen, hudtype 6, hudtype 3	none
 🧑🏿‍❤‍🧑🏽	par med hjerte voksen, voksen, hudtype 6, hudtype 4	none
 🧑🏿‍❤‍🧑🏾	par med hjerte voksen, voksen, hudtype 6, hudtype 5	none
+🧑🏻‍🫯‍🧑🏼	brytere hudtype 1–2, hudtype 3	none
+🧑🏻‍🫯‍🧑🏽	brytere hudtype 1–2, hudtype 4	none
+🧑🏻‍🫯‍🧑🏾	brytere hudtype 1–2, hudtype 5	none
+🧑🏻‍🫯‍🧑🏿	brytere hudtype 1–2, hudtype 6	none
+🧑🏼‍🫯‍🧑🏻	brytere hudtype 3, hudtype 1–2	none
+🧑🏼‍🫯‍🧑🏽	brytere hudtype 3, hudtype 4	none
+🧑🏼‍🫯‍🧑🏾	brytere hudtype 3, hudtype 5	none
+🧑🏼‍🫯‍🧑🏿	brytere hudtype 3, hudtype 6	none
+🧑🏽‍🫯‍🧑🏻	brytere hudtype 4, hudtype 1–2	none
+🧑🏽‍🫯‍🧑🏼	brytere hudtype 4, hudtype 3	none
+🧑🏽‍🫯‍🧑🏾	brytere hudtype 4, hudtype 5	none
+🧑🏽‍🫯‍🧑🏿	brytere hudtype 4, hudtype 6	none
+🧑🏾‍🫯‍🧑🏻	brytere hudtype 5, hudtype 1–2	none
+🧑🏾‍🫯‍🧑🏼	brytere hudtype 5, hudtype 3	none
+🧑🏾‍🫯‍🧑🏽	brytere hudtype 5, hudtype 4	none
+🧑🏾‍🫯‍🧑🏿	brytere hudtype 5, hudtype 6	none
+🧑🏿‍🫯‍🧑🏻	brytere hudtype 6, hudtype 1–2	none
+🧑🏿‍🫯‍🧑🏼	brytere hudtype 6, hudtype 3	none
+🧑🏿‍🫯‍🧑🏽	brytere hudtype 6, hudtype 4	none
+🧑🏿‍🫯‍🧑🏾	brytere hudtype 6, hudtype 5	none
 🧑‍🦰	voksen rødt hår	none
 🧑🏻‍🦰	voksen hudtype 1–2, rødt hår	none
 🧑🏼‍🦰	voksen hudtype 3, rødt hår	none
@@ -1890,6 +2218,26 @@ symbols:
 🧑🏽‍🦲	voksen hudtype 4, skallet	none
 🧑🏾‍🦲	voksen hudtype 5, skallet	none
 🧑🏿‍🦲	voksen hudtype 6, skallet	none
+🧑🏻‍🐰‍🧑🏼	personer med kaninører hudtype 1–2, hudtype 3	none
+🧑🏻‍🐰‍🧑🏽	personer med kaninører hudtype 1–2, hudtype 4	none
+🧑🏻‍🐰‍🧑🏾	personer med kaninører hudtype 1–2, hudtype 5	none
+🧑🏻‍🐰‍🧑🏿	personer med kaninører hudtype 1–2, hudtype 6	none
+🧑🏼‍🐰‍🧑🏻	personer med kaninører hudtype 3, hudtype 1–2	none
+🧑🏼‍🐰‍🧑🏽	personer med kaninører hudtype 3, hudtype 4	none
+🧑🏼‍🐰‍🧑🏾	personer med kaninører hudtype 3, hudtype 5	none
+🧑🏼‍🐰‍🧑🏿	personer med kaninører hudtype 3, hudtype 6	none
+🧑🏽‍🐰‍🧑🏻	personer med kaninører hudtype 4, hudtype 1–2	none
+🧑🏽‍🐰‍🧑🏼	personer med kaninører hudtype 4, hudtype 3	none
+🧑🏽‍🐰‍🧑🏾	personer med kaninører hudtype 4, hudtype 5	none
+🧑🏽‍🐰‍🧑🏿	personer med kaninører hudtype 4, hudtype 6	none
+🧑🏾‍🐰‍🧑🏻	personer med kaninører hudtype 5, hudtype 1–2	none
+🧑🏾‍🐰‍🧑🏼	personer med kaninører hudtype 5, hudtype 3	none
+🧑🏾‍🐰‍🧑🏽	personer med kaninører hudtype 5, hudtype 4	none
+🧑🏾‍🐰‍🧑🏿	personer med kaninører hudtype 5, hudtype 6	none
+🧑🏿‍🐰‍🧑🏻	personer med kaninører hudtype 6, hudtype 1–2	none
+🧑🏿‍🐰‍🧑🏼	personer med kaninører hudtype 6, hudtype 3	none
+🧑🏿‍🐰‍🧑🏽	personer med kaninører hudtype 6, hudtype 4	none
+🧑🏿‍🐰‍🧑🏾	personer med kaninører hudtype 6, hudtype 5	none
 👨🏻	mann hudtype 1–2	none
 👨🏼	mann hudtype 3	none
 👨🏽	mann hudtype 4	none
@@ -1960,6 +2308,26 @@ symbols:
 👨🏿‍❤‍👨🏽	par med hjerte mann, mann, hudtype 6, hudtype 4	none
 👨🏿‍❤‍👨🏾	par med hjerte mann, mann, hudtype 6, hudtype 5	none
 👨🏿‍❤‍👨🏿	par med hjerte mann, mann, hudtype 6	none
+👨🏻‍🫯‍👨🏼	mannlige brytere hudtype 1–2, hudtype 3	none
+👨🏻‍🫯‍👨🏽	mannlige brytere hudtype 1–2, hudtype 4	none
+👨🏻‍🫯‍👨🏾	mannlige brytere hudtype 1–2, hudtype 5	none
+👨🏻‍🫯‍👨🏿	mannlige brytere hudtype 1–2, hudtype 6	none
+👨🏼‍🫯‍👨🏻	mannlige brytere hudtype 3, hudtype 1–2	none
+👨🏼‍🫯‍👨🏽	mannlige brytere hudtype 3, hudtype 4	none
+👨🏼‍🫯‍👨🏾	mannlige brytere hudtype 3, hudtype 5	none
+👨🏼‍🫯‍👨🏿	mannlige brytere hudtype 3, hudtype 6	none
+👨🏽‍🫯‍👨🏻	mannlige brytere hudtype 4, hudtype 1–2	none
+👨🏽‍🫯‍👨🏼	mannlige brytere hudtype 4, hudtype 3	none
+👨🏽‍🫯‍👨🏾	mannlige brytere hudtype 4, hudtype 5	none
+👨🏽‍🫯‍👨🏿	mannlige brytere hudtype 4, hudtype 6	none
+👨🏾‍🫯‍👨🏻	mannlige brytere hudtype 5, hudtype 1–2	none
+👨🏾‍🫯‍👨🏼	mannlige brytere hudtype 5, hudtype 3	none
+👨🏾‍🫯‍👨🏽	mannlige brytere hudtype 5, hudtype 4	none
+👨🏾‍🫯‍👨🏿	mannlige brytere hudtype 5, hudtype 6	none
+👨🏿‍🫯‍👨🏻	mannlige brytere hudtype 6, hudtype 1–2	none
+👨🏿‍🫯‍👨🏼	mannlige brytere hudtype 6, hudtype 3	none
+👨🏿‍🫯‍👨🏽	mannlige brytere hudtype 6, hudtype 4	none
+👨🏿‍🫯‍👨🏾	mannlige brytere hudtype 6, hudtype 5	none
 👨‍🦰	mann rødt hår	none
 👨🏻‍🦰	mann hudtype 1–2, rødt hår	none
 👨🏼‍🦰	mann hudtype 3, rødt hår	none
@@ -1984,6 +2352,26 @@ symbols:
 👨🏽‍🦲	mann hudtype 4, skallet	none
 👨🏾‍🦲	mann hudtype 5, skallet	none
 👨🏿‍🦲	mann hudtype 6, skallet	none
+👨🏻‍🐰‍👨🏼	menn med kaninører hudtype 1–2, hudtype 3	none
+👨🏻‍🐰‍👨🏽	menn med kaninører hudtype 1–2, hudtype 4	none
+👨🏻‍🐰‍👨🏾	menn med kaninører hudtype 1–2, hudtype 5	none
+👨🏻‍🐰‍👨🏿	menn med kaninører hudtype 1–2, hudtype 6	none
+👨🏼‍🐰‍👨🏻	menn med kaninører hudtype 3, hudtype 1–2	none
+👨🏼‍🐰‍👨🏽	menn med kaninører hudtype 3, hudtype 4	none
+👨🏼‍🐰‍👨🏾	menn med kaninører hudtype 3, hudtype 5	none
+👨🏼‍🐰‍👨🏿	menn med kaninører hudtype 3, hudtype 6	none
+👨🏽‍🐰‍👨🏻	menn med kaninører hudtype 4, hudtype 1–2	none
+👨🏽‍🐰‍👨🏼	menn med kaninører hudtype 4, hudtype 3	none
+👨🏽‍🐰‍👨🏾	menn med kaninører hudtype 4, hudtype 5	none
+👨🏽‍🐰‍👨🏿	menn med kaninører hudtype 4, hudtype 6	none
+👨🏾‍🐰‍👨🏻	menn med kaninører hudtype 5, hudtype 1–2	none
+👨🏾‍🐰‍👨🏼	menn med kaninører hudtype 5, hudtype 3	none
+👨🏾‍🐰‍👨🏽	menn med kaninører hudtype 5, hudtype 4	none
+👨🏾‍🐰‍👨🏿	menn med kaninører hudtype 5, hudtype 6	none
+👨🏿‍🐰‍👨🏻	menn med kaninører hudtype 6, hudtype 1–2	none
+👨🏿‍🐰‍👨🏼	menn med kaninører hudtype 6, hudtype 3	none
+👨🏿‍🐰‍👨🏽	menn med kaninører hudtype 6, hudtype 4	none
+👨🏿‍🐰‍👨🏾	menn med kaninører hudtype 6, hudtype 5	none
 👩🏻	kvinne hudtype 1–2	none
 👩🏼	kvinne hudtype 3	none
 👩🏽	kvinne hudtype 4	none
@@ -2099,6 +2487,26 @@ symbols:
 👩🏿‍❤‍👩🏽	par med hjerte kvinne, kvinne, hudtype 6, hudtype 4	none
 👩🏿‍❤‍👩🏾	par med hjerte kvinne, kvinne, hudtype 6, hudtype 5	none
 👩🏿‍❤‍👩🏿	par med hjerte kvinne, kvinne, hudtype 6	none
+👩🏻‍🫯‍👩🏼	kvinnelige brytere hudtype 1–2, hudtype 3	none
+👩🏻‍🫯‍👩🏽	kvinnelige brytere hudtype 1–2, hudtype 4	none
+👩🏻‍🫯‍👩🏾	kvinnelige brytere hudtype 1–2, hudtype 5	none
+👩🏻‍🫯‍👩🏿	kvinnelige brytere hudtype 1–2, hudtype 6	none
+👩🏼‍🫯‍👩🏻	kvinnelige brytere hudtype 3, hudtype 1–2	none
+👩🏼‍🫯‍👩🏽	kvinnelige brytere hudtype 3, hudtype 4	none
+👩🏼‍🫯‍👩🏾	kvinnelige brytere hudtype 3, hudtype 5	none
+👩🏼‍🫯‍👩🏿	kvinnelige brytere hudtype 3, hudtype 6	none
+👩🏽‍🫯‍👩🏻	kvinnelige brytere hudtype 4, hudtype 1–2	none
+👩🏽‍🫯‍👩🏼	kvinnelige brytere hudtype 4, hudtype 3	none
+👩🏽‍🫯‍👩🏾	kvinnelige brytere hudtype 4, hudtype 5	none
+👩🏽‍🫯‍👩🏿	kvinnelige brytere hudtype 4, hudtype 6	none
+👩🏾‍🫯‍👩🏻	kvinnelige brytere hudtype 5, hudtype 1–2	none
+👩🏾‍🫯‍👩🏼	kvinnelige brytere hudtype 5, hudtype 3	none
+👩🏾‍🫯‍👩🏽	kvinnelige brytere hudtype 5, hudtype 4	none
+👩🏾‍🫯‍👩🏿	kvinnelige brytere hudtype 5, hudtype 6	none
+👩🏿‍🫯‍👩🏻	kvinnelige brytere hudtype 6, hudtype 1–2	none
+👩🏿‍🫯‍👩🏼	kvinnelige brytere hudtype 6, hudtype 3	none
+👩🏿‍🫯‍👩🏽	kvinnelige brytere hudtype 6, hudtype 4	none
+👩🏿‍🫯‍👩🏾	kvinnelige brytere hudtype 6, hudtype 5	none
 👩‍🦰	kvinne rødt hår	none
 👩🏻‍🦰	kvinne hudtype 1–2, rødt hår	none
 👩🏼‍🦰	kvinne hudtype 3, rødt hår	none
@@ -2123,6 +2531,26 @@ symbols:
 👩🏽‍🦲	kvinne hudtype 4, skallet	none
 👩🏾‍🦲	kvinne hudtype 5, skallet	none
 👩🏿‍🦲	kvinne hudtype 6, skallet	none
+👩🏻‍🐰‍👩🏼	kvinner med kaninører hudtype 1–2, hudtype 3	none
+👩🏻‍🐰‍👩🏽	kvinner med kaninører hudtype 1–2, hudtype 4	none
+👩🏻‍🐰‍👩🏾	kvinner med kaninører hudtype 1–2, hudtype 5	none
+👩🏻‍🐰‍👩🏿	kvinner med kaninører hudtype 1–2, hudtype 6	none
+👩🏼‍🐰‍👩🏻	kvinner med kaninører hudtype 3, hudtype 1–2	none
+👩🏼‍🐰‍👩🏽	kvinner med kaninører hudtype 3, hudtype 4	none
+👩🏼‍🐰‍👩🏾	kvinner med kaninører hudtype 3, hudtype 5	none
+👩🏼‍🐰‍👩🏿	kvinner med kaninører hudtype 3, hudtype 6	none
+👩🏽‍🐰‍👩🏻	kvinner med kaninører hudtype 4, hudtype 1–2	none
+👩🏽‍🐰‍👩🏼	kvinner med kaninører hudtype 4, hudtype 3	none
+👩🏽‍🐰‍👩🏾	kvinner med kaninører hudtype 4, hudtype 5	none
+👩🏽‍🐰‍👩🏿	kvinner med kaninører hudtype 4, hudtype 6	none
+👩🏾‍🐰‍👩🏻	kvinner med kaninører hudtype 5, hudtype 1–2	none
+👩🏾‍🐰‍👩🏼	kvinner med kaninører hudtype 5, hudtype 3	none
+👩🏾‍🐰‍👩🏽	kvinner med kaninører hudtype 5, hudtype 4	none
+👩🏾‍🐰‍👩🏿	kvinner med kaninører hudtype 5, hudtype 6	none
+👩🏿‍🐰‍👩🏻	kvinner med kaninører hudtype 6, hudtype 1–2	none
+👩🏿‍🐰‍👩🏼	kvinner med kaninører hudtype 6, hudtype 3	none
+👩🏿‍🐰‍👩🏽	kvinner med kaninører hudtype 6, hudtype 4	none
+👩🏿‍🐰‍👩🏾	kvinner med kaninører hudtype 6, hudtype 5	none
 🧓🏻	eldre voksen hudtype 1–2	none
 🧓🏼	eldre voksen hudtype 3	none
 🧓🏽	eldre voksen hudtype 4	none
@@ -2593,6 +3021,11 @@ symbols:
 👷🏽‍♀	kvinnelig anleggsarbeider hudtype 4	none
 👷🏾‍♀	kvinnelig anleggsarbeider hudtype 5	none
 👷🏿‍♀	kvinnelig anleggsarbeider hudtype 6	none
+🫅🏻	person med krone hudtype 1–2	none
+🫅🏼	person med krone hudtype 3	none
+🫅🏽	person med krone hudtype 4	none
+🫅🏾	person med krone hudtype 5	none
+🫅🏿	person med krone hudtype 6	none
 🤴🏻	prins hudtype 1–2	none
 🤴🏼	prins hudtype 3	none
 🤴🏽	prins hudtype 4	none
@@ -2663,6 +3096,16 @@ symbols:
 🤰🏽	gravid kvinne hudtype 4	none
 🤰🏾	gravid kvinne hudtype 5	none
 🤰🏿	gravid kvinne hudtype 6	none
+🫃🏻	gravid mann hudtype 1–2	none
+🫃🏼	gravid mann hudtype 3	none
+🫃🏽	gravid mann hudtype 4	none
+🫃🏾	gravid mann hudtype 5	none
+🫃🏿	gravid mann hudtype 6	none
+🫄🏻	gravid person hudtype 1–2	none
+🫄🏼	gravid person hudtype 3	none
+🫄🏽	gravid person hudtype 4	none
+🫄🏾	gravid person hudtype 5	none
+🫄🏿	gravid person hudtype 6	none
 🤱🏻	ammer hudtype 1–2	none
 🤱🏼	ammer hudtype 3	none
 🤱🏽	ammer hudtype 4	none
@@ -2853,6 +3296,24 @@ symbols:
 🚶🏽‍♀	kvinnelig fotgjenger hudtype 4	none
 🚶🏾‍♀	kvinnelig fotgjenger hudtype 5	none
 🚶🏿‍♀	kvinnelig fotgjenger hudtype 6	none
+🚶‍➡	fotgjenger vendt mot høyre	none
+🚶🏻‍➡	fotgjenger hudtype 1–2, vendt mot høyre	none
+🚶🏼‍➡	fotgjenger hudtype 3, vendt mot høyre	none
+🚶🏽‍➡	fotgjenger hudtype 4, vendt mot høyre	none
+🚶🏾‍➡	fotgjenger hudtype 5, vendt mot høyre	none
+🚶🏿‍➡	fotgjenger hudtype 6, vendt mot høyre	none
+🚶‍♀‍➡	kvinnelig fotgjenger vendt mot høyre	none
+🚶🏻‍♀‍➡	kvinnelig fotgjenger hudtype 1–2, vendt mot høyre	none
+🚶🏼‍♀‍➡	kvinnelig fotgjenger hudtype 3, vendt mot høyre	none
+🚶🏽‍♀‍➡	kvinnelig fotgjenger hudtype 4, vendt mot høyre	none
+🚶🏾‍♀‍➡	kvinnelig fotgjenger hudtype 5, vendt mot høyre	none
+🚶🏿‍♀‍➡	kvinnelig fotgjenger hudtype 6, vendt mot høyre	none
+🚶‍♂‍➡	mannlig fotgjenger vendt mot høyre	none
+🚶🏻‍♂‍➡	mannlig fotgjenger hudtype 1–2, vendt mot høyre	none
+🚶🏼‍♂‍➡	mannlig fotgjenger hudtype 3, vendt mot høyre	none
+🚶🏽‍♂‍➡	mannlig fotgjenger hudtype 4, vendt mot høyre	none
+🚶🏾‍♂‍➡	mannlig fotgjenger hudtype 5, vendt mot høyre	none
+🚶🏿‍♂‍➡	mannlig fotgjenger hudtype 6, vendt mot høyre	none
 🧍🏻	person som står hudtype 1–2	none
 🧍🏼	person som står hudtype 3	none
 🧍🏽	person som står hudtype 4	none
@@ -2883,51 +3344,123 @@ symbols:
 🧎🏽‍♀	kvinne som kneler hudtype 4	none
 🧎🏾‍♀	kvinne som kneler hudtype 5	none
 🧎🏿‍♀	kvinne som kneler hudtype 6	none
+🧎‍➡	person som kneler vendt mot høyre	none
+🧎🏻‍➡	person som kneler hudtype 1–2, vendt mot høyre	none
+🧎🏼‍➡	person som kneler hudtype 3, vendt mot høyre	none
+🧎🏽‍➡	person som kneler hudtype 4, vendt mot høyre	none
+🧎🏾‍➡	person som kneler hudtype 5, vendt mot høyre	none
+🧎🏿‍➡	person som kneler hudtype 6, vendt mot høyre	none
+🧎‍♀‍➡	kvinne som kneler vendt mot høyre	none
+🧎🏻‍♀‍➡	kvinne som kneler hudtype 1–2, vendt mot høyre	none
+🧎🏼‍♀‍➡	kvinne som kneler hudtype 3, vendt mot høyre	none
+🧎🏽‍♀‍➡	kvinne som kneler hudtype 4, vendt mot høyre	none
+🧎🏾‍♀‍➡	kvinne som kneler hudtype 5, vendt mot høyre	none
+🧎🏿‍♀‍➡	kvinne som kneler hudtype 6, vendt mot høyre	none
+🧎‍♂‍➡	mann som kneler vendt mot høyre	none
+🧎🏻‍♂‍➡	mann som kneler hudtype 1–2, vendt mot høyre	none
+🧎🏼‍♂‍➡	mann som kneler hudtype 3, vendt mot høyre	none
+🧎🏽‍♂‍➡	mann som kneler hudtype 4, vendt mot høyre	none
+🧎🏾‍♂‍➡	mann som kneler hudtype 5, vendt mot høyre	none
+🧎🏿‍♂‍➡	mann som kneler hudtype 6, vendt mot høyre	none
 🧑🏻‍🦯	person med blindestokk hudtype 1–2	none
 🧑🏼‍🦯	person med blindestokk hudtype 3	none
 🧑🏽‍🦯	person med blindestokk hudtype 4	none
 🧑🏾‍🦯	person med blindestokk hudtype 5	none
 🧑🏿‍🦯	person med blindestokk hudtype 6	none
+🧑‍🦯‍➡	person med blindestokk vendt mot høyre	none
+🧑🏻‍🦯‍➡	person med blindestokk hudtype 1–2, vendt mot høyre	none
+🧑🏼‍🦯‍➡	person med blindestokk hudtype 3, vendt mot høyre	none
+🧑🏽‍🦯‍➡	person med blindestokk hudtype 4, vendt mot høyre	none
+🧑🏾‍🦯‍➡	person med blindestokk hudtype 5, vendt mot høyre	none
+🧑🏿‍🦯‍➡	person med blindestokk hudtype 6, vendt mot høyre	none
 👨🏻‍🦯	mann med blindestokk hudtype 1–2	none
 👨🏼‍🦯	mann med blindestokk hudtype 3	none
 👨🏽‍🦯	mann med blindestokk hudtype 4	none
 👨🏾‍🦯	mann med blindestokk hudtype 5	none
 👨🏿‍🦯	mann med blindestokk hudtype 6	none
+👨‍🦯‍➡	mann med blindestokk vendt mot høyre	none
+👨🏻‍🦯‍➡	mann med blindestokk hudtype 1–2, vendt mot høyre	none
+👨🏼‍🦯‍➡	mann med blindestokk hudtype 3, vendt mot høyre	none
+👨🏽‍🦯‍➡	mann med blindestokk hudtype 4, vendt mot høyre	none
+👨🏾‍🦯‍➡	mann med blindestokk hudtype 5, vendt mot høyre	none
+👨🏿‍🦯‍➡	mann med blindestokk hudtype 6, vendt mot høyre	none
 👩🏻‍🦯	kvinne med blindestokk hudtype 1–2	none
 👩🏼‍🦯	kvinne med blindestokk hudtype 3	none
 👩🏽‍🦯	kvinne med blindestokk hudtype 4	none
 👩🏾‍🦯	kvinne med blindestokk hudtype 5	none
 👩🏿‍🦯	kvinne med blindestokk hudtype 6	none
+👩‍🦯‍➡	kvinne med blindestokk vendt mot høyre	none
+👩🏻‍🦯‍➡	kvinne med blindestokk hudtype 1–2, vendt mot høyre	none
+👩🏼‍🦯‍➡	kvinne med blindestokk hudtype 3, vendt mot høyre	none
+👩🏽‍🦯‍➡	kvinne med blindestokk hudtype 4, vendt mot høyre	none
+👩🏾‍🦯‍➡	kvinne med blindestokk hudtype 5, vendt mot høyre	none
+👩🏿‍🦯‍➡	kvinne med blindestokk hudtype 6, vendt mot høyre	none
 🧑🏻‍🦼	person i motorisert rullestol hudtype 1–2	none
 🧑🏼‍🦼	person i motorisert rullestol hudtype 3	none
 🧑🏽‍🦼	person i motorisert rullestol hudtype 4	none
 🧑🏾‍🦼	person i motorisert rullestol hudtype 5	none
 🧑🏿‍🦼	person i motorisert rullestol hudtype 6	none
+🧑‍🦼‍➡	person i motorisert rullestol vendt mot høyre	none
+🧑🏻‍🦼‍➡	person i motorisert rullestol hudtype 1–2, vendt mot høyre	none
+🧑🏼‍🦼‍➡	person i motorisert rullestol hudtype 3, vendt mot høyre	none
+🧑🏽‍🦼‍➡	person i motorisert rullestol hudtype 4, vendt mot høyre	none
+🧑🏾‍🦼‍➡	person i motorisert rullestol hudtype 5, vendt mot høyre	none
+🧑🏿‍🦼‍➡	person i motorisert rullestol hudtype 6, vendt mot høyre	none
 👨🏻‍🦼	mann i motorisert rullestol hudtype 1–2	none
 👨🏼‍🦼	mann i motorisert rullestol hudtype 3	none
 👨🏽‍🦼	mann i motorisert rullestol hudtype 4	none
 👨🏾‍🦼	mann i motorisert rullestol hudtype 5	none
 👨🏿‍🦼	mann i motorisert rullestol hudtype 6	none
+👨‍🦼‍➡	mann i motorisert rullestol vendt mot høyre	none
+👨🏻‍🦼‍➡	mann i motorisert rullestol hudtype 1–2, vendt mot høyre	none
+👨🏼‍🦼‍➡	mann i motorisert rullestol hudtype 3, vendt mot høyre	none
+👨🏽‍🦼‍➡	mann i motorisert rullestol hudtype 4, vendt mot høyre	none
+👨🏾‍🦼‍➡	mann i motorisert rullestol hudtype 5, vendt mot høyre	none
+👨🏿‍🦼‍➡	mann i motorisert rullestol hudtype 6, vendt mot høyre	none
 👩🏻‍🦼	kvinne i motorisert rullestol hudtype 1–2	none
 👩🏼‍🦼	kvinne i motorisert rullestol hudtype 3	none
 👩🏽‍🦼	kvinne i motorisert rullestol hudtype 4	none
 👩🏾‍🦼	kvinne i motorisert rullestol hudtype 5	none
 👩🏿‍🦼	kvinne i motorisert rullestol hudtype 6	none
+👩‍🦼‍➡	kvinne i motorisert rullestol vendt mot høyre	none
+👩🏻‍🦼‍➡	kvinne i motorisert rullestol hudtype 1–2, vendt mot høyre	none
+👩🏼‍🦼‍➡	kvinne i motorisert rullestol hudtype 3, vendt mot høyre	none
+👩🏽‍🦼‍➡	kvinne i motorisert rullestol hudtype 4, vendt mot høyre	none
+👩🏾‍🦼‍➡	kvinne i motorisert rullestol hudtype 5, vendt mot høyre	none
+👩🏿‍🦼‍➡	kvinne i motorisert rullestol hudtype 6, vendt mot høyre	none
 🧑🏻‍🦽	person i manuell rullestol hudtype 1–2	none
 🧑🏼‍🦽	person i manuell rullestol hudtype 3	none
 🧑🏽‍🦽	person i manuell rullestol hudtype 4	none
 🧑🏾‍🦽	person i manuell rullestol hudtype 5	none
 🧑🏿‍🦽	person i manuell rullestol hudtype 6	none
+🧑‍🦽‍➡	person i manuell rullestol vendt mot høyre	none
+🧑🏻‍🦽‍➡	person i manuell rullestol hudtype 1–2, vendt mot høyre	none
+🧑🏼‍🦽‍➡	person i manuell rullestol hudtype 3, vendt mot høyre	none
+🧑🏽‍🦽‍➡	person i manuell rullestol hudtype 4, vendt mot høyre	none
+🧑🏾‍🦽‍➡	person i manuell rullestol hudtype 5, vendt mot høyre	none
+🧑🏿‍🦽‍➡	person i manuell rullestol hudtype 6, vendt mot høyre	none
 👨🏻‍🦽	mann i manuell rullestol hudtype 1–2	none
 👨🏼‍🦽	mann i manuell rullestol hudtype 3	none
 👨🏽‍🦽	mann i manuell rullestol hudtype 4	none
 👨🏾‍🦽	mann i manuell rullestol hudtype 5	none
 👨🏿‍🦽	mann i manuell rullestol hudtype 6	none
+👨‍🦽‍➡	mann i manuell rullestol vendt mot høyre	none
+👨🏻‍🦽‍➡	mann i manuell rullestol hudtype 1–2, vendt mot høyre	none
+👨🏼‍🦽‍➡	mann i manuell rullestol hudtype 3, vendt mot høyre	none
+👨🏽‍🦽‍➡	mann i manuell rullestol hudtype 4, vendt mot høyre	none
+👨🏾‍🦽‍➡	mann i manuell rullestol hudtype 5, vendt mot høyre	none
+👨🏿‍🦽‍➡	mann i manuell rullestol hudtype 6, vendt mot høyre	none
 👩🏻‍🦽	kvinne i manuell rullestol hudtype 1–2	none
 👩🏼‍🦽	kvinne i manuell rullestol hudtype 3	none
 👩🏽‍🦽	kvinne i manuell rullestol hudtype 4	none
 👩🏾‍🦽	kvinne i manuell rullestol hudtype 5	none
 👩🏿‍🦽	kvinne i manuell rullestol hudtype 6	none
+👩‍🦽‍➡	kvinne i manuell rullestol vendt mot høyre	none
+👩🏻‍🦽‍➡	kvinne i manuell rullestol hudtype 1–2, vendt mot høyre	none
+👩🏼‍🦽‍➡	kvinne i manuell rullestol hudtype 3, vendt mot høyre	none
+👩🏽‍🦽‍➡	kvinne i manuell rullestol hudtype 4, vendt mot høyre	none
+👩🏾‍🦽‍➡	kvinne i manuell rullestol hudtype 5, vendt mot høyre	none
+👩🏿‍🦽‍➡	kvinne i manuell rullestol hudtype 6, vendt mot høyre	none
 🏃🏻	løper hudtype 1–2	none
 🏃🏼	løper hudtype 3	none
 🏃🏽	løper hudtype 4	none
@@ -2943,6 +3476,29 @@ symbols:
 🏃🏽‍♀	kvinnelig løper hudtype 4	none
 🏃🏾‍♀	kvinnelig løper hudtype 5	none
 🏃🏿‍♀	kvinnelig løper hudtype 6	none
+🏃‍➡	løper vendt mot høyre	none
+🏃🏻‍➡	løper hudtype 1–2, vendt mot høyre	none
+🏃🏼‍➡	løper hudtype 3, vendt mot høyre	none
+🏃🏽‍➡	løper hudtype 4, vendt mot høyre	none
+🏃🏾‍➡	løper hudtype 5, vendt mot høyre	none
+🏃🏿‍➡	løper hudtype 6, vendt mot høyre	none
+🏃‍♀‍➡	kvinnelig løper vendt mot høyre	none
+🏃🏻‍♀‍➡	kvinnelig løper hudtype 1–2, vendt mot høyre	none
+🏃🏼‍♀‍➡	kvinnelig løper hudtype 3, vendt mot høyre	none
+🏃🏽‍♀‍➡	kvinnelig løper hudtype 4, vendt mot høyre	none
+🏃🏾‍♀‍➡	kvinnelig løper hudtype 5, vendt mot høyre	none
+🏃🏿‍♀‍➡	kvinnelig løper hudtype 6, vendt mot høyre	none
+🏃‍♂‍➡	mannlig løper vendt mot høyre	none
+🏃🏻‍♂‍➡	mannlig løper hudtype 1–2, vendt mot høyre	none
+🏃🏼‍♂‍➡	mannlig løper hudtype 3, vendt mot høyre	none
+🏃🏽‍♂‍➡	mannlig løper hudtype 4, vendt mot høyre	none
+🏃🏾‍♂‍➡	mannlig løper hudtype 5, vendt mot høyre	none
+🏃🏿‍♂‍➡	mannlig løper hudtype 6, vendt mot høyre	none
+🧑🏻‍🩰	ballettdanser hudtype 1–2	none
+🧑🏼‍🩰	ballettdanser hudtype 3	none
+🧑🏽‍🩰	ballettdanser hudtype 4	none
+🧑🏾‍🩰	ballettdanser hudtype 5	none
+🧑🏿‍🩰	ballettdanser hudtype 6	none
 💃🏻	dansende kvinne hudtype 1–2	none
 💃🏼	dansende kvinne hudtype 3	none
 💃🏽	dansende kvinne hudtype 4	none
@@ -2958,6 +3514,21 @@ symbols:
 🕴🏽	svevende mann i dress hudtype 4	none
 🕴🏾	svevende mann i dress hudtype 5	none
 🕴🏿	svevende mann i dress hudtype 6	none
+👯🏻	personer med kaninører hudtype 1–2	none
+👯🏼	personer med kaninører hudtype 3	none
+👯🏽	personer med kaninører hudtype 4	none
+👯🏾	personer med kaninører hudtype 5	none
+👯🏿	personer med kaninører hudtype 6	none
+👯🏻‍♂	menn med kaninører hudtype 1–2	none
+👯🏼‍♂	menn med kaninører hudtype 3	none
+👯🏽‍♂	menn med kaninører hudtype 4	none
+👯🏾‍♂	menn med kaninører hudtype 5	none
+👯🏿‍♂	menn med kaninører hudtype 6	none
+👯🏻‍♀	kvinner med kaninører hudtype 1–2	none
+👯🏼‍♀	kvinner med kaninører hudtype 3	none
+👯🏽‍♀	kvinner med kaninører hudtype 4	none
+👯🏾‍♀	kvinner med kaninører hudtype 5	none
+👯🏿‍♀	kvinner med kaninører hudtype 6	none
 🧖🏻	person i badstu hudtype 1–2	none
 🧖🏼	person i badstu hudtype 3	none
 🧖🏽	person i badstu hudtype 4	none
@@ -3133,6 +3704,21 @@ symbols:
 🤸🏽‍♀	kvinne som slår hjul hudtype 4	none
 🤸🏾‍♀	kvinne som slår hjul hudtype 5	none
 🤸🏿‍♀	kvinne som slår hjul hudtype 6	none
+🤼🏻	brytere hudtype 1–2	none
+🤼🏼	brytere hudtype 3	none
+🤼🏽	brytere hudtype 4	none
+🤼🏾	brytere hudtype 5	none
+🤼🏿	brytere hudtype 6	none
+🤼🏻‍♂	mannlige brytere hudtype 1–2	none
+🤼🏼‍♂	mannlige brytere hudtype 3	none
+🤼🏽‍♂	mannlige brytere hudtype 4	none
+🤼🏾‍♂	mannlige brytere hudtype 5	none
+🤼🏿‍♂	mannlige brytere hudtype 6	none
+🤼🏻‍♀	kvinnelige brytere hudtype 1–2	none
+🤼🏼‍♀	kvinnelige brytere hudtype 3	none
+🤼🏽‍♀	kvinnelige brytere hudtype 4	none
+🤼🏾‍♀	kvinnelige brytere hudtype 5	none
+🤼🏿‍♀	kvinnelige brytere hudtype 6	none
 🤽🏻	vannpolo hudtype 1–2	none
 🤽🏼	vannpolo hudtype 3	none
 🤽🏽	vannpolo hudtype 4	none
@@ -3381,7 +3967,7 @@ symbols:
 🇧🇹	flagg Bhutan	none
 🇧🇻	flagg Bouvetøya	none
 🇧🇼	flagg Botswana	none
-🇧🇾	flagg Hviterussland	none
+🇧🇾	flagg Belarus	none
 🇧🇿	flagg Belize	none
 🇨🇦	flagg Canada	none
 🇨🇨	flagg Kokosøyene	none
@@ -3396,6 +3982,7 @@ symbols:
 🇨🇳	flagg Kina	none
 🇨🇴	flagg Colombia	none
 🇨🇵	flagg Clippertonøya	none
+🇨🇶	flagg Sark	none
 🇨🇷	flagg Costa Rica	none
 🇨🇺	flagg Cuba	none
 🇨🇻	flagg Kapp Verde	none
@@ -3608,7 +4195,6 @@ symbols:
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	flagg Wales	none
 ₡	costaricanske colón	none
 ₦	nigerianske naira	none
-₧	spanske peseta	none
 ₪	nye israelske shekler	none
 ₫	vietnamesiske dong	none
 ₭	laotiske kip	none
@@ -3620,3 +4206,4 @@ symbols:
 ₺	tyrkiske lire	none
 ₼	aserbajdsjanske manat	none
 ₾	georgiske lari	none
+₧	spanske peseta	none

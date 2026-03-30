@@ -10,27 +10,260 @@ symbols:
 🏿	ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 ℗	ᎤᏃᏴᎬ ᎤᏤᎵᎢ ᎤᎯᏴᎢ	none
 ←	ᎠᎦᏍᎦᏂ-ᎦᏝᏗ	none
+↚	leftwards arrow stroke	none
 →	ᎠᎦᏘᏏ-ᎦᏝᏗ	none
+↛	rightwards arrow stroke	none
 ↑	ᎦᎸᎳᏗ-ᎦᏝᏗ	none
 ↓	ᎡᎳᏗ-ᎦᏝᏗ	none
+↜	leftwards wave arrow	none
+↝	rightwards wave arrow	none
+↞	leftwards two headed arrow	none
+↟	upwards two headed arrow	none
+↠	rightwards two headed arrow	none
+↡	downwards two headed arrow	none
+↢	leftwards arrow tail	none
+↣	rightwards arrow tail	none
+↤	leftwards arrow from bar	none
+↥	upwards arrow from bar	none
+↦	rightwards arrow from bar	none
+↧	downwards arrow from bar	none
+↨	up down arrow with base	none
+↫	leftwards arrow loop	none
+↬	rightwards arrow loop	none
+↭	left right wave arrow	none
+↯	downwards zigzag arrow	none
+↰	upwards arrow tip leftwards	none
+↱	upwards arrow tip rightwards	none
+↲	downwards arrow tip leftwards	none
+↳	downwards arrow tip rightwards	none
+↴	rightwards arrow corner downwards	none
+↵	downwards arrow corner leftwards	none
+↶	anticlockwise top semicircle arrow	none
+↷	clockwise top semicircle arrow	none
+↸	north west arrow long bar	none
+↹	leftwards over rightwards arrow bars	none
+↺	anticlockwise open circle arrow	none
+↻	clockwise open circle arrow	none
+↼	leftwards harpoon barb upwards	none
+↽	leftwards harpoon barb downwards	none
+↾	upwards harpoon barb rightwards	none
+↿	upwards harpoon barb leftwards	none
+⇀	rightwards harpoon barb upwards	none
+⇁	rightwards harpoon barb downwards	none
+⇂	downwards harpoon barb rightwards	none
+⇃	downwards harpoon barb leftwards	none
+⇄	rightwards arrow over leftwards arrow	none
 ⇅	ᎦᎸᎳᏗ-ᎦᏝᏗ ᎠᎴ ᎡᎳᏗ-ᎦᏝᏗ	none
 ⇆	ᎠᎦᏍᎦᏂ-ᎦᏝᏗ ᎦᎸᎳᏗ ᎠᎦᏘᏏ-ᎦᏝᏗ	none
+⇇	leftwards paired arrows	none
+⇈	upwards paired arrows	none
+⇉	rightwards paired arrows	none
+⇊	downwards paired arrows	none
+⇋	leftwards harpoon over rightwards harpoon	none
+⇌	rightwards harpoon over leftwards harpoon	none
+⇐	leftwards double arrow	none
+⇍	leftwards double arrow stroke	none
+⇑	upwards double arrow	none
+⇒	rightwards double arrow	none
+⇏	rightwards double arrow stroke	none
+⇓	downwards double arrow	none
+⇔	left right double arrow	none
+⇎	left right double arrow stroke	none
+⇖	north west double arrow	none
+⇗	north east double arrow	none
+⇘	south east double arrow	none
+⇙	south west double arrow	none
+⇚	leftwards triple arrow	none
+⇛	rightwards triple arrow	none
+⇜	leftwards squiggle arrow	none
+⇝	rightwards squiggle arrow	none
+⇞	upwards arrow double stroke	none
+⇟	downwards arrow double stroke	none
+⇠	leftwards dashed arrow	none
+⇡	upwards dashed arrow	none
+⇢	rightwards dashed arrow	none
+⇣	downwards dashed arrow	none
+⇤	leftwards arrow bar	none
+⇥	rightwards arrow bar	none
+⇦	leftwards hollow arrow	none
+⇧	upwards hollow arrow	none
+⇨	rightwards hollow arrow	none
+⇩	downwards hollow arrow	none
+⇪	upwards hollow arrow from bar	none
+⇵	downwards arrow leftwards upwards arrow	none
+∀	for all	none
+∂	partial differential	none
+∃	there exists	none
+∅	empty set	none
 ∆	ᎤᏁᏉᏍᏗ	none
 ∇	ᎠᏲᎱᎯᏍᏗ	none
 ∈	ᎤᏙᏣᎵ ᎾᎿ	none
+∉	not an element	none
+∋	contains as member	none
+∎	end proof	none
+∏	n-ary product	none
+∑	n-ary summation	none
+≮	not less-than	none
+≠	Ꮭ ᎢᏧᎳ ᏱᎩ	none
+≯	not greater-than	none
+−	ᎪᏣᎴᏍᏗᏱ ᎪᏪᎸ	none
 ⁻	ᎤᏍᏗ ᎦᎸᎳᏗ ᎠᎩᏲᎳᏗᏍᏗ	none
+∓	minus-or-plus	none
+∕	division slash	none
+∗	asterisk operator	none
+∘	ring operator	none
+∙	bullet operator	none
 √	ᏅᎩ ᏧᏅᏏᏯ ᎤᎾᏍᏕᎵ	none
+∝	proportional	none
 ∞	ᎢᎪᎯᏓ ᎨᏒ ᎪᏪᎶᏗ	none
+∟	right angle	none
+∠	angle	none
+∣	divides	none
+∥	parallel	none
+∧	logical and	none
 ∩	ᏧᏠᎯᏍᏗ	none
 ∪	ᏌᏊ ᎤᎾᎵᎪᎯ	none
+∫	integral	none
+∬	double integral	none
+∮	contour integral	none
+∴	therefore	none
+∵	because	none
+∶	ratio	none
+∷	proportion	none
+∼	tilde operator	none
+∽	reversed tilde	none
+∾	inverted lazy s	none
+≃	asymptotically equal	none
+≅	approximately equal	none
+≈	ᎢᏧᎳᏢ	none
+≌	all equal	none
+≒	approximately equal the image	none
+≖	ring in equal	none
 ≡	ᏧᏠᏱ ᎾᎿ	none
+≣	strictly equivalent	none
+≤	ᏩᎦᏲᏢ ᎠᎴᏱᎩ ᎢᏧᎳᎭ	none
+≥	ᏭᏔᏅ ᎠᎴᏱᎩ ᎢᏧᎳᎭ	none
+≦	less-than over equal	none
+≧	greater-than over equal	none
+≪	much less-than	none
+≫	much greater-than	none
+≬	ᎭᏫᏂ	none
+≳	greater-than equivalent	none
+≺	precedes	none
+≻	succeeds	none
+⊁	does not succeed	none
 ⊂	ᎢᎦᏓᏊ ᎾᎿ	none
+⊃	superset	none
+⊆	subset equal	none
+⊇	superset equal	none
+⊕	circled plus	none
+⊖	circled minus	none
+⊗	circled times	none
+⊘	circled division slash	none
+⊙	circled dot operator	none
+⊚	circled ring operator	none
+⊛	circled asterisk operator	none
+⊞	squared plus	none
+⊟	squared minus	none
+⊥	up tack	none
+⊮	does not force	none
+⊰	precedes under relation	none
+⊱	succeeds under relation	none
+⋭	does not contain as normal subgroup equal	none
+⊶	original	none
+⊹	hermitian conjugate matrix	none
+⊿	right triangle	none
+⋁	n-ary logical or	none
+⋂	n-ary intersection	none
+⋃	n-ary union	none
+⋅	dot operator	none
+⋆	star operator	none
+⋈	natural join	none
+⋒	double intersection	none
+⋘	very much less-than	none
+⋙	very much greater-than	none
+⋮	vertical ellipsis	none
+⋯	midline horizontal ellipsis	none
+⋰	up right diagonal ellipsis	none
+⋱	down right diagonal ellipsis	none
+■	filled square	none
+□	hollow square	none
+▢	hollow square with rounded corners	none
+▣	hollow square containing filled square	none
+▤	square with horizontal fill	none
+▥	square with vertical fill	none
+▦	square orthogonal crosshatch fill	none
+▧	square upper left lower right fill	none
+▨	square upper right lower left fill	none
+▩	square diagonal crosshatch fill	none
+▬	filled rectangle	none
+▭	hollow rectangle	none
+▮	filled vertical rectangle	none
+▰	filled parallelogram	none
 ▲	ᎠᎧᎵᎸᎯ ᎦᎸᎳᏗ-ᏦᎢ ᏧᏅᏏᏯ	none
+△	hollow up-pointing triangle	none
+▴	filled up-pointing small triangle	none
+▵	hollow up-pointing small triangle	none
+▷	hollow right-pointing triangle	none
+▸	filled right-pointing small triangle	none
+▹	hollow right-pointing small triangle	none
+►	filled right-pointing pointer	none
+▻	hollow right-pointing pointer	none
 ▼	ᎠᎧᎵᎸᎯ ᎡᎳᏗ-ᏦᎢ ᏧᏅᏏᏯ	none
+▽	hollow down-pointing triangle	none
+▾	filled down-pointing small triangle	none
+▿	hollow down-pointing small triangle	none
+◁	hollow left-pointing triangle	none
+◂	filled left-pointing small triangle	none
+◃	hollow left-pointing small triangle	none
+◄	filled left-pointing pointer	none
+◅	hollow left-pointing pointer	none
+◆	filled diamond	none
+◇	hollow diamond	none
+◈	hollow diamond containing filled diamond	none
+◉	hollow circle containing filled circle	none
 ◊	ᎪᏍᏓᏱ	none
 ○	ᎤᏒᏙᏂ ᎦᏐᏆᎳ	none
+◌	dotted circle	none
+◍	circle with vertical fill	none
+◎	concentric circles	none
 ●	ᎠᎧᎵᎸᎯ ᎦᏐᏆᎳ	none
-◯	RᏆ ᎤᏒᏙᏂ ᎦᏐᏆᎳ	none
+◐	circle left half filled	none
+◑	circle right half filled	none
+◒	circle lower half filled	none
+◓	circle upper half filled	none
+◔	circle upper right quadrant filled	none
+◕	circle all but upper left quadrant filled	none
+◖	left half filled circle	none
+◗	right half filled circle	none
+◘	inverse bullet	none
+◙	filled square containing hollow circle	none
+◜	upper left quadrant circular arc	none
+◝	upper right quadrant circular arc	none
+◞	lower right quadrant circular arc	none
+◟	lower left quadrant circular arc	none
+◠	upper half circle	none
+◡	lower half circle	none
+◢	filled lower right triangle	none
+◣	filled lower left triangle	none
+◤	filled upper left triangle	none
+◥	filled upper right triangle	none
+◦	hollow bullet	none
+◯	ᎡᏆ ᎤᏒᏙᏂ ᎦᏐᏆᎳ	none
+◳	hollow square upper right quadrant	none
+◷	hollow circle with upper right quadrant	none
+◿	lower right triangle	none
+♪	eighth note	none
+⨧	plus subscript two	none
+⨯	vector cross product	none
+⨼	interior product	none
+⩣	logical or double underbar	none
+⩽	less-than slanted equal	none
+⪍	less-than above similar equal	none
+⪚	double-line equal greater-than	none
+⪺	succeeds above not almost equal	none
+♭	flat	none
+♯	sharp	none
 😀	ᎤᏤᏣᏍᏗ ᎤᎧᏛ	none
 😃	ᎤᏤᏣᏍᏗ ᎤᎧᏛ ᎾᏍᎩ ᎤᏔᎾ ᏗᎦᏙᎵ	none
 😄	ᎤᏤᏣᏍᏗ ᎤᎧᏛ ᎾᏍᎩ ᎤᏤᏣᏍᏗ ᏗᎦᏙᎵ	none
@@ -41,6 +274,7 @@ symbols:
 😂	ᎤᎧᏛᎢ ᎤᏠᏯᏍᏗ ᏚᎦᎳᏁᏒ Ꮎ ᎤᎵᎮᎵᏍᏗ	none
 🙂	ᏍᏗᎩᏓ ᎤᏰᏓᏍᎬ ᎤᎧᏛ	none
 🙃	ᏗᏁᏍᏈᏛᏅ-ᎡᎳᏗᏜ ᎤᎧᏛ	none
+🫠	ᎦᏅᏬᏍᎬ ᎤᎧᏛ	none
 😉	ᎠᏓᎦᏔᏁ ᎠᎦᏙᎵ	none
 😊	ᎤᏰᏗᏍᎩ ᎤᎧᏔ Ꮎ ᏧᏰᏗᏍᎩ ᏗᎦᏙᎵ	none
 😇	ᎤᏰᏗᏍᎩ ᎤᎧᏔ ᎤᎵᎪᏓ	none
@@ -61,23 +295,33 @@ symbols:
 🤑	ᎠᏕᎳ-ᎠᎰᎵ ᎤᎧᏛ	none
 🤗	ᎠᏄᎩᏢᏍᎩ ᎤᎧᏛ	none
 🤭	ᎤᎧᏛ ᎠᎰᎵ ᎤᏭᏝᎢ	none
+🫢	ᎤᎧᏛ ᎾᎿ ᎠᏍᏚᎢᏓ ᏗᎦᏙᎵ ᎠᎴ ᎠᎰᎵ ᎤᏭᏝᎢ	none
+🫣	ᎤᎧᏛ ᎾᎿ ᎤᏔᏅᎢ ᎠᎦᏙᎵ	none
 🤫	ᎡᎶᏪᎢ ᎾᎬᏁᎲᎢ ᎤᎧᏛ	none
 🤔	ᎠᏓᎾᏖᏍᎩ ᎤᎧᏛ	none
+🫡	ᎠᏓᏲᎵᏍᏗ ᎤᎧᏛ	none
 🤐	ᎥᎧᏁᏍᏗ-ᎠᎰᎵᎤᎧᏓ ᎤᎧᏛ	none
 🤨	ᎤᎧᏛ ᎤᎵᏌᎳᏗ ᎤᎦᏖᏌᎾᎸᎢ	none
 😐	ᏃᎵᎪᏛᎾ ᎤᎧᏛ	none
 😑	ᎤᎧᏛᎢ ᏅᏓᏁᏟᏴᏒᎾ ᎤᎧᏛ	none
 😶	ᎤᎧᏛᎢ ᏄᏠᏯᏍᏛᎾ ᎠᏲᎵ	none
+🫥	ᎤᏓᏓᎸ ᎠᏍᏓᏅᏅᎢ ᎤᎧᏛ	none
+😶‍🌫	ᎤᎧᏛ ᎭᏫᏂ ᏧᎶᎩᎵ	none
 😏	ᎤᏰᏗᏍᎩ ᎤᎧᏛ	none
 😒	ᏄᏰᏗᏍᎬᎾ ᎤᎧᏛ	none
 🙄	ᎤᎧᏛᎢ ᎤᏠᏯᏍᏗ ᎦᎦᏐᏆᎴᎦ ᏗᎦᏙᎵ	none
 😬	ᎤᏓᏁᎪᏳᎲᎢ ᎤᎧᏛ	none
+😮‍💨	ᎤᎧᏛ ᎤᏓᏅᏖᏙᏗ	none
 🤥	ᎠᎵᏍᎪᏅᏍᎦ ᎤᎧᏛ	none
+🫨	ᎦᎵᏍᏛᏂᎭ	none
+🙂‍↔	ᎠᎵᏍᏛᏂᎭ	none
+🙂‍↕	ᎤᏍᎫᏴᎢ	none
 😌	ᎤᏯᏪᏐᏢ ᎤᎧᏛ	none
 😔	ᎠᏓᏅᏖᎸᏍᎩ ᎤᎧᏛ	none
 😪	ᎦᏢᏍᎩ ᎤᎧᏛ	none
 🤤	ᏗᎭᏬᎢᎭ ᎤᎧᏛ	none
 😴	ᎦᏟᎯ ᎤᎧᏛ	none
+🫩	ᎤᎧᏛ ᏧᎵᏏᎩ ᏗᎦᏙᎵ	none
 😷	ᎤᎧᏛᎢ ᎤᏠᏯᏍᏗ ᎦᏃᏢᎩᏅᏬᏘ ᎠᎵᎬᏚᎶᏗ	none
 🤒	ᎤᎧᏛᎢ ᎤᏠᏯᏍᏗ ᎤᏗᏞᎬ ᎤᎦᏅᏮ ᎠᏎᎯᎯ	none
 🤕	ᎤᎧᏛᎢ ᎤᏠᏯᏍᏗ ᎠᏍᎪᎳ-ᎤᏐᏅᏅ ᎦᏇᏅᏙᏗ	none
@@ -88,6 +332,7 @@ symbols:
 🥶	ᎤᏴᏜ ᎤᎧᏛ	none
 🥴	ᎤᎸᏕᏍᏗ ᎤᎧᏛ	none
 😵	ᎤᎸᏕᎯᏓ ᎤᎧᏛ	none
+😵‍💫	ᎤᎧᏛ ᏗᎩᏙᎵ ᎠᎦᎷᎦ ᎢᏳᏍᏗ	none
 🤯	ᎠᏔᏍᎩᏍᎩ ᎠᎦᏍᏓᏛ	none
 🤠	ᏗᏍᎳᏗᏍᎩ ᎤᎵᏍᏇᏚᎩ ᎤᎧᏛ	none
 🥳	ᎤᎧᏛ ᎤᎾᏓᏡᎨᏍᎬ	none
@@ -96,6 +341,7 @@ symbols:
 🤓	ᎤᎦᎸᏗ ᎤᎧᏛ	none
 🧐	ᏗᎦᏛᏅᏙᏗ ᎤᎧᏛ	none
 😕	ᎤᏎᎩᏲᏤᎸᎢ ᎤᎧᏛ	none
+🫤	ᎤᎧᏛ ᎾᎿ ᎤᏙᏌᏘ ᎠᎰᎵ	none
 😟	ᎤᏪᎵᎯᏍᎩ ᎤᎧᏛ	none
 🙁	ᏍᏗᎩᏓ ᎤᏓᏁᎪᏳᏒ ᎤᎧᏛ	none
 ☹	ᎤᏓᏁᎪᏳ ᎤᎧᏛ	none
@@ -103,7 +349,9 @@ symbols:
 😯	ᎡᎶᏪ ᎤᎧᏛ	none
 😲	ᎠᏥᏎᎦᏍᏔᏅᎢ ᎤᎧᏛ	none
 😳	ᎦᏃᎱᎪᏗ ᎤᎧᏛ	none
+🫪	ᏗᏍᏙᏖᏗ ᎤᎧᏛ	none
 🥺	ᎦᏂᎳᏗᎠ ᎤᎧᏛ	none
+🥹	ᏧᎦᏌᏬᏛ ᎤᎧᏛ	none
 😦	ᎤᏓᏁᎪᏳᎲᎢ ᎤᎧᏛ ᎤᏔᏠᎩ	none
 😧	ᎠᎩᏟᏲᎬᎢ ᎤᎧᏛ	none
 😨	ᎤᎾᏰᏌᏘ ᎤᎧᏛ	none
@@ -147,7 +395,6 @@ symbols:
 🙈	Ꮭ ᎾᎪᏫᏘᎲᎾ-ᎤᏁᎫᏥᏓ- ᎠᏓᎴᏍᎩᏱᏍᎩ	none
 🙉	ᎠᏛᎩᏍᎩ-ᏂᎨᏒᎾ-ᎤᏲ ᎠᏓᎴᏍᎩᏱᏍᎩ	none
 🙊	ᏂᎦᏬᏂᏍᎬᎾ ᎤᏲ ᎠᏓᎴᏍᎩᏱᏍᎩ	none
-💋	ᎠᏔᏪᏙᏅᎢ ᎤᏙᏪᎸᎢ	none
 💌	ᎠᏓᎸᏉᎪᏪᎳᏅ	none
 💘	ᎤᎿᏫ ᎦᏝᏗ ᎬᏗ	none
 💝	ᎤᎿᏫ ᎠᏇᏡᏍᏗ	none
@@ -159,23 +406,29 @@ symbols:
 💟	ᎤᎿᏫ ᏗᏟᎶᏍᏔᏅ	none
 ❣	ᎤᏓᎨᏓ ᎤᎿᏫ ᏍᏓᏱ ᎥᎧᏁᎬᎢ	none
 💔	ᎤᏲᏨᎢ ᎤᎿᏫ	none
+❤‍🔥	ᎤᎾᏫ ᎠᎪᎲᏍᏗᏍᎪᎢ	none
+❤‍🩹	ᎣᏍᏓ ᏄᏩᏁᎸᎢ ᎤᎾᏫ	none
 ❤	ᎩᎦᎨ ᎤᎿᏫ	none
+🩷	ᎩᎦᎨ ᎤᏍᎪᎸ ᎤᎾᏫ	none
 🧡	ᎠᏓᎶᏂᎨ ᎤᎿᏫ	none
 💛	ᏓᎶᏂᎨ ᎤᎿᏫ	none
 💚	ᎢᏤᏳᏍᏗ ᎤᎿᏫ	none
 💙	ᏌᎪᏂᎨ ᎤᎿᏫ	none
+🩵	ᏌᎪᏂᎨ ᎤᏍᎪᎸ ᎤᎾᏫ	none
 💜	ᎠᏓᎲᎵᎨ ᎤᎿᏫ	none
 🤎	ᎤᏬᏗᎨ ᎤᎾᏫ	none
 🖤	ᎬᎿᎨ ᎤᎾᏫ	none
+🩶	ᎬᎿᎨ ᎤᏍᎪᎸ ᎤᎾᏫ	none
 🤍	ᎤᏁᎦ ᎤᎾᏫ	none
+💋	ᎠᏔᏪᏙᏅᎢ ᎤᏙᏪᎸᎢ	none
 💯	ᎠᎪᎯᏧᏈ ᎬᏅᏅᎢ	none
 💢	ᎤᎿᎸᎯ ᏓᏟᎶᏍᏛᎢ	none
+🫯	ᎠᏥᎳᎱ ᎠᎶᎩᎸ	none
 💥	ᏚᎾᏓᏛᏂᎸ	none
 💫	ᎤᎸᏕᎯᏓ	none
 💦	ᎠᎵ ᏧᏩᏬᏨ	none
 💨	ᎠᏓᎾᏫᏍᏗᏍᎬᎢ	none
 🕳	ᎠᏔᎴᏒᎢ	none
-💣	ᎠᏔᏍᎩᏍᎩ	none
 💬	ᎦᏬᏂᎯᏍᏗᎢ ᎤᏃᎴ ᎠᏲᏙᏗ	none
 👁‍🗨	ᎠᎦᏘ ᎥᎿ ᎥᎧᏁᎬᎢ ᎤᏆᎷᏒ	none
 🗨	ᎠᎦᏍᎦᏂ ᎦᏬᏂᎯᏍᏗᎢ ᎤᏆᎷᏒᎢ	none
@@ -187,11 +440,18 @@ symbols:
 🖐	ᎤᏌᎳᏓ ᎤᏬᏱ ᎢᏧᏓᎵ ᏕᎦᏰᏌᏛ	none
 ✋	ᎣᏬᏰᎾ ᎠᏌᎵᏛᏅᎢ	none
 🖖	ᏗᎪᏍᏓᏱᏗᎦᎵᏟᎩ ᎠᏓᏲᎵᏍᏗ	none
+🫱	ᎤᏬᏰᏂ ᎠᎦᏘᏏ ᏗᏜ	none
+🫲	ᎤᏬᏰᏂ ᎠᎦᏍᎦᏂ ᏗᏜ	none
+🫳	ᎭᏫᎾᏗᏢ ᎤᏬᏰᏂ ᎡᎳᏗ	none
+🫴	ᎭᏫᎾᏗᏢ ᎤᏬᏰᏂ ᎦᎸᎳᏗ	none
+🫷	ᎠᎦᏍᎦᏂ ᎤᏩᏌᏙᏍᏗ ᎤᏬᏰᏂ	none
+🫸	ᎠᎦᏘᏏ ᎤᏩᏌᏙᏍᏗ ᎤᏬᏰᏂ	none
 👌	ᎣᏏᏊ ᎪᏯᏛ	none
 🤌	ᏗᏓᏇᏄᎩᏍᏗ ᏕᎦᏰᏌᏛ	none
 🤏	ᏗᏓᏇᏄᎩᏍᏗ ᎤᏬᏰᏂ	none
 ✌	ᎤᏓᏠᏒ ᎤᏬᏱ	none
 🤞	ᏧᏓᎿᏫᏓ ᏕᎦᏰᏌᏛ	none
+🫰	ᎤᏬᏰᏂ ᎾᎿ ᎠᏚᏂᎯ ᏯᏍᏓ ᎠᎴ ᎦᏰᏌᏛ	none
 🤟	ᎬᎨᏳᎢ ᎤᏬᏯᏂᏍᎩ	none
 🤘	ᎤᏲᎾ ᏓᏟᎶᏍᏛ	none
 🤙	ᏗᏍᏓᏁᎸᎩ ᎤᏬᏱ	none
@@ -201,6 +461,7 @@ symbols:
 🖕	ᎠᏰᏟ ᎦᏰᏌᏛ	none
 👇	ᎣᏂᏗᏜᎪᏯᏗ ᎠᏍᏓᏩᏛᏍᏗ ᏩᏎᎯᎲᎢ ᎡᎳᏗ	none
 ☝	ᎠᏎᎯ ᏩᏎᎯᎲᎢ ᎦᎸᎳᏗ	none
+🫵	ᎦᏰᏌᏛ ᎠᏓᏚᎯᏍᏙᏗ	none
 👍	ᎤᏔᎾ ᎦᏰᏌᏛ ᎤᎵᏌᎳᏓ	none
 👎	ᎤᏔᎾ ᎦᏰᏌᏛ ᎡᎳᏗᏜ	none
 ✊	ᎠᎵᏇᏅ ᎠᏒᎵᏛᏅᎢ	none
@@ -209,6 +470,7 @@ symbols:
 🤜	ᎠᎦᏘᏏ-ᏩᎦᏘᎲ ᎠᎵᏇᏅ	none
 👏	ᏓᏏᏛᏂᎲᎢ	none
 🙌	ᏗᎪᏰᎾ ᏗᏌᎵᏛᏅᎢ	none
+🫶	ᎠᏓᏅᏙ ᏧᏬᏰᏂ	none
 👐	ᏗᏚᎢᏓ ᏙᏬᏰᎾ	none
 🤲	ᏚᎾᏙᏯᏂᎠ ᎦᎸᎳᏗ ᎠᏒᏅᏍᏗ	none
 🤝	ᎠᏓᏲᎵᎲᎢ	none
@@ -233,6 +495,7 @@ symbols:
 👁	ᎠᎦᏘ	none
 👅	ᎦᏂᎪ	none
 👄	ᎠᎰᎵ	none
+🫦	ᎤᎭᏁᎦᎸᎢ ᎠᏍᎦᎳ	none
 👶	ᎤᏍᏗ	none
 🧒	ᎠᏲᏟ	none
 👦	ᎠᏧᏣ	none
@@ -241,8 +504,10 @@ symbols:
 👱	ᏴᏫ ᏓᎶᏂᎨ-ᎤᏍᏘᎩ	none
 👨	ᎠᏍᎦᏯ	none
 🧔	ᎠᏍᎦᏯ ᏗᎭᏄᎸᎯ	none
+🧔‍♂	ᎠᏍᎦᏯ ᎠᎭᏄᎸᏒ	none
 👱‍♂	ᎠᏍᎦᏯ ᏓᎶᏂᎨ ᎤᏍᏘᎩ	none
 👩	ᎠᎨᏯ	none
+🧔‍♀	ᎠᎨᏯ ᎠᎭᏄᎸᏒ	none
 👱‍♀	ᎠᎨᏯ ᏓᎶᏂᎨ ᎤᏍᏘᎩ	none
 🧓	ᎠᎦᏴᎵ ᎤᏔᎾ	none
 👴	ᎤᏛᏐᏅ	none
@@ -338,6 +603,7 @@ symbols:
 👷	ᏗᏁᏍᎨᏍᎩ ᏧᎸᏫᏍᏓᏁᎯ	none
 👷‍♂	ᎠᏍᎦᏯ ᏗᏁᏍᎨᏍᎩ ᏧᎸᏫᏍᏓᏁᎯ	none
 👷‍♀	ᎠᎨᏯ ᏗᏁᏍᎨᏍᎩ ᏧᎸᏫᏍᏓᏁᎯ	none
+🫅	ᎤᎬᏫᏳᎯ ᎤᎵᏍᏚᎳ ᎠᏕᎳ ᏓᎶᏂᎨ	none
 🤴	ᎠᏫᎾ ᎤᎬᏬᏳᎯ	none
 👸	ᎠᏔ ᎤᎬᏫᏳᎯ	none
 👳	ᏴᏫ ᎦᎸᏪᏍᏓᏅ ᎤᎵᏍᏚᎳ	none
@@ -352,6 +618,8 @@ symbols:
 👰‍♂	ᎠᏍᎦᏯ ᎫᏝᎢ ᎤᎧᏛ	none
 👰‍♀	ᎠᎨᏯ ᎫᏝᎢ ᎤᎧᏛ	none
 🤰	ᎦᏁᎵᏓ ᎠᎨᏯ	none
+🫃	ᎦᏁᎵᏓ ᎠᏍᎦᏯ	none
+🫄	ᎦᏁᎵᏓ ᏴᏫ	none
 🤱	ᏧᏓᏍᏓᎢ	none
 👩‍🍼	ᎠᎨᏯ ᏧᏓᏍᏓᎢ	none
 👨‍🍼	ᎠᏍᎦᏯ ᏧᏓᏍᏓᎢ	none
@@ -387,6 +655,8 @@ symbols:
 🧟	ᎤᏲᎱᏒ ᎤᏗᏛᏓ	none
 🧟‍♂	ᎠᏍᎦᏯ ᎤᏲᎱᏒ ᎤᏗᏛᏓ	none
 🧟‍♀	ᎠᎨᏯ ᎤᏲᎱᏒ ᎤᏗᏛᏓ	none
+🧌	ᎦᎾᏰᎩ ᏴᏫ ᎢᏳᏍᏗ	none
+🫈	ᎠᏍᏖᎬᎢ ᏍᎩᎵ	none
 💆	ᏴᏫ ᎠᏥᏓᏍᎪᎵᏰᏍᎬᎢ	none
 💆‍♂	ᎠᏍᎦᏯ ᎠᏥᏍᎪᎵᏰᏍᎬᎢ	none
 💆‍♀	ᎠᎨᏯ ᎠᏥᏍᎪᎵᏰᏍᎬᎢ	none
@@ -414,6 +684,7 @@ symbols:
 🏃	ᏴᏫ ᎠᏛᏟᏒᎢ	none
 🏃‍♂	ᎠᏍᎦᏯ ᎠᏛᏟᏒᎢ	none
 🏃‍♀	ᎠᎨᏯ ᎠᏛᏟᏒᎢ	none
+🧑‍🩰	ᏆᎴ ᎠᎵᏍᎩᏍᎩ	none
 💃	ᎠᎨᏯ ᎠᎵᏍᎩᏍᎩ	none
 🕺	ᎠᏍᎦᏯ ᎠᎵᏍᎩᏍᎬ	none
 🕴	ᎠᏍᎦᏯ ᏚᎸᏫᏍᏓᏁᎯ ᏧᏠᏱᎭ ᏓᎴᎲᏍᎬᎢ	none
@@ -480,12 +751,17 @@ symbols:
 👬	ᎠᏂᏍᎦᏯ ᏚᎾᏙᏯᏂᎠᎩ	none
 💏	ᎠᏔᏪᏙᎢᏍᏗ	none
 💑	ᏗᎾᏤᎯ ᏧᏂᎿᏫ	none
-👪	ᏏᏓᏁᎸᎢ	none
 🗣	ᎧᏁᎩ ᎠᏍᎪᎵ	none
 👤	ᎤᏲᏨᎢ ᎥᎿ ᎤᏙᏢᏒᎢ	none
 👥	ᎠᏲᎪᎢ ᎥᎿ ᎤᏙᏢᏒᎢ	none
 🫂	ᎠᏂᏴᏫ ᏓᏓᏍᏆᏂᏱᏍᎬ	none
+👪	ᏏᏓᏁᎸᎢ	none
+🧑‍🧑‍🧒	ᏏᏓᏁᎸ ᎠᏅᏓ, ᎠᏅᏓ, ᎠᏲᏟ	none
+🧑‍🧑‍🧒‍🧒	ᏏᏓᏁᎸ ᎠᏅᏓ, ᎠᏅᏓ, ᎠᏲᏟ, ᎠᏲᏟ	none
+🧑‍🧒	ᏏᏓᏁᎸ ᎠᏅᏓ, ᎠᏲᏟ	none
+🧑‍🧒‍🧒	ᏏᏓᏁᎸ ᎠᏅᏓ, ᎠᏲᏟ, ᎠᏲᏟ	none
 👣	ᏚᎳᏏᏅᎢ ᏚᏙᏪᎸᎢ	none
+🫆	ᎦᏰᏌᏛ ᏚᏙᏪᎸᎢ	none
 🦰	ᎩᎦᎨ ᎤᏍᏘᎦ	none
 🦱	ᎤᎵᏥᏍᏆᏁᏓ ᎤᏍᏘᎦ	none
 🦳	ᎤᏁᎦ ᎤᏍᏘᎦ	none
@@ -510,6 +786,8 @@ symbols:
 🐅	ᎬᎮ	none
 🐆	ᏪᏌ ᏧᏅᏣ	none
 🐴	ᏐᏈᎵ ᎤᎧᏛ	none
+🫎	ᎠᏫ ᎡᏆ ᎢᏳᏍᏗ	none
+🫏	ᏗᎦᎴᏅᎯᏓ	none
 🐎	ᏐᏈᎵ	none
 🦄	ᏐᏈᎵ ᎤᎷᎩ	none
 🦓	ᏧᎶᏟᏗ ᏐᏈᎵ	none
@@ -572,6 +850,10 @@ symbols:
 🦩	ᎠᏚᎯᏅᏍᏗ ᏥᏍᏆ	none
 🦚	ᎬᎾ ᏧᏆᏔᎵ ᏧᎷᎩ ᎠᏨᏯᎢ	none
 🦜	ᏥᏍᏆ ᎦᏬᏂᏍᎩ	none
+🪽	ᎧᏃᎨᏂ	none
+🐦‍⬛	ᏥᏍᏆᎵᏍᏗ	none
+🪿	ᏌᏌ	none
+🐦‍🔥	ᏧᎴᎯᏌᏅᎯ	none
 🐸	ᏩᎶᏏ ᎤᎧᏛ	none
 🐊	ᏧᎳᏍᎩ	none
 🐢	ᏓᎦᏏ	none
@@ -584,6 +866,7 @@ symbols:
 🐳	ᎧᏬᎵᏕᏍᎬ ᏓᏆ	none
 🐋	ᏓᏆ	none
 🐬	ᏗᎵᏆᏕᎩ	none
+🫍	ᎣᎧ	none
 🦭	ᏗᏏᏫᏍᎩ	none
 🐟	ᎠᏣᏗ	none
 🐠	ᎤᏗᏞᎦ ᎠᏣᏗ	none
@@ -591,6 +874,13 @@ symbols:
 🦈	ᏗᎧᏳᎦ	none
 🐙	ᎠᏓᏢᎢ	none
 🐚	ᎠᏕᏲᎯ ᎠᏯᏍᎦᎸᎢ	none
+🪸	ᏅᏯ ᎠᎹᏱ	none
+🪼	ᏩᏂᎨ ᎠᏣᏗ	none
+🦀	ᎤᏯᏍᎦᏬᏗ	none
+🦞	ᎤᏔᎾ ᏥᏍᏛᎾ	none
+🦐	ᏥᏅᏅ	none
+🦑	ᏍᏈᏗ	none
+🦪	ᎤᏔᎾ ᏓᎬᎾ	none
 🐌	ᎡᎳᏆ	none
 🦋	ᎤᏍᏗ ᎧᎹᎹ	none
 🐛	ᏥᏍᎪᏯ	none
@@ -610,6 +900,7 @@ symbols:
 💐	ᏧᏂᏥᎸᏍᎩ	none
 🌸	ᎩᏔᏯ ᎤᏥᎸᏅ	none
 💮	ᎤᏁᎦ ᎤᏥᎸᏍᎩ	none
+🪷	ᏓᎶᏂᎨᏍᏛ ᎠᏥᎸᏍᎩ	none
 🏵	ᎠᎧᏁᏍᏗ	none
 🌹	ᎶᏏ	none
 🥀	ᎤᏩᏅᏬᏒ ᎠᏥᎸᏍᎩ	none
@@ -617,6 +908,7 @@ symbols:
 🌻	ᏅᏓᏗᎧᏅᏩᏗᏙᎯ	none
 🌼	ᎤᏥᎸᏅ	none
 🌷	ᏚᎵᏈ	none
+🪻	ᎤᎬ ᎠᏔᏍᎩᏍᎩ	none
 🌱	ᎤᎦᏔᏛᏅ	none
 🪴	ᎦᎪᏗ	none
 🌲	ᎠᏥᎾ ᎢᏡᎬᎢ	none
@@ -630,11 +922,16 @@ symbols:
 🍁	ᏢᏩᎩ ᎤᏆᎶᎩ	none
 🍂	ᎤᎵᏍᏚᎪᏒᎩ	none
 🍃	ᎤᎦᎶᎦ ᎦᏃᏰ ᎦᏃᎸᏍᎬᎢ	none
+🪹	ᎧᏁᏍᏓᎳᎲᎢ	none
+🪺	ᎧᏁᏍᏓᎳᎲᎢ ᎠᎴ ᏧᏪᏥ	none
+🍄	ᏓᏬᎵ	none
+🪾	ᎤᏲᎱᏒ ᎢᏡᎬᎢ	none
 🍇	ᎤᏂᏖᎸᎳᏗ	none
 🍈	ᎬᎩᏍᏗ	none
 🍉	ᎠᎹ ᎬᎩᏍᏗ	none
 🍊	ᎠᏓᎶᏂᎨ ᎠᎩᏍᏗ	none
 🍋	ᎵᎹᏂ	none
+🍋‍🟩	ᎳᎻ	none
 🍌	ᏆᏁᎾ	none
 🍍	ᏃᏣ ᏒᎦᏔ ᎠᎩᏍᏓ	none
 🥭	ᎺᏂᎪ	none
@@ -661,9 +958,13 @@ symbols:
 🥦	ᏧᎦᏅᏕᎾ ᎤᏍᏗ	none
 🧄	ᏃᏳᏟ	none
 🧅	ᏒᎩ	none
-🍄	ᏓᏬᎵ	none
 🥜	ᎠᏂᏅᎯᏓ ᏚᏯ	none
+🫘	ᏚᏯ	none
 🌰	ᏘᎵ	none
+🫚	ᏄᏱᎦᎵ	none
+🫛	ᎤᏅᏢᏓᎵ	none
+🍄‍🟫	ᎤᏬᏗᎨ ᏓᏬᎵ	none
+🫜	ᎤᎾᏍᏕᏢ ᎠᎩᏍᏗ	none
 🍞	ᎦᏚ	none
 🥐	ᎦᎸᏥ ᎦᏚ	none
 🥖	ᎦᏅᎯᏓ ᏌᎨ ᎦᏚ	none
@@ -715,11 +1016,6 @@ symbols:
 🥟	ᎦᎸᏅᎢ	none
 🥠	ᏣᏂᏏ ᎦᏚ ᎤᎦᎾᏍᏓ	none
 🥡	ᎠᏫᏛᏗ ᎧᏁᏌ	none
-🦀	ᎤᏯᏍᎦᏬᏗ	none
-🦞	ᎤᏔᎾ ᏥᏍᏛᎾ	none
-🦐	ᏥᏅᏅ	none
-🦑	ᏍᏈᏗ	none
-🦪	ᎤᏔᎾ ᏓᎬᎾ	none
 🍦	ᎦᏁᏍᏓᎵᏗᏍᏓᏅ ᎤᏅᏗ	none
 🍧	ᎤᏁᏍᏓᎳ ᎠᏍᏙᏰᏓ	none
 🍨	ᎤᏅᏗ ᎦᏁᏍᏓᎳᏗᏍᏔᏅ	none
@@ -748,6 +1044,7 @@ symbols:
 🍻	ᏓᏓᏒᏅᏍᏗᎲ ᎠᏬᎩᏢᏍᎩ ᏗᏟᏙᏗ	none
 🥂	ᏓᏓᏒᏅᏍᏗᎲ ᏧᎸᏌᏗ	none
 🥃	ᎫᎩ ᎠᏟᏍᏙᏗ	none
+🫗	ᎠᏟᎠ	none
 🥤	ᎤᎵᏍᏈᏘ ᎾᏍᎩ ᎬᏩᏠᏯᏍᏗ ᎠᎹᏗᏙᏗ	none
 🧋	ᏚᏆᎷᏒ ᎤᎦᎶᎦ	none
 🧃	ᎠᏗᏔᏍᏗ ᎧᏁᏌᎢ	none
@@ -758,6 +1055,7 @@ symbols:
 🍴	ᏳᎩ ᎠᎴ ᎭᏰᎵᏍᏗ	none
 🥄	ᎠᏗᏙᏗ	none
 🔪	ᎠᏓᏍᏓᏱᏗᎢ ᎠᏰᎳᏍᏗ	none
+🫙	ᎫᎫᎢ	none
 🏺	ᎩᎦᎨ ᎠᏗᏔᏍᏗ ᏗᏟᏍᏙᏗ	none
 🌍	ᎡᎶᎯ ᏗᏟᎶᏍᏔᏅ ᎬᏂᎨᏒ ᏂᎬᎾ ᏳᎳᏈ-ᎬᎿᎨᏍᏛ	none
 🌎	ᎡᎶᎯ ᏗᏟᎶᏍᏔᏅ ᎬᏂᎨᏒ ᏂᎬᎾ ᎠᎹᏰᎵ	none
@@ -768,6 +1066,7 @@ symbols:
 🧭	ᎠᎳᏂ ᎠᎦᏙᏗ	none
 🏔	ᎥᏃᏥ-ᏚᏭᏝᎥᎢ ᎤᏓᎳ	none
 ⛰	ᎤᏅᏓᏢᎢ	none
+🛘	ᎦᏙᎯ ᎠᏠᎳᏙᏗ	none
 🌋	ᎦᏙ ᎠᏔᎴᏒ ᎠᏔᏍᎩᏍᎩ	none
 🗻	ᏡᏥ ᎣᏓᎸ	none
 🏕	ᏓᏂᎵᏦᏛᏍᎬᎢ	none
@@ -820,6 +1119,7 @@ symbols:
 🌉	ᎠᏒᏢᎢ ᎤᏒᎢ	none
 ♨	ᎤᏗᏞᎦ ᏕᎦᏅᎪᎬᎢ	none
 🎠	ᎠᏕᏲᎯ ᏐᏈᎵ	none
+🛝	ᎠᏠᎳᏙᏗ	none
 🎡	ᏥᏳᏓᏔᎸ ᎦᏆᏙᏗ	none
 🎢	ᏚᎨᏓᎵᏍᏛ ᎠᏦᏙᏗ	none
 💈	ᏗᏓᏍᏙᏰᏍᎩ ᎨᏛᎢ	none
@@ -868,12 +1168,14 @@ symbols:
 🛤	ᎠᏥᎳ ᏅᏃᎯ	none
 🛢	ᎪᎢ ᏒᏙᎾ	none
 ⛽	ᎨᏌᎵᏂ ᎦᏌᏙᏯᏍᎩ	none
+🛞	ᎦᏆᏙᏗ	none
 🚨	ᏗᏓᏂᎩᏍᎩ ᏙᎴᎳ ᎠᏨᏍᏗ	none
 🚥	ᏥᏱ ᏄᏍᏗᏓᏅ ᎠᏨᏍᏗ	none
 🚦	ᏥᏳᎪᏗ ᏙᎴᎳ ᏗᏨᏍᏓᏁᎯ	none
 🛑	ᎠᎴᏫᏍᏙᏗ	none
 🚧	ᏗᏁᏍᎨᏍᎩ	none
 ⚓	ᎦᏅᎯᏍᏙᏗ	none
+🛟	ᎦᏌᏆᎳ ᎦᏄᎯᏒ	none
 ⛵	ᏥᏳ ᎠᏂᎩᏍᎩ	none
 🛶	ᎠᎹ ᏥᏳ	none
 🚤	ᎦᏳᏄᎳ ᏥᏳ	none
@@ -1031,10 +1333,10 @@ symbols:
 🎯	ᏥᏳᎪᏗ ᎬᏂᎸᎢ	none
 🪀	ᏲᏲ	none
 🪁	ᎠᎳᏫᏅᏙᏗ	none
+🔫	ᎦᎶᏪ ᏍᏆᎳ	none
 🎱	8 ᎪᏪᎳ ᎦᏓᏲᏍᏗ	none
 🔮	ᎤᎸᏌᏗ ᏍᏆᏞᏍᏗ	none
 🪄	ᎤᏍᏆᏂᎪᏗᏳ ᎦᏅᏍᏓ	none
-🧿	ᎠᎦᏙᎵ ᎢᏳᏍᏗ ᎠᎵᏍᏕᎸᏙᏗ	none
 🎮	ᎠᏓᏴᎵᏛᏍᎩ ᏗᏁᎵᏙᏗ	none
 🕹	ᎨᏘᏴᏍᏗ	none
 🎰	ᎠᏕᎳ ᎦᏠᏗ ᎪᏢᏍᎩ	none
@@ -1042,6 +1344,7 @@ symbols:
 🧩	ᏥᎩᏌ	none
 🧸	ᏖᏗ ᏲᎾ	none
 🪅	ᎠᏂᏍᏆᏂ ᏓᏂᏥᎳᏓᏗᏍᎬ	none
+🪩	ᎠᏓᎨᏗ ᏍᏆᏞᏍᏗ	none
 🪆	ᏕᎧᏁᏍᏓᏝᎲᎢ ᏗᏁᏟᏗ	none
 ♠	ᎪᏕᏍᏗ ᏧᏠᏱᎭ	none
 ♥	ᎤᎿᏫ ᏧᏠᏱᎭ	none
@@ -1078,6 +1381,7 @@ symbols:
 🩳	ᎠᏑᎶ ᏍᏆᎳ	none
 👙	ᎥᏓᏬᏍᎬᎢ ᏗᎿᏬᏍᏗ	none
 👚	ᎠᎨᏯ ᏧᎾᏬᏍᏗ	none
+🪭	ᎤᏬᏰᏂ ᎠᏘᏃᏰᏍᎩ ᎤᎭ	none
 👛	ᎠᏔᏁᏌᏟᏗ	none
 👜	ᏕᎦᎵᏟᏗ ᎧᏂᏓᏍᏗ	none
 👝	ᎦᏂᏴᏙᏗ ᏕᎦᎶᏗ	none
@@ -1092,6 +1396,7 @@ symbols:
 👡	ᎠᎨᏯ ᏧᎳᏑᎶ	none
 🩰	ᎠᎳᏍᎩᏍᏗ ᏗᎳᏑᎶ	none
 👢	ᎠᎨᏯ ᎤᎳᏑᎶᎢ	none
+🪮	ᎤᏍᏘᎬ ᎠᏔᏬᏍᏗ	none
 👑	ᎤᎬᏫᏳᎯ ᎠᎵᏍᏚᎶ	none
 👒	ᎠᎨᏯ ᎤᎵᏚᎶ	none
 🎩	ᎦᏚ ᎠᎵᏍᏇᏚᏬ	none
@@ -1122,14 +1427,18 @@ symbols:
 🎧	ᏗᏟᎤᏍᏙᏗ	none
 📻	ᏗᎧᏃᎩᏍᎩ	none
 🎷	ᏌᎦᎪᏁ	none
+🎺	ᏢᏇᏘ	none
+🪊	ᏚᏉᏂ	none
 🪗	ᎠᎪᏗᎠᏂ	none
 🎸	ᏗᏇᏄᎩᏍᏗ	none
 🎹	ᏗᎧᏃᎩᏍᏙᏗ ᏗᏐᏅᏍᏙᏗ	none
-🎺	ᏢᏇᏘ	none
 🎻	ᎠᏰᏟᏰᏗ	none
 🪕	ᏗᏍᏗ ᏗᎧᏃᎩᏍᏗ	none
 🥁	ᎱᎵ	none
 🪘	ᎱᎵ ᎦᏅᎯᏓ	none
+🪇	ᎠᏂᏍᏆᏂ ᎦᎾᏤᏘ	none
+🪈	ᎠᏤᎷᎯᏍᏗ	none
+🪉	ᏗᎧᏃᎩᏍᏙᏗ	none
 📱	ᏙᎴᎳᏊ ᏗᎵᏃᎮᏓ	none
 📲	ᏙᎴᎳᏊ ᏗᎵᏃᎮᏓ ᎤᎵᎪᏗ ᎦᏟᏓ	none
 ☎	ᏴᏫ ᏗᏟᏃᎮᏗ	none
@@ -1137,6 +1446,7 @@ symbols:
 📟	ᎠᏓᏯᏂ	none
 📠	ᏗᏟᎶᏍᏔᏅ ᎪᏪᎵ ᏫᎦᏅᎥᏍᎩ	none
 🔋	ᎠᎾᎦᎵᏍᎩ	none
+🪫	ᎡᎳᏗ ᎠᎾᎦᎵᏍᎩ	none
 🔌	ᎠᎾᎦᎵᏍᎩ ᏗᎫᏓᎸᏗ	none
 💻	ᎠᏄᎵᏍᏗ ᎠᎦᏙᎥᏒᎢ ᎠᏍᏆᏂᎪᏗᏍᎩ	none
 🖥	ᎦᏍᎩᎶᎩ ᎦᏚ ᎠᎦᏙᎥᎯᏍᏗᏍᎩ ᎠᏍᏆᏂᎪᏗᏍᎩ	none
@@ -1147,7 +1457,7 @@ symbols:
 💽	ᎠᎦᏙᎥᎯᏍᏗᏍᎩ ᎠᏍᏆᏂᎪᏗᏍᎩ ᎠᏠᏗ	none
 💾	ᏩᏂᎨ ᎠᏠᏗ	none
 💿	ᎠᎪᏩᏛᏗ ᎠᏠᏗ	none
-📀	dvd	none
+📀	ᎠᏙᎠ	none
 🧮	ᏗᏎᏍᏗ ᏗᏎᏍᏙᏗ	none
 🎥	ᎠᏗᏴᎳᏛᏍᎩ ᏗᏓᏟᎶᏍᏗᏍᎩ	none
 🎞	ᎠᏗᏴᎳᏗᏍᎩ ᎦᏟᏙᏗ	none
@@ -1182,8 +1492,9 @@ symbols:
 📑	ᎪᏪᎵᎪᏣᎸᏗ ᏗᎦᏗ	none
 🔖	ᎪᏪᎵᎪᏣᎸᏗ	none
 🏷	ᎪᏪᎸᎢ	none
-💰	ᎠᏕᎳ ᏕᎦᎶᏗ	none
 🪙	ᎢᏯᏓᏅᏖᏗ	none
+💰	ᎠᏕᎳ ᏕᎦᎶᏗ	none
+🪎	ᏧᎬᏩᎶᏗ ᎠᏍᏆᏂᎪᏛ ᎦᏁᏥ	none
 💴	ᏤᏈᏂᏏ ᎠᏕᎳ ᏧᏂᏗᎢ ᎪᏪᎵ	none
 💵	ᎤᏃᏍᏓ ᎠᏕᎳ ᏧᏂᏗᎢ ᎪᏪᎵ	none
 💶	ᏳᎳᏈ ᎠᏕᎳ ᏧᏂᏗᎢ ᎪᏪᎵ	none
@@ -1248,7 +1559,7 @@ symbols:
 🛠	ᎬᏅᏩᎶᏍᏗ ᎠᎴ ᏗᎦᏚᏩᎸᏕᏍᏙᏗ	none
 🗡	ᏗᎦᏘᏍᏗ	none
 ⚔	ᏧᏓᎿᏫᏓ ᏗᏰᎳᏍᏗ ᏗᎦᏅᎯᏓ	none
-🔫	ᎦᎶᏪ ᏍᏆᎳ	none
+💣	ᎠᏔᏍᎩᏍᎩ	none
 🪃	ᏩᏗᏅᏗ ᎠᎴ ᎥᎦᎷᏨ	none
 🏹	ᎦᎵᏣᏗ ᎠᎴ ᎠᏝᏗ	none
 🛡	ᎠᏚᏢᏙᏗ	none
@@ -1261,11 +1572,13 @@ symbols:
 ⚖	ᎢᏗᎦᏘᎭ ᏗᎦᏛᏗ	none
 🦯	ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏙᏗ	none
 🔗	ᎫᏓᎸᏙᏗ	none
+⛓‍💥	ᎤᏲᏨᎯ ᎤᎾᏓᏕᏒᏓ	none
 ⛓	ᏧᎾᏓᏕᏒᏗ	none
 🪝	ᏑᏗᎢ	none
 🧰	ᎬᏔᏂᏓᏍᏗ ᎦᎵᏔᏅᏙᏗ ᎧᏁᏌᎢ	none
 🧲	ᏔᎷᎩᏍᎩ ᎦᏌᏁᏍᎩ	none
 🪜	ᎠᏴᏠ	none
+🪏	ᎠᎪᏕᏍᏗ	none
 ⚗	ᎠᎪᏙᏗ	none
 🧪	ᎠᎦᏛᏗ ᎤᏒᏙᏂ	none
 🧫	ᎤᏩᎾᏬᏍᏒ ᏒᏙᏂ ᎤᎸᏌᏗ	none
@@ -1277,7 +1590,9 @@ symbols:
 🩸	ᎩᎦ	none
 💊	ᏅᏬᏓ ᎠᎩᏍᏓ	none
 🩹	ᎤᏓᎦᏣᎦᎵ ᎠᎦᏍᏢᏅᎢ	none
+🩼	ᎠᏙᎳᏅᏍᏗ	none
 🩺	ᎤᎾᏫ ᎠᏛᏓᏍᏗ	none
+🩻	ᎪᎳ ᏗᏟᎶᏍᏔᏅᎢ	none
 🚪	ᏍᏚᏗ	none
 🛗	ᎠᏓᏌᎳᏗᏍᎩ	none
 🪞	ᎠᏓᎨᏗ	none
@@ -1298,6 +1613,7 @@ symbols:
 🧻	ᎪᏪᎵ ᎦᏇᏅᏔᏅ	none
 🪣	ᎠᎹ ᎠᎫᎩᏍᏙᏗ	none
 🧼	ᎣᏝ	none
+🫧	ᏚᏆᎷᏒ	none
 🪥	ᏛᎦᎾᏙᎬ ᏗᎦᏅᎦᎸᏙᏗ	none
 🧽	ᏓᏬᎵ ᎢᏳᏍᏗ	none
 🧯	ᎠᏓᏪᎳᎩᏍᎬ ᏗᎦᏟᏗᏍᏙᏗ	none
@@ -1306,9 +1622,12 @@ symbols:
 ⚰	ᎧᏁᏌᎢ	none
 🪦	ᏅᏯ ᎠᏂᏓᏗᏍᎪᏘᎢ	none
 ⚱	ᎦᏂᏐᏗ ᎪᏍᏓ ᎦᏟᏗ	none
+🧿	ᎠᎦᏙᎵ ᎢᏳᏍᏗ ᎠᎵᏍᏕᎸᏙᏗ	none
+🪬	ᎭᎻᏌ	none
 🗿	ᎼᎢ	none
 🪧	ᏕᎦᏃᏣᎸ	none
-🏧	ATM ᎪᏪᎵ	none
+🪪	ᎢᎪᎵᏍᏙᏗ ᎠᏆᏂᏲᏍᏗ	none
+🏧	ᎪᎢᎷ ᎪᏪᎵ	none
 🚮	ᎤᏲ ᏩᏗᏅᏗ ᎠᎪᎵᏰᏗ	none
 🚰	ᎠᏗᏔᏍᏗ ᎠᎹ	none
 ♿	ᎦᏍᎩᎶ ᎠᏦᏙᏗ ᎦᏯᎸᎢ	none
@@ -1344,6 +1663,7 @@ symbols:
 ↖	ᎦᎸᎳᏗ-ᎠᎦᏍᎦᏂ ᎦᏝᏗ	none
 ↕	ᎦᎸᎳᏗ - ᎡᎳᏗ ᎦᏝᏗ	none
 ↔	ᎠᎦᏍᎦᏂ - ᎦᏘᏏ ᎦᏝᏗ	none
+↮	left right arrow stroke	none
 ↩	ᎠᎦᏘᏏ ᎦᏝᏗ ᎠᏕᏲ ᎠᎦᏍᎦᏂ	none
 ↪	ᎠᎦᏍᎦᏂ ᎦᏝᏗ ᎠᏕᏲ ᎠᎦᏘᏏ	none
 ⤴	ᎠᎦᏘᏏ ᎦᏝᏗ ᎠᏕᏲ ᎦᎸᎳᏗᎠᎦᏘ	none
@@ -1367,6 +1687,7 @@ symbols:
 ☮	ᏅᏩᏙᎯᏯᏛ ᎪᏪᎵ	none
 🕎	ᎦᎵᏉᎩ ᏗᏨᏍᏗ	none
 🔯	ᎤᏅᏥ ᏑᏓᎵ-ᏕᎪᏍᏓᏯ ᏃᏈᏏ	none
+🪯	ᎧᏅᏓ	none
 ♈	ᏓᎿᏩ	none
 ♉	ᏧᎧᏅᏍᏕᎾ	none
 ♊	ᏥᎹᎾᏱ	none
@@ -1402,6 +1723,7 @@ symbols:
 🔅	ᎠᏍᎪᎸᏓ ᎦᏗ	none
 🔆	ᎤᏍᎪᏍᏗ ᎦᏗ	none
 📶	ᏚᎷᎬᎢ ᏕᎦᎾᎸᎢ	none
+🛜	ᏂᏓᏏᎳᏛᎾ	none
 📳	ᎠᎵᏖᎸᎲᏍᎬ ᏄᏛᏅ	none
 📴	ᏙᎴᎳᏊ ᏗᎵᏃᎮᏓ ᎠᏜᏛ	none
 ♀	ᎠᎨᏯ ᎪᏟᏍᏙᏗ	none
@@ -1411,6 +1733,7 @@ symbols:
 ➕	ᎤᏓᎨᏓ ᎧᏁᏉᎩ ᎤᏙᏪᎸ	none
 ➖	ᎤᏓᎨᏓ ᎠᎦᏲᎶᏗᏍᎩ ᎤᏙᏪᎸ	none
 ➗	ᎤᏓᎨᏓ ᏱᎦᏛᎢ ᎤᏙᏪᎸ	none
+🟰	ᎦᎨᏓ ᎢᏧᎳᎭ ᎪᏪᎸ	none
 ♾	ᎢᎪᎯᏓ	none
 ❓	ᎠᏛᏛᎲᏍᎩ ᎤᏙᏪᎸ	none
 ❔	ᎤᏁᎦ ᎠᏛᏛᎲᏍᎩ ᎤᏙᏪᎸ	none
@@ -1436,6 +1759,7 @@ symbols:
 ✴	ᏧᏁᎳ-ᏗᎪᏍᏓᏱ ᏃᏈᏏ	none
 ❇	ᎤᏥᏍᏓᎷᎩᏍᎩ	none
 ™	ᎠᎵᏱᏛᎢ ᎪᏪᎸ	none
+🫟	ᏩᏍᏚᏟᏥᎯ	none
 🔠	ᏗᎦᏘᏅᏗᏍᏗ ᎳᏔᏂ ᎦᎸᎳᏗᏗᎪᏪᎵ	none
 🔡	ᏗᎦᏘᏅᏗᏍᏗ ᎴᏔᏂ ᎡᎳᏗᏗᎪᏪᎵ	none
 🔢	ᏗᎦᏘᏅᏗᏍᏗ ᏗᏎᏍᏗ	none
@@ -1500,10 +1824,21 @@ symbols:
 🏳‍🌈	ᎤᏅᎪᎳᏛ ᎦᏓᏘ	none
 🏳‍⚧	ᏌᎪᏂᎨ, ᎩᎦᎨ ᎤᏍᎪᎸ, ᎠᎴ ᎤᏁᎦ ᎦᏓᏘ	none
 🏴‍☠	ᏥᏳᎡᏙᎯ ᎠᏓᏌᎲᏍᎩ ᎦᏓᏗ	none
+₢	cruzeiro	none
+₣	french franc	none
+₤	lira	none
+₥	ᏩᎦᏲᏢ ᎢᏯᏓᏅᏖᏗ	none
+₩	ᏧᎦᏃᏮ ᎪᎵᎠ ᎠᏕᎳ	none
 €	ᏳᎳᏈ ᎠᏕᎳ	none
+₰	german penny	none
 ₱	ᏍᏆᏂ ᎠᏕᎳ	none
+₳	austral	none
+₶	livre tournois	none
+₷	spesmilo	none
 ₹	ᎢᏂᏗᎢᎠ ᎠᏕᎳ	none
 ₽	ᏲᏅᎯ ᎠᏕᎳ	none
+₿	ᎠᏏᎳᏕᏫᏒᎢ ᎠᏕᎳ	none
+₨	rupee	none
 👋🏻	ᎠᏲᎵᎭ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 👋🏼	ᎠᏲᎵᎭ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 👋🏽	ᎠᏲᎵᎭ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
@@ -1529,6 +1864,56 @@ symbols:
 🖖🏽	ᏗᎪᏍᏓᏱᏗᎦᎵᏟᎩ ᎠᏓᏲᎵᏍᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🖖🏾	ᏗᎪᏍᏓᏱᏗᎦᎵᏟᎩ ᎠᏓᏲᎵᏍᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🖖🏿	ᏗᎪᏍᏓᏱᏗᎦᎵᏟᎩ ᎠᏓᏲᎵᏍᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫱🏻	ᎤᏬᏰᏂ ᎠᎦᏘᏏ ᏗᏜ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫱🏼	ᎤᏬᏰᏂ ᎠᎦᏘᏏ ᏗᏜ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫱🏽	ᎤᏬᏰᏂ ᎠᎦᏘᏏ ᏗᏜ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫱🏾	ᎤᏬᏰᏂ ᎠᎦᏘᏏ ᏗᏜ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫱🏿	ᎤᏬᏰᏂ ᎠᎦᏘᏏ ᏗᏜ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫱🏻‍🫲🏼	ᎠᏓᏲᎵᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫱🏻‍🫲🏽	ᎠᏓᏲᎵᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫱🏻‍🫲🏾	ᎠᏓᏲᎵᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫱🏻‍🫲🏿	ᎠᏓᏲᎵᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫱🏼‍🫲🏻	ᎠᏓᏲᎵᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫱🏼‍🫲🏽	ᎠᏓᏲᎵᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫱🏼‍🫲🏾	ᎠᏓᏲᎵᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫱🏼‍🫲🏿	ᎠᏓᏲᎵᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫱🏽‍🫲🏻	ᎠᏓᏲᎵᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫱🏽‍🫲🏼	ᎠᏓᏲᎵᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫱🏽‍🫲🏾	ᎠᏓᏲᎵᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫱🏽‍🫲🏿	ᎠᏓᏲᎵᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫱🏾‍🫲🏻	ᎠᏓᏲᎵᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫱🏾‍🫲🏼	ᎠᏓᏲᎵᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫱🏾‍🫲🏽	ᎠᏓᏲᎵᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫱🏾‍🫲🏿	ᎠᏓᏲᎵᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫱🏿‍🫲🏻	ᎠᏓᏲᎵᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫱🏿‍🫲🏼	ᎠᏓᏲᎵᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫱🏿‍🫲🏽	ᎠᏓᏲᎵᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫱🏿‍🫲🏾	ᎠᏓᏲᎵᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫲🏻	ᎤᏬᏰᏂ ᎠᎦᏍᎦᏂ ᏗᏜ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫲🏼	ᎤᏬᏰᏂ ᎠᎦᏍᎦᏂ ᏗᏜ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫲🏽	ᎤᏬᏰᏂ ᎠᎦᏍᎦᏂ ᏗᏜ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫲🏾	ᎤᏬᏰᏂ ᎠᎦᏍᎦᏂ ᏗᏜ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫲🏿	ᎤᏬᏰᏂ ᎠᎦᏍᎦᏂ ᏗᏜ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫳🏻	ᎭᏫᎾᏗᏢ ᎤᏬᏰᏂ ᎡᎳᏗ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫳🏼	ᎭᏫᎾᏗᏢ ᎤᏬᏰᏂ ᎡᎳᏗ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫳🏽	ᎭᏫᎾᏗᏢ ᎤᏬᏰᏂ ᎡᎳᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫳🏾	ᎭᏫᎾᏗᏢ ᎤᏬᏰᏂ ᎡᎳᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫳🏿	ᎭᏫᎾᏗᏢ ᎤᏬᏰᏂ ᎡᎳᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫴🏻	ᎭᏫᎾᏗᏢ ᎤᏬᏰᏂ ᎦᎸᎳᏗ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫴🏼	ᎭᏫᎾᏗᏢ ᎤᏬᏰᏂ ᎦᎸᎳᏗ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫴🏽	ᎭᏫᎾᏗᏢ ᎤᏬᏰᏂ ᎦᎸᎳᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫴🏾	ᎭᏫᎾᏗᏢ ᎤᏬᏰᏂ ᎦᎸᎳᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫴🏿	ᎭᏫᎾᏗᏢ ᎤᏬᏰᏂ ᎦᎸᎳᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫷🏻	ᎠᎦᏍᎦᏂ ᎤᏩᏌᏙᏍᏗ ᎤᏬᏰᏂ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫷🏼	ᎠᎦᏍᎦᏂ ᎤᏩᏌᏙᏍᏗ ᎤᏬᏰᏂ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫷🏽	ᎠᎦᏍᎦᏂ ᎤᏩᏌᏙᏍᏗ ᎤᏬᏰᏂ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫷🏾	ᎠᎦᏍᎦᏂ ᎤᏩᏌᏙᏍᏗ ᎤᏬᏰᏂ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫷🏿	ᎠᎦᏍᎦᏂ ᎤᏩᏌᏙᏍᏗ ᎤᏬᏰᏂ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫸🏻	ᎠᎦᏘᏏ ᎤᏩᏌᏙᏍᏗ ᎤᏬᏰᏂ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫸🏼	ᎠᎦᏘᏏ ᎤᏩᏌᏙᏍᏗ ᎤᏬᏰᏂ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫸🏽	ᎠᎦᏘᏏ ᎤᏩᏌᏙᏍᏗ ᎤᏬᏰᏂ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫸🏾	ᎠᎦᏘᏏ ᎤᏩᏌᏙᏍᏗ ᎤᏬᏰᏂ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫸🏿	ᎠᎦᏘᏏ ᎤᏩᏌᏙᏍᏗ ᎤᏬᏰᏂ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👌🏻	ᎣᏏᏊ ᎪᏯᏛ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 👌🏼	ᎣᏏᏊ ᎪᏯᏛ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 👌🏽	ᎣᏏᏊ ᎪᏯᏛ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
@@ -1554,6 +1939,11 @@ symbols:
 🤞🏽	ᏧᏓᎿᏫᏓ ᏕᎦᏰᏌᏛ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🤞🏾	ᏧᏓᎿᏫᏓ ᏕᎦᏰᏌᏛ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🤞🏿	ᏧᏓᎿᏫᏓ ᏕᎦᏰᏌᏛ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫰🏻	ᎤᏬᏰᏂ ᎾᎿ ᎠᏚᏂᎯ ᏯᏍᏓ ᎠᎴ ᎦᏰᏌᏛ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫰🏼	ᎤᏬᏰᏂ ᎾᎿ ᎠᏚᏂᎯ ᏯᏍᏓ ᎠᎴ ᎦᏰᏌᏛ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫰🏽	ᎤᏬᏰᏂ ᎾᎿ ᎠᏚᏂᎯ ᏯᏍᏓ ᎠᎴ ᎦᏰᏌᏛ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫰🏾	ᎤᏬᏰᏂ ᎾᎿ ᎠᏚᏂᎯ ᏯᏍᏓ ᎠᎴ ᎦᏰᏌᏛ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫰🏿	ᎤᏬᏰᏂ ᎾᎿ ᎠᏚᏂᎯ ᏯᏍᏓ ᎠᎴ ᎦᏰᏌᏛ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🤟🏻	ᎬᎨᏳᎢ ᎤᏬᏯᏂᏍᎩ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 🤟🏼	ᎬᎨᏳᎢ ᎤᏬᏯᏂᏍᎩ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 🤟🏽	ᎬᎨᏳᎢ ᎤᏬᏯᏂᏍᎩ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
@@ -1599,6 +1989,11 @@ symbols:
 ☝🏽	ᎠᏎᎯ ᏩᏎᎯᎲᎢ ᎦᎸᎳᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 ☝🏾	ᎠᏎᎯ ᏩᏎᎯᎲᎢ ᎦᎸᎳᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 ☝🏿	ᎠᏎᎯ ᏩᏎᎯᎲᎢ ᎦᎸᎳᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫵🏻	ᎦᏰᏌᏛ ᎠᏓᏚᎯᏍᏙᏗ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫵🏼	ᎦᏰᏌᏛ ᎠᏓᏚᎯᏍᏙᏗ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫵🏽	ᎦᏰᏌᏛ ᎠᏓᏚᎯᏍᏙᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫵🏾	ᎦᏰᏌᏛ ᎠᏓᏚᎯᏍᏙᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫵🏿	ᎦᏰᏌᏛ ᎠᏓᏚᎯᏍᏙᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👍🏻	ᎤᏔᎾ ᎦᏰᏌᏛ ᎤᎵᏌᎳᏓ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 👍🏼	ᎤᏔᎾ ᎦᏰᏌᏛ ᎤᎵᏌᎳᏓ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 👍🏽	ᎤᏔᎾ ᎦᏰᏌᏛ ᎤᎵᏌᎳᏓ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
@@ -1639,6 +2034,11 @@ symbols:
 🙌🏽	ᏗᎪᏰᎾ ᏗᏌᎵᏛᏅᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🙌🏾	ᏗᎪᏰᎾ ᏗᏌᎵᏛᏅᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🙌🏿	ᏗᎪᏰᎾ ᏗᏌᎵᏛᏅᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫶🏻	ᎠᏓᏅᏙ ᏧᏬᏰᏂ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫶🏼	ᎠᏓᏅᏙ ᏧᏬᏰᏂ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫶🏽	ᎠᏓᏅᏙ ᏧᏬᏰᏂ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫶🏾	ᎠᏓᏅᏙ ᏧᏬᏰᏂ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫶🏿	ᎠᏓᏅᏙ ᏧᏬᏰᏂ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👐🏻	ᏗᏚᎢᏓ ᏙᏬᏰᎾ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 👐🏼	ᏗᏚᎢᏓ ᏙᏬᏰᎾ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 👐🏽	ᏗᏚᎢᏓ ᏙᏬᏰᎾ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
@@ -1649,6 +2049,11 @@ symbols:
 🤲🏽	ᏚᎾᏙᏯᏂᎠ ᎦᎸᎳᏗ ᎠᏒᏅᏍᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🤲🏾	ᏚᎾᏙᏯᏂᎠ ᎦᎸᎳᏗ ᎠᏒᏅᏍᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🤲🏿	ᏚᎾᏙᏯᏂᎠ ᎦᎸᎳᏗ ᎠᏒᏅᏍᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🤝🏻	ᎠᏓᏲᎵᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🤝🏼	ᎠᏓᏲᎵᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🤝🏽	ᎠᏓᏲᎵᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🤝🏾	ᎠᏓᏲᎵᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🤝🏿	ᎠᏓᏲᎵᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🙏🏻	ᏚᏆᏰᏅᏍᏛ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 🙏🏼	ᏚᏆᏰᏅᏍᏛ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 🙏🏽	ᏚᏆᏰᏅᏍᏛ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
@@ -1769,6 +2174,26 @@ symbols:
 🧑🏿‍❤‍🧑🏼	ᏗᎾᏤᎯ ᏧᏂᎿᏫ ᎤᏔᎾ, ᎤᏔᎾ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 🧑🏿‍❤‍🧑🏽	ᏗᎾᏤᎯ ᏧᏂᎿᏫ ᎤᏔᎾ, ᎤᏔᎾ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🧑🏿‍❤‍🧑🏾	ᏗᎾᏤᎯ ᏧᏂᎿᏫ ᎤᏔᎾ, ᎤᏔᎾ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏻‍🫯‍🧑🏼	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🧑🏻‍🫯‍🧑🏽	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏻‍🫯‍🧑🏾	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏻‍🫯‍🧑🏿	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏼‍🫯‍🧑🏻	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🧑🏼‍🫯‍🧑🏽	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏼‍🫯‍🧑🏾	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏼‍🫯‍🧑🏿	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏽‍🫯‍🧑🏻	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🧑🏽‍🫯‍🧑🏼	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🧑🏽‍🫯‍🧑🏾	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏽‍🫯‍🧑🏿	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏾‍🫯‍🧑🏻	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🧑🏾‍🫯‍🧑🏼	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🧑🏾‍🫯‍🧑🏽	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏾‍🫯‍🧑🏿	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏿‍🫯‍🧑🏻	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🧑🏿‍🫯‍🧑🏼	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🧑🏿‍🫯‍🧑🏽	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏿‍🫯‍🧑🏾	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🧑‍🦰	ᎤᏔᎾ ᎩᎦᎨ ᎤᏍᏘᎦ	none
 🧑🏻‍🦰	ᎤᏔᎾ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎩᎦᎨ ᎤᏍᏘᎦ	none
 🧑🏼‍🦰	ᎤᏔᎾ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎩᎦᎨ ᎤᏍᏘᎦ	none
@@ -1793,6 +2218,26 @@ symbols:
 🧑🏽‍🦲	ᎤᏔᎾ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎨᏬᏗ	none
 🧑🏾‍🦲	ᎤᏔᎾ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎨᏬᏗ	none
 🧑🏿‍🦲	ᎤᏔᎾ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎨᏬᏗ	none
+🧑🏻‍🐰‍🧑🏼	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🧑🏻‍🐰‍🧑🏽	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏻‍🐰‍🧑🏾	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏻‍🐰‍🧑🏿	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏼‍🐰‍🧑🏻	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🧑🏼‍🐰‍🧑🏽	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏼‍🐰‍🧑🏾	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏼‍🐰‍🧑🏿	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏽‍🐰‍🧑🏻	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🧑🏽‍🐰‍🧑🏼	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🧑🏽‍🐰‍🧑🏾	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏽‍🐰‍🧑🏿	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏾‍🐰‍🧑🏻	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🧑🏾‍🐰‍🧑🏼	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🧑🏾‍🐰‍🧑🏽	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏾‍🐰‍🧑🏿	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏿‍🐰‍🧑🏻	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🧑🏿‍🐰‍🧑🏼	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🧑🏿‍🐰‍🧑🏽	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏿‍🐰‍🧑🏾	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👨🏻	ᎠᏍᎦᏯ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 👨🏼	ᎠᏍᎦᏯ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 👨🏽	ᎠᏍᎦᏯ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
@@ -1803,6 +2248,11 @@ symbols:
 🧔🏽	ᎠᏍᎦᏯ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᏗᎭᏄᎸᎯ	none
 🧔🏾	ᎠᏍᎦᏯ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᏗᎭᏄᎸᎯ	none
 🧔🏿	ᎠᏍᎦᏯ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᏗᎭᏄᎸᎯ	none
+🧔🏻‍♂	ᎠᏍᎦᏯ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎭᏄᎸᏒ	none
+🧔🏼‍♂	ᎠᏍᎦᏯ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎭᏄᎸᏒ	none
+🧔🏽‍♂	ᎠᏍᎦᏯ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎭᏄᎸᏒ	none
+🧔🏾‍♂	ᎠᏍᎦᏯ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎭᏄᎸᏒ	none
+🧔🏿‍♂	ᎠᏍᎦᏯ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎭᏄᎸᏒ	none
 👱🏻‍♂	ᎠᏍᎦᏯ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᏓᎶᏂᎨ ᎤᏍᏘᎩ	none
 👱🏼‍♂	ᎠᏍᎦᏯ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᏓᎶᏂᎨ ᎤᏍᏘᎩ	none
 👱🏽‍♂	ᎠᏍᎦᏯ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᏓᎶᏂᎨ ᎤᏍᏘᎩ	none
@@ -1858,6 +2308,26 @@ symbols:
 👨🏿‍❤‍👨🏽	ᏗᎾᏤᎯ ᏧᏂᎿᏫ ᎠᏍᎦᏯ, ᎠᏍᎦᏯ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👨🏿‍❤‍👨🏾	ᏗᎾᏤᎯ ᏧᏂᎿᏫ ᎠᏍᎦᏯ, ᎠᏍᎦᏯ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👨🏿‍❤‍👨🏿	ᏗᎾᏤᎯ ᏧᏂᎿᏫ ᎠᏍᎦᏯ, ᎠᏍᎦᏯ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏻‍🫯‍👨🏼	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👨🏻‍🫯‍👨🏽	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏻‍🫯‍👨🏾	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏻‍🫯‍👨🏿	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏼‍🫯‍👨🏻	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👨🏼‍🫯‍👨🏽	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏼‍🫯‍👨🏾	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏼‍🫯‍👨🏿	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏽‍🫯‍👨🏻	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👨🏽‍🫯‍👨🏼	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👨🏽‍🫯‍👨🏾	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏽‍🫯‍👨🏿	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏾‍🫯‍👨🏻	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👨🏾‍🫯‍👨🏼	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👨🏾‍🫯‍👨🏽	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏾‍🫯‍👨🏿	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏿‍🫯‍👨🏻	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👨🏿‍🫯‍👨🏼	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👨🏿‍🫯‍👨🏽	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏿‍🫯‍👨🏾	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👨‍🦰	ᎠᏍᎦᏯ ᎩᎦᎨ ᎤᏍᏘᎦ	none
 👨🏻‍🦰	ᎠᏍᎦᏯ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎩᎦᎨ ᎤᏍᏘᎦ	none
 👨🏼‍🦰	ᎠᏍᎦᏯ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎩᎦᎨ ᎤᏍᏘᎦ	none
@@ -1882,11 +2352,36 @@ symbols:
 👨🏽‍🦲	ᎠᏍᎦᏯ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎨᏬᏗ	none
 👨🏾‍🦲	ᎠᏍᎦᏯ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎨᏬᏗ	none
 👨🏿‍🦲	ᎠᏍᎦᏯ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎨᏬᏗ	none
+👨🏻‍🐰‍👨🏼	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👨🏻‍🐰‍👨🏽	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏻‍🐰‍👨🏾	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏻‍🐰‍👨🏿	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏼‍🐰‍👨🏻	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👨🏼‍🐰‍👨🏽	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏼‍🐰‍👨🏾	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏼‍🐰‍👨🏿	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏽‍🐰‍👨🏻	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👨🏽‍🐰‍👨🏼	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👨🏽‍🐰‍👨🏾	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏽‍🐰‍👨🏿	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏾‍🐰‍👨🏻	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👨🏾‍🐰‍👨🏼	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👨🏾‍🐰‍👨🏽	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏾‍🐰‍👨🏿	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏿‍🐰‍👨🏻	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👨🏿‍🐰‍👨🏼	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👨🏿‍🐰‍👨🏽	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨🏿‍🐰‍👨🏾	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👩🏻	ᎠᎨᏯ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 👩🏼	ᎠᎨᏯ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 👩🏽	ᎠᎨᏯ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👩🏾	ᎠᎨᏯ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👩🏿	ᎠᎨᏯ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧔🏻‍♀	ᎠᎨᏯ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎭᏄᎸᏒ	none
+🧔🏼‍♀	ᎠᎨᏯ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎭᏄᎸᏒ	none
+🧔🏽‍♀	ᎠᎨᏯ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎭᏄᎸᏒ	none
+🧔🏾‍♀	ᎠᎨᏯ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎭᏄᎸᏒ	none
+🧔🏿‍♀	ᎠᎨᏯ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎭᏄᎸᏒ	none
 👱🏻‍♀	ᎠᎨᏯ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᏓᎶᏂᎨ ᎤᏍᏘᎩ	none
 👱🏼‍♀	ᎠᎨᏯ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᏓᎶᏂᎨ ᎤᏍᏘᎩ	none
 👱🏽‍♀	ᎠᎨᏯ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᏓᎶᏂᎨ ᎤᏍᏘᎩ	none
@@ -1992,6 +2487,26 @@ symbols:
 👩🏿‍❤‍👩🏽	ᏗᎾᏤᎯ ᏧᏂᎿᏫ ᎠᎨᏯ, ᎠᎨᏯ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👩🏿‍❤‍👩🏾	ᏗᎾᏤᎯ ᏧᏂᎿᏫ ᎠᎨᏯ, ᎠᎨᏯ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👩🏿‍❤‍👩🏿	ᏗᎾᏤᎯ ᏧᏂᎿᏫ ᎠᎨᏯ, ᎠᎨᏯ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏻‍🫯‍👩🏼	ᎠᎨᏯ ᏓᏁᎯᎲ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👩🏻‍🫯‍👩🏽	ᎠᎨᏯ ᏓᏁᎯᎲ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏻‍🫯‍👩🏾	ᎠᎨᏯ ᏓᏁᎯᎲ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏻‍🫯‍👩🏿	ᎠᎨᏯ ᏓᏁᎯᎲ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏼‍🫯‍👩🏻	ᎠᎨᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👩🏼‍🫯‍👩🏽	ᎠᎨᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏼‍🫯‍👩🏾	ᎠᎨᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏼‍🫯‍👩🏿	ᎠᎨᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏽‍🫯‍👩🏻	ᎠᎨᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👩🏽‍🫯‍👩🏼	ᎠᎨᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👩🏽‍🫯‍👩🏾	ᎠᎨᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏽‍🫯‍👩🏿	ᎠᎨᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏾‍🫯‍👩🏻	ᎠᎨᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👩🏾‍🫯‍👩🏼	ᎠᎨᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👩🏾‍🫯‍👩🏽	ᎠᎨᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏾‍🫯‍👩🏿	ᎠᎨᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏿‍🫯‍👩🏻	ᎠᎨᏯ ᏓᏁᎯᎲ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👩🏿‍🫯‍👩🏼	ᎠᎨᏯ ᏓᏁᎯᎲ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👩🏿‍🫯‍👩🏽	ᎠᎨᏯ ᏓᏁᎯᎲ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏿‍🫯‍👩🏾	ᎠᎨᏯ ᏓᏁᎯᎲ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👩‍🦰	ᎠᎨᏯ ᎩᎦᎨ ᎤᏍᏘᎦ	none
 👩🏻‍🦰	ᎠᎨᏯ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎩᎦᎨ ᎤᏍᏘᎦ	none
 👩🏼‍🦰	ᎠᎨᏯ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎩᎦᎨ ᎤᏍᏘᎦ	none
@@ -2016,6 +2531,26 @@ symbols:
 👩🏽‍🦲	ᎠᎨᏯ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎨᏬᏗ	none
 👩🏾‍🦲	ᎠᎨᏯ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎨᏬᏗ	none
 👩🏿‍🦲	ᎠᎨᏯ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎨᏬᏗ	none
+👩🏻‍🐰‍👩🏼	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👩🏻‍🐰‍👩🏽	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏻‍🐰‍👩🏾	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏻‍🐰‍👩🏿	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏼‍🐰‍👩🏻	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👩🏼‍🐰‍👩🏽	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏼‍🐰‍👩🏾	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏼‍🐰‍👩🏿	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏽‍🐰‍👩🏻	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👩🏽‍🐰‍👩🏼	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👩🏽‍🐰‍👩🏾	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏽‍🐰‍👩🏿	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏾‍🐰‍👩🏻	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👩🏾‍🐰‍👩🏼	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👩🏾‍🐰‍👩🏽	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏾‍🐰‍👩🏿	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏿‍🐰‍👩🏻	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👩🏿‍🐰‍👩🏼	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👩🏿‍🐰‍👩🏽	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩🏿‍🐰‍👩🏾	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🧓🏻	ᎠᎦᏴᎵ ᎤᏔᎾ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 🧓🏼	ᎠᎦᏴᎵ ᎤᏔᎾ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 🧓🏽	ᎠᎦᏴᎵ ᎤᏔᎾ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
@@ -2486,6 +3021,11 @@ symbols:
 👷🏽‍♀	ᎠᎨᏯ ᏗᏁᏍᎨᏍᎩ ᏧᎸᏫᏍᏓᏁᎯ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👷🏾‍♀	ᎠᎨᏯ ᏗᏁᏍᎨᏍᎩ ᏧᎸᏫᏍᏓᏁᎯ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👷🏿‍♀	ᎠᎨᏯ ᏗᏁᏍᎨᏍᎩ ᏧᎸᏫᏍᏓᏁᎯ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫅🏻	ᎤᎬᏫᏳᎯ ᎤᎵᏍᏚᎳ ᎠᏕᎳ ᏓᎶᏂᎨ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫅🏼	ᎤᎬᏫᏳᎯ ᎤᎵᏍᏚᎳ ᎠᏕᎳ ᏓᎶᏂᎨ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫅🏽	ᎤᎬᏫᏳᎯ ᎤᎵᏍᏚᎳ ᎠᏕᎳ ᏓᎶᏂᎨ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫅🏾	ᎤᎬᏫᏳᎯ ᎤᎵᏍᏚᎳ ᎠᏕᎳ ᏓᎶᏂᎨ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫅🏿	ᎤᎬᏫᏳᎯ ᎤᎵᏍᏚᎳ ᎠᏕᎳ ᏓᎶᏂᎨ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🤴🏻	ᎠᏫᎾ ᎤᎬᏬᏳᎯ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 🤴🏼	ᎠᏫᎾ ᎤᎬᏬᏳᎯ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 🤴🏽	ᎠᏫᎾ ᎤᎬᏬᏳᎯ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
@@ -2556,6 +3096,16 @@ symbols:
 🤰🏽	ᎦᏁᎵᏓ ᎠᎨᏯ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🤰🏾	ᎦᏁᎵᏓ ᎠᎨᏯ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🤰🏿	ᎦᏁᎵᏓ ᎠᎨᏯ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫃🏻	ᎦᏁᎵᏓ ᎠᏍᎦᏯ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫃🏼	ᎦᏁᎵᏓ ᎠᏍᎦᏯ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫃🏽	ᎦᏁᎵᏓ ᎠᏍᎦᏯ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫃🏾	ᎦᏁᎵᏓ ᎠᏍᎦᏯ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫃🏿	ᎦᏁᎵᏓ ᎠᏍᎦᏯ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫄🏻	ᎦᏁᎵᏓ ᏴᏫ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🫄🏼	ᎦᏁᎵᏓ ᏴᏫ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🫄🏽	ᎦᏁᎵᏓ ᏴᏫ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫄🏾	ᎦᏁᎵᏓ ᏴᏫ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🫄🏿	ᎦᏁᎵᏓ ᏴᏫ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🤱🏻	ᏧᏓᏍᏓᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 🤱🏼	ᏧᏓᏍᏓᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 🤱🏽	ᏧᏓᏍᏓᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
@@ -2746,6 +3296,24 @@ symbols:
 🚶🏽‍♀	ᎠᎨᏯ ᎠᏨᏏᏰ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🚶🏾‍♀	ᎠᎨᏯ ᎠᏨᏏᏰ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🚶🏿‍♀	ᎠᎨᏯ ᎠᏨᏏᏰ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🚶‍➡	ᏴᏫ ᎠᏨᏏᏰ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶🏻‍➡	ᏴᏫ ᎠᏨᏏᏰ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶🏼‍➡	ᏴᏫ ᎠᏨᏏᏰ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶🏽‍➡	ᏴᏫ ᎠᏨᏏᏰ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶🏾‍➡	ᏴᏫ ᎠᏨᏏᏰ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶🏿‍➡	ᏴᏫ ᎠᏨᏏᏰ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶‍♀‍➡	ᎠᎨᏯ ᎠᏨᏏᏰ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶🏻‍♀‍➡	ᎠᎨᏯ ᎠᏨᏏᏰ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶🏼‍♀‍➡	ᎠᎨᏯ ᎠᏨᏏᏰ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶🏽‍♀‍➡	ᎠᎨᏯ ᎠᏨᏏᏰ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶🏾‍♀‍➡	ᎠᎨᏯ ᎠᏨᏏᏰ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶🏿‍♀‍➡	ᎠᎨᏯ ᎠᏨᏏᏰ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶‍♂‍➡	ᎠᏍᎦᏯ ᎠᏨᏏᏰ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶🏻‍♂‍➡	ᎠᏍᎦᏯ ᎠᏨᏏᏰ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶🏼‍♂‍➡	ᎠᏍᎦᏯ ᎠᏨᏏᏰ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶🏽‍♂‍➡	ᎠᏍᎦᏯ ᎠᏨᏏᏰ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶🏾‍♂‍➡	ᎠᏍᎦᏯ ᎠᏨᏏᏰ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🚶🏿‍♂‍➡	ᎠᏍᎦᏯ ᎠᏨᏏᏰ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
 🧍🏻	ᏴᏫ ᎦᏙᎦ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 🧍🏼	ᏴᏫ ᎦᏙᎦ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 🧍🏽	ᏴᏫ ᎦᏙᎦ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
@@ -2776,51 +3344,123 @@ symbols:
 🧎🏽‍♀	ᎠᎨᏯ ᏕᏥᎾᏆᎾ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🧎🏾‍♀	ᎠᎨᏯ ᏕᏥᎾᏆᎾ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🧎🏿‍♀	ᎠᎨᏯ ᏕᏥᎾᏆᎾ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧎‍➡	ᏴᏫ ᏕᏥᎾᏆᎾ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎🏻‍➡	ᏴᏫ ᏕᏥᎾᏆᎾ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎🏼‍➡	ᏴᏫ ᏕᏥᎾᏆᎾ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎🏽‍➡	ᏴᏫ ᏕᏥᎾᏆᎾ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎🏾‍➡	ᏴᏫ ᏕᏥᎾᏆᎾ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎🏿‍➡	ᏴᏫ ᏕᏥᎾᏆᎾ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎‍♀‍➡	ᎠᎨᏯ ᏕᏥᎾᏆᎾ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎🏻‍♀‍➡	ᎠᎨᏯ ᏕᏥᎾᏆᎾ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎🏼‍♀‍➡	ᎠᎨᏯ ᏕᏥᎾᏆᎾ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎🏽‍♀‍➡	ᎠᎨᏯ ᏕᏥᎾᏆᎾ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎🏾‍♀‍➡	ᎠᎨᏯ ᏕᏥᎾᏆᎾ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎🏿‍♀‍➡	ᎠᎨᏯ ᏕᏥᎾᏆᎾ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎‍♂‍➡	ᎠᏍᎦᏯ ᏕᏥᎾᏆᎾ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎🏻‍♂‍➡	ᎠᏍᎦᏯ ᏕᏥᎾᏆᎾ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎🏼‍♂‍➡	ᎠᏍᎦᏯ ᏕᏥᎾᏆᎾ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎🏽‍♂‍➡	ᎠᏍᎦᏯ ᏕᏥᎾᏆᎾ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎🏾‍♂‍➡	ᎠᏍᎦᏯ ᏕᏥᎾᏆᎾ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧎🏿‍♂‍➡	ᎠᏍᎦᏯ ᏕᏥᎾᏆᎾ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
 🧑🏻‍🦯	ᏴᏫ ᏗᎨᏫ ᎬᏂᏍᏓ ᎬᏗ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 🧑🏼‍🦯	ᏴᏫ ᏗᎨᏫ ᎬᏂᏍᏓ ᎬᏗ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 🧑🏽‍🦯	ᏴᏫ ᏗᎨᏫ ᎬᏂᏍᏓ ᎬᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🧑🏾‍🦯	ᏴᏫ ᏗᎨᏫ ᎬᏂᏍᏓ ᎬᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🧑🏿‍🦯	ᏴᏫ ᏗᎨᏫ ᎬᏂᏍᏓ ᎬᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑‍🦯‍➡	ᏴᏫ ᏗᎨᏫ ᎬᏂᏍᏓ ᎬᏗ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏻‍🦯‍➡	ᏴᏫ ᏗᎨᏫ ᎬᏂᏍᏓ ᎬᏗ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏼‍🦯‍➡	ᏴᏫ ᏗᎨᏫ ᎬᏂᏍᏓ ᎬᏗ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏽‍🦯‍➡	ᏴᏫ ᏗᎨᏫ ᎬᏂᏍᏓ ᎬᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏾‍🦯‍➡	ᏴᏫ ᏗᎨᏫ ᎬᏂᏍᏓ ᎬᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏿‍🦯‍➡	ᏴᏫ ᏗᎨᏫ ᎬᏂᏍᏓ ᎬᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
 👨🏻‍🦯	ᎠᏍᎦᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 👨🏼‍🦯	ᎠᏍᎦᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 👨🏽‍🦯	ᎠᏍᎦᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👨🏾‍🦯	ᎠᏍᎦᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👨🏿‍🦯	ᎠᏍᎦᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨‍🦯‍➡	ᎠᏍᎦᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👨🏻‍🦯‍➡	ᎠᏍᎦᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👨🏼‍🦯‍➡	ᎠᏍᎦᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👨🏽‍🦯‍➡	ᎠᏍᎦᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👨🏾‍🦯‍➡	ᎠᏍᎦᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👨🏿‍🦯‍➡	ᎠᏍᎦᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
 👩🏻‍🦯	ᎠᎨᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 👩🏼‍🦯	ᎠᎨᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 👩🏽‍🦯	ᎠᎨᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👩🏾‍🦯	ᎠᎨᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👩🏿‍🦯	ᎠᎨᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩‍🦯‍➡	ᎠᎨᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👩🏻‍🦯‍➡	ᎠᎨᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👩🏼‍🦯‍➡	ᎠᎨᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👩🏽‍🦯‍➡	ᎠᎨᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👩🏾‍🦯‍➡	ᎠᎨᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👩🏿‍🦯‍➡	ᎠᎨᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
 🧑🏻‍🦼	ᏴᏫ ᎠᎾᎦᎵᏍᎩ ᎦᏆᏘᏗ ᎦᏍᏗᎶ ᎬᏗ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 🧑🏼‍🦼	ᏴᏫ ᎠᎾᎦᎵᏍᎩ ᎦᏆᏘᏗ ᎦᏍᏗᎶ ᎬᏗ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 🧑🏽‍🦼	ᏴᏫ ᎠᎾᎦᎵᏍᎩ ᎦᏆᏘᏗ ᎦᏍᏗᎶ ᎬᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🧑🏾‍🦼	ᏴᏫ ᎠᎾᎦᎵᏍᎩ ᎦᏆᏘᏗ ᎦᏍᏗᎶ ᎬᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🧑🏿‍🦼	ᏴᏫ ᎠᎾᎦᎵᏍᎩ ᎦᏆᏘᏗ ᎦᏍᏗᎶ ᎬᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑‍🦼‍➡	ᏴᏫ ᎠᎾᎦᎵᏍᎩ ᎦᏆᏘᏗ ᎦᏍᏗᎶ ᎬᏗ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏻‍🦼‍➡	ᏴᏫ ᎠᎾᎦᎵᏍᎩ ᎦᏆᏘᏗ ᎦᏍᏗᎶ ᎬᏗ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏼‍🦼‍➡	ᏴᏫ ᎠᎾᎦᎵᏍᎩ ᎦᏆᏘᏗ ᎦᏍᏗᎶ ᎬᏗ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏽‍🦼‍➡	ᏴᏫ ᎠᎾᎦᎵᏍᎩ ᎦᏆᏘᏗ ᎦᏍᏗᎶ ᎬᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏾‍🦼‍➡	ᏴᏫ ᎠᎾᎦᎵᏍᎩ ᎦᏆᏘᏗ ᎦᏍᏗᎶ ᎬᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏿‍🦼‍➡	ᏴᏫ ᎠᎾᎦᎵᏍᎩ ᎦᏆᏘᏗ ᎦᏍᏗᎶ ᎬᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
 👨🏻‍🦼	ᎠᏍᎦᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 👨🏼‍🦼	ᎠᏍᎦᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 👨🏽‍🦼	ᎠᏍᎦᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👨🏾‍🦼	ᎠᏍᎦᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👨🏿‍🦼	ᎠᏍᎦᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨‍🦼‍➡	ᎠᏍᎦᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👨🏻‍🦼‍➡	ᎠᏍᎦᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👨🏼‍🦼‍➡	ᎠᏍᎦᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👨🏽‍🦼‍➡	ᎠᏍᎦᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👨🏾‍🦼‍➡	ᎠᏍᎦᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👨🏿‍🦼‍➡	ᎠᏍᎦᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
 👩🏻‍🦼	ᎠᎨᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 👩🏼‍🦼	ᎠᎨᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 👩🏽‍🦼	ᎠᎨᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👩🏾‍🦼	ᎠᎨᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👩🏿‍🦼	ᎠᎨᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩‍🦼‍➡	ᎠᎨᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👩🏻‍🦼‍➡	ᎠᎨᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👩🏼‍🦼‍➡	ᎠᎨᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👩🏽‍🦼‍➡	ᎠᎨᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👩🏾‍🦼‍➡	ᎠᎨᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👩🏿‍🦼‍➡	ᎠᎨᏯ ᎬᏗ ᎠᏂᎩᏍᏗᏍᎩ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
 🧑🏻‍🦽	ᏴᏫ ᎦᏆᏘᏗ ᎦᏍᎩᎶ ᎬᏗ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 🧑🏼‍🦽	ᏴᏫ ᎦᏆᏘᏗ ᎦᏍᎩᎶ ᎬᏗ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 🧑🏽‍🦽	ᏴᏫ ᎦᏆᏘᏗ ᎦᏍᎩᎶ ᎬᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🧑🏾‍🦽	ᏴᏫ ᎦᏆᏘᏗ ᎦᏍᎩᎶ ᎬᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🧑🏿‍🦽	ᏴᏫ ᎦᏆᏘᏗ ᎦᏍᎩᎶ ᎬᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑‍🦽‍➡	ᏴᏫ ᎦᏆᏘᏗ ᎦᏍᎩᎶ ᎬᏗ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏻‍🦽‍➡	ᏴᏫ ᎦᏆᏘᏗ ᎦᏍᎩᎶ ᎬᏗ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏼‍🦽‍➡	ᏴᏫ ᎦᏆᏘᏗ ᎦᏍᎩᎶ ᎬᏗ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏽‍🦽‍➡	ᏴᏫ ᎦᏆᏘᏗ ᎦᏍᎩᎶ ᎬᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏾‍🦽‍➡	ᏴᏫ ᎦᏆᏘᏗ ᎦᏍᎩᎶ ᎬᏗ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏿‍🦽‍➡	ᏴᏫ ᎦᏆᏘᏗ ᎦᏍᎩᎶ ᎬᏗ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
 👨🏻‍🦽	ᎠᏍᎦᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 👨🏼‍🦽	ᎠᏍᎦᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 👨🏽‍🦽	ᎠᏍᎦᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👨🏾‍🦽	ᎠᏍᎦᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👨🏿‍🦽	ᎠᏍᎦᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👨‍🦽‍➡	ᎠᏍᎦᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👨🏻‍🦽‍➡	ᎠᏍᎦᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👨🏼‍🦽‍➡	ᎠᏍᎦᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👨🏽‍🦽‍➡	ᎠᏍᎦᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👨🏾‍🦽‍➡	ᎠᏍᎦᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👨🏿‍🦽‍➡	ᎠᏍᎦᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
 👩🏻‍🦽	ᎠᎨᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 👩🏼‍🦽	ᎠᎨᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 👩🏽‍🦽	ᎠᎨᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👩🏾‍🦽	ᎠᎨᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 👩🏿‍🦽	ᎠᎨᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👩‍🦽‍➡	ᎠᎨᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👩🏻‍🦽‍➡	ᎠᎨᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👩🏼‍🦽‍➡	ᎠᎨᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👩🏽‍🦽‍➡	ᎠᎨᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👩🏾‍🦽‍➡	ᎠᎨᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+👩🏿‍🦽‍➡	ᎠᎨᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
 🏃🏻	ᏴᏫ ᎠᏛᏟᏒᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 🏃🏼	ᏴᏫ ᎠᏛᏟᏒᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 🏃🏽	ᏴᏫ ᎠᏛᏟᏒᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
@@ -2836,6 +3476,29 @@ symbols:
 🏃🏽‍♀	ᎠᎨᏯ ᎠᏛᏟᏒᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🏃🏾‍♀	ᎠᎨᏯ ᎠᏛᏟᏒᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🏃🏿‍♀	ᎠᎨᏯ ᎠᏛᏟᏒᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🏃‍➡	ᏴᏫ ᎠᏛᏟᏒᎢ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃🏻‍➡	ᏴᏫ ᎠᏛᏟᏒᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃🏼‍➡	ᏴᏫ ᎠᏛᏟᏒᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃🏽‍➡	ᏴᏫ ᎠᏛᏟᏒᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃🏾‍➡	ᏴᏫ ᎠᏛᏟᏒᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃🏿‍➡	ᏴᏫ ᎠᏛᏟᏒᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃‍♀‍➡	ᎠᎨᏯ ᎠᏛᏟᏒᎢ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃🏻‍♀‍➡	ᎠᎨᏯ ᎠᏛᏟᏒᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃🏼‍♀‍➡	ᎠᎨᏯ ᎠᏛᏟᏒᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃🏽‍♀‍➡	ᎠᎨᏯ ᎠᏛᏟᏒᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃🏾‍♀‍➡	ᎠᎨᏯ ᎠᏛᏟᏒᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃🏿‍♀‍➡	ᎠᎨᏯ ᎠᏛᏟᏒᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃‍♂‍➡	ᎠᏍᎦᏯ ᎠᏛᏟᏒᎢ ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃🏻‍♂‍➡	ᎠᏍᎦᏯ ᎠᏛᏟᏒᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃🏼‍♂‍➡	ᎠᏍᎦᏯ ᎠᏛᏟᏒᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃🏽‍♂‍➡	ᎠᏍᎦᏯ ᎠᏛᏟᏒᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃🏾‍♂‍➡	ᎠᏍᎦᏯ ᎠᏛᏟᏒᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🏃🏿‍♂‍➡	ᎠᏍᎦᏯ ᎠᏛᏟᏒᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ, ᎠᎦᏘᏏ ᎢᏗᏢ	none
+🧑🏻‍🩰	ᏆᎴ ᎠᎵᏍᎩᏍᎩ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🧑🏼‍🩰	ᏆᎴ ᎠᎵᏍᎩᏍᎩ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🧑🏽‍🩰	ᏆᎴ ᎠᎵᏍᎩᏍᎩ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏾‍🩰	ᏆᎴ ᎠᎵᏍᎩᏍᎩ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🧑🏿‍🩰	ᏆᎴ ᎠᎵᏍᎩᏍᎩ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 💃🏻	ᎠᎨᏯ ᎠᎵᏍᎩᏍᎩ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 💃🏼	ᎠᎨᏯ ᎠᎵᏍᎩᏍᎩ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 💃🏽	ᎠᎨᏯ ᎠᎵᏍᎩᏍᎩ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
@@ -2851,6 +3514,21 @@ symbols:
 🕴🏽	ᎠᏍᎦᏯ ᏚᎸᏫᏍᏓᏁᎯ ᏧᏠᏱᎭ ᏓᎴᎲᏍᎬᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🕴🏾	ᎠᏍᎦᏯ ᏚᎸᏫᏍᏓᏁᎯ ᏧᏠᏱᎭ ᏓᎴᎲᏍᎬᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🕴🏿	ᎠᏍᎦᏯ ᏚᎸᏫᏍᏓᏁᎯ ᏧᏠᏱᎭ ᏓᎴᎲᏍᎬᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👯🏻	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👯🏼	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👯🏽	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👯🏾	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👯🏿	ᏴᏫ ᏥᏍᏚ ᏗᎦᎴ ᎤᏂᏍᏆᎸᎡᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👯🏻‍♂	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👯🏼‍♂	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👯🏽‍♂	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👯🏾‍♂	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👯🏿‍♂	ᎠᏍᎦᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👯🏻‍♀	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+👯🏼‍♀	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+👯🏽‍♀	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👯🏾‍♀	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+👯🏿‍♀	ᎠᎨᏯ ᏥᏍᏚ ᏗᎦᎴ ᎣᏍᏓ ᎤᏍᏆᎸᎡᎲᎢ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🧖🏻	ᎩᎶ ᎠᏯᎠ ᎠᏔᎶᎴᎬ ᎧᏅᏑᎸ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 🧖🏼	ᎩᎶ ᎠᏯᎠ ᎠᏔᎶᎴᎬ ᎧᏅᏑᎸ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 🧖🏽	ᎩᎶ ᎠᏯᎠ ᎠᏔᎶᎴᎬ ᎧᏅᏑᎸ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
@@ -3026,6 +3704,21 @@ symbols:
 🤸🏽‍♀	ᎠᎨᏯ ᏓᏁᏍᏆᏕᎬ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🤸🏾‍♀	ᎠᎨᏯ ᏓᏁᏍᏆᏕᎬ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🤸🏿‍♀	ᎠᎨᏯ ᏓᏁᏍᏆᏕᎬ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🤼🏻	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🤼🏼	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🤼🏽	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🤼🏾	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🤼🏿	ᎠᏂᏴᏫ ᏓᏁᎯᎲ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🤼🏻‍♂	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🤼🏼‍♂	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🤼🏽‍♂	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🤼🏾‍♂	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🤼🏿‍♂	ᎠᏂᏍᎦᏯ ᏓᏁᎯᎲ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🤼🏻‍♀	ᎠᎨᏯ ᏓᏁᎯᎲ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
+🤼🏼‍♀	ᎠᎨᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
+🤼🏽‍♀	ᎠᎨᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🤼🏾‍♀	ᎠᎨᏯ ᏓᏁᎯᎲ ᎠᏲᏟᎨ-ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
+🤼🏿‍♀	ᎠᎨᏯ ᏓᏁᎯᎲ ᎤᎵᏏᎩ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
 🤽🏻	ᏴᏫ ᏓᏁᎶᎲᏍᎬ ᎠᎹ ᎠᎳᏍᎦᎵᏙᏗ ᎤᏗᏴᎳᏘ ᎤᏁᎦᎵ ᏄᏍᏛᎢ	none
 🤽🏼	ᏴᏫ ᏓᏁᎶᎲᏍᎬ ᎠᎹ ᎠᎳᏍᎦᎵᏙᏗ ᎠᏲᏟᎨ-ᎤᏗᏴᎳᏘ ᎤᏁᎦᎸ ᏄᎿᏍᏛᎢ	none
 🤽🏽	ᏴᏫ ᏓᏁᎶᎲᏍᎬ ᎠᎹ ᎠᎳᏍᎦᎵᏙᏗ ᎠᏲᏟᎨ ᎣᏁᎦᎸ ᏄᏍᏛᎢ	none
@@ -3289,6 +3982,7 @@ symbols:
 🇨🇳	ᎦᏓᏗ ᏓᎶᏂᎨᏍᏛ	none
 🇨🇴	ᎦᏓᏗ ᎪᎸᎻᏈᎢᎠ	none
 🇨🇵	ᎦᏓᏗ ᎦᏂᏴᏔᏅᎣᏓᎸ ᎤᎦᏚᏛᎢ	none
+🇨🇶	ᎦᏓᏗ ᏌᎬ	none
 🇨🇷	ᎦᏓᏗ ᎪᏍᏓ ᎵᎧ	none
 🇨🇺	ᎦᏓᏗ ᎫᏆ	none
 🇨🇻	ᎦᏓᏗ ᎢᎬᎾᏕᎾ ᎢᏤᏳᏍᏗ	none

@@ -65,6 +65,7 @@ void options_print_help(char *argv[])
 	assert(argv[0]);
 
 	printf(_("send text-to-speech output request to speech-dispatcher\n\n"));
+	printf(_("note that unless -w is given, %s does not wait for speech completion\n\n"), argv[0]);
 	printf(_("Usage: %s [options] \"some text\"\n\n"), argv[0]);
 
 	printf(_("Options:\n"));
@@ -118,7 +119,8 @@ void options_print_help(char *argv[])
 	printf(_("Speak the key\n"));
 
 	printf("  -m, --punctuation-mode          ");
-	printf(_("Set the punctuation mode %s\n"), "(none, some, most, all)");
+	printf(_("Set the punctuation mode\n"));
+	printf("                                  (none, some, most, all)\n");
 
 	printf("  -s, --spelling                  ");
 	printf(_("Spell the message\n"));
@@ -128,7 +130,8 @@ void options_print_help(char *argv[])
 	printf("\n");
 
 	printf("  -e, --pipe-mode                 ");
-	printf(_("Pipe from stdin to stdout plus Speech Dispatcher\n"));
+	printf(_("Read text to be spoken on stdin, write it on stdout unchanged, and the\n"
+	         "corresponding speech through Speech Dispatcher.\n"));
 
 	printf("  -P, --priority                  ");
 	printf(_("Set priority of the message "));
@@ -139,14 +142,14 @@ void options_print_help(char *argv[])
 
 	printf("  -N, --application-name          ");
 	printf(_("Set the application name used to establish\n"
-		 "%sthe connection to specified string value\n"),
+	         "%1$sthe connection to specified string value\n"),
 	       "                                  ");
 	printf("                                  ");
 	printf(_("(default: %s)\n"), "spd-say");
 
 	printf("  -n, --connection-name           ");
 	printf(_("Set the connection name used to establish\n"
-		 "%sthe connection to specified string value\n"),
+	         "%1$sthe connection to specified string value\n"),
 	       "                                  ");
 	printf("                                  ");
 	printf(_("(default: %s)\n"), "main");

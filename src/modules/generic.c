@@ -25,7 +25,10 @@
 #endif
 
 #include <glib.h>
+#include <fcntl.h>
+#include <sys/stat.h>
 #include <semaphore.h>
+#include <locale.h>
 
 #include <speechd_types.h>
 
@@ -41,7 +44,7 @@ static int generic_speaking = 0;
 
 static pthread_t generic_speak_thread;
 static pid_t generic_pid;
-static sem_t generic_semaphore;
+static sem_t *generic_semaphore;
 
 static char *generic_message;
 static SPDMessageType generic_message_type;
@@ -84,6 +87,7 @@ MOD_OPTION_1_STR(GenericExecuteSynth)
     MOD_OPTION_1_STR(GenericPunctAll)
     MOD_OPTION_1_STR(GenericStripPunctChars)
     MOD_OPTION_1_STR(GenericRecodeFallback)
+    MOD_OPTION_1_STR(GenericDefaultCharset)
 
     MOD_OPTION_1_INT(GenericRateAdd)
     MOD_OPTION_1_FLOAT(GenericRateMultiply)
@@ -124,6 +128,7 @@ int module_load(void)
 	MOD_OPTION_1_STR_REG(GenericDelimiters, ".");
 	MOD_OPTION_1_STR_REG(GenericStripPunctChars, "");
 	MOD_OPTION_1_STR_REG(GenericRecodeFallback, "?");
+	MOD_OPTION_1_STR_REG(GenericDefaultCharset, "iso-8859-1");
 
 	MOD_OPTION_1_INT_REG(GenericRateAdd, 0);
 	MOD_OPTION_1_FLOAT_REG(GenericRateMultiply, 1);
@@ -160,6 +165,13 @@ int module_init(char **status_info)
 
 	*status_info = NULL;
 
+	if (module_list_registered_voices() == NULL)
+	{
+		*status_info = g_strdup("The module does not have any voice configured, "
+					"please add them in the configuration file, "
+					"or install the required files");
+		return -1;
+	}
 	DBG("GenericMaxChunkLength = %d\n", GenericMaxChunkLength);
 	DBG("GenericDelimiters = %s\n", GenericDelimiters);
 	DBG("GenericExecuteSynth = %s\n", GenericExecuteSynth);
@@ -169,21 +181,27 @@ int module_init(char **status_info)
 	generic_msg_language =
 	    (TGenericLanguage *) g_malloc(sizeof(TGenericLanguage));
 	generic_msg_language->code = g_strdup("en-US");
-	generic_msg_language->charset = g_strdup("iso-8859-1");
+	generic_msg_language->charset = g_strdup(GenericDefaultCharset);
 	generic_msg_language->name = g_strdup("english");
+
+	/* For mbtowc to work in locale charset */
+	setlocale(LC_CTYPE, "");
 
 	generic_message = NULL;
 
-	sem_init(&generic_semaphore, 0, 0);
+	char name[64];
+	snprintf(name, sizeof(name), "/speechd-modules-generic-%d", getpid());
+	generic_semaphore = sem_open(name, O_CREAT | O_EXCL, S_IRUSR | S_IWUSR, 0);
+	sem_unlink(name);
 
 	DBG("Generic: creating new thread for generic_speak\n");
 	generic_speaking = 0;
 	ret = spd_pthread_create(&generic_speak_thread, NULL, _generic_speak, NULL);
 	if (ret != 0) {
 		DBG("Generic: thread failed\n");
-		*status_info = g_strdup("The module couldn't initialize threads"
-					"This can be either an internal problem or an"
-					"architecture problem. If you are sure your architecture"
+		*status_info = g_strdup("The module couldn't initialize threads "
+					"This can be either an internal problem or an "
+					"architecture problem. If you are sure your architecture "
 					"supports threads, please report a bug.");
 		return -1;
 	}
@@ -200,7 +218,8 @@ SPDVoice **module_list_voices(void)
 
 int module_speak(gchar * data, size_t bytes, SPDMessageType msgtype)
 {
-	char *tmp;
+	char *tmp, *newtmp;
+	GError *gerror = NULL;
 
 	DBG("speak()\n");
 
@@ -217,48 +236,66 @@ int module_speak(gchar * data, size_t bytes, SPDMessageType msgtype)
 	UPDATE_PARAMETER(rate, generic_set_rate);
 	UPDATE_PARAMETER(volume, generic_set_volume);
 
-	/* Set the appropriate charset */
-	assert(generic_msg_language != NULL);
-	if (generic_msg_language->charset != NULL) {
-		DBG("Recoding from UTF-8 to %s...",
-		    generic_msg_language->charset);
-		tmp =
-		    (char *)g_convert_with_fallback(data, bytes,
-						    generic_msg_language->charset,
-						    "UTF-8",
-						    GenericRecodeFallback, NULL,
-						    NULL, NULL);
-	} else {
-		DBG("Warning: Preferred charset not specified, recoding to iso-8859-1");
-		tmp =
-		    (char *)g_convert_with_fallback(data, bytes, "iso-8859-1",
-						    "UTF-8",
-						    GenericRecodeFallback, NULL,
-						    NULL, NULL);
-	}
-
-	if (tmp == NULL)
-		return -1;
+	DBG("Requested data (%d): |%s|\n", msgtype, data);
 
 	/* TODO: use a generic engine for SPELL, CHAR, KEY */
 	if (msgtype == SPD_MSGTYPE_TEXT)
-		generic_message = module_strip_ssml(tmp);
+	{
+		tmp = module_strip_ssml(data);
+		bytes = strlen(tmp);
+	}
 	else
-		generic_message = g_strdup(tmp);
-	g_free(tmp);
+	{
+		tmp = g_strndup(data, bytes);
+	}
 
-	module_strip_punctuation_some(generic_message, GenericStripPunctChars);
+	module_strip_punctuation_some(tmp, GenericStripPunctChars);
 
+	/* Set the appropriate charset */
+	assert(generic_msg_language != NULL);
+	if (generic_msg_language->charset != NULL) {
+		if (strcasecmp(generic_msg_language->charset, "utf-8") != 0) {
+			DBG("Recoding from UTF-8 to %s...",
+			    generic_msg_language->charset);
+			newtmp =
+			    (char *)g_convert_with_fallback(tmp, bytes,
+							    generic_msg_language->charset,
+							    "UTF-8",
+							    GenericRecodeFallback, NULL,
+							    NULL, &gerror);
+			if (tmp != data)
+				g_free(tmp);
+			tmp = newtmp;
+		}
+	} else {
+		DBG("Warning: Preferred charset not specified, recoding to %s", GenericDefaultCharset);
+		newtmp =
+		    (char *)g_convert_with_fallback(tmp, bytes, GenericDefaultCharset,
+						    "UTF-8",
+						    GenericRecodeFallback, NULL,
+						    NULL, &gerror);
+		if (tmp != data)
+			g_free(tmp);
+		tmp = newtmp;
+	}
+
+	if (tmp == NULL) {
+		DBG("Warning: Conversion failed: %d: %s\n", gerror->code, gerror->message);
+		g_error_free(gerror);
+		return -1;
+	}
+
+	generic_message = tmp;
 	generic_message_type = msgtype;
 
-	DBG("Requested data (%d): |%s|\n", msgtype, data);
+	DBG("Converted data to (%d): |%s|\n", msgtype, tmp);
 
 	/* Send semaphore signal to the speaking thread */
 	generic_speaking = 1;
-	sem_post(&generic_semaphore);
+	sem_post(generic_semaphore);
 
 	DBG("Generic: leaving write() normally\n\r");
-	return bytes;
+	return 1;
 }
 
 int module_stop(void)
@@ -305,7 +342,7 @@ int module_close(void)
 	if (module_terminate_thread(generic_speak_thread) != 0)
 		return -1;
 
-	sem_destroy(&generic_semaphore);
+	sem_close(generic_semaphore);
 
 	initialized = FALSE;
 
@@ -338,7 +375,7 @@ char *string_replace(char *string, const char *token, const char *data)
 
 	mstring = g_strdup(string);
 	while (1) {
-		/* Split the string in two parts, ommit the token */
+		/* Split the string in two parts, omit the token */
 		p = strstr(mstring, token);
 		if (p == NULL) {
 			return mstring;
@@ -362,13 +399,15 @@ void *_generic_speak(void *nothing)
 	int ret;
 	int status;
 
+	spd_pthread_setname("_generic_speak");
+
 	DBG("generic: speaking thread starting.......\n");
 
 	/* Make interruptible */
 	set_speaking_thread_parameters();
 
 	while (1) {
-		sem_wait(&generic_semaphore);
+		sem_wait(generic_semaphore);
 		DBG("Semaphore on\n");
 
 		const char *play_command = NULL;
@@ -506,7 +545,7 @@ void *_generic_speak(void *nothing)
 
 				g_free(e_string);
 
-				/* execute_synth_str1 se sem musi nejak dostat */
+				/* execute_synth_str1 has to get here somehow */
 				DBG("Starting child...\n");
 				_generic_child(module_pipe,
 					       GenericMaxChunkLength);
@@ -524,17 +563,26 @@ void *_generic_speak(void *nothing)
 						&generic_pause_requested);
 
 			DBG("Waiting for child...");
-			waitpid(generic_pid, &status, 0);
+			ret = waitpid(generic_pid, &status, 0);
+			if (ret < 0) {
+				// Not supposed to happen
+				DBG("waitpid failed (ret=%d error=%d) %s", ret, errno, strerror(errno));
+				exit(EXIT_FAILURE);
+			}
 			generic_speaking = 0;
 
-			// Report CANCEL if the process was signal-terminated
-			// and END if it terminated normally
-			if (WIFSIGNALED(status))
-				module_report_event_stop();
-			else
-				module_report_event_end();
+			DBG("child terminated -: exit?:%d status:%d signal?:%d signal number:%d.\n", WIFEXITED(status), WEXITSTATUS(status), WIFSIGNALED(status), WTERMSIG(status));
 
-			DBG("child terminated -: status:%d signal?:%d signal number:%d.\n", WIFEXITED(status), WIFSIGNALED(status), WTERMSIG(status));
+			if (WIFSIGNALED(status) && WTERMSIG(status) == SIGKILL)
+				// That's a stop from us, report that we stopped
+				module_report_event_stop();
+			else if (!WIFEXITED(status) || WEXITSTATUS(status)) {
+				// That's not from us
+				DBG("We failed to speak, kill ourself to avoid no speech");
+				exit(EXIT_FAILURE);
+			} else
+				// terminated normally
+				module_report_event_end();
 		}
 	}
 
@@ -586,28 +634,48 @@ void _generic_child(TModuleDoublePipe dpipe, const size_t maxlen)
 
 		DBG("child: escaped text is |%s|", message->str);
 
-		command =
-		    g_malloc((strlen(message->str) +
-			      strlen(execute_synth_str1) +
-			      strlen(execute_synth_str2) + 8) * sizeof(char));
-
 		if (strlen(message->str) != 0) {
-			sprintf(command, "%s%s%s", execute_synth_str1,
-				message->str, execute_synth_str2);
+			// We want to catch failure of any part of the pipeline
+			command = g_strdup_printf("set -o pipefail ; %s%s%s",
+				execute_synth_str1, message->str, execute_synth_str2);
 
 			DBG("child: synth command = |%s|", command);
 
 			DBG("Speaking in child...");
 			module_sigblockusr(&some_signals);
 			{
-				ret = system(command);
-				DBG("Executed shell command returned with %d",
-				    ret);
+				pid_t pid = fork();
+				if (pid == -1) {
+					DBG("Could not fork\n");
+					exit(EXIT_FAILURE);
+				} else if (pid == 0) {
+					// child, execute command
+					ret = execl("/bin/sh", "sh", "-c", command, (char *) NULL);
+					// catch missing sh
+					DBG("Missing /bin/sh? (ret=%d error=%d) %s", ret, errno, strerror(errno));
+					exit(EXIT_FAILURE);
+				} else {
+					int status;
+					// parent, wait for child
+					ret = waitpid(pid, &status, 0);
+					if (ret < 0) {
+						// Not supposed to happen
+						DBG("waitpid failed (ret=%d error=%d) %s", ret, errno, strerror(errno));
+						exit(EXIT_FAILURE);
+					}
+					DBG("subchild terminated -: exit?:%d status:%d signal?:%d signal number:%d.\n", WIFEXITED(status), WEXITSTATUS(status), WIFSIGNALED(status), WTERMSIG(status));
+					if (!WIFEXITED(status) || WEXITSTATUS(status))
+					{
+						DBG("We failed to speak, kill ourself to avoid no speech");
+						exit(EXIT_FAILURE);
+					}
+				}
 			}
+
+			g_free(command);
 		}
 		module_sigunblockusr(&some_signals);
 
-		g_free(command);
 		g_free(text);
 		g_string_free(message, 1);
 
@@ -699,14 +767,13 @@ void generic_set_language(char *lang)
 		generic_msg_language->charset = NULL;
 		generic_msg_language->name = g_strdup(lang);
 	}
-
-	if (generic_msg_language->name == NULL) {
+	else if (generic_msg_language->name == NULL) {
 		DBG("Language name for %s not found in the configuration file.",
 		    lang);
 		generic_msg_language =
 		    (TGenericLanguage *) g_malloc(sizeof(TGenericLanguage));
 		generic_msg_language->code = g_strdup("en-US");
-		generic_msg_language->charset = g_strdup("iso-8859-1");
+		generic_msg_language->charset = g_strdup(GenericDefaultCharset);
 		generic_msg_language->name = g_strdup("english");
 	}
 

@@ -29,6 +29,10 @@
 #include <sys/stat.h>
 #include <sys/socket.h>
 #include <sys/un.h>
+#include <stdint.h>
+#ifdef USE_LIBSYSTEMD
+#include <systemd/sd-daemon.h>
+#endif
 
 #ifdef HAVE_SYS_FILIO_H
 #include <sys/filio.h>	/* Needed for FIONREAD on Solaris */
@@ -101,7 +105,12 @@ TSpeechDMode spd_mode;
 
 static gboolean speechd_client_terminate(gpointer key, gpointer value, gpointer user);
 static gboolean speechd_reload_dead_modules(gpointer user_data);
-static gboolean speechd_load_configuration(gpointer user_data);
+static gboolean speechd_reload_configuration(gpointer user_data);
+enum quit_reason {
+	QUIT_SIGINT,
+	QUIT_SIGTERM,
+	QUIT_TIMEOUT,
+};
 static gboolean speechd_quit(gpointer user_data);
 
 static gboolean server_process_incoming (gint          fd,
@@ -112,7 +121,9 @@ static gboolean client_process_incoming (gint          fd,
 				  GIOCondition  condition,
 				  gpointer      data);
 
-void check_client_count(void);
+static void speechd_load_configuration(void);
+static void speechd_check_modules(void);
+static void check_client_count(void);
 
 #ifndef HAVE_DAEMON
 /* Added by Willie Walker - daemon is a common, but not universal, extension.
@@ -180,12 +191,11 @@ void MSG2(int level, const char *kind, const char *format, ...)
 			{
 				/* Print timestamp */
 				time_t t;
-				char *tstr;
+				char tstr[26];
 				struct timeval tv;
 				t = time(NULL);
-				tstr = g_strdup(ctime(&t));
+				ctime_r(&t, tstr);
 				gettimeofday(&tv, NULL);
-				assert(tstr);
 				/* Remove the trailing \n */
 				assert(strlen(tstr) > 1);
 				tstr[strlen(tstr) - 1] = 0;
@@ -205,7 +215,6 @@ void MSG2(int level, const char *kind, const char *format, ...)
 						"[%s : %d] speechd: ", tstr,
 						(int)tv.tv_usec);
 				}
-				g_free(tstr);
 			}
 			for (i = 1; i < level; i++) {
 				if (std_log) {
@@ -260,13 +269,12 @@ void MSG(int level, const char *format, ...)
 			/* Print timestamp */
 			{
 				time_t t;
-				char *tstr;
+				char tstr[26];
 				struct timeval tv;
 				t = time(NULL);
-				tstr = g_strdup(ctime(&t));
+				ctime_r(&t, tstr);
 				gettimeofday(&tv, NULL);
 				/* Remove the trailing \n */
-				assert(tstr);
 				assert(strlen(tstr) > 1);
 				assert((level >= -1) && (level <= 5));
 				tstr[strlen(tstr) - 1] = 0;
@@ -280,7 +288,6 @@ void MSG(int level, const char *format, ...)
 						(int)tv.tv_usec);
 				/*                fprintf(logfile, "[%s : %d] speechd: ",
 				   tstr, (int) tv.tv_usec); */
-				g_free(tstr);
 			}
 
 			for (i = 1; i < level; i++) {
@@ -663,18 +670,15 @@ void speechd_init()
 	/* Load configuration from the config file */
 	MSG(4, "Reading Speech Dispatcher configuration from %s",
 	    SpeechdOptions.conf_file);
-	speechd_load_configuration(NULL);
+	speechd_load_configuration();
 
 	logging_init();
+	MSG(1, "Speech Dispatcher " VERSION " log start");
 
-	/* Check for output modules */
-	if (g_list_length(output_modules) == 0) {
-		DIE("No speech output modules were loaded - aborting...");
-	} else {
-		MSG(3, "Speech Dispatcher started with %d output module%s",
-		    g_list_length(output_modules),
-		    g_list_length(output_modules) > 1 ? "s" : "");
-	}
+#ifndef DARWIN_HOST /* On Darwin we have to delay to after daemon+exec */
+	module_load_requested_modules();
+	speechd_check_modules();
+#endif
 
 	last_p5_block = NULL;
 }
@@ -685,12 +689,13 @@ static gint modules_compare (gconstpointer a, gconstpointer b)
 	const char *name_a = params_a[0];
 	const char **params_b = (const char **) b;
 	const char *name_b = params_b[0];
-	unsigned index_a;
-	unsigned index_b;
+	int index_a;
+	int index_b;
 
 	/* This gives the prioritization order of modules, to automatically select the best quality */
 	static const char *modules_order[] = {
 		"voxin",
+		"baratinoo",
 		"ivona",
 		"pico",
 		"pico-generic",
@@ -700,6 +705,7 @@ static gint modules_compare (gconstpointer a, gconstpointer b)
 		"ibmtts",
 		"festival",
 		"flite",
+		"multispeech",
 		"espeak-ng-mbrola",
 		"espeak-ng-mbrola-generic",
 		"espeak-ng",
@@ -735,7 +741,7 @@ static gint modules_compare (gconstpointer a, gconstpointer b)
 	return strcmp(name_a, name_b);
 }
 
-static gboolean speechd_load_configuration(gpointer user_data)
+static void speechd_load_configuration(void)
 {
 	configfile_t *configfile = NULL;
 	GList *detected_modules = NULL;
@@ -808,18 +814,70 @@ static gboolean speechd_load_configuration(gpointer user_data)
 			}
 		}
 
-		module_load_requested_modules();
+		/* Try to make sure we have something that can speak (with no user parameter) */
+		module_add_load_request(
+				g_strdup("espeak-ng-fallback"),
+				g_strdup("sd_espeak-ng"),
+				g_strdup(""),
+				g_strdup_printf("%s/%s.log",
+						SpeechdOptions.log_dir,
+						"espeak-ng-fallback"),
+				NULL,
+				NULL);
+
+		/* At worse, tell what is happening */
+		module_add_load_request(
+				g_strdup("dummy"),
+				g_strdup("sd_dummy"),
+				g_strdup(""),
+				g_strdup_printf("%s/%s.log",
+						SpeechdOptions.log_dir,
+						"dummy"),
+				NULL,
+				NULL);
 	} else {
 		MSG(1, "Can't open %s", SpeechdOptions.conf_file);
 	}
 
 	free_config_options(spd_options, &spd_num_options);
+}
 
+static gboolean speechd_reload_configuration(gpointer user_data)
+{
+	speechd_load_configuration();
+	module_load_requested_modules();
 	return TRUE;
+}
+
+static void speechd_check_modules(void)
+{
+	/* Check for output modules */
+	if (g_list_length(output_modules) == 0) {
+		DIE("No speech output modules were loaded - aborting...");
+	} else {
+		MSG(3, "Speech Dispatcher started with %d output module%s",
+		    g_list_length(output_modules),
+		    g_list_length(output_modules) > 1 ? "s" : "");
+	}
 }
 
 static gboolean speechd_quit(gpointer user_data)
 {
+	switch ((enum quit_reason)(uintptr_t) user_data) {
+		case QUIT_SIGINT:
+			MSG(4, "Got SIGINT");
+			break;
+		case QUIT_SIGTERM:
+			MSG(4, "Got SIGTERM");
+			break;
+		case QUIT_TIMEOUT:
+			MSG(4, "Timed out");
+			break;
+		default:
+			MSG(4, "Unknown quit reason");
+			break;
+	}
+	MSG(4, "Quitting main loop");
 	g_main_loop_quit(main_loop);
 	return FALSE;
 }
@@ -907,8 +965,8 @@ void logging_init(void)
 				file_name);
 			logfile = stdout;
 		} else {
-			MSG(3, "Speech Dispatcher Logging to file %s",
-			    file_name);
+			MSG(3, "Speech Dispatcher "PACKAGE_VERSION" Logging to file %s at level %d",
+			    file_name, SpeechdOptions.log_level);
 		}
 	}
 
@@ -1038,14 +1096,14 @@ gboolean client_process_incoming (gint          fd,
 	return TRUE;
 }
 
-void check_client_count(void)
+static void check_client_count(void)
 {
 	if (client_count <= 0
 	    && SpeechdOptions.server_timeout > 0) {
 		MSG(4, "Currently no clients connected, enabling shutdown timer.");
 		server_timeout_source = g_timeout_add_seconds(
 		                        SpeechdOptions.server_timeout,
-		                        speechd_quit, NULL);
+		                        speechd_quit, (void*) (uintptr_t) QUIT_TIMEOUT);
 	} else {
 		if (server_timeout_source >= 0) {
 			MSG(4, "Clients connected, disabling shutdown timer.");
@@ -1065,7 +1123,7 @@ int main(int argc, char *argv[])
 	int spawn_port = 0;
 	char *spawn_socket_path = NULL;
 
-	/* Strip all permisions for 'others' from the files created */
+	/* Strip all permissions for 'others' from the files created */
 	umask(007);
 
 	/* Initialize logging */
@@ -1261,9 +1319,11 @@ int main(int argc, char *argv[])
 					    "unix_socket")) {
 					/* Check socket name */
 					if (spawn_socket_path)
-						if (strcmp
-						    (spawn_socket_path,
-						     SpeechdOptions.socket_path))
+					{
+						char *spawn_socket_path_norm = realpath(spawn_socket_path, NULL);
+						char *opts_socket_path_norm = realpath(SpeechdOptions.socket_path, NULL);
+						if (spawn_socket_path_norm && opts_socket_path_norm
+						    && strcmp(spawn_socket_path_norm, opts_socket_path_norm))
 						{
 							MSG(-1,
 							    "Autospawn failed: Mismatch in socket names. The server "
@@ -1275,6 +1335,9 @@ int main(int argc, char *argv[])
 							    spawn_socket_path);
 							exit(1);
 						}
+						free(spawn_socket_path_norm);
+						free(opts_socket_path_norm);
+					}
 				} else
 					assert(0);
 			}
@@ -1283,7 +1346,17 @@ int main(int argc, char *argv[])
 		g_free(spawn_socket_path);
 	}
 
-	if (!strcmp(SpeechdOptions.communication_method, "inet_socket")) {
+	char *sock_fd = getenv("SPEECHD_SOCK_FD");
+	if (sock_fd) {
+		server_socket = atoi(sock_fd);
+	}
+#ifdef USE_LIBSYSTEMD
+	else if (sd_listen_fds(0) >= 1) {
+		MSG(4, "Daemon launched via Systemd socket activation");
+		server_socket = SD_LISTEN_FDS_START;
+	}
+#endif
+	else if (!strcmp(SpeechdOptions.communication_method, "inet_socket")) {
 		MSG(4, "Speech Dispatcher will use inet port %d",
 		    SpeechdOptions.port);
 		/* Connect and start listening on inet socket */
@@ -1294,9 +1367,13 @@ int main(int argc, char *argv[])
 		    SpeechdOptions.socket_path);
 		/* Delete an old socket file if it exists */
 		if (g_file_test(SpeechdOptions.socket_path, G_FILE_TEST_EXISTS))
+		{
 			if (g_unlink(SpeechdOptions.socket_path) == -1)
 				FATAL
 				    ("Local socket file exists but impossible to delete. Wrong permissions?");
+			else
+				MSG(4, "Deleted old socket\n");
+		}
 		/* Connect and start listening on local unix socket */
 		server_socket = make_local_socket(SpeechdOptions.socket_path);
 	} else {
@@ -1305,6 +1382,7 @@ int main(int argc, char *argv[])
 
 	/* Fork, set uid, chdir, etc. */
 	if (spd_mode == SPD_MODE_DAEMON) {
+		MSG(4, "Daemon mode, forking\n");
 		if (daemon(0, 0)) {
 			FATAL("Can't fork child process");
 		}
@@ -1312,13 +1390,33 @@ int main(int argc, char *argv[])
 		unlink(SpeechdOptions.pid_file);
 		if (create_pid_file() == -1)
 			return -1;
+
+#ifdef DARWIN_HOST
+		/* On Darwin, libao sound will break if just forking, we have to re-exec, see
+		 * https://developer.apple.com/library/archive/technotes/tn2083/_index.html#//apple_ref/doc/uid/DTS10003794-CH1-SUBSUBSECTION66
+		 */
+		char *args[argc+2];
+		memcpy(args, argv, argc * sizeof *argv);
+		args[argc] = "-s";
+		args[argc+1] = NULL;
+		char sock[64];
+		sprintf(sock, "SPEECHD_SOCK_FD=%d", server_socket);
+		putenv(sock);
+		if (execv(BINDIR "/speech-dispatcher", args))
+			FATAL("Can't exec child process");
+#endif
 	}
+
+#ifdef DARWIN_HOST
+	module_load_requested_modules();
+	speechd_check_modules();
+#endif
 
 	/* Set up the main loop and register signals */
         main_loop = g_main_loop_new(g_main_context_default(), FALSE);
-	g_unix_signal_add(SIGINT, speechd_quit, NULL);
-	g_unix_signal_add(SIGTERM, speechd_quit, NULL);
-	g_unix_signal_add(SIGHUP, speechd_load_configuration, NULL);
+	g_unix_signal_add(SIGINT, speechd_quit, (void*) (uintptr_t) QUIT_SIGINT);
+	g_unix_signal_add(SIGTERM, speechd_quit, (void*) (uintptr_t) QUIT_SIGTERM);
+	g_unix_signal_add(SIGHUP, speechd_reload_configuration, NULL);
 	g_unix_signal_add(SIGUSR1, speechd_reload_dead_modules, NULL);
 	(void)signal(SIGPIPE, SIG_IGN);
 

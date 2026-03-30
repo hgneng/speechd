@@ -274,6 +274,7 @@ symbols:
 😂	sevinç gözyaşları	none
 🙂	hafifçe gülümseyen yüz	none
 🙃	ters yüz	none
+🫠	eriyen yüz	none
 😉	göz kırpan yüz	none
 😊	ağzı açık gülme	none
 😇	ışık halkalı gülümseme	none
@@ -294,13 +295,17 @@ symbols:
 🤑	para ağızlı yüz	none
 🤗	kucaklayarak gülümseme	none
 🤭	eliyle ağzını kapatan yüz	none
+🫢	gözleri açık ve eliyle ağzını kapatan yüz	none
+🫣	gizlice bakan yüz	none
 🤫	sus işareti yapan yüz	none
 🤔	düşünen yüz	none
+🫡	selamlayan yüz	none
 🤐	ağzı fermuarlı yüz	none
 🤨	tek kaşı çatık yüz	none
 😐	duygusuz yüz	none
 😑	ifadesiz yüz	none
 😶	ağzı olmayan yüz	none
+🫥	noktalı çizgili yüz	none
 😶‍🌫	bulutlardaki yüz	none
 😏	imalı gülümseme	none
 😒	keyifsiz yüz	none
@@ -308,11 +313,15 @@ symbols:
 😬	dişlerini gösteren yüz	none
 😮‍💨	nefes veren yüz	none
 🤥	yalan söyleyen yüz	none
+🫨	sallanan yüz	none
+🙂‍↔	yatay olarak sallanan yüz	none
+🙂‍↕	dikey olarak sallanan yüz	none
 😌	rahatlamış yüz	none
 😔	düşünceli yüz	none
 😪	uykulu yüz	none
 🤤	salya akıtan yüz	none
 😴	uyuyan yüz	none
+🫩	gözlerinin altı torbalı yüz	none
 😷	maskeli yüz	none
 🤒	ağzında termometre olan yüz	none
 🤕	kafası sarılı yüz	none
@@ -332,6 +341,7 @@ symbols:
 🤓	ukala yüz	none
 🧐	tek cam gözlüklü yüz	none
 😕	kafası karışık yüz	none
+🫤	yamuk ağızlı yüz	none
 😟	endişeli yüz	none
 🙁	biraz asık surat	none
 ☹	asık surat	none
@@ -339,7 +349,9 @@ symbols:
 😯	şaşkın yüz	none
 😲	afallamış yüz	none
 😳	kızarmış ve şaşkın yüz	none
+🫪	biçimsiz yüz	none
 🥺	yalvaran yüz	none
+🥹	gözleri dolmuş yüz	none
 😦	hoşnutsuz yüz	none
 😧	kederli yüz	none
 😨	korkulu yüz	none
@@ -383,7 +395,6 @@ symbols:
 🙈	görmedim	none
 🙉	duymadım	none
 🙊	bilmiyorum	none
-💋	öpücük izi	none
 💌	aşk mektubu	none
 💘	ok saplanmış kalp	none
 💝	kurdeleli kalp	none
@@ -398,22 +409,26 @@ symbols:
 ❤‍🔥	ateşli kalp	none
 ❤‍🩹	iyileşen kalp	none
 ❤	kırmızı kalp	none
+🩷	pembe kalp	none
 🧡	turuncu kalp	none
 💛	sarı kalp	none
 💚	yeşil kalp	none
 💙	mavi kalp	none
+🩵	açık mavi kalp	none
 💜	mor kalp	none
 🤎	kahverengi kalp	none
 🖤	siyah kalp	none
+🩶	gri kalp	none
 🤍	beyaz kalp	none
+💋	öpücük izi	none
 💯	yüz puan	none
 💢	öfke simgesi	none
+🫯	dövüş bulutu	none
 💥	çarpışma	none
 💫	baş dönmesi	none
 💦	ter damlası	none
 💨	hızla fırlama	none
 🕳	delik	none
-💣	bomba	none
 💬	konuşma balonu	none
 👁‍🗨	konuşma balonunda göz	none
 🗨	sol konuşma balonu	none
@@ -425,11 +440,18 @@ symbols:
 🖐	parmaklar açık el kaldırma	none
 ✋	el kaldırma	none
 🖖	Vulkan selamı	none
+🫱	sağa bakan el	none
+🫲	sola bakan el	none
+🫳	avuç içi aşağı bakan el	none
+🫴	avuç içi yukarı bakan el	none
+🫷	sola iten el	none
+🫸	sağa iten el	none
 👌	tamam işareti	none
 🤌	kıstırma hareketi yapan parmaklar	none
 🤏	kıstırma hareketi yapan el	none
 ✌	zafer işareti	none
 🤞	şans dileme	none
+🫰	işaret parmağı ve baş parmak birbirine geçmiş el	none
 🤟	seni seviyorum işareti	none
 🤘	boynuz işareti	none
 🤙	beni ara işareti	none
@@ -439,6 +461,7 @@ symbols:
 🖕	orta parmak	none
 👇	elinin tersiyle aşağıyı gösteren işaret parmağı	none
 ☝	yukarıyı gösteren işaret parmağı	none
+🫵	karşıyı işaret eden işaret parmağı	none
 👍	baş parmak yukarıda	none
 👎	baş parmak aşağıda	none
 ✊	yumruk kaldırma	none
@@ -447,6 +470,7 @@ symbols:
 🤜	sağa bakan yumruk	none
 👏	el çırpma	none
 🙌	eller havaya	none
+🫶	kalp oluşturan eller	none
 👐	eller açık	none
 🤲	iki avuç açık	none
 🤝	el sıkışma	none
@@ -471,6 +495,7 @@ symbols:
 👁	göz	none
 👅	dil	none
 👄	ağız	none
+🫦	ısırılan dudak	none
 👶	bebek	none
 🧒	çocuk	none
 👦	erkek çocuk	none
@@ -578,6 +603,7 @@ symbols:
 👷	inşaat işçisi	none
 👷‍♂	erkek inşaat işçisi	none
 👷‍♀	kadın inşaat işçisi	none
+🫅	taç takmış insan	none
 🤴	prens	none
 👸	prenses	none
 👳	sarıklı kişi	none
@@ -592,6 +618,8 @@ symbols:
 👰‍♂	duvaklı erkek	none
 👰‍♀	duvaklı kadın	none
 🤰	hamile kadın	none
+🫃	hamile adam	none
+🫄	hamile kişi	none
 🤱	emziren kadın	none
 👩‍🍼	bebek emziren kadın	none
 👨‍🍼	bebek emziren erkek	none
@@ -627,6 +655,8 @@ symbols:
 🧟	zombi	none
 🧟‍♂	erkek zombi	none
 🧟‍♀	kadın zombi	none
+🧌	trol	none
+🫈	tüylü yaratık	none
 💆	yüz masajı	none
 💆‍♂	yüz masajı yaptıran erkek	none
 💆‍♀	yüz masajı yaptıran kadın	none
@@ -654,6 +684,7 @@ symbols:
 🏃	koşan kişi	none
 🏃‍♂	koşan erkek	none
 🏃‍♀	koşan kadın	none
+🧑‍🩰	bale dansçısı	none
 💃	dans eden kadın	none
 🕺	dans eden adam	none
 🕴	havalanan takım elbiseli adam	none
@@ -720,12 +751,17 @@ symbols:
 👬	el ele tutuşan erkekler	none
 💏	öpücük	none
 💑	kalpli çift	none
-👪	aile	none
 🗣	konuşan kişi	none
 👤	siluet büst	none
 👥	siluet büstler	none
 🫂	kucaklaşan insanlar	none
+👪	aile	none
+🧑‍🧑‍🧒	aile yetişkin, yetişkin, çocuk	none
+🧑‍🧑‍🧒‍🧒	aile yetişkin, yetişkin, çocuk, çocuk	none
+🧑‍🧒	aile yetişkin, çocuk	none
+🧑‍🧒‍🧒	aile yetişkin, çocuk, çocuk	none
 👣	ayak izi	none
+🫆	parmak izi	none
 🦰	kızıl saç	none
 🦱	kıvırcık saç	none
 🦳	beyaz saç	none
@@ -750,6 +786,8 @@ symbols:
 🐅	kaplan	none
 🐆	leopar	none
 🐴	at yüzü	none
+🫎	sığın	none
+🫏	eşek	none
 🐎	at	none
 🦄	tek boynuzlu at	none
 🦓	zebra	none
@@ -812,6 +850,10 @@ symbols:
 🦩	flamingo	none
 🦚	tavus kuşu	none
 🦜	papağan	none
+🪽	kanat	none
+🐦‍⬛	siyah kuş	none
+🪿	kaz	none
+🐦‍🔥	Anka	none
 🐸	kurbağa	none
 🐊	timsah	none
 🐢	kaplumbağa	none
@@ -824,6 +866,7 @@ symbols:
 🐳	su püskürten balina	none
 🐋	balina	none
 🐬	yunus	none
+🫍	orka	none
 🦭	fok	none
 🐟	balık	none
 🐠	tropikal balık	none
@@ -831,6 +874,13 @@ symbols:
 🦈	köpek balığı	none
 🐙	ahtapot	none
 🐚	deniz kabuğu	none
+🪸	mercan	none
+🪼	denizanası	none
+🦀	yengeç	none
+🦞	ıstakoz	none
+🦐	karides	none
+🦑	mürekkep balığı	none
+🦪	istiridye	none
 🐌	salyangoz	none
 🦋	kelebek	none
 🐛	tırtıl	none
@@ -850,6 +900,7 @@ symbols:
 💐	buket	none
 🌸	kiraz çiçeği	none
 💮	beyaz çiçek	none
+🪷	nilüfer	none
 🏵	çiçek rozet	none
 🌹	gül	none
 🥀	solmuş çiçek	none
@@ -857,6 +908,7 @@ symbols:
 🌻	ayçiçeği	none
 🌼	çiçek açma	none
 🌷	lale	none
+🪻	sümbül	none
 🌱	filizlenme	none
 🪴	saksı bitkisi	none
 🌲	yaprak dökmeyen ağaç	none
@@ -870,11 +922,16 @@ symbols:
 🍁	akçaağaç yaprağı	none
 🍂	düşen yapraklar	none
 🍃	rüzgardaki yaprak	none
+🪹	boş yuva	none
+🪺	yumurta bulunan yuva	none
+🍄	mantar	none
+🪾	yapraksız ağaç	none
 🍇	üzüm	none
 🍈	kavun	none
 🍉	karpuz	none
 🍊	mandalina	none
 🍋	limon	none
+🍋‍🟩	misket limonu	none
 🍌	muz	none
 🍍	ananas	none
 🥭	mango	none
@@ -901,9 +958,13 @@ symbols:
 🥦	brokoli	none
 🧄	sarımsak	none
 🧅	soğan	none
-🍄	mantar	none
 🥜	yer fıstığı	none
+🫘	fasulye	none
 🌰	kestane	none
+🫚	kök zencefil	none
+🫛	kabuklu bezelye	none
+🍄‍🟫	kahverengi mantar	none
+🫜	kök sebze	none
 🍞	ekmek	none
 🥐	kruvasan	none
 🥖	baget ekmek	none
@@ -955,11 +1016,6 @@ symbols:
 🥟	mantı	none
 🥠	fal kurabiyesi	none
 🥡	yiyecek paketi	none
-🦀	yengeç	none
-🦞	ıstakoz	none
-🦐	karides	none
-🦑	mürekkep balığı	none
-🦪	istiridye	none
 🍦	yumuşak dondurma	none
 🍧	meyveli buz	none
 🍨	dondurma	none
@@ -988,6 +1044,7 @@ symbols:
 🍻	bira kupaları tokuşturma	none
 🥂	kadeh tokuşturma	none
 🥃	kısa ve geniş bardak	none
+🫗	dökülen sıvı	none
 🥤	pipetli bardak	none
 🧋	bubble tea	none
 🧃	içecek kutusu	none
@@ -998,6 +1055,7 @@ symbols:
 🍴	çatal ve bıçak	none
 🥄	kaşık	none
 🔪	mutfak bıçağı	none
+🫙	kavanoz	none
 🏺	amfora	none
 🌍	yerkürede Avrupa-Afrika	none
 🌎	yerkürede Amerika	none
@@ -1008,6 +1066,7 @@ symbols:
 🧭	pusula	none
 🏔	karla kaplı dağ	none
 ⛰	dağ	none
+🛘	heyelan	none
 🌋	yanardağ	none
 🗻	Fuji Dağı	none
 🏕	kamp	none
@@ -1060,6 +1119,7 @@ symbols:
 🌉	gece vakti köprü	none
 ♨	kaplıca	none
 🎠	atlıkarınca	none
+🛝	kaydırak	none
 🎡	dönme dolap	none
 🎢	hız treni	none
 💈	berber dükkanı	none
@@ -1108,12 +1168,14 @@ symbols:
 🛤	tren yolu	none
 🛢	petrol varili	none
 ⛽	akaryakıt istasyonu	none
+🛞	tekerlek	none
 🚨	polis lambası	none
 🚥	yatay trafik ışıkları	none
 🚦	dikey trafik ışıkları	none
 🛑	dur işareti	none
 🚧	inşaat	none
 ⚓	çıpa	none
+🛟	cankurtaran simidi	none
 ⛵	yelkenli tekne	none
 🛶	kano	none
 🚤	sürat teknesi	none
@@ -1271,10 +1333,10 @@ symbols:
 🎯	tam isabet	none
 🪀	yoyo	none
 🪁	uçurtma	none
+🔫	su tabancası	none
 🎱	bilardo	none
 🔮	kristal küre	none
 🪄	sihirli asa	none
-🧿	nazarlık	none
 🎮	video oyunu	none
 🕹	oyun çubuğu	none
 🎰	kumar makinesi	none
@@ -1282,6 +1344,7 @@ symbols:
 🧩	yapboz parçası	none
 🧸	oyuncak ayı	none
 🪅	pinyata	none
+🪩	aynalı küre	none
 🪆	matruşka	none
 ♠	maça	none
 ♥	kupa	none
@@ -1318,6 +1381,7 @@ symbols:
 🩳	şort	none
 👙	bikini	none
 👚	kadın giysisi	none
+🪭	yelpaze	none
 👛	cüzdan	none
 👜	el çantası	none
 👝	para kesesi	none
@@ -1332,6 +1396,7 @@ symbols:
 👡	kadın sandaleti	none
 🩰	bale ayakkabıları	none
 👢	kadın botu	none
+🪮	perma tarağı	none
 👑	taç	none
 👒	kadın şapkası	none
 🎩	silindir şapka	none
@@ -1362,14 +1427,18 @@ symbols:
 🎧	kulaklık	none
 📻	radyo	none
 🎷	saksafon	none
+🎺	trompet	none
+🪊	trombon	none
 🪗	akordiyon	none
 🎸	gitar	none
 🎹	müzik klavyesi	none
-🎺	trompet	none
 🎻	keman	none
 🪕	banjo	none
 🥁	davul	none
 🪘	uzun davul	none
+🪇	marakas	none
+🪈	flüt	none
+🪉	arp	none
 📱	cep telefonu	none
 📲	ok işaretli cep telefonu	none
 ☎	telefon	none
@@ -1377,6 +1446,7 @@ symbols:
 📟	çağrı cihazı	none
 📠	faks makinesi	none
 🔋	pil	none
+🪫	düşük pil	none
 🔌	elektrik fişi	none
 💻	dizüstü bilgisayar	none
 🖥	masaüstü bilgisayar	none
@@ -1422,8 +1492,9 @@ symbols:
 📑	sayfa ayraçları	none
 🔖	yer işareti	none
 🏷	etiket	none
-💰	para torbası	none
 🪙	bozuk para	none
+💰	para torbası	none
+🪎	hazine sandığı	none
 💴	yen banknot	none
 💵	dolar banknot	none
 💶	euro banknot	none
@@ -1488,7 +1559,7 @@ symbols:
 🛠	çekiç ve somun anahtarı	none
 🗡	hançer	none
 ⚔	çapraz kılıçlar	none
-🔫	su tabancası	none
+💣	bomba	none
 🪃	bumerang	none
 🏹	ok ve yay	none
 🛡	kalkan	none
@@ -1501,11 +1572,13 @@ symbols:
 ⚖	terazi	none
 🦯	görme engelli bastonu	none
 🔗	bağlantı işareti	none
+⛓‍💥	zincirleri kırmak	none
 ⛓	zincir	none
 🪝	çengel	none
 🧰	alet çantası	none
 🧲	mıknatıs	none
 🪜	merdiven	none
+🪏	kürek	none
 ⚗	imbik	none
 🧪	deney tüpü	none
 🧫	petri kabı	none
@@ -1517,7 +1590,9 @@ symbols:
 🩸	kan damlası	none
 💊	hap	none
 🩹	yara bandı	none
+🩼	koltuk değneği	none
 🩺	stetoskop	none
+🩻	x ışını	none
 🚪	kapı	none
 🛗	asansör	none
 🪞	ayna	none
@@ -1538,6 +1613,7 @@ symbols:
 🧻	kağıt rulosu	none
 🪣	kova	none
 🧼	sabun	none
+🫧	baloncuk	none
 🪥	diş fırçası	none
 🧽	sünger	none
 🧯	yangın söndürücü	none
@@ -1546,8 +1622,11 @@ symbols:
 ⚰	tabut	none
 🪦	mezar taşı	none
 ⚱	kül kavanozu	none
+🧿	nazarlık	none
+🪬	Fatıma’nın Eli	none
 🗿	moyai heykeli	none
 🪧	tabela	none
+🪪	kimlik kartı	none
 🏧	ATM işareti	none
 🚮	çöp kutusu işareti	none
 🚰	içilebilir su	none
@@ -1608,6 +1687,7 @@ symbols:
 ☮	barış sembolü	none
 🕎	Yahudi şamdanı	none
 🔯	altı köşeli yıldız	none
+🪯	khanda	none
 ♈	koç burcu	none
 ♉	boğa burcu	none
 ♊	ikizler burcu	none
@@ -1643,6 +1723,7 @@ symbols:
 🔅	düşük parlaklık	none
 🔆	yüksek parlaklık	none
 📶	sinyal gücü	none
+🛜	kablosuz	none
 📳	titreşim modu	none
 📴	cep telefonu kapalı	none
 ♀	kadın sembolü	none
@@ -1652,6 +1733,7 @@ symbols:
 ➕	artı	none
 ➖	eksi	none
 ➗	bölü işareti	none
+🟰	kalın eşittir işareti	none
 ♾	sonsuz	none
 ❓	kırmızı soru işareti	none
 ❔	beyaz soru işareti	none
@@ -1677,6 +1759,7 @@ symbols:
 ✴	sekiz noktalı yıldız	none
 ❇	parlama	none
 ™	ticari marka işareti	none
+🫟	sıçratma	none
 🔠	büyük harfler	none
 🔡	küçük harfler	none
 🔢	sayılar	none
@@ -1781,6 +1864,56 @@ symbols:
 🖖🏽	Vulkan selamı orta cilt tonu	none
 🖖🏾	Vulkan selamı orta koyu cilt tonu	none
 🖖🏿	Vulkan selamı koyu cilt tonu	none
+🫱🏻	sağa bakan el açık cilt tonu	none
+🫱🏼	sağa bakan el orta açık cilt tonu	none
+🫱🏽	sağa bakan el orta cilt tonu	none
+🫱🏾	sağa bakan el orta koyu cilt tonu	none
+🫱🏿	sağa bakan el koyu cilt tonu	none
+🫱🏻‍🫲🏼	el sıkışma açık cilt tonu orta açık cilt tonu	none
+🫱🏻‍🫲🏽	el sıkışma açık cilt tonu orta cilt tonu	none
+🫱🏻‍🫲🏾	el sıkışma açık cilt tonu orta koyu cilt tonu	none
+🫱🏻‍🫲🏿	el sıkışma açık cilt tonu koyu cilt tonu	none
+🫱🏼‍🫲🏻	el sıkışma orta açık cilt tonu açık cilt tonu	none
+🫱🏼‍🫲🏽	el sıkışma orta açık cilt tonu orta cilt tonu	none
+🫱🏼‍🫲🏾	el sıkışma orta açık cilt tonu orta koyu cilt tonu	none
+🫱🏼‍🫲🏿	el sıkışma orta açık cilt tonu koyu cilt tonu	none
+🫱🏽‍🫲🏻	el sıkışma orta cilt tonu açık cilt tonu	none
+🫱🏽‍🫲🏼	el sıkışma orta cilt tonu orta açık cilt tonu	none
+🫱🏽‍🫲🏾	el sıkışma orta cilt tonu orta koyu cilt tonu	none
+🫱🏽‍🫲🏿	el sıkışma orta cilt tonu koyu cilt tonu	none
+🫱🏾‍🫲🏻	el sıkışma orta koyu cilt tonu açık cilt tonu	none
+🫱🏾‍🫲🏼	el sıkışma orta koyu cilt tonu orta açık cilt tonu	none
+🫱🏾‍🫲🏽	el sıkışma orta koyu cilt tonu orta cilt tonu	none
+🫱🏾‍🫲🏿	el sıkışma orta koyu cilt tonu koyu cilt tonu	none
+🫱🏿‍🫲🏻	el sıkışma koyu cilt tonu açık cilt tonu	none
+🫱🏿‍🫲🏼	el sıkışma koyu cilt tonu orta açık cilt tonu	none
+🫱🏿‍🫲🏽	el sıkışma koyu cilt tonu orta cilt tonu	none
+🫱🏿‍🫲🏾	el sıkışma koyu cilt tonu orta koyu cilt tonu	none
+🫲🏻	sola bakan el açık cilt tonu	none
+🫲🏼	sola bakan el orta açık cilt tonu	none
+🫲🏽	sola bakan el orta cilt tonu	none
+🫲🏾	sola bakan el orta koyu cilt tonu	none
+🫲🏿	sola bakan el koyu cilt tonu	none
+🫳🏻	avuç içi aşağı bakan el açık cilt tonu	none
+🫳🏼	avuç içi aşağı bakan el orta açık cilt tonu	none
+🫳🏽	avuç içi aşağı bakan el orta cilt tonu	none
+🫳🏾	avuç içi aşağı bakan el orta koyu cilt tonu	none
+🫳🏿	avuç içi aşağı bakan el koyu cilt tonu	none
+🫴🏻	avuç içi yukarı bakan el açık cilt tonu	none
+🫴🏼	avuç içi yukarı bakan el orta açık cilt tonu	none
+🫴🏽	avuç içi yukarı bakan el orta cilt tonu	none
+🫴🏾	avuç içi yukarı bakan el orta koyu cilt tonu	none
+🫴🏿	avuç içi yukarı bakan el koyu cilt tonu	none
+🫷🏻	sola iten el açık cilt tonu	none
+🫷🏼	sola iten el orta açık cilt tonu	none
+🫷🏽	sola iten el orta cilt tonu	none
+🫷🏾	sola iten el orta koyu cilt tonu	none
+🫷🏿	sola iten el koyu cilt tonu	none
+🫸🏻	sağa iten el açık cilt tonu	none
+🫸🏼	sağa iten el orta açık cilt tonu	none
+🫸🏽	sağa iten el orta cilt tonu	none
+🫸🏾	sağa iten el orta koyu cilt tonu	none
+🫸🏿	sağa iten el koyu cilt tonu	none
 👌🏻	tamam işareti açık cilt tonu	none
 👌🏼	tamam işareti orta açık cilt tonu	none
 👌🏽	tamam işareti orta cilt tonu	none
@@ -1806,6 +1939,11 @@ symbols:
 🤞🏽	şans dileme orta cilt tonu	none
 🤞🏾	şans dileme orta koyu cilt tonu	none
 🤞🏿	şans dileme koyu cilt tonu	none
+🫰🏻	işaret parmağı ve baş parmak birbirine geçmiş el açık cilt tonu	none
+🫰🏼	işaret parmağı ve baş parmak birbirine geçmiş el orta açık cilt tonu	none
+🫰🏽	işaret parmağı ve baş parmak birbirine geçmiş el orta cilt tonu	none
+🫰🏾	işaret parmağı ve baş parmak birbirine geçmiş el orta koyu cilt tonu	none
+🫰🏿	işaret parmağı ve baş parmak birbirine geçmiş el koyu cilt tonu	none
 🤟🏻	seni seviyorum işareti açık cilt tonu	none
 🤟🏼	seni seviyorum işareti orta açık cilt tonu	none
 🤟🏽	seni seviyorum işareti orta cilt tonu	none
@@ -1851,6 +1989,11 @@ symbols:
 ☝🏽	yukarıyı gösteren işaret parmağı orta cilt tonu	none
 ☝🏾	yukarıyı gösteren işaret parmağı orta koyu cilt tonu	none
 ☝🏿	yukarıyı gösteren işaret parmağı koyu cilt tonu	none
+🫵🏻	karşıyı işaret eden işaret parmağı açık cilt tonu	none
+🫵🏼	karşıyı işaret eden işaret parmağı orta açık cilt tonu	none
+🫵🏽	karşıyı işaret eden işaret parmağı orta cilt tonu	none
+🫵🏾	karşıyı işaret eden işaret parmağı orta koyu cilt tonu	none
+🫵🏿	karşıyı işaret eden işaret parmağı koyu cilt tonu	none
 👍🏻	baş parmak yukarıda açık cilt tonu	none
 👍🏼	baş parmak yukarıda orta açık cilt tonu	none
 👍🏽	baş parmak yukarıda orta cilt tonu	none
@@ -1891,6 +2034,11 @@ symbols:
 🙌🏽	eller havaya orta cilt tonu	none
 🙌🏾	eller havaya orta koyu cilt tonu	none
 🙌🏿	eller havaya koyu cilt tonu	none
+🫶🏻	kalp oluşturan eller açık cilt tonu	none
+🫶🏼	kalp oluşturan eller orta açık cilt tonu	none
+🫶🏽	kalp oluşturan eller orta cilt tonu	none
+🫶🏾	kalp oluşturan eller orta koyu cilt tonu	none
+🫶🏿	kalp oluşturan eller koyu cilt tonu	none
 👐🏻	eller açık açık cilt tonu	none
 👐🏼	eller açık orta açık cilt tonu	none
 👐🏽	eller açık orta cilt tonu	none
@@ -1901,6 +2049,11 @@ symbols:
 🤲🏽	iki avuç açık orta cilt tonu	none
 🤲🏾	iki avuç açık orta koyu cilt tonu	none
 🤲🏿	iki avuç açık koyu cilt tonu	none
+🤝🏻	el sıkışma açık cilt tonu	none
+🤝🏼	el sıkışma orta açık cilt tonu	none
+🤝🏽	el sıkışma orta cilt tonu	none
+🤝🏾	el sıkışma orta koyu cilt tonu	none
+🤝🏿	el sıkışma koyu cilt tonu	none
 🙏🏻	birleşen eller açık cilt tonu	none
 🙏🏼	birleşen eller orta açık cilt tonu	none
 🙏🏽	birleşen eller orta cilt tonu	none
@@ -2021,6 +2174,26 @@ symbols:
 🧑🏿‍❤‍🧑🏼	kalpli çift yetişkin yetişkin koyu cilt tonu orta açık cilt tonu	none
 🧑🏿‍❤‍🧑🏽	kalpli çift yetişkin yetişkin koyu cilt tonu orta cilt tonu	none
 🧑🏿‍❤‍🧑🏾	kalpli çift yetişkin yetişkin koyu cilt tonu orta koyu cilt tonu	none
+🧑🏻‍🫯‍🧑🏼	güreşen kişiler açık cilt tonu orta açık cilt tonu	none
+🧑🏻‍🫯‍🧑🏽	güreşen kişiler açık cilt tonu orta cilt tonu	none
+🧑🏻‍🫯‍🧑🏾	güreşen kişiler açık cilt tonu orta koyu cilt tonu	none
+🧑🏻‍🫯‍🧑🏿	güreşen kişiler açık cilt tonu koyu cilt tonu	none
+🧑🏼‍🫯‍🧑🏻	güreşen kişiler orta açık cilt tonu açık cilt tonu	none
+🧑🏼‍🫯‍🧑🏽	güreşen kişiler orta açık cilt tonu orta cilt tonu	none
+🧑🏼‍🫯‍🧑🏾	güreşen kişiler orta açık cilt tonu orta koyu cilt tonu	none
+🧑🏼‍🫯‍🧑🏿	güreşen kişiler orta açık cilt tonu koyu cilt tonu	none
+🧑🏽‍🫯‍🧑🏻	güreşen kişiler orta cilt tonu açık cilt tonu	none
+🧑🏽‍🫯‍🧑🏼	güreşen kişiler orta cilt tonu orta açık cilt tonu	none
+🧑🏽‍🫯‍🧑🏾	güreşen kişiler orta cilt tonu orta koyu cilt tonu	none
+🧑🏽‍🫯‍🧑🏿	güreşen kişiler orta cilt tonu koyu cilt tonu	none
+🧑🏾‍🫯‍🧑🏻	güreşen kişiler orta koyu cilt tonu açık cilt tonu	none
+🧑🏾‍🫯‍🧑🏼	güreşen kişiler orta koyu cilt tonu orta açık cilt tonu	none
+🧑🏾‍🫯‍🧑🏽	güreşen kişiler orta koyu cilt tonu orta cilt tonu	none
+🧑🏾‍🫯‍🧑🏿	güreşen kişiler orta koyu cilt tonu koyu cilt tonu	none
+🧑🏿‍🫯‍🧑🏻	güreşen kişiler koyu cilt tonu açık cilt tonu	none
+🧑🏿‍🫯‍🧑🏼	güreşen kişiler koyu cilt tonu orta açık cilt tonu	none
+🧑🏿‍🫯‍🧑🏽	güreşen kişiler koyu cilt tonu orta cilt tonu	none
+🧑🏿‍🫯‍🧑🏾	güreşen kişiler koyu cilt tonu orta koyu cilt tonu	none
 🧑‍🦰	yetişkin kızıl saç	none
 🧑🏻‍🦰	yetişkin açık cilt tonu kızıl saç	none
 🧑🏼‍🦰	yetişkin orta açık cilt tonu kızıl saç	none
@@ -2045,6 +2218,26 @@ symbols:
 🧑🏽‍🦲	yetişkin orta cilt tonu kel	none
 🧑🏾‍🦲	yetişkin orta koyu cilt tonu kel	none
 🧑🏿‍🦲	yetişkin koyu cilt tonu kel	none
+🧑🏻‍🐰‍🧑🏼	tavşan kulaklı kişiler açık cilt tonu orta açık cilt tonu	none
+🧑🏻‍🐰‍🧑🏽	tavşan kulaklı kişiler açık cilt tonu orta cilt tonu	none
+🧑🏻‍🐰‍🧑🏾	tavşan kulaklı kişiler açık cilt tonu orta koyu cilt tonu	none
+🧑🏻‍🐰‍🧑🏿	tavşan kulaklı kişiler açık cilt tonu koyu cilt tonu	none
+🧑🏼‍🐰‍🧑🏻	tavşan kulaklı kişiler orta açık cilt tonu açık cilt tonu	none
+🧑🏼‍🐰‍🧑🏽	tavşan kulaklı kişiler orta açık cilt tonu orta cilt tonu	none
+🧑🏼‍🐰‍🧑🏾	tavşan kulaklı kişiler orta açık cilt tonu orta koyu cilt tonu	none
+🧑🏼‍🐰‍🧑🏿	tavşan kulaklı kişiler orta açık cilt tonu koyu cilt tonu	none
+🧑🏽‍🐰‍🧑🏻	tavşan kulaklı kişiler orta cilt tonu açık cilt tonu	none
+🧑🏽‍🐰‍🧑🏼	tavşan kulaklı kişiler orta cilt tonu orta açık cilt tonu	none
+🧑🏽‍🐰‍🧑🏾	tavşan kulaklı kişiler orta cilt tonu orta koyu cilt tonu	none
+🧑🏽‍🐰‍🧑🏿	tavşan kulaklı kişiler orta cilt tonu koyu cilt tonu	none
+🧑🏾‍🐰‍🧑🏻	tavşan kulaklı kişiler orta koyu cilt tonu açık cilt tonu	none
+🧑🏾‍🐰‍🧑🏼	tavşan kulaklı kişiler orta koyu cilt tonu orta açık cilt tonu	none
+🧑🏾‍🐰‍🧑🏽	tavşan kulaklı kişiler orta koyu cilt tonu orta cilt tonu	none
+🧑🏾‍🐰‍🧑🏿	tavşan kulaklı kişiler orta koyu cilt tonu koyu cilt tonu	none
+🧑🏿‍🐰‍🧑🏻	tavşan kulaklı kişiler koyu cilt tonu açık cilt tonu	none
+🧑🏿‍🐰‍🧑🏼	tavşan kulaklı kişiler koyu cilt tonu orta açık cilt tonu	none
+🧑🏿‍🐰‍🧑🏽	tavşan kulaklı kişiler koyu cilt tonu orta cilt tonu	none
+🧑🏿‍🐰‍🧑🏾	tavşan kulaklı kişiler koyu cilt tonu orta koyu cilt tonu	none
 👨🏻	erkek açık cilt tonu	none
 👨🏼	erkek orta açık cilt tonu	none
 👨🏽	erkek orta cilt tonu	none
@@ -2115,6 +2308,26 @@ symbols:
 👨🏿‍❤‍👨🏽	kalpli çift erkek erkek koyu cilt tonu orta cilt tonu	none
 👨🏿‍❤‍👨🏾	kalpli çift erkek erkek koyu cilt tonu orta koyu cilt tonu	none
 👨🏿‍❤‍👨🏿	kalpli çift erkek erkek koyu cilt tonu	none
+👨🏻‍🫯‍👨🏼	güreş yapan erkek açık cilt tonu orta açık cilt tonu	none
+👨🏻‍🫯‍👨🏽	güreş yapan erkek açık cilt tonu orta cilt tonu	none
+👨🏻‍🫯‍👨🏾	güreş yapan erkek açık cilt tonu orta koyu cilt tonu	none
+👨🏻‍🫯‍👨🏿	güreş yapan erkek açık cilt tonu koyu cilt tonu	none
+👨🏼‍🫯‍👨🏻	güreş yapan erkek orta açık cilt tonu açık cilt tonu	none
+👨🏼‍🫯‍👨🏽	güreş yapan erkek orta açık cilt tonu orta cilt tonu	none
+👨🏼‍🫯‍👨🏾	güreş yapan erkek orta açık cilt tonu orta koyu cilt tonu	none
+👨🏼‍🫯‍👨🏿	güreş yapan erkek orta açık cilt tonu koyu cilt tonu	none
+👨🏽‍🫯‍👨🏻	güreş yapan erkek orta cilt tonu açık cilt tonu	none
+👨🏽‍🫯‍👨🏼	güreş yapan erkek orta cilt tonu orta açık cilt tonu	none
+👨🏽‍🫯‍👨🏾	güreş yapan erkek orta cilt tonu orta koyu cilt tonu	none
+👨🏽‍🫯‍👨🏿	güreş yapan erkek orta cilt tonu koyu cilt tonu	none
+👨🏾‍🫯‍👨🏻	güreş yapan erkek orta koyu cilt tonu açık cilt tonu	none
+👨🏾‍🫯‍👨🏼	güreş yapan erkek orta koyu cilt tonu orta açık cilt tonu	none
+👨🏾‍🫯‍👨🏽	güreş yapan erkek orta koyu cilt tonu orta cilt tonu	none
+👨🏾‍🫯‍👨🏿	güreş yapan erkek orta koyu cilt tonu koyu cilt tonu	none
+👨🏿‍🫯‍👨🏻	güreş yapan erkek koyu cilt tonu açık cilt tonu	none
+👨🏿‍🫯‍👨🏼	güreş yapan erkek koyu cilt tonu orta açık cilt tonu	none
+👨🏿‍🫯‍👨🏽	güreş yapan erkek koyu cilt tonu orta cilt tonu	none
+👨🏿‍🫯‍👨🏾	güreş yapan erkek koyu cilt tonu orta koyu cilt tonu	none
 👨‍🦰	erkek kızıl saç	none
 👨🏻‍🦰	erkek açık cilt tonu kızıl saç	none
 👨🏼‍🦰	erkek orta açık cilt tonu kızıl saç	none
@@ -2139,6 +2352,26 @@ symbols:
 👨🏽‍🦲	erkek orta cilt tonu kel	none
 👨🏾‍🦲	erkek orta koyu cilt tonu kel	none
 👨🏿‍🦲	erkek koyu cilt tonu kel	none
+👨🏻‍🐰‍👨🏼	tavşan kulaklı erkekler açık cilt tonu orta açık cilt tonu	none
+👨🏻‍🐰‍👨🏽	tavşan kulaklı erkekler açık cilt tonu orta cilt tonu	none
+👨🏻‍🐰‍👨🏾	tavşan kulaklı erkekler açık cilt tonu orta koyu cilt tonu	none
+👨🏻‍🐰‍👨🏿	tavşan kulaklı erkekler açık cilt tonu koyu cilt tonu	none
+👨🏼‍🐰‍👨🏻	tavşan kulaklı erkekler orta açık cilt tonu açık cilt tonu	none
+👨🏼‍🐰‍👨🏽	tavşan kulaklı erkekler orta açık cilt tonu orta cilt tonu	none
+👨🏼‍🐰‍👨🏾	tavşan kulaklı erkekler orta açık cilt tonu orta koyu cilt tonu	none
+👨🏼‍🐰‍👨🏿	tavşan kulaklı erkekler orta açık cilt tonu koyu cilt tonu	none
+👨🏽‍🐰‍👨🏻	tavşan kulaklı erkekler orta cilt tonu açık cilt tonu	none
+👨🏽‍🐰‍👨🏼	tavşan kulaklı erkekler orta cilt tonu orta açık cilt tonu	none
+👨🏽‍🐰‍👨🏾	tavşan kulaklı erkekler orta cilt tonu orta koyu cilt tonu	none
+👨🏽‍🐰‍👨🏿	tavşan kulaklı erkekler orta cilt tonu koyu cilt tonu	none
+👨🏾‍🐰‍👨🏻	tavşan kulaklı erkekler orta koyu cilt tonu açık cilt tonu	none
+👨🏾‍🐰‍👨🏼	tavşan kulaklı erkekler orta koyu cilt tonu orta açık cilt tonu	none
+👨🏾‍🐰‍👨🏽	tavşan kulaklı erkekler orta koyu cilt tonu orta cilt tonu	none
+👨🏾‍🐰‍👨🏿	tavşan kulaklı erkekler orta koyu cilt tonu koyu cilt tonu	none
+👨🏿‍🐰‍👨🏻	tavşan kulaklı erkekler koyu cilt tonu açık cilt tonu	none
+👨🏿‍🐰‍👨🏼	tavşan kulaklı erkekler koyu cilt tonu orta açık cilt tonu	none
+👨🏿‍🐰‍👨🏽	tavşan kulaklı erkekler koyu cilt tonu orta cilt tonu	none
+👨🏿‍🐰‍👨🏾	tavşan kulaklı erkekler koyu cilt tonu orta koyu cilt tonu	none
 👩🏻	kadın açık cilt tonu	none
 👩🏼	kadın orta açık cilt tonu	none
 👩🏽	kadın orta cilt tonu	none
@@ -2254,6 +2487,26 @@ symbols:
 👩🏿‍❤‍👩🏽	kalpli çift kadın kadın koyu cilt tonu orta cilt tonu	none
 👩🏿‍❤‍👩🏾	kalpli çift kadın kadın koyu cilt tonu orta koyu cilt tonu	none
 👩🏿‍❤‍👩🏿	kalpli çift kadın kadın koyu cilt tonu	none
+👩🏻‍🫯‍👩🏼	güreş yapan kadın açık cilt tonu orta açık cilt tonu	none
+👩🏻‍🫯‍👩🏽	güreş yapan kadın açık cilt tonu orta cilt tonu	none
+👩🏻‍🫯‍👩🏾	güreş yapan kadın açık cilt tonu orta koyu cilt tonu	none
+👩🏻‍🫯‍👩🏿	güreş yapan kadın açık cilt tonu koyu cilt tonu	none
+👩🏼‍🫯‍👩🏻	güreş yapan kadın orta açık cilt tonu açık cilt tonu	none
+👩🏼‍🫯‍👩🏽	güreş yapan kadın orta açık cilt tonu orta cilt tonu	none
+👩🏼‍🫯‍👩🏾	güreş yapan kadın orta açık cilt tonu orta koyu cilt tonu	none
+👩🏼‍🫯‍👩🏿	güreş yapan kadın orta açık cilt tonu koyu cilt tonu	none
+👩🏽‍🫯‍👩🏻	güreş yapan kadın orta cilt tonu açık cilt tonu	none
+👩🏽‍🫯‍👩🏼	güreş yapan kadın orta cilt tonu orta açık cilt tonu	none
+👩🏽‍🫯‍👩🏾	güreş yapan kadın orta cilt tonu orta koyu cilt tonu	none
+👩🏽‍🫯‍👩🏿	güreş yapan kadın orta cilt tonu koyu cilt tonu	none
+👩🏾‍🫯‍👩🏻	güreş yapan kadın orta koyu cilt tonu açık cilt tonu	none
+👩🏾‍🫯‍👩🏼	güreş yapan kadın orta koyu cilt tonu orta açık cilt tonu	none
+👩🏾‍🫯‍👩🏽	güreş yapan kadın orta koyu cilt tonu orta cilt tonu	none
+👩🏾‍🫯‍👩🏿	güreş yapan kadın orta koyu cilt tonu koyu cilt tonu	none
+👩🏿‍🫯‍👩🏻	güreş yapan kadın koyu cilt tonu açık cilt tonu	none
+👩🏿‍🫯‍👩🏼	güreş yapan kadın koyu cilt tonu orta açık cilt tonu	none
+👩🏿‍🫯‍👩🏽	güreş yapan kadın koyu cilt tonu orta cilt tonu	none
+👩🏿‍🫯‍👩🏾	güreş yapan kadın koyu cilt tonu orta koyu cilt tonu	none
 👩‍🦰	kadın kızıl saç	none
 👩🏻‍🦰	kadın açık cilt tonu kızıl saç	none
 👩🏼‍🦰	kadın orta açık cilt tonu kızıl saç	none
@@ -2278,6 +2531,26 @@ symbols:
 👩🏽‍🦲	kadın orta cilt tonu kel	none
 👩🏾‍🦲	kadın orta koyu cilt tonu kel	none
 👩🏿‍🦲	kadın koyu cilt tonu kel	none
+👩🏻‍🐰‍👩🏼	tavşan kulaklı kadınlar açık cilt tonu orta açık cilt tonu	none
+👩🏻‍🐰‍👩🏽	tavşan kulaklı kadınlar açık cilt tonu orta cilt tonu	none
+👩🏻‍🐰‍👩🏾	tavşan kulaklı kadınlar açık cilt tonu orta koyu cilt tonu	none
+👩🏻‍🐰‍👩🏿	tavşan kulaklı kadınlar açık cilt tonu koyu cilt tonu	none
+👩🏼‍🐰‍👩🏻	tavşan kulaklı kadınlar orta açık cilt tonu açık cilt tonu	none
+👩🏼‍🐰‍👩🏽	tavşan kulaklı kadınlar orta açık cilt tonu orta cilt tonu	none
+👩🏼‍🐰‍👩🏾	tavşan kulaklı kadınlar orta açık cilt tonu orta koyu cilt tonu	none
+👩🏼‍🐰‍👩🏿	tavşan kulaklı kadınlar orta açık cilt tonu koyu cilt tonu	none
+👩🏽‍🐰‍👩🏻	tavşan kulaklı kadınlar orta cilt tonu açık cilt tonu	none
+👩🏽‍🐰‍👩🏼	tavşan kulaklı kadınlar orta cilt tonu orta açık cilt tonu	none
+👩🏽‍🐰‍👩🏾	tavşan kulaklı kadınlar orta cilt tonu orta koyu cilt tonu	none
+👩🏽‍🐰‍👩🏿	tavşan kulaklı kadınlar orta cilt tonu koyu cilt tonu	none
+👩🏾‍🐰‍👩🏻	tavşan kulaklı kadınlar orta koyu cilt tonu açık cilt tonu	none
+👩🏾‍🐰‍👩🏼	tavşan kulaklı kadınlar orta koyu cilt tonu orta açık cilt tonu	none
+👩🏾‍🐰‍👩🏽	tavşan kulaklı kadınlar orta koyu cilt tonu orta cilt tonu	none
+👩🏾‍🐰‍👩🏿	tavşan kulaklı kadınlar orta koyu cilt tonu koyu cilt tonu	none
+👩🏿‍🐰‍👩🏻	tavşan kulaklı kadınlar koyu cilt tonu açık cilt tonu	none
+👩🏿‍🐰‍👩🏼	tavşan kulaklı kadınlar koyu cilt tonu orta açık cilt tonu	none
+👩🏿‍🐰‍👩🏽	tavşan kulaklı kadınlar koyu cilt tonu orta cilt tonu	none
+👩🏿‍🐰‍👩🏾	tavşan kulaklı kadınlar koyu cilt tonu orta koyu cilt tonu	none
 🧓🏻	yaşlı yetişkin açık cilt tonu	none
 🧓🏼	yaşlı yetişkin orta açık cilt tonu	none
 🧓🏽	yaşlı yetişkin orta cilt tonu	none
@@ -2748,6 +3021,11 @@ symbols:
 👷🏽‍♀	kadın inşaat işçisi orta cilt tonu	none
 👷🏾‍♀	kadın inşaat işçisi orta koyu cilt tonu	none
 👷🏿‍♀	kadın inşaat işçisi koyu cilt tonu	none
+🫅🏻	taç takmış insan açık cilt tonu	none
+🫅🏼	taç takmış insan orta açık cilt tonu	none
+🫅🏽	taç takmış insan orta cilt tonu	none
+🫅🏾	taç takmış insan orta koyu cilt tonu	none
+🫅🏿	taç takmış insan koyu cilt tonu	none
 🤴🏻	prens açık cilt tonu	none
 🤴🏼	prens orta açık cilt tonu	none
 🤴🏽	prens orta cilt tonu	none
@@ -2818,6 +3096,16 @@ symbols:
 🤰🏽	hamile kadın orta cilt tonu	none
 🤰🏾	hamile kadın orta koyu cilt tonu	none
 🤰🏿	hamile kadın koyu cilt tonu	none
+🫃🏻	hamile adam açık cilt tonu	none
+🫃🏼	hamile adam orta açık cilt tonu	none
+🫃🏽	hamile adam orta cilt tonu	none
+🫃🏾	hamile adam orta koyu cilt tonu	none
+🫃🏿	hamile adam koyu cilt tonu	none
+🫄🏻	hamile kişi açık cilt tonu	none
+🫄🏼	hamile kişi orta açık cilt tonu	none
+🫄🏽	hamile kişi orta cilt tonu	none
+🫄🏾	hamile kişi orta koyu cilt tonu	none
+🫄🏿	hamile kişi koyu cilt tonu	none
 🤱🏻	emziren kadın açık cilt tonu	none
 🤱🏼	emziren kadın orta açık cilt tonu	none
 🤱🏽	emziren kadın orta cilt tonu	none
@@ -3008,6 +3296,24 @@ symbols:
 🚶🏽‍♀	yürüyen kadın orta cilt tonu	none
 🚶🏾‍♀	yürüyen kadın orta koyu cilt tonu	none
 🚶🏿‍♀	yürüyen kadın koyu cilt tonu	none
+🚶‍➡	yürüyen kişi sağa dönük	none
+🚶🏻‍➡	yürüyen kişi açık cilt tonu sağa dönük	none
+🚶🏼‍➡	yürüyen kişi orta açık cilt tonu sağa dönük	none
+🚶🏽‍➡	yürüyen kişi orta cilt tonu sağa dönük	none
+🚶🏾‍➡	yürüyen kişi orta koyu cilt tonu sağa dönük	none
+🚶🏿‍➡	yürüyen kişi koyu cilt tonu sağa dönük	none
+🚶‍♀‍➡	yürüyen kadın sağa dönük	none
+🚶🏻‍♀‍➡	yürüyen kadın açık cilt tonu sağa dönük	none
+🚶🏼‍♀‍➡	yürüyen kadın orta açık cilt tonu sağa dönük	none
+🚶🏽‍♀‍➡	yürüyen kadın orta cilt tonu sağa dönük	none
+🚶🏾‍♀‍➡	yürüyen kadın orta koyu cilt tonu sağa dönük	none
+🚶🏿‍♀‍➡	yürüyen kadın koyu cilt tonu sağa dönük	none
+🚶‍♂‍➡	yürüyen erkek sağa dönük	none
+🚶🏻‍♂‍➡	yürüyen erkek açık cilt tonu sağa dönük	none
+🚶🏼‍♂‍➡	yürüyen erkek orta açık cilt tonu sağa dönük	none
+🚶🏽‍♂‍➡	yürüyen erkek orta cilt tonu sağa dönük	none
+🚶🏾‍♂‍➡	yürüyen erkek orta koyu cilt tonu sağa dönük	none
+🚶🏿‍♂‍➡	yürüyen erkek koyu cilt tonu sağa dönük	none
 🧍🏻	ayakta duran kişi açık cilt tonu	none
 🧍🏼	ayakta duran kişi orta açık cilt tonu	none
 🧍🏽	ayakta duran kişi orta cilt tonu	none
@@ -3038,51 +3344,123 @@ symbols:
 🧎🏽‍♀	diz çöken kadın orta cilt tonu	none
 🧎🏾‍♀	diz çöken kadın orta koyu cilt tonu	none
 🧎🏿‍♀	diz çöken kadın koyu cilt tonu	none
+🧎‍➡	diz çöken kişi sağa dönük	none
+🧎🏻‍➡	diz çöken kişi açık cilt tonu sağa dönük	none
+🧎🏼‍➡	diz çöken kişi orta açık cilt tonu sağa dönük	none
+🧎🏽‍➡	diz çöken kişi orta cilt tonu sağa dönük	none
+🧎🏾‍➡	diz çöken kişi orta koyu cilt tonu sağa dönük	none
+🧎🏿‍➡	diz çöken kişi koyu cilt tonu sağa dönük	none
+🧎‍♀‍➡	diz çöken kadın sağa dönük	none
+🧎🏻‍♀‍➡	diz çöken kadın açık cilt tonu sağa dönük	none
+🧎🏼‍♀‍➡	diz çöken kadın orta açık cilt tonu sağa dönük	none
+🧎🏽‍♀‍➡	diz çöken kadın orta cilt tonu sağa dönük	none
+🧎🏾‍♀‍➡	diz çöken kadın orta koyu cilt tonu sağa dönük	none
+🧎🏿‍♀‍➡	diz çöken kadın koyu cilt tonu sağa dönük	none
+🧎‍♂‍➡	diz çöken erkek sağa dönük	none
+🧎🏻‍♂‍➡	diz çöken erkek açık cilt tonu sağa dönük	none
+🧎🏼‍♂‍➡	diz çöken erkek orta açık cilt tonu sağa dönük	none
+🧎🏽‍♂‍➡	diz çöken erkek orta cilt tonu sağa dönük	none
+🧎🏾‍♂‍➡	diz çöken erkek orta koyu cilt tonu sağa dönük	none
+🧎🏿‍♂‍➡	diz çöken erkek koyu cilt tonu sağa dönük	none
 🧑🏻‍🦯	görme engelli bastonlu kişi açık cilt tonu	none
 🧑🏼‍🦯	görme engelli bastonlu kişi orta açık cilt tonu	none
 🧑🏽‍🦯	görme engelli bastonlu kişi orta cilt tonu	none
 🧑🏾‍🦯	görme engelli bastonlu kişi orta koyu cilt tonu	none
 🧑🏿‍🦯	görme engelli bastonlu kişi koyu cilt tonu	none
+🧑‍🦯‍➡	görme engelli bastonlu kişi sağa dönük	none
+🧑🏻‍🦯‍➡	görme engelli bastonlu kişi açık cilt tonu sağa dönük	none
+🧑🏼‍🦯‍➡	görme engelli bastonlu kişi orta açık cilt tonu sağa dönük	none
+🧑🏽‍🦯‍➡	görme engelli bastonlu kişi orta cilt tonu sağa dönük	none
+🧑🏾‍🦯‍➡	görme engelli bastonlu kişi orta koyu cilt tonu sağa dönük	none
+🧑🏿‍🦯‍➡	görme engelli bastonlu kişi koyu cilt tonu sağa dönük	none
 👨🏻‍🦯	görme engelli bastonlu erkek açık cilt tonu	none
 👨🏼‍🦯	görme engelli bastonlu erkek orta açık cilt tonu	none
 👨🏽‍🦯	görme engelli bastonlu erkek orta cilt tonu	none
 👨🏾‍🦯	görme engelli bastonlu erkek orta koyu cilt tonu	none
 👨🏿‍🦯	görme engelli bastonlu erkek koyu cilt tonu	none
+👨‍🦯‍➡	görme engelli bastonlu erkek sağa dönük	none
+👨🏻‍🦯‍➡	görme engelli bastonlu erkek açık cilt tonu sağa dönük	none
+👨🏼‍🦯‍➡	görme engelli bastonlu erkek orta açık cilt tonu sağa dönük	none
+👨🏽‍🦯‍➡	görme engelli bastonlu erkek orta cilt tonu sağa dönük	none
+👨🏾‍🦯‍➡	görme engelli bastonlu erkek orta koyu cilt tonu sağa dönük	none
+👨🏿‍🦯‍➡	görme engelli bastonlu erkek koyu cilt tonu sağa dönük	none
 👩🏻‍🦯	görme engelli bastonlu kadın açık cilt tonu	none
 👩🏼‍🦯	görme engelli bastonlu kadın orta açık cilt tonu	none
 👩🏽‍🦯	görme engelli bastonlu kadın orta cilt tonu	none
 👩🏾‍🦯	görme engelli bastonlu kadın orta koyu cilt tonu	none
 👩🏿‍🦯	görme engelli bastonlu kadın koyu cilt tonu	none
+👩‍🦯‍➡	görme engelli bastonlu kadın sağa dönük	none
+👩🏻‍🦯‍➡	görme engelli bastonlu kadın açık cilt tonu sağa dönük	none
+👩🏼‍🦯‍➡	görme engelli bastonlu kadın orta açık cilt tonu sağa dönük	none
+👩🏽‍🦯‍➡	görme engelli bastonlu kadın orta cilt tonu sağa dönük	none
+👩🏾‍🦯‍➡	görme engelli bastonlu kadın orta koyu cilt tonu sağa dönük	none
+👩🏿‍🦯‍➡	görme engelli bastonlu kadın koyu cilt tonu sağa dönük	none
 🧑🏻‍🦼	elektrikli tekerlekli sandalyede kişi açık cilt tonu	none
 🧑🏼‍🦼	elektrikli tekerlekli sandalyede kişi orta açık cilt tonu	none
 🧑🏽‍🦼	elektrikli tekerlekli sandalyede kişi orta cilt tonu	none
 🧑🏾‍🦼	elektrikli tekerlekli sandalyede kişi orta koyu cilt tonu	none
 🧑🏿‍🦼	elektrikli tekerlekli sandalyede kişi koyu cilt tonu	none
+🧑‍🦼‍➡	elektrikli tekerlekli sandalyede kişi sağa dönük	none
+🧑🏻‍🦼‍➡	elektrikli tekerlekli sandalyede kişi açık cilt tonu sağa dönük	none
+🧑🏼‍🦼‍➡	elektrikli tekerlekli sandalyede kişi orta açık cilt tonu sağa dönük	none
+🧑🏽‍🦼‍➡	elektrikli tekerlekli sandalyede kişi orta cilt tonu sağa dönük	none
+🧑🏾‍🦼‍➡	elektrikli tekerlekli sandalyede kişi orta koyu cilt tonu sağa dönük	none
+🧑🏿‍🦼‍➡	elektrikli tekerlekli sandalyede kişi koyu cilt tonu sağa dönük	none
 👨🏻‍🦼	elektrikli tekerlekli sandalyede erkek açık cilt tonu	none
 👨🏼‍🦼	elektrikli tekerlekli sandalyede erkek orta açık cilt tonu	none
 👨🏽‍🦼	elektrikli tekerlekli sandalyede erkek orta cilt tonu	none
 👨🏾‍🦼	elektrikli tekerlekli sandalyede erkek orta koyu cilt tonu	none
 👨🏿‍🦼	elektrikli tekerlekli sandalyede erkek koyu cilt tonu	none
+👨‍🦼‍➡	elektrikli tekerlekli sandalyede erkek sağa dönük	none
+👨🏻‍🦼‍➡	elektrikli tekerlekli sandalyede erkek açık cilt tonu sağa dönük	none
+👨🏼‍🦼‍➡	elektrikli tekerlekli sandalyede erkek orta açık cilt tonu sağa dönük	none
+👨🏽‍🦼‍➡	elektrikli tekerlekli sandalyede erkek orta cilt tonu sağa dönük	none
+👨🏾‍🦼‍➡	elektrikli tekerlekli sandalyede erkek orta koyu cilt tonu sağa dönük	none
+👨🏿‍🦼‍➡	elektrikli tekerlekli sandalyede erkek koyu cilt tonu sağa dönük	none
 👩🏻‍🦼	elektrikli tekerlekli sandalyede kadın açık cilt tonu	none
 👩🏼‍🦼	elektrikli tekerlekli sandalyede kadın orta açık cilt tonu	none
 👩🏽‍🦼	elektrikli tekerlekli sandalyede kadın orta cilt tonu	none
 👩🏾‍🦼	elektrikli tekerlekli sandalyede kadın orta koyu cilt tonu	none
 👩🏿‍🦼	elektrikli tekerlekli sandalyede kadın koyu cilt tonu	none
+👩‍🦼‍➡	elektrikli tekerlekli sandalyede kadın sağa dönük	none
+👩🏻‍🦼‍➡	elektrikli tekerlekli sandalyede kadın açık cilt tonu sağa dönük	none
+👩🏼‍🦼‍➡	elektrikli tekerlekli sandalyede kadın orta açık cilt tonu sağa dönük	none
+👩🏽‍🦼‍➡	elektrikli tekerlekli sandalyede kadın orta cilt tonu sağa dönük	none
+👩🏾‍🦼‍➡	elektrikli tekerlekli sandalyede kadın orta koyu cilt tonu sağa dönük	none
+👩🏿‍🦼‍➡	elektrikli tekerlekli sandalyede kadın koyu cilt tonu sağa dönük	none
 🧑🏻‍🦽	tekerlekli sandalyede kişi açık cilt tonu	none
 🧑🏼‍🦽	tekerlekli sandalyede kişi orta açık cilt tonu	none
 🧑🏽‍🦽	tekerlekli sandalyede kişi orta cilt tonu	none
 🧑🏾‍🦽	tekerlekli sandalyede kişi orta koyu cilt tonu	none
 🧑🏿‍🦽	tekerlekli sandalyede kişi koyu cilt tonu	none
+🧑‍🦽‍➡	tekerlekli sandalyede kişi sağa dönük	none
+🧑🏻‍🦽‍➡	tekerlekli sandalyede kişi açık cilt tonu sağa dönük	none
+🧑🏼‍🦽‍➡	tekerlekli sandalyede kişi orta açık cilt tonu sağa dönük	none
+🧑🏽‍🦽‍➡	tekerlekli sandalyede kişi orta cilt tonu sağa dönük	none
+🧑🏾‍🦽‍➡	tekerlekli sandalyede kişi orta koyu cilt tonu sağa dönük	none
+🧑🏿‍🦽‍➡	tekerlekli sandalyede kişi koyu cilt tonu sağa dönük	none
 👨🏻‍🦽	tekerlekli sandalyede erkek açık cilt tonu	none
 👨🏼‍🦽	tekerlekli sandalyede erkek orta açık cilt tonu	none
 👨🏽‍🦽	tekerlekli sandalyede erkek orta cilt tonu	none
 👨🏾‍🦽	tekerlekli sandalyede erkek orta koyu cilt tonu	none
 👨🏿‍🦽	tekerlekli sandalyede erkek koyu cilt tonu	none
+👨‍🦽‍➡	tekerlekli sandalyede erkek sağa dönük	none
+👨🏻‍🦽‍➡	tekerlekli sandalyede erkek açık cilt tonu sağa dönük	none
+👨🏼‍🦽‍➡	tekerlekli sandalyede erkek orta açık cilt tonu sağa dönük	none
+👨🏽‍🦽‍➡	tekerlekli sandalyede erkek orta cilt tonu sağa dönük	none
+👨🏾‍🦽‍➡	tekerlekli sandalyede erkek orta koyu cilt tonu sağa dönük	none
+👨🏿‍🦽‍➡	tekerlekli sandalyede erkek koyu cilt tonu sağa dönük	none
 👩🏻‍🦽	tekerlekli sandalyede kadın açık cilt tonu	none
 👩🏼‍🦽	tekerlekli sandalyede kadın orta açık cilt tonu	none
 👩🏽‍🦽	tekerlekli sandalyede kadın orta cilt tonu	none
 👩🏾‍🦽	tekerlekli sandalyede kadın orta koyu cilt tonu	none
 👩🏿‍🦽	tekerlekli sandalyede kadın koyu cilt tonu	none
+👩‍🦽‍➡	tekerlekli sandalyede kadın sağa dönük	none
+👩🏻‍🦽‍➡	tekerlekli sandalyede kadın açık cilt tonu sağa dönük	none
+👩🏼‍🦽‍➡	tekerlekli sandalyede kadın orta açık cilt tonu sağa dönük	none
+👩🏽‍🦽‍➡	tekerlekli sandalyede kadın orta cilt tonu sağa dönük	none
+👩🏾‍🦽‍➡	tekerlekli sandalyede kadın orta koyu cilt tonu sağa dönük	none
+👩🏿‍🦽‍➡	tekerlekli sandalyede kadın koyu cilt tonu sağa dönük	none
 🏃🏻	koşan kişi açık cilt tonu	none
 🏃🏼	koşan kişi orta açık cilt tonu	none
 🏃🏽	koşan kişi orta cilt tonu	none
@@ -3098,6 +3476,29 @@ symbols:
 🏃🏽‍♀	koşan kadın orta cilt tonu	none
 🏃🏾‍♀	koşan kadın orta koyu cilt tonu	none
 🏃🏿‍♀	koşan kadın koyu cilt tonu	none
+🏃‍➡	koşan kişi sağa dönük	none
+🏃🏻‍➡	koşan kişi açık cilt tonu sağa dönük	none
+🏃🏼‍➡	koşan kişi orta açık cilt tonu sağa dönük	none
+🏃🏽‍➡	koşan kişi orta cilt tonu sağa dönük	none
+🏃🏾‍➡	koşan kişi orta koyu cilt tonu sağa dönük	none
+🏃🏿‍➡	koşan kişi koyu cilt tonu sağa dönük	none
+🏃‍♀‍➡	koşan kadın sağa dönük	none
+🏃🏻‍♀‍➡	koşan kadın açık cilt tonu sağa dönük	none
+🏃🏼‍♀‍➡	koşan kadın orta açık cilt tonu sağa dönük	none
+🏃🏽‍♀‍➡	koşan kadın orta cilt tonu sağa dönük	none
+🏃🏾‍♀‍➡	koşan kadın orta koyu cilt tonu sağa dönük	none
+🏃🏿‍♀‍➡	koşan kadın koyu cilt tonu sağa dönük	none
+🏃‍♂‍➡	koşan erkek sağa dönük	none
+🏃🏻‍♂‍➡	koşan erkek açık cilt tonu sağa dönük	none
+🏃🏼‍♂‍➡	koşan erkek orta açık cilt tonu sağa dönük	none
+🏃🏽‍♂‍➡	koşan erkek orta cilt tonu sağa dönük	none
+🏃🏾‍♂‍➡	koşan erkek orta koyu cilt tonu sağa dönük	none
+🏃🏿‍♂‍➡	koşan erkek koyu cilt tonu sağa dönük	none
+🧑🏻‍🩰	bale dansçısı açık cilt tonu	none
+🧑🏼‍🩰	bale dansçısı orta açık cilt tonu	none
+🧑🏽‍🩰	bale dansçısı orta cilt tonu	none
+🧑🏾‍🩰	bale dansçısı orta koyu cilt tonu	none
+🧑🏿‍🩰	bale dansçısı koyu cilt tonu	none
 💃🏻	dans eden kadın açık cilt tonu	none
 💃🏼	dans eden kadın orta açık cilt tonu	none
 💃🏽	dans eden kadın orta cilt tonu	none
@@ -3113,6 +3514,21 @@ symbols:
 🕴🏽	havalanan takım elbiseli adam orta cilt tonu	none
 🕴🏾	havalanan takım elbiseli adam orta koyu cilt tonu	none
 🕴🏿	havalanan takım elbiseli adam koyu cilt tonu	none
+👯🏻	tavşan kulaklı kişiler açık cilt tonu	none
+👯🏼	tavşan kulaklı kişiler orta açık cilt tonu	none
+👯🏽	tavşan kulaklı kişiler orta cilt tonu	none
+👯🏾	tavşan kulaklı kişiler orta koyu cilt tonu	none
+👯🏿	tavşan kulaklı kişiler koyu cilt tonu	none
+👯🏻‍♂	tavşan kulaklı erkekler açık cilt tonu	none
+👯🏼‍♂	tavşan kulaklı erkekler orta açık cilt tonu	none
+👯🏽‍♂	tavşan kulaklı erkekler orta cilt tonu	none
+👯🏾‍♂	tavşan kulaklı erkekler orta koyu cilt tonu	none
+👯🏿‍♂	tavşan kulaklı erkekler koyu cilt tonu	none
+👯🏻‍♀	tavşan kulaklı kadınlar açık cilt tonu	none
+👯🏼‍♀	tavşan kulaklı kadınlar orta açık cilt tonu	none
+👯🏽‍♀	tavşan kulaklı kadınlar orta cilt tonu	none
+👯🏾‍♀	tavşan kulaklı kadınlar orta koyu cilt tonu	none
+👯🏿‍♀	tavşan kulaklı kadınlar koyu cilt tonu	none
 🧖🏻	buhar odasındaki kişi açık cilt tonu	none
 🧖🏼	buhar odasındaki kişi orta açık cilt tonu	none
 🧖🏽	buhar odasındaki kişi orta cilt tonu	none
@@ -3288,6 +3704,21 @@ symbols:
 🤸🏽‍♀	perende atan kadın orta cilt tonu	none
 🤸🏾‍♀	perende atan kadın orta koyu cilt tonu	none
 🤸🏿‍♀	perende atan kadın koyu cilt tonu	none
+🤼🏻	güreşen kişiler açık cilt tonu	none
+🤼🏼	güreşen kişiler orta açık cilt tonu	none
+🤼🏽	güreşen kişiler orta cilt tonu	none
+🤼🏾	güreşen kişiler orta koyu cilt tonu	none
+🤼🏿	güreşen kişiler koyu cilt tonu	none
+🤼🏻‍♂	güreş yapan erkek açık cilt tonu	none
+🤼🏼‍♂	güreş yapan erkek orta açık cilt tonu	none
+🤼🏽‍♂	güreş yapan erkek orta cilt tonu	none
+🤼🏾‍♂	güreş yapan erkek orta koyu cilt tonu	none
+🤼🏿‍♂	güreş yapan erkek koyu cilt tonu	none
+🤼🏻‍♀	güreş yapan kadın açık cilt tonu	none
+🤼🏼‍♀	güreş yapan kadın orta açık cilt tonu	none
+🤼🏽‍♀	güreş yapan kadın orta cilt tonu	none
+🤼🏾‍♀	güreş yapan kadın orta koyu cilt tonu	none
+🤼🏿‍♀	güreş yapan kadın koyu cilt tonu	none
 🤽🏻	su topu açık cilt tonu	none
 🤽🏼	su topu orta açık cilt tonu	none
 🤽🏽	su topu orta cilt tonu	none
@@ -3551,9 +3982,10 @@ symbols:
 🇨🇳	bayrak Çin	none
 🇨🇴	bayrak Kolombiya	none
 🇨🇵	bayrak Clipperton Adası	none
+🇨🇶	bayrak Sark	none
 🇨🇷	bayrak Kosta Rika	none
 🇨🇺	bayrak Küba	none
-🇨🇻	bayrak Cape Verde	none
+🇨🇻	bayrak Cabo Verde	none
 🇨🇼	bayrak Curaçao	none
 🇨🇽	bayrak Christmas Adası	none
 🇨🇾	bayrak Kıbrıs	none
@@ -3761,17 +4193,17 @@ symbols:
 🏴󠁧󠁢󠁥󠁮󠁧󠁿	bayrak İngiltere	none
 🏴󠁧󠁢󠁳󠁣󠁴󠁿	bayrak İskoçya	none
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	bayrak Galler	none
-₡	Kosta Rika Kolonu	none
-₦	Nijerya Nairası	none
+₡	Kosta Rika kolonu	none
+₦	Nijerya nairası	none
+₪	Yeni İsrail şekeli	none
+₫	Vietnam dongu	none
+₭	Laos kipi	none
+₮	Moğolistan tugriki	none
+₲	Paraguay guaranisi	none
+₴	Ukrayna grivnası	none
+₵	Gana sedisi	none
+₸	Kazakistan tengesi	none
+₺	Türk lirası	none
+₼	Azerbaycan manatı	none
+₾	Gürcistan larisi	none
 ₧	İspanyol Pezetası	none
-₪	Yeni İsrail Şekeli	none
-₫	Vietnam Dongu	none
-₭	Laos Kipi	none
-₮	Moğolistan Tugriki	none
-₲	Paraguay Guaranisi	none
-₴	Ukrayna Grivnası	none
-₵	Gana Sedisi	none
-₸	Kazakistan Tengesi	none
-₺	Türk Lirası	none
-₼	Azerbaycan Manatı	none
-₾	Gürcistan Larisi	none

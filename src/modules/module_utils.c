@@ -24,8 +24,9 @@
 #endif
 
 #include <fdsetconv.h>
+#include <wchar.h>
 #include "module_utils.h"
-#include "module_main.h"
+#include "spd_module_main.h"
 
 static char *module_audio_pars[10];
 
@@ -48,14 +49,19 @@ const char *module_name;
 int current_index_mark;
 char *module_index_mark;
 
+typedef struct {
+	gchar *pattern;
+	gchar *replace;
+} MulticasesString;
+
 void MSG(int level, const char *format, ...) {
 	if (level < 4 || Debug) {
 		va_list ap;
 		time_t t;
 		struct timeval tv;
-		char *tstr;
+		char tstr[26];
 		t = time(NULL);
-		tstr = g_strdup(ctime(&t));
+		ctime_r(&t, tstr);
 		tstr[strlen(tstr)-1] = 0;
 		gettimeofday(&tv,NULL);
 		fprintf(stderr," %s [%d]",tstr, (int) tv.tv_usec);
@@ -74,7 +80,6 @@ void MSG(int level, const char *format, ...) {
 			fprintf(CustomDebugFile, "\n");
 			fflush(CustomDebugFile);
 		}
-		g_free(tstr);
 	}
 }
 
@@ -275,7 +280,17 @@ module_get_message_part(const char *message, char *part, unsigned int *pos,
 	}
 
 	for (i = 0; i <= maxlen - 1; i++) {
-		part[i] = message[*pos];
+		unsigned char c = message[*pos];
+
+		// Stop at UTF-8 boundaries
+		if (((c & 0xe0) == 0xc0 && i >= maxlen - 1) // Will need one more byte, can't put it.
+		 || ((c & 0xf0) == 0xe0 && i >= maxlen - 2) // Will need two more bytes, can't put it.
+		 || ((c & 0xf8) == 0xf0 && i >= maxlen - 3) // Will need three more bytes, can't put it.
+		 || ((c & 0xfc) == 0xf8 && i >= maxlen - 4) // Will need four more bytes, can't put it.
+		 || ((c & 0xfe) == 0xfc && i >= maxlen - 5)) // Will need five more bytes, can't put it.
+			c = 0;
+
+		part[i] = c;
 
 		if (part[i] == 0) {
 			return i;
@@ -293,23 +308,22 @@ module_get_message_part(const char *message, char *part, unsigned int *pos,
 						return i + 1;
 					}
 				}
-				if ((message[*pos] == '\n')
-				    && (message[*pos + 1] == '\n')) {
-					part[i + 1] = 0;
-					(*pos)++;
-					return i + 1;
-				}
-				if ((len - 1 - i) > 4) {
-					if (((message[*pos] == '\r')
-					     && (message[*pos + 1] == '\n'))
-					    && ((message[*pos + 2] == '\r')
-						&& (message[*pos + 3] ==
-						    '\n'))) {
-						part[i + 1] = 0;
-						(*pos)++;
-						return i + 1;
-					}
-				}
+			}
+			if ((message[*pos] == '\n')
+			    && (message[*pos + 1] == '\n')) {
+				part[i + 1] = 0;
+				(*pos)++;
+				return i + 1;
+			}
+		}
+		if ((len - 1 - i) > 4) {
+			if (    (message[*pos] == '\r')
+			     && (message[*pos + 1] == '\n')
+			     && (message[*pos + 2] == '\r')
+			     && (message[*pos + 3] == '\n')) {
+				part[i + 1] = 0;
+				(*pos)++;
+				return i + 1;
 			}
 		}
 
@@ -322,22 +336,33 @@ module_get_message_part(const char *message, char *part, unsigned int *pos,
 
 void module_strip_punctuation_some(char *message, char *punct_chars)
 {
-	int len;
+	int len, inc;
+	int lenp;
 	char *p = message;
 	int i;
 	assert(message != NULL);
+	mbstate_t state;
 
 	if (punct_chars == NULL)
 		return;
 
+	memset(&state, 0, sizeof(state));
+
 	len = strlen(message);
-	for (i = 0; i <= len - 1; i++) {
-		if (strchr(punct_chars, *p)) {
-			DBG("Substitution %d: char -%c- for whitespace\n", i,
-			    *p);
-			*p = ' ';
+	lenp = strlen(punct_chars);
+	for (i = 0; i < len; i += inc) {
+		wchar_t wc;
+		inc = mbrtowc(&wc, p, len - i, &state);
+		if (inc < 0) {
+			DBG("Oops, at %d invalid char -%c- (%d)?\n", i, *p, inc);
+			return;
 		}
-		p++;
+
+		if (memmem(punct_chars, lenp, p, inc)) {
+			DBG("Substitution %d: char -%.*s- (%d) for whitespace\n", i, inc, p, inc);
+			memset(p, ' ', inc);
+		}
+		p += inc;
 	}
 }
 
@@ -393,6 +418,51 @@ void module_strip_punctuation_default(char *buf)
 	module_strip_punctuation_some(buf, "~#$%^&*+=|<>[]_");
 }
 
+static gchar *module_multicases_string_replace(
+	gchar *text,
+	const MulticasesString *mcstr)
+{
+	GRegex *regex;
+	GError *error = NULL;
+	gchar *result;
+
+	regex = g_regex_new(mcstr->pattern, G_REGEX_OPTIMIZE, 0, &error);
+	if (!regex) {
+		DBG("ERROR compiling regular expression: %s.", error->message);
+		g_error_free(error);
+		return text;
+	}
+
+	result = g_regex_replace(regex, text, -1, 0, mcstr->replace, G_REGEX_MATCH_DEFAULT, NULL);
+
+	g_error_free(error);
+	g_regex_unref(regex);
+	g_free(text);
+							 
+	return result;
+}
+
+char *module_multicases_string(char *message)
+{
+	static MulticasesString mcstr[] = {
+		{"([a-z]+)([A-Z][a-z]+)", "\\1 \\2"},
+		{"([a-z]+)([A-Z]+)", "\\1 \\2"},
+		{"([A-Z]+)([A-Z][a-z]+)", "\\1 \\2"},
+		{"([A-Z])([A-Z][a-z]+)", "\\1 \\2"}
+	};
+	guint i;
+
+	assert(message != NULL);
+	
+	for (i = 0; i < 4; i++) {
+		message = (char*)module_multicases_string_replace((gchar*)message, &mcstr[i]);
+	}
+
+	DBG("Multicases string '%s'\n", message);
+
+	return message;
+}
+
 size_t
 module_parent_wfork(TModuleDoublePipe dpipe, const char *message,
 		    SPDMessageType msgtype, const size_t maxlen,
@@ -414,18 +484,19 @@ module_parent_wfork(TModuleDoublePipe dpipe, const char *message,
 	while (1) {
 		DBG("  Looping...\n");
 
+		if (*pause_requested) {
+			DBG("Pause requested in parent");
+			module_parent_dp_close(dpipe);
+			g_free(buf);
+			*pause_requested = 0;
+			return 0;
+		}
+
 		bytes =
 		    module_get_message_part(message, buf, &pos, maxlen,
 					    dividers);
 
 		DBG("Returned %d bytes from get_part\n", bytes);
-
-		if (*pause_requested) {
-			DBG("Pause requested in parent");
-			module_parent_dp_close(dpipe);
-			*pause_requested = 0;
-			return 0;
-		}
 
 		if (bytes > 0) {
 			DBG("Sending buf to child:|%s| %d\n", buf, bytes);
@@ -453,6 +524,7 @@ module_parent_wfork(TModuleDoublePipe dpipe, const char *message,
 		}
 
 	}
+	g_free(buf);
 	return 0;
 }
 
@@ -650,7 +722,7 @@ configoption_t *module_add_config_option(configoption_t * options,
 
 int module_audio_init(char **status_info)
 {
-	char *error = 0;
+	char *error = 0, *first_error = 0;
 	gchar **outputs;
 	int i = 0;
 
@@ -669,6 +741,13 @@ int module_audio_init(char **status_info)
 
 	outputs = g_strsplit(module_audio_pars[0], ",", 0);
 	while (NULL != outputs[i]) {
+		if (!strcmp(outputs[i], "server")) {
+			if (!first_error)
+				first_error = g_strdup("server audio is not supported");
+			i++;
+			continue;
+		}
+
 		module_audio_id =
 		    spd_audio_open(outputs[i], (void **)&module_audio_pars[1],
 				   &error);
@@ -683,16 +762,22 @@ int module_audio_init(char **status_info)
 
 			*status_info =
 			    g_strdup("audio initialized successfully.");
+			g_free(first_error);
 			return 0;
 		} else {
 			DBG("Opening sound device failed. Reason: %s. %s", error, outputs[i]);
 		}
+		DBG("Can't use %s: %s", outputs[i], error);
+		if (!first_error)
+			first_error = error;
+		else
+			g_free(error);
 		i++;
 	}
 
 	*status_info =
-	    g_strdup_printf("Opening sound device failed. Reason: %s. ", error);
-	g_free(error);		/* g_malloc'ed, in spd_audio_open. */
+	    g_strdup_printf("Opening sound device failed. Reason: %s. ", first_error);
+	g_free(first_error);		/* g_malloc'ed, in spd_audio_open. */
 
 	g_strfreev(outputs);
 	return -1;

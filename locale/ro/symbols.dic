@@ -70,11 +70,10 @@ $	dolar
 ₱	peso filipinez
 ₾	lari georgian
 ﷼	rial iranian
-₪	shekel israelian
+₪	shekel nou israelian
 ₸	tenge cazac
 ₭	kip laoțian
 ₮	tögrög mongol
-रू	rupie nepaleză
 ₲	guaraní paraguayan
 圓	dolar taiwanez
 ฿	baht thailandez
@@ -89,6 +88,8 @@ $	dolar
 *	asterisc
 +	plus
 ,	virgulă
+、	virgulă ideografică
+،	virgulă arabă
 -	cratimă
 ‑	cratimă de unire
 .	punct
@@ -96,10 +97,12 @@ $	dolar
 /	bară oblică
 :	două puncte
 ;	punct și virgulă
+؛	punct și virgulă arabe
 <	mai mic
 >	mai mare
 =	egal
 ?	semnul întrebării
+؟	semnul întrebării arab
 @	a rond
 [	paranteză pătrată deschisă
 ]	paranteză pătrată închisă
@@ -194,6 +197,8 @@ _	liniuță joasă
 ®	marcă înregistrată
 ™	marcă neînregistrată
 ©	drepturi de autor
+℠	marcă de serviciu
+
 ±	plus sau minus
 ×	înmulțit
 ÷	împărțit
@@ -209,6 +214,70 @@ _	liniuță joasă
 ‡	pumnal dublu
 ‣	bulină triunghiulară
 ✗	bulină în formă de x
+
+#Arithmetic operators
+⋅	înmulțit	some
+⋅	înmulțit	some
+⨯	înmulțit	none
+∕	împărțit la	some
+⁄	împărțit la	some
+∓	minus sau plus	some
+
+#Set operations
+∖	setare minus	none
+⊍	înmulțire multiplă	none
+𝒫	ansamblul puterilor	none
+𝔓	ansamblul puterii	none
+℘	puterea ansamblului	none
+
+#Set relations and set constructions
+⊄	nu este o submulțime a lui	none
+⊅	nu este o supramulțime a lui	none
+⊈	nu este o submulțime și nici nu este egală cu	none
+⊉	nici nu este o supramulțime și nici nu este egală cu	none
+⊌	mulțime multiplă	none
+
+#Equality signs
+≃	este asimptotic egal cu	none
+≄	nu este asimptotic egal cu	none
+≅	este aproximativ egal cu	none
+≆	Aproximativ, însă nu este chiar egal cuvintenone
+≌	totul este egal cu	none
+≍	este echivalent cu	none
+≭	nu este echivalent cu	none
+≎	este geometric echivalent cu	none
+≑	este geometric egal cu	none
+≚	este echiunghiular cu	none
+≬	între	none
+≣	este strict identic cu	none
+≢	nu este identic cu	none
+∼	este asemănător cu	none
+≙	estimează	none
+≟	întrebat egal cu	none
+
+#comparison signs
+≦	mai mic sau egal cu	none
+≪	mult mai mic decât	none
+≧	mai mare sau egal cu	none
+≶	mai mic sau mai mare decât	none
+≷	mai mare sau mai mic decât	none
+≮	nu este mai mic decât	none
+≯	nu este mai mare decât	none
+
+#Functions
+∘	operator inel	none
+
+#Geometry and linear Algebra
+⃗	combinare săgeată dreapta cu cea de sus	none
+△	triunghi	none
+▭	dreptunghi	none
+⊥	perpendicular pe	none
+⟂	ortogonal pe	none
+‖	linie verticală dublă	none
+̂	normalizează	none
+∿	Undă sinusoidală	none
+∡	unghi măsurat	none
+∢	unghi sferic	none
 
 #Mathematical Operators U+2200 to U+220F
 
@@ -228,6 +297,7 @@ _	liniuță joasă
 ∍	conține ca element pe mic
 ∎	q e d
 ∏	produs
+∐	coprodus
 
 # Miscellaneous Mathematical Operators
 
@@ -256,6 +326,29 @@ _	liniuță joasă
 ⊃	superset a lui
 ⊆	submulțime sau egală cu
 ⊇	superset sau egal cu
+∐	n-ary coproduct	none
+∬	integrală dublă	none
+∭	integrală	 triplănone
+∮	contur integral	none
+∯	suprafață integrală	none
+∰	volum integral	none
+∱	integrală în sensul acelor de ceasornic	none
+∲	contur integral în sensul acelor de ceasornic	none
+∳	contur integral în sens invers al acelor de ceasornic	none
+∹	exces	none
+∺	proporție geometrică	none
+≀	produs de coronament	none
+≏	diferență între	none
+≐	abordează limita	none
+∙	operator bulină	none
+∣	divide pe	none
+∤	nu divide pe	none
+≔	două puncte egal	none
+≕	egal două puncte	none
+≺	precedă pe	none
+≻	succedă pe	none
+⊀	nu precedă pe	none
+⊁	nu succedă pe	none
 
 # Vulgur Fractions U+2150 to U+215E
 ¼	un sfert	none
@@ -277,5 +370,280 @@ _	liniuță joasă
 ⅝	cinci optimi	none
 ⅞	șapte optimi	none
 
+#Number sets
+𝔸	numere algebrice	none
+ℂ	numere complexe	none
+ℑ	parte imaginară a unui număr complex	none
+ℍ	quaternări	none
+ℕ	numere naturale	none
+𝕁	numere nonnegative (întregi)	none
+ℚ	numere raționale	none
+ℝ	numere reale	none
+ℜ	partea reală a unui număr complex	none
+ℤ	numere întregi	none
+ℵ	număr aleph	none
+ℶ	număr beth	none
+
 # Miscellaneous Technical
-⌘	tastă de comandă Mac	none
+⌘	tasta Command mac	none
+⌥	tasta Options mac	none
+
+## 6-dot cell
+### note: the character on the next line is U+2800 (braille space), not U+0020 (ASCII space)
+⠀	spațiu
+⠁	braille 1
+⠂	braille 2
+⠃	braille 1 2
+⠄	braille 3
+⠅	braille 1 3
+⠆	braille 2 3
+⠇	braille 1 2 3
+⠈	braille 4
+⠉	braille 1 4
+⠊	braille 2 4
+⠋	braille 1 2 4
+⠌	braille 3 4
+⠍	braille 1 3 4
+⠎	braille 2 3 4
+⠏	braille 1 2 3 4
+⠐	braille 5
+⠑	braille 1 5
+⠒	braille 2 5
+⠓	braille 1 2 5
+⠔	braille 3 5
+⠕	braille 1 3 5
+⠖	braille 2 3 5
+⠗	braille 1 2 3 5
+⠘	braille 4 5
+⠙	braille 1 4 5
+⠚	braille 2 4 5
+⠛	braille 1 2 4 5
+⠜	braille 3 4 5
+⠝	braille 1 3 4 5
+⠞	braille 2 3 4 5
+⠟	braille 1 2 3 4 5
+⠠	braille 6
+⠡	braille 1 6
+⠢	braille 2 6
+⠣	braille 1 2 6
+⠤	braille 3 6
+⠥	braille 1 3 6
+⠦	braille 2 3 6
+⠧	braille 1 2 3 6
+⠨	braille 4 6
+⠩	braille 1 4 6
+⠪	braille 2 4 6
+⠫	braille 1 2 4 6
+⠬	braille 3 4 6
+⠭	braille 1 3 4 6
+⠮	braille 2 3 4 6
+⠯	braille 1 2 3 4 6
+⠰	braille 5 6
+⠱	braille 1 5 6
+⠲	braille 2 5 6
+⠳	braille 1 2 5 6
+⠴	braille 3 5 6
+⠵	braille 1 3 5 6
+⠶	braille 2 3 5 6
+⠷	braille 1 2 3 5 6
+⠸	braille 1 2 3
+⠹	braille 1 4 5 6
+⠺	braille 2 4 5 6
+⠻	braille 1 2 4 5 6
+⠼	braille 3 4 5 6
+⠽	braille 1 3 4 5 6
+⠾	braille 2 3 4 5 6
+⠿	braille 1 2 3 4 5 6
+## 8-braille cell
+⡀	braille 7
+⡁	braille 1 7
+⡂	braille 2 7
+⡃	braille 1 2 7
+⡄	braille 3 7
+⡅	braille 1 3 7
+⡆	braille 2 3 7
+⡇	braille 1 2 3 7
+⡈	braille 4 7
+⡉	braille 1 4 7
+⡊	braille 2 4 7
+⡋	braille 1 2 4 7
+⡌	braille 3 4 7
+⡍	braille 1 3 4 7
+⡎	braille 2 3 4 7
+⡏	braille 1 2 3 4 7
+⡐	braille 5 7
+⡑	braille 1 5 7
+⡒	braille 2 5 7
+⡓	braille 1 2 5 7
+⡔	braille 3 5 7
+⡕	braille 1 3 5 7
+⡖	braille 2 3 5 7
+⡗	braille 1 2 3 5 7
+⡘	braille 4 5 7
+⡙	braille 1 4 5 7
+⡚	braille 2 4 5 7
+⡛	braille 1 2 4 5 7
+⡜	braille 3 4 5 7
+⡝	braille 1 3 4 5 7
+⡞	braille 2 3 4 5 7
+⡟	braille 1 2 3 4 5 7
+⡠	braille 6 7
+⡡	braille 1 6 7
+⡢	braille 2 6 7
+⡣	braille 1 2 6 7
+⡤	braille 3 6 7
+⡥	braille 1 3 6 7
+⡦	braille 2 3 6 7
+⡧	braille 1 2 3 6 7
+⡨	braille 4 6 7
+⡩	braille 1 4 6 7
+⡪	braille 2 4 6 7
+⡫	braille 1 2 4 6 7
+⡬	braille 3 4 6 7
+⡭	braille 1 3 4 6 7
+⡮	braille 2 3 4 6 7
+⡯	braille 1 2 3 4 6 7
+⡰	braille 5 6 7
+⡱	braille 1 5 6 7
+⡲	braille 2 5 6 7
+⡳	braille 1 2 5 6 7
+⡴	braille 3 5 6 7
+⡵	braille 1 3 5 6 7
+⡶	braille 2 3 5 6 7
+⡷	braille 1 2 3 5 6 7
+⡸	braille 1 2 3 7
+⡹	braille 1 4 5 6 7
+⡺	braille 2 4 5 6 7
+⡻	braille 1 2 4 5 6 7
+⡼	braille 3 4 5 6 7
+⡽	braille 1 3 4 5 6 7
+⡾	braille 2 3 4 5 6 7
+⡿	braille 1 2 3 4 5 6 7
+⢀	braille 8
+⢁	braille 1 8
+⢂	braille 2 8
+⢃	braille 1 2 8
+⢄	braille 3 8
+⢅	braille 1 3 8
+⢆	braille 2 3 8
+⢇	braille 1 2 3 8
+⢈	braille 4 8
+⢉	braille 1 4 8
+⢊	braille 2 4 8
+⢋	braille 1 2 4 8
+⢌	braille 3 4 8
+⢍	braille 1 3 4 8
+⢎	braille 2 3 4 8
+⢏	braille 1 2 3 4 8
+⢐	braille 5 8
+⢑	braille 1 5 8
+⢒	braille 2 5 8
+⢓	braille 1 2 5 8
+⢔	braille 3 5 8
+⢕	braille 1 3 5 8
+⢖	braille 2 3 5 8
+⢗	braille 1 2 3 5 8
+⢘	braille 4 5 8
+⢙	braille 1 4 5 8
+⢚	braille 2 4 5 8
+⢛	braille 1 2 4 5 8
+⢜	braille 3 4 5 8
+⢝	braille 1 3 4 5 8
+⢞	braille 2 3 4 5 8
+⢟	braille 1 2 3 4 5 8
+⢠	braille 6 8
+⢡	braille 1 6 8
+⢢	braille 2 6 8
+⢣	braille 1 2 6 8
+⢤	braille 3 6 8
+⢥	braille 1 3 6 8
+⢦	braille 2 3 6 8
+⢧	braille 1 2 3 6 8
+⢨	braille 4 6 8
+⢩	braille 1 4 6 8
+⢪	braille 2 4 6 8
+⢫	braille 1 2 4 6 8
+⢬	braille 3 4 6 8
+⢭	braille 1 3 4 6 8
+⢮	braille 2 3 4 6 8
+⢯	braille 1 2 3 4 6 8
+⢰	braille 5 6 8
+⢱	braille 1 5 6 8
+⢲	braille 2 5 6 8
+⢳	braille 1 2 5 6 8
+⢴	braille 3 5 6 8
+⢵	braille 1 3 5 6 8
+⢶	braille 2 3 5 6 8
+⢷	braille 1 2 3 5 6 8
+⢸	braille 1 2 3 8
+⢹	braille 1 4 5 6 8
+⢺	braille 2 4 5 6 8
+⢻	braille 1 2 4 5 6 8
+⢼	braille 3 4 5 6 8
+⢽	braille 1 3 4 5 6 8
+⢾	braille 2 3 4 5 6 8
+⢿	braille 1 2 3 4 5 6 8
+⣀	braille 7 8
+⣁	braille 1 7 8
+⣂	braille 2 7 8
+⣃	braille 1 2 7 8
+⣄	braille 3 7 8
+⣅	braille 1 3 7 8
+⣆	braille 2 3 7 8
+⣇	braille 1 2 3 7 8
+⣈	braille 4 7 8
+⣉	braille 1 4 7 8
+⣊	braille 2 4 7 8
+⣋	braille 1 2 4 7 8
+⣌	braille 3 4 7 8
+⣍	braille 1 3 4 7 8
+⣎	braille 2 3 4 7 8
+⣏	braille 1 2 3 4 7 8
+⣐	braille 5 7 8
+⣑	braille 1 5 7 8
+⣒	braille 2 5 7 8
+⣓	braille 1 2 5 7 8
+⣔	braille 3 5 7 8
+⣕	braille 1 3 5 7 8
+⣖	braille 2 3 5 7 8
+⣗	braille 1 2 3 5 7 8
+⣘	braille 4 5 7 8
+⣙	braille 1 4 5 7 8
+⣚	braille 2 4 5 7 8
+⣛	braille 1 2 4 5 7 8
+⣜	braille 3 4 5 7 8
+⣝	braille 1 3 4 5 7 8
+⣞	braille 2 3 4 5 7 8
+⣟	braille 1 2 3 4 5 7 8
+⣠	braille 6 7 8
+⣡	braille 1 6 7 8
+⣢	braille 2 6 7 8
+⣣	braille 1 2 6 7 8
+⣤	braille 3 6 7 8
+⣥	braille 1 3 6 7 8
+⣦	braille 2 3 6 7 8
+⣧	braille 1 2 3 6 7 8
+⣨	braille 4 6 7 8
+⣩	braille 1 4 6 7 8
+⣪	braille 2 4 6 7 8
+⣫	braille 1 2 4 6 7 8
+⣬	braille 3 4 6 7 8
+⣭	braille 1 3 4 6 7 8
+⣮	braille 2 3 4 6 7 8
+⣯	braille 1 2 3 4 6 7 8
+⣰	braille 5 6 7 8
+⣱	braille 1 5 6 7 8
+⣲	braille 2 5 6 7 8
+⣳	braille 1 2 5 6 7 8
+⣴	braille 3 5 6 7 8
+⣵	braille 1 3 5 6 7 8
+⣶	braille 2 3 5 6 7 8
+⣷	braille 1 2 3 5 6 7 8
+⣸	braille 1 2 3 7 8
+⣹	braille 1 4 5 6 7 8
+⣺	braille 2 4 5 6 7 8
+⣻	braille 1 2 4 5 6 7 8
+⣼	braille 3 4 5 6 7 8
+⣽	braille 1 3 4 5 6 7 8
+⣾	braille 2 3 4 5 6 7 8
+⣿	braille 1 2 3 4 5 6 7 8

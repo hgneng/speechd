@@ -1,7 +1,7 @@
 /*
  * skeleton0.c - Trivial module example
  *
- * Copyright (C) 2020-2021 Samuel Thibault <samuel.thibault@ens-lyon.org>
+ * Copyright (C) 2020-2022, 2025 Samuel Thibault <samuel.thibault@ens-lyon.org>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -40,7 +40,11 @@
 #include <espeak-ng/espeak_ng.h>
 #include <espeak-ng/speak_lib.h>
 
-#include "module_main.h"
+#include "spd_module_main.h"
+
+static char *voicetype;
+static char *voicename;
+static char *language;
 
 int module_config(const char *configfile)
 {
@@ -91,12 +95,12 @@ SPDVoice **module_list_voices(void)
 	SPDVoice **ret = malloc(3*sizeof(*ret));
 
 	ret[0] = malloc(sizeof(*(ret[0])));
-	ret[0]->name = strdup("English_(America)");
+	ret[0]->name = strdup("English (America)");
 	ret[0]->language = strdup("en");
 	ret[0]->variant = NULL;
 
 	ret[1] = malloc(sizeof(*(ret[0])));
-	ret[1]->name = strdup("French_(France)");
+	ret[1]->name = strdup("French (France)");
 	ret[1]->language = strdup("fr");
 	ret[1]->variant = NULL;
 
@@ -114,26 +118,16 @@ int module_set(const char *var, const char *val)
 	fprintf(stderr,"got var '%s' to be set to '%s'\n", var, val);
 
 	if (!strcmp(var, "voice")) {
-		/* TODO */
+		free(voicetype);
+		voicetype = strdup(val);
 		return 0;
 	} else if (!strcmp(var, "synthesis_voice")) {
-		if (strcmp(val, "NULL") != 0) {
-			result = espeak_ng_SetVoiceByName(val);
-			if (result != ENS_OK) {
-				espeak_ng_PrintStatusCodeMessage(result, stderr, NULL);
-				return -1;
-			}
-		}
+		free(voicename);
+		voicename = strdup(val);
 		return 0;
 	} else if (!strcmp(var, "language")) {
-		espeak_VOICE voice_select;
-		memset(&voice_select, 0, sizeof(voice_select));
-		voice_select.languages = val;
-		result = espeak_ng_SetVoiceByProperties(&voice_select);
-		if (result != ENS_OK) {
-			espeak_ng_PrintStatusCodeMessage(result, stderr, NULL);
-			return -1;
-		}
+		free(language);
+		language = strdup(val);
 		return 0;
 	} else if (!strcmp(var, "rate")) {
 		/* TODO */
@@ -213,11 +207,57 @@ int module_loop(void)
 	return ret;
 }
 
+static void set_voice(void)
+{
+	espeak_ng_STATUS result;
+
+	if (voicetype || language) {
+		fprintf(stderr, "setting voice type %s language %s\n", voicetype ? voicetype : "none", language ? language : "none");
+
+		espeak_VOICE voice_select;
+		memset(&voice_select, 0, sizeof(voice_select));
+
+		if (voicetype) {
+			if (!strncmp(voicetype, "male", 4)) {
+				voice_select.gender = 1;
+				voice_select.variant = atoi(voicetype+4) - 1;
+			} else if (!strncmp(voicetype, "female", 6)) {
+				voice_select.gender = 2;
+				voice_select.variant = atoi(voicetype+6) - 1;
+			} else if (!strncmp(voicetype, "child_male", 10)) {
+				voice_select.gender = 1;
+				voice_select.age = 10;
+			} else if (!strncmp(voicetype, "child_female", 12)) {
+				voice_select.gender = 2;
+				voice_select.age = 10;
+			}
+		}
+
+		if (language) {
+			voice_select.languages = language;
+		}
+
+		result = espeak_ng_SetVoiceByProperties(&voice_select);
+		if (result != ENS_OK)
+			espeak_ng_PrintStatusCodeMessage(result, stderr, NULL);
+	}
+
+	if (voicename && strcmp(voicename, "NULL") != 0) {
+		fprintf(stderr, "setting voice name %s\n", voicename);
+
+		result = espeak_ng_SetVoiceByName(voicename);
+		if (result != ENS_OK)
+			espeak_ng_PrintStatusCodeMessage(result, stderr, NULL);
+	}
+}
+
 static int began;
 /* Asynchronous version, when the synthesis implements asynchronous
  * processing in another thread. */
 int module_speak(char *data, size_t bytes, SPDMessageType msgtype)
 {
+	set_voice();
+
 	/* Speak the provided data asynchronously in another thread */
 	fprintf(stderr, "speaking '%s'\n", data);
 
@@ -253,6 +293,7 @@ static int callback(short *wav, int numsamples, espeak_EVENT *events)
 
 	if (!began) {
 		began = 1;
+		/* We started producing audio */
 		module_report_event_begin();
 	}
 	while (cur->type != espeakEVENT_LIST_TERMINATED)
@@ -286,6 +327,7 @@ static int callback(short *wav, int numsamples, espeak_EVENT *events)
 				module_report_icon(cur->id.name);
 				break;
 			case espeakEVENT_MSG_TERMINATED:
+				/* We have finished the synth, tell the server so it can send us the next message. */
 				module_report_event_end();
 				break;
 			default:
@@ -307,6 +349,8 @@ size_t module_pause(void)
 	/* Only supports stopping */
 	espeak_Cancel();
 
+	module_report_event_stop();
+
 	return 0;
 }
 
@@ -316,6 +360,8 @@ int module_stop(void)
 	fprintf(stderr, "stopping\n");
 
 	espeak_Cancel();
+
+	module_report_event_stop();
 
 	return 0;
 }

@@ -24,30 +24,39 @@ speech subsystem.
 Supported TTS engines:
 ----------------------
 
+  * Baratinoo (Voxygen)
+  * Cicero
+  * DECtalk Software (through a generic driver)
+  * Epos (through a generic driver)
+  * eSpeak
+  * eSpeak+MBROLA (through a generic driver)
+  * eSpeak NG
+  * eSpeak NG+MBROLA
+  * eSpeak NG+MBROLA (through a generic driver)
   * Festival
   * Flite
-  * Espeak
-  * Cicero
   * IBM TTS
-  * Espeak+MBROLA (through a generic driver)
-  * Epos (through a generic driver)
-  * DecTalk software (through a generic driver)
-  * Cepstral Swift (through a generic driver)
   * Ivona
-  * Pico (possibly through a generic driver)
-  * Espeak NG
   * Kali TTS
-  * Baratinoo (Voxygen)
-  * Mary-TTS
+  * llia_phon (through a generic driver)
+  * MaryTTS (through a generic driver)
+  * Mimic3 (through a generic driver)
+  * Multispeech (driver is distributed together with the TTS engine)
+  * Open JTalk
+  * Pico (SVOX)
+  * RHVoice (driver is distributed together with the TTS engine)
+  * Swift (Cepstral) (through a generic driver)
+  * Voxin
 
 Supported sound output subsystems:
 ----------------------------------
 
-  * OSS
   * ALSA
-  * PulseAudio
-  * NAS
   * Libao
+  * NAS
+  * OSS
+  * PipeWire
+  * PulseAudio
 
 The architecture is based on a client/server model. The clients are all the
 applications in the system that want to produce speech (typically assisting
@@ -70,13 +79,21 @@ Supported client interfaces:
 
 A golang API is also available on https://github.com/ilyapashuk/go-speechd
 
+A rust crate is also available on https://crates.io/crates/ssip-client https://gitlab.com/lp-accessibility/ssip-client
+
 Existing assistive technologies known to work with Speech Dispatcher:
 
+  * BRLTTY (see https://brltty.app/)
+  * ChromeVox Classic (https://chromewebstore.google.com/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn)
+  * Emacspeak+e2spd (see https://github.com/mglambda/e2spd)
+  * Emacspeak+emacspeak-speechd (see https://github.com/taniodev/emacspeak-speechd)
+  * Emacspeak+espd (see https://github.com/bartbunting/espd)
+  * Fenrir (see https://github.com/chrys87/fenrir)
+  * KMouth (see https://apps.kde.org/kmouth/)
+  * Orca (see https://orca.gnome.org/)
   * speechd-el (see https://devel.freebsoft.org/speechd-el)
-  * Orca (see http://live.gnome.org/Orca/SpeechDispatcher)
-  * Yasr (see http://yasr.sourceforge.net/)
-  * BrlTTY (see http://brltty.com)
-  * Chromevox (extension of the Chrome and Chromium browsers)
+  * TDSR (see https://github.com/tspivey/tdsr)
+  * YASR (see https://yasr.sourceforge.net/)
 
 Voices settings
 ---------------
@@ -100,7 +117,7 @@ with this default setting a voice available with these characteristics (voice
 type, language, synthesizer) will be chosen if available.
 
 
-The default values of theses voices parameters can also be set at the system
+The default values of these voice parameters can also be set at the system
 level customized at the user level: rate, pitch, pitch range and volume.
 
 It is also possible to make the synthesizer depend on the language used.
@@ -141,7 +158,7 @@ and the way it is linked to the computer.
 
 
 Copyright (C) 2001-2009 Brailcom, o.p.s
-Copyright (C) 2018-2020 Samuel Thibault <samuel.thibault@ens-lyon.org>
+Copyright (C) 2018-2020, 2022 Samuel Thibault <samuel.thibault@ens-lyon.org>
 Copyright (C) 2018 Didier Spaier <didier@slint.fr>
 Copyright (C) 2018 Alex ARNAUD <alexarnaud@hypra.fr>
 

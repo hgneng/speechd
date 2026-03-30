@@ -24,7 +24,7 @@ A more convenient interface is provided by the 'Speaker' class.
 
 #TODO: Blocking variants for speak, char, key, sound_icon.
 
-import socket, sys, os, subprocess, time, tempfile
+import socket, os, subprocess, time, tempfile
 
 try:
     import threading
@@ -148,7 +148,7 @@ class CommunicationMethod(object):
     """Inet socket communication using a host and port"""
 
 class _SSIP_Connection(object):
-    """Implemantation of low level SSIP communication."""
+    """Implementation of low level SSIP communication."""
     
     _NEWLINE = b"\r\n"
     _END_OF_DATA_MARKER = b'.'
@@ -214,9 +214,9 @@ class _SSIP_Connection(object):
         self._communication_thread.join()
         
     def _communication(self):
-        """Handle incomming socket communication.
+        """Handle incoming socket communication.
 
-        Listens for all incomming communication on the socket, dispatches
+        Listens for all incoming communication on the socket, dispatches
         events and puts all other replies into self._com_buffer list in the
         already parsed form as (code, msg, data).  Each time a new item is
         appended to the _com_buffer list, the corresponding semaphore
@@ -231,7 +231,7 @@ class _SSIP_Connection(object):
                 code, msg, data = self._recv_message()
             except IOError:
                 # If the socket has been closed, exit the thread
-                sys.exit()
+                return
             if code//100 != 7:
                 # This is not an index mark nor an event
                 self._com_buffer.append((code, msg, data))
@@ -283,6 +283,7 @@ class _SSIP_Connection(object):
             if sep == ' ':
                 msg = text
                 return int(code), msg, tuple(data)
+            c = code
             data.append(text)
 
     def _recv_response(self):
@@ -490,6 +491,11 @@ class SSIPClient(object):
     Dispatcher control application, however.  More datails can be found in
     Speech Dispatcher documentation.
 
+    Here is a simple example:
+
+    from speechd import client
+    c = client.SSIPClient("mytest")
+    c.speak("hello, world!")
     """
     
     DEFAULT_HOST = '127.0.0.1'
@@ -510,7 +516,7 @@ class SSIPClient(object):
           component -- connection identification string.  When one client opens
             multiple connections, this can be used to identify each of them.
           user -- user identification string (user name).  When multi-user
-            acces is expected, this can be used to identify their connections.
+            access is expected, this can be used to identify their connections.
           address -- server address as specified in Speech Dispatcher
             documentation (e.g. "unix:/run/user/joe/speech-dispatcher/speechd.sock"
             or "inet:192.168.0.85:6561")
@@ -620,7 +626,7 @@ class SSIPClient(object):
         try:
             _method = address_params[0]
         except:
-            raise SSIPCommunicationErrror("Wrong format of server address")
+            raise SSIPCommunicationError("Wrong format of server address")
         connection_args['communication_method'] = _method
         if _method == CommunicationMethod.UNIX_SOCKET:
             try:
@@ -842,8 +848,11 @@ class SSIPClient(object):
         code, msg, data = self._conn.send_command('LIST', 'OUTPUT_MODULES')
         return data
 
-    def list_synthesis_voices(self):
+    def list_synthesis_voices(self, language=None, variant=None):
         """Return names of all available voices for the current output module.
+
+        If language (possibly even variant) is set, only the list matching that
+        language (possibly even variant) is returned.
 
         Returns a tuple of tripplets (name, language, variant).
 
@@ -852,7 +861,12 @@ class SSIPClient(object):
 
         """
         try:
-            code, msg, data = self._conn.send_command('LIST', 'SYNTHESIS_VOICES')
+            command = ['LIST', 'SYNTHESIS_VOICES']
+            if language:
+                command.append(language)
+                if variant:
+                    command.append(variant)
+            code, msg, data = self._conn.send_command(*command)
         except SSIPCommandError:
             return ()
         def split(item):
@@ -972,7 +986,7 @@ class SSIPClient(object):
         return None
 
     def set_punctuation(self, value, scope=Scope.SELF):
-        """Set the punctuation pronounciation level.
+        """Set the punctuation pronunciation level.
 
         Arguments:
           value -- one of the 'PunctuationMode' constants.
@@ -984,17 +998,17 @@ class SSIPClient(object):
         self._conn.send_command('SET', scope, 'PUNCTUATION', value)
 
     def get_punctuation(self):
-        """Get the punctuation pronounciation level."""
+        """Get the punctuation pronunciation level."""
         code, msg, data = self._conn.send_command('GET', 'PUNCTUATION')
         if data:
             return data[0]
         return None
 
     def set_spelling(self, value, scope=Scope.SELF):
-        """Toogle the spelling mode or on off.
+        """Toggle the spelling mode or on off.
 
         Arguments:
-          value -- if 'True', all incomming messages will be spelled
+          value -- if 'True', all incoming messages will be spelled
             instead of being read as normal words. 'False' switches
             this behavior off.
           scope -- see the documentation of this class.
@@ -1012,7 +1026,7 @@ class SSIPClient(object):
         Arguments:
           value -- one of 'none', 'spell', 'icon'. None means no signalization
             of capital letters, 'spell' means capital letters will be spelled
-            with a syntetic voice and 'icon' means that the capital-letter icon
+            with a synthetic voice and 'icon' means that the capital-letter icon
             will be prepended before each capital letter.
           scope -- see the documentation of this class.
             
@@ -1069,7 +1083,7 @@ class SSIPClient(object):
         written into these files with maximal verbosity until switched
         off. You should always first call set_debug_destination.
 
-        The intended use of this functionality is to switch debuging
+        The intended use of this functionality is to switch debugging
         on for a period of time while the user will repeat the behavior
         and then send the logs to the appropriate bug-reporting place.
 
@@ -1085,21 +1099,21 @@ class SSIPClient(object):
         else:
             ssip_val = "OFF"
 
-        self._conn.send_command('SET', scope.ALL, 'DEBUG', ssip_val)
+        self._conn.send_command('SET', Scope.ALL, 'DEBUG', ssip_val)
 
 
     def set_debug_destination(self, path):
         """Set debug destination.
 
         Arguments:
-          path -- path (string) to the directory where debuging
+          path -- path (string) to the directory where debugging
                   files will be created
           scope -- see the documentation of this class.
         
         """
-        assert isinstance(val, string)
+        assert isinstance(path, str)
 
-        self._conn.send_command('SET', scope.ALL, 'DEBUG_DESTINATION', val)
+        self._conn.send_command('SET', Scope.ALL, 'DEBUG_DESTINATION', path)
 
     def block_begin(self):
         """Begin an SSIP block.
@@ -1127,7 +1141,7 @@ class SSIPClient(object):
 class Client(SSIPClient):
     """A DEPRECATED backwards-compatible API.
 
-    This Class is provided only for backwards compatibility with the prevoius
+    This Class is provided only for backwards compatibility with the previous
     unofficial API.  It will be removed in future versions.  Please use either
     'SSIPClient' or 'Speaker' interface instead.  As deprecated, the API is no
     longer documented.

@@ -110,22 +110,158 @@ symbols:
 ⁻	mínuszjel felső indexben	none
 ∓	mínusz vagy plusz	none
 ∕	osztási perjel	none
+∗	aszteriszk műveleti jel	none
+∘	gyűrű műveleti jel	none
+∙	listajel műveleti jel	none
 √	négyzetgyök	none
+∝	arányos	none
 ∞	végtelen szimbólum	none
+∟	derékszög	none
+∠	szög	none
+∣	oszt	none
+∥	párhuzamos	none
+∧	logikai és	none
 ∩	metszet	none
 ∪	unió	none
+∫	integrál	none
+∬	dupla integrál	none
+∮	vonalintegrál	none
+∴	tehát	none
+∵	mert	none
+∶	arány	none
+∷	arányzat	none
+∼	hasonlóság műveleti jel	none
+∽	fordított hasonlóságjel	none
+∾	fordított s betű	none
+≃	aszimptotikusan egyenlő	none
+≅	megközelítőleg egyenlő	none
 ≈	közelítőleg egyenlő	none
+≌	mind egyenlő	none
+≒	megközelítőleg egyezik a képpel	none
+≖	gyűrű egyenlőségjelben	none
 ≡	egyenlőségjel	none
+≣	szigorúan egyenlő	none
 ≤	kisebb vagy egyenlő	none
 ≥	nagyobb vagy egyenlő	none
+≦	kisebb jel egyenlőségjel felett	none
+≧	nagyobb jel egyenlőségjel felett	none
+≪	sokkal kevesebb, mint	none
+≫	sokkal nagyobb, mint	none
+≬	között	none
+≳	nagyobb vagy azonos	none
+≺	megelőzi	none
+≻	követi	none
+⊁	nem követi	none
 ⊂	valódi részhalmaza	none
+⊃	szuperhalmaz	none
+⊆	részhalmaz egyenlő	none
+⊇	szuperhalmaz egyenlő	none
+⊕	pluszjel körben	none
+⊖	mínuszjel körben	none
+⊗	szorzásjel körben	none
+⊘	osztásjel körben	none
+⊙	pont műveleti jel körben	none
+⊚	gyűrű műveleti jel körben	none
+⊛	csillag műveleti jel körben	none
+⊞	bekeretezett pluszjel	none
+⊟	bekeretezett mínuszjel	none
+⊥	felfelé mutató merőleges	none
+⊮	nem kényszeríti	none
+⊰	reláció szerint megelőzi	none
+⊱	reláció szerint követi	none
+⋭	nem tartalmazza normál alcsoport-megfelelőként	none
+⊶	eredeti	none
+⊹	hermitikus konjugált mátrix	none
+⊿	derékszögű háromszög	none
+⋁	n-áris logikai vagy	none
+⋂	n-áris keresztmetszet	none
+⋃	n-áris unió	none
+⋅	pont műveleti jel	none
+⋆	csillag műveleti jel	none
+⋈	természetes kapcsolás	none
+⋒	kettős keresztmetszet	none
+⋘	sokkal többel kevesebb, mint	none
+⋙	sokkal többel nagyobb, mint	none
+⋮	függőleges hármaspont	none
+⋯	középső vízszintes hármaspont	none
+⋰	felfelé és jobbra mutató átlós hármaspont	none
+⋱	lefelé és jobbra mutató átlós hármaspont	none
+■	kitöltött négyzet	none
+□	üres négyzet	none
+▢	lekerekített élű üres négyzet	none
+▣	kitöltött négyzetet tartalmazó üres négyzet	none
+▤	vízszintesen kitöltött négyzet	none
+▥	függőlegesen kitöltött négyzet	none
+▦	merőleges keresztmintával kitöltött négyzet	none
+▧	bal felső és jobb alsó irányban kitöltött négyzet	none
+▨	jobb felső és bal alsó irányban kitöltött négyzet	none
+▩	átlós keresztmintával kitöltött négyzet	none
+▬	kitöltött téglalap	none
+▭	üres téglalap	none
+▮	kitöltött álló téglalap	none
+▰	kitöltött paralelogramma	none
 ▲	kitöltött felfelé mutató háromszög	none
+△	felfelé mutató üres háromszög	none
+▴	kicsi, felfelé mutató kitöltött háromszög	none
+▵	kicsi, felfelé mutató üres háromszög	none
+▷	jobbra mutató üres háromszög	none
+▸	kicsi, jobbra mutató kitöltött háromszög	none
+▹	kicsi, jobbra mutató üres háromszög	none
+►	jobbra néző kitöltött mutató	none
+▻	jobbra néző üres mutató	none
 ▼	kitöltött lefelé mutató háromszög	none
+▽	lefelé mutató üres háromszög	none
+▾	kicsi, lefelé mutató kitöltött háromszög	none
+▿	kicsi, lefelé mutató üres háromszög	none
+◁	balra mutató üres háromszög	none
+◂	kicsi, balra mutató kitöltött háromszög	none
+◃	kicsi, balra mutató üres háromszög	none
+◄	balra néző kitöltött mutató	none
+◅	balra néző üres mutató	none
+◆	kitöltött rombusz	none
+◇	üres rombusz	none
+◈	kitöltött rombusz üres rombuszban	none
+◉	kitöltött kör üres körben	none
 ◊	rombusz	none
 ○	üres kör	none
+◌	pontozott kör	none
+◍	függőlegesen kitöltött kör	none
+◎	koncentrikus körök	none
 ●	kitöltött kör	none
+◐	bal felén kitöltött kör	none
+◑	jobb felén kitöltött kör	none
+◒	alsó felén kitöltött kör	none
+◓	felső felén kitöltött kör	none
+◔	jobb felső negyedében kitöltött kör	none
+◕	bal felső negyedében üres kör	none
+◖	bal oldalán kitöltött kör	none
+◗	jobb oldalán kitöltött kör	none
+◘	inverz listajel	none
+◙	üres kör kitöltött négyzetben	none
+◜	bal felső negyedes körív	none
+◝	jobb felső negyedes körív	none
+◞	jobb alsó negyedes körív	none
+◟	bal alsó negyedes körív	none
+◠	felső félkör	none
+◡	alsó félkör	none
+◢	jobb alsó kitöltött háromszög	none
+◣	bal alsó kitöltött háromszög	none
+◤	bal felső kitöltött háromszög	none
+◥	jobb felső kitöltött háromszög	none
+◦	üres listajel	none
 ◯	nagy üres kör	none
+◳	üres négyzet jobb felső negyeddel	none
+◷	üres kör jobb felső negyeddel	none
+◿	jobb alsó háromszög	none
 ♪	nyolcad	none
+⨧	pluszjel alsó indexben kettessel	none
+⨯	vektoriális keresztszorzat	none
+⨼	belső szorzat	none
+⩣	logikai vagy kettős alulvonás	none
+⩽	kisebb jel döntött egyenlőségjellel	none
+⪍	kisebb jel hasonlóság- és egyenlőségjel felett	none
+⪚	kétvonalas egyenlőségjel nagyobb jellel	none
+⪺	követi jel alatta nem majdnem egyenlő jellel	none
 ♭	bé	none
 ♯	kereszt	none
 😀	nevető arc	none
@@ -137,11 +273,12 @@ symbols:
 🤣	gurul a nevetéstől	none
 😂	arc örömkönnyekkel	none
 🙂	finoman mosolygó arc	none
-🙃	fejjel lefelé fordult arc	none
+🙃	arc fejjel lefelé	none
+🫠	elolvadó arc	none
 😉	kacsintó arc	none
 😊	mosolygó arc mosolygó szemmel	none
 😇	mosolygó arc glóriával	none
-🥰	mosolygós arc szívekkel	none
+🥰	mosolygó arc szívekkel	none
 😍	mosolygó arc szív alakú szemmel	none
 🤩	csillagszemű	none
 😘	csókot dobó arc	none
@@ -158,25 +295,33 @@ symbols:
 🤑	arc dollárjelekkel	none
 🤗	ölelés	none
 🤭	arc szájra tett kézzel	none
+🫢	nyitott szemű, száját takaró arc	none
+🫣	kémlelő szemű arc	none
 🤫	csitító arc	none
 🤔	gondolkodó arc	none
+🫡	tisztelgő arc	none
 🤐	arc összecipzározott szájjal	none
 🤨	felhúzott szemöldökű arc	none
 😐	semleges arc	none
 😑	kifejezéstelen arc	none
 😶	száj nélküli arc	none
+🫥	pontozott vonalas arc	none
 😶‍🌫	arc a felhőben	none
 😏	önelégült vigyor	none
-😒	szomorú arc	none
+😒	unott arc	none
 🙄	szemét forgató arc	none
 😬	grimaszoló arc	none
 😮‍💨	levegőt kifújó arc	none
 🤥	hazudó arc	none
+🫨	rázkódó arc	none
+🙂‍↔	vízszintes fejrázás	none
+🙂‍↕	függőleges fejrázás	none
 😌	megkönnyebbült arc	none
 😔	elgondolkodó arc	none
 😪	álmos arc	none
 🤤	nyáladzó fej	none
 😴	alvó arc	none
+🫩	arc táskás szemekkel	none
 😷	arc egészségügyi maszkkal	none
 🤒	arc lázmérővel	none
 🤕	arc bekötött fejjel	none
@@ -196,6 +341,7 @@ symbols:
 🤓	kockaarc	none
 🧐	arc monoklival	none
 😕	zavart arc	none
+🫤	átlós szájú arc	none
 😟	aggódó arc	none
 🙁	kissé komor arc	none
 ☹	rosszalló arc	none
@@ -203,7 +349,9 @@ symbols:
 😯	meglepődött arc	none
 😲	lenyűgözött arc	none
 😳	elpirult arc	none
+🫪	eltorzult arc	none
 🥺	esedező arc	none
+🥹	könnyeivel küszködő arc	none
 😦	rosszalló arc nyitott szájjal	none
 😧	elkínzott arc	none
 😨	félelemmel teli arc	none
@@ -224,7 +372,7 @@ symbols:
 😠	mérges arc	none
 🤬	arc jelekkel a száján	none
 😈	mosolygó arc szarvakkal	none
-👿	ördög	none
+👿	mérges arc szarvakkal	none
 💀	koponya	none
 ☠	koponya csontokkal	none
 💩	kakihalom	none
@@ -247,7 +395,6 @@ symbols:
 🙈	nem láttam semmit	none
 🙉	nem hallottam semmit	none
 🙊	nem szólok semmit	none
-💋	csóknyom	none
 💌	szerelmes levél	none
 💘	nyíllal átlőtt szív	none
 💝	szív szalaggal	none
@@ -262,22 +409,26 @@ symbols:
 ❤‍🔥	lángoló szív	none
 ❤‍🩹	gyógyuló szív	none
 ❤	vörös szív	none
+🩷	rózsaszín szív	none
 🧡	narancssárga szív	none
 💛	sárga szív	none
 💚	zöld szív	none
 💙	kék szív	none
+🩵	világoskék szív	none
 💜	lila szív	none
 🤎	barna szív	none
 🖤	fekete szív	none
+🩶	szürke szív	none
 🤍	fehér szív	none
+💋	csóknyom	none
 💯	száz pont	none
 💢	a düh szimbóluma	none
+🫯	verekedésfelhő	none
 💥	ütközés	none
 💫	szédülés	none
 💦	izzadságcseppek	none
 💨	rohanás	none
 🕳	lyuk	none
-💣	bomba	none
 💬	szövegbuborék	none
 👁‍🗨	szem szövegbuborékban	none
 🗨	balra nyíló szövegbuborék	none
@@ -289,11 +440,18 @@ symbols:
 🖐	felemelt kéz szétálló ujjakkal	none
 ✋	felemelt kéz	none
 🖖	star trek-üdvözlet	none
+🫱	jobbra néző kéz	none
+🫲	balra néző kéz	none
+🫳	lefelé néző kéz	none
+🫴	felfelé néző kéz	none
+🫷	balra toló kéz	none
+🫸	jobbra toló kéz	none
 👌	ok jel	none
 🤌	összecsippentett ujjak	none
 🤏	csippentő kéz	none
 ✌	győzelmi jelet mutató kéz	none
 🤞	keresztezett ujjak	none
+🫰	keresztezett mutató- és hüvelykujjú kéz	none
 🤟	szeretlek kézmozdulat	none
 🤘	metálvilla	none
 🤙	„hívj fel” kézjel	none
@@ -303,6 +461,7 @@ symbols:
 🖕	középső ujj	none
 👇	tenyér lefelé mutató ujjal	none
 ☝	kéz felfelé mutató ujjal	none
+🫵	felhasználóra mutató ujj	none
 👍	felfelé mutató hüvelykujj	none
 👎	lefelé mutató hüvelykujj	none
 ✊	felemelt ököl	none
@@ -311,6 +470,7 @@ symbols:
 🤜	jobbra néző ököl	none
 👏	tapsoló kéz	none
 🙌	kezét felemelő ember	none
+🫶	szívet formázó kezek	none
 👐	széttárt kéz	none
 🤲	felfelé fordított tenyerek	none
 🤝	kézfogás	none
@@ -335,6 +495,7 @@ symbols:
 👁	szem	none
 👅	nyelv	none
 👄	száj	none
+🫦	ajkába harapó száj	none
 👶	baba	none
 🧒	gyerek	none
 👦	fiú	none
@@ -442,6 +603,7 @@ symbols:
 👷	építőmunkás	none
 👷‍♂	építőmunkás férfi	none
 👷‍♀	építőmunkás nő	none
+🫅	koronás személy	none
 🤴	herceg	none
 👸	hercegnő	none
 👳	turbános ember	none
@@ -456,6 +618,8 @@ symbols:
 👰‍♂	férfi fátyollal	none
 👰‍♀	nő fátyollal	none
 🤰	terhes nő	none
+🫃	terhes férfi	none
+🫄	terhes személy	none
 🤱	szoptatás	none
 👩‍🍼	kisbabát etető nő	none
 👨‍🍼	kisbabát etető férfi	none
@@ -491,6 +655,8 @@ symbols:
 🧟	zombi	none
 🧟‍♂	férfi zombi	none
 🧟‍♀	női zombi	none
+🧌	troll	none
+🫈	szőrös lény	none
 💆	arcmasszázs	none
 💆‍♂	férfi arcmasszázson	none
 💆‍♀	nő arcmasszázson	none
@@ -518,6 +684,7 @@ symbols:
 🏃	futó	none
 🏃‍♂	futó férfi	none
 🏃‍♀	futó nő	none
+🧑‍🩰	balett-táncos	none
 💃	táncoló nő	none
 🕺	táncoló férfi	none
 🕴	öltönyös, lebegő ember	none
@@ -584,12 +751,17 @@ symbols:
 👬	kézen fogva álló férfiak	none
 💏	csók	none
 💑	pár szívvel	none
-👪	család	none
 🗣	beszélő fej	none
 👤	ember sziluettje melltől felfelé	none
 👥	két ember sziluettje melltől felfelé	none
 🫂	egymást ölelő emberek	none
+👪	család	none
+🧑‍🧑‍🧒	család felnőtt, felnőtt, gyerek	none
+🧑‍🧑‍🧒‍🧒	család felnőtt, felnőtt, gyerek, gyerek	none
+🧑‍🧒	család felnőtt, gyerek	none
+🧑‍🧒‍🧒	család felnőtt, gyerek, gyerek	none
 👣	lábnyomok	none
+🫆	ujjlenyomat	none
 🦰	vörös haj	none
 🦱	göndör haj	none
 🦳	ősz haj	none
@@ -614,6 +786,8 @@ symbols:
 🐅	tigris	none
 🐆	leopárd	none
 🐴	lófej	none
+🫎	jávorszarvas	none
+🫏	szamár	none
 🐎	ló	none
 🦄	unikornisfej	none
 🦓	zebra	none
@@ -676,6 +850,10 @@ symbols:
 🦩	flamingó	none
 🦚	páva	none
 🦜	papagáj	none
+🪽	szárny	none
+🐦‍⬛	fekete madár	none
+🪿	liba	none
+🐦‍🔥	főnix	none
 🐸	békafej	none
 🐊	krokodil	none
 🐢	teknős	none
@@ -688,6 +866,7 @@ symbols:
 🐳	fröcskölő bálna	none
 🐋	bálna	none
 🐬	delfin	none
+🫍	kardszárnyú delfin	none
 🦭	fóka	none
 🐟	hal	none
 🐠	trópusi hal	none
@@ -695,6 +874,13 @@ symbols:
 🦈	cápa	none
 🐙	polip	none
 🐚	tengeri csiga	none
+🪸	korall	none
+🪼	medúza	none
+🦀	rák	none
+🦞	homár	none
+🦐	garnélarák	none
+🦑	tintahal	none
+🦪	osztriga	none
 🐌	csiga	none
 🦋	pillangó	none
 🐛	rovar	none
@@ -714,6 +900,7 @@ symbols:
 💐	csokor	none
 🌸	cseresznyevirág	none
 💮	fehér virág	none
+🪷	lótusz	none
 🏵	rozetta	none
 🌹	rózsa	none
 🥀	hervadt virág	none
@@ -721,6 +908,7 @@ symbols:
 🌻	napraforgó	none
 🌼	virágzás	none
 🌷	tulipán	none
+🪻	jácint	none
 🌱	palánta	none
 🪴	cserepes növény	none
 🌲	örökzöld	none
@@ -734,11 +922,16 @@ symbols:
 🍁	juharlevél	none
 🍂	lehullott levél	none
 🍃	szélfútta levél	none
+🪹	üres fészek	none
+🪺	fészek tojásokkal	none
+🍄	gomba	none
+🪾	levél nélküli fa	none
 🍇	szőlő	none
 🍈	sárgadinnye	none
 🍉	görögdinnye	none
 🍊	mandarin	none
 🍋	citrom	none
+🍋‍🟩	lime	none
 🍌	banán	none
 🍍	ananász	none
 🥭	mangó	none
@@ -765,9 +958,13 @@ symbols:
 🥦	brokkoli	none
 🧄	fokhagyma	none
 🧅	hagyma	none
-🍄	gomba	none
 🥜	földimogyoró	none
+🫘	bab	none
 🌰	gesztenye	none
+🫚	gyömbérgyökér	none
+🫛	borsóhüvely	none
+🍄‍🟫	barna gomba	none
+🫜	gyökérzöldség	none
 🍞	kenyér	none
 🥐	croissant	none
 🥖	bagett	none
@@ -819,11 +1016,6 @@ symbols:
 🥟	gombóc	none
 🥠	szerencsesüti	none
 🥡	elviteles doboz	none
-🦀	rák	none
-🦞	homár	none
-🦐	garnélarák	none
-🦑	tintahal	none
-🦪	osztriga	none
 🍦	lágyfagylalt	none
 🍧	fagylalt öntettel	none
 🍨	fagylalt	none
@@ -852,6 +1044,7 @@ symbols:
 🍻	összekoccanó söröskorsók	none
 🥂	koccintó poharak	none
 🥃	feles pohár	none
+🫗	ömlő folyadék	none
 🥤	pohár szívószállal	none
 🧋	buborékos tea	none
 🧃	italos doboz	none
@@ -862,6 +1055,7 @@ symbols:
 🍴	kés és villa	none
 🥄	kanál	none
 🔪	konyhakés	none
+🫙	befőttesüveg	none
 🏺	amfora	none
 🌍	Európát és Afrikát mutató földgömb	none
 🌎	Amerikát mutató földgömb	none
@@ -872,6 +1066,7 @@ symbols:
 🧭	iránytű	none
 🏔	hegy hótakaróval	none
 ⛰	hegy	none
+🛘	földcsuszamlás	none
 🌋	vulkán	none
 🗻	Fudzsi-hegy	none
 🏕	sátorozás	none
@@ -924,6 +1119,7 @@ symbols:
 🌉	híd éjszaka	none
 ♨	hőforrás	none
 🎠	ló a körhintáról	none
+🛝	játszótéri csúszda	none
 🎡	óriáskerék	none
 🎢	hullámvasút	none
 💈	fodrászcégér	none
@@ -972,12 +1168,14 @@ symbols:
 🛤	vasúti sín	none
 🛢	olajoshordó	none
 ⛽	benzinkút	none
+🛞	kerék	none
 🚨	rendőrautó villogója	none
 🚥	vízszintes közlekedési lámpa	none
 🚦	függőleges közlekedési lámpa	none
 🛑	stoptábla	none
 🚧	útépítés	none
 ⚓	vasmacska	none
+🛟	mentőöv	none
 ⛵	vitorlás hajó	none
 🛶	kenu	none
 🚤	motoros siklócsónak	none
@@ -1135,10 +1333,10 @@ symbols:
 🎯	telitalálat	none
 🪀	jojó	none
 🪁	papírsárkány	none
+🔫	vízipisztoly	none
 🎱	biliárd	none
 🔮	kristálygömb	none
 🪄	varázspálca	none
-🧿	nazar amulett	none
 🎮	videojáték	none
 🕹	joystick	none
 🎰	nyerőgép	none
@@ -1146,6 +1344,7 @@ symbols:
 🧩	kirakó	none
 🧸	plüssmaci	none
 🪅	pinyáta	none
+🪩	tükörgömb	none
 🪆	matrjoska	none
 ♠	pikk szín	none
 ♥	kőr szín	none
@@ -1182,6 +1381,7 @@ symbols:
 🩳	rövidnadrág	none
 👙	bikini	none
 👚	női ruha	none
+🪭	összecsukható kézi legyező	none
 👛	pénztárca	none
 👜	női táska	none
 👝	táska	none
@@ -1196,6 +1396,7 @@ symbols:
 👡	női szandál	none
 🩰	balettcipő	none
 👢	női csizma	none
+🪮	hosszú fogú fésű	none
 👑	korona	none
 👒	női kalap	none
 🎩	cilinder	none
@@ -1226,14 +1427,18 @@ symbols:
 🎧	fülhallgató	none
 📻	rádió	none
 🎷	szaxofon	none
+🎺	trombita	none
+🪊	harsona	none
 🪗	harmonika	none
 🎸	gitár	none
 🎹	zenei billentyűzet	none
-🎺	trombita	none
 🎻	hegedű	none
 🪕	bendzsó	none
 🥁	dob	none
 🪘	hosszú dob	none
+🪇	rumbatök	none
+🪈	fuvola	none
+🪉	hárfa	none
 📱	mobiltelefon	none
 📲	mobiltelefon nyíllal	none
 ☎	telefon	none
@@ -1241,6 +1446,7 @@ symbols:
 📟	személyhívó	none
 📠	faxkészülék	none
 🔋	elem	none
+🪫	alacsony töltöttség	none
 🔌	elektromos dugó	none
 💻	laptop	none
 🖥	asztali számítógép	none
@@ -1286,8 +1492,9 @@ symbols:
 📑	könyvjelzők	none
 🔖	könyvjelző	none
 🏷	címke	none
-💰	pénzeszsák	none
 🪙	érme	none
+💰	pénzeszsák	none
+🪎	kincsesláda	none
 💴	jen bankjegy	none
 💵	dollár bankjegy	none
 💶	euró bankjegy	none
@@ -1352,7 +1559,7 @@ symbols:
 🛠	kalapács és csavarkulcs	none
 🗡	tőr	none
 ⚔	keresztezett kardok	none
-🔫	vízipisztoly	none
+💣	bomba	none
 🪃	bumeráng	none
 🏹	íj és nyíl	none
 🛡	pajzs	none
@@ -1365,11 +1572,13 @@ symbols:
 ⚖	kétkarú mérleg	none
 🦯	fehér bot	none
 🔗	kapocs	none
+⛓‍💥	elszakadt lánc	none
 ⛓	lánc	none
 🪝	kampó	none
 🧰	szerszámosláda	none
 🧲	mágnes	none
 🪜	létra	none
+🪏	ásó	none
 ⚗	lombik	none
 🧪	kémcső	none
 🧫	Petri-csésze	none
@@ -1381,7 +1590,9 @@ symbols:
 🩸	vércsepp	none
 💊	tabletta	none
 🩹	ragtapasz	none
+🩼	mankó	none
 🩺	sztetoszkóp	none
+🩻	röntgen	none
 🚪	ajtó	none
 🛗	lift	none
 🪞	tükör	none
@@ -1402,6 +1613,7 @@ symbols:
 🧻	papírtekercs	none
 🪣	vödör	none
 🧼	szappan	none
+🫧	buborékok	none
 🪥	fogkefe	none
 🧽	szivacs	none
 🧯	tűzoltó készülék	none
@@ -1410,8 +1622,11 @@ symbols:
 ⚰	koporsó	none
 🪦	sírkő	none
 ⚱	halotti urna	none
+🧿	nazar amulett	none
+🪬	hamsza	none
 🗿	moai	none
 🪧	transzparens	none
+🪪	személyi igazolvány	none
 🏧	ATM-jel	none
 🚮	szemét a kukában szimbólum	none
 🚰	ivóvíz	none
@@ -1472,6 +1687,7 @@ symbols:
 ☮	békejel	none
 🕎	menóra	none
 🔯	hatágú csillag ponttal	none
+🪯	khanda	none
 ♈	kos csillagjegy	none
 ♉	bika csillagjegy	none
 ♊	ikrek csillagjegy	none
@@ -1507,6 +1723,7 @@ symbols:
 🔅	sötétítés gomb	none
 🔆	világosítás gomb	none
 📶	antennasávok	none
+🛜	vezeték nélküli	none
 📳	rezgő mód	none
 📴	mobiltelefon kikapcsolva	none
 ♀	női nem jelképe	none
@@ -1516,6 +1733,7 @@ symbols:
 ➕	plusz	none
 ➖	mínusz	none
 ➗	osztás	none
+🟰	vastag egyenlőségjel	none
 ♾	végtelen	none
 ❓	piros kérdőjel	none
 ❔	fehér kérdőjel	none
@@ -1541,6 +1759,7 @@ symbols:
 ✴	nyolcas csillag	none
 ❇	szikra	none
 ™	védjegy	none
+🫟	fröccsenés	none
 🔠	latin nagybetűs bevitel	none
 🔡	latin kisbetűs bevitel	none
 🔢	számbevitel	none
@@ -1605,13 +1824,21 @@ symbols:
 🏳‍🌈	szivárványszínű zászló	none
 🏳‍⚧	transznemű zászló	none
 🏴‍☠	kalózzászló	none
+₢	cruzeiro	none
+₣	francia frank	none
+₤	líra	none
 ₥	mill	none
 ₩	von	none
 €	euró	none
+₰	német pfennig	none
 ₱	peso	none
+₳	austral	none
+₶	livre tournois	none
+₷	spesmilo	none
 ₹	indiai rúpia	none
 ₽	rubel	none
 ₿	bitcoin	none
+₨	rúpia	none
 👋🏻	integető kéz világos bőrtónus	none
 👋🏼	integető kéz közepesen világos bőrtónus	none
 👋🏽	integető kéz közepes bőrtónus	none
@@ -1637,6 +1864,56 @@ symbols:
 🖖🏽	star trek-üdvözlet közepes bőrtónus	none
 🖖🏾	star trek-üdvözlet közepesen sötét bőrtónus	none
 🖖🏿	star trek-üdvözlet sötét bőrtónus	none
+🫱🏻	jobbra néző kéz világos bőrtónus	none
+🫱🏼	jobbra néző kéz közepesen világos bőrtónus	none
+🫱🏽	jobbra néző kéz közepes bőrtónus	none
+🫱🏾	jobbra néző kéz közepesen sötét bőrtónus	none
+🫱🏿	jobbra néző kéz sötét bőrtónus	none
+🫱🏻‍🫲🏼	kézfogás világos bőrtónus és közepesen világos bőrtónus	none
+🫱🏻‍🫲🏽	kézfogás világos bőrtónus és közepes bőrtónus	none
+🫱🏻‍🫲🏾	kézfogás világos bőrtónus és közepesen sötét bőrtónus	none
+🫱🏻‍🫲🏿	kézfogás világos bőrtónus és sötét bőrtónus	none
+🫱🏼‍🫲🏻	kézfogás közepesen világos bőrtónus és világos bőrtónus	none
+🫱🏼‍🫲🏽	kézfogás közepesen világos bőrtónus és közepes bőrtónus	none
+🫱🏼‍🫲🏾	kézfogás közepesen világos bőrtónus és közepesen sötét bőrtónus	none
+🫱🏼‍🫲🏿	kézfogás közepesen világos bőrtónus és sötét bőrtónus	none
+🫱🏽‍🫲🏻	kézfogás közepes bőrtónus és világos bőrtónus	none
+🫱🏽‍🫲🏼	kézfogás közepes bőrtónus és közepesen világos bőrtónus	none
+🫱🏽‍🫲🏾	kézfogás közepes bőrtónus és közepesen sötét bőrtónus	none
+🫱🏽‍🫲🏿	kézfogás közepes bőrtónus és sötét bőrtónus	none
+🫱🏾‍🫲🏻	kézfogás közepesen sötét bőrtónus és világos bőrtónus	none
+🫱🏾‍🫲🏼	kézfogás közepesen sötét bőrtónus és közepesen világos bőrtónus	none
+🫱🏾‍🫲🏽	kézfogás közepesen sötét bőrtónus és közepes bőrtónus	none
+🫱🏾‍🫲🏿	kézfogás közepesen sötét bőrtónus és sötét bőrtónus	none
+🫱🏿‍🫲🏻	kézfogás sötét bőrtónus és világos bőrtónus	none
+🫱🏿‍🫲🏼	kézfogás sötét bőrtónus és közepesen világos bőrtónus	none
+🫱🏿‍🫲🏽	kézfogás sötét bőrtónus és közepes bőrtónus	none
+🫱🏿‍🫲🏾	kézfogás sötét bőrtónus és közepesen sötét bőrtónus	none
+🫲🏻	balra néző kéz világos bőrtónus	none
+🫲🏼	balra néző kéz közepesen világos bőrtónus	none
+🫲🏽	balra néző kéz közepes bőrtónus	none
+🫲🏾	balra néző kéz közepesen sötét bőrtónus	none
+🫲🏿	balra néző kéz sötét bőrtónus	none
+🫳🏻	lefelé néző kéz világos bőrtónus	none
+🫳🏼	lefelé néző kéz közepesen világos bőrtónus	none
+🫳🏽	lefelé néző kéz közepes bőrtónus	none
+🫳🏾	lefelé néző kéz közepesen sötét bőrtónus	none
+🫳🏿	lefelé néző kéz sötét bőrtónus	none
+🫴🏻	felfelé néző kéz világos bőrtónus	none
+🫴🏼	felfelé néző kéz közepesen világos bőrtónus	none
+🫴🏽	felfelé néző kéz közepes bőrtónus	none
+🫴🏾	felfelé néző kéz közepesen sötét bőrtónus	none
+🫴🏿	felfelé néző kéz sötét bőrtónus	none
+🫷🏻	balra toló kéz világos bőrtónus	none
+🫷🏼	balra toló kéz közepesen világos bőrtónus	none
+🫷🏽	balra toló kéz közepes bőrtónus	none
+🫷🏾	balra toló kéz közepesen sötét bőrtónus	none
+🫷🏿	balra toló kéz sötét bőrtónus	none
+🫸🏻	jobbra toló kéz világos bőrtónus	none
+🫸🏼	jobbra toló kéz közepesen világos bőrtónus	none
+🫸🏽	jobbra toló kéz közepes bőrtónus	none
+🫸🏾	jobbra toló kéz közepesen sötét bőrtónus	none
+🫸🏿	jobbra toló kéz sötét bőrtónus	none
 👌🏻	ok jel világos bőrtónus	none
 👌🏼	ok jel közepesen világos bőrtónus	none
 👌🏽	ok jel közepes bőrtónus	none
@@ -1662,6 +1939,11 @@ symbols:
 🤞🏽	keresztezett ujjak közepes bőrtónus	none
 🤞🏾	keresztezett ujjak közepesen sötét bőrtónus	none
 🤞🏿	keresztezett ujjak sötét bőrtónus	none
+🫰🏻	keresztezett mutató- és hüvelykujjú kéz világos bőrtónus	none
+🫰🏼	keresztezett mutató- és hüvelykujjú kéz közepesen világos bőrtónus	none
+🫰🏽	keresztezett mutató- és hüvelykujjú kéz közepes bőrtónus	none
+🫰🏾	keresztezett mutató- és hüvelykujjú kéz közepesen sötét bőrtónus	none
+🫰🏿	keresztezett mutató- és hüvelykujjú kéz sötét bőrtónus	none
 🤟🏻	szeretlek kézmozdulat világos bőrtónus	none
 🤟🏼	szeretlek kézmozdulat közepesen világos bőrtónus	none
 🤟🏽	szeretlek kézmozdulat közepes bőrtónus	none
@@ -1707,6 +1989,11 @@ symbols:
 ☝🏽	kéz felfelé mutató ujjal közepes bőrtónus	none
 ☝🏾	kéz felfelé mutató ujjal közepesen sötét bőrtónus	none
 ☝🏿	kéz felfelé mutató ujjal sötét bőrtónus	none
+🫵🏻	felhasználóra mutató ujj világos bőrtónus	none
+🫵🏼	felhasználóra mutató ujj közepesen világos bőrtónus	none
+🫵🏽	felhasználóra mutató ujj közepes bőrtónus	none
+🫵🏾	felhasználóra mutató ujj közepesen sötét bőrtónus	none
+🫵🏿	felhasználóra mutató ujj sötét bőrtónus	none
 👍🏻	felfelé mutató hüvelykujj világos bőrtónus	none
 👍🏼	felfelé mutató hüvelykujj közepesen világos bőrtónus	none
 👍🏽	felfelé mutató hüvelykujj közepes bőrtónus	none
@@ -1747,6 +2034,11 @@ symbols:
 🙌🏽	kezét felemelő ember közepes bőrtónus	none
 🙌🏾	kezét felemelő ember közepesen sötét bőrtónus	none
 🙌🏿	kezét felemelő ember sötét bőrtónus	none
+🫶🏻	szívet formázó kezek világos bőrtónus	none
+🫶🏼	szívet formázó kezek közepesen világos bőrtónus	none
+🫶🏽	szívet formázó kezek közepes bőrtónus	none
+🫶🏾	szívet formázó kezek közepesen sötét bőrtónus	none
+🫶🏿	szívet formázó kezek sötét bőrtónus	none
 👐🏻	széttárt kéz világos bőrtónus	none
 👐🏼	széttárt kéz közepesen világos bőrtónus	none
 👐🏽	széttárt kéz közepes bőrtónus	none
@@ -1757,6 +2049,11 @@ symbols:
 🤲🏽	felfelé fordított tenyerek közepes bőrtónus	none
 🤲🏾	felfelé fordított tenyerek közepesen sötét bőrtónus	none
 🤲🏿	felfelé fordított tenyerek sötét bőrtónus	none
+🤝🏻	kézfogás világos bőrtónus	none
+🤝🏼	kézfogás közepesen világos bőrtónus	none
+🤝🏽	kézfogás közepes bőrtónus	none
+🤝🏾	kézfogás közepesen sötét bőrtónus	none
+🤝🏿	kézfogás sötét bőrtónus	none
 🙏🏻	összetett kéz világos bőrtónus	none
 🙏🏼	összetett kéz közepesen világos bőrtónus	none
 🙏🏽	összetett kéz közepes bőrtónus	none
@@ -1877,6 +2174,26 @@ symbols:
 🧑🏿‍❤‍🧑🏼	pár szívvel felnőtt, felnőtt, sötét bőrtónus és közepesen világos bőrtónus	none
 🧑🏿‍❤‍🧑🏽	pár szívvel felnőtt, felnőtt, sötét bőrtónus és közepes bőrtónus	none
 🧑🏿‍❤‍🧑🏾	pár szívvel felnőtt, felnőtt, sötét bőrtónus és közepesen sötét bőrtónus	none
+🧑🏻‍🫯‍🧑🏼	birkózók világos bőrtónus és közepesen világos bőrtónus	none
+🧑🏻‍🫯‍🧑🏽	birkózók világos bőrtónus és közepes bőrtónus	none
+🧑🏻‍🫯‍🧑🏾	birkózók világos bőrtónus és közepesen sötét bőrtónus	none
+🧑🏻‍🫯‍🧑🏿	birkózók világos bőrtónus és sötét bőrtónus	none
+🧑🏼‍🫯‍🧑🏻	birkózók közepesen világos bőrtónus és világos bőrtónus	none
+🧑🏼‍🫯‍🧑🏽	birkózók közepesen világos bőrtónus és közepes bőrtónus	none
+🧑🏼‍🫯‍🧑🏾	birkózók közepesen világos bőrtónus és közepesen sötét bőrtónus	none
+🧑🏼‍🫯‍🧑🏿	birkózók közepesen világos bőrtónus és sötét bőrtónus	none
+🧑🏽‍🫯‍🧑🏻	birkózók közepes bőrtónus és világos bőrtónus	none
+🧑🏽‍🫯‍🧑🏼	birkózók közepes bőrtónus és közepesen világos bőrtónus	none
+🧑🏽‍🫯‍🧑🏾	birkózók közepes bőrtónus és közepesen sötét bőrtónus	none
+🧑🏽‍🫯‍🧑🏿	birkózók közepes bőrtónus és sötét bőrtónus	none
+🧑🏾‍🫯‍🧑🏻	birkózók közepesen sötét bőrtónus és világos bőrtónus	none
+🧑🏾‍🫯‍🧑🏼	birkózók közepesen sötét bőrtónus és közepesen világos bőrtónus	none
+🧑🏾‍🫯‍🧑🏽	birkózók közepesen sötét bőrtónus és közepes bőrtónus	none
+🧑🏾‍🫯‍🧑🏿	birkózók közepesen sötét bőrtónus és sötét bőrtónus	none
+🧑🏿‍🫯‍🧑🏻	birkózók sötét bőrtónus és világos bőrtónus	none
+🧑🏿‍🫯‍🧑🏼	birkózók sötét bőrtónus és közepesen világos bőrtónus	none
+🧑🏿‍🫯‍🧑🏽	birkózók sötét bőrtónus és közepes bőrtónus	none
+🧑🏿‍🫯‍🧑🏾	birkózók sötét bőrtónus és közepesen sötét bőrtónus	none
 🧑‍🦰	felnőtt vörös haj	none
 🧑🏻‍🦰	felnőtt világos bőrtónus és vörös haj	none
 🧑🏼‍🦰	felnőtt közepesen világos bőrtónus és vörös haj	none
@@ -1901,6 +2218,26 @@ symbols:
 🧑🏽‍🦲	felnőtt közepes bőrtónus és kopasz	none
 🧑🏾‍🦲	felnőtt közepesen sötét bőrtónus és kopasz	none
 🧑🏿‍🦲	felnőtt sötét bőrtónus és kopasz	none
+🧑🏻‍🐰‍🧑🏼	bulizó emberek világos bőrtónus és közepesen világos bőrtónus	none
+🧑🏻‍🐰‍🧑🏽	bulizó emberek világos bőrtónus és közepes bőrtónus	none
+🧑🏻‍🐰‍🧑🏾	bulizó emberek világos bőrtónus és közepesen sötét bőrtónus	none
+🧑🏻‍🐰‍🧑🏿	bulizó emberek világos bőrtónus és sötét bőrtónus	none
+🧑🏼‍🐰‍🧑🏻	bulizó emberek közepesen világos bőrtónus és világos bőrtónus	none
+🧑🏼‍🐰‍🧑🏽	bulizó emberek közepesen világos bőrtónus és közepes bőrtónus	none
+🧑🏼‍🐰‍🧑🏾	bulizó emberek közepesen világos bőrtónus és közepesen sötét bőrtónus	none
+🧑🏼‍🐰‍🧑🏿	bulizó emberek közepesen világos bőrtónus és sötét bőrtónus	none
+🧑🏽‍🐰‍🧑🏻	bulizó emberek közepes bőrtónus és világos bőrtónus	none
+🧑🏽‍🐰‍🧑🏼	bulizó emberek közepes bőrtónus és közepesen világos bőrtónus	none
+🧑🏽‍🐰‍🧑🏾	bulizó emberek közepes bőrtónus és közepesen sötét bőrtónus	none
+🧑🏽‍🐰‍🧑🏿	bulizó emberek közepes bőrtónus és sötét bőrtónus	none
+🧑🏾‍🐰‍🧑🏻	bulizó emberek közepesen sötét bőrtónus és világos bőrtónus	none
+🧑🏾‍🐰‍🧑🏼	bulizó emberek közepesen sötét bőrtónus és közepesen világos bőrtónus	none
+🧑🏾‍🐰‍🧑🏽	bulizó emberek közepesen sötét bőrtónus és közepes bőrtónus	none
+🧑🏾‍🐰‍🧑🏿	bulizó emberek közepesen sötét bőrtónus és sötét bőrtónus	none
+🧑🏿‍🐰‍🧑🏻	bulizó emberek sötét bőrtónus és világos bőrtónus	none
+🧑🏿‍🐰‍🧑🏼	bulizó emberek sötét bőrtónus és közepesen világos bőrtónus	none
+🧑🏿‍🐰‍🧑🏽	bulizó emberek sötét bőrtónus és közepes bőrtónus	none
+🧑🏿‍🐰‍🧑🏾	bulizó emberek sötét bőrtónus és közepesen sötét bőrtónus	none
 👨🏻	férfi világos bőrtónus	none
 👨🏼	férfi közepesen világos bőrtónus	none
 👨🏽	férfi közepes bőrtónus	none
@@ -1971,6 +2308,26 @@ symbols:
 👨🏿‍❤‍👨🏽	pár szívvel férfi, férfi, sötét bőrtónus és közepes bőrtónus	none
 👨🏿‍❤‍👨🏾	pár szívvel férfi, férfi, sötét bőrtónus és közepesen sötét bőrtónus	none
 👨🏿‍❤‍👨🏿	pár szívvel férfi, férfi és sötét bőrtónus	none
+👨🏻‍🫯‍👨🏼	birkózó férfiak világos bőrtónus és közepesen világos bőrtónus	none
+👨🏻‍🫯‍👨🏽	birkózó férfiak világos bőrtónus és közepes bőrtónus	none
+👨🏻‍🫯‍👨🏾	birkózó férfiak világos bőrtónus és közepesen sötét bőrtónus	none
+👨🏻‍🫯‍👨🏿	birkózó férfiak világos bőrtónus és sötét bőrtónus	none
+👨🏼‍🫯‍👨🏻	birkózó férfiak közepesen világos bőrtónus és világos bőrtónus	none
+👨🏼‍🫯‍👨🏽	birkózó férfiak közepesen világos bőrtónus és közepes bőrtónus	none
+👨🏼‍🫯‍👨🏾	birkózó férfiak közepesen világos bőrtónus és közepesen sötét bőrtónus	none
+👨🏼‍🫯‍👨🏿	birkózó férfiak közepesen világos bőrtónus és sötét bőrtónus	none
+👨🏽‍🫯‍👨🏻	birkózó férfiak közepes bőrtónus és világos bőrtónus	none
+👨🏽‍🫯‍👨🏼	birkózó férfiak közepes bőrtónus és közepesen világos bőrtónus	none
+👨🏽‍🫯‍👨🏾	birkózó férfiak közepes bőrtónus és közepesen sötét bőrtónus	none
+👨🏽‍🫯‍👨🏿	birkózó férfiak közepes bőrtónus és sötét bőrtónus	none
+👨🏾‍🫯‍👨🏻	birkózó férfiak közepesen sötét bőrtónus és világos bőrtónus	none
+👨🏾‍🫯‍👨🏼	birkózó férfiak közepesen sötét bőrtónus és közepesen világos bőrtónus	none
+👨🏾‍🫯‍👨🏽	birkózó férfiak közepesen sötét bőrtónus és közepes bőrtónus	none
+👨🏾‍🫯‍👨🏿	birkózó férfiak közepesen sötét bőrtónus és sötét bőrtónus	none
+👨🏿‍🫯‍👨🏻	birkózó férfiak sötét bőrtónus és világos bőrtónus	none
+👨🏿‍🫯‍👨🏼	birkózó férfiak sötét bőrtónus és közepesen világos bőrtónus	none
+👨🏿‍🫯‍👨🏽	birkózó férfiak sötét bőrtónus és közepes bőrtónus	none
+👨🏿‍🫯‍👨🏾	birkózó férfiak sötét bőrtónus és közepesen sötét bőrtónus	none
 👨‍🦰	férfi vörös haj	none
 👨🏻‍🦰	férfi világos bőrtónus és vörös haj	none
 👨🏼‍🦰	férfi közepesen világos bőrtónus és vörös haj	none
@@ -1995,6 +2352,26 @@ symbols:
 👨🏽‍🦲	férfi közepes bőrtónus és kopasz	none
 👨🏾‍🦲	férfi közepesen sötét bőrtónus és kopasz	none
 👨🏿‍🦲	férfi sötét bőrtónus és kopasz	none
+👨🏻‍🐰‍👨🏼	bulizó férfiak világos bőrtónus és közepesen világos bőrtónus	none
+👨🏻‍🐰‍👨🏽	bulizó férfiak világos bőrtónus és közepes bőrtónus	none
+👨🏻‍🐰‍👨🏾	bulizó férfiak világos bőrtónus és közepesen sötét bőrtónus	none
+👨🏻‍🐰‍👨🏿	bulizó férfiak világos bőrtónus és sötét bőrtónus	none
+👨🏼‍🐰‍👨🏻	bulizó férfiak közepesen világos bőrtónus és világos bőrtónus	none
+👨🏼‍🐰‍👨🏽	bulizó férfiak közepesen világos bőrtónus és közepes bőrtónus	none
+👨🏼‍🐰‍👨🏾	bulizó férfiak közepesen világos bőrtónus és közepesen sötét bőrtónus	none
+👨🏼‍🐰‍👨🏿	bulizó férfiak közepesen világos bőrtónus és sötét bőrtónus	none
+👨🏽‍🐰‍👨🏻	bulizó férfiak közepes bőrtónus és világos bőrtónus	none
+👨🏽‍🐰‍👨🏼	bulizó férfiak közepes bőrtónus és közepesen világos bőrtónus	none
+👨🏽‍🐰‍👨🏾	bulizó férfiak közepes bőrtónus és közepesen sötét bőrtónus	none
+👨🏽‍🐰‍👨🏿	bulizó férfiak közepes bőrtónus és sötét bőrtónus	none
+👨🏾‍🐰‍👨🏻	bulizó férfiak közepesen sötét bőrtónus és világos bőrtónus	none
+👨🏾‍🐰‍👨🏼	bulizó férfiak közepesen sötét bőrtónus és közepesen világos bőrtónus	none
+👨🏾‍🐰‍👨🏽	bulizó férfiak közepesen sötét bőrtónus és közepes bőrtónus	none
+👨🏾‍🐰‍👨🏿	bulizó férfiak közepesen sötét bőrtónus és sötét bőrtónus	none
+👨🏿‍🐰‍👨🏻	bulizó férfiak sötét bőrtónus és világos bőrtónus	none
+👨🏿‍🐰‍👨🏼	bulizó férfiak sötét bőrtónus és közepesen világos bőrtónus	none
+👨🏿‍🐰‍👨🏽	bulizó férfiak sötét bőrtónus és közepes bőrtónus	none
+👨🏿‍🐰‍👨🏾	bulizó férfiak sötét bőrtónus és közepesen sötét bőrtónus	none
 👩🏻	nő világos bőrtónus	none
 👩🏼	nő közepesen világos bőrtónus	none
 👩🏽	nő közepes bőrtónus	none
@@ -2110,6 +2487,26 @@ symbols:
 👩🏿‍❤‍👩🏽	pár szívvel nő, nő, sötét bőrtónus és közepes bőrtónus	none
 👩🏿‍❤‍👩🏾	pár szívvel nő, nő, sötét bőrtónus és közepesen sötét bőrtónus	none
 👩🏿‍❤‍👩🏿	pár szívvel nő, nő és sötét bőrtónus	none
+👩🏻‍🫯‍👩🏼	birkózó nők világos bőrtónus és közepesen világos bőrtónus	none
+👩🏻‍🫯‍👩🏽	birkózó nők világos bőrtónus és közepes bőrtónus	none
+👩🏻‍🫯‍👩🏾	birkózó nők világos bőrtónus és közepesen sötét bőrtónus	none
+👩🏻‍🫯‍👩🏿	birkózó nők világos bőrtónus és sötét bőrtónus	none
+👩🏼‍🫯‍👩🏻	birkózó nők közepesen világos bőrtónus és világos bőrtónus	none
+👩🏼‍🫯‍👩🏽	birkózó nők közepesen világos bőrtónus és közepes bőrtónus	none
+👩🏼‍🫯‍👩🏾	birkózó nők közepesen világos bőrtónus és közepesen sötét bőrtónus	none
+👩🏼‍🫯‍👩🏿	birkózó nők közepesen világos bőrtónus és sötét bőrtónus	none
+👩🏽‍🫯‍👩🏻	birkózó nők közepes bőrtónus és világos bőrtónus	none
+👩🏽‍🫯‍👩🏼	birkózó nők közepes bőrtónus és közepesen világos bőrtónus	none
+👩🏽‍🫯‍👩🏾	birkózó nők közepes bőrtónus és közepesen sötét bőrtónus	none
+👩🏽‍🫯‍👩🏿	birkózó nők közepes bőrtónus és sötét bőrtónus	none
+👩🏾‍🫯‍👩🏻	birkózó nők közepesen sötét bőrtónus és világos bőrtónus	none
+👩🏾‍🫯‍👩🏼	birkózó nők közepesen sötét bőrtónus és közepesen világos bőrtónus	none
+👩🏾‍🫯‍👩🏽	birkózó nők közepesen sötét bőrtónus és közepes bőrtónus	none
+👩🏾‍🫯‍👩🏿	birkózó nők közepesen sötét bőrtónus és sötét bőrtónus	none
+👩🏿‍🫯‍👩🏻	birkózó nők sötét bőrtónus és világos bőrtónus	none
+👩🏿‍🫯‍👩🏼	birkózó nők sötét bőrtónus és közepesen világos bőrtónus	none
+👩🏿‍🫯‍👩🏽	birkózó nők sötét bőrtónus és közepes bőrtónus	none
+👩🏿‍🫯‍👩🏾	birkózó nők sötét bőrtónus és közepesen sötét bőrtónus	none
 👩‍🦰	nő vörös haj	none
 👩🏻‍🦰	nő világos bőrtónus és vörös haj	none
 👩🏼‍🦰	nő közepesen világos bőrtónus és vörös haj	none
@@ -2134,6 +2531,26 @@ symbols:
 👩🏽‍🦲	nő közepes bőrtónus és kopasz	none
 👩🏾‍🦲	nő közepesen sötét bőrtónus és kopasz	none
 👩🏿‍🦲	nő sötét bőrtónus és kopasz	none
+👩🏻‍🐰‍👩🏼	bulizó nők világos bőrtónus és közepesen világos bőrtónus	none
+👩🏻‍🐰‍👩🏽	bulizó nők világos bőrtónus és közepes bőrtónus	none
+👩🏻‍🐰‍👩🏾	bulizó nők világos bőrtónus és közepesen sötét bőrtónus	none
+👩🏻‍🐰‍👩🏿	bulizó nők világos bőrtónus és sötét bőrtónus	none
+👩🏼‍🐰‍👩🏻	bulizó nők közepesen világos bőrtónus és világos bőrtónus	none
+👩🏼‍🐰‍👩🏽	bulizó nők közepesen világos bőrtónus és közepes bőrtónus	none
+👩🏼‍🐰‍👩🏾	bulizó nők közepesen világos bőrtónus és közepesen sötét bőrtónus	none
+👩🏼‍🐰‍👩🏿	bulizó nők közepesen világos bőrtónus és sötét bőrtónus	none
+👩🏽‍🐰‍👩🏻	bulizó nők közepes bőrtónus és világos bőrtónus	none
+👩🏽‍🐰‍👩🏼	bulizó nők közepes bőrtónus és közepesen világos bőrtónus	none
+👩🏽‍🐰‍👩🏾	bulizó nők közepes bőrtónus és közepesen sötét bőrtónus	none
+👩🏽‍🐰‍👩🏿	bulizó nők közepes bőrtónus és sötét bőrtónus	none
+👩🏾‍🐰‍👩🏻	bulizó nők közepesen sötét bőrtónus és világos bőrtónus	none
+👩🏾‍🐰‍👩🏼	bulizó nők közepesen sötét bőrtónus és közepesen világos bőrtónus	none
+👩🏾‍🐰‍👩🏽	bulizó nők közepesen sötét bőrtónus és közepes bőrtónus	none
+👩🏾‍🐰‍👩🏿	bulizó nők közepesen sötét bőrtónus és sötét bőrtónus	none
+👩🏿‍🐰‍👩🏻	bulizó nők sötét bőrtónus és világos bőrtónus	none
+👩🏿‍🐰‍👩🏼	bulizó nők sötét bőrtónus és közepesen világos bőrtónus	none
+👩🏿‍🐰‍👩🏽	bulizó nők sötét bőrtónus és közepes bőrtónus	none
+👩🏿‍🐰‍👩🏾	bulizó nők sötét bőrtónus és közepesen sötét bőrtónus	none
 🧓🏻	idősebb felnőtt világos bőrtónus	none
 🧓🏼	idősebb felnőtt közepesen világos bőrtónus	none
 🧓🏽	idősebb felnőtt közepes bőrtónus	none
@@ -2604,6 +3021,11 @@ symbols:
 👷🏽‍♀	építőmunkás nő közepes bőrtónus	none
 👷🏾‍♀	építőmunkás nő közepesen sötét bőrtónus	none
 👷🏿‍♀	építőmunkás nő sötét bőrtónus	none
+🫅🏻	koronás személy világos bőrtónus	none
+🫅🏼	koronás személy közepesen világos bőrtónus	none
+🫅🏽	koronás személy közepes bőrtónus	none
+🫅🏾	koronás személy közepesen sötét bőrtónus	none
+🫅🏿	koronás személy sötét bőrtónus	none
 🤴🏻	herceg világos bőrtónus	none
 🤴🏼	herceg közepesen világos bőrtónus	none
 🤴🏽	herceg közepes bőrtónus	none
@@ -2674,6 +3096,16 @@ symbols:
 🤰🏽	terhes nő közepes bőrtónus	none
 🤰🏾	terhes nő közepesen sötét bőrtónus	none
 🤰🏿	terhes nő sötét bőrtónus	none
+🫃🏻	terhes férfi világos bőrtónus	none
+🫃🏼	terhes férfi közepesen világos bőrtónus	none
+🫃🏽	terhes férfi közepes bőrtónus	none
+🫃🏾	terhes férfi közepesen sötét bőrtónus	none
+🫃🏿	terhes férfi sötét bőrtónus	none
+🫄🏻	terhes személy világos bőrtónus	none
+🫄🏼	terhes személy közepesen világos bőrtónus	none
+🫄🏽	terhes személy közepes bőrtónus	none
+🫄🏾	terhes személy közepesen sötét bőrtónus	none
+🫄🏿	terhes személy sötét bőrtónus	none
 🤱🏻	szoptatás világos bőrtónus	none
 🤱🏼	szoptatás közepesen világos bőrtónus	none
 🤱🏽	szoptatás közepes bőrtónus	none
@@ -2864,6 +3296,24 @@ symbols:
 🚶🏽‍♀	sétáló nő közepes bőrtónus	none
 🚶🏾‍♀	sétáló nő közepesen sötét bőrtónus	none
 🚶🏿‍♀	sétáló nő sötét bőrtónus	none
+🚶‍➡	gyalogos jobbra néző	none
+🚶🏻‍➡	gyalogos világos bőrtónus és jobbra néző	none
+🚶🏼‍➡	gyalogos közepesen világos bőrtónus és jobbra néző	none
+🚶🏽‍➡	gyalogos közepes bőrtónus és jobbra néző	none
+🚶🏾‍➡	gyalogos közepesen sötét bőrtónus és jobbra néző	none
+🚶🏿‍➡	gyalogos sötét bőrtónus és jobbra néző	none
+🚶‍♀‍➡	sétáló nő jobbra néző	none
+🚶🏻‍♀‍➡	sétáló nő világos bőrtónus és jobbra néző	none
+🚶🏼‍♀‍➡	sétáló nő közepesen világos bőrtónus és jobbra néző	none
+🚶🏽‍♀‍➡	sétáló nő közepes bőrtónus és jobbra néző	none
+🚶🏾‍♀‍➡	sétáló nő közepesen sötét bőrtónus és jobbra néző	none
+🚶🏿‍♀‍➡	sétáló nő sötét bőrtónus és jobbra néző	none
+🚶‍♂‍➡	sétáló férfi jobbra néző	none
+🚶🏻‍♂‍➡	sétáló férfi világos bőrtónus és jobbra néző	none
+🚶🏼‍♂‍➡	sétáló férfi közepesen világos bőrtónus és jobbra néző	none
+🚶🏽‍♂‍➡	sétáló férfi közepes bőrtónus és jobbra néző	none
+🚶🏾‍♂‍➡	sétáló férfi közepesen sötét bőrtónus és jobbra néző	none
+🚶🏿‍♂‍➡	sétáló férfi sötét bőrtónus és jobbra néző	none
 🧍🏻	álló ember világos bőrtónus	none
 🧍🏼	álló ember közepesen világos bőrtónus	none
 🧍🏽	álló ember közepes bőrtónus	none
@@ -2894,51 +3344,123 @@ symbols:
 🧎🏽‍♀	térdelő nő közepes bőrtónus	none
 🧎🏾‍♀	térdelő nő közepesen sötét bőrtónus	none
 🧎🏿‍♀	térdelő nő sötét bőrtónus	none
+🧎‍➡	térdelő ember jobbra néző	none
+🧎🏻‍➡	térdelő ember világos bőrtónus és jobbra néző	none
+🧎🏼‍➡	térdelő ember közepesen világos bőrtónus és jobbra néző	none
+🧎🏽‍➡	térdelő ember közepes bőrtónus és jobbra néző	none
+🧎🏾‍➡	térdelő ember közepesen sötét bőrtónus és jobbra néző	none
+🧎🏿‍➡	térdelő ember sötét bőrtónus és jobbra néző	none
+🧎‍♀‍➡	térdelő nő jobbra néző	none
+🧎🏻‍♀‍➡	térdelő nő világos bőrtónus és jobbra néző	none
+🧎🏼‍♀‍➡	térdelő nő közepesen világos bőrtónus és jobbra néző	none
+🧎🏽‍♀‍➡	térdelő nő közepes bőrtónus és jobbra néző	none
+🧎🏾‍♀‍➡	térdelő nő közepesen sötét bőrtónus és jobbra néző	none
+🧎🏿‍♀‍➡	térdelő nő sötét bőrtónus és jobbra néző	none
+🧎‍♂‍➡	térdelő férfi jobbra néző	none
+🧎🏻‍♂‍➡	térdelő férfi világos bőrtónus és jobbra néző	none
+🧎🏼‍♂‍➡	térdelő férfi közepesen világos bőrtónus és jobbra néző	none
+🧎🏽‍♂‍➡	térdelő férfi közepes bőrtónus és jobbra néző	none
+🧎🏾‍♂‍➡	térdelő férfi közepesen sötét bőrtónus és jobbra néző	none
+🧎🏿‍♂‍➡	térdelő férfi sötét bőrtónus és jobbra néző	none
 🧑🏻‍🦯	ember fehér bottal világos bőrtónus	none
 🧑🏼‍🦯	ember fehér bottal közepesen világos bőrtónus	none
 🧑🏽‍🦯	ember fehér bottal közepes bőrtónus	none
 🧑🏾‍🦯	ember fehér bottal közepesen sötét bőrtónus	none
 🧑🏿‍🦯	ember fehér bottal sötét bőrtónus	none
+🧑‍🦯‍➡	ember fehér bottal jobbra néző	none
+🧑🏻‍🦯‍➡	ember fehér bottal világos bőrtónus és jobbra néző	none
+🧑🏼‍🦯‍➡	ember fehér bottal közepesen világos bőrtónus és jobbra néző	none
+🧑🏽‍🦯‍➡	ember fehér bottal közepes bőrtónus és jobbra néző	none
+🧑🏾‍🦯‍➡	ember fehér bottal közepesen sötét bőrtónus és jobbra néző	none
+🧑🏿‍🦯‍➡	ember fehér bottal sötét bőrtónus és jobbra néző	none
 👨🏻‍🦯	férfi fehér bottal világos bőrtónus	none
 👨🏼‍🦯	férfi fehér bottal közepesen világos bőrtónus	none
 👨🏽‍🦯	férfi fehér bottal közepes bőrtónus	none
 👨🏾‍🦯	férfi fehér bottal közepesen sötét bőrtónus	none
 👨🏿‍🦯	férfi fehér bottal sötét bőrtónus	none
+👨‍🦯‍➡	férfi fehér bottal jobbra néző	none
+👨🏻‍🦯‍➡	férfi fehér bottal világos bőrtónus és jobbra néző	none
+👨🏼‍🦯‍➡	férfi fehér bottal közepesen világos bőrtónus és jobbra néző	none
+👨🏽‍🦯‍➡	férfi fehér bottal közepes bőrtónus és jobbra néző	none
+👨🏾‍🦯‍➡	férfi fehér bottal közepesen sötét bőrtónus és jobbra néző	none
+👨🏿‍🦯‍➡	férfi fehér bottal sötét bőrtónus és jobbra néző	none
 👩🏻‍🦯	nő fehér bottal világos bőrtónus	none
 👩🏼‍🦯	nő fehér bottal közepesen világos bőrtónus	none
 👩🏽‍🦯	nő fehér bottal közepes bőrtónus	none
 👩🏾‍🦯	nő fehér bottal közepesen sötét bőrtónus	none
 👩🏿‍🦯	nő fehér bottal sötét bőrtónus	none
+👩‍🦯‍➡	nő fehér bottal jobbra néző	none
+👩🏻‍🦯‍➡	nő fehér bottal világos bőrtónus és jobbra néző	none
+👩🏼‍🦯‍➡	nő fehér bottal közepesen világos bőrtónus és jobbra néző	none
+👩🏽‍🦯‍➡	nő fehér bottal közepes bőrtónus és jobbra néző	none
+👩🏾‍🦯‍➡	nő fehér bottal közepesen sötét bőrtónus és jobbra néző	none
+👩🏿‍🦯‍➡	nő fehér bottal sötét bőrtónus és jobbra néző	none
 🧑🏻‍🦼	ember motoros kerekesszékben világos bőrtónus	none
 🧑🏼‍🦼	ember motoros kerekesszékben közepesen világos bőrtónus	none
 🧑🏽‍🦼	ember motoros kerekesszékben közepes bőrtónus	none
 🧑🏾‍🦼	ember motoros kerekesszékben közepesen sötét bőrtónus	none
 🧑🏿‍🦼	ember motoros kerekesszékben sötét bőrtónus	none
+🧑‍🦼‍➡	ember motoros kerekesszékben jobbra néző	none
+🧑🏻‍🦼‍➡	ember motoros kerekesszékben világos bőrtónus és jobbra néző	none
+🧑🏼‍🦼‍➡	ember motoros kerekesszékben közepesen világos bőrtónus és jobbra néző	none
+🧑🏽‍🦼‍➡	ember motoros kerekesszékben közepes bőrtónus és jobbra néző	none
+🧑🏾‍🦼‍➡	ember motoros kerekesszékben közepesen sötét bőrtónus és jobbra néző	none
+🧑🏿‍🦼‍➡	ember motoros kerekesszékben sötét bőrtónus és jobbra néző	none
 👨🏻‍🦼	férfi motoros kerekesszékben világos bőrtónus	none
 👨🏼‍🦼	férfi motoros kerekesszékben közepesen világos bőrtónus	none
 👨🏽‍🦼	férfi motoros kerekesszékben közepes bőrtónus	none
 👨🏾‍🦼	férfi motoros kerekesszékben közepesen sötét bőrtónus	none
 👨🏿‍🦼	férfi motoros kerekesszékben sötét bőrtónus	none
+👨‍🦼‍➡	férfi motoros kerekesszékben jobbra néző	none
+👨🏻‍🦼‍➡	férfi motoros kerekesszékben világos bőrtónus és jobbra néző	none
+👨🏼‍🦼‍➡	férfi motoros kerekesszékben közepesen világos bőrtónus és jobbra néző	none
+👨🏽‍🦼‍➡	férfi motoros kerekesszékben közepes bőrtónus és jobbra néző	none
+👨🏾‍🦼‍➡	férfi motoros kerekesszékben közepesen sötét bőrtónus és jobbra néző	none
+👨🏿‍🦼‍➡	férfi motoros kerekesszékben sötét bőrtónus és jobbra néző	none
 👩🏻‍🦼	nő motoros kerekesszékben világos bőrtónus	none
 👩🏼‍🦼	nő motoros kerekesszékben közepesen világos bőrtónus	none
 👩🏽‍🦼	nő motoros kerekesszékben közepes bőrtónus	none
 👩🏾‍🦼	nő motoros kerekesszékben közepesen sötét bőrtónus	none
 👩🏿‍🦼	nő motoros kerekesszékben sötét bőrtónus	none
+👩‍🦼‍➡	nő motoros kerekesszékben jobbra néző	none
+👩🏻‍🦼‍➡	nő motoros kerekesszékben világos bőrtónus és jobbra néző	none
+👩🏼‍🦼‍➡	nő motoros kerekesszékben közepesen világos bőrtónus és jobbra néző	none
+👩🏽‍🦼‍➡	nő motoros kerekesszékben közepes bőrtónus és jobbra néző	none
+👩🏾‍🦼‍➡	nő motoros kerekesszékben közepesen sötét bőrtónus és jobbra néző	none
+👩🏿‍🦼‍➡	nő motoros kerekesszékben sötét bőrtónus és jobbra néző	none
 🧑🏻‍🦽	kerekesszékes ember világos bőrtónus	none
 🧑🏼‍🦽	kerekesszékes ember közepesen világos bőrtónus	none
 🧑🏽‍🦽	kerekesszékes ember közepes bőrtónus	none
 🧑🏾‍🦽	kerekesszékes ember közepesen sötét bőrtónus	none
 🧑🏿‍🦽	kerekesszékes ember sötét bőrtónus	none
+🧑‍🦽‍➡	kerekesszékes ember jobbra néző	none
+🧑🏻‍🦽‍➡	kerekesszékes ember világos bőrtónus és jobbra néző	none
+🧑🏼‍🦽‍➡	kerekesszékes ember közepesen világos bőrtónus és jobbra néző	none
+🧑🏽‍🦽‍➡	kerekesszékes ember közepes bőrtónus és jobbra néző	none
+🧑🏾‍🦽‍➡	kerekesszékes ember közepesen sötét bőrtónus és jobbra néző	none
+🧑🏿‍🦽‍➡	kerekesszékes ember sötét bőrtónus és jobbra néző	none
 👨🏻‍🦽	férfi kézi hajtású kerekesszékben világos bőrtónus	none
 👨🏼‍🦽	férfi kézi hajtású kerekesszékben közepesen világos bőrtónus	none
 👨🏽‍🦽	férfi kézi hajtású kerekesszékben közepes bőrtónus	none
 👨🏾‍🦽	férfi kézi hajtású kerekesszékben közepesen sötét bőrtónus	none
 👨🏿‍🦽	férfi kézi hajtású kerekesszékben sötét bőrtónus	none
+👨‍🦽‍➡	férfi kézi hajtású kerekesszékben jobbra néző	none
+👨🏻‍🦽‍➡	férfi kézi hajtású kerekesszékben világos bőrtónus és jobbra néző	none
+👨🏼‍🦽‍➡	férfi kézi hajtású kerekesszékben közepesen világos bőrtónus és jobbra néző	none
+👨🏽‍🦽‍➡	férfi kézi hajtású kerekesszékben közepes bőrtónus és jobbra néző	none
+👨🏾‍🦽‍➡	férfi kézi hajtású kerekesszékben közepesen sötét bőrtónus és jobbra néző	none
+👨🏿‍🦽‍➡	férfi kézi hajtású kerekesszékben sötét bőrtónus és jobbra néző	none
 👩🏻‍🦽	nő kézi hajtású kerekesszékben világos bőrtónus	none
 👩🏼‍🦽	nő kézi hajtású kerekesszékben közepesen világos bőrtónus	none
 👩🏽‍🦽	nő kézi hajtású kerekesszékben közepes bőrtónus	none
 👩🏾‍🦽	nő kézi hajtású kerekesszékben közepesen sötét bőrtónus	none
 👩🏿‍🦽	nő kézi hajtású kerekesszékben sötét bőrtónus	none
+👩‍🦽‍➡	nő kézi hajtású kerekesszékben jobbra néző	none
+👩🏻‍🦽‍➡	nő kézi hajtású kerekesszékben világos bőrtónus és jobbra néző	none
+👩🏼‍🦽‍➡	nő kézi hajtású kerekesszékben közepesen világos bőrtónus és jobbra néző	none
+👩🏽‍🦽‍➡	nő kézi hajtású kerekesszékben közepes bőrtónus és jobbra néző	none
+👩🏾‍🦽‍➡	nő kézi hajtású kerekesszékben közepesen sötét bőrtónus és jobbra néző	none
+👩🏿‍🦽‍➡	nő kézi hajtású kerekesszékben sötét bőrtónus és jobbra néző	none
 🏃🏻	futó világos bőrtónus	none
 🏃🏼	futó közepesen világos bőrtónus	none
 🏃🏽	futó közepes bőrtónus	none
@@ -2954,6 +3476,29 @@ symbols:
 🏃🏽‍♀	futó nő közepes bőrtónus	none
 🏃🏾‍♀	futó nő közepesen sötét bőrtónus	none
 🏃🏿‍♀	futó nő sötét bőrtónus	none
+🏃‍➡	futó jobbra néző	none
+🏃🏻‍➡	futó világos bőrtónus és jobbra néző	none
+🏃🏼‍➡	futó közepesen világos bőrtónus és jobbra néző	none
+🏃🏽‍➡	futó közepes bőrtónus és jobbra néző	none
+🏃🏾‍➡	futó közepesen sötét bőrtónus és jobbra néző	none
+🏃🏿‍➡	futó sötét bőrtónus és jobbra néző	none
+🏃‍♀‍➡	futó nő jobbra néző	none
+🏃🏻‍♀‍➡	futó nő világos bőrtónus és jobbra néző	none
+🏃🏼‍♀‍➡	futó nő közepesen világos bőrtónus és jobbra néző	none
+🏃🏽‍♀‍➡	futó nő közepes bőrtónus és jobbra néző	none
+🏃🏾‍♀‍➡	futó nő közepesen sötét bőrtónus és jobbra néző	none
+🏃🏿‍♀‍➡	futó nő sötét bőrtónus és jobbra néző	none
+🏃‍♂‍➡	futó férfi jobbra néző	none
+🏃🏻‍♂‍➡	futó férfi világos bőrtónus és jobbra néző	none
+🏃🏼‍♂‍➡	futó férfi közepesen világos bőrtónus és jobbra néző	none
+🏃🏽‍♂‍➡	futó férfi közepes bőrtónus és jobbra néző	none
+🏃🏾‍♂‍➡	futó férfi közepesen sötét bőrtónus és jobbra néző	none
+🏃🏿‍♂‍➡	futó férfi sötét bőrtónus és jobbra néző	none
+🧑🏻‍🩰	balett-táncos világos bőrtónus	none
+🧑🏼‍🩰	balett-táncos közepesen világos bőrtónus	none
+🧑🏽‍🩰	balett-táncos közepes bőrtónus	none
+🧑🏾‍🩰	balett-táncos közepesen sötét bőrtónus	none
+🧑🏿‍🩰	balett-táncos sötét bőrtónus	none
 💃🏻	táncoló nő világos bőrtónus	none
 💃🏼	táncoló nő közepesen világos bőrtónus	none
 💃🏽	táncoló nő közepes bőrtónus	none
@@ -2969,6 +3514,21 @@ symbols:
 🕴🏽	öltönyös, lebegő ember közepes bőrtónus	none
 🕴🏾	öltönyös, lebegő ember közepesen sötét bőrtónus	none
 🕴🏿	öltönyös, lebegő ember sötét bőrtónus	none
+👯🏻	bulizó emberek világos bőrtónus	none
+👯🏼	bulizó emberek közepesen világos bőrtónus	none
+👯🏽	bulizó emberek közepes bőrtónus	none
+👯🏾	bulizó emberek közepesen sötét bőrtónus	none
+👯🏿	bulizó emberek sötét bőrtónus	none
+👯🏻‍♂	bulizó férfiak világos bőrtónus	none
+👯🏼‍♂	bulizó férfiak közepesen világos bőrtónus	none
+👯🏽‍♂	bulizó férfiak közepes bőrtónus	none
+👯🏾‍♂	bulizó férfiak közepesen sötét bőrtónus	none
+👯🏿‍♂	bulizó férfiak sötét bőrtónus	none
+👯🏻‍♀	bulizó nők világos bőrtónus	none
+👯🏼‍♀	bulizó nők közepesen világos bőrtónus	none
+👯🏽‍♀	bulizó nők közepes bőrtónus	none
+👯🏾‍♀	bulizó nők közepesen sötét bőrtónus	none
+👯🏿‍♀	bulizó nők sötét bőrtónus	none
 🧖🏻	ember a gőzfürdőben világos bőrtónus	none
 🧖🏼	ember a gőzfürdőben közepesen világos bőrtónus	none
 🧖🏽	ember a gőzfürdőben közepes bőrtónus	none
@@ -3144,6 +3704,21 @@ symbols:
 🤸🏽‍♀	cigánykerekező nő közepes bőrtónus	none
 🤸🏾‍♀	cigánykerekező nő közepesen sötét bőrtónus	none
 🤸🏿‍♀	cigánykerekező nő sötét bőrtónus	none
+🤼🏻	birkózók világos bőrtónus	none
+🤼🏼	birkózók közepesen világos bőrtónus	none
+🤼🏽	birkózók közepes bőrtónus	none
+🤼🏾	birkózók közepesen sötét bőrtónus	none
+🤼🏿	birkózók sötét bőrtónus	none
+🤼🏻‍♂	birkózó férfiak világos bőrtónus	none
+🤼🏼‍♂	birkózó férfiak közepesen világos bőrtónus	none
+🤼🏽‍♂	birkózó férfiak közepes bőrtónus	none
+🤼🏾‍♂	birkózó férfiak közepesen sötét bőrtónus	none
+🤼🏿‍♂	birkózó férfiak sötét bőrtónus	none
+🤼🏻‍♀	birkózó nők világos bőrtónus	none
+🤼🏼‍♀	birkózó nők közepesen világos bőrtónus	none
+🤼🏽‍♀	birkózó nők közepes bőrtónus	none
+🤼🏾‍♀	birkózó nők közepesen sötét bőrtónus	none
+🤼🏿‍♀	birkózó nők sötét bőrtónus	none
 🤽🏻	vízilabda világos bőrtónus	none
 🤽🏼	vízilabda közepesen világos bőrtónus	none
 🤽🏽	vízilabda közepes bőrtónus	none
@@ -3407,6 +3982,7 @@ symbols:
 🇨🇳	zászló Kína	none
 🇨🇴	zászló Kolumbia	none
 🇨🇵	zászló Clipperton-sziget	none
+🇨🇶	zászló Sark	none
 🇨🇷	zászló Costa Rica	none
 🇨🇺	zászló Kuba	none
 🇨🇻	zászló Zöld-foki Köztársaság	none
@@ -3619,7 +4195,6 @@ symbols:
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	zászló Wales	none
 ₡	Costa Rica-i colon	none
 ₦	nigériai naira	none
-₧	Spanyol peseta	none
 ₪	izraeli új sékel	none
 ₫	vietnámi dong	none
 ₭	laoszi kip	none
@@ -3631,3 +4206,4 @@ symbols:
 ₺	török líra	none
 ₼	azerbajdzsáni manat	none
 ₾	grúz lari	none
+₧	Spanyol peseta	none

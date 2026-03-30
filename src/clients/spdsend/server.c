@@ -25,6 +25,7 @@
 #endif
 
 #include "spdsend.h"
+#include "../../common/common.h"
 
 #ifndef USE_THREADS
 #define USE_THREADS 1
@@ -170,7 +171,7 @@ static Success do_send_data(Connection_Id id, Stream from, Stream to,
 	else if (to == NONE)
 		to = sock;
 	{
-		Success result = ((*forwarder) (from, to, FALSE));
+		Success result = ((*forwarder) (from, to, false));
 		if (result != OK)
 			do_close_connection(id);
 		return result;
@@ -323,6 +324,7 @@ static void process_request(Stream s)
 static void *process_request_thread(void *s)
 {
 	Stream s_deref = *((Stream *) s);
+	spd_pthread_setname("process_request_thread");
 	free(s);
 	pthread_detach(pthread_self());
 	process_request(s_deref);
@@ -337,7 +339,7 @@ static const char *login_name()
 	return getpwuid(getuid())->pw_name;
 }
 
-static const char *server_socket_name()
+static char *server_socket_name()
 {
 	char *name;
 	if (asprintf(&name, "/tmp/spdsend-server.%s", login_name()) < 0)
@@ -350,7 +352,7 @@ static void serve()
 	struct sockaddr_un name;
 	int sock;
 	size_t size;
-	const char *filename = server_socket_name();
+	char *filename = server_socket_name();
 
 	sock = socket(PF_LOCAL, SOCK_STREAM, 0);
 	if (sock < 0)
@@ -365,6 +367,7 @@ static void serve()
 		system_error("bind");
 	if (listen(sock, LISTEN_QUEUE_LENGTH) < 0)
 		system_error("listen");
+	free(filename);
 
 	while (1) {
 		struct sockaddr_un client_address;

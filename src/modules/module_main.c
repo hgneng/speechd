@@ -31,7 +31,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "module_main.h"
+#include "spd_module_main.h"
 
 /*
  * This provides the main startup structure for modules.
@@ -68,6 +68,7 @@ int main(int argc, char *argv[])
 			msg = strdup("Unspecified initialization error\n");
 		printf("399-%s\n", msg);
 		printf("399 ERR CANT INIT MODULE\n");
+		fflush(stdout);
 		free(msg);
 		module_close();
 		exit(1);

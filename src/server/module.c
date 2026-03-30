@@ -58,6 +58,8 @@ void destroy_module(OutputModule * module)
 {
 	close(module->pipe_speak[0]);
 	close(module->pipe_speak[1]);
+	if (module->stderr_redirect >= 0)
+		close(module->stderr_redirect);
 	g_free(module->name);
 	g_free(module->filename);
 	g_free(module->configfilename);
@@ -183,6 +185,7 @@ static GList *detect_generic_modules(GList *modules, const char *dirname, const 
 		if (sys_ret != 0) {
 			MSG(4, "stat failed on file %s in %s", entry->d_name,
 			    full_path);
+			g_free(file_path);
 			continue;
 		}
 
@@ -347,6 +350,7 @@ OutputModule *load_output_module(const char *mod_name, const char *mod_prog,
 	char s;
 	GString *reply;
 	struct stat fileinfo;
+	int i;
 
 	if (mod_name == NULL)
 		return NULL;
@@ -362,6 +366,16 @@ OutputModule *load_output_module(const char *mod_name, const char *mod_prog,
 	module->name = (char *)g_strdup(mod_name);
 	module->progdir = g_strdup(mod_prog_dir);
 	module->configdir = g_strdup(mod_cfg_dir);
+	module->stderr_redirect = -1;
+
+	pthread_mutex_init(&module->read_mutex, NULL);
+	pthread_cond_init(&module->reply_cond, NULL);
+	pthread_cond_init(&module->event_cond, NULL);
+	module->reply = NULL;
+	module->event = NULL;
+	module->reading_message = FALSE;
+	module->reading_events = FALSE;
+	module->waiting_for_reply = FALSE;
 
 	if (module->progdir) {
 		module->filename = (char *)spd_get_path(mod_prog, module->progdir);
@@ -376,6 +390,7 @@ OutputModule *load_output_module(const char *mod_name, const char *mod_prog,
 	if (mod_cfg_dir) {
 		module->configfilename =
 		    (char *)spd_get_path(mod_cfgfile, mod_cfg_dir);
+		MSG(4, "Used mod_cfg_dir to build configfilename %s", module->configfilename);
 	} else {
 		module_conf_dir = g_strdup_printf("%s/modules",
 					  SpeechdOptions.user_conf_dir);
@@ -385,10 +400,13 @@ OutputModule *load_output_module(const char *mod_name, const char *mod_prog,
 		if (stat(module->configfilename, &fileinfo) != 0) {
 			module_conf_dir = g_strdup_printf("%s/modules",
 							  SpeechdOptions.conf_dir);
+			MSG(4, "%s does not exist, looking in %s", module->configfilename, module_conf_dir);
+			g_free(module->configfilename);
 			module->configfilename =
 			    (char *)spd_get_path(mod_cfgfile, module_conf_dir);
 			g_free(module_conf_dir);
 		}
+		MSG(4, "Built configfilename %s", module->configfilename);
 	}
 
 	if (mod_dbgfile != NULL)
@@ -405,6 +423,7 @@ OutputModule *load_output_module(const char *mod_name, const char *mod_prog,
 	if ((pipe(module->pipe_in) != 0)
 	    || (pipe(module->pipe_out) != 0)) {
 		MSG(3, "Can't open pipe! Module not loaded.");
+		destroy_module(module);
 		return NULL;
 	}
 
@@ -440,6 +459,7 @@ OutputModule *load_output_module(const char *mod_name, const char *mod_prog,
 	fr = fork();
 	if (fr == -1) {
 		printf("Can't fork, error! Module not loaded.");
+		destroy_module(module);
 		return NULL;
 	}
 
@@ -498,6 +518,7 @@ OutputModule *load_output_module(const char *mod_name, const char *mod_prog,
 		MSG(1, "ERROR: Something wrong with %s, can't initialize",
 		    module->name);
 		output_close(module);
+		destroy_module(module);
 		return NULL;
 	}
 
@@ -511,6 +532,7 @@ OutputModule *load_output_module(const char *mod_name, const char *mod_prog,
 			g_string_free(reply, TRUE);
 			free(rep_line);
 			fclose(f);
+			destroy_module(module);
 			return NULL;
 		}
 		assert(rep_line != NULL);
@@ -521,6 +543,7 @@ OutputModule *load_output_module(const char *mod_name, const char *mod_prog,
 			g_string_free(reply, TRUE);
 			free(rep_line);
 			fclose(f);
+			destroy_module(module);
 			return NULL;
 		}
 
@@ -582,6 +605,27 @@ OutputModule *load_output_module(const char *mod_name, const char *mod_prog,
 		destroy_module(module);
 		return NULL;
 	}
+
+	/* Try to get the list of voices */
+	SPDVoice **voices = output_get_voices(module, NULL, NULL);
+	if (!voices) {
+		/* No list of voices, that would surprise clients, let's give up
+		 * on this module */
+		MSG(1,
+		    "ERROR: Can't get a list of voices from the output module.");
+		module->working = 0;
+		kill(module->pid, 9);
+		waitpid(module->pid, NULL, WNOHANG);
+		destroy_module(module);
+		return NULL;
+	}
+	for (i = 0; voices[i]; i++) {
+		g_free(voices[i]->name);
+		g_free(voices[i]->language);
+		g_free(voices[i]->variant);
+		g_free(voices[i]);
+	}
+	g_free(voices);
 
 	return module;
 }
@@ -655,6 +699,8 @@ int output_module_debug(OutputModule * module)
 				       module->name);
 
 	output_send_debug(module, 1, new_log_path);
+
+	g_free(new_log_path);
 
 	return 0;
 }
@@ -798,6 +844,11 @@ void module_load_requested_modules(void)
 		g_free(module_params);
 		requested_modules =
 		    g_list_delete_link(requested_modules, requested_modules);
+	}
+
+	if (output_modules && !GlobalFDSet.output_module) {
+		OutputModule *first_module = output_modules->data;
+		GlobalFDSet.output_module = first_module->name;
 	}
 }
 

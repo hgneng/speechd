@@ -3,99 +3,105 @@
 # See locale/README.md to know how to import dictionaries
 
 symbols:
-≈	fast gleich wie	none
+⇦	weisser Pfeil nach links	none
+⇧	weisser Pfeil nach oben	none
+⇨	weisser Pfeil nach rechts	none
+⇩	weisser Pfeil nach unten	none
+⇪	weisser Pfeil nach oben von Strich weglaufend	none
+≯	nicht grösser als	none
 ≥	grösser als oder gleich	none
+≧	grösser als über gleich	none
+≫	viel grösser als	none
+≳	grösser als oder äquivalent	none
+⋙	sehr viel grösser als	none
+□	weisses Quadrat	none
+▢	weisses Quadrat mit abgerundeten Ecken	none
+▣	schwarzes Quadrat in weissem Quadrat	none
+▭	weisses Rechteck	none
+△	weisses nach oben weisendes Dreieck	none
+▵	weisses nach oben weisendes kleines Dreieck	none
+▷	weisses nach rechts weisendes Dreieck	none
+▹	weisses nach rechts weisendes kleines Dreieck	none
+▻	weisser nach rechts weisender Zeiger	none
+▽	weisses nach unten weisendes Dreieck	none
+▿	weisses nach unten weisendes kleines Dreieck	none
+◁	weisses nach links weisendes Dreieck	none
+◃	weisses nach links weisendes kleines Dreieck	none
+◅	weisser nach links weisender Zeiger	none
+◇	weisses Karo	none
+◈	weisses Karo mit kleinem schwarzem Karo	none
+◉	weisser Kreis mit kleinem schwarzem Kreis	none
+◕	schwarzer Kreis mit weissem Viertel oben links	none
+◙	schwarzes Quadrat mit weissem Kreis	none
+◦	weisses Aufzählungszeichen	none
 ◯	grosser hohler Kreis	none
-♪	Achtelsnote	none
+◳	weisses Quadrat mit Viertel oben rechts	none
+◷	weisser Kreis mit Viertel oben rechts	none
+◿	weisses Dreieck unten rechts	none
+⪚	gleich über grösser als	none
 😃	grinsendes Gesicht mit grossen Augen	none
-😅	Lachender Smiley mit kaltem Schweiss	none
-🤐	Smiley mit Reissverschlussmund	none
-😶‍🌫	Kopf in den Wolken	none
-😮‍💨	ausatmendes Gesicht	none
-😵‍💫	Gesicht mit Spiralaugen	none
-🥸	Gesicht mit Maske	none
-😳	Erröteter Smiley mit grossen Augen	none
-😰	Smiley mit offenem Mund und kaltem Schweiss	none
-😓	Smiley mit kaltem Schweiss	none
-👽	Ausserirdisches Wesen	none
-❤‍🔥	brennendes Herz	none
-❤‍🩹	Herz mit Pflaster	none
+😅	grinsendes Gesicht mit Schweisstropfen	none
+🤐	Gesicht mit Reissverschlussmund	none
+😳	errötetes Gesicht mit grossen Augen	none
+😰	besorgtes Gesicht mit Schweisstropfen	none
+😓	bedrücktes Gesicht mit Schweiss	none
+👽	Ausserirdischer	none
 🤍	weisses Herz	none
 💥	Zusammenstoss	none
 💦	Schweisstropfen	none
-🖖	Vulkanischer Gruss	none
+🖖	vulkanischer Gruss	none
 🤘	Teufelsgruss	none
 🦶	Fuss	none
-🧟‍♂	Zombiemann	none
+🫦	auf Lippe beissen	none
 🚶	Fussgänger(in)	none
 🚶‍♂	Fussgänger	none
 🚶‍♀	Fussgängerin	none
-🧑‍🦯	Person mit Langstock	none
 👣	Fussabdrücke	none
 🦳	weisses Haar	none
 💐	Blumenstrauss	none
-🌶	Chili	none
-🫑	Peperoni	none
-🍗	Pouletschenkel	none
-🍠	Geröstete Süsskartoffel	none
+🍠	geröstete Süsskartoffel	none
 ☕	Heissgetränk	none
-🫖	Teekrug	none
-♨	Heisse Quellen	none
+🫗	Flüssigkeit ausgiessen	none
+♨	heisse Quellen	none
 🚊	Strassenbahn	none
-🚋	Tramwagen	none
+🚋	Strassenbahnwagen	none
 ⭐	weisser mittelgrosser Stern	none
 🌌	Milchstrasse	none
 🌥	Sonne hinter grosser Wolke	none
 ⚽	Fussball	none
-🩴	Flipflops	none
-⛑	Helm mit weissem Kreuz	none
 📆	Abreisskalender	none
 📌	Reisszwecke	none
-📍	runde Reisszwecke	none
-🛗	Lift	none
-🚼	Baby-Symbol	none
-🚸	Kinder-queren-die-Strasse-Schild	none
-🚷	Fussgänger-verboten-Schild	none
-☢	radioaktiv	none
-➕	Plus	none
-➖	Minus	none
+🚸	Kinder überqueren die Strasse	none
+🚷	Fussgänger verboten	none
 ❔	weisses Fragezeichen	none
 ❕	weisses Ausrufezeichen	none
-💲	fettes Dollarzeichen	none
-⭕	Grosser Kreis	none
-✅	Weisses Häkchen	none
+✅	weisses Häkchen	none
 🔠	Eingabesymbol lateinische Grossbuchstaben	none
-🅰	Grossbuchstabe A in Quadrat	none
+🅰	Grossbuchstabe A in rotem Quadrat	none
 🆎	Grossbuchstaben AB in rotem Quadrat	none
-🅱	Grossbuchstabe B in Quadrat	none
+🅱	Grossbuchstabe B in rotem Quadrat	none
 🆑	Grossbuchstaben CL in rotem Quadrat	none
 🆔	Grossbuchstaben ID in lila Quadrat	none
 🆖	Grossbuchstaben NG in blauem Quadrat	none
-🅾	Grossbuchstabe O in Quadrat	none
+🅾	Grossbuchstabe O in rotem Quadrat	none
 🆗	Grossbuchstaben OK in blauem Quadrat	none
-🅿	Grossbuchstabe P in Quadrat	none
-🆚	Grossbuchstaben VS in orangefarbenem Quadrat	none
-🔴	Grosser roter Kreis	none
-🔵	Grosser blauer Kreis	none
-⚫	Grosser schwarzer Kreis	none
-⚪	Grosser weisser Kreis	none
-⬛	Grosses schwarzes Quadrat	none
-⬜	Grosses weisses Quadrat	none
-◼	Mittelgrosses schwarzes Quadrat	none
-◻	Mittelgrosses weisses Quadrat	none
-◽	Mittelkleines weisses Quadrat	none
-▫	Kleines weisses Quadrat	none
-🔶	Grosse orangefarbene Raute	none
-🔷	Grosse blaue Raute	none
-🔳	Weisse quadratische Schaltfläche	none
-🏳	Wehende weisse Fahne	none
-🏳‍⚧	Transgenderflagge	none
-₿	Bitcoin	none
-🖖🏻	Vulkanischer Gruss helle Hautfarbe	none
-🖖🏼	Vulkanischer Gruss mittelhelle Hautfarbe	none
-🖖🏽	Vulkanischer Gruss mittlere Hautfarbe	none
-🖖🏾	Vulkanischer Gruss mitteldunkle Hautfarbe	none
-🖖🏿	Vulkanischer Gruss dunkle Hautfarbe	none
+🅿	Grossbuchstabe P in blauem Quadrat	none
+⚪	weisser Punkt	none
+⬛	grosses schwarzes Quadrat	none
+⬜	grosses weisses Quadrat	none
+◼	mittelgrosses schwarzes Quadrat	none
+◻	mittelgrosses weisses Quadrat	none
+◽	mittelkleines weisses Quadrat	none
+▫	kleines weisses Quadrat	none
+🔶	grosse orangefarbene Raute	none
+🔷	grosse blaue Raute	none
+🔳	weisse quadratische Schaltfläche	none
+🏳	weisse Flagge	none
+🖖🏻	vulkanischer Gruss helle Hautfarbe	none
+🖖🏼	vulkanischer Gruss mittelhelle Hautfarbe	none
+🖖🏽	vulkanischer Gruss mittlere Hautfarbe	none
+🖖🏾	vulkanischer Gruss mitteldunkle Hautfarbe	none
+🖖🏿	vulkanischer Gruss dunkle Hautfarbe	none
 🤘🏻	Teufelsgruss helle Hautfarbe	none
 🤘🏼	Teufelsgruss mittelhelle Hautfarbe	none
 🤘🏽	Teufelsgruss mittlere Hautfarbe	none
@@ -106,12 +112,12 @@ symbols:
 🦶🏽	Fuss mittlere Hautfarbe	none
 🦶🏾	Fuss mitteldunkle Hautfarbe	none
 🦶🏿	Fuss dunkle Hautfarbe	none
-🧑‍🦳	Erwachsener weisses Haar	none
-🧑🏻‍🦳	Erwachsener helle Hautfarbe, weisses Haar	none
-🧑🏼‍🦳	Erwachsener mittelhelle Hautfarbe, weisses Haar	none
-🧑🏽‍🦳	Erwachsener mittlere Hautfarbe, weisses Haar	none
-🧑🏾‍🦳	Erwachsener mitteldunkle Hautfarbe, weisses Haar	none
-🧑🏿‍🦳	Erwachsener dunkle Hautfarbe, weisses Haar	none
+🧑‍🦳	Person weisses Haar	none
+🧑🏻‍🦳	Person helle Hautfarbe, weisses Haar	none
+🧑🏼‍🦳	Person mittelhelle Hautfarbe, weisses Haar	none
+🧑🏽‍🦳	Person mittlere Hautfarbe, weisses Haar	none
+🧑🏾‍🦳	Person mitteldunkle Hautfarbe, weisses Haar	none
+🧑🏿‍🦳	Person dunkle Hautfarbe, weisses Haar	none
 👨‍🦳	Mann weisses Haar	none
 👨🏻‍🦳	Mann helle Hautfarbe, weisses Haar	none
 👨🏼‍🦳	Mann mittelhelle Hautfarbe, weisses Haar	none
@@ -139,15 +145,21 @@ symbols:
 🚶🏽‍♀	Fussgängerin mittlere Hautfarbe	none
 🚶🏾‍♀	Fussgängerin mitteldunkle Hautfarbe	none
 🚶🏿‍♀	Fussgängerin dunkle Hautfarbe	none
-🧑🏻‍🦯	Person mit Langstock helle Hautfarbe	none
-🧑🏼‍🦯	Person mit Langstock mittelhelle Hautfarbe	none
-🧑🏽‍🦯	Person mit Langstock mittlere Hautfarbe	none
-🧑🏾‍🦯	Person mit Langstock mitteldunkle Hautfarbe	none
-🧑🏿‍🦯	Person mit Langstock dunkle Hautfarbe	none
-🇧🇳	Flagge Brunei	none
-🇧🇼	Flagge Botswana	none
-🇨🇻	Flagge Kapverden	none
-🇬🇧	Flagge Grossbritannien	none
-🇸🇧	Flagge Salomon-Inseln	none
-🇹🇱	Flagge Osttimor	none
-🇿🇼	Flagge Zimbabwe	none
+🚶‍➡	Fussgänger(in) nach rechts	none
+🚶🏻‍➡	Fussgänger(in) helle Hautfarbe, nach rechts	none
+🚶🏼‍➡	Fussgänger(in) mittelhelle Hautfarbe, nach rechts	none
+🚶🏽‍➡	Fussgänger(in) mittlere Hautfarbe, nach rechts	none
+🚶🏾‍➡	Fussgänger(in) mitteldunkle Hautfarbe, nach rechts	none
+🚶🏿‍➡	Fussgänger(in) dunkle Hautfarbe, nach rechts	none
+🚶‍♀‍➡	Fussgängerin nach rechts	none
+🚶🏻‍♀‍➡	Fussgängerin helle Hautfarbe, nach rechts	none
+🚶🏼‍♀‍➡	Fussgängerin mittelhelle Hautfarbe, nach rechts	none
+🚶🏽‍♀‍➡	Fussgängerin mittlere Hautfarbe, nach rechts	none
+🚶🏾‍♀‍➡	Fussgängerin mitteldunkle Hautfarbe, nach rechts	none
+🚶🏿‍♀‍➡	Fussgängerin dunkle Hautfarbe, nach rechts	none
+🚶‍♂‍➡	Fussgänger nach rechts	none
+🚶🏻‍♂‍➡	Fussgänger helle Hautfarbe, nach rechts	none
+🚶🏼‍♂‍➡	Fussgänger mittelhelle Hautfarbe, nach rechts	none
+🚶🏽‍♂‍➡	Fussgänger mittlere Hautfarbe, nach rechts	none
+🚶🏾‍♂‍➡	Fussgänger mitteldunkle Hautfarbe, nach rechts	none
+🚶🏿‍♂‍➡	Fussgänger dunkle Hautfarbe, nach rechts	none

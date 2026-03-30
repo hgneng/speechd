@@ -2,256 +2,363 @@
 # DO NOT MODIFY IT!
 # See locale/README.md to know how to import dictionaries
 
-#locale/pt_PT/symbols.dic
+#locale/pt_BR/symbols.dic
 #A part of NonVisual Desktop Access (NVDA)
-#Copyright (c) 2011-2017 NVDA Contributors
+#Copyright (c) 2011-2021 NVDA Contributors, Cleverson Casarin Uliana, Rui Batista, Marlin Rodrigues da Silva, Tiago Melo Casal
 #This file is covered by the GNU General Public License.
 
 complexSymbols:
 # identifier	regexp
-# Sentence endings.
-. sentence ending	(?<=[^\s.])\.(?=[\"'”’)\s]|$)
-! sentence ending	(?<=[^\s!])\!(?=[\"'”’)\s]|$)
-? sentence ending	(?<=[^\s?])\?(?=[\"'”’)\s]|$)
-# Phrase endings.
-; phrase ending	(?<=[^\s;]);(?=\s|$)
-: phrase ending	(?<=[^\s:]):(?=\s|$)
 # Others
+# em português o separador decimal é , (vírgula) e o separador de classes (milhares) tradicional é . (ponto)
 decimal point	(?<![^\d -])\,(?=\d)
-in-word '	(?<=[^\W_])['’]
-negative number	(?<!\w)[-−]{1}(?=[$£€¥.]?\d)
+thousands separator	(?<=\d)\.(?=\d)
 
 symbols:
 # identifier	replacement[[	level][	preserve]][	# display name]
 
 # Complex symbols
-. sentence ending	ponto	all	always
-! sentence ending	exclamação	all	always
-? sentence ending	interrogação	all	always
-; phrase ending	ponto e vírgula	most	always
-: phrase ending	dois pontos	most	always
-decimal point		none	always
-in-word '	apóstrofo	all	norep
-negative number	menos	none	norep
+. sentence ending	ponto	# . fim de sentença
+! sentence ending	exclamação	# ! fim de sentença
+? sentence ending	interrogação	# ? fim de sentença
+; phrase ending	ponto e vírgula	# ; fim de período
+: phrase ending	dois pontos	# : fim de período
+decimal point		# separador decimal
+in-word '	apóstrofo	# ' em palavra
+negative number	menos	# número negativo
+thousands separator	ponto	all	norep	# separador de classes numéricas (milhares, milhão, etc)
 
 # Whitespace
-\0	branco	char	# null
+\0	em branco	# nulo
 \t	tab
-\n	quebra de linha	char
-\f	quebra de página	none
-\r	retorno	char
- 	espaço	char
- 	espaço	char	# no-break space
+\n	nova linha
+\f	quebra de página
+\r	retôrno
+ 	espaço
+ 	espaço sem quebra	# espaço sem quebra
 
 # Standard punctuation/symbols
-!	exclamação	all
-"	aspas	most
-\#	cardinal	some
-$	cifrão	all	norep
-£	libra	all	norep
-€	euro	all	norep
-¢	Cêntimos	all	norep
-¥	Yene	all	norep
-₹	Rúpia	all	norep
-ƒ	florim	all	norep
-¤	símbolo monetário	all	norep
-%	porcento	some
-‰	por mil	some
-&	and	some
-'	apóstrofo	all
-(	abrir parênteses	most	always
-)	fechar parênteses	most	always
-*	asterisco	some
-+	mais	some
-−	menos	some
-,	vírgula	all	always
--	hífen	most
-.	ponto	some
-/	barra	some
-:	dois pontos	most	norep
-;	ponto e vírgula	most
-<	menor que	some
->	maior que	some
-=	igual	some
-?	interrogação	all
-@	arrôba	some
-[	abrir parênteses rectos	most
-]	fechar parênteses rectos	most
-\\	barra invertida	most
-^	circunflexo	most
-_	sublinhado	most
-`	grave	most
-{	abrir chavetas	most
-}	fechar chavetas	most
-|	barra vertical	most
-¦	barra vertical cortada	most
-~	til	most
-¡	exclamação invertida	some
-¿	interrogação invertida	some
-·	ponto centrado	most
-‚	aspas simples baixas	most
-„	aspas duplas baixas	most
-′	primordial	some
-″	primordial duplo	some
-‴	primordial triplo	some
-´	agudo	most
+!	exclamação
+"	aspas
+\#	cardinal
+$	cifrão
+£	libra
+€	euro
+¢	centavos
+¥	iéne
+₹	rúpia
+ƒ	florim
+¤	símbolo monetário
+%	porcento
+&	And
+‰	por mil
+'	apóstrofo
+(	abrir parêntesis
+)	fechar parêntesis
+*	asterisco
+,	vírgula
+、	vírgula ideográfica	all	always
+،	vírgula árabe	all	always
+-	hífen
+.	ponto
+/	barra
+:	dois pontos
+;	ponto e vírgula	-	always
+؛	ponto e vírgula árabe	most
+?	interrogação	-	always
+؟	ponto de interrogação árabe	all
+@	arroba
+[	abrir parênteses rectos
+]	fechar parênteses rectos
+\\	barra invertida
+^	circunflexo
+_	sublinhado
+`	grave
+{	abrir chavetas
+}	fechar chavetas
+|	barra vertical
+¦	barra vertical cortada
+~	til
+¡	exclamação invertida
+¿	interrogação invertida
+·	ponto centrado
+º	 ordinal masculino	most	always	# º
+ª	 ordinal feminino	most	always	# ª
+‚	aspas simples baixas
+„	aspas duplas baixas
+′	plica
+″	plica dupla
+‴	plica tripla
 
 # Other characters
-•	bullet	some
-…	ponto ponto ponto	all	always
-...	ponto ponto ponto	all	always
-	bullet	some
-“	abrir aspas	most
-”	fechar aspas	most
-‘	apóstrofo esquerdo	most
-’	apóstrofo direito	most
-–	travessão	most	always
-—	travessão	most
-­	hífen	most
-⁃	bullet (traço)	none
-●	círculo	most
-○	círculo branco	most
-¨	trema	most
-¯	macron	most
-¸	cedilha	most
-‎	marca da esquerda para a direita	char
-‏	marca da direita para a esquerda	char
-¶	marca de parágrafo	most
-■	quadrado negro	some
-▪	quadrado negro	some
-◾	quadrado negro	some
-□	quadrado branco	some
-◦	bullet branco	some
-⇒	seta dupla à direita	some
-⇨	seta dupla branca	some
-➔	seta à direita	some
-➢	ponta de seta à direita	some
-⮚	ponta de seta à direita	some
-❖	losângulo preto menos X branco	some
-♣	paus preto	some
-♦	losângulo preto	some
-◆	losângulo preto	some
-§	secção	all
-°	graus	some
+•	bullet
+…	ponto ponto ponto
+...	ponto ponto ponto
+“	abrir aspas
+”	fechar aspas
+‘	apóstrofo esquerdo
+’	apóstrofo direito
+–	travessão
+—	travessão
+­	hífen
+⁃	bullet traço
+●	círculo
+○	círculo branco
+¨	trema
+¯	macron
+´	agudo
+¸	cedilha
+‎	marca da esquerda para a direita
+‏	marca da direita para a esquerda
+¶	marca de parágrafo
+■	quadrado negro
+▪	quadrado negro pequeno
+◾	quadrado negro médio
+□	quadrado branco
+◦	bullet  branco
+⇨	seta dupla branca à direita
+➔	seta realçada à direita de cabeça larga
+➢	ponta de Seta à direita com iluminação superior tridimensional
+# pt_BR: para caracteres no original chamados de "diamond", em vez de usar "diamante" para traduzir foi usado "losango" que é uma das traduções para tal palavra inglesa representando melhor o formato de tais caracteres
+❖	losango negro menos x branco
+# pt_BR: caracteres unicode chamados de "club suit", na tradução em vez de usar "clube" são traduzidos como "naipe de paus" por ser a tradução para tal expressão inglesa representando o formato de tais caracteres, mesmo tipo de situação com os caracteres "diamond suit" que são traduzidos como "naipe de ouros"
+♣	paus preto
+♦	ouros preto
+◆	losango preto
+§	-	some
+°	graus
 «	abrir aspas duplas
 »	fechar aspas duplas
-µ	micro	some
-º	ordinal masculino	some
-ª	ordinal femenino	some
-⁰	elevado a 0	some
-¹	elevado a 1	some
-²	elevado a 2	some
-³	elevado a 3	some
-⁴	elevado a 4	some
-⁵	elevado a 5	some
-⁶	elevado a 6	some
-⁷	elevado a 7	some
-⁸	elevado a 8	some
-⁹	elevado a 9	some
-⁺	expoente mais	some
-⁻	expoente menos	some
-⁼	expoente igual	some
-⁽	expoente parêntese esquerdo	some
-⁾	expoente parêntese direito	some
-ⁿ	elevado a n	some
-₀	índice 0	some
-₁	índice 1	some
-₂	índice 2	some
-₃	índice 3	some
-₄	índice 4	some
-₅	índice 5	some
-₆	índice 6	some
-₇	índice 7	some
-₈	índice 8	some
-₉	índice 9	some
-₊	índice mais	some
-₋	índice menos	some
-₌	índice igual	some
-₍	índice parêntese esquerdo	some
-₎	índice parêntese direito	some
-®	marca registada	some
-™	marca comercial registada	some
-©	Copyright	some
-℠	Marca de Serviço	some
-±	mais ou menos	some
-×	vezes	some
-÷	dividir por	some
-←	seta à esquerda	some
-↑	seta acima	some
-→	seta à direita	some
-↓	seta abaixo	some
-✓	marca de verificação	some
-✔	marca de verificação	some
-🡺	seta à direita	some
-†	adaga simples	some
-‡	adaga dupla	some
-‣	marca triangular	none
-✗	Marca em forma de x	none
+µ	micro
+⁰	elevado a 0
+¹	elevado a 1
+²	elevado a 2
+³	elevado a 3
+⁴	elevado a 4
+⁵	elevado a 5
+⁶	elevado a 6
+⁷	elevado a 7
+⁸	elevado a 8
+⁹	elevado a 9
+⁺	expoente mais
+⁼	expoente igual
+⁽	expoente parêntesis esquerdo
+⁾	expoente parêntesis direito
+ⁿ	elevado a n
+₀	índice 0
+₁	índice 1
+₂	índice 2
+₃	índice 3
+₄	índice 4
+₅	índice 5
+₆	índice 6
+₇	índice 7
+₈	índice 8
+₉	índice 9
+₊	índice mais
+₋	índice menos
+₌	índice igual
+₍	índice parêntesis esquerdo
+₎	índice parêntesis direito
+®	marca registada
+™	marca comercial registada
+©	copyright
+℠	Marca de Serviço
+←	seta à esquerda
+↑	seta acima
+→	seta à direita
+↓	seta abaixo
+✓	marca de verificação
+✔	marca de verificação realçada
+🡺	seta farpada realçada à direita de cabeça larga
+†	adaga simples
+‡	adaga dupla
+‣	marca triangular
+✗	marca em forma de x
+⊕	mais num círculo
+⊖	menos num círculo
+⇄	seta à direita sobre seta à esquerda
+⇒	seta dupla à direita
 
-#Mathematical Operators U+2200 to U+220F
-∀	para todos	none
-∁	complemento	none
-∂	derivada parcial	none
-∃	se existe	none
-∄	se não existe	none
-∅	conjunto vazio	none
-∆	incremento	none
-∇	nabla	none
-∈	elemento de	none
-∉	não é elemento de	none
-∊	menor elemento de	none
-∋	contém como membro	none
-∌	não contém como membro	none
-∍	menor contém como membro	none
-∎	fim de prova	none
-∏	n-ary product	none
+#Arithmetic operators
++	mais
+−	menos
+×	vezes
+⋅	operador de ponto
+⨯	vetor ou produto cruzado
+∕	dividido por 
+⁄	dividido por 
+÷	dividido por
+∓	menos ou mais
+±	mais ou menos
 
-# Miscellaneous Mathematical Operators
-∑	somatório n-ary	none
-√	raíz quadrada	none
-∛	raíz cúbica	none
-∜	raíz quarta	none
-∝	proporcional a	none
-∞	infinito	none
-∟	ângulo recto	none
-∠	ângulo	none
-∥	paralelo a	none
-∦	não paralelo a	none
-∧	e lógico	none
-∨	ou lógico	none
-¬	não lógico	none
-∩	intersepção	none
-∪	união	none
-∫	integral	none
-∴	por isso	none
-∵	porque	none
-∶	rácio	none
-∷	proporção	none
-≤	menor ou igual a	none
-≥	maior ou igual a	none
-⊂	subconjunto de	none
-⊃	sobreconjunto de	none
-⊆	subconjunto de ou igual a	none
-⊇	sobreconjunto de ou igual a	none
+#Set operations
+∖	diferença de conjunto
+⊍	multiplicação multiset
+𝒫	potenciação multiset (p maiúsculo)
+𝔓	potenciação multiset (p maiúsculo)
+℘	potenciação multiset (p maiúsculo)
+∁	complemento
+
+#Set relations and set constructions
+∅	conjunto vazio
+⊂	subconjunto de
+⊄	não é um subconjunto de
+⊃	sobreconjunto de
+⊅	não é um sobreconjunto de
+⊆	subconjunto de ou igual a
+⊈	nem um subconjunto de nem igual a
+⊇	sobreconjunto de ou igual a
+⊉	nem um sobreconjunto de nem igual a
+⊌	multiconjunto
+
+#Equality signs
+=	igual
+≃	assintoticamente igual a
+≄	não assintoticamente igual a
+≅	aproximadamente igual a
+≆	aproximadamente mas não exactamente igual a
+≈	quase igual a
+≌	tudo igual a
+≍	equivalente a
+≭	não equivalente a
+≎	geometricamente equivalente a
+≑	geometricamente igual a
+≚	equiangular a
+≬	entre
+≠	diferente de
+≡	idêntico a
+≣	estritamente idêntico a
+≢	não idêntico a
+∼	semelhante a ou operador til
+≙	estimativa
+≟	questionado igual a
+
+#comparison signs
+<	menor que
+>	maior que
+≤	menor ou igual a
+≦	menor ou igual a
+≪	muito menor que
+≥	maior ou igual a
+≧	maior ou igual a
+≫	muito maior que
+≶	menor quê ou maior que
+≷	maior ou menor que
+≮	não menor que
+≯	não maior que
+
+#Functions
+⁻	expoente menos
+∘	anel Operador
+∂	derivada parcial
+∇	nabla
+
+#Geometry and linear Algebra
+⃗	vector entre
+△	triângulo branco apontando para cima
+▭	rectângulo branco
+∟	ângulo recto
+∠	ângulo
+∥	paralelo a
+∦	não paralelo a
+⊥	perpendicular a 
+⟂	ortogonal a
+‖	norma do vector
+̂	normaliza
+∿	onda senoidal
+∡	Ângulo medido
+∢	Ângulo esférico
+
+#Logical operators
+∀	para todos
+∃	se existe
+∄	se não existe
+⇏	não implica (seta dupla para a direita com traço)
+⇐	implica (seta dupla para a esquerda)
+
+#Other mathematical Operators
+∈	elemento de
+∉	não é elemento de
+∊	menor elemento de
+∋	contém como membro
+∌	não contém como membro
+∍	menor contém como membro
+∎	fim de prova
+∏	produtório
+∐	coprodutório
+∑	somatório
+√	raíz quadrada
+∛	raíz cúbica
+∜	raíz quarta
+∝	proporcional a
+∞	infinito
+∧	e lógico
+∨	ou lógico
+¬	não lógico
+∩	intersecção
+∪	união
+∫	integral
+∬	Integral duplo
+∭	Integral triplo
+∮	Integral de linha
+∯	Integral de superfície
+∰	Integral de volume
+∱	Integral em sentido horário
+∲	Integral linear em sentido horário
+∳	Integral linear em sentido anti-horário
+∴	por isso
+∵	porque
+∶	rácio
+∷	proporção
+∹	excesso
+∺	proporção geométrica
+≀	produto entrelaçado
+≏	diferença entre
+≐	aproxima-se do limite
+∙	Operador bolinha
+∣	divide
+∤	não divide
+≔	dois pontos igual
+≕	igual dois pontos
+≺	precede
+≻	sucede
+⊀	não precede
+⊁	não sucede
 
 # Vulgur Fractions U+2150 to U+215E
-½	um meio	none
-⅓	um terço	none
-⅔	dois terços	none
-¼	um quarto	none
-¾	três quartos	none
-⅕	um quinto	none
-⅖	dois quintos	none
-⅗	três quintos	none
-⅘	quatro quintos	none
-⅙	um sexto	none
-⅚	cinco sextos	none
-⅐	um sétimo	none
-⅛	um oitavo	none
-⅜	três oitavos	none
-⅝	cinco oitavos	none
-⅞	sete oitavos	none
-⅑	um nono	none
-⅒	um décimo	none
+½	um meio
+⅓	um terço
+⅔	dois terços
+¼	um quarto
+¾	três quartos
+⅕	um quinto
+⅖	dois quintos
+⅗	três quintos
+⅘	quatro quintos
+⅙	um sexto
+⅚	cinco sextos
+⅐	um sétimo
+⅛	um oitavo
+⅜	três oitavos
+⅝	cinco oitavos
+⅞	sete oitavos
+⅑	um nono
+⅒	um décimo
+
+#Number sets
+𝔸	números algébricos a maiúsculo traçado
+ℂ	números complexos c maiúsculo traçado
+ℑ	parte imaginária do número complexo letra preta i maiúscula
+ℍ	quatérnios h maiúsculo traçado
+ℕ	números naturais n maiúsculo traçado
+𝕁	números não negativos (inteiros) j maiúsculo traçado
+ℚ	números racionais q maiúsculo traçado
+ℝ	números reais r maiúsculo traçado
+ℜ	parte real do número complexo letra preta r maiúscula
+ℤ	inteiros z maiúsculo traçado
+ℵ	primeiro cardinal transfinito símbolo alef
+ℶ	segundo cardinal transfinito símbolo bet
+
 # Miscellaneous Technical
-⌘	Tecla Command do Mac	none
+⌘	Tecla Command do Mac

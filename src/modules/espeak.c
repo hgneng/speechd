@@ -3,7 +3,7 @@
  * espeak.c - Speech Dispatcher backend for espeak
  *
  * Copyright (C) 2007 Brailcom, o.p.s.
- * Copyright (C) 2019-2021 Samuel Thibault <samuel.thibault@ens-lyon.org>
+ * Copyright (C) 2019-2025 Samuel Thibault <samuel.thibault@ens-lyon.org>
  *
  * This is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by
@@ -35,6 +35,12 @@
 #include <ctype.h>
 #include <glib.h>
 #include <fcntl.h>
+
+#ifdef ESPEAK_NG_INCLUDE
+#ifdef __linux__
+#include <sys/inotify.h>
+#endif
+#endif
 
 /* espeak header file */
 #ifdef ESPEAK_NG_INCLUDE
@@ -80,6 +86,11 @@ typedef enum {
 
 static int espeak_sample_rate = 0;
 static SPDVoice **espeak_voice_list = NULL;
+#ifdef ESPEAK_NG_INCLUDE
+#ifdef __linux__
+static int mbrola_voice_inotify = -1;
+#endif
+#endif
 #ifdef ESPEAK_NG_INCLUDE
 struct espeak_variant {
 	char *name;
@@ -207,6 +218,7 @@ int module_init(char **status_info)
 	    espeak_Initialize(AUDIO_OUTPUT_SYNCHRONOUS, EspeakAudioChunkSize,
 			      NULL, 0);
 #endif
+	DBG(DBG_MODNAME " Sample rate is %d", espeak_sample_rate);
 	if (espeak_sample_rate == EE_INTERNAL_ERROR) {
 		DBG(DBG_MODNAME " Could not initialize engine.");
 		*status_info = g_strdup("Could not initialize engine. ");
@@ -222,7 +234,31 @@ int module_init(char **status_info)
 	if (ret != OK)
 		DBG(DBG_MODNAME " Failed to set punctuation list.");
 
+#ifdef ESPEAK_NG_INCLUDE
+#ifdef __linux__
+	if (EspeakMbrola) {
+		mbrola_voice_inotify = inotify_init1(IN_NONBLOCK|IN_CLOEXEC);
+		if (mbrola_voice_inotify >= 0) {
+			const char *espeak_data;
+			char *path;
+			espeak_Info(&espeak_data);
+
+			path = g_strdup_printf("%s/mbrola", espeak_data);
+			inotify_add_watch(mbrola_voice_inotify, path, IN_CREATE|IN_DELETE);
+			g_free(path);
+
+			inotify_add_watch(mbrola_voice_inotify, "/usr/share/mbrola", IN_CREATE|IN_DELETE);
+			inotify_add_watch(mbrola_voice_inotify, "/usr/share/mbrola/voices", IN_CREATE|IN_DELETE);
+		}
+	}
+#endif
+#endif
+
 	espeak_voice_list = espeak_list_synthesis_voices();
+	if (espeak_voice_list == NULL) {
+		*status_info = g_strdup(DBG_MODNAME " has no voice.");
+		return FATAL_ERROR;
+	}
 
 	initialized = TRUE;
 	*status_info = g_strdup(DBG_MODNAME " Initialized successfully.");
@@ -232,6 +268,27 @@ int module_init(char **status_info)
 
 SPDVoice **module_list_voices(void)
 {
+#ifdef ESPEAK_NG_INCLUDE
+#ifdef __linux__
+	if (mbrola_voice_inotify >= 0) {
+		char buf[1024];
+		struct inotify_event *e = (void*) buf;
+		ssize_t n = read(mbrola_voice_inotify, buf, sizeof(buf));
+
+		if (n > 0) {
+			DBG(DBG_MODNAME "Mbrola path %s updated, re-loading voice list", e->name);
+
+			/* Mbrola voice added or removed */
+			while (read(mbrola_voice_inotify, buf, sizeof(buf)) > 0)
+				/* Flush all events before we re-read voices */
+				;
+
+			espeak_free_voice_list();
+			espeak_voice_list = espeak_list_synthesis_voices();
+		}
+	}
+#endif
+#endif
 	return espeak_voice_list;
 }
 
@@ -247,22 +304,21 @@ void module_speak_sync(const gchar * data, size_t bytes, SPDMessageType msgtype)
 	    (unsigned long)bytes);
 
 	/* Setting speech parameters. */
-	UPDATE_STRING_PARAMETER(voice.language, espeak_set_language);
-	UPDATE_PARAMETER(voice_type, espeak_set_voice);
-	UPDATE_STRING_PARAMETER(voice.name, espeak_set_synthesis_voice);
-
-	if (msg_settings_old.voice.name && strstr(msg_settings_old.voice.name , "mbrola"))
+#ifdef ESPEAK_NG_INCLUDE
+	if (EspeakMbrola)
 	{
-		if (msgtype == SPD_MSGTYPE_TEXT)
-		{
-			/* espeak has troubles with setting mbrola voices in SSML mode
-			 * https://github.com/espeak-ng/espeak-ng/issues/1011 */
-			DBG(DBG_MODNAME " mbrola voice, stripping SSML.");
-			msg = module_strip_ssml(data);
-			data = msg;
-		}
-
-		flags &= ~espeakSSML;
+		/* espeak has troubles with setting mbrola voices in SSML mode
+		 * https://github.com/espeak-ng/espeak-ng/issues/1011 */
+		espeak_set_language(msg_settings.voice.language);
+		espeak_set_voice(msg_settings.voice_type);
+		espeak_set_synthesis_voice(msg_settings.voice.name);
+	}
+	else
+#endif
+	{
+		UPDATE_STRING_PARAMETER(voice.language, espeak_set_language);
+		UPDATE_PARAMETER(voice_type, espeak_set_voice);
+		UPDATE_STRING_PARAMETER(voice.name, espeak_set_synthesis_voice);
 	}
 
 	UPDATE_PARAMETER(rate, espeak_set_rate);
@@ -329,11 +385,20 @@ void module_speak_sync(const gchar * data, size_t bytes, SPDMessageType msgtype)
 			break;
 		}
 	case SPD_MSGTYPE_KEY:{
-			/* TODO: Convert unspeakable keys to speakable form */
+			const char *key = data;
+			/* Convert unspeakable keys to speakable form, see espeak-ng's ReplaceKeyName */
+			if (!strcmp(key, " "))
+				key = "space";
+			else if (!strcmp(key, "\t"))
+				key = "tab";
+			else if (!strcmp(key, "_"))
+				key = "underscore";
+			else if (!strcmp(key, "\""))
+				key = "double-quote";
 			char *msg =
 			    g_strdup_printf
 			    ("<say-as interpret-as=\"tts:key\">%s</say-as>",
-			     data);
+			     key);
 			result =
 			    espeak_Synth(msg, strlen(msg) + 1, 0, POS_CHARACTER,
 					 0, flags, NULL, NULL);
@@ -392,6 +457,16 @@ int module_close(void)
 	espeak_Terminate();
 
 	espeak_free_voice_list();
+
+#ifdef ESPEAK_NG_INCLUDE
+#ifdef __linux__
+	if (mbrola_voice_inotify >= 0)
+	{
+		close(mbrola_voice_inotify);
+		mbrola_voice_inotify = -1;
+	}
+#endif
+#endif
 
 	initialized = FALSE;
 
@@ -504,7 +579,7 @@ static void espeak_set_punctuation_mode(SPDPunctuation punct_mode)
 	espeak_ERROR ret =
 	    espeak_SetParameter(espeakPUNCTUATION, espeak_punct_mode, 0);
 	if (ret != EE_OK) {
-		DBG(DBG_MODNAME " Failed to set punctuation mode.");
+		DBG(DBG_MODNAME " Failed to set punctuation mode to %d.", espeak_punct_mode);
 	} else {
 		DBG("Set punctuation mode.");
 	}
@@ -528,7 +603,7 @@ static void espeak_set_cap_let_recogn(SPDCapitalLetters cap_mode)
 	espeak_ERROR ret =
 	    espeak_SetParameter(espeakCAPITALS, espeak_cap_mode, 1);
 	if (ret != EE_OK) {
-		DBG(DBG_MODNAME " Failed to set capitals mode.");
+		DBG(DBG_MODNAME " Failed to set capitals mode to %d.", espeak_cap_mode);
 	} else {
 		DBG("Set capitals mode.");
 	}
@@ -540,54 +615,52 @@ static void espeak_set_language_and_voice(char *lang, SPDVoiceType voice_code)
 	DBG(DBG_MODNAME " set_language_and_voice %s %d", lang, voice_code);
 	espeak_ERROR ret;
 
-	unsigned char overlay = 0;
+	espeak_VOICE voice_select;
+	memset(&voice_select, 0, sizeof(voice_select));
+	voice_select.languages = lang;
+
 	switch (voice_code) {
 	case SPD_MALE1:
-		overlay = 0;
+		voice_select.gender = 1;
 		break;
 	case SPD_MALE2:
-		overlay = 1;
+		voice_select.gender = 1;
+		voice_select.variant = 1;
 		break;
 	case SPD_MALE3:
-		overlay = 2;
+		voice_select.gender = 1;
+		voice_select.variant = 2;
 		break;
 	case SPD_FEMALE1:
-		overlay = 11;
+		voice_select.gender = 2;
 		break;
 	case SPD_FEMALE2:
-		overlay = 12;
+		voice_select.gender = 2;
+		voice_select.variant = 1;
 		break;
 	case SPD_FEMALE3:
-		overlay = 13;
+		voice_select.gender = 2;
+		voice_select.variant = 2;
 		break;
 	case SPD_CHILD_MALE:
-		overlay = 4;
+		voice_select.gender = 1;
+		voice_select.age = 10;
 		break;
 	case SPD_CHILD_FEMALE:
-		overlay = 14;
+		voice_select.gender = 2;
+		voice_select.age = 10;
 		break;
 	default:
-		overlay = 0;
 		break;
 	}
 
-	char *name = g_strdup_printf("%s+%d", lang, overlay);
-	DBG(DBG_MODNAME " set_language_and_voice name=%s", name);
-	ret = espeak_SetVoiceByName(name);
+	ret = espeak_SetVoiceByProperties(&voice_select);
 
 	if (ret != EE_OK) {
-		espeak_VOICE voice_select;
-		memset(&voice_select, 0, sizeof(voice_select));
-		voice_select.languages = name;
-		ret = espeak_SetVoiceByProperties(&voice_select);
-	}
-
-	if (ret != EE_OK) {
-		DBG(DBG_MODNAME " Error selecting language %s", name);
+		DBG(DBG_MODNAME " Error selecting language %s", lang);
 	} else {
-		DBG(DBG_MODNAME " Successfully set voice to \"%s\"", name);
+		DBG(DBG_MODNAME " Successfully set voice to \"%s\"", lang);
 	}
-	g_free(name);
 }
 
 static void espeak_set_voice(SPDVoiceType voice)
@@ -675,15 +748,10 @@ static gboolean espeak_send_audio_upto(short *wav, int *sent, int upto)
 	if (wav == NULL || numsamples == 0) {
 		return TRUE;
 	}
-#ifdef ESPEAK_NG_INCLUDE
-	int rate = espeak_ng_GetSampleRate();
-#else
-	int rate = espeak_sample_rate;
-#endif
 	AudioTrack track = {
 		.bits = 16,
 		.num_channels = 1,
-		.sample_rate = rate,
+		.sample_rate = espeak_sample_rate,
 		.num_samples = numsamples,
 		.samples = wav + (*sent),
 	};
@@ -699,6 +767,7 @@ static int synth_callback(short *wav, int numsamples, espeak_EVENT * events)
 	static int numsamples_sent_msg = 0;
 	/* Number of samples already sent during this call to the callback. */
 	int numsamples_sent = 0;
+	int first = 1, nextfirst;
 
 	/* Process server events in case we were told to stop in between */
 	module_process(STDIN_FILENO, 0);
@@ -717,6 +786,7 @@ static int synth_callback(short *wav, int numsamples, espeak_EVENT * events)
 
 	/* Process events and audio data */
 	while (events->type != espeakEVENT_LIST_TERMINATED) {
+		nextfirst = 0;
 		/* Enqueue audio upto event */
 		switch (events->type) {
 		case espeakEVENT_MARK:
@@ -741,6 +811,13 @@ static int synth_callback(short *wav, int numsamples, espeak_EVENT * events)
 			return 1;
 		/* Process actual event */
 		switch (events->type) {
+		case espeakEVENT_SENTENCE:
+		case espeakEVENT_WORD:
+		case espeakEVENT_PHONEME:
+		case espeakEVENT_END:
+			// Ignore
+			break;
+
 		case espeakEVENT_MARK:
 			if (EspeakIndexing) {
 				DBG(DBG_MODNAME " Reporting mark %s", events->id.name);
@@ -761,12 +838,26 @@ static int synth_callback(short *wav, int numsamples, espeak_EVENT * events)
 			// This event never has any audio in the same callback
 			DBG(DBG_MODNAME " Synth terminated");
 			break;
+		case espeakEVENT_SAMPLERATE:
+			DBG(DBG_MODNAME " Got sample rate %d", events->id.number);
+			if (first) {
+				/* espeak-ng currently seems to produce odd
+				 * sample rate changes, so ignore them but the
+				 * initial event for now.
+				 * See https://github.com/espeak-ng/espeak-ng/issues/2028 */
+				espeak_sample_rate = events->id.number;
+				/* Keep looking at sample rate changes until we get something else */
+				nextfirst = 1;
+			}
+			break;
 		default:
+			DBG(DBG_MODNAME " Got unsupported event %d\n", events->type);
 			break;
 		}
 		if (stop_requested)
 			return 1;
 		events++;
+		first = nextfirst;
 	}
 	espeak_send_audio_upto(wav, &numsamples_sent, numsamples);
 	numsamples_sent_msg += numsamples;
@@ -842,6 +933,14 @@ static SPDVoice **espeak_list_synthesis_voices()
 
 	numvoices = g_queue_get_length(voice_list);
 	DBG(DBG_MODNAME " %d voices total.", numvoices);
+#ifdef ESPEAK_NG_INCLUDE
+	if (!EspeakMbrola)
+#endif
+	{
+		if (numvoices == 0) {
+			return NULL;
+		}
+	}
 
 	memset(&voice_spec, 0, sizeof(voice_spec));
 	voice_spec.languages = "variant";
@@ -880,7 +979,6 @@ static SPDVoice **espeak_list_synthesis_voices()
 		{
 			const char *identifier = espeak_mbrola[j]->identifier;
 			char *voicename, *dash, *path;
-			struct stat st;
 
 			totnummbrola++;
 
@@ -890,7 +988,7 @@ static SPDVoice **espeak_list_synthesis_voices()
 
 			if (!strncmp(identifier, "mb/mb-", 6)) {
 				voicename = g_strdup(identifier + 6);
-				dash = index(voicename, '-');
+				dash = strchr(voicename, '-');
 				if (dash)
 					/* Ignore "-en" language specification */
 					*dash = 0;
@@ -930,6 +1028,15 @@ static SPDVoice **espeak_list_synthesis_voices()
 #endif
 
 	totalvoices = (numvoices * (numvariants + 1)) + nummbrola;
+
+	if (totalvoices == 0) {
+		if (voice_list != NULL)
+			g_queue_free(voice_list);
+		if (variant_list != NULL)
+			g_queue_free_full(variant_list, (GDestroyNotify)g_free);
+		return NULL;
+	}
+
 	result = g_new0(SPDVoice *, totalvoices + 1);
 	voice_list_iter = g_queue_peek_head_link(voice_list);
 

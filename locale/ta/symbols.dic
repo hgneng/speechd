@@ -2,11 +2,9 @@
 # DO NOT MODIFY IT!
 # See locale/README.md to know how to import dictionaries
 
-#locale/ta/symbols.dic
 #A part of NonVisual Desktop Access (NVDA)
-#Copyright (c) 2011-2017 NVDA Contributors
+#Copyright (c) 2011-2024 NVDA Contributors. Thanks: Association for the Rights of the Visually Challenged (ARVIC), Coimbatore, Tamil Nadu, India
 #This file is covered by the GNU General Public License.
-# Thanks: Association for the Rights of the Visually Challenged (ARVIC), Coimbatore, Tamil Nadu, India
 
 complexSymbols:
 # identifier	regexp
@@ -17,6 +15,8 @@ complexSymbols:
 # Phrase endings.
 ; phrase ending	(?<=[^\s;]);(?=\s|$)
 : phrase ending	(?<=[^\s:]):(?=\s|$)
+# Series of dots used for visual presentation, e.g. in table of contents
+multiple .	\.{4,}
 # Others
 decimal point	(?<=\d)\.(?=\d)
 in-word '	(?<=[^\W_])['’]
@@ -34,7 +34,8 @@ symbols:
 ? sentence ending	கேள்வி?	all	always
 ; phrase ending	அரைப் புள்ளி	most	always
 : phrase ending	முக்கால் புள்ளி	most	always
-decimal point	புள்ளி	none	always
+multiple .	multiple dots	all	always
+decimal point	புள்ளி	all	always
 in-word '	ஒற்றை மேற்கோள்	all	norep
 negative number	கழித்தல்	none	norep
 # number dash, tamil letter special case:
@@ -51,6 +52,7 @@ tamilNumberDash	இணைக்கோடு	char	always
 
 # Standard punctuation/symbols
 !	கூவல்!	all
+！	முழு அகல கூவல்!	all
 "	மேற்கோள்	most
 \#	எண்	most
 $	டாலர்	all	norep
@@ -65,21 +67,24 @@ $	டாலர்	all	norep
 ‰	per mille	some
 &	மற்றும்	some
 '	ஒற்றை மேற்கோள்	all
-(	இடப்பிறை	most
-)	வலப்பிறை	most
+(	இடப்பிறை	most	always
+)	வலப்பிறை	most	always
 *	பெருக்கல்	some
-+	கூட்டல்	some
-−	கழித்தல்	some
-,	கால் புள்ளி	all	always
--	இணைக்கோடு	most
+,	காற்புள்ளி	all	always
+、	கருத்தியல் காற்புள்ளி	all	always
+،	அரேபியக் காற்புள்ளி	all	always
+-	இணைக்கோடு	most	always
 .	புள்ளி	some
+．	முழு அகல முற்றுப் புள்ளி	some
 /	சாய்வு	some
 :	முக்கால் புள்ளி	most	norep
+：	முழு அகல முக்கால் புள்ளி	most	norep
 ;	அரைப் புள்ளி	most
-<	குறைவு	most
->	மிகுதி	most
-=	சமம்	some
+؛	அரேபிய அரைப்புள்ளி	most
+；	முழு அகல அரைப் புள்ளி	most
 ?	கேள்வி?	all
+؟	அரேபியக் கேள்விக் குறி	all
+？	முழு அகல கேள்வி?	all
 @	at	some
 [	இடப்பகரம்	most
 ]	வலப்பகரம்	most
@@ -109,8 +114,8 @@ _	அடிக்கோடு	most
 ”	வல மேற்கோள்	most
 ‘	இட ஒற்றை மேற்கோள்	most
 ’	வல ஒற்றை மேற்கோள்	most
-–	en dash	most	always
-–	சிறுகோடு	most
+–	என் சிறுகோடு	most	always
+—	எம் சிறுகோடு	most	always
 ­	மெல்லிய இணைக்கோடு	most
 ⁃	இணைக்கோடு தோட்டா	none
 ●	வட்டம்	most
@@ -127,22 +132,18 @@ _	அடிக்கோடு	most
 ◾	கருஞ்சதுரம்	some
 □	வெண்சதுரம்	some
 ◦	வெள்ளைத் தோட்டா	some
-⇒	இரட்டை வலதம்பு	some
-⇨	வெள்ளை வலதம்பு	some
+⇨வெள்ளை	வலதம்பு	some
 ➔	வலதம்பு	some
 ➢	வலதம்பு முனை	some
-⮚	வலதம்பு முனை	some
 ❖	X குறியற்ற கருவைரம்	some
 ♣	கருந்தடி முனை	some
 ♦	கருவைரம்	some
 ◆	கருவைரம்	some
 §	பிரிவு	all
 °	பாகை	some
-«	double left pointing angle bracket
-»	double right pointing angle bracket
+«	double left pointing angle bracket	most	always
+»	double right pointing angle bracket	most	always
 µ	micro	some
-º	மேலெழுத்து o	some
-ª	மேலெழுத்து a	some
 ⁰	மேலெழுத்து 0	some
 ¹	மேலெழுத்து 1	some
 ²	மேலெழுத்து 2	some
@@ -154,7 +155,6 @@ _	அடிக்கோடு	most
 ⁸	மேழெழுத்து 8	some
 ⁹	மேழெழுத்து 9	some
 ⁺	மேழெழுத்து கூட்டல்	some
-⁻	மேழெழுத்து கழித்தல்	some
 ⁼	மேழெழுத்து சமம்	some
 ⁽	மேழெழுத்து இடப்பிறை	some
 ⁾	மேழெழுத்து வலப்பிறை	some
@@ -174,13 +174,10 @@ _	அடிக்கோடு	most
 ₌	கீழெழுத்து சமம்	some
 ₍	கீழெழுத்து இடப்பிறை	some
 ₎	கீழெழுத்து வலப்பிறை	some
-®	பதிவு	none
+®	பதிவு	some
 ™	வணிகம்	some
-©	பதிப்புரிமை	none
+©	பதிப்புரிமை	some
 ℠	சேவைக்குறி	some
-±	கூட்டல் கழித்தல்	most
-×	தடவை	most
-÷	வகுத்தல்	most
 ←	இடதம்பு	some
 ↑	மேலம்பு	some
 →	வலதம்பு	some
@@ -192,17 +189,109 @@ _	அடிக்கோடு	most
 ‡	இரட்டைக் குத்துவாள்	some
 ‣	முக்கோணத் தோட்டா	none
 ✗	x வடிவ தோட்டா	none
+⊕	வட்டமிட்டக் கூட்டல்	none
+⊖	வட்டமிட்டக் கழித்தல்	none
+⇄	இடதம்புக்கு மேல் வலதம்பு	none
+⇒	இரட்டை வலதம்பு	none
 
-#Mathematical Operators U+2200 to U+220F
+#Arithmetic operators
++	கூட்டல்	some
+−	கழித்தல்	some
+×	முறை	some
+⋅	முறை	some
+⨯	முறை	none
+∕	வகுத்தல்	some
+⁄	வகுத்தல்	some
+÷	வகுத்தல்	some
+∓	கழித்தல் அல்லது கூட்டல்	some
+±	கூட்டல் அல்லது கழித்தல்	some
 
-∀	for all	none
-∁	complement	none
-∂	partial derivative	none
-∃	there exists	none
-∄	there does not exist	none
+#Set operations
+∖	set minus	none
+⊍	set union	none
+𝒫	power set of the set	none
+𝔓	power set of the set	none
+℘	power set of the set	none
+∁	complement of the set	none
+
+#Set relations and set constructions
 ∅	empty set	none
-∆	increment	none
-∇	nabla	none
+⊂	subset of	none
+⊄	not a subset of	none
+⊃	superset of	none
+⊅	not a superset of	none
+⊆	subset of or equal to	none
+⊈	neither a subset of nor equal to	none
+⊇	superset of or equal to	none
+⊉	neither a superset of nor equal to	none
+⊌	multiset	none
+
+#Equality signs
+=	சமம்	some
+≃	அறிகுறியற்ற சமம்	none
+≄	அறிகுறியுடனான சமம்	none
+≅	தோராயமாக சமம்	none
+≆	தோராயமாக ஆனால் உண்மையில் சமமற்ற	none
+≈	கிட்டத்தட்ட சமம்	none
+≌	அனைத்தும் சமம்	none
+≍	நிகரான	none
+≭	நிகரற்ற	none
+≎	வடிவியல் ரீதியான சமம்	none
+≑	வடிவியல் ரீதியான சமம்	none
+≚	சமகோண	none
+≬	இடைப்பட்ட	none
+≠	சமமல்ல	none
+≡	ஒத்தது	none
+≣	உறுதியான சமானம்	none
+≢	இதற்கு ஒத்ததில்லை	none
+∼	similar to	none
+≙	estimates	none
+≟	questioned equal to	none
+
+#comparison signs
+<	குறைவு	some
+>	மிகுதி	some
+≤	குறைவாக அல்லது சமமாக	none
+≦	குறைவாக அல்லது சமமாக	none
+≪	மிகக் குறைவு	none
+≥	மிகுதியாக அல்லது சமமாக	none
+≧	மிகுதியாக அல்லது சமமாக	none
+≫	மிகப் பெரியது	none
+≶	குறைவாக அல்லது மிகுதியாக	none
+≷	மிகுதியாக அல்லது குறைவாக	none
+≮	குறைவாக இல்லை	none
+≯	மிகுதியாக இல்லை	none
+
+#Functions
+⁻	inverse	some
+∘	ring Operator	none
+∂	partial derivative	none
+∇	gradient of	none
+
+#Geometry and linear Algebra
+⃗	vector between	none
+△	triangle	none
+▭	rectangle	none
+∟	right angle	none
+∠	angle	none
+∥	parallel to	none
+∦	not parallel to	none
+⊥	perpendicular to	none
+⟂	ortogonal to	none
+‖	norm of vector	none
+̂	normalizes	none
+∿	sine wave	none
+∡	measured Angle	none
+∢	spherical Angle	none
+
+#Logical operators
+∀	எல்லாவற்றுக்கும்	none
+∃	அங்குள்ளது	none
+∄	அங்கில்லை	none
+⇏	குறிக்கவில்லை	none
+⇐	இதன் மூலம் குறிக்கப்பட்டது	none
+
+# Other Mathematical Operators
 ∈	element of	none
 ∉	not an element of	none
 ∊	small element of	none
@@ -211,37 +300,47 @@ _	அடிக்கோடு	most
 ∍	small contains as member	none
 ∎	end of proof	none
 ∏	n-ary product	none
-
-# Miscellaneous Mathematical Operators
-
-∑	N-ARY SUMMATION	none
+∐	n-ary coproduct	none
+∑	n-ary summation	none
 √	SQUARE ROOT	none
 ∛	CUBE ROOT	none
 ∜	FOURTH ROOT	none
 ∝	PROPORTIONAL TO	none
 ∞	INFINITY	none
-∟	RIGHT ANGLE	none
-∠	ANGLE	none
-∥	PARALLEL TO	none
-∦	NOT PARALLEL TO	none
 ∧	LOGICAL AND	none
 ∨	LOGICAL OR	none
 ¬	logical not	none
 ∩	INTERSECTION	none
 ∪	UNION	none
-∫	INTEGRAL	none
-∴	THEREFORE	none
-∵	BECAUSE	none
-∶	RATIO	none
+∫	தொகையம்	none
+∬	இரட்டைத் தொகையம்	none
+∭	முத்தொகையம்	none
+∮	contour Integral	none
+∯	surface Integral	none
+∰	volume Integral	none
+∱	clockwise Integral	none
+∲	clockwise contour Integral	none
+∳	anticlockwise Contour Integral	none
+∴	எனவே	none
+∵	ஏனெனில்	none
+∶	விகிதம்	none
 ∷	PROPORTION	none
-≤	LESS-THAN OR EQUAL TO	none
-≥	GREATER-THAN OR EQUAL TO	none
-⊂	SUBSET OF	none
-⊃	SUPERSET OF	none
-⊆	SUBSET OF OR EQUAL TO	none
-⊇	SUPERSET OF OR EQUAL TO	none
+∹	மிகையானது	none
+∺	geometric proportion	none
+≀	wreath product	none
+≏	இடையேயுள்ள வேறுபாடு	none
+≐	வரம்பை நெருங்குகிறது	none
+∙	bullet Operator	none
+∣	வகுக்கிறது	none
+∤	வகுப்பதில்லை	none
+≔	முக்காற்புள்ளி சமம்	none
+≕	சமம் முக்காற்புள்ளி	none
+≺	முன்வருகிறது	none
+≻	வெற்றிபெறுகிறது	none
+⊀	முன்வருவதில்லை	none
+⊁	வெற்றிபெறுவதில்லை	none
 
-# Vulgur Fractions U+2150 to U+215E
+			# Vulgar Fractions U+2150 to U+215E
 ¼	கால்	none
 ½	அரை	none
 ¾	முக்கால்	none
@@ -277,6 +376,267 @@ _	அடிக்கோடு	most
 
 # Miscellaneous Technical
 ⌘	Mac கட்டளை விசை	none
+⌥	mac விருப்ப விசை	none
+
+## 6-dot cell
+### note: the character on the next line is U+2800 (Braille space), not U+0020 (ASCII space)
+⠀	இடைவெளி
+⠁	பிரெயில் 1
+⠂	பிரெயில் 2
+⠃	பிரெயில் 1 2
+⠄	பிரெயில் 3
+⠅	பிரெயில் 1 3
+⠆	பிரெயில் 2 3
+⠇	பிரெயில் 1 2 3
+⠈	பிரெயில் 4
+⠉	பிரெயில் 1 4
+⠊	பிரெயில் 2 4
+⠋	பிரெயில் 1 2 4
+⠌	பிரெயில் 3 4
+⠍	பிரெயில் 1 3 4
+⠎	பிரெயில் 2 3 4
+⠏	பிரெயில் 1 2 3 4
+⠐	பிரெயில் 5
+⠑	பிரெயில் 1 5
+⠒	பிரெயில் 2 5
+⠓	பிரெயில் 1 2 5
+⠔	பிரெயில் 3 5
+⠕	பிரெயில் 1 3 5
+⠖	பிரெயில் 2 3 5
+⠗	பிரெயில் 1 2 3 5
+⠘	பிரெயில் 4 5
+⠙	பிரெயில் 1 4 5
+⠚	பிரெயில் 2 4 5
+⠛	பிரெயில் 1 2 4 5
+⠜	பிரெயில் 3 4 5
+⠝	பிரெயில் 1 3 4 5
+⠞	பிரெயில் 2 3 4 5
+⠟	பிரெயில் 1 2 3 4 5
+⠠	பிரெயில் 6
+⠡	பிரெயில் 1 6
+⠢	பிரெயில் 2 6
+⠣	பிரெயில் 1 2 6
+⠤	பிரெயில் 3 6
+⠥	பிரெயில் 1 3 6
+⠦	பிரெயில் 2 3 6
+⠧	பிரெயில் 1 2 3 6
+⠨	பிரெயில் 4 6
+⠩	பிரெயில் 1 4 6
+⠪	பிரெயில் 2 4 6
+⠫	பிரெயில் 1 2 4 6
+⠬	பிரெயில் 3 4 6
+⠭	பிரெயில் 1 3 4 6
+⠮	பிரெயில் 2 3 4 6
+⠯	பிரெயில் 1 2 3 4 6
+⠰	பிரெயில் 5 6
+⠱	பிரெயில் 1 5 6
+⠲	பிரெயில் 2 5 6
+⠳	பிரெயில் 1 2 5 6
+⠴	பிரெயில் 3 5 6
+⠵	பிரெயில் 1 3 5 6
+⠶	பிரெயில் 2 3 5 6
+⠷	பிரெயில் 1 2 3 5 6
+⠸	பிரெயில் 4 5 6
+⠹	பிரெயில் 1 4 5 6
+⠺	பிரெயில் 2 4 5 6
+⠻	பிரெயில் 1 2 4 5 6
+⠼	பிரெயில் 3 4 5 6
+⠽	பிரெயில் 1 3 4 5 6
+⠾	பிரெயில் 2 3 4 5 6
+⠿	பிரெயில் 1 2 3 4 5 6
+## 8-பிரெயில் cell
+⡀	பிரெயில் 7
+⡁	பிரெயில் 1 7
+⡂	பிரெயில் 2 7
+⡃	பிரெயில் 1 2 7
+⡄	பிரெயில் 3 7
+⡅	பிரெயில் 1 3 7
+⡆	பிரெயில் 2 3 7
+⡇	பிரெயில் 1 2 3 7
+⡈	பிரெயில் 4 7
+⡉	பிரெயில் 1 4 7
+⡊	பிரெயில் 2 4 7
+⡋	பிரெயில் 1 2 4 7
+⡌	பிரெயில் 3 4 7
+⡍	பிரெயில் 1 3 4 7
+⡎	பிரெயில் 2 3 4 7
+⡏	பிரெயில் 1 2 3 4 7
+⡐	பிரெயில் 5 7
+⡑	பிரெயில் 1 5 7
+⡒	பிரெயில் 2 5 7
+⡓	பிரெயில் 1 2 5 7
+⡔	பிரெயில் 3 5 7
+⡕	பிரெயில் 1 3 5 7
+⡖	பிரெயில் 2 3 5 7
+⡗	பிரெயில் 1 2 3 5 7
+⡘	பிரெயில் 4 5 7
+⡙	பிரெயில் 1 4 5 7
+⡚	பிரெயில் 2 4 5 7
+⡛	பிரெயில் 1 2 4 5 7
+⡜	பிரெயில் 3 4 5 7
+⡝	பிரெயில் 1 3 4 5 7
+⡞	பிரெயில் 2 3 4 5 7
+⡟	பிரெயில் 1 2 3 4 5 7
+⡠	பிரெயில் 6 7
+⡡	பிரெயில் 1 6 7
+⡢	பிரெயில் 2 6 7
+⡣	பிரெயில் 1 2 6 7
+⡤	பிரெயில் 3 6 7
+⡥	பிரெயில் 1 3 6 7
+⡦	பிரெயில் 2 3 6 7
+⡧	பிரெயில் 1 2 3 6 7
+⡨	பிரெயில் 4 6 7
+⡩	பிரெயில் 1 4 6 7
+⡪	பிரெயில் 2 4 6 7
+⡫	பிரெயில் 1 2 4 6 7
+⡬	பிரெயில் 3 4 6 7
+⡭	பிரெயில் 1 3 4 6 7
+⡮	பிரெயில் 2 3 4 6 7
+⡯	பிரெயில் 1 2 3 4 6 7
+⡰	பிரெயில் 5 6 7
+⡱	பிரெயில் 1 5 6 7
+⡲	பிரெயில் 2 5 6 7
+⡳	பிரெயில் 1 2 5 6 7
+⡴	பிரெயில் 3 5 6 7
+⡵	பிரெயில் 1 3 5 6 7
+⡶	பிரெயில் 2 3 5 6 7
+⡷	பிரெயில் 1 2 3 5 6 7
+⡸	பிரெயில் 1 2 3 7
+⡹	பிரெயில் 1 4 5 6 7
+⡺	பிரெயில் 2 4 5 6 7
+⡻	பிரெயில் 1 2 4 5 6 7
+⡼	பிரெயில் 3 4 5 6 7
+⡽	பிரெயில் 1 3 4 5 6 7
+⡾	பிரெயில் 2 3 4 5 6 7
+⡿	பிரெயில் 1 2 3 4 5 6 7
+⢀	பிரெயில் 8
+⢁	பிரெயில் 1 8
+⢂	பிரெயில் 2 8
+⢃	பிரெயில் 1 2 8
+⢄	பிரெயில் 3 8
+⢅	பிரெயில் 1 3 8
+⢆	பிரெயில் 2 3 8
+⢇	பிரெயில் 1 2 3 8
+⢈	பிரெயில் 4 8
+⢉	பிரெயில் 1 4 8
+⢊	பிரெயில் 2 4 8
+⢋	பிரெயில் 1 2 4 8
+⢌	பிரெயில் 3 4 8
+⢍	பிரெயில் 1 3 4 8
+⢎	பிரெயில் 2 3 4 8
+⢏	பிரெயில் 1 2 3 4 8
+⢐	பிரெயில் 5 8
+⢑	பிரெயில் 1 5 8
+⢒	பிரெயில் 2 5 8
+⢓	பிரெயில் 1 2 5 8
+⢔	பிரெயில் 3 5 8
+⢕	பிரெயில் 1 3 5 8
+⢖	பிரெயில் 2 3 5 8
+⢗	பிரெயில் 1 2 3 5 8
+⢘	பிரெயில் 4 5 8
+⢙	பிரெயில் 1 4 5 8
+⢚	பிரெயில் 2 4 5 8
+⢛	பிரெயில் 1 2 4 5 8
+⢜	பிரெயில் 3 4 5 8
+⢝	பிரெயில் 1 3 4 5 8
+⢞	பிரெயில் 2 3 4 5 8
+⢟	பிரெயில் 1 2 3 4 5 8
+⢠	பிரெயில் 6 8
+⢡	பிரெயில் 1 6 8
+⢢	பிரெயில் 2 6 8
+⢣	பிரெயில் 1 2 6 8
+⢤	பிரெயில் 3 6 8
+⢥	பிரெயில் 1 3 6 8
+⢦	பிரெயில் 2 3 6 8
+⢧	பிரெயில் 1 2 3 6 8
+⢨	பிரெயில் 4 6 8
+⢩	பிரெயில் 1 4 6 8
+⢪	பிரெயில் 2 4 6 8
+⢫	பிரெயில் 1 2 4 6 8
+⢬	பிரெயில் 3 4 6 8
+⢭	பிரெயில் 1 3 4 6 8
+⢮	பிரெயில் 2 3 4 6 8
+⢯	பிரெயில் 1 2 3 4 6 8
+⢰	பிரெயில் 5 6 8
+⢱	பிரெயில் 1 5 6 8
+⢲	பிரெயில் 2 5 6 8
+⢳	பிரெயில் 1 2 5 6 8
+⢴	பிரெயில் 3 5 6 8
+⢵	பிரெயில் 1 3 5 6 8
+⢶	பிரெயில் 2 3 5 6 8
+⢷	பிரெயில் 1 2 3 5 6 8
+⢸	பிரெயில் 1 2 3 8
+⢹	பிரெயில் 1 4 5 6 8
+⢺	பிரெயில் 2 4 5 6 8
+⢻	பிரெயில் 1 2 4 5 6 8
+⢼	பிரெயில் 3 4 5 6 8
+⢽	பிரெயில் 1 3 4 5 6 8
+⢾	பிரெயில் 2 3 4 5 6 8
+⢿	பிரெயில் 1 2 3 4 5 6 8
+⣀	பிரெயில் 7 8
+⣁	பிரெயில் 1 7 8
+⣂	பிரெயில் 2 7 8
+⣃	பிரெயில் 1 2 7 8
+⣄	பிரெயில் 3 7 8
+⣅	பிரெயில் 1 3 7 8
+⣆	பிரெயில் 2 3 7 8
+⣇	பிரெயில் 1 2 3 7 8
+⣈	பிரெயில் 4 7 8
+⣉	பிரெயில் 1 4 7 8
+⣊	பிரெயில் 2 4 7 8
+⣋	பிரெயில் 1 2 4 7 8
+⣌	பிரெயில் 3 4 7 8
+⣍	பிரெயில் 1 3 4 7 8
+⣎	பிரெயில் 2 3 4 7 8
+⣏	பிரெயில் 1 2 3 4 7 8
+⣐	பிரெயில் 5 7 8
+⣑	பிரெயில் 1 5 7 8
+⣒	பிரெயில் 2 5 7 8
+⣓	பிரெயில் 1 2 5 7 8
+⣔	பிரெயில் 3 5 7 8
+⣕	பிரெயில் 1 3 5 7 8
+⣖	பிரெயில் 2 3 5 7 8
+⣗	பிரெயில் 1 2 3 5 7 8
+⣘	பிரெயில் 4 5 7 8
+⣙	பிரெயில் 1 4 5 7 8
+⣚	பிரெயில் 2 4 5 7 8
+⣛	பிரெயில் 1 2 4 5 7 8
+⣜	பிரெயில் 3 4 5 7 8
+⣝	பிரெயில் 1 3 4 5 7 8
+⣞	பிரெயில் 2 3 4 5 7 8
+⣟	பிரெயில் 1 2 3 4 5 7 8
+⣠	பிரெயில் 6 7 8
+⣡	பிரெயில் 1 6 7 8
+⣢	பிரெயில் 2 6 7 8
+⣣	பிரெயில் 1 2 6 7 8
+⣤	பிரெயில் 3 6 7 8
+⣥	பிரெயில் 1 3 6 7 8
+⣦	பிரெயில் 2 3 6 7 8
+⣧	பிரெயில் 1 2 3 6 7 8
+⣨	பிரெயில் 4 6 7 8
+⣩	பிரெயில் 1 4 6 7 8
+⣪	பிரெயில் 2 4 6 7 8
+⣫	பிரெயில் 1 2 4 6 7 8
+⣬	பிரெயில் 3 4 6 7 8
+⣭	பிரெயில் 1 3 4 6 7 8
+⣮	பிரெயில் 2 3 4 6 7 8
+⣯	பிரெயில் 1 2 3 4 6 7 8
+⣰	பிரெயில் 5 6 7 8
+⣱	பிரெயில் 1 5 6 7 8
+⣲	பிரெயில் 2 5 6 7 8
+⣳	பிரெயில் 1 2 5 6 7 8
+⣴	பிரெயில் 3 5 6 7 8
+⣵	பிரெயில் 1 3 5 6 7 8
+⣶	பிரெயில் 2 3 5 6 7 8
+⣷	பிரெயில் 1 2 3 5 6 7 8
+⣸	பிரெயில் 1 2 3 7 8
+⣹	பிரெயில் 1 4 5 6 7 8
+⣺	பிரெயில் 2 4 5 6 7 8
+⣻	பிரெயில் 1 2 4 5 6 7 8
+⣼	பிரெயில் 3 4 5 6 7 8
+⣽	பிரெயில் 1 3 4 5 6 7 8
+⣾	பிரெயில் 2 3 4 5 6 7 8
+⣿	பிரெயில் 1 2 3 4 5 6 7 8
 
 # Special Tamil Characters
 ௰	பத்து	none

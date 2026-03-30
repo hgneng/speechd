@@ -7,96 +7,171 @@
 #Copyright (c) 2011-2012 NV Access Inc
 #This file is covered by the GNU General Public License.
 complexSymbols:
+# identifier	regexp
+# Sentence endings.
+. sentence ending	(?<=[^\s.])\.(?=[\"'”’)\s]|$)
 ؟ sentence ending	(?<=[^\s!])\!(?=[\"'”’)\s]|$)
+! sentence ending	(?<=[^\s!])\!(?=[\"'”’)\s]|$)
+# Phrase endings.
+; phrase ending	(?<=[^\s;]);(?=\s|$)
+: phrase ending	(?<=[^\s:]):(?=\s|$)
+# Others
+decimal point	(?<![^\d -])\.(?=\d)
+
 symbols:
 # identifier	replacement[[	level][	preserve]][	# display name]
 
 # Complex symbols
-. sentence ending	نقطة
-! sentence ending	تعجب
-? sentence ending	استفهام
-؟ sentence ending	استفهام
-; phrase ending	فاصلة منقوطة
-: phrase ending	نقطتين فوقيتين
-decimal point		none
-in-word '	apostrophe
-negative number	ناقص
+. sentence ending	نقطة	all	always
+! sentence ending	تعجب	all	always
+? sentence ending	استفهام	all	always
+؟  sentence ending	استفهام	all	always
+; phrase ending	فاصلة منقوطة	most	always
+: phrase ending	نقطتان رأسيَّتان	most	always
+decimal point		none	always
+in-word '	apostrophe	all	norep
+negative number	ناقص	none	norep
 
 # Whitespace
-\0	خالي
+\0	خالٍ	char	# null
 \t	انتقال
-\n	السطر التالي
-\f	فاصل الصفحة
-\r	حد السطر
- 	مسافة
- 	مسافة
+\n	السطر التالي	char
+\f	فاصل الصفحة	none
+\r	حد السطر	char
+ 	مسافة	char
+ 	مسافة	char	# no-break space
 
 # Standard punctuation/symbols
-!	تعجب
-"	تنصيص
-\#	رقم
-$	دولار
-£	جنيه
-€	يورو
-%	بالمائة
-&	وا
-'	apostrophe
-(	فَتْحُ قَوْسْ	most
-)	غَلْقْ قَوْسْ	most
+!	تعجُّب	all
+"	تنصيص	most
+\#	رقم	some
+$	دولار	all	norep
+£	جنيه إسترليني	all	norep
+€	يورو	all	norep
+¢	سنتس	all	norep
+¥	ين	all	norep
+₹	روبية	some	norep
+ƒ	فلورين	all	norep
+¤	الرمز العام للعملات	all	norep
+%	بالمائة	some
+‰	لكل ميل	some
+&	و	some
+'	apostrophe	all
+(	فَتْحُ قَوْسٍ هلالي	most	always
+)	إغلاقُ قَوْسٍ هلالي	most	always
 *	نجمة	some
-+	زائد	some
 ,	فاصلة	all	always
--	شَرطة	most
+،	فاصلة	all	always
+-	شَرطة	most	always
 .	نقطة	some
-/	قاطعة	some
-:	نقطتين فوقيتين	most	norep
+/	شَرطة مائلة	some
+:	نقطتان رأسيَّتان	most	norep
 ;	فاصلة منقوطة	most
-<	أصغر من	most
->	أكبر من	most
-=	يساوي	some
+؛	فاصلة منقوطة	most
 ?	استفهام	all
+؟	استفهام	all
 @	at	some
 [	فَتْحُ قَوْسٍ مُرَبّعْ	most
-]	غَلْقُ قَوْسٍ مُرَبّعْ	most
-\\	قاطعة خلفية	most
-^	أس	most
+]	إغلاقُ قَوْسٍ مُرَبّعْ	most
+\	شَرطةٌ مائلة للخلف	most
+^	أُس	most
 _	خط سُفْلِي	most
-`	graav	most
+`	نبر الإطالة	most
 {	فَتْحُ قَوْسٍ مُزَخرَف	most
-}	غَلْقُ قَوْسٍ مُزَخرَف	most
+}	إغلاقُ قَوْسٍ مُزَخرَف	most
 |	شريط	most
 ~	tilda	most
+¡	علامة تعجُّب مقلوبة	some
+¿	علامة استفهام مقلوبة mark	some
+·	نقطة في الوسط	most
+‚	علامة اقتباس منخفضة منفردة	most
+„	علامة اقتباس منخفضة مزدوجة	most
 
 # Other characters
-•	bullet	some
+•	نقطة تعداد	some
 …	نقطة نقطة نقطة	all	always
 ...	نقطة نقطة نقطة	all	always
 	bullet	some
 “	فتح تنصيص	most
-”	غلق تنصيص	most
+”	إغلاق تنصيص	most
 ‘	left tick	most
 ’	right tick	most
-–	en dash	most
-—	em dash	most
+–	شَرطة قصيرة	most
+—	شَرطة طويلة	most
+­	شرطة خفيفة	most
+⁃	شرطة مُنَقَّطة	none
 ●	دائرة	most
+○	دائرة بيضاء	most
 ¨	diaeresis	most
-■	مربع أسود
-➔	سهم يمين
-→	سهم يمين
+⁺	superscript plus	some
+‎	علامة يسار إلى يمن	char
+‏	علامة يمين إلى يسار	char
+¶	علامة الفقرة	most
+■	مربع أَسود
+▪	مربَّع صغير أَسود	some
+□	مربَّع أبيض	some
+◦	رمز نقطي مفَرَّغ	some
+♦	ألماسة سوداء	some
+◆	مُعيَّن ممتلئ	some
+⇨	سهم مفرَّغ إلى اليمين	some
+➔	سهم يُشير لليمين	some
 §	قسم
 °	درجات
-¹	أس 1
-²	أس 2
-³	أس 3
-±	زائد أو ناقص
-×	ضرب
-÷	قسمة
-←	سهم يمين	some
-✓	معلم
+«	علامة تنصيص مزدوجة للفتح	none
+»	علامة تنصيص مزدوجة للإغلاق	none
+µ	مايكرو	some
+⁰	أُس 0	some
+¹	أُس1
+²	أُس2
+³	أُس3
+⁴	أُس4	some
+⁵	أُس5	some
+⁶	أُس6	some
+⁷	أُس7	some
+⁸	أُس8	some
+⁹	أُس9	some
+⁺	أُس زائد	some
+⁼	أُس يساوي	some
+⁽	أُس قوس أيسر	some
+⁾	أُس قوس أيمن	some
+®	مُسجَّل	some
+™	علامة تجارية	some
+©	علامة حقوق النشر	some
+℠	علامة الخدمة	some
+←	سهم لليسار	some
+↑	سهم لأعلى	some
+→	سهم لليمين	some
+↓	سهم لأسفل	some
+✓	مُعلم
 ✔	معلم
+🡺	سهم لليمين	some
+⇄	سهم لليمين على سهم لليسار	none
+⇒	سهم مزدوج لليمين	none
+
+#Arithmetic operators
++	زائد	some
+−	ناقص	some
+×	ضرب
+∕	شَرْطة القسمة المائلة	some
+⁄	شرطة مائلة في كسر	some
+÷	قسمة
+∓	ناقص أو زائد	some
+±	زائد أو ناقص	some
+
+#Equality signs
+=	يساوي	some
+≃	يساوي تقاربيا	none
+≄	لا يساوي بشكل متقارب	none
+≅	يساوي تقريبا	none
+≆	تقريبا ولكن لا يساويه في الحقيقة equal to	none
+≠	لا يساوي	none
+<	أصغر من	most
+>	أكبر من	most
+
+
 
 # arabic symbols
 ،	فاصلة	all	always
 ؟	استفهام	all
-ـ	كاشيداْ	char
+ـ	شَرطةٌ منخفضة	char
 

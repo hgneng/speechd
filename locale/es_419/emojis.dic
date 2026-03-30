@@ -5,105 +5,76 @@
 symbols:
 ↴	flecha hacia abajo con punta hacia la esquina derecha	none
 ↵	flecha hacia abajo con punta hacia la esquina izquierda	none
-↶	flecha en sentido antihorario	none
-↷	flecha en sentido horario	none
+↸	flecha hacia noroeste con barra	none
+⇀	arpón hacia la derecha con flecha por arriba	none
+⇁	arpón hacia la derecha con flecha por debajo	none
+⇄	flecha a la derecha sobre flecha a la izquierda	none
 ⇅	flecha doble hacia arriba y abajo	none
 ⇆	flecha doble hacia la izquierda y derecha	none
-⇇	flecha doble hacia la izquierda	none
-⇈	flecha doble hacia arriba	none
-⇉	flecha doble hacia la derecha	none
-⇊	flecha doble hacia abajo	none
-⇦	flecha vacía hacia la izquierda	none
-⇧	flecha vacía hacia arriba	none
-⇨	flecha vacía hacia la derecha	none
-⇩	flecha vacía hacia abajo	none
-⇵	flecha hacia abajo y flecha hacia arriba	none
-∅	conjunto vacío	none
+⇇	par de flechas hacia la izquierda	none
+⇈	par de flechas hacia arriba	none
+⇉	par de flechas hacia la derecha	none
+⇊	par de flechas hacia abajo	none
+⇋	arpón a la izquierda sobre arpón a la derecha	none
+⇌	arpón a la derecha sobre arpón a la izquierda	none
 ∉	no es un elemento de	none
 ∋	es un elemento de	none
 ∓	menos-más	none
-∗	operador de asterisco	none
-∟	ángulo derecho	none
-∠	ángulo	none
-⋅	operador de punto	none
-⋆	operador de estrella	none
-⋈	unión natural	none
+∠	ángulo agudo	none
+∴	por lo tanto	none
+≤	menor o igual que	none
+≥	mayor o igual que	none
+⋁	o lógico n-ario	none
 ⋮	elipsis vertical	none
 ⋯	elipsis horizontal de línea media	none
 ⋰	elipsis en diagonal hacia la derecha	none
 ⋱	elipsis en diagonal hacia la izquierda	none
-■	cuadrado relleno	none
-□	cuadrado vacío	none
-▢	cuadrado vacío con bordes redondos	none
-▬	rectángulo relleno	none
-▭	rectángulo vacío	none
-▮	rectángulo vertical relleno	none
-▰	paralelogramo relleno	none
 ○	círculo vacío	none
 ◘	viñeta invertida	none
-◠	semicírculo superior	none
-◡	semicírculo inferior	none
+◙	cuadrado relleno con círculo vacío dentro	none
+◜	arco de cuadrante superior izquierdo	none
+◝	arco de cuadrante superior derecho	none
+◞	arco de cuadrante inferior derecho	none
+◟	arco de cuadrante inferior izquierdo	none
 ◯	círculo vacío grande	none
-😀	cara feliz	none
-😃	sonrisa con boca abierta	none
-😄	boca y ojos sonrientes	none
-😁	cara y ojos sonrientes	none
-😆	sonrisa con boca abierta y ojos cerrados	none
-😅	sonrisa y sudor frío	none
-🤣	cara llorando de risa	none
-😂	cara llorando	none
-🙂	cara sonriendo levemente	none
-😉	cara con guiño	none
-😊	cara alegre	none
+⨯	producto vectorial	none
+⩣	o lógico sobre doble barra	none
+⩽	menor o igual que con barra inclinada	none
+⪺	sucede sobre no igual	none
+🤩	cara sonriendo con ojos de estrella	none
 😗	cara dando un beso	none
-😚	beso con ojos cerrados	none
-😋	cara de broma	none
 😝	cara con los ojos bien cerrados y sacando la lengua	none
 🤔	cara pensante	none
 🤐	cara con la boca cerrada con cierre	none
 🙄	cara revoleando los ojos	none
+🫨	cara que vibra	none
+🙂‍↔	cabeza en movimiento horizontal	none
 😷	cara con barbijo	none
-🤕	cabeza vendada	none
-🤧	cara de estornudo	none
-😵	cara de mareado	none
 😎	cara sonriendo con lentes de sol	none
 🤓	cara de nerd	none
 😟	cara de preocupación	none
-😮	cara con boca abierta	none
+🫪	cara de susto	none
 😦	cara boquiabierta	none
 😧	cara de angustia	none
 😨	cara de miedo	none
-😢	cara con llanto	none
-😱	cara de terror	none
 😣	cara perseverante	none
 😞	cara de decepción	none
-😩	cara de cansancio	none
-😤	mirada de triunfo	none
+🥱	cara bostezando	none
 😡	cara de odio	none
-😠	cara de enojado	none
-😈	sonriente con cuernos	none
-👿	granuja	none
+😈	cara morada sonriendo con cuernos	none
+👿	cara morada enfadada con cuernos	none
 💀	cráneo	none
 ☠	calavera	none
 💩	caca	none
 👹	cara de ogro japonés	none
 👺	cara de demonio japonés	none
-👽	extraterrestre	none
-👾	monstruo extraterrestre	none
-😺	gato sonriente	none
-😻	gato sonriente con corazones	none
-😼	gato sarcástico	none
 😽	gato mandando un beso	none
-😾	cara de gato enfadado	none
 🙈	mono con ojos tapados	none
 🙉	mono con orejas tapadas	none
 🙊	mono con boca tapada	none
-💝	corazón con moño	none
-💗	corazón que crece	none
-💓	corazón que palpita	none
 💞	corazones que giran	none
-💟	corazón de decoración	none
 ❣	exclamación con forma de corazón	none
+🩵	corazón celeste	none
 💯	100 puntos	none
 💢	enojo	none
 💫	mareado	none
@@ -112,7 +83,6 @@ symbols:
 🗨	globo de diálogo izquierdo	none
 🗯	globo de enojo derecho	none
 💭	globo de pensamiento	none
-🤚	palma de la mano	none
 👌	señal de OK	none
 ✌	gesto de victoria	none
 🤘	gesto de cuernos	none
@@ -124,27 +94,26 @@ symbols:
 🤛	puño a la izquierda	none
 🤜	puño a la derecha	none
 🙌	chocar las manos	none
+🫶	corazón con las manos	none
 🤳	selfie	none
 🧓	adulto mayor	none
 👴	hombre mayor	none
 👵	mujer mayor	none
-🙍‍♀	mujer que frunce el seño	none
-🙅	gesto de está mal	none
-🙆	gesto de está bien	none
 🙋	persona levantando la mano	none
+🙋‍♂	hombre levantando la mano	none
+🙋‍♀	mujer levantando la mano	none
 👼	cara de ángel bebé	none
 🎅	Santa Claus	none
 🧑‍🎄	papá noel	none
 🧜‍♂	sireno	none
 💆	masaje facial	none
 💇	corte de pelo	none
-🕴	hombre de traje	none
-👯	mujeres de fiesta	none
+🕴	persona con traje levitando	none
+👯	personas bailando con orejas de conejo	none
+👯‍♂	hombres bailando con orejas de conejo	none
+👯‍♀	mujeres bailando con orejas de conejo	none
 🤺	esgrimista	none
 🏂	snowboard	none
-🏌	jugador de golf	none
-🏄	surf	none
-🚣	bote a remo	none
 ⛹	persona con una pelota	none
 🤾	handball	none
 🤾‍♂	hombre jugando handball	none
@@ -155,23 +124,26 @@ symbols:
 🗣	silueta hablando	none
 👣	huellas	none
 🐽	hocico de cerdo	none
-🐤	cara de pollito	none
+🪿	ganso	none
 🦎	lagartija	none
 🐳	ballena soplando un chorro de agua	none
 🐚	caracola marina	none
+🦞	langosta	none
+🦐	camarón	none
 🐛	oruga	none
 🕸	telaraña	none
+🪻	jacinto	none
 🌱	plántula	none
 🌳	árbol caducifolio	none
 🍃	hoja al viento	none
 🍌	banana	none
 🍑	durazno	none
-🍓	frutilla	none
-🥑	palta	none
 🥔	papa	none
 🌽	mazorca de maíz	none
 🌶	pimiento picante	none
 🥜	maní	none
+🫘	frijoles	none
+🫜	tubérculo	none
 🍞	pan	none
 🥐	croissant	none
 🥖	baguette	none
@@ -181,7 +153,6 @@ symbols:
 🥓	tocino	none
 🍟	papas fritas	none
 🌭	salchicha	none
-🥙	fajita	none
 🍳	sartén	none
 🍿	palomitas de maíz	none
 🍠	batata asada	none
@@ -189,17 +160,18 @@ symbols:
 🍤	camarones fritos	none
 🍥	pastel de pescado	none
 🍡	brocheta dulce japonesa	none
-🦐	camarón	none
 🍦	helado en cucurucho	none
 🍧	hielo molido	none
 🍩	dona	none
-🎂	torta de cumpleaños	none
-🍰	porción de torta	none
+🎂	pastel de cumpleaños	none
+🍰	rebanada de pastel	none
 🍭	paleta dulce	none
 🍺	tarro de cerveza	none
 🍻	brindis con cerveza	none
+🫗	líquido que se vierte	none
 🍽	plato y cubiertos	none
 🍴	cuchillo y tenedor	none
+🫙	jarra	none
 🏺	vasija	none
 🌍	globo terráqueo Europa/África	none
 🌎	globo terráqueo América	none
@@ -207,6 +179,7 @@ symbols:
 🗺	mapamundi	none
 🏔	montañas nevadas	none
 ⛰	montañas	none
+🛘	alud	none
 🏕	campamento	none
 🏗	edificio en construcción	none
 🏘	viviendas	none
@@ -225,20 +198,17 @@ symbols:
 🎡	noria	none
 💈	barbería	none
 🎪	circo	none
-🚂	tren a vapor	none
 🚃	tren eléctrico	none
-🚇	subterráneo	none
 🚝	monorriel	none
 🚍	autobús se aproxima	none
 🚒	camión de bomberos	none
-🚓	auto de policía	none
 🚔	patrullero se aproxima	none
 🚖	taxi se aproxima	none
 🚗	auto	none
 🚘	auto se aproxima	none
 🏎	auto de carrera	none
 🏍	motocicleta	none
-🛵	moto	none
+🛵	motoneta	none
 🛴	monopatín	none
 🛹	skateboard	none
 🛤	vías	none
@@ -251,15 +221,12 @@ symbols:
 🚤	lancha	none
 ⛴	transbordador	none
 🚟	tren colgante	none
-🚠	teleférico	none
-🚡	tranvía aéreo	none
 🛸	platillo volador	none
 🛎	campanilla de hotel	none
 🕰	reloj de repisa	none
 🌒	luna nueva visible	none
 🌘	luna creciente menguante	none
 🌙	media luna	none
-⭐	estrella blanca	none
 ⛅	parcialmente nublado	none
 ⛈	tormenta	none
 🌤	soleado con nubes	none
@@ -289,7 +256,7 @@ symbols:
 ⚽	pelota de fútbol	none
 ⚾	pelota de béisbol	none
 🏀	pelota de básquet	none
-🏐	vóleibol	none
+🏐	pelota de vóleibol	none
 🏈	pelota de fútbol americano	none
 🏉	pelota de rugby	none
 🏏	cricket	none
@@ -308,7 +275,7 @@ symbols:
 🎴	carta	none
 🎨	paleta de pinturas	none
 👓	lentes	none
-🕶	anteojos de sol	none
+🕶	lentes de sol	none
 👖	jeans	none
 🎒	mochila	none
 👟	zapato deportivo	none
@@ -318,11 +285,10 @@ symbols:
 ⛑	casco con cruz blanca	none
 💄	lápiz labial	none
 📯	corneta de correo	none
-🎼	clave de sol	none
 🎙	micrófono de grabación	none
 🎚	control deslizante	none
 🎛	perillas	none
-🎧	auriculares	none
+🎧	audífonos	none
 📲	teléfono móvil con una flecha	none
 ☎	teléfono de línea	none
 📞	teléfono	none
@@ -340,12 +306,13 @@ symbols:
 📼	cinta de video	none
 🔍	lupa hacia la izquierda	none
 🔎	lupa hacia la derecha	none
-💡	lámpara	none
+💡	foco	none
 🏮	farol de papel japonés	none
 📙	libro anaranjado	none
 📃	documento doblado	none
 📄	documento	none
 📑	pestañas de marcador	none
+🪎	cofre del tesoro	none
 💹	mercado en alza	none
 📨	mensaje entrante	none
 📩	mensaje saliente	none
@@ -367,7 +334,6 @@ symbols:
 📎	clip para hojas	none
 📏	regla recta	none
 🗃	organizador de tarjetas	none
-🗑	cesto	none
 🔏	candado y lapicera	none
 🗡	daga	none
 🔩	perno con tuerca	none
@@ -376,6 +342,7 @@ symbols:
 💉	jeringa	none
 🛒	carrito de compras	none
 🗿	estatua de la isla de Pascua	none
+🪪	identificación	none
 🏧	cajero automático	none
 🚮	cartel cesto de basura	none
 ♿	acceso para silla de ruedas	none
@@ -399,7 +366,6 @@ symbols:
 ⏭	avanzar a la pista siguiente	none
 ⏯	pausar o reproducir	none
 ◀	retroceder	none
-⏪	retroceso rápido	none
 ⏮	última pista	none
 🔽	botón hacia abajo	none
 🎦	filmar	none
@@ -416,33 +382,20 @@ symbols:
 ✔	marca de verificación grande	none
 ❌	cruz	none
 ❎	cruz con recuadro	none
+™	marca comercial	none
 🆑	botón CL	none
 🆓	gratis	none
 Ⓜ	letra m en un círculo	none
 🅿	estacionamiento	none
 🆘	auxilio	none
-🔴	círculo rojo	none
-🔵	círculo azul	none
 🔶	diamante naranja grande	none
 🔷	diamante azul grande	none
 🔸	diamante naranja pequeño	none
+🔹	diamante azul pequeño	none
 🔳	cuadrado negro con borde blanco	none
 🔲	cuadrado blanco con borde negro	none
-₢	cruceiro	none
-₣	franco francés	none
-₤	lira	none
 ₥	mill	none
-₰	penique alemán	none
-₳	austral	none
-₶	libra tornesa	none
-₷	spesmilo	none
 ₿	bitcoin	none
-₨	rupia	none
-🤚🏻	palma de la mano tono de piel claro	none
-🤚🏼	palma de la mano tono de piel claro medio	none
-🤚🏽	palma de la mano tono de piel medio	none
-🤚🏾	palma de la mano tono de piel oscuro medio	none
-🤚🏿	palma de la mano tono de piel oscuro	none
 👌🏻	señal de OK tono de piel claro	none
 👌🏼	señal de OK tono de piel claro medio	none
 👌🏽	señal de OK tono de piel medio	none
@@ -498,6 +451,11 @@ symbols:
 🙌🏽	chocar las manos tono de piel medio	none
 🙌🏾	chocar las manos tono de piel oscuro medio	none
 🙌🏿	chocar las manos tono de piel oscuro	none
+🫶🏻	corazón con las manos tono de piel claro	none
+🫶🏼	corazón con las manos tono de piel claro medio	none
+🫶🏽	corazón con las manos tono de piel medio	none
+🫶🏾	corazón con las manos tono de piel oscuro medio	none
+🫶🏿	corazón con las manos tono de piel oscuro	none
 🤳🏻	selfie tono de piel claro	none
 🤳🏼	selfie tono de piel claro medio	none
 🤳🏽	selfie tono de piel medio	none
@@ -523,6 +481,26 @@ symbols:
 🧑🏿‍❤‍💋‍🧑🏼	pareja besándose persona adulta, persona adulta, tono de piel oscuro, tono de piel claro medio	none
 🧑🏿‍❤‍💋‍🧑🏽	pareja besándose persona adulta, persona adulta, tono de piel oscuro, tono de piel medio	none
 🧑🏿‍❤‍💋‍🧑🏾	pareja besándose persona adulta, persona adulta, tono de piel oscuro, tono de piel oscuro medio	none
+🧑🏻‍🐰‍🧑🏼	personas bailando con orejas de conejo tono de piel claro y tono de piel claro medio	none
+🧑🏻‍🐰‍🧑🏽	personas bailando con orejas de conejo tono de piel claro y tono de piel medio	none
+🧑🏻‍🐰‍🧑🏾	personas bailando con orejas de conejo tono de piel claro y tono de piel oscuro medio	none
+🧑🏻‍🐰‍🧑🏿	personas bailando con orejas de conejo tono de piel claro y tono de piel oscuro	none
+🧑🏼‍🐰‍🧑🏻	personas bailando con orejas de conejo tono de piel claro medio y tono de piel claro	none
+🧑🏼‍🐰‍🧑🏽	personas bailando con orejas de conejo tono de piel claro medio y tono de piel medio	none
+🧑🏼‍🐰‍🧑🏾	personas bailando con orejas de conejo tono de piel claro medio y tono de piel oscuro medio	none
+🧑🏼‍🐰‍🧑🏿	personas bailando con orejas de conejo tono de piel claro medio y tono de piel oscuro	none
+🧑🏽‍🐰‍🧑🏻	personas bailando con orejas de conejo tono de piel medio y tono de piel claro	none
+🧑🏽‍🐰‍🧑🏼	personas bailando con orejas de conejo tono de piel medio y tono de piel claro medio	none
+🧑🏽‍🐰‍🧑🏾	personas bailando con orejas de conejo tono de piel medio y tono de piel oscuro medio	none
+🧑🏽‍🐰‍🧑🏿	personas bailando con orejas de conejo tono de piel medio y tono de piel oscuro	none
+🧑🏾‍🐰‍🧑🏻	personas bailando con orejas de conejo tono de piel oscuro medio y tono de piel claro	none
+🧑🏾‍🐰‍🧑🏼	personas bailando con orejas de conejo tono de piel oscuro medio y tono de piel claro medio	none
+🧑🏾‍🐰‍🧑🏽	personas bailando con orejas de conejo tono de piel oscuro medio y tono de piel medio	none
+🧑🏾‍🐰‍🧑🏿	personas bailando con orejas de conejo tono de piel oscuro medio y tono de piel oscuro	none
+🧑🏿‍🐰‍🧑🏻	personas bailando con orejas de conejo tono de piel oscuro y tono de piel claro	none
+🧑🏿‍🐰‍🧑🏼	personas bailando con orejas de conejo tono de piel oscuro y tono de piel claro medio	none
+🧑🏿‍🐰‍🧑🏽	personas bailando con orejas de conejo tono de piel oscuro y tono de piel medio	none
+🧑🏿‍🐰‍🧑🏾	personas bailando con orejas de conejo tono de piel oscuro y tono de piel oscuro medio	none
 👨🏻‍❤‍💋‍👨🏻	pareja besándose hombre, hombre, tono de piel claro	none
 👨🏻‍❤‍💋‍👨🏼	pareja besándose hombre, hombre, tono de piel claro, tono de piel claro medio	none
 👨🏻‍❤‍💋‍👨🏽	pareja besándose hombre, hombre, tono de piel claro, tono de piel medio	none
@@ -548,6 +526,26 @@ symbols:
 👨🏿‍❤‍💋‍👨🏽	pareja besándose hombre, hombre, tono de piel oscuro, tono de piel medio	none
 👨🏿‍❤‍💋‍👨🏾	pareja besándose hombre, hombre, tono de piel oscuro, tono de piel oscuro medio	none
 👨🏿‍❤‍💋‍👨🏿	pareja besándose hombre, hombre, tono de piel oscuro	none
+👨🏻‍🐰‍👨🏼	hombres bailando con orejas de conejo tono de piel claro y tono de piel claro medio	none
+👨🏻‍🐰‍👨🏽	hombres bailando con orejas de conejo tono de piel claro y tono de piel medio	none
+👨🏻‍🐰‍👨🏾	hombres bailando con orejas de conejo tono de piel claro y tono de piel oscuro medio	none
+👨🏻‍🐰‍👨🏿	hombres bailando con orejas de conejo tono de piel claro y tono de piel oscuro	none
+👨🏼‍🐰‍👨🏻	hombres bailando con orejas de conejo tono de piel claro medio y tono de piel claro	none
+👨🏼‍🐰‍👨🏽	hombres bailando con orejas de conejo tono de piel claro medio y tono de piel medio	none
+👨🏼‍🐰‍👨🏾	hombres bailando con orejas de conejo tono de piel claro medio y tono de piel oscuro medio	none
+👨🏼‍🐰‍👨🏿	hombres bailando con orejas de conejo tono de piel claro medio y tono de piel oscuro	none
+👨🏽‍🐰‍👨🏻	hombres bailando con orejas de conejo tono de piel medio y tono de piel claro	none
+👨🏽‍🐰‍👨🏼	hombres bailando con orejas de conejo tono de piel medio y tono de piel claro medio	none
+👨🏽‍🐰‍👨🏾	hombres bailando con orejas de conejo tono de piel medio y tono de piel oscuro medio	none
+👨🏽‍🐰‍👨🏿	hombres bailando con orejas de conejo tono de piel medio y tono de piel oscuro	none
+👨🏾‍🐰‍👨🏻	hombres bailando con orejas de conejo tono de piel oscuro medio y tono de piel claro	none
+👨🏾‍🐰‍👨🏼	hombres bailando con orejas de conejo tono de piel oscuro medio y tono de piel claro medio	none
+👨🏾‍🐰‍👨🏽	hombres bailando con orejas de conejo tono de piel oscuro medio y tono de piel medio	none
+👨🏾‍🐰‍👨🏿	hombres bailando con orejas de conejo tono de piel oscuro medio y tono de piel oscuro	none
+👨🏿‍🐰‍👨🏻	hombres bailando con orejas de conejo tono de piel oscuro y tono de piel claro	none
+👨🏿‍🐰‍👨🏼	hombres bailando con orejas de conejo tono de piel oscuro y tono de piel claro medio	none
+👨🏿‍🐰‍👨🏽	hombres bailando con orejas de conejo tono de piel oscuro y tono de piel medio	none
+👨🏿‍🐰‍👨🏾	hombres bailando con orejas de conejo tono de piel oscuro y tono de piel oscuro medio	none
 👩🏻‍❤‍💋‍👨🏻	pareja besándose mujer, hombre, tono de piel claro	none
 👩🏻‍❤‍💋‍👨🏼	pareja besándose mujer, hombre, tono de piel claro, tono de piel claro medio	none
 👩🏻‍❤‍💋‍👨🏽	pareja besándose mujer, hombre, tono de piel claro, tono de piel medio	none
@@ -598,6 +596,26 @@ symbols:
 👩🏿‍❤‍💋‍👩🏽	pareja besándose mujer, mujer, tono de piel oscuro, tono de piel medio	none
 👩🏿‍❤‍💋‍👩🏾	pareja besándose mujer, mujer, tono de piel oscuro, tono de piel oscuro medio	none
 👩🏿‍❤‍💋‍👩🏿	pareja besándose mujer, mujer, tono de piel oscuro	none
+👩🏻‍🐰‍👩🏼	mujeres bailando con orejas de conejo tono de piel claro y tono de piel claro medio	none
+👩🏻‍🐰‍👩🏽	mujeres bailando con orejas de conejo tono de piel claro y tono de piel medio	none
+👩🏻‍🐰‍👩🏾	mujeres bailando con orejas de conejo tono de piel claro y tono de piel oscuro medio	none
+👩🏻‍🐰‍👩🏿	mujeres bailando con orejas de conejo tono de piel claro y tono de piel oscuro	none
+👩🏼‍🐰‍👩🏻	mujeres bailando con orejas de conejo tono de piel claro medio y tono de piel claro	none
+👩🏼‍🐰‍👩🏽	mujeres bailando con orejas de conejo tono de piel claro medio y tono de piel medio	none
+👩🏼‍🐰‍👩🏾	mujeres bailando con orejas de conejo tono de piel claro medio y tono de piel oscuro medio	none
+👩🏼‍🐰‍👩🏿	mujeres bailando con orejas de conejo tono de piel claro medio y tono de piel oscuro	none
+👩🏽‍🐰‍👩🏻	mujeres bailando con orejas de conejo tono de piel medio y tono de piel claro	none
+👩🏽‍🐰‍👩🏼	mujeres bailando con orejas de conejo tono de piel medio y tono de piel claro medio	none
+👩🏽‍🐰‍👩🏾	mujeres bailando con orejas de conejo tono de piel medio y tono de piel oscuro medio	none
+👩🏽‍🐰‍👩🏿	mujeres bailando con orejas de conejo tono de piel medio y tono de piel oscuro	none
+👩🏾‍🐰‍👩🏻	mujeres bailando con orejas de conejo tono de piel oscuro medio y tono de piel claro	none
+👩🏾‍🐰‍👩🏼	mujeres bailando con orejas de conejo tono de piel oscuro medio y tono de piel claro medio	none
+👩🏾‍🐰‍👩🏽	mujeres bailando con orejas de conejo tono de piel oscuro medio y tono de piel medio	none
+👩🏾‍🐰‍👩🏿	mujeres bailando con orejas de conejo tono de piel oscuro medio y tono de piel oscuro	none
+👩🏿‍🐰‍👩🏻	mujeres bailando con orejas de conejo tono de piel oscuro y tono de piel claro	none
+👩🏿‍🐰‍👩🏼	mujeres bailando con orejas de conejo tono de piel oscuro y tono de piel claro medio	none
+👩🏿‍🐰‍👩🏽	mujeres bailando con orejas de conejo tono de piel oscuro y tono de piel medio	none
+👩🏿‍🐰‍👩🏾	mujeres bailando con orejas de conejo tono de piel oscuro y tono de piel oscuro medio	none
 🧓🏻	adulto mayor tono de piel claro	none
 🧓🏼	adulto mayor tono de piel claro medio	none
 🧓🏽	adulto mayor tono de piel medio	none
@@ -613,26 +631,21 @@ symbols:
 👵🏽	mujer mayor tono de piel medio	none
 👵🏾	mujer mayor tono de piel oscuro medio	none
 👵🏿	mujer mayor tono de piel oscuro	none
-🙍🏻‍♀	mujer que frunce el seño tono de piel claro	none
-🙍🏼‍♀	mujer que frunce el seño tono de piel claro medio	none
-🙍🏽‍♀	mujer que frunce el seño tono de piel medio	none
-🙍🏾‍♀	mujer que frunce el seño tono de piel oscuro medio	none
-🙍🏿‍♀	mujer que frunce el seño tono de piel oscuro	none
-🙅🏻	gesto de está mal tono de piel claro	none
-🙅🏼	gesto de está mal tono de piel claro medio	none
-🙅🏽	gesto de está mal tono de piel medio	none
-🙅🏾	gesto de está mal tono de piel oscuro medio	none
-🙅🏿	gesto de está mal tono de piel oscuro	none
-🙆🏻	gesto de está bien tono de piel claro	none
-🙆🏼	gesto de está bien tono de piel claro medio	none
-🙆🏽	gesto de está bien tono de piel medio	none
-🙆🏾	gesto de está bien tono de piel oscuro medio	none
-🙆🏿	gesto de está bien tono de piel oscuro	none
 🙋🏻	persona levantando la mano tono de piel claro	none
 🙋🏼	persona levantando la mano tono de piel claro medio	none
 🙋🏽	persona levantando la mano tono de piel medio	none
 🙋🏾	persona levantando la mano tono de piel oscuro medio	none
 🙋🏿	persona levantando la mano tono de piel oscuro	none
+🙋🏻‍♂	hombre levantando la mano tono de piel claro	none
+🙋🏼‍♂	hombre levantando la mano tono de piel claro medio	none
+🙋🏽‍♂	hombre levantando la mano tono de piel medio	none
+🙋🏾‍♂	hombre levantando la mano tono de piel oscuro medio	none
+🙋🏿‍♂	hombre levantando la mano tono de piel oscuro	none
+🙋🏻‍♀	mujer levantando la mano tono de piel claro	none
+🙋🏼‍♀	mujer levantando la mano tono de piel claro medio	none
+🙋🏽‍♀	mujer levantando la mano tono de piel medio	none
+🙋🏾‍♀	mujer levantando la mano tono de piel oscuro medio	none
+🙋🏿‍♀	mujer levantando la mano tono de piel oscuro	none
 👼🏻	cara de ángel bebé tono de piel claro	none
 👼🏼	cara de ángel bebé tono de piel claro medio	none
 👼🏽	cara de ángel bebé tono de piel medio	none
@@ -663,31 +676,31 @@ symbols:
 💇🏽	corte de pelo tono de piel medio	none
 💇🏾	corte de pelo tono de piel oscuro medio	none
 💇🏿	corte de pelo tono de piel oscuro	none
-🕴🏻	hombre de traje tono de piel claro	none
-🕴🏼	hombre de traje tono de piel claro medio	none
-🕴🏽	hombre de traje tono de piel medio	none
-🕴🏾	hombre de traje tono de piel oscuro medio	none
-🕴🏿	hombre de traje tono de piel oscuro	none
+🕴🏻	persona con traje levitando tono de piel claro	none
+🕴🏼	persona con traje levitando tono de piel claro medio	none
+🕴🏽	persona con traje levitando tono de piel medio	none
+🕴🏾	persona con traje levitando tono de piel oscuro medio	none
+🕴🏿	persona con traje levitando tono de piel oscuro	none
+👯🏻	personas bailando con orejas de conejo tono de piel claro	none
+👯🏼	personas bailando con orejas de conejo tono de piel claro medio	none
+👯🏽	personas bailando con orejas de conejo tono de piel medio	none
+👯🏾	personas bailando con orejas de conejo tono de piel oscuro medio	none
+👯🏿	personas bailando con orejas de conejo tono de piel oscuro	none
+👯🏻‍♂	hombres bailando con orejas de conejo tono de piel claro	none
+👯🏼‍♂	hombres bailando con orejas de conejo tono de piel claro medio	none
+👯🏽‍♂	hombres bailando con orejas de conejo tono de piel medio	none
+👯🏾‍♂	hombres bailando con orejas de conejo tono de piel oscuro medio	none
+👯🏿‍♂	hombres bailando con orejas de conejo tono de piel oscuro	none
+👯🏻‍♀	mujeres bailando con orejas de conejo tono de piel claro	none
+👯🏼‍♀	mujeres bailando con orejas de conejo tono de piel claro medio	none
+👯🏽‍♀	mujeres bailando con orejas de conejo tono de piel medio	none
+👯🏾‍♀	mujeres bailando con orejas de conejo tono de piel oscuro medio	none
+👯🏿‍♀	mujeres bailando con orejas de conejo tono de piel oscuro	none
 🏂🏻	snowboard tono de piel claro	none
 🏂🏼	snowboard tono de piel claro medio	none
 🏂🏽	snowboard tono de piel medio	none
 🏂🏾	snowboard tono de piel oscuro medio	none
 🏂🏿	snowboard tono de piel oscuro	none
-🏌🏻	jugador de golf tono de piel claro	none
-🏌🏼	jugador de golf tono de piel claro medio	none
-🏌🏽	jugador de golf tono de piel medio	none
-🏌🏾	jugador de golf tono de piel oscuro medio	none
-🏌🏿	jugador de golf tono de piel oscuro	none
-🏄🏻	surf tono de piel claro	none
-🏄🏼	surf tono de piel claro medio	none
-🏄🏽	surf tono de piel medio	none
-🏄🏾	surf tono de piel oscuro medio	none
-🏄🏿	surf tono de piel oscuro	none
-🚣🏻	bote a remo tono de piel claro	none
-🚣🏼	bote a remo tono de piel claro medio	none
-🚣🏽	bote a remo tono de piel medio	none
-🚣🏾	bote a remo tono de piel oscuro medio	none
-🚣🏿	bote a remo tono de piel oscuro	none
 ⛹🏻	persona con una pelota tono de piel claro	none
 ⛹🏼	persona con una pelota tono de piel claro medio	none
 ⛹🏽	persona con una pelota tono de piel medio	none
@@ -746,265 +759,15 @@ symbols:
 👩‍❤‍💋‍👨	pareja besándose mujer y hombre	none
 👨‍❤‍💋‍👨	pareja besándose hombre y hombre	none
 👩‍❤‍💋‍👩	pareja besándose mujer y mujer	none
-🔟	tecla mayus 10	none
-🇦🇨	bandera Isla Ascensión	none
-🇦🇩	bandera Andorra	none
-🇦🇪	bandera Emiratos Árabes Unidos	none
-🇦🇫	bandera Afganistán	none
-🇦🇬	bandera Antigua y Barbuda	none
-🇦🇮	bandera Anguila	none
-🇦🇱	bandera Albania	none
-🇦🇲	bandera Armenia	none
-🇦🇴	bandera Angola	none
-🇦🇶	bandera Antártida	none
-🇦🇷	bandera Argentina	none
-🇦🇸	bandera Samoa Americana	none
-🇦🇹	bandera Austria	none
-🇦🇺	bandera Australia	none
-🇦🇼	bandera Aruba	none
-🇦🇽	bandera Islas Åland	none
-🇦🇿	bandera Azerbaiyán	none
-🇧🇦	bandera Bosnia-Herzegovina	none
-🇧🇧	bandera Barbados	none
-🇧🇩	bandera Bangladés	none
-🇧🇪	bandera Bélgica	none
-🇧🇫	bandera Burkina Faso	none
-🇧🇬	bandera Bulgaria	none
-🇧🇭	bandera Baréin	none
-🇧🇮	bandera Burundi	none
-🇧🇯	bandera Benín	none
-🇧🇱	bandera San Bartolomé	none
-🇧🇲	bandera Bermudas	none
-🇧🇳	bandera Brunéi	none
-🇧🇴	bandera Bolivia	none
-🇧🇶	bandera Caribe neerlandés	none
-🇧🇷	bandera Brasil	none
-🇧🇸	bandera Bahamas	none
-🇧🇹	bandera Bután	none
-🇧🇻	bandera Isla Bouvet	none
-🇧🇼	bandera Botsuana	none
-🇧🇾	bandera Bielorrusia	none
-🇧🇿	bandera Belice	none
-🇨🇦	bandera Canadá	none
-🇨🇨	bandera Islas Cocos	none
-🇨🇩	bandera República Democrática del Congo	none
-🇨🇫	bandera República Centroafricana	none
-🇨🇬	bandera República del Congo	none
-🇨🇭	bandera Suiza	none
-🇨🇮	bandera Costa de Marfil	none
-🇨🇰	bandera Islas Cook	none
-🇨🇱	bandera Chile	none
-🇨🇲	bandera Camerún	none
-🇨🇳	bandera China	none
-🇨🇴	bandera Colombia	none
-🇨🇵	bandera Isla Clipperton	none
-🇨🇷	bandera Costa Rica	none
-🇨🇺	bandera Cuba	none
-🇨🇻	bandera Cabo Verde	none
-🇨🇼	bandera Curazao	none
-🇨🇽	bandera Isla de Navidad	none
-🇨🇾	bandera Chipre	none
-🇨🇿	bandera Chequia	none
-🇩🇪	bandera Alemania	none
-🇩🇬	bandera Diego García	none
-🇩🇯	bandera Yibuti	none
-🇩🇰	bandera Dinamarca	none
-🇩🇲	bandera Dominica	none
-🇩🇴	bandera República Dominicana	none
-🇩🇿	bandera Argelia	none
-🇪🇦	bandera Ceuta y Melilla	none
-🇪🇨	bandera Ecuador	none
-🇪🇪	bandera Estonia	none
-🇪🇬	bandera Egipto	none
-🇪🇭	bandera Sáhara Occidental	none
-🇪🇷	bandera Eritrea	none
-🇪🇸	bandera España	none
-🇪🇹	bandera Etiopía	none
-🇪🇺	bandera Unión Europea	none
-🇫🇮	bandera Finlandia	none
-🇫🇯	bandera Fiyi	none
-🇫🇰	bandera Islas Malvinas	none
-🇫🇲	bandera Micronesia	none
-🇫🇴	bandera Islas Feroe	none
-🇫🇷	bandera Francia	none
-🇬🇦	bandera Gabón	none
-🇬🇧	bandera Reino Unido	none
-🇬🇩	bandera Granada	none
-🇬🇪	bandera Georgia	none
-🇬🇫	bandera Guayana Francesa	none
-🇬🇬	bandera Guernesey	none
-🇬🇭	bandera Ghana	none
-🇬🇮	bandera Gibraltar	none
-🇬🇱	bandera Groenlandia	none
-🇬🇲	bandera Gambia	none
-🇬🇳	bandera Guinea	none
-🇬🇵	bandera Guadalupe	none
-🇬🇶	bandera Guinea Ecuatorial	none
-🇬🇷	bandera Grecia	none
-🇬🇸	bandera Islas Georgia del Sur y Sandwich del Sur	none
-🇬🇹	bandera Guatemala	none
-🇬🇺	bandera Guam	none
-🇬🇼	bandera Guinea-Bisáu	none
-🇬🇾	bandera Guyana	none
-🇭🇰	bandera RAE de Hong Kong (China)	none
-🇭🇲	bandera Islas Heard y McDonald	none
-🇭🇳	bandera Honduras	none
-🇭🇷	bandera Croacia	none
-🇭🇹	bandera Haití	none
-🇭🇺	bandera Hungría	none
-🇮🇨	bandera Islas Canarias	none
-🇮🇩	bandera Indonesia	none
-🇮🇪	bandera Irlanda	none
-🇮🇱	bandera Israel	none
-🇮🇲	bandera Isla de Man	none
-🇮🇳	bandera India	none
-🇮🇴	bandera Territorio Británico del Océano Índico	none
-🇮🇶	bandera Irak	none
-🇮🇷	bandera Irán	none
-🇮🇸	bandera Islandia	none
-🇮🇹	bandera Italia	none
-🇯🇪	bandera Jersey	none
-🇯🇲	bandera Jamaica	none
-🇯🇴	bandera Jordania	none
-🇯🇵	bandera Japón	none
-🇰🇪	bandera Kenia	none
-🇰🇬	bandera Kirguistán	none
-🇰🇭	bandera Camboya	none
-🇰🇮	bandera Kiribati	none
-🇰🇲	bandera Comoras	none
-🇰🇳	bandera San Cristóbal y Nieves	none
-🇰🇵	bandera Corea del Norte	none
-🇰🇷	bandera Corea del Sur	none
-🇰🇼	bandera Kuwait	none
-🇰🇾	bandera Islas Caimán	none
-🇰🇿	bandera Kazajistán	none
-🇱🇦	bandera Laos	none
-🇱🇧	bandera Líbano	none
-🇱🇨	bandera Santa Lucía	none
-🇱🇮	bandera Liechtenstein	none
-🇱🇰	bandera Sri Lanka	none
-🇱🇷	bandera Liberia	none
-🇱🇸	bandera Lesoto	none
-🇱🇹	bandera Lituania	none
-🇱🇺	bandera Luxemburgo	none
-🇱🇻	bandera Letonia	none
-🇱🇾	bandera Libia	none
-🇲🇦	bandera Marruecos	none
-🇲🇨	bandera Mónaco	none
-🇲🇩	bandera Moldavia	none
-🇲🇪	bandera Montenegro	none
-🇲🇫	bandera San Martín	none
-🇲🇬	bandera Madagascar	none
-🇲🇭	bandera Islas Marshall	none
-🇲🇰	bandera Macedonia del Norte	none
-🇲🇱	bandera Mali	none
-🇲🇲	bandera Myanmar (Birmania)	none
-🇲🇳	bandera Mongolia	none
-🇲🇴	bandera RAE de Macao (China)	none
-🇲🇵	bandera Islas Marianas del Norte	none
-🇲🇶	bandera Martinica	none
-🇲🇷	bandera Mauritania	none
-🇲🇸	bandera Montserrat	none
-🇲🇹	bandera Malta	none
-🇲🇺	bandera Mauricio	none
-🇲🇻	bandera Maldivas	none
-🇲🇼	bandera Malaui	none
-🇲🇽	bandera México	none
-🇲🇾	bandera Malasia	none
-🇲🇿	bandera Mozambique	none
-🇳🇦	bandera Namibia	none
-🇳🇨	bandera Nueva Caledonia	none
-🇳🇪	bandera Níger	none
-🇳🇫	bandera Isla Norfolk	none
-🇳🇬	bandera Nigeria	none
-🇳🇮	bandera Nicaragua	none
-🇳🇱	bandera Países Bajos	none
-🇳🇴	bandera Noruega	none
-🇳🇵	bandera Nepal	none
-🇳🇷	bandera Nauru	none
-🇳🇺	bandera Niue	none
-🇳🇿	bandera Nueva Zelanda	none
-🇴🇲	bandera Omán	none
-🇵🇦	bandera Panamá	none
-🇵🇪	bandera Perú	none
-🇵🇫	bandera Polinesia Francesa	none
-🇵🇬	bandera Papúa Nueva Guinea	none
-🇵🇭	bandera Filipinas	none
-🇵🇰	bandera Pakistán	none
-🇵🇱	bandera Polonia	none
-🇵🇲	bandera San Pedro y Miquelón	none
-🇵🇳	bandera Islas Pitcairn	none
-🇵🇷	bandera Puerto Rico	none
-🇵🇸	bandera Territorios Palestinos	none
-🇵🇹	bandera Portugal	none
-🇵🇼	bandera Palaos	none
-🇵🇾	bandera Paraguay	none
-🇶🇦	bandera Catar	none
-🇷🇪	bandera Reunión	none
-🇷🇴	bandera Rumanía	none
-🇷🇸	bandera Serbia	none
-🇷🇺	bandera Rusia	none
-🇷🇼	bandera Ruanda	none
-🇸🇦	bandera Arabia Saudí	none
-🇸🇧	bandera Islas Salomón	none
-🇸🇨	bandera Seychelles	none
-🇸🇩	bandera Sudán	none
-🇸🇪	bandera Suecia	none
-🇸🇬	bandera Singapur	none
-🇸🇭	bandera Santa Elena	none
-🇸🇮	bandera Eslovenia	none
-🇸🇯	bandera Svalbard y Jan Mayen	none
-🇸🇰	bandera Eslovaquia	none
-🇸🇱	bandera Sierra Leona	none
-🇸🇲	bandera San Marino	none
-🇸🇳	bandera Senegal	none
-🇸🇴	bandera Somalia	none
-🇸🇷	bandera Surinam	none
-🇸🇸	bandera Sudán del Sur	none
-🇸🇹	bandera Santo Tomé y Príncipe	none
-🇸🇻	bandera El Salvador	none
-🇸🇽	bandera Sint Maarten	none
-🇸🇾	bandera Siria	none
-🇸🇿	bandera Esuatini	none
-🇹🇦	bandera Tristán da Cunha	none
-🇹🇨	bandera Islas Turcas y Caicos	none
-🇹🇩	bandera Chad	none
-🇹🇫	bandera Territorios Australes Franceses	none
-🇹🇬	bandera Togo	none
-🇹🇭	bandera Tailandia	none
-🇹🇯	bandera Tayikistán	none
-🇹🇰	bandera Tokelau	none
-🇹🇱	bandera Timor-Leste	none
-🇹🇲	bandera Turkmenistán	none
-🇹🇳	bandera Túnez	none
-🇹🇴	bandera Tonga	none
-🇹🇷	bandera Turquía	none
-🇹🇹	bandera Trinidad y Tobago	none
-🇹🇻	bandera Tuvalu	none
-🇹🇼	bandera Taiwán	none
-🇹🇿	bandera Tanzania	none
-🇺🇦	bandera Ucrania	none
-🇺🇬	bandera Uganda	none
-🇺🇲	bandera Islas Ultramarinas de EE.UU.	none
-🇺🇳	bandera Naciones Unidas	none
-🇺🇸	bandera Estados Unidos	none
-🇺🇾	bandera Uruguay	none
-🇺🇿	bandera Uzbekistán	none
-🇻🇦	bandera Ciudad del Vaticano	none
-🇻🇨	bandera San Vicente y las Granadinas	none
-🇻🇪	bandera Venezuela	none
-🇻🇬	bandera Islas Vírgenes Británicas	none
-🇻🇮	bandera Islas Vírgenes de EE. UU.	none
-🇻🇳	bandera Vietnam	none
-🇻🇺	bandera Vanuatu	none
-🇼🇫	bandera Wallis y Futuna	none
-🇼🇸	bandera Samoa	none
-🇽🇰	bandera Kosovo	none
-🇾🇪	bandera Yemen	none
-🇾🇹	bandera Mayotte	none
-🇿🇦	bandera Sudáfrica	none
-🇿🇲	bandera Zambia	none
-🇿🇼	bandera Zimbabue	none
-🏴󠁧󠁢󠁥󠁮󠁧󠁿	bandera Inglaterra	none
-🏴󠁧󠁢󠁳󠁣󠁴󠁿	bandera Escocia	none
-🏴󠁧󠁢󠁷󠁬󠁳󠁿	bandera Gales	none
+🇦🇨	Bandera Isla Ascensión	none
+🇦🇽	Bandera Islas Åland	none
+🇧🇦	Bandera Bosnia-Herzegovina	none
+🇨🇬	Bandera República del Congo	none
+🇨🇮	Bandera Costa de Marfil	none
+🇬🇸	Bandera Islas Georgia del Sur y Sándwich del Sur	none
+🇮🇨	Bandera Islas Canarias	none
+🇷🇴	Bandera Rumania	none
+🇸🇦	Bandera Arabia Saudita	none
+🇹🇱	Bandera Timor Oriental	none
+🇺🇲	Bandera Islas Ultramarinas de EE.UU.	none
+₸	tenge kazajo	none

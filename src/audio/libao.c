@@ -32,45 +32,21 @@
 #include <glib.h>
 #include <ao/ao.h>
 
+#ifdef USE_DLOPEN
+#define SPD_AUDIO_PLUGIN_ENTRY spd_audio_plugin_get
+#else
 #define SPD_AUDIO_PLUGIN_ENTRY spd_libao_LTX_spd_audio_plugin_get
+#endif
 #include <spd_audio_plugin.h>
+
+#include "../common/common.h"
 
 /* send a packet of XXX bytes to the sound device */
 #define AO_SEND_BYTES 256
-/* Put a message into the logfile (stderr) */
-#define MSG(level, arg...) \
-	if(level <= libao_log_level){ \
-		time_t t; \
-		struct timeval tv; \
-		char *tstr; \
-		t = time(NULL); \
-		tstr = g_strdup(ctime(&t)); \
-		tstr[strlen(tstr)-1] = 0; \
-		gettimeofday(&tv,NULL); \
-		fprintf(stderr," %s [%d]",tstr, (int) tv.tv_usec); \
-		fprintf(stderr," libao:: "); \
-		fprintf(stderr,arg); \
-		fprintf(stderr,"\n"); \
-		fflush(stderr); \
-		g_free(tstr); \
-	}
 
-#define ERR(arg...) \
-	{ \
-		time_t t; \
-		struct timeval tv; \
-		char *tstr; \
-		t = time(NULL); \
-		tstr = g_strdup(ctime(&t)); \
-		tstr[strlen(tstr)-1] = 0; \
-		gettimeofday(&tv,NULL); \
-		fprintf(stderr," %s [%d]",tstr, (int) tv.tv_usec); \
-		fprintf(stderr," libao ERROR: "); \
-		fprintf(stderr,arg); \
-		fprintf(stderr,"\n"); \
-		fflush(stderr); \
-		g_free(tstr); \
-	}
+/* Put a message into the logfile (stderr) */
+#define MSG(level, arg, ...) if (level <= libao_log_level) { MSG(0, "libao: " arg, ##__VA_ARGS__); }
+#define ERR(arg, ...) MSG(0, "libao ERROR: " arg, ##__VA_ARGS__)
 
 /* AO_FORMAT_INITIALIZER is an ao_sample_format structure with zero values
    in all of its fields.  We can guarantee that the fields of a
@@ -252,7 +228,11 @@ spd_audio_plugin_t *libao_plugin_get(void)
 	return &libao_functions;
 }
 
-spd_audio_plugin_t *SPD_AUDIO_PLUGIN_ENTRY(void)
-    __attribute__ ((weak, alias("libao_plugin_get")));
+spd_audio_plugin_t *
+    __attribute__ ((weak))
+    SPD_AUDIO_PLUGIN_ENTRY(void)
+{
+	return &libao_functions;
+}
 #undef MSG
 #undef ERR

@@ -39,8 +39,14 @@
 
 #include <sys/soundcard.h>
 
+#ifdef USE_DLOPEN
+#define SPD_AUDIO_PLUGIN_ENTRY spd_audio_plugin_get
+#else
 #define SPD_AUDIO_PLUGIN_ENTRY spd_oss_LTX_spd_audio_plugin_get
+#endif
 #include <spd_audio_plugin.h>
+
+#include "../common/common.h"
 
 typedef struct {
 	AudioID id;
@@ -56,39 +62,8 @@ static int _oss_close(spd_oss_id_t * id);
 static int _oss_sync(spd_oss_id_t * id);
 
 /* Put a message into the logfile (stderr) */
-#define MSG(level, arg...) \
-	if(level <= oss_log_level){ \
-		time_t t; \
-		struct timeval tv; \
-		char *tstr; \
-		t = time(NULL); \
-		tstr = g_strdup(ctime(&t)); \
-		tstr[strlen(tstr)-1] = 0; \
-		gettimeofday(&tv,NULL); \
-		fprintf(stderr," %s [%d]",tstr, (int) tv.tv_usec); \
-		fprintf(stderr," OSS: "); \
-		fprintf(stderr,arg); \
-		fprintf(stderr,"\n"); \
-		fflush(stderr); \
-		g_free(tstr); \
-	}
-
-#define ERR(arg...) \
-	{ \
-		time_t t; \
-		struct timeval tv; \
-		char *tstr; \
-		t = time(NULL); \
-		tstr = g_strdup(ctime(&t)); \
-		tstr[strlen(tstr)-1] = 0; \
-		gettimeofday(&tv,NULL); \
-		fprintf(stderr," %s [%d]",tstr, (int) tv.tv_usec); \
-		fprintf(stderr," OSS ERROR: "); \
-		fprintf(stderr,arg); \
-		fprintf(stderr,"\n"); \
-		fflush(stderr); \
-		g_free(tstr); \
-	}
+#define MSG(level, arg, ...) if (level <= oss_log_level) { MSG(0, "OSS: " arg, ##__VA_ARGS__); }
+#define ERR(arg, ...) MSG(0, "OSS ERROR: " arg, ##__VA_ARGS__)
 
 static int oss_log_level;
 static char const *oss_play_cmd = "play";
@@ -116,10 +91,12 @@ static int _oss_close(spd_oss_id_t * id)
 	MSG(1, "_oss_close()")
 	    if (id == NULL)
 		return 0;
-	if (id->fd < 0)
-		return 0;
-
 	pthread_mutex_lock(&id->fd_mutex);
+	if (id->fd < 0) {
+		pthread_mutex_unlock(&id->fd_mutex);
+		return 0;
+	}
+
 	close(id->fd);
 	id->fd = -1;
 	pthread_mutex_unlock(&id->fd_mutex);
@@ -184,7 +161,7 @@ static int oss_play(AudioID * id, AudioTrack track)
 	int ret, ret2;
 	struct timeval now;
 	struct timespec timeout;
-	float lenght;
+	float length;
 	int r = 0;
 	int format, oformat, channels, speed;
 	int bytes_per_sample;
@@ -290,7 +267,7 @@ static int oss_play(AudioID * id, AudioTrack track)
 	while (num_bytes > 0) {
 
 		/* OSS doesn't support non-blocking write, so lets check how much data
-		   can we write so that write() returns immediatelly */
+		   can we write so that write() returns immediately */
 		re = ioctl(oss_id->fd, SNDCTL_DSP_GETOSPACE, &info);
 		if (re == -1) {
 			perror("OSS ERROR: GETOSPACE");
@@ -329,7 +306,7 @@ static int oss_play(AudioID * id, AudioTrack track)
 		MSG(4, "%d bytes written to OSS, %d remaining", ret, num_bytes);
 
 		/* If there is some more data that is less than a
-		   full fragment, we need to write it immediatelly so
+		   full fragment, we need to write it immediately so
 		   that it doesn't cause buffer underruns later. */
 		if ((num_bytes > 0)
 		    && (num_bytes < info.fragsize)
@@ -362,17 +339,17 @@ static int oss_play(AudioID * id, AudioTrack track)
 		 */
 		MSG(4, "Now we will try to wait");
 		pthread_mutex_lock(&oss_id->pt_mutex);
-		lenght = (((float)(ret) / 2) / (float)track.sample_rate);
+		length = (((float)(ret) / 2) / (float)track.sample_rate);
 		if (!delay) {
-			delay = lenght > DELAY ? DELAY : lenght;
-			lenght -= delay;
+			delay = length > DELAY ? DELAY : length;
+			length -= delay;
 		}
-		MSG(4, "Wait for %f secs (begin: %f, delay: %f)", lenght,
-		    lenght + delay, delay)
+		MSG(4, "Wait for %f secs (begin: %f, delay: %f)", length,
+		    length + delay, delay)
 		    gettimeofday(&now, NULL);
-		timeout.tv_sec = now.tv_sec + (int)lenght;
+		timeout.tv_sec = now.tv_sec + (int)length;
 		timeout.tv_nsec =
-		    now.tv_usec * 1000 + (lenght - (int)lenght) * 1000000000;
+		    now.tv_usec * 1000 + (length - (int)length) * 1000000000;
 		//MSG("5, waiting till %d:%d (%d:%d | %d:%d)", timeout.tv_sec, timeout.tv_nsec,
 		//    now.tv_sec, now.tv_usec*1000, timeout.tv_sec - now.tv_sec, timeout.tv_nsec-now.tv_usec*1000);
 
@@ -465,7 +442,7 @@ static int oss_close(AudioID * id)
 {
 	spd_oss_id_t *oss_id = (spd_oss_id_t *) id;
 
-	/* Does nothing because the device is being automatically openned and
+	/* Does nothing because the device is being automatically opened and
 	   closed in oss_play before and after playing each sample. */
 
 	g_free(oss_id->device_name);
@@ -515,7 +492,11 @@ spd_audio_plugin_t *oss_plugin_get(void)
 	return &oss_functions;
 }
 
-spd_audio_plugin_t *SPD_AUDIO_PLUGIN_ENTRY(void)
-    __attribute__ ((weak, alias("oss_plugin_get")));
+spd_audio_plugin_t *
+    __attribute__ ((weak))
+    SPD_AUDIO_PLUGIN_ENTRY(void)
+{
+	return &oss_functions;
+}
 #undef MSG
 #undef ERR

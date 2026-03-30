@@ -36,12 +36,10 @@
 #include <errno.h>
 #include <dotconf.h>
 
-#include <sys/ipc.h>
-
 #include <speechd_types.h>
 #include "common.h"
 #include "spd_audio.h"
-#include "module_main.h"
+#include "spd_module_main.h"
 
 G_BEGIN_DECLS
 
@@ -176,6 +174,7 @@ void module_signal_end(void);
 void module_strip_punctuation_default(char *buf);
 void module_strip_punctuation_some(char *buf, char *punct_some);
 char *module_strip_ssml(const char *buf);
+char *module_multicases_string(char *message);
 
 void module_sigblockall(void);
 void module_sigblockusr(sigset_t * signal_set);
@@ -297,8 +296,8 @@ configoption_t *add_config_option(configoption_t * options,
 	{ \
 		T ## name *new_item; \
 		char* new_key; \
-		new_item = (T ## name *) g_malloc(sizeof(T ## name)); \
 		if (cmd->data.list[0] == NULL) return NULL; \
+		new_item = (T ## name *) g_malloc(sizeof(T ## name)); \
 		new_item->arg1 = g_strdup(cmd->data.list[0]); \
 		new_key = g_strdup(cmd->data.list[0]); \
 		if (cmd->data.list[1] != NULL) \

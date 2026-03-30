@@ -1,5 +1,5 @@
 /*
-  libspeechd.c - Shared library for easy acces to Speech Dispatcher functions
+  libspeechd.c - Shared library for easy access to Speech Dispatcher functions
  *
  * Copyright (C) 2001, 2002, 2003, 2006, 2007, 2008 Brailcom, o.p.s.
  *
@@ -51,6 +51,7 @@
 #include <speechd_types.h>
 #include <speechd_defines.h>
 #include "libspeechd.h"
+#include "../../common/common.h"
 
 /* Comment/uncomment to switch debugging on/off */
 // #define LIBSPEECHD_DEBUG 1
@@ -70,13 +71,14 @@ static int isanum(char *str);
 static char *get_reply(SPDConnection * connection);
 static int get_err_code(char *reply);
 static char *get_param_str(char *reply, int num, int *err);
+static char *get_param_str_and_advance(char **reply, int *err);
 static int get_param_int(char *reply, int num, int *err);
 static int ret_ok(char *reply);
 static void SPD_DBG(char *format, ...);
 static void *spd_events_handler(void *);
 
-const int range_low = -100;
-const int range_high = 100;
+static const int range_low = -100;
+static const int range_high = 100;
 
 pthread_mutex_t spd_logging_mutex = PTHREAD_MUTEX_INITIALIZER;
 
@@ -89,8 +91,8 @@ struct SPDConnection_threaddata {
 };
 
 /*
- * Added by Willie Walker - strndup and getline were GNU libc extensions
- * that were adopted in the POSIX.1-2008 standard, but are not yet found
+ * Added by Willie Walker - strndup was a GNU libc extensions
+ * that was adopted in the POSIX.1-2008 standard, but is not yet found
  * on all systems.
  */
 #ifndef HAVE_STRNDUP
@@ -114,52 +116,69 @@ char *strndup(const char *s, size_t n)
 }
 #endif /* HAVE_STRNDUP */
 
-#ifndef HAVE_GETLINE
-#define BUFFER_LEN 256
-ssize_t getline(char **lineptr, size_t * n, FILE * f)
-{
-	int ch;
-	size_t m = 0;
-	ssize_t buf_len = 0;
-	char *buf = NULL;
-	char *p = NULL;
+#define SPD_REPLY_BUF_SIZE 65536
 
-	if (errno != 0) {
-		SPD_DBG("getline: errno came in as %d!!!\n", errno);
-		errno = 0;
-	}
-	while ((ch = getc(f)) != EOF) {
-		if (errno != 0)
-			return -1;
-		if (m++ >= buf_len) {
-			buf_len += BUFFER_LEN;
-			buf = (char *)realloc(buf, buf_len + 1);
-			if (buf == NULL) {
-				SPD_DBG("buf==NULL");
-				return -1;
+/** Read from the connection's buffer or socket until a newline is
+    read.  Return a pointer to the beginning of the data, and the
+    length of the data (including newline).  The returned value will
+    not be null-terminated, and will include the newline.  Note that
+    the returned pointer will only be valid until the next call to
+    get_line.
+
+    If, after SPD_REPLY_BUF_SIZE bytes, there is no newline (or in the
+    event of a read error) return NULL.
+
+    Unlike getline, this does not handle embedded \0 bytes.
+*/
+static
+char *get_line(SPDConnection * conn, int *n)
+{
+	int bytes;
+	int i;
+	char *ret = NULL;
+	int search_start = conn->buf_start;
+	int message_prefix_len;
+
+	while (1) {
+		for (i = search_start; i < conn->buf_used; i++) {
+			if (conn->buf[i] == '\n') {
+				*n = i + 1 - conn->buf_start;
+				ret = conn->buf + conn->buf_start;
+				conn->buf_start = i + 1;
+				return ret;
 			}
-			p = buf + buf_len - BUFFER_LEN;
 		}
-		*p = ch;
-		p++;
-		if (ch == '\n')
-			break;
+
+		if (conn->buf_start != 0) {
+			message_prefix_len = conn->buf_used - conn->buf_start;
+			memmove(conn->buf, conn->buf + conn->buf_start,
+				message_prefix_len);
+			search_start = message_prefix_len;
+			conn->buf_used = message_prefix_len;
+			conn->buf_start = 0;
+		}
+
+		if (conn->buf_used == SPD_REPLY_BUF_SIZE) {
+			SPD_FATAL
+			    ("No newline after reading SPD_REPLY_BUF_SIZE");
+			return NULL;
+		}
+
+		bytes =
+		    read(conn->socket, conn->buf + conn->buf_used,
+			 SPD_REPLY_BUF_SIZE - conn->buf_used);
+		if (bytes == -1)
+			return NULL;
+		if (bytes == 0) {
+			errno = ECONNRESET;
+			return NULL;
+		}
+		conn->buf_used += bytes;
 	}
-	if (m == 0) {
-		SPD_DBG("getline: m=%d!", m);
-		return -1;
-	} else {
-		*p = '\0';
-		*lineptr = buf;
-		*n = m;
-		return m;
-	}
+
 }
-#endif /* HAVE_GETLINE */
 
 /* --------------------- Public functions ------------------------- */
-
-#define SPD_REPLY_BUF_SIZE 65536
 
 /* Determine address for the unix socket */
 static char *_get_default_unix_socket_name(void)
@@ -241,7 +260,7 @@ static void _init_debug(void)
 	if (!spd_debug) {
 		spd_debug = fopen("/tmp/libspeechd.log", "w");
 		if (spd_debug == NULL)
-			SPD_FATAL("COULDN'T ACCES FILE INTENDED FOR DEBUG");
+			SPD_FATAL("COULDN'T ACCESS FILE INTENDED FOR DEBUG");
 
 		SPD_DBG("Debugging started");
 	}
@@ -381,9 +400,11 @@ spawn_server(const SPDConnectionAddress * address, int is_localhost,
 			    g_strdup_printf
 			    ("Autospawn failed. Speech Dispatcher refused to start with error code, "
 			     "stating this as a reason: %s", stderr_output);
+			g_free(stderr_output);
 			return 1;
 		} else {
 			*spawn_error = NULL;
+			g_free(stderr_output);
 			return 0;
 		}
 	}
@@ -482,6 +503,9 @@ SPDConnection *spd_open2(const char *client_name, const char *connection_name,
 		connection = NULL;
 		goto out;
 	}
+
+	connection->stream = (void*) 1;
+
 	ret = connect(connection->socket, sock_address, sock_address_len);
 	if (ret == -1) {
 		/* Suppose server might not be running, try to autospawn (autostart) it */
@@ -535,14 +559,20 @@ SPDConnection *spd_open2(const char *client_name, const char *connection_name,
 
 	connection->mode = mode;
 
-	/* Create a stream from the socket */
-	connection->stream = fdopen(connection->socket, "r");
-	if (!connection->stream)
-		SPD_FATAL("Can't create a stream for socket, fdopen() failed.");
-	/* Switch to line buffering mode */
-	ret = setvbuf(connection->stream, NULL, _IONBF, SPD_REPLY_BUF_SIZE);
-	if (ret)
-		SPD_FATAL("Can't set buffering, setvbuf failed.");
+	/* Set up buffer for the socket */
+	connection->buf_start = 0;
+	connection->buf_used = 0;
+	connection->buf = malloc(SPD_REPLY_BUF_SIZE);
+
+	if (!connection->buf) {
+		*error_result =
+		    strdup("Out of memory allocating connection buffer");
+		SPD_DBG(*error_result);
+		close(connection->socket);
+		free(connection);
+		connection = NULL;
+		goto out;
+	}
 
 	pthread_mutex_init(&connection->ssip_mutex, NULL);
 
@@ -560,12 +590,13 @@ SPDConnection *spd_open2(const char *client_name, const char *connection_name,
 		if (ret != 0) {
 			*error_result = strdup("Thread initialization failed");
 			SPD_DBG(*error_result);
-			fclose(connection->stream);
 			close(connection->socket);
+			free(connection->buf);
 			free(connection);
 			connection = NULL;
 			goto out;
 		}
+		connection->reply = NULL;
 	}
 
 	/* By now, the connection is created and operational */
@@ -580,6 +611,11 @@ out:
 	free(set_client_name);
 	SPDConnectionAddress__free(defaultAddress);
 	return connection;
+}
+
+int spd_fd(SPDConnection * connection)
+{
+	return connection->socket;
 }
 
 #define RET(r) \
@@ -618,7 +654,12 @@ void spd_close(SPDConnection * connection)
 	}
 
 	/* close the socket */
-	close(connection->socket);
+	if (connection->socket >= 0) {
+		close(connection->socket);
+		connection->socket = -1;
+		connection->stream = NULL;
+	}
+	free(connection->buf);
 
 	pthread_mutex_unlock(&connection->ssip_mutex);
 
@@ -718,7 +759,7 @@ int spd_say(SPDConnection * connection, SPDPriority priority, const char *text)
 	return msg_id;
 }
 
-/* The same as spd_say, accepts also formated strings */
+/* The same as spd_say, accepts also formatted strings */
 int
 spd_sayf(SPDConnection * connection, SPDPriority priority, const char *format,
 	 ...)
@@ -822,6 +863,8 @@ spd_key(SPDConnection * connection, SPDPriority priority, const char *key_name)
 
 	if (key_name == NULL)
 		return -1;
+	if (!strcmp(key_name, " "))
+		key_name = "space";
 
 	pthread_mutex_lock(&connection->ssip_mutex);
 
@@ -858,7 +901,10 @@ spd_char(SPDConnection * connection, SPDPriority priority,
 	if (ret)
 		RET(-1);
 
-	sprintf(command, "CHAR %s", character);
+	if (!strcmp(character, " "))
+		sprintf(command, "CHAR space");
+	else
+		sprintf(command, "CHAR %s", character);
 	ret = spd_execute_command_wo_mutex(connection, command);
 	if (ret)
 		RET(-1);
@@ -880,6 +926,7 @@ spd_wchar(SPDConnection * connection, SPDPriority priority, wchar_t wcharacter)
 	ret = wcrtomb(character, wcharacter, NULL);
 	if (ret <= 0)
 		RET(-1);
+	character[ret] = '\0';
 
 	ret = spd_set_priority(connection, priority);
 	if (ret)
@@ -1453,14 +1500,28 @@ char **spd_list_voices(SPDConnection * connection)
 	return voices;
 }
 
-SPDVoice **spd_list_synthesis_voices(SPDConnection * connection)
+void free_spd_symbolic_voices(char **voices)
+{
+	int i = 0;
+	while (voices != NULL && voices[i] != NULL) {
+		free(voices[i]);
+		++i;
+	}
+	free(voices);
+}
+
+SPDVoice **spd_list_synthesis_voices2(SPDConnection * connection, const char *language, const char *variant)
 {
 	char **svoices_str;
 	SPDVoice **svoices;
 	int i, num_items;
-	svoices_str =
-	    spd_execute_command_with_list_reply(connection,
-						"LIST SYNTHESIS_VOICES");
+	char *command = g_strdup_printf("LIST SYNTHESIS_VOICES%s%s%s%s",
+					language ? " " : "",
+					language ? language : "",
+					language && variant ? " " : "",
+					variant ? variant : "");
+	svoices_str = spd_execute_command_with_list_reply(connection, command);
+	free(command);
 
 	if (svoices_str == NULL)
 		return NULL;
@@ -1492,6 +1553,11 @@ SPDVoice **spd_list_synthesis_voices(SPDConnection * connection)
 	return svoices;
 }
 
+SPDVoice **spd_list_synthesis_voices(SPDConnection * connection)
+{
+	return spd_list_synthesis_voices2(connection, NULL, NULL);
+}
+
 void free_spd_voices(SPDVoice ** voices)
 {
 	int i = 0;
@@ -1514,7 +1580,7 @@ char **spd_execute_command_with_list_reply(SPDConnection * connection,
 	int i;
 
 	spd_execute_command_with_reply(connection, command, &reply);
-	if (!ret_ok(reply)) {
+	if (ret_ok(reply) <= 0) {
 		if (reply != NULL)
 			free(reply);
 		return NULL;
@@ -1522,8 +1588,9 @@ char **spd_execute_command_with_list_reply(SPDConnection * connection,
 
 	result = malloc((max_items + 1) * sizeof(char *));
 
+	char *cur = reply;
 	for (i = 0;; i++) {
-		line = get_param_str(reply, i + 1, &err);
+		line = get_param_str_and_advance(&cur, &err);
 		if ((err) || (line == NULL))
 			break;
 		result[i] = line;
@@ -1641,7 +1708,7 @@ char *spd_send_data(SPDConnection * connection, const char *message, int wfr)
 	char *reply;
 	pthread_mutex_lock(&connection->ssip_mutex);
 
-	if (connection->stream == NULL)
+	if (connection->socket < 0)
 		RET(NULL);
 
 	reply = spd_send_data_wo_mutex(connection, message, wfr);
@@ -1663,7 +1730,7 @@ char *spd_send_data_wo_mutex(SPDConnection * connection, const char *message,
 
 	SPD_DBG("Inside spd_send_data_wo_mutex");
 
-	if (connection->stream == NULL)
+	if (connection->socket < 0)
 		return NULL;
 
 	if (connection->mode == SPD_MODE_THREADED) {
@@ -1695,24 +1762,25 @@ char *spd_send_data_wo_mutex(SPDConnection * connection, const char *message,
 			SPD_DBG
 			    ("Reading the reply in spd_send_data_wo_mutex threaded mode");
 			/* Read the reply */
+			pthread_mutex_lock(&connection->td->mutex_reply_ack);
 			if (connection->reply != NULL) {
 				reply = connection->reply;
 				connection->reply = NULL;
 			} else {
 				SPD_DBG
 				    ("Error: Can't read reply, broken socket in spd_send_data.");
+				pthread_mutex_unlock(&connection->td->mutex_reply_ack);
 				return NULL;
 			}
+			/* Signal the reply has been read */
+			pthread_cond_signal(&connection->td->cond_reply_ack);
+			pthread_mutex_unlock(&connection->td->mutex_reply_ack);
 			bytes = strlen(reply);
 			if (bytes == 0) {
 				free(reply);
 				SPD_DBG("Error: Empty reply, broken socket.");
 				return NULL;
 			}
-			/* Signal the reply has been read */
-			pthread_mutex_lock(&connection->td->mutex_reply_ack);
-			pthread_cond_signal(&connection->td->cond_reply_ack);
-			pthread_mutex_unlock(&connection->td->mutex_reply_ack);
 		} else {
 			reply = get_reply(connection);
 		}
@@ -1765,45 +1833,57 @@ static int spd_set_priority(SPDConnection * connection, SPDPriority priority)
 	return spd_execute_command_wo_mutex(connection, command);
 }
 
+struct get_reply_data {
+	GString *str;
+};
+
+static void get_reply_cleanup(void *arg)
+{
+	struct get_reply_data *data = arg;
+	g_string_free(data->str, TRUE);
+}
+
 static char *get_reply(SPDConnection * connection)
 {
-	GString *str;
-	char *line = NULL;
-	size_t N = 0;
-	int bytes;
 	char *reply;
+	char *line;
+	int n;
 	gboolean errors = FALSE;
+	struct get_reply_data data;
 
-	str = g_string_new("");
+	data.str = g_string_new("");
+
+	pthread_cleanup_push(get_reply_cleanup, &data);
 
 	/* Wait for activity on the socket, when there is some,
 	   read all the message line by line */
 	do {
-		bytes = getline(&line, &N, connection->stream);
-		if (bytes == -1) {
+		line = get_line(connection, &n);
+		if (line == NULL) {
 			SPD_DBG
 			    ("Error: Can't read reply, broken socket in get_reply!");
-			if (connection->stream != NULL)
-				fclose(connection->stream);
-			connection->stream = NULL;
+			if (connection->socket >= 0) {
+				close(connection->socket);
+				connection->socket = -1;
+				connection->stream = NULL;
+			}
 			errors = TRUE;
 		} else {
-			g_string_append(str, line);
+			g_string_append_len(data.str, line, n);
 		}
 		/* terminate if we reached the last line (without '-' after numcode) */
-	} while (!errors && !((strlen(line) < 4) || (line[3] == ' ')));
+	} while (!errors && n >= 4 && line[3] != ' ');
 
-	free(line);		/* getline allocates with malloc. */
+	pthread_cleanup_pop(0);
 
 	if (errors) {
 		/* Free the GString and its character data, and return NULL. */
-		g_string_free(str, TRUE);
+		g_string_free(data.str, TRUE);
 		reply = NULL;
 	} else {
 		/* The resulting message received from the socket is stored in reply */
-		reply = str->str;
 		/* Free the GString, but not its character data. */
-		g_string_free(str, FALSE);
+		reply = g_string_free(data.str, FALSE);
 	}
 
 	return reply;
@@ -1814,6 +1894,8 @@ static void *spd_events_handler(void *conn)
 	char *reply;
 	int reply_code;
 	SPDConnection *connection = conn;
+
+	spd_pthread_setname("events handler");
 
 	while (1) {
 
@@ -1907,9 +1989,10 @@ static void *spd_events_handler(void *conn)
 			pthread_cond_signal(&connection->td->cond_reply_ready);
 			pthread_mutex_lock(&connection->td->mutex_reply_ack);
 			pthread_mutex_unlock(&connection->td->mutex_reply_ready);
-			/* Wait until it has bean read */
-			pthread_cond_wait(&connection->td->cond_reply_ack,
-					  &connection->td->mutex_reply_ack);
+			/* Wait until it has been read */
+			while (connection->reply)
+				pthread_cond_wait(&connection->td->cond_reply_ack,
+						  &connection->td->mutex_reply_ack);
 			pthread_mutex_unlock(&connection->td->mutex_reply_ack);
 			/* Continue */
 		}
@@ -1917,9 +2000,11 @@ static void *spd_events_handler(void *conn)
 	/* In case of broken socket, we must still signal reply ready */
 	if (connection->reply == NULL) {
 		SPD_DBG("Signalling reply ready after communication failure");
-		if (connection->stream != NULL)
-			fclose(connection->stream);
-		connection->stream = NULL;
+		if (connection->socket >= 0) {
+			close(connection->socket);
+			connection->socket = -1;
+			connection->stream = NULL;
+		}
 		pthread_cond_signal(&connection->td->cond_reply_ready);
 		pthread_exit(0);
 	}
@@ -1943,9 +2028,8 @@ static int ret_ok(char *reply)
 	SPD_FATAL("Internal error during communication.");
 }
 
-static char *get_param_str(char *reply, int num, int *err)
+static char *get_param_str_and_advance(char **reply, int *err)
 {
-	int i;
 	char *tptr;
 	char *pos;
 	char *pos_begin;
@@ -1954,20 +2038,7 @@ static char *get_param_str(char *reply, int num, int *err)
 
 	assert(err != NULL);
 
-	if (num < 1) {
-		*err = -1;
-		return NULL;
-	}
-
-	pos = reply;
-	for (i = 0; i <= num - 2; i++) {
-		pos = strstr(pos, "\r\n");
-		if (pos == NULL) {
-			*err = -2;
-			return NULL;
-		}
-		pos += 2;
-	}
+	pos = *reply;
 
 	if (strlen(pos) < 4)
 		return NULL;
@@ -1991,7 +2062,34 @@ static char *get_param_str(char *reply, int num, int *err)
 	rep = (char *)strndup(pos_begin, pos_end - pos_begin);
 	*err = 0;
 
+	*reply = pos_end + 2;
+
 	return rep;
+}
+
+static char *get_param_str(char *reply, int num, int *err)
+{
+	int i;
+	char *pos;
+
+	assert(err != NULL);
+
+	if (num < 1) {
+		*err = -1;
+		return NULL;
+	}
+
+	pos = reply;
+	for (i = 0; i <= num - 2; i++) {
+		pos = strstr(pos, "\r\n");
+		if (pos == NULL) {
+			*err = -2;
+			return NULL;
+		}
+		pos += 2;
+	}
+
+	return get_param_str_and_advance(&pos, err);
 }
 
 static int get_param_int(char *reply, int num, int *err)

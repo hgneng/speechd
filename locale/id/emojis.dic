@@ -74,28 +74,194 @@ symbols:
 ⇘	panah ganda tenggara	none
 ⇙	panah ganda barat daya	none
 ⇚	panah tripel ke kiri	none
+⇛	panah tripel ke kanan	none
+⇜	panah keriting ke kiri	none
+⇝	panah keriting ke kanan	none
+⇞	panah ke atas coret ganda	none
+⇟	panah ke bawah coret ganda	none
+⇠	panah bergaris putus-putus ke kiri	none
+⇡	panah bergaris putus-putus ke atas	none
+⇢	panah bergaris putus-putus ke kanan	none
+⇣	panah bergaris putus-putus ke bawah	none
+⇤	batang panah ke kiri	none
+⇥	batang panah ke kanan	none
+⇦	panah putih ke kiri	none
+⇧	panah putih ke atas	none
+⇨	panah putih ke kanan	none
+⇩	panah putih ke bawah	none
+⇪	panah putih ke atas dari batang	none
+⇵	panah ke bawah di sebelah kiri panah ke atas	none
+∀	untuk semua	none
+∂	diferensial parsial	none
+∃	di sana ada	none
+∅	himpunan kosong	none
 ∆	pertambahan	none
 ∇	nabla	none
 ∈	anggota	none
+∉	bukan elemen	none
+∋	berisi	none
+∎	pembuktian selesai	none
+∏	produk n-ary	none
+∑	penjumlahan n-ary	none
+≮	tidak kurang dari	none
 ≠	tidak sama dengan	none
+≯	tidak lebih dari	none
 −	tanda minus	none
 ⁻	minus superskrip	none
+∓	minus-atau-plus	none
+∕	garis miring pembagian	none
+∗	operator asterisk	none
+∘	operator cincin	none
+∙	operator bullet	none
 √	akar kuadrat	none
+∝	proporsional	none
 ∞	tanda tak terhingga	none
+∟	sudut kanan	none
+∠	sudut	none
+∣	membagi	none
+∥	paralel	none
+∧	dan logika	none
 ∩	irisan	none
 ∪	gabungan	none
+∫	integral	none
+∬	integral ganda	none
+∮	integral kontur	none
+∴	karena itu	none
+∵	karena	none
+∶	rasio	none
+∷	proporsi	none
+∼	operator tilde	none
+∽	tilde terbalik	none
+∾	lazy s terbalik	none
+≃	sama asimptotis	none
+≅	kira-kira sama	none
 ≈	hampir sama dengan	none
+≌	semua sama	none
+≒	kira-kira sama dengan atau gambaran	none
+≖	cincin di dalam tanda sama dengan	none
 ≡	setara dengan	none
+≣	setara terbatas	none
 ≤	kurang dari atau sama dengan	none
 ≥	lebih dari atau sama dengan	none
+≦	kurang dari di atas sama dengan	none
+≧	lebih dari di atas sama dengan	none
+≪	jauh lebih sedikit dari	none
+≫	jauh lebih besar dari	none
+≬	antara	none
+≳	lebih besar dari atau setara	none
+≺	mendahului	none
+≻	mengikuti	none
+⊁	tidak mengikuti	none
 ⊂	subhimpunan dari	none
+⊃	superset	none
+⊆	subset sama dengan	none
+⊇	superset sama dengan	none
+⊕	plus dilingkari	none
+⊖	minus dilingkari	none
+⊗	tanda perkalian dilingkari	none
+⊘	garis miring pembagian dilingkari	none
+⊙	operator titik dilingkari	none
+⊚	operator cincin dilingkari	none
+⊛	operator asterisk dilingkari	none
+⊞	tanda plus dalam persegi	none
+⊟	tanda minus dalam persegi	none
+⊥	falsum	none
+⊮	tidak memaksa	none
+⊰	mendahului di bawah relasi	none
+⊱	mengikuti di bawah relasi	none
+⋭	tidak mencakup sebagai subgrup normal atau sama dengan	none
+⊶	orisinal	none
+⊹	matriks konjugasi hermitian	none
+⊿	segitiga kanan	none
+⋁	atau logika n-ary	none
+⋂	irisan n-ary	none
+⋃	gabungan n-ary	none
+⋅	operator titik	none
+⋆	operator bintang	none
+⋈	gabungan alami	none
+⋒	irisan ganda	none
+⋘	sangat lebih sedikit dari	none
+⋙	sangat lebih besar dari	none
+⋮	elipsis vertikal	none
+⋯	elipsis horizontal garis tengah	none
+⋰	elipsis diagonal naik ke kanan	none
+⋱	elipsis diagonal turun ke kanan	none
+■	persegi hitam	none
+□	persegi putih	none
+▢	persegi putih dengan sudut lengkung	none
+▣	persegi putih berisi persegi hitam	none
+▤	persegi dengan isian horizontal	none
+▥	persegi dengan isian vertikal	none
+▦	persegi isian garis silang ortogonal	none
+▧	persegi isian garis diagonal turun ke kanan	none
+▨	persegi isian garis diagonal turun ke kiri	none
+▩	persegi isian garis silang diagonal	none
+▬	persegi panjang hitam	none
+▭	persegi panjang putih	none
+▮	persegi panjang vertikal hitam	none
+▰	jajar genjang hitam	none
 ▲	segitiga solid mengarah ke atas	none
+△	segitiga putih menghadap atas	none
+▴	segitiga kecil hitam menghadap atas	none
+▵	segitiga kecil putih menghadap atas	none
+▷	segitiga putih menghadap kanan	none
+▸	segitiga kecil hitam menghadap kanan	none
+▹	segitiga kecil putih menghadap kanan	none
+►	penunjuk hitam menghadap kanan	none
+▻	penunjuk putih menghadap kanan	none
 ▼	segitiga solid mengarah ke bawah	none
+▽	segitiga putih menghadap bawah	none
+▾	segitiga kecil hitam menghadap bawah	none
+▿	segitiga kecil putih menghadap bawah	none
+◁	segitiga putih menghadap kiri	none
+◂	segitiga kecil hitam menghadap kiri	none
+◃	segitiga kecil putih menghadap kiri	none
+◄	penunjuk hitam menghadap kiri	none
+◅	penunjuk putih menghadap kiri	none
+◆	belah ketupat hitam	none
+◇	belah ketupat putih	none
+◈	belah ketupat putih berisi belah ketupat hitam	none
+◉	lingkaran putih berisi lingkaran hitam	none
 ◊	belah ketupat	none
 ○	lingkaran kosong	none
+◌	lingkaran bergaris putus-putus	none
+◍	lingkaran dengan isian vertikal	none
+◎	lingkaran konsentris	none
 ●	lingkaran solid	none
+◐	lingkaran dengan setengah kiri hitam	none
+◑	lingkaran dengan setengah kanan hitam	none
+◒	lingkaran dengan setengah bawah hitam	none
+◓	lingkaran dengan setengah atas hitam	none
+◔	lingkaran dengan kuadran kanan atas hitam	none
+◕	lingkaran hitam kecuali kuadran kiri atas	none
+◖	setengah lingkaran kiri hitam	none
+◗	setengah lingkaran kanan hitam	none
+◘	bullet dalam persegi hitam	none
+◙	persegi hitam berisi lingkaran putih	none
+◜	busur lingkaran kuadran kiri atas	none
+◝	busur lingkaran kuadran kanan atas	none
+◞	busur lingkaran kuadran kanan bawah	none
+◟	busur lingkaran kuadran kiri bawah	none
+◠	setengah lingkaran atas	none
+◡	setengah lingkaran bawah	none
+◢	segitiga kanan bawah hitam	none
+◣	segitiga kiri bawah hitam	none
+◤	segitiga kiri atas hitam	none
+◥	segitiga kanan atas hitam	none
+◦	peluru putih	none
 ◯	lingkaran kosong besar	none
+◳	persegi putih kuadran kanan atas	none
+◷	lingkaran putih dengan kuadran kanan atas	none
+◿	segitiga kanan bawah	none
 ♪	not seperdelapan	none
+⨧	plus dengan subskrip angka dua	none
+⨯	produk vektor	none
+⨼	produk interior	none
+⩣	atau logika dengan dua garis bawah	none
+⩽	kurang dari dengan tanda sama dengan miring	none
+⪍	kurang dari di atas tanda sama dengan atau kira-kira sama dengan	none
+⪚	dua garis sama dengan di atas tanda lebih dari	none
+⪺	mengikuti di atas tanda tidak hampir sama	none
 ♭	nada mol	none
 ♯	nada kres	none
 😀	wajah gembira	none
@@ -108,6 +274,7 @@ symbols:
 😂	wajah gembira berurai air mata	none
 🙂	wajah agak tersenyum	none
 🙃	wajah terbalik	none
+🫠	wajah meleleh	none
 😉	wajah berkedip	none
 😊	wajah tersenyum dengan mata bahagia	none
 😇	wajah malaikat	none
@@ -128,24 +295,33 @@ symbols:
 🤑	wajah materialistis	none
 🤗	wajah memeluk	none
 🤭	wajah dengan tangan menutup mulut	none
+🫢	wajah dengan mata terbuka dan tangan menutupi mulut	none
+🫣	wajah dengan mata mengintip	none
 🤫	wajah menyuruh diam	none
 🤔	wajah berpikir	none
+🫡	wajah memberi hormat	none
 🤐	wajah dengan mulut tertutup rapat	none
 🤨	wajah dengan alis terangkat	none
 😐	wajah netral	none
 😑	wajah tanpa ekspresi	none
 😶	wajah tanpa mulut	none
+🫥	wajah dengan garis titik-titik	none
+😶‍🌫	wajah di awan	none
 😏	wajah tersenyum sombong	none
 😒	wajah bosan	none
 🙄	wajah dengan mata ke atas	none
 😬	wajah menyeringai	none
 😮‍💨	wajah mengembuskan napas	none
 🤥	bohong	none
+🫨	wajah gemetar	none
+🙂‍↔	kepala bergeleng	none
+🙂‍↕	kepala mengangguk	none
 😌	wajah lega	none
 😔	wajah merenung	none
 😪	wajah mengantuk	none
 🤤	ngiler	none
 😴	wajah tidur	none
+🫩	wajah dengan kantung mata	none
 😷	wajah bermasker	none
 🤒	wajah bertermometer	none
 🤕	wajah diperban di kepala	none
@@ -165,6 +341,7 @@ symbols:
 🤓	wajah kutu buku	none
 🧐	wajah dengan monokel	none
 😕	wajah bingung	none
+🫤	wajah dengan mulut diagonal	none
 😟	wajah cemas	none
 🙁	wajah agak cemberut	none
 ☹	wajah cemberut	none
@@ -172,7 +349,9 @@ symbols:
 😯	wajah hening	none
 😲	wajah terpukau	none
 😳	wajah tersipu	none
+🫪	wajah syok	none
 🥺	wajah memelas	none
+🥹	wajah menahan air mata	none
 😦	wajah mengerutkan kening dengan mulut terbuka	none
 😧	wajah menderita	none
 😨	wajah ketakutan	none
@@ -216,7 +395,6 @@ symbols:
 🙈	tidak melihat	none
 🙉	tidak mendengar	none
 🙊	tidak bicara	none
-💋	tanda ciuman	none
 💌	surat cinta	none
 💘	hati terpanah	none
 💝	hati berpita	none
@@ -231,22 +409,26 @@ symbols:
 ❤‍🔥	hati berapi-api	none
 ❤‍🩹	mengobati hati terluka	none
 ❤	hati merah	none
+🩷	hati merah muda	none
 🧡	hati oranye	none
 💛	hati kuning	none
 💚	hati hijau	none
 💙	hati biru	none
+🩵	hati biru muda	none
 💜	hati ungu	none
 🤎	hati cokelat	none
 🖤	hati hitam	none
+🩶	hati abu-abu	none
 🤍	hati putih	none
+💋	tanda ciuman	none
 💯	nilai seratus	none
 💢	marah	none
+🫯	awan duel	none
 💥	tabrakan	none
 💫	pusing	none
 💦	keringat	none
 💨	berlari	none
 🕳	lubang	none
-💣	bom	none
 💬	balon ucapan	none
 👁‍🗨	mata di dalam gelembung ucapan	none
 🗨	gelembung ucapan kiri	none
@@ -258,11 +440,18 @@ symbols:
 🖐	telapak tangan terbuka	none
 ✋	telapak tangan terbuka dengan jari rapat	none
 🖖	salam vulcan	none
+🫱	tangan menghadap kanan	none
+🫲	tangan menghadap kiri	none
+🫳	telapak tangan menghadap ke bawah	none
+🫴	telapak tangan menghadap ke atas	none
+🫷	tangan mendorong ke kiri	none
+🫸	tangan mendorong ke kanan	none
 👌	oke	none
 🤌	jari terkuncup	none
 🤏	tangan menjepit	none
 ✌	isyarat kemenangan	none
 🤞	jari menyilang	none
+🫰	tangan dengan jari telunjuk dan ibu jari menyilang	none
 🤟	gerakan sayang kamu	none
 🤘	lambang tanduk	none
 🤙	panggil saya	none
@@ -272,6 +461,7 @@ symbols:
 🖕	jari tengah	none
 👇	menunjuk ke bawah	none
 ☝	menunjuk ke atas	none
+🫵	jari telunjuk menunjuk penonton	none
 👍	jempol ke atas	none
 👎	jempol ke bawah	none
 ✊	tangan terkepal ke atas	none
@@ -280,6 +470,7 @@ symbols:
 🤜	tinju kanan	none
 👏	tepuk tangan	none
 🙌	mengangkat tangan	none
+🫶	tangan membentuk hati	none
 👐	tangan terbuka	none
 🤲	tangan diangkat dan dirapatkan bersama	none
 🤝	jabat tangan	none
@@ -304,6 +495,7 @@ symbols:
 👁	satu mata	none
 👅	lidah	none
 👄	mulut	none
+🫦	menggigit bibir	none
 👶	bayi	none
 🧒	anak	none
 👦	anak laki-laki	none
@@ -411,6 +603,7 @@ symbols:
 👷	pekerja konstruksi	none
 👷‍♂	pekerja konstruksi pria	none
 👷‍♀	pekerja konstruksi wanita	none
+🫅	orang mengenakan mahkota	none
 🤴	pangeran	none
 👸	putri	none
 👳	orang mengenakan serban	none
@@ -425,6 +618,8 @@ symbols:
 👰‍♂	pria berpenutup kepala	none
 👰‍♀	wanita berpenutup kepala	none
 🤰	wanita hamil	none
+🫃	pria hamil	none
+🫄	orang hamil	none
 🤱	menyusui	none
 👩‍🍼	wanita menyusui bayi	none
 👨‍🍼	pria menyusui bayi	none
@@ -460,6 +655,8 @@ symbols:
 🧟	zombi	none
 🧟‍♂	zombi pria	none
 🧟‍♀	zombi wanita	none
+🧌	raksasa	none
+🫈	makhluk berbulu	none
 💆	pria dipijat	none
 💆‍♂	pria dipijat kepalanya	none
 💆‍♀	wanita dipijat	none
@@ -487,6 +684,7 @@ symbols:
 🏃	orang berlari	none
 🏃‍♂	pria berlari	none
 🏃‍♀	wanita berlari	none
+🧑‍🩰	penari balet	none
 💃	wanita menari	none
 🕺	pria menari	none
 🕴	pria melayang mengenakan jas	none
@@ -553,12 +751,17 @@ symbols:
 👬	dua pria bergandengan	none
 💏	berciuman	none
 💑	pasangan dengan hati	none
-👪	keluarga	none
 🗣	kepala berbicara	none
 👤	siluet foto setengah badan	none
 👥	beberapa siluet foto setengah badan	none
 🫂	orang berpelukan	none
+👪	keluarga	none
+🧑‍🧑‍🧒	keluarga orang dewasa, orang dewasa, anak	none
+🧑‍🧑‍🧒‍🧒	keluarga orang dewasa, orang dewasa, anak, anak	none
+🧑‍🧒	keluarga orang dewasa, anak	none
+🧑‍🧒‍🧒	keluarga orang dewasa, anak, anak	none
 👣	jejak kaki	none
+🫆	sidik jari	none
 🦰	rambut merah	none
 🦱	rambut keriting	none
 🦳	rambut putih	none
@@ -583,6 +786,8 @@ symbols:
 🐅	harimau	none
 🐆	macan tutul	none
 🐴	wajah kuda	none
+🫎	rusa besar	none
+🫏	keledai	none
 🐎	kuda	none
 🦄	unicorn	none
 🦓	zebra	none
@@ -638,13 +843,17 @@ symbols:
 🕊	merpati	none
 🦅	elang	none
 🦆	bebek	none
-🦢	angsa	none
+🦢	angsa leher panjang	none
 🦉	burung hantu	none
 🦤	dodo	none
 🪶	bulu	none
 🦩	flamingo	none
 🦚	merak	none
 🦜	nuri	none
+🪽	sayap	none
+🐦‍⬛	burung hitam	none
+🪿	angsa leher pendek	none
+🐦‍🔥	phoenix	none
 🐸	katak	none
 🐊	buaya	none
 🐢	kura-kura	none
@@ -657,6 +866,7 @@ symbols:
 🐳	ikan paus menyembur	none
 🐋	ikan paus	none
 🐬	lumba-lumba	none
+🫍	orca	none
 🦭	anjing laut	none
 🐟	ikan	none
 🐠	ikan tropis	none
@@ -664,6 +874,13 @@ symbols:
 🦈	hiu	none
 🐙	gurita	none
 🐚	cangkang spiral	none
+🪸	terumbu karang	none
+🪼	ubur-ubur	none
+🦀	kepiting	none
+🦞	lobster	none
+🦐	udang	none
+🦑	cumi-cumi	none
+🦪	tiram	none
 🐌	siput	none
 🦋	kupu-kupu	none
 🐛	serangga kecil	none
@@ -683,6 +900,7 @@ symbols:
 💐	karangan bunga	none
 🌸	sakura	none
 💮	bunga putih	none
+🪷	teratai	none
 🏵	hiasan mawar	none
 🌹	mawar	none
 🥀	bunga layu	none
@@ -690,6 +908,7 @@ symbols:
 🌻	bunga matahari	none
 🌼	mekar	none
 🌷	tulip	none
+🪻	hyacinthus	none
 🌱	semai	none
 🪴	tanaman pot	none
 🌲	pohon hijau abadi	none
@@ -698,16 +917,21 @@ symbols:
 🌵	kaktus	none
 🌾	seikat padi	none
 🌿	herba	none
-☘	shamrock	none
+☘	semanggi	none
 🍀	empat daun semanggi	none
 🍁	daun maple	none
 🍂	daun berguguran	none
 🍃	daun tertiup angin	none
+🪹	sarang burung kosong	none
+🪺	sarang dengan telur	none
+🍄	jamur	none
+🪾	pohon tanpa daun	none
 🍇	anggur	none
 🍈	melon	none
 🍉	semangka	none
 🍊	buah jeruk	none
 🍋	lemon	none
+🍋‍🟩	jeruk limau	none
 🍌	pisang	none
 🍍	nanas	none
 🥭	mangga	none
@@ -734,9 +958,13 @@ symbols:
 🥦	brokoli	none
 🧄	bawang putih	none
 🧅	bawang bombay	none
-🍄	jamur	none
 🥜	kacang tanah	none
+🫘	kacang merah	none
 🌰	kastanye	none
+🫚	akar jahe	none
+🫛	kacang polong	none
+🍄‍🟫	jamur cokelat	none
+🫜	sayuran umbi	none
 🍞	roti	none
 🥐	croissant	none
 🥖	roti baguette	none
@@ -788,11 +1016,6 @@ symbols:
 🥟	dumpling	none
 🥠	kue keberuntungan	none
 🥡	kotak makanan	none
-🦀	kepiting	none
-🦞	lobster	none
-🦐	udang	none
-🦑	cumi-cumi	none
-🦪	tiram	none
 🍦	es krim lembut	none
 🍧	es serut	none
 🍨	es krim	none
@@ -821,6 +1044,7 @@ symbols:
 🍻	mug bir berdenting	none
 🥂	mendentingkan gelas	none
 🥃	gelas tumbler	none
+🫗	menuang cairan	none
 🥤	cangkir dengan sedotan	none
 🧋	teh bubble	none
 🧃	kotak minuman	none
@@ -831,6 +1055,7 @@ symbols:
 🍴	garpu dan pisau	none
 🥄	sendok	none
 🔪	pisau dapur	none
+🫙	toples	none
 🏺	amphora	none
 🌍	bola dunia Eropa-Afrika	none
 🌎	bola dunia Amerika	none
@@ -841,6 +1066,7 @@ symbols:
 🧭	kompas	none
 🏔	gunung dengan puncak bersalju	none
 ⛰	gunung	none
+🛘	longsor	none
 🌋	gunung berapi	none
 🗻	gunung Fuji	none
 🏕	berkemah	none
@@ -893,6 +1119,7 @@ symbols:
 🌉	jembatan di malam hari	none
 ♨	sumber air panas	none
 🎠	komidi putar	none
+🛝	perosotan	none
 🎡	kincir ria	none
 🎢	roller coaster	none
 💈	tanda salon	none
@@ -941,12 +1168,14 @@ symbols:
 🛤	rel kereta	none
 🛢	drum minyak	none
 ⛽	pompa bahan bakar	none
+🛞	roda	none
 🚨	lampu mobil polisi	none
 🚥	lampu lalu lintas horizontal	none
 🚦	lampu lalu lintas vertikal	none
 🛑	rambu stop	none
 🚧	konstruksi	none
 ⚓	jangkar	none
+🛟	ban pelampung	none
 ⛵	perahu layar	none
 🛶	kano	none
 🚤	perahu cepat	none
@@ -1104,10 +1333,10 @@ symbols:
 🎯	dart	none
 🪀	yo-yo	none
 🪁	layang-layang	none
+🔫	pistol air	none
 🎱	biliar 8 bola	none
 🔮	bola kristal	none
 🪄	tongkat ajaib	none
-🧿	jimat nazar	none
 🎮	video game	none
 🕹	joystick	none
 🎰	mesin slot	none
@@ -1115,8 +1344,9 @@ symbols:
 🧩	keping puzzle	none
 🧸	boneka beruang	none
 🪅	pinata	none
+🪩	bola disko	none
 🪆	boneka bersarang	none
-♠	sekop	none
+♠	waru	none
 ♥	hati	none
 ♦	wajik	none
 ♣	keriting	none
@@ -1151,6 +1381,7 @@ symbols:
 🩳	celana pendek	none
 👙	bikini	none
 👚	pakaian wanita	none
+🪭	kipas tangan lipat	none
 👛	dompet	none
 👜	tas jinjing	none
 👝	kantung	none
@@ -1165,6 +1396,7 @@ symbols:
 👡	sandal wanita	none
 🩰	sepatu balet	none
 👢	sepatu bot wanita	none
+🪮	sisir garpu	none
 👑	mahkota	none
 👒	topi wanita	none
 🎩	topi tinggi	none
@@ -1195,14 +1427,18 @@ symbols:
 🎧	headphone	none
 📻	radio	none
 🎷	saksofon	none
+🎺	trompet	none
+🪊	trombon	none
 🪗	akordeon	none
 🎸	gitar	none
 🎹	keyboard musik	none
-🎺	trompet	none
 🎻	biola	none
 🪕	banjo	none
 🥁	drum	none
 🪘	gendang	none
+🪇	marakas	none
+🪈	seruling	none
+🪉	harpa	none
 📱	ponsel	none
 📲	telepon masuk	none
 ☎	telepon	none
@@ -1210,6 +1446,7 @@ symbols:
 📟	pager	none
 📠	mesin faks	none
 🔋	baterai	none
+🪫	baterai lemah	none
 🔌	steker	none
 💻	komputer laptop	none
 🖥	komputer desktop	none
@@ -1255,8 +1492,9 @@ symbols:
 📑	penanda halaman buku	none
 🔖	pembatas buku	none
 🏷	label	none
-💰	kantung uang	none
 🪙	koin	none
+💰	kantung uang	none
+🪎	peti harta karun	none
 💴	uang kertas yen	none
 💵	uang kertas dolar	none
 💶	uang kertas euro	none
@@ -1321,7 +1559,7 @@ symbols:
 🛠	palu dan kunci inggris	none
 🗡	belati	none
 ⚔	pedang bersilang	none
-🔫	pistol air	none
+💣	bom	none
 🪃	bumerang	none
 🏹	busur dan panah	none
 🛡	perisai	none
@@ -1334,11 +1572,13 @@ symbols:
 ⚖	timbangan gantung	none
 🦯	tongkat tunanetra	none
 🔗	tautan	none
+⛓‍💥	rantai putus	none
 ⛓	rantai	none
 🪝	kait	none
 🧰	kotak perkakas	none
 🧲	magnet	none
 🪜	tangga	none
+🪏	sekop	none
 ⚗	alembic	none
 🧪	tabung uji	none
 🧫	cawan petri	none
@@ -1350,7 +1590,9 @@ symbols:
 🩸	tetesan darah	none
 💊	pil	none
 🩹	plester luka	none
+🩼	kruk	none
 🩺	stetoskop	none
+🩻	sinar-x	none
 🚪	pintu	none
 🛗	elevator	none
 🪞	cermin	none
@@ -1371,6 +1613,7 @@ symbols:
 🧻	gulungan kertas	none
 🪣	ember	none
 🧼	sabun	none
+🫧	gelembung	none
 🪥	sikat gigi	none
 🧽	spons	none
 🧯	alat pemadam api ringan	none
@@ -1379,8 +1622,11 @@ symbols:
 ⚰	peti mati	none
 🪦	batu nisan	none
 ⚱	guci abu	none
+🧿	jimat nazar	none
+🪬	hamsa	none
 🗿	moai	none
 🪧	plakat	none
+🪪	kartu identitas	none
 🏧	tanda ATM	none
 🚮	tanda membuang sampah	none
 🚰	air dapat diminum	none
@@ -1441,6 +1687,7 @@ symbols:
 ☮	simbol damai	none
 🕎	menorah	none
 🔯	bintang sudut enam bertitik	none
+🪯	khanda	none
 ♈	Aries	none
 ♉	Taurus	none
 ♊	Gemini	none
@@ -1476,6 +1723,7 @@ symbols:
 🔅	tombol redupkan	none
 🔆	tombol cerahkan	none
 📶	batang antena	none
+🛜	nirkabel	none
 📳	mode getar	none
 📴	ponsel nonaktif	none
 ♀	simbol wanita	none
@@ -1485,6 +1733,7 @@ symbols:
 ➕	tambah	none
 ➖	kurang	none
 ➗	bagi	none
+🟰	tanda sama dengan tebal	none
 ♾	tak terhingga	none
 ❓	tanda tanya merah	none
 ❔	tanda tanya putih	none
@@ -1510,6 +1759,7 @@ symbols:
 ✴	bintang berujung delapan	none
 ❇	kilauan	none
 ™	merek dagang	none
+🫟	percikan	none
 🔠	masukan huruf kapital latin	none
 🔡	masukan huruf kecil latin	none
 🔢	masukan angka	none
@@ -1574,13 +1824,21 @@ symbols:
 🏳‍🌈	bendera pelangi	none
 🏳‍⚧	bendera transgender	none
 🏴‍☠	bendera bajak laut	none
+₢	cruzeiro	none
+₣	franc prancis	none
+₤	lira	none
 ₥	mill	none
 ₩	won	none
 €	euro	none
+₰	penny jerman	none
 ₱	peso	none
+₳	austral	none
+₶	livre tournois	none
+₷	spesmilo	none
 ₹	rupee india	none
 ₽	ruble	none
 ₿	bitcoin	none
+₨	rupee	none
 👋🏻	tangan melambai warna kulit cerah	none
 👋🏼	tangan melambai warna kulit cerah-sedang	none
 👋🏽	tangan melambai warna kulit sedang	none
@@ -1606,6 +1864,56 @@ symbols:
 🖖🏽	salam vulcan warna kulit sedang	none
 🖖🏾	salam vulcan warna kulit gelap-sedang	none
 🖖🏿	salam vulcan warna kulit gelap	none
+🫱🏻	tangan menghadap kanan warna kulit cerah	none
+🫱🏼	tangan menghadap kanan warna kulit cerah-sedang	none
+🫱🏽	tangan menghadap kanan warna kulit sedang	none
+🫱🏾	tangan menghadap kanan warna kulit gelap-sedang	none
+🫱🏿	tangan menghadap kanan warna kulit gelap	none
+🫱🏻‍🫲🏼	jabat tangan warna kulit cerah, warna kulit cerah-sedang	none
+🫱🏻‍🫲🏽	jabat tangan warna kulit cerah, warna kulit sedang	none
+🫱🏻‍🫲🏾	jabat tangan warna kulit cerah, warna kulit gelap-sedang	none
+🫱🏻‍🫲🏿	jabat tangan warna kulit cerah, warna kulit gelap	none
+🫱🏼‍🫲🏻	jabat tangan warna kulit cerah-sedang, warna kulit cerah	none
+🫱🏼‍🫲🏽	jabat tangan warna kulit cerah-sedang, warna kulit sedang	none
+🫱🏼‍🫲🏾	jabat tangan warna kulit cerah-sedang, warna kulit gelap-sedang	none
+🫱🏼‍🫲🏿	jabat tangan warna kulit cerah-sedang, warna kulit gelap	none
+🫱🏽‍🫲🏻	jabat tangan warna kulit sedang, warna kulit cerah	none
+🫱🏽‍🫲🏼	jabat tangan warna kulit sedang, warna kulit cerah-sedang	none
+🫱🏽‍🫲🏾	jabat tangan warna kulit sedang, warna kulit gelap-sedang	none
+🫱🏽‍🫲🏿	jabat tangan warna kulit sedang, warna kulit gelap	none
+🫱🏾‍🫲🏻	jabat tangan warna kulit gelap-sedang, warna kulit cerah	none
+🫱🏾‍🫲🏼	jabat tangan warna kulit gelap-sedang, warna kulit cerah-sedang	none
+🫱🏾‍🫲🏽	jabat tangan warna kulit gelap-sedang, warna kulit sedang	none
+🫱🏾‍🫲🏿	jabat tangan warna kulit gelap-sedang, warna kulit gelap	none
+🫱🏿‍🫲🏻	jabat tangan warna kulit gelap, warna kulit cerah	none
+🫱🏿‍🫲🏼	jabat tangan warna kulit gelap, warna kulit cerah-sedang	none
+🫱🏿‍🫲🏽	jabat tangan warna kulit gelap, warna kulit sedang	none
+🫱🏿‍🫲🏾	jabat tangan warna kulit gelap, warna kulit gelap-sedang	none
+🫲🏻	tangan menghadap kiri warna kulit cerah	none
+🫲🏼	tangan menghadap kiri warna kulit cerah-sedang	none
+🫲🏽	tangan menghadap kiri warna kulit sedang	none
+🫲🏾	tangan menghadap kiri warna kulit gelap-sedang	none
+🫲🏿	tangan menghadap kiri warna kulit gelap	none
+🫳🏻	telapak tangan menghadap ke bawah warna kulit cerah	none
+🫳🏼	telapak tangan menghadap ke bawah warna kulit cerah-sedang	none
+🫳🏽	telapak tangan menghadap ke bawah warna kulit sedang	none
+🫳🏾	telapak tangan menghadap ke bawah warna kulit gelap-sedang	none
+🫳🏿	telapak tangan menghadap ke bawah warna kulit gelap	none
+🫴🏻	telapak tangan menghadap ke atas warna kulit cerah	none
+🫴🏼	telapak tangan menghadap ke atas warna kulit cerah-sedang	none
+🫴🏽	telapak tangan menghadap ke atas warna kulit sedang	none
+🫴🏾	telapak tangan menghadap ke atas warna kulit gelap-sedang	none
+🫴🏿	telapak tangan menghadap ke atas warna kulit gelap	none
+🫷🏻	tangan mendorong ke kiri warna kulit cerah	none
+🫷🏼	tangan mendorong ke kiri warna kulit cerah-sedang	none
+🫷🏽	tangan mendorong ke kiri warna kulit sedang	none
+🫷🏾	tangan mendorong ke kiri warna kulit gelap-sedang	none
+🫷🏿	tangan mendorong ke kiri warna kulit gelap	none
+🫸🏻	tangan mendorong ke kanan warna kulit cerah	none
+🫸🏼	tangan mendorong ke kanan warna kulit cerah-sedang	none
+🫸🏽	tangan mendorong ke kanan warna kulit sedang	none
+🫸🏾	tangan mendorong ke kanan warna kulit gelap-sedang	none
+🫸🏿	tangan mendorong ke kanan warna kulit gelap	none
 👌🏻	oke warna kulit cerah	none
 👌🏼	oke warna kulit cerah-sedang	none
 👌🏽	oke warna kulit sedang	none
@@ -1631,6 +1939,11 @@ symbols:
 🤞🏽	jari menyilang warna kulit sedang	none
 🤞🏾	jari menyilang warna kulit gelap-sedang	none
 🤞🏿	jari menyilang warna kulit gelap	none
+🫰🏻	tangan dengan jari telunjuk dan ibu jari menyilang warna kulit cerah	none
+🫰🏼	tangan dengan jari telunjuk dan ibu jari menyilang warna kulit cerah-sedang	none
+🫰🏽	tangan dengan jari telunjuk dan ibu jari menyilang warna kulit sedang	none
+🫰🏾	tangan dengan jari telunjuk dan ibu jari menyilang warna kulit gelap-sedang	none
+🫰🏿	tangan dengan jari telunjuk dan ibu jari menyilang warna kulit gelap	none
 🤟🏻	gerakan sayang kamu warna kulit cerah	none
 🤟🏼	gerakan sayang kamu warna kulit cerah-sedang	none
 🤟🏽	gerakan sayang kamu warna kulit sedang	none
@@ -1676,6 +1989,11 @@ symbols:
 ☝🏽	menunjuk ke atas warna kulit sedang	none
 ☝🏾	menunjuk ke atas warna kulit gelap-sedang	none
 ☝🏿	menunjuk ke atas warna kulit gelap	none
+🫵🏻	jari telunjuk menunjuk penonton warna kulit cerah	none
+🫵🏼	jari telunjuk menunjuk penonton warna kulit cerah-sedang	none
+🫵🏽	jari telunjuk menunjuk penonton warna kulit sedang	none
+🫵🏾	jari telunjuk menunjuk penonton warna kulit gelap-sedang	none
+🫵🏿	jari telunjuk menunjuk penonton warna kulit gelap	none
 👍🏻	jempol ke atas warna kulit cerah	none
 👍🏼	jempol ke atas warna kulit cerah-sedang	none
 👍🏽	jempol ke atas warna kulit sedang	none
@@ -1716,6 +2034,11 @@ symbols:
 🙌🏽	mengangkat tangan warna kulit sedang	none
 🙌🏾	mengangkat tangan warna kulit gelap-sedang	none
 🙌🏿	mengangkat tangan warna kulit gelap	none
+🫶🏻	tangan membentuk hati warna kulit cerah	none
+🫶🏼	tangan membentuk hati warna kulit cerah-sedang	none
+🫶🏽	tangan membentuk hati warna kulit sedang	none
+🫶🏾	tangan membentuk hati warna kulit gelap-sedang	none
+🫶🏿	tangan membentuk hati warna kulit gelap	none
 👐🏻	tangan terbuka warna kulit cerah	none
 👐🏼	tangan terbuka warna kulit cerah-sedang	none
 👐🏽	tangan terbuka warna kulit sedang	none
@@ -1726,6 +2049,11 @@ symbols:
 🤲🏽	tangan diangkat dan dirapatkan bersama warna kulit sedang	none
 🤲🏾	tangan diangkat dan dirapatkan bersama warna kulit gelap-sedang	none
 🤲🏿	tangan diangkat dan dirapatkan bersama warna kulit gelap	none
+🤝🏻	jabat tangan warna kulit cerah	none
+🤝🏼	jabat tangan warna kulit cerah-sedang	none
+🤝🏽	jabat tangan warna kulit sedang	none
+🤝🏾	jabat tangan warna kulit gelap-sedang	none
+🤝🏿	jabat tangan warna kulit gelap	none
 🙏🏻	melipat tangan warna kulit cerah	none
 🙏🏼	melipat tangan warna kulit cerah-sedang	none
 🙏🏽	melipat tangan warna kulit sedang	none
@@ -1846,6 +2174,26 @@ symbols:
 🧑🏿‍❤‍🧑🏼	pasangan dengan hati dewasa, dewasa, warna kulit gelap, warna kulit cerah-sedang	none
 🧑🏿‍❤‍🧑🏽	pasangan dengan hati dewasa, dewasa, warna kulit gelap, warna kulit sedang	none
 🧑🏿‍❤‍🧑🏾	pasangan dengan hati dewasa, dewasa, warna kulit gelap, warna kulit gelap-sedang	none
+🧑🏻‍🫯‍🧑🏼	orang bergulat warna kulit cerah, warna kulit cerah-sedang	none
+🧑🏻‍🫯‍🧑🏽	orang bergulat warna kulit cerah, warna kulit sedang	none
+🧑🏻‍🫯‍🧑🏾	orang bergulat warna kulit cerah, warna kulit gelap-sedang	none
+🧑🏻‍🫯‍🧑🏿	orang bergulat warna kulit cerah, warna kulit gelap	none
+🧑🏼‍🫯‍🧑🏻	orang bergulat warna kulit cerah-sedang, warna kulit cerah	none
+🧑🏼‍🫯‍🧑🏽	orang bergulat warna kulit cerah-sedang, warna kulit sedang	none
+🧑🏼‍🫯‍🧑🏾	orang bergulat warna kulit cerah-sedang, warna kulit gelap-sedang	none
+🧑🏼‍🫯‍🧑🏿	orang bergulat warna kulit cerah-sedang, warna kulit gelap	none
+🧑🏽‍🫯‍🧑🏻	orang bergulat warna kulit sedang, warna kulit cerah	none
+🧑🏽‍🫯‍🧑🏼	orang bergulat warna kulit sedang, warna kulit cerah-sedang	none
+🧑🏽‍🫯‍🧑🏾	orang bergulat warna kulit sedang, warna kulit gelap-sedang	none
+🧑🏽‍🫯‍🧑🏿	orang bergulat warna kulit sedang, warna kulit gelap	none
+🧑🏾‍🫯‍🧑🏻	orang bergulat warna kulit gelap-sedang, warna kulit cerah	none
+🧑🏾‍🫯‍🧑🏼	orang bergulat warna kulit gelap-sedang, warna kulit cerah-sedang	none
+🧑🏾‍🫯‍🧑🏽	orang bergulat warna kulit gelap-sedang, warna kulit sedang	none
+🧑🏾‍🫯‍🧑🏿	orang bergulat warna kulit gelap-sedang, warna kulit gelap	none
+🧑🏿‍🫯‍🧑🏻	orang bergulat warna kulit gelap, warna kulit cerah	none
+🧑🏿‍🫯‍🧑🏼	orang bergulat warna kulit gelap, warna kulit cerah-sedang	none
+🧑🏿‍🫯‍🧑🏽	orang bergulat warna kulit gelap, warna kulit sedang	none
+🧑🏿‍🫯‍🧑🏾	orang bergulat warna kulit gelap, warna kulit gelap-sedang	none
 🧑‍🦰	dewasa rambut merah	none
 🧑🏻‍🦰	dewasa warna kulit cerah, rambut merah	none
 🧑🏼‍🦰	dewasa warna kulit cerah-sedang, rambut merah	none
@@ -1870,6 +2218,26 @@ symbols:
 🧑🏽‍🦲	dewasa warna kulit sedang, gundul	none
 🧑🏾‍🦲	dewasa warna kulit gelap-sedang, gundul	none
 🧑🏿‍🦲	dewasa warna kulit gelap, gundul	none
+🧑🏻‍🐰‍🧑🏼	orang dengan telinga kelinci warna kulit cerah, warna kulit cerah-sedang	none
+🧑🏻‍🐰‍🧑🏽	orang dengan telinga kelinci warna kulit cerah, warna kulit sedang	none
+🧑🏻‍🐰‍🧑🏾	orang dengan telinga kelinci warna kulit cerah, warna kulit gelap-sedang	none
+🧑🏻‍🐰‍🧑🏿	orang dengan telinga kelinci warna kulit cerah, warna kulit gelap	none
+🧑🏼‍🐰‍🧑🏻	orang dengan telinga kelinci warna kulit cerah-sedang, warna kulit cerah	none
+🧑🏼‍🐰‍🧑🏽	orang dengan telinga kelinci warna kulit cerah-sedang, warna kulit sedang	none
+🧑🏼‍🐰‍🧑🏾	orang dengan telinga kelinci warna kulit cerah-sedang, warna kulit gelap-sedang	none
+🧑🏼‍🐰‍🧑🏿	orang dengan telinga kelinci warna kulit cerah-sedang, warna kulit gelap	none
+🧑🏽‍🐰‍🧑🏻	orang dengan telinga kelinci warna kulit sedang, warna kulit cerah	none
+🧑🏽‍🐰‍🧑🏼	orang dengan telinga kelinci warna kulit sedang, warna kulit cerah-sedang	none
+🧑🏽‍🐰‍🧑🏾	orang dengan telinga kelinci warna kulit sedang, warna kulit gelap-sedang	none
+🧑🏽‍🐰‍🧑🏿	orang dengan telinga kelinci warna kulit sedang, warna kulit gelap	none
+🧑🏾‍🐰‍🧑🏻	orang dengan telinga kelinci warna kulit gelap-sedang, warna kulit cerah	none
+🧑🏾‍🐰‍🧑🏼	orang dengan telinga kelinci warna kulit gelap-sedang, warna kulit cerah-sedang	none
+🧑🏾‍🐰‍🧑🏽	orang dengan telinga kelinci warna kulit gelap-sedang, warna kulit sedang	none
+🧑🏾‍🐰‍🧑🏿	orang dengan telinga kelinci warna kulit gelap-sedang, warna kulit gelap	none
+🧑🏿‍🐰‍🧑🏻	orang dengan telinga kelinci warna kulit gelap, warna kulit cerah	none
+🧑🏿‍🐰‍🧑🏼	orang dengan telinga kelinci warna kulit gelap, warna kulit cerah-sedang	none
+🧑🏿‍🐰‍🧑🏽	orang dengan telinga kelinci warna kulit gelap, warna kulit sedang	none
+🧑🏿‍🐰‍🧑🏾	orang dengan telinga kelinci warna kulit gelap, warna kulit gelap-sedang	none
 👨🏻	pria warna kulit cerah	none
 👨🏼	pria warna kulit cerah-sedang	none
 👨🏽	pria warna kulit sedang	none
@@ -1940,6 +2308,26 @@ symbols:
 👨🏿‍❤‍👨🏽	pasangan dengan hati pria, pria, warna kulit gelap, warna kulit sedang	none
 👨🏿‍❤‍👨🏾	pasangan dengan hati pria, pria, warna kulit gelap, warna kulit gelap-sedang	none
 👨🏿‍❤‍👨🏿	pasangan dengan hati pria, pria, warna kulit gelap	none
+👨🏻‍🫯‍👨🏼	pria bergulat warna kulit cerah, warna kulit cerah-sedang	none
+👨🏻‍🫯‍👨🏽	pria bergulat warna kulit cerah, warna kulit sedang	none
+👨🏻‍🫯‍👨🏾	pria bergulat warna kulit cerah, warna kulit gelap-sedang	none
+👨🏻‍🫯‍👨🏿	pria bergulat warna kulit cerah, warna kulit gelap	none
+👨🏼‍🫯‍👨🏻	pria bergulat warna kulit cerah-sedang, warna kulit cerah	none
+👨🏼‍🫯‍👨🏽	pria bergulat warna kulit cerah-sedang, warna kulit sedang	none
+👨🏼‍🫯‍👨🏾	pria bergulat warna kulit cerah-sedang, warna kulit gelap-sedang	none
+👨🏼‍🫯‍👨🏿	pria bergulat warna kulit cerah-sedang, warna kulit gelap	none
+👨🏽‍🫯‍👨🏻	pria bergulat warna kulit sedang, warna kulit cerah	none
+👨🏽‍🫯‍👨🏼	pria bergulat warna kulit sedang, warna kulit cerah-sedang	none
+👨🏽‍🫯‍👨🏾	pria bergulat warna kulit sedang, warna kulit gelap-sedang	none
+👨🏽‍🫯‍👨🏿	pria bergulat warna kulit sedang, warna kulit gelap	none
+👨🏾‍🫯‍👨🏻	pria bergulat warna kulit gelap-sedang, warna kulit cerah	none
+👨🏾‍🫯‍👨🏼	pria bergulat warna kulit gelap-sedang, warna kulit cerah-sedang	none
+👨🏾‍🫯‍👨🏽	pria bergulat warna kulit gelap-sedang, warna kulit sedang	none
+👨🏾‍🫯‍👨🏿	pria bergulat warna kulit gelap-sedang, warna kulit gelap	none
+👨🏿‍🫯‍👨🏻	pria bergulat warna kulit gelap, warna kulit cerah	none
+👨🏿‍🫯‍👨🏼	pria bergulat warna kulit gelap, warna kulit cerah-sedang	none
+👨🏿‍🫯‍👨🏽	pria bergulat warna kulit gelap, warna kulit sedang	none
+👨🏿‍🫯‍👨🏾	pria bergulat warna kulit gelap, warna kulit gelap-sedang	none
 👨‍🦰	pria rambut merah	none
 👨🏻‍🦰	pria warna kulit cerah, rambut merah	none
 👨🏼‍🦰	pria warna kulit cerah-sedang, rambut merah	none
@@ -1964,6 +2352,26 @@ symbols:
 👨🏽‍🦲	pria warna kulit sedang, gundul	none
 👨🏾‍🦲	pria warna kulit gelap-sedang, gundul	none
 👨🏿‍🦲	pria warna kulit gelap, gundul	none
+👨🏻‍🐰‍👨🏼	pria dengan telinga kelinci warna kulit cerah, warna kulit cerah-sedang	none
+👨🏻‍🐰‍👨🏽	pria dengan telinga kelinci warna kulit cerah, warna kulit sedang	none
+👨🏻‍🐰‍👨🏾	pria dengan telinga kelinci warna kulit cerah, warna kulit gelap-sedang	none
+👨🏻‍🐰‍👨🏿	pria dengan telinga kelinci warna kulit cerah, warna kulit gelap	none
+👨🏼‍🐰‍👨🏻	pria dengan telinga kelinci warna kulit cerah-sedang, warna kulit cerah	none
+👨🏼‍🐰‍👨🏽	pria dengan telinga kelinci warna kulit cerah-sedang, warna kulit sedang	none
+👨🏼‍🐰‍👨🏾	pria dengan telinga kelinci warna kulit cerah-sedang, warna kulit gelap-sedang	none
+👨🏼‍🐰‍👨🏿	pria dengan telinga kelinci warna kulit cerah-sedang, warna kulit gelap	none
+👨🏽‍🐰‍👨🏻	pria dengan telinga kelinci warna kulit sedang, warna kulit cerah	none
+👨🏽‍🐰‍👨🏼	pria dengan telinga kelinci warna kulit sedang, warna kulit cerah-sedang	none
+👨🏽‍🐰‍👨🏾	pria dengan telinga kelinci warna kulit sedang, warna kulit gelap-sedang	none
+👨🏽‍🐰‍👨🏿	pria dengan telinga kelinci warna kulit sedang, warna kulit gelap	none
+👨🏾‍🐰‍👨🏻	pria dengan telinga kelinci warna kulit gelap-sedang, warna kulit cerah	none
+👨🏾‍🐰‍👨🏼	pria dengan telinga kelinci warna kulit gelap-sedang, warna kulit cerah-sedang	none
+👨🏾‍🐰‍👨🏽	pria dengan telinga kelinci warna kulit gelap-sedang, warna kulit sedang	none
+👨🏾‍🐰‍👨🏿	pria dengan telinga kelinci warna kulit gelap-sedang, warna kulit gelap	none
+👨🏿‍🐰‍👨🏻	pria dengan telinga kelinci warna kulit gelap, warna kulit cerah	none
+👨🏿‍🐰‍👨🏼	pria dengan telinga kelinci warna kulit gelap, warna kulit cerah-sedang	none
+👨🏿‍🐰‍👨🏽	pria dengan telinga kelinci warna kulit gelap, warna kulit sedang	none
+👨🏿‍🐰‍👨🏾	pria dengan telinga kelinci warna kulit gelap, warna kulit gelap-sedang	none
 👩🏻	wanita warna kulit cerah	none
 👩🏼	wanita warna kulit cerah-sedang	none
 👩🏽	wanita warna kulit sedang	none
@@ -2079,6 +2487,26 @@ symbols:
 👩🏿‍❤‍👩🏽	pasangan dengan hati wanita, wanita, warna kulit gelap, warna kulit sedang	none
 👩🏿‍❤‍👩🏾	pasangan dengan hati wanita, wanita, warna kulit gelap, warna kulit gelap-sedang	none
 👩🏿‍❤‍👩🏿	pasangan dengan hati wanita, wanita, warna kulit gelap	none
+👩🏻‍🫯‍👩🏼	wanita bergulat warna kulit cerah, warna kulit cerah-sedang	none
+👩🏻‍🫯‍👩🏽	wanita bergulat warna kulit cerah, warna kulit sedang	none
+👩🏻‍🫯‍👩🏾	wanita bergulat warna kulit cerah, warna kulit gelap-sedang	none
+👩🏻‍🫯‍👩🏿	wanita bergulat warna kulit cerah, warna kulit gelap	none
+👩🏼‍🫯‍👩🏻	wanita bergulat warna kulit cerah-sedang, warna kulit cerah	none
+👩🏼‍🫯‍👩🏽	wanita bergulat warna kulit cerah-sedang, warna kulit sedang	none
+👩🏼‍🫯‍👩🏾	wanita bergulat warna kulit cerah-sedang, warna kulit gelap-sedang	none
+👩🏼‍🫯‍👩🏿	wanita bergulat warna kulit cerah-sedang, warna kulit gelap	none
+👩🏽‍🫯‍👩🏻	wanita bergulat warna kulit sedang, warna kulit cerah	none
+👩🏽‍🫯‍👩🏼	wanita bergulat warna kulit sedang, warna kulit cerah-sedang	none
+👩🏽‍🫯‍👩🏾	wanita bergulat warna kulit sedang, warna kulit gelap-sedang	none
+👩🏽‍🫯‍👩🏿	wanita bergulat warna kulit sedang, warna kulit gelap	none
+👩🏾‍🫯‍👩🏻	wanita bergulat warna kulit gelap-sedang, warna kulit cerah	none
+👩🏾‍🫯‍👩🏼	wanita bergulat warna kulit gelap-sedang, warna kulit cerah-sedang	none
+👩🏾‍🫯‍👩🏽	wanita bergulat warna kulit gelap-sedang, warna kulit sedang	none
+👩🏾‍🫯‍👩🏿	wanita bergulat warna kulit gelap-sedang, warna kulit gelap	none
+👩🏿‍🫯‍👩🏻	wanita bergulat warna kulit gelap, warna kulit cerah	none
+👩🏿‍🫯‍👩🏼	wanita bergulat warna kulit gelap, warna kulit cerah-sedang	none
+👩🏿‍🫯‍👩🏽	wanita bergulat warna kulit gelap, warna kulit sedang	none
+👩🏿‍🫯‍👩🏾	wanita bergulat warna kulit gelap, warna kulit gelap-sedang	none
 👩‍🦰	wanita rambut merah	none
 👩🏻‍🦰	wanita warna kulit cerah, rambut merah	none
 👩🏼‍🦰	wanita warna kulit cerah-sedang, rambut merah	none
@@ -2103,6 +2531,26 @@ symbols:
 👩🏽‍🦲	wanita warna kulit sedang, gundul	none
 👩🏾‍🦲	wanita warna kulit gelap-sedang, gundul	none
 👩🏿‍🦲	wanita warna kulit gelap, gundul	none
+👩🏻‍🐰‍👩🏼	wanita dengan telinga kelinci warna kulit cerah, warna kulit cerah-sedang	none
+👩🏻‍🐰‍👩🏽	wanita dengan telinga kelinci warna kulit cerah, warna kulit sedang	none
+👩🏻‍🐰‍👩🏾	wanita dengan telinga kelinci warna kulit cerah, warna kulit gelap-sedang	none
+👩🏻‍🐰‍👩🏿	wanita dengan telinga kelinci warna kulit cerah, warna kulit gelap	none
+👩🏼‍🐰‍👩🏻	wanita dengan telinga kelinci warna kulit cerah-sedang, warna kulit cerah	none
+👩🏼‍🐰‍👩🏽	wanita dengan telinga kelinci warna kulit cerah-sedang, warna kulit sedang	none
+👩🏼‍🐰‍👩🏾	wanita dengan telinga kelinci warna kulit cerah-sedang, warna kulit gelap-sedang	none
+👩🏼‍🐰‍👩🏿	wanita dengan telinga kelinci warna kulit cerah-sedang, warna kulit gelap	none
+👩🏽‍🐰‍👩🏻	wanita dengan telinga kelinci warna kulit sedang, warna kulit cerah	none
+👩🏽‍🐰‍👩🏼	wanita dengan telinga kelinci warna kulit sedang, warna kulit cerah-sedang	none
+👩🏽‍🐰‍👩🏾	wanita dengan telinga kelinci warna kulit sedang, warna kulit gelap-sedang	none
+👩🏽‍🐰‍👩🏿	wanita dengan telinga kelinci warna kulit sedang, warna kulit gelap	none
+👩🏾‍🐰‍👩🏻	wanita dengan telinga kelinci warna kulit gelap-sedang, warna kulit cerah	none
+👩🏾‍🐰‍👩🏼	wanita dengan telinga kelinci warna kulit gelap-sedang, warna kulit cerah-sedang	none
+👩🏾‍🐰‍👩🏽	wanita dengan telinga kelinci warna kulit gelap-sedang, warna kulit sedang	none
+👩🏾‍🐰‍👩🏿	wanita dengan telinga kelinci warna kulit gelap-sedang, warna kulit gelap	none
+👩🏿‍🐰‍👩🏻	wanita dengan telinga kelinci warna kulit gelap, warna kulit cerah	none
+👩🏿‍🐰‍👩🏼	wanita dengan telinga kelinci warna kulit gelap, warna kulit cerah-sedang	none
+👩🏿‍🐰‍👩🏽	wanita dengan telinga kelinci warna kulit gelap, warna kulit sedang	none
+👩🏿‍🐰‍👩🏾	wanita dengan telinga kelinci warna kulit gelap, warna kulit gelap-sedang	none
 🧓🏻	lanjut usia warna kulit cerah	none
 🧓🏼	lanjut usia warna kulit cerah-sedang	none
 🧓🏽	lanjut usia warna kulit sedang	none
@@ -2573,6 +3021,11 @@ symbols:
 👷🏽‍♀	pekerja konstruksi wanita warna kulit sedang	none
 👷🏾‍♀	pekerja konstruksi wanita warna kulit gelap-sedang	none
 👷🏿‍♀	pekerja konstruksi wanita warna kulit gelap	none
+🫅🏻	orang mengenakan mahkota warna kulit cerah	none
+🫅🏼	orang mengenakan mahkota warna kulit cerah-sedang	none
+🫅🏽	orang mengenakan mahkota warna kulit sedang	none
+🫅🏾	orang mengenakan mahkota warna kulit gelap-sedang	none
+🫅🏿	orang mengenakan mahkota warna kulit gelap	none
 🤴🏻	pangeran warna kulit cerah	none
 🤴🏼	pangeran warna kulit cerah-sedang	none
 🤴🏽	pangeran warna kulit sedang	none
@@ -2643,6 +3096,16 @@ symbols:
 🤰🏽	wanita hamil warna kulit sedang	none
 🤰🏾	wanita hamil warna kulit gelap-sedang	none
 🤰🏿	wanita hamil warna kulit gelap	none
+🫃🏻	pria hamil warna kulit cerah	none
+🫃🏼	pria hamil warna kulit cerah-sedang	none
+🫃🏽	pria hamil warna kulit sedang	none
+🫃🏾	pria hamil warna kulit gelap-sedang	none
+🫃🏿	pria hamil warna kulit gelap	none
+🫄🏻	orang hamil warna kulit cerah	none
+🫄🏼	orang hamil warna kulit cerah-sedang	none
+🫄🏽	orang hamil warna kulit sedang	none
+🫄🏾	orang hamil warna kulit gelap-sedang	none
+🫄🏿	orang hamil warna kulit gelap	none
 🤱🏻	menyusui warna kulit cerah	none
 🤱🏼	menyusui warna kulit cerah-sedang	none
 🤱🏽	menyusui warna kulit sedang	none
@@ -2833,6 +3296,24 @@ symbols:
 🚶🏽‍♀	wanita berjalan kaki warna kulit sedang	none
 🚶🏾‍♀	wanita berjalan kaki warna kulit gelap-sedang	none
 🚶🏿‍♀	wanita berjalan kaki warna kulit gelap	none
+🚶‍➡	orang berjalan kaki menghadap kanan	none
+🚶🏻‍➡	orang berjalan kaki warna kulit cerah, menghadap kanan	none
+🚶🏼‍➡	orang berjalan kaki warna kulit cerah-sedang, menghadap kanan	none
+🚶🏽‍➡	orang berjalan kaki warna kulit sedang, menghadap kanan	none
+🚶🏾‍➡	orang berjalan kaki warna kulit gelap-sedang, menghadap kanan	none
+🚶🏿‍➡	orang berjalan kaki warna kulit gelap, menghadap kanan	none
+🚶‍♀‍➡	wanita berjalan kaki menghadap kanan	none
+🚶🏻‍♀‍➡	wanita berjalan kaki warna kulit cerah, menghadap kanan	none
+🚶🏼‍♀‍➡	wanita berjalan kaki warna kulit cerah-sedang, menghadap kanan	none
+🚶🏽‍♀‍➡	wanita berjalan kaki warna kulit sedang, menghadap kanan	none
+🚶🏾‍♀‍➡	wanita berjalan kaki warna kulit gelap-sedang, menghadap kanan	none
+🚶🏿‍♀‍➡	wanita berjalan kaki warna kulit gelap, menghadap kanan	none
+🚶‍♂‍➡	pria berjalan kaki menghadap kanan	none
+🚶🏻‍♂‍➡	pria berjalan kaki warna kulit cerah, menghadap kanan	none
+🚶🏼‍♂‍➡	pria berjalan kaki warna kulit cerah-sedang, menghadap kanan	none
+🚶🏽‍♂‍➡	pria berjalan kaki warna kulit sedang, menghadap kanan	none
+🚶🏾‍♂‍➡	pria berjalan kaki warna kulit gelap-sedang, menghadap kanan	none
+🚶🏿‍♂‍➡	pria berjalan kaki warna kulit gelap, menghadap kanan	none
 🧍🏻	orang berdiri warna kulit cerah	none
 🧍🏼	orang berdiri warna kulit cerah-sedang	none
 🧍🏽	orang berdiri warna kulit sedang	none
@@ -2863,51 +3344,123 @@ symbols:
 🧎🏽‍♀	wanita berlutut warna kulit sedang	none
 🧎🏾‍♀	wanita berlutut warna kulit gelap-sedang	none
 🧎🏿‍♀	wanita berlutut warna kulit gelap	none
+🧎‍➡	orang berlutut menghadap kanan	none
+🧎🏻‍➡	orang berlutut warna kulit cerah, menghadap kanan	none
+🧎🏼‍➡	orang berlutut warna kulit cerah-sedang, menghadap kanan	none
+🧎🏽‍➡	orang berlutut warna kulit sedang, menghadap kanan	none
+🧎🏾‍➡	orang berlutut warna kulit gelap-sedang, menghadap kanan	none
+🧎🏿‍➡	orang berlutut warna kulit gelap, menghadap kanan	none
+🧎‍♀‍➡	wanita berlutut menghadap kanan	none
+🧎🏻‍♀‍➡	wanita berlutut warna kulit cerah, menghadap kanan	none
+🧎🏼‍♀‍➡	wanita berlutut warna kulit cerah-sedang, menghadap kanan	none
+🧎🏽‍♀‍➡	wanita berlutut warna kulit sedang, menghadap kanan	none
+🧎🏾‍♀‍➡	wanita berlutut warna kulit gelap-sedang, menghadap kanan	none
+🧎🏿‍♀‍➡	wanita berlutut warna kulit gelap, menghadap kanan	none
+🧎‍♂‍➡	pria berlutut menghadap kanan	none
+🧎🏻‍♂‍➡	pria berlutut warna kulit cerah, menghadap kanan	none
+🧎🏼‍♂‍➡	pria berlutut warna kulit cerah-sedang, menghadap kanan	none
+🧎🏽‍♂‍➡	pria berlutut warna kulit sedang, menghadap kanan	none
+🧎🏾‍♂‍➡	pria berlutut warna kulit gelap-sedang, menghadap kanan	none
+🧎🏿‍♂‍➡	pria berlutut warna kulit gelap, menghadap kanan	none
 🧑🏻‍🦯	orang dengan tongkat warna kulit cerah	none
 🧑🏼‍🦯	orang dengan tongkat warna kulit cerah-sedang	none
 🧑🏽‍🦯	orang dengan tongkat warna kulit sedang	none
 🧑🏾‍🦯	orang dengan tongkat warna kulit gelap-sedang	none
 🧑🏿‍🦯	orang dengan tongkat warna kulit gelap	none
+🧑‍🦯‍➡	orang dengan tongkat menghadap kanan	none
+🧑🏻‍🦯‍➡	orang dengan tongkat warna kulit cerah, menghadap kanan	none
+🧑🏼‍🦯‍➡	orang dengan tongkat warna kulit cerah-sedang, menghadap kanan	none
+🧑🏽‍🦯‍➡	orang dengan tongkat warna kulit sedang, menghadap kanan	none
+🧑🏾‍🦯‍➡	orang dengan tongkat warna kulit gelap-sedang, menghadap kanan	none
+🧑🏿‍🦯‍➡	orang dengan tongkat warna kulit gelap, menghadap kanan	none
 👨🏻‍🦯	pria dengan tongkat warna kulit cerah	none
 👨🏼‍🦯	pria dengan tongkat warna kulit cerah-sedang	none
 👨🏽‍🦯	pria dengan tongkat warna kulit sedang	none
 👨🏾‍🦯	pria dengan tongkat warna kulit gelap-sedang	none
 👨🏿‍🦯	pria dengan tongkat warna kulit gelap	none
+👨‍🦯‍➡	pria dengan tongkat menghadap kanan	none
+👨🏻‍🦯‍➡	pria dengan tongkat warna kulit cerah, menghadap kanan	none
+👨🏼‍🦯‍➡	pria dengan tongkat warna kulit cerah-sedang, menghadap kanan	none
+👨🏽‍🦯‍➡	pria dengan tongkat warna kulit sedang, menghadap kanan	none
+👨🏾‍🦯‍➡	pria dengan tongkat warna kulit gelap-sedang, menghadap kanan	none
+👨🏿‍🦯‍➡	pria dengan tongkat warna kulit gelap, menghadap kanan	none
 👩🏻‍🦯	wanita dengan tongkat warna kulit cerah	none
 👩🏼‍🦯	wanita dengan tongkat warna kulit cerah-sedang	none
 👩🏽‍🦯	wanita dengan tongkat warna kulit sedang	none
 👩🏾‍🦯	wanita dengan tongkat warna kulit gelap-sedang	none
 👩🏿‍🦯	wanita dengan tongkat warna kulit gelap	none
+👩‍🦯‍➡	wanita dengan tongkat menghadap kanan	none
+👩🏻‍🦯‍➡	wanita dengan tongkat warna kulit cerah, menghadap kanan	none
+👩🏼‍🦯‍➡	wanita dengan tongkat warna kulit cerah-sedang, menghadap kanan	none
+👩🏽‍🦯‍➡	wanita dengan tongkat warna kulit sedang, menghadap kanan	none
+👩🏾‍🦯‍➡	wanita dengan tongkat warna kulit gelap-sedang, menghadap kanan	none
+👩🏿‍🦯‍➡	wanita dengan tongkat warna kulit gelap, menghadap kanan	none
 🧑🏻‍🦼	orang dengan kursi roda bermotor warna kulit cerah	none
 🧑🏼‍🦼	orang dengan kursi roda bermotor warna kulit cerah-sedang	none
 🧑🏽‍🦼	orang dengan kursi roda bermotor warna kulit sedang	none
 🧑🏾‍🦼	orang dengan kursi roda bermotor warna kulit gelap-sedang	none
 🧑🏿‍🦼	orang dengan kursi roda bermotor warna kulit gelap	none
+🧑‍🦼‍➡	orang dengan kursi roda bermotor menghadap kanan	none
+🧑🏻‍🦼‍➡	orang dengan kursi roda bermotor warna kulit cerah, menghadap kanan	none
+🧑🏼‍🦼‍➡	orang dengan kursi roda bermotor warna kulit cerah-sedang, menghadap kanan	none
+🧑🏽‍🦼‍➡	orang dengan kursi roda bermotor warna kulit sedang, menghadap kanan	none
+🧑🏾‍🦼‍➡	orang dengan kursi roda bermotor warna kulit gelap-sedang, menghadap kanan	none
+🧑🏿‍🦼‍➡	orang dengan kursi roda bermotor warna kulit gelap, menghadap kanan	none
 👨🏻‍🦼	pria dengan kursi roda bermotor warna kulit cerah	none
 👨🏼‍🦼	pria dengan kursi roda bermotor warna kulit cerah-sedang	none
 👨🏽‍🦼	pria dengan kursi roda bermotor warna kulit sedang	none
 👨🏾‍🦼	pria dengan kursi roda bermotor warna kulit gelap-sedang	none
 👨🏿‍🦼	pria dengan kursi roda bermotor warna kulit gelap	none
+👨‍🦼‍➡	pria dengan kursi roda bermotor menghadap kanan	none
+👨🏻‍🦼‍➡	pria dengan kursi roda bermotor warna kulit cerah, menghadap kanan	none
+👨🏼‍🦼‍➡	pria dengan kursi roda bermotor warna kulit cerah-sedang, menghadap kanan	none
+👨🏽‍🦼‍➡	pria dengan kursi roda bermotor warna kulit sedang, menghadap kanan	none
+👨🏾‍🦼‍➡	pria dengan kursi roda bermotor warna kulit gelap-sedang, menghadap kanan	none
+👨🏿‍🦼‍➡	pria dengan kursi roda bermotor warna kulit gelap, menghadap kanan	none
 👩🏻‍🦼	wanita dengan kursi roda bermotor warna kulit cerah	none
 👩🏼‍🦼	wanita dengan kursi roda bermotor warna kulit cerah-sedang	none
 👩🏽‍🦼	wanita dengan kursi roda bermotor warna kulit sedang	none
 👩🏾‍🦼	wanita dengan kursi roda bermotor warna kulit gelap-sedang	none
 👩🏿‍🦼	wanita dengan kursi roda bermotor warna kulit gelap	none
+👩‍🦼‍➡	wanita dengan kursi roda bermotor menghadap kanan	none
+👩🏻‍🦼‍➡	wanita dengan kursi roda bermotor warna kulit cerah, menghadap kanan	none
+👩🏼‍🦼‍➡	wanita dengan kursi roda bermotor warna kulit cerah-sedang, menghadap kanan	none
+👩🏽‍🦼‍➡	wanita dengan kursi roda bermotor warna kulit sedang, menghadap kanan	none
+👩🏾‍🦼‍➡	wanita dengan kursi roda bermotor warna kulit gelap-sedang, menghadap kanan	none
+👩🏿‍🦼‍➡	wanita dengan kursi roda bermotor warna kulit gelap, menghadap kanan	none
 🧑🏻‍🦽	orang dengan kursi roda manual warna kulit cerah	none
 🧑🏼‍🦽	orang dengan kursi roda manual warna kulit cerah-sedang	none
 🧑🏽‍🦽	orang dengan kursi roda manual warna kulit sedang	none
 🧑🏾‍🦽	orang dengan kursi roda manual warna kulit gelap-sedang	none
 🧑🏿‍🦽	orang dengan kursi roda manual warna kulit gelap	none
+🧑‍🦽‍➡	orang dengan kursi roda manual menghadap kanan	none
+🧑🏻‍🦽‍➡	orang dengan kursi roda manual warna kulit cerah, menghadap kanan	none
+🧑🏼‍🦽‍➡	orang dengan kursi roda manual warna kulit cerah-sedang, menghadap kanan	none
+🧑🏽‍🦽‍➡	orang dengan kursi roda manual warna kulit sedang, menghadap kanan	none
+🧑🏾‍🦽‍➡	orang dengan kursi roda manual warna kulit gelap-sedang, menghadap kanan	none
+🧑🏿‍🦽‍➡	orang dengan kursi roda manual warna kulit gelap, menghadap kanan	none
 👨🏻‍🦽	pria dengan kursi roda manual warna kulit cerah	none
 👨🏼‍🦽	pria dengan kursi roda manual warna kulit cerah-sedang	none
 👨🏽‍🦽	pria dengan kursi roda manual warna kulit sedang	none
 👨🏾‍🦽	pria dengan kursi roda manual warna kulit gelap-sedang	none
 👨🏿‍🦽	pria dengan kursi roda manual warna kulit gelap	none
+👨‍🦽‍➡	pria dengan kursi roda manual menghadap kanan	none
+👨🏻‍🦽‍➡	pria dengan kursi roda manual warna kulit cerah, menghadap kanan	none
+👨🏼‍🦽‍➡	pria dengan kursi roda manual warna kulit cerah-sedang, menghadap kanan	none
+👨🏽‍🦽‍➡	pria dengan kursi roda manual warna kulit sedang, menghadap kanan	none
+👨🏾‍🦽‍➡	pria dengan kursi roda manual warna kulit gelap-sedang, menghadap kanan	none
+👨🏿‍🦽‍➡	pria dengan kursi roda manual warna kulit gelap, menghadap kanan	none
 👩🏻‍🦽	wanita dengan kursi roda manual warna kulit cerah	none
 👩🏼‍🦽	wanita dengan kursi roda manual warna kulit cerah-sedang	none
 👩🏽‍🦽	wanita dengan kursi roda manual warna kulit sedang	none
 👩🏾‍🦽	wanita dengan kursi roda manual warna kulit gelap-sedang	none
 👩🏿‍🦽	wanita dengan kursi roda manual warna kulit gelap	none
+👩‍🦽‍➡	wanita dengan kursi roda manual menghadap kanan	none
+👩🏻‍🦽‍➡	wanita dengan kursi roda manual warna kulit cerah, menghadap kanan	none
+👩🏼‍🦽‍➡	wanita dengan kursi roda manual warna kulit cerah-sedang, menghadap kanan	none
+👩🏽‍🦽‍➡	wanita dengan kursi roda manual warna kulit sedang, menghadap kanan	none
+👩🏾‍🦽‍➡	wanita dengan kursi roda manual warna kulit gelap-sedang, menghadap kanan	none
+👩🏿‍🦽‍➡	wanita dengan kursi roda manual warna kulit gelap, menghadap kanan	none
 🏃🏻	orang berlari warna kulit cerah	none
 🏃🏼	orang berlari warna kulit cerah-sedang	none
 🏃🏽	orang berlari warna kulit sedang	none
@@ -2923,6 +3476,29 @@ symbols:
 🏃🏽‍♀	wanita berlari warna kulit sedang	none
 🏃🏾‍♀	wanita berlari warna kulit gelap-sedang	none
 🏃🏿‍♀	wanita berlari warna kulit gelap	none
+🏃‍➡	orang berlari menghadap kanan	none
+🏃🏻‍➡	orang berlari warna kulit cerah, menghadap kanan	none
+🏃🏼‍➡	orang berlari warna kulit cerah-sedang, menghadap kanan	none
+🏃🏽‍➡	orang berlari warna kulit sedang, menghadap kanan	none
+🏃🏾‍➡	orang berlari warna kulit gelap-sedang, menghadap kanan	none
+🏃🏿‍➡	orang berlari warna kulit gelap, menghadap kanan	none
+🏃‍♀‍➡	wanita berlari menghadap kanan	none
+🏃🏻‍♀‍➡	wanita berlari warna kulit cerah, menghadap kanan	none
+🏃🏼‍♀‍➡	wanita berlari warna kulit cerah-sedang, menghadap kanan	none
+🏃🏽‍♀‍➡	wanita berlari warna kulit sedang, menghadap kanan	none
+🏃🏾‍♀‍➡	wanita berlari warna kulit gelap-sedang, menghadap kanan	none
+🏃🏿‍♀‍➡	wanita berlari warna kulit gelap, menghadap kanan	none
+🏃‍♂‍➡	pria berlari menghadap kanan	none
+🏃🏻‍♂‍➡	pria berlari warna kulit cerah, menghadap kanan	none
+🏃🏼‍♂‍➡	pria berlari warna kulit cerah-sedang, menghadap kanan	none
+🏃🏽‍♂‍➡	pria berlari warna kulit sedang, menghadap kanan	none
+🏃🏾‍♂‍➡	pria berlari warna kulit gelap-sedang, menghadap kanan	none
+🏃🏿‍♂‍➡	pria berlari warna kulit gelap, menghadap kanan	none
+🧑🏻‍🩰	penari balet warna kulit cerah	none
+🧑🏼‍🩰	penari balet warna kulit cerah-sedang	none
+🧑🏽‍🩰	penari balet warna kulit sedang	none
+🧑🏾‍🩰	penari balet warna kulit gelap-sedang	none
+🧑🏿‍🩰	penari balet warna kulit gelap	none
 💃🏻	wanita menari warna kulit cerah	none
 💃🏼	wanita menari warna kulit cerah-sedang	none
 💃🏽	wanita menari warna kulit sedang	none
@@ -2938,6 +3514,21 @@ symbols:
 🕴🏽	pria melayang mengenakan jas warna kulit sedang	none
 🕴🏾	pria melayang mengenakan jas warna kulit gelap-sedang	none
 🕴🏿	pria melayang mengenakan jas warna kulit gelap	none
+👯🏻	orang dengan telinga kelinci warna kulit cerah	none
+👯🏼	orang dengan telinga kelinci warna kulit cerah-sedang	none
+👯🏽	orang dengan telinga kelinci warna kulit sedang	none
+👯🏾	orang dengan telinga kelinci warna kulit gelap-sedang	none
+👯🏿	orang dengan telinga kelinci warna kulit gelap	none
+👯🏻‍♂	pria dengan telinga kelinci warna kulit cerah	none
+👯🏼‍♂	pria dengan telinga kelinci warna kulit cerah-sedang	none
+👯🏽‍♂	pria dengan telinga kelinci warna kulit sedang	none
+👯🏾‍♂	pria dengan telinga kelinci warna kulit gelap-sedang	none
+👯🏿‍♂	pria dengan telinga kelinci warna kulit gelap	none
+👯🏻‍♀	wanita dengan telinga kelinci warna kulit cerah	none
+👯🏼‍♀	wanita dengan telinga kelinci warna kulit cerah-sedang	none
+👯🏽‍♀	wanita dengan telinga kelinci warna kulit sedang	none
+👯🏾‍♀	wanita dengan telinga kelinci warna kulit gelap-sedang	none
+👯🏿‍♀	wanita dengan telinga kelinci warna kulit gelap	none
 🧖🏻	orang di ruangan beruap warna kulit cerah	none
 🧖🏼	orang di ruangan beruap warna kulit cerah-sedang	none
 🧖🏽	orang di ruangan beruap warna kulit sedang	none
@@ -3113,6 +3704,21 @@ symbols:
 🤸🏽‍♀	wanita melakukan gerakan meroda warna kulit sedang	none
 🤸🏾‍♀	wanita melakukan gerakan meroda warna kulit gelap-sedang	none
 🤸🏿‍♀	wanita melakukan gerakan meroda warna kulit gelap	none
+🤼🏻	orang bergulat warna kulit cerah	none
+🤼🏼	orang bergulat warna kulit cerah-sedang	none
+🤼🏽	orang bergulat warna kulit sedang	none
+🤼🏾	orang bergulat warna kulit gelap-sedang	none
+🤼🏿	orang bergulat warna kulit gelap	none
+🤼🏻‍♂	pria bergulat warna kulit cerah	none
+🤼🏼‍♂	pria bergulat warna kulit cerah-sedang	none
+🤼🏽‍♂	pria bergulat warna kulit sedang	none
+🤼🏾‍♂	pria bergulat warna kulit gelap-sedang	none
+🤼🏿‍♂	pria bergulat warna kulit gelap	none
+🤼🏻‍♀	wanita bergulat warna kulit cerah	none
+🤼🏼‍♀	wanita bergulat warna kulit cerah-sedang	none
+🤼🏽‍♀	wanita bergulat warna kulit sedang	none
+🤼🏾‍♀	wanita bergulat warna kulit gelap-sedang	none
+🤼🏿‍♀	wanita bergulat warna kulit gelap	none
 🤽🏻	orang bermain polo air warna kulit cerah	none
 🤽🏼	orang bermain polo air warna kulit cerah-sedang	none
 🤽🏽	orang bermain polo air warna kulit sedang	none
@@ -3324,7 +3930,6 @@ symbols:
 👩‍👧	keluarga wanita, anak perempuan	none
 👩‍👧‍👦	keluarga wanita, anak perempuan, anak laki-laki	none
 👩‍👧‍👧	keluarga wanita, anak perempuan, anak perempuan	none
-🔟	keycap 10	none
 🇦🇨	bendera Pulau Ascension	none
 🇦🇩	bendera Andorra	none
 🇦🇪	bendera Uni Emirat Arab	none
@@ -3376,6 +3981,7 @@ symbols:
 🇨🇳	bendera Tiongkok	none
 🇨🇴	bendera Kolombia	none
 🇨🇵	bendera Pulau Clipperton	none
+🇨🇶	bendera Sark	none
 🇨🇷	bendera Kosta Rika	none
 🇨🇺	bendera Kuba	none
 🇨🇻	bendera Tanjung Verde	none
@@ -3588,7 +4194,6 @@ symbols:
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	bendera Wales	none
 ₡	Colon Kosta Rika	none
 ₦	Naira Nigeria	none
-₧	Peseta Spanyol	none
 ₪	Shekel Baru Israel	none
 ₫	Dong Vietnam	none
 ₭	Kip Laos	none
@@ -3600,3 +4205,4 @@ symbols:
 ₺	Lira Turki	none
 ₼	Manat Azerbaijan	none
 ₾	Lari Georgia	none
+₧	Peseta Spanyol	none

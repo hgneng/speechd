@@ -115,7 +115,6 @@ symbols:
 🙈	xadina li ma tara ebda ħażen	none
 🙉	xadina li ma tisma’ ebda ħażen	none
 🙊	xadina li ma titkellem ebda ħażen	none
-💋	marka ta’ bewsa	none
 💌	ittra ta’ mħabba	none
 💘	qalb bi vleġġa	none
 💝	qalb b’ċoff	none
@@ -134,6 +133,7 @@ symbols:
 💙	qalb blu	none
 💜	qalb vjola	none
 🖤	qalb sewda	none
+💋	marka ta’ bewsa	none
 💯	mitt punt	none
 💢	simbolu ta’ rabja	none
 💥	ħabta	none
@@ -141,7 +141,6 @@ symbols:
 💦	qtar tal-għaraq	none
 💨	jaħrab ’l hemm	none
 🕳	toqba	none
-💣	bomba	none
 💬	bużżieqa tad-diskors	none
 👁‍🗨	għajnejn f’bużżieqa tad-diskors	none
 🗨	bużżieqa tad-diskors fuq ix-xellug	none
@@ -385,10 +384,10 @@ symbols:
 👬	żewġt irġiel iżommu jdejhom	none
 💏	bewsa	none
 💑	koppja b’qalb	none
-👪	familja	none
 🗣	titkellem ras	none
 👤	bust f’silwett	none
 👥	busti f’silwett	none
+👪	familja	none
 👣	marki tas-saqajn	none
 🐵	wiċċ ta’ xadina	none
 🐒	xadina	none
@@ -468,6 +467,9 @@ symbols:
 🦈	kelb il-baħar	none
 🐙	qarnita	none
 🐚	qoxra spirali	none
+🦀	granċ	none
+🦐	gamblu	none
+🦑	klamari	none
 🐌	bebbuxu	none
 🦋	farfett	none
 🐛	insett	none
@@ -500,6 +502,7 @@ symbols:
 🍁	werqa tal-aġġru	none
 🍂	werqa mwaqqa’	none
 🍃	werqa tixxejjer fir-riħ	none
+🍄	faqqiegħa	none
 🍇	għeneb	none
 🍈	bettieħa	none
 🍉	dulliegħa	none
@@ -524,7 +527,6 @@ symbols:
 🌶	bżar jaħraq	none
 🥒	ħjara	none
 🥦	brokkoli	none
-🍄	faqqiegħa	none
 🥜	karawett	none
 🌰	qastan	none
 🍞	ħobż	none
@@ -569,9 +571,6 @@ symbols:
 🥟	dumpling	none
 🥠	fortune cookie	none
 🥡	kaxxa tat-takeout	none
-🦀	granċ	none
-🦐	gamblu	none
-🦑	klamari	none
 🍦	ġelat artab	none
 🍧	silġ imqaxxar	none
 🍨	ġelat	none
@@ -854,6 +853,7 @@ symbols:
 🛷	slitta	none
 🥌	ġebla tal-curling	none
 🎯	tir dirett	none
+🔫	pistola	none
 🎱	ballun ta’ pool 8	none
 🔮	boċċa tal-kristal	none
 🎮	video game	none
@@ -922,9 +922,9 @@ symbols:
 🎧	headphone	none
 📻	radju	none
 🎷	sassofonu	none
+🎺	trumbetta	none
 🎸	kitarra	none
 🎹	tastiera mużikali	none
-🎺	trumbetta	none
 🎻	vjolin	none
 🥁	tanbur	none
 📱	mowbajl	none
@@ -1040,7 +1040,7 @@ symbols:
 🛠	martell u spaner	none
 🗡	stallet	none
 ⚔	xwabel inkroċjati	none
-🔫	pistola	none
+💣	bomba	none
 🏹	qaws u vleġġa	none
 🛡	tarka	none
 🔧	spanner	none
@@ -1242,3 +1242,1544 @@ symbols:
 🏴	bandiera sewda	none
 🏳	bandiera bajda	none
 🏳‍🌈	bandiera tal-qawsalla	none
+👋🏻	id ixxejjer ton ċar tal-ġilda	none
+👋🏼	id ixxejjer ton medju-ċar tal-ġilda	none
+👋🏽	id ixxejjer ton medju tal-ġilda	none
+👋🏾	id ixxejjer ton medju-skur tal-ġilda	none
+👋🏿	id ixxejjer ton skur tal-ġilda	none
+🤚🏻	id minn wara mgħollija ton ċar tal-ġilda	none
+🤚🏼	id minn wara mgħollija ton medju-ċar tal-ġilda	none
+🤚🏽	id minn wara mgħollija ton medju tal-ġilda	none
+🤚🏾	id minn wara mgħollija ton medju-skur tal-ġilda	none
+🤚🏿	id minn wara mgħollija ton skur tal-ġilda	none
+🖐🏻	id mgħollija bl-iswaba’ mfettħa ton ċar tal-ġilda	none
+🖐🏼	id mgħollija bl-iswaba’ mfettħa ton medju-ċar tal-ġilda	none
+🖐🏽	id mgħollija bl-iswaba’ mfettħa ton medju tal-ġilda	none
+🖐🏾	id mgħollija bl-iswaba’ mfettħa ton medju-skur tal-ġilda	none
+🖐🏿	id mgħollija bl-iswaba’ mfettħa ton skur tal-ġilda	none
+✋🏻	id mgħollija ton ċar tal-ġilda	none
+✋🏼	id mgħollija ton medju-ċar tal-ġilda	none
+✋🏽	id mgħollija ton medju tal-ġilda	none
+✋🏾	id mgħollija ton medju-skur tal-ġilda	none
+✋🏿	id mgħollija ton skur tal-ġilda	none
+🖖🏻	salut ta’ vulcan ton ċar tal-ġilda	none
+🖖🏼	salut ta’ vulcan ton medju-ċar tal-ġilda	none
+🖖🏽	salut ta’ vulcan ton medju tal-ġilda	none
+🖖🏾	salut ta’ vulcan ton medju-skur tal-ġilda	none
+🖖🏿	salut ta’ vulcan ton skur tal-ġilda	none
+🫱🏻‍🫲🏼	ħu bl-idejn ton ċar tal-ġilda u ton medju-ċar tal-ġilda	none
+🫱🏻‍🫲🏽	ħu bl-idejn ton ċar tal-ġilda u ton medju tal-ġilda	none
+🫱🏻‍🫲🏾	ħu bl-idejn ton ċar tal-ġilda u ton medju-skur tal-ġilda	none
+🫱🏻‍🫲🏿	ħu bl-idejn ton ċar tal-ġilda u ton skur tal-ġilda	none
+🫱🏼‍🫲🏻	ħu bl-idejn ton medju-ċar tal-ġilda u ton ċar tal-ġilda	none
+🫱🏼‍🫲🏽	ħu bl-idejn ton medju-ċar tal-ġilda u ton medju tal-ġilda	none
+🫱🏼‍🫲🏾	ħu bl-idejn ton medju-ċar tal-ġilda u ton medju-skur tal-ġilda	none
+🫱🏼‍🫲🏿	ħu bl-idejn ton medju-ċar tal-ġilda u ton skur tal-ġilda	none
+🫱🏽‍🫲🏻	ħu bl-idejn ton medju tal-ġilda u ton ċar tal-ġilda	none
+🫱🏽‍🫲🏼	ħu bl-idejn ton medju tal-ġilda u ton medju-ċar tal-ġilda	none
+🫱🏽‍🫲🏾	ħu bl-idejn ton medju tal-ġilda u ton medju-skur tal-ġilda	none
+🫱🏽‍🫲🏿	ħu bl-idejn ton medju tal-ġilda u ton skur tal-ġilda	none
+🫱🏾‍🫲🏻	ħu bl-idejn ton medju-skur tal-ġilda u ton ċar tal-ġilda	none
+🫱🏾‍🫲🏼	ħu bl-idejn ton medju-skur tal-ġilda u ton medju-ċar tal-ġilda	none
+🫱🏾‍🫲🏽	ħu bl-idejn ton medju-skur tal-ġilda u ton medju tal-ġilda	none
+🫱🏾‍🫲🏿	ħu bl-idejn ton medju-skur tal-ġilda u ton skur tal-ġilda	none
+🫱🏿‍🫲🏻	ħu bl-idejn ton skur tal-ġilda u ton ċar tal-ġilda	none
+🫱🏿‍🫲🏼	ħu bl-idejn ton skur tal-ġilda u ton medju-ċar tal-ġilda	none
+🫱🏿‍🫲🏽	ħu bl-idejn ton skur tal-ġilda u ton medju tal-ġilda	none
+🫱🏿‍🫲🏾	ħu bl-idejn ton skur tal-ġilda u ton medju-skur tal-ġilda	none
+👌🏻	id OK ton ċar tal-ġilda	none
+👌🏼	id OK ton medju-ċar tal-ġilda	none
+👌🏽	id OK ton medju tal-ġilda	none
+👌🏾	id OK ton medju-skur tal-ġilda	none
+👌🏿	id OK ton skur tal-ġilda	none
+✌🏻	id tar-rebħa ton ċar tal-ġilda	none
+✌🏼	id tar-rebħa ton medju-ċar tal-ġilda	none
+✌🏽	id tar-rebħa ton medju tal-ġilda	none
+✌🏾	id tar-rebħa ton medju-skur tal-ġilda	none
+✌🏿	id tar-rebħa ton skur tal-ġilda	none
+🤞🏻	swaba nkroċjati ton ċar tal-ġilda	none
+🤞🏼	swaba nkroċjati ton medju-ċar tal-ġilda	none
+🤞🏽	swaba nkroċjati ton medju tal-ġilda	none
+🤞🏾	swaba nkroċjati ton medju-skur tal-ġilda	none
+🤞🏿	swaba nkroċjati ton skur tal-ġilda	none
+🤟🏻	ġest ta’ mħabba ton ċar tal-ġilda	none
+🤟🏼	ġest ta’ mħabba ton medju-ċar tal-ġilda	none
+🤟🏽	ġest ta’ mħabba ton medju tal-ġilda	none
+🤟🏾	ġest ta’ mħabba ton medju-skur tal-ġilda	none
+🤟🏿	ġest ta’ mħabba ton skur tal-ġilda	none
+🤘🏻	sinjal tal-qrun ton ċar tal-ġilda	none
+🤘🏼	sinjal tal-qrun ton medju-ċar tal-ġilda	none
+🤘🏽	sinjal tal-qrun ton medju tal-ġilda	none
+🤘🏾	sinjal tal-qrun ton medju-skur tal-ġilda	none
+🤘🏿	sinjal tal-qrun ton skur tal-ġilda	none
+🤙🏻	id ċempilli ton ċar tal-ġilda	none
+🤙🏼	id ċempilli ton medju-ċar tal-ġilda	none
+🤙🏽	id ċempilli ton medju tal-ġilda	none
+🤙🏾	id ċempilli ton medju-skur tal-ġilda	none
+🤙🏿	id ċempilli ton skur tal-ġilda	none
+👈🏻	indiċi b’lura iipponta lejn ix-xellug ton ċar tal-ġilda	none
+👈🏼	indiċi b’lura iipponta lejn ix-xellug ton medju-ċar tal-ġilda	none
+👈🏽	indiċi b’lura iipponta lejn ix-xellug ton medju tal-ġilda	none
+👈🏾	indiċi b’lura iipponta lejn ix-xellug ton medju-skur tal-ġilda	none
+👈🏿	indiċi b’lura iipponta lejn ix-xellug ton skur tal-ġilda	none
+👉🏻	indiċi b’lura li jipponta lejn il-lemin ton ċar tal-ġilda	none
+👉🏼	indiċi b’lura li jipponta lejn il-lemin ton medju-ċar tal-ġilda	none
+👉🏽	indiċi b’lura li jipponta lejn il-lemin ton medju tal-ġilda	none
+👉🏾	indiċi b’lura li jipponta lejn il-lemin ton medju-skur tal-ġilda	none
+👉🏿	indiċi b’lura li jipponta lejn il-lemin ton skur tal-ġilda	none
+👆🏻	indiċi b’lura li jipponta ’l fuq ton ċar tal-ġilda	none
+👆🏼	indiċi b’lura li jipponta ’l fuq ton medju-ċar tal-ġilda	none
+👆🏽	indiċi b’lura li jipponta ’l fuq ton medju tal-ġilda	none
+👆🏾	indiċi b’lura li jipponta ’l fuq ton medju-skur tal-ġilda	none
+👆🏿	indiċi b’lura li jipponta ’l fuq ton skur tal-ġilda	none
+🖕🏻	suba’ tan-nofs ton ċar tal-ġilda	none
+🖕🏼	suba’ tan-nofs ton medju-ċar tal-ġilda	none
+🖕🏽	suba’ tan-nofs ton medju tal-ġilda	none
+🖕🏾	suba’ tan-nofs ton medju-skur tal-ġilda	none
+🖕🏿	suba’ tan-nofs ton skur tal-ġilda	none
+👇🏻	indiċi b’lura li jipponta ’l isfel ton ċar tal-ġilda	none
+👇🏼	indiċi b’lura li jipponta ’l isfel ton medju-ċar tal-ġilda	none
+👇🏽	indiċi b’lura li jipponta ’l isfel ton medju tal-ġilda	none
+👇🏾	indiċi b’lura li jipponta ’l isfel ton medju-skur tal-ġilda	none
+👇🏿	indiċi b’lura li jipponta ’l isfel ton skur tal-ġilda	none
+☝🏻	indiċi li jipponta ’l fuq ton ċar tal-ġilda	none
+☝🏼	indiċi li jipponta ’l fuq ton medju-ċar tal-ġilda	none
+☝🏽	indiċi li jipponta ’l fuq ton medju tal-ġilda	none
+☝🏾	indiċi li jipponta ’l fuq ton medju-skur tal-ġilda	none
+☝🏿	indiċi li jipponta ’l fuq ton skur tal-ġilda	none
+👍🏻	behem ’il fuq ton ċar tal-ġilda	none
+👍🏼	behem ’il fuq ton medju-ċar tal-ġilda	none
+👍🏽	behem ’il fuq ton medju tal-ġilda	none
+👍🏾	behem ’il fuq ton medju-skur tal-ġilda	none
+👍🏿	behem ’il fuq ton skur tal-ġilda	none
+👎🏻	behem ’l isfel ton ċar tal-ġilda	none
+👎🏼	behem ’l isfel ton medju-ċar tal-ġilda	none
+👎🏽	behem ’l isfel ton medju tal-ġilda	none
+👎🏾	behem ’l isfel ton medju-skur tal-ġilda	none
+👎🏿	behem ’l isfel ton skur tal-ġilda	none
+✊🏻	ponn mgħolli ton ċar tal-ġilda	none
+✊🏼	ponn mgħolli ton medju-ċar tal-ġilda	none
+✊🏽	ponn mgħolli ton medju tal-ġilda	none
+✊🏾	ponn mgħolli ton medju-skur tal-ġilda	none
+✊🏿	ponn mgħolli ton skur tal-ġilda	none
+👊🏻	ponn dieħel ton ċar tal-ġilda	none
+👊🏼	ponn dieħel ton medju-ċar tal-ġilda	none
+👊🏽	ponn dieħel ton medju tal-ġilda	none
+👊🏾	ponn dieħel ton medju-skur tal-ġilda	none
+👊🏿	ponn dieħel ton skur tal-ġilda	none
+🤛🏻	ponn iħares lejn ix-xellug ton ċar tal-ġilda	none
+🤛🏼	ponn iħares lejn ix-xellug ton medju-ċar tal-ġilda	none
+🤛🏽	ponn iħares lejn ix-xellug ton medju tal-ġilda	none
+🤛🏾	ponn iħares lejn ix-xellug ton medju-skur tal-ġilda	none
+🤛🏿	ponn iħares lejn ix-xellug ton skur tal-ġilda	none
+🤜🏻	ponn iħares lemin ton ċar tal-ġilda	none
+🤜🏼	ponn iħares lemin ton medju-ċar tal-ġilda	none
+🤜🏽	ponn iħares lemin ton medju tal-ġilda	none
+🤜🏾	ponn iħares lemin ton medju-skur tal-ġilda	none
+🤜🏿	ponn iħares lemin ton skur tal-ġilda	none
+👏🏻	idejn iċapċpu ton ċar tal-ġilda	none
+👏🏼	idejn iċapċpu ton medju-ċar tal-ġilda	none
+👏🏽	idejn iċapċpu ton medju tal-ġilda	none
+👏🏾	idejn iċapċpu ton medju-skur tal-ġilda	none
+👏🏿	idejn iċapċpu ton skur tal-ġilda	none
+🙌🏻	idejn mgħollija ton ċar tal-ġilda	none
+🙌🏼	idejn mgħollija ton medju-ċar tal-ġilda	none
+🙌🏽	idejn mgħollija ton medju tal-ġilda	none
+🙌🏾	idejn mgħollija ton medju-skur tal-ġilda	none
+🙌🏿	idejn mgħollija ton skur tal-ġilda	none
+👐🏻	idejn miftuħa ton ċar tal-ġilda	none
+👐🏼	idejn miftuħa ton medju-ċar tal-ġilda	none
+👐🏽	idejn miftuħa ton medju tal-ġilda	none
+👐🏾	idejn miftuħa ton medju-skur tal-ġilda	none
+👐🏿	idejn miftuħa ton skur tal-ġilda	none
+🤲🏻	pali tal-idejn flimkien ton ċar tal-ġilda	none
+🤲🏼	pali tal-idejn flimkien ton medju-ċar tal-ġilda	none
+🤲🏽	pali tal-idejn flimkien ton medju tal-ġilda	none
+🤲🏾	pali tal-idejn flimkien ton medju-skur tal-ġilda	none
+🤲🏿	pali tal-idejn flimkien ton skur tal-ġilda	none
+🤝🏻	ħu bl-idejn ton ċar tal-ġilda	none
+🤝🏼	ħu bl-idejn ton medju-ċar tal-ġilda	none
+🤝🏽	ħu bl-idejn ton medju tal-ġilda	none
+🤝🏾	ħu bl-idejn ton medju-skur tal-ġilda	none
+🤝🏿	ħu bl-idejn ton skur tal-ġilda	none
+🙏🏻	idejn magħluqa ton ċar tal-ġilda	none
+🙏🏼	idejn magħluqa ton medju-ċar tal-ġilda	none
+🙏🏽	idejn magħluqa ton medju tal-ġilda	none
+🙏🏾	idejn magħluqa ton medju-skur tal-ġilda	none
+🙏🏿	idejn magħluqa ton skur tal-ġilda	none
+✍🏻	id li tikteb biha ton ċar tal-ġilda	none
+✍🏼	id li tikteb biha ton medju-ċar tal-ġilda	none
+✍🏽	id li tikteb biha ton medju tal-ġilda	none
+✍🏾	id li tikteb biha ton medju-skur tal-ġilda	none
+✍🏿	id li tikteb biha ton skur tal-ġilda	none
+💅🏻	nail polish ton ċar tal-ġilda	none
+💅🏼	nail polish ton medju-ċar tal-ġilda	none
+💅🏽	nail polish ton medju tal-ġilda	none
+💅🏾	nail polish ton medju-skur tal-ġilda	none
+💅🏿	nail polish ton skur tal-ġilda	none
+🤳🏻	stessu ton ċar tal-ġilda	none
+🤳🏼	stessu ton medju-ċar tal-ġilda	none
+🤳🏽	stessu ton medju tal-ġilda	none
+🤳🏾	stessu ton medju-skur tal-ġilda	none
+🤳🏿	stessu ton skur tal-ġilda	none
+💪🏻	biceps bil-muskoli ton ċar tal-ġilda	none
+💪🏼	biceps bil-muskoli ton medju-ċar tal-ġilda	none
+💪🏽	biceps bil-muskoli ton medju tal-ġilda	none
+💪🏾	biceps bil-muskoli ton medju-skur tal-ġilda	none
+💪🏿	biceps bil-muskoli ton skur tal-ġilda	none
+👂🏻	widna ton ċar tal-ġilda	none
+👂🏼	widna ton medju-ċar tal-ġilda	none
+👂🏽	widna ton medju tal-ġilda	none
+👂🏾	widna ton medju-skur tal-ġilda	none
+👂🏿	widna ton skur tal-ġilda	none
+👃🏻	imnieħer ton ċar tal-ġilda	none
+👃🏼	imnieħer ton medju-ċar tal-ġilda	none
+👃🏽	imnieħer ton medju tal-ġilda	none
+👃🏾	imnieħer ton medju-skur tal-ġilda	none
+👃🏿	imnieħer ton skur tal-ġilda	none
+👶🏻	tarbija ton ċar tal-ġilda	none
+👶🏼	tarbija ton medju-ċar tal-ġilda	none
+👶🏽	tarbija ton medju tal-ġilda	none
+👶🏾	tarbija ton medju-skur tal-ġilda	none
+👶🏿	tarbija ton skur tal-ġilda	none
+🧒🏻	tfal ton ċar tal-ġilda	none
+🧒🏼	tfal ton medju-ċar tal-ġilda	none
+🧒🏽	tfal ton medju tal-ġilda	none
+🧒🏾	tfal ton medju-skur tal-ġilda	none
+🧒🏿	tfal ton skur tal-ġilda	none
+👦🏻	tifel ton ċar tal-ġilda	none
+👦🏼	tifel ton medju-ċar tal-ġilda	none
+👦🏽	tifel ton medju tal-ġilda	none
+👦🏾	tifel ton medju-skur tal-ġilda	none
+👦🏿	tifel ton skur tal-ġilda	none
+👧🏻	tifla ton ċar tal-ġilda	none
+👧🏼	tifla ton medju-ċar tal-ġilda	none
+👧🏽	tifla ton medju tal-ġilda	none
+👧🏾	tifla ton medju-skur tal-ġilda	none
+👧🏿	tifla ton skur tal-ġilda	none
+🧑🏻	adult ton ċar tal-ġilda	none
+🧑🏼	adult ton medju-ċar tal-ġilda	none
+🧑🏽	adult ton medju tal-ġilda	none
+🧑🏾	adult ton medju-skur tal-ġilda	none
+🧑🏿	adult ton skur tal-ġilda	none
+👱🏻	persuna b’xagħar isfar ton ċar tal-ġilda	none
+👱🏼	persuna b’xagħar isfar ton medju-ċar tal-ġilda	none
+👱🏽	persuna b’xagħar isfar ton medju tal-ġilda	none
+👱🏾	persuna b’xagħar isfar ton medju-skur tal-ġilda	none
+👱🏿	persuna b’xagħar isfar ton skur tal-ġilda	none
+🧑🏻‍❤‍💋‍🧑🏼	bewsa adult, adult, ton ċar tal-ġilda, u ton medju-ċar tal-ġilda	none
+🧑🏻‍❤‍💋‍🧑🏽	bewsa adult, adult, ton ċar tal-ġilda, u ton medju tal-ġilda	none
+🧑🏻‍❤‍💋‍🧑🏾	bewsa adult, adult, ton ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+🧑🏻‍❤‍💋‍🧑🏿	bewsa adult, adult, ton ċar tal-ġilda, u ton skur tal-ġilda	none
+🧑🏼‍❤‍💋‍🧑🏻	bewsa adult, adult, ton medju-ċar tal-ġilda, u ton ċar tal-ġilda	none
+🧑🏼‍❤‍💋‍🧑🏽	bewsa adult, adult, ton medju-ċar tal-ġilda, u ton medju tal-ġilda	none
+🧑🏼‍❤‍💋‍🧑🏾	bewsa adult, adult, ton medju-ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+🧑🏼‍❤‍💋‍🧑🏿	bewsa adult, adult, ton medju-ċar tal-ġilda, u ton skur tal-ġilda	none
+🧑🏽‍❤‍💋‍🧑🏻	bewsa adult, adult, ton medju tal-ġilda, u ton ċar tal-ġilda	none
+🧑🏽‍❤‍💋‍🧑🏼	bewsa adult, adult, ton medju tal-ġilda, u ton medju-ċar tal-ġilda	none
+🧑🏽‍❤‍💋‍🧑🏾	bewsa adult, adult, ton medju tal-ġilda, u ton medju-skur tal-ġilda	none
+🧑🏽‍❤‍💋‍🧑🏿	bewsa adult, adult, ton medju tal-ġilda, u ton skur tal-ġilda	none
+🧑🏾‍❤‍💋‍🧑🏻	bewsa adult, adult, ton medju-skur tal-ġilda, u ton ċar tal-ġilda	none
+🧑🏾‍❤‍💋‍🧑🏼	bewsa adult, adult, ton medju-skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+🧑🏾‍❤‍💋‍🧑🏽	bewsa adult, adult, ton medju-skur tal-ġilda, u ton medju tal-ġilda	none
+🧑🏾‍❤‍💋‍🧑🏿	bewsa adult, adult, ton medju-skur tal-ġilda, u ton skur tal-ġilda	none
+🧑🏿‍❤‍💋‍🧑🏻	bewsa adult, adult, ton skur tal-ġilda, u ton ċar tal-ġilda	none
+🧑🏿‍❤‍💋‍🧑🏼	bewsa adult, adult, ton skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+🧑🏿‍❤‍💋‍🧑🏽	bewsa adult, adult, ton skur tal-ġilda, u ton medju tal-ġilda	none
+🧑🏿‍❤‍💋‍🧑🏾	bewsa adult, adult, ton skur tal-ġilda, u ton medju-skur tal-ġilda	none
+🧑🏻‍❤‍🧑🏼	koppja b’qalb adult, adult, ton ċar tal-ġilda, u ton medju-ċar tal-ġilda	none
+🧑🏻‍❤‍🧑🏽	koppja b’qalb adult, adult, ton ċar tal-ġilda, u ton medju tal-ġilda	none
+🧑🏻‍❤‍🧑🏾	koppja b’qalb adult, adult, ton ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+🧑🏻‍❤‍🧑🏿	koppja b’qalb adult, adult, ton ċar tal-ġilda, u ton skur tal-ġilda	none
+🧑🏼‍❤‍🧑🏻	koppja b’qalb adult, adult, ton medju-ċar tal-ġilda, u ton ċar tal-ġilda	none
+🧑🏼‍❤‍🧑🏽	koppja b’qalb adult, adult, ton medju-ċar tal-ġilda, u ton medju tal-ġilda	none
+🧑🏼‍❤‍🧑🏾	koppja b’qalb adult, adult, ton medju-ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+🧑🏼‍❤‍🧑🏿	koppja b’qalb adult, adult, ton medju-ċar tal-ġilda, u ton skur tal-ġilda	none
+🧑🏽‍❤‍🧑🏻	koppja b’qalb adult, adult, ton medju tal-ġilda, u ton ċar tal-ġilda	none
+🧑🏽‍❤‍🧑🏼	koppja b’qalb adult, adult, ton medju tal-ġilda, u ton medju-ċar tal-ġilda	none
+🧑🏽‍❤‍🧑🏾	koppja b’qalb adult, adult, ton medju tal-ġilda, u ton medju-skur tal-ġilda	none
+🧑🏽‍❤‍🧑🏿	koppja b’qalb adult, adult, ton medju tal-ġilda, u ton skur tal-ġilda	none
+🧑🏾‍❤‍🧑🏻	koppja b’qalb adult, adult, ton medju-skur tal-ġilda, u ton ċar tal-ġilda	none
+🧑🏾‍❤‍🧑🏼	koppja b’qalb adult, adult, ton medju-skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+🧑🏾‍❤‍🧑🏽	koppja b’qalb adult, adult, ton medju-skur tal-ġilda, u ton medju tal-ġilda	none
+🧑🏾‍❤‍🧑🏿	koppja b’qalb adult, adult, ton medju-skur tal-ġilda, u ton skur tal-ġilda	none
+🧑🏿‍❤‍🧑🏻	koppja b’qalb adult, adult, ton skur tal-ġilda, u ton ċar tal-ġilda	none
+🧑🏿‍❤‍🧑🏼	koppja b’qalb adult, adult, ton skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+🧑🏿‍❤‍🧑🏽	koppja b’qalb adult, adult, ton skur tal-ġilda, u ton medju tal-ġilda	none
+🧑🏿‍❤‍🧑🏾	koppja b’qalb adult, adult, ton skur tal-ġilda, u ton medju-skur tal-ġilda	none
+🧑🏻‍🫯‍🧑🏼	persuna jagħmlu r-wrestling ton ċar tal-ġilda u ton medju-ċar tal-ġilda	none
+🧑🏻‍🫯‍🧑🏽	persuna jagħmlu r-wrestling ton ċar tal-ġilda u ton medju tal-ġilda	none
+🧑🏻‍🫯‍🧑🏾	persuna jagħmlu r-wrestling ton ċar tal-ġilda u ton medju-skur tal-ġilda	none
+🧑🏻‍🫯‍🧑🏿	persuna jagħmlu r-wrestling ton ċar tal-ġilda u ton skur tal-ġilda	none
+🧑🏼‍🫯‍🧑🏻	persuna jagħmlu r-wrestling ton medju-ċar tal-ġilda u ton ċar tal-ġilda	none
+🧑🏼‍🫯‍🧑🏽	persuna jagħmlu r-wrestling ton medju-ċar tal-ġilda u ton medju tal-ġilda	none
+🧑🏼‍🫯‍🧑🏾	persuna jagħmlu r-wrestling ton medju-ċar tal-ġilda u ton medju-skur tal-ġilda	none
+🧑🏼‍🫯‍🧑🏿	persuna jagħmlu r-wrestling ton medju-ċar tal-ġilda u ton skur tal-ġilda	none
+🧑🏽‍🫯‍🧑🏻	persuna jagħmlu r-wrestling ton medju tal-ġilda u ton ċar tal-ġilda	none
+🧑🏽‍🫯‍🧑🏼	persuna jagħmlu r-wrestling ton medju tal-ġilda u ton medju-ċar tal-ġilda	none
+🧑🏽‍🫯‍🧑🏾	persuna jagħmlu r-wrestling ton medju tal-ġilda u ton medju-skur tal-ġilda	none
+🧑🏽‍🫯‍🧑🏿	persuna jagħmlu r-wrestling ton medju tal-ġilda u ton skur tal-ġilda	none
+🧑🏾‍🫯‍🧑🏻	persuna jagħmlu r-wrestling ton medju-skur tal-ġilda u ton ċar tal-ġilda	none
+🧑🏾‍🫯‍🧑🏼	persuna jagħmlu r-wrestling ton medju-skur tal-ġilda u ton medju-ċar tal-ġilda	none
+🧑🏾‍🫯‍🧑🏽	persuna jagħmlu r-wrestling ton medju-skur tal-ġilda u ton medju tal-ġilda	none
+🧑🏾‍🫯‍🧑🏿	persuna jagħmlu r-wrestling ton medju-skur tal-ġilda u ton skur tal-ġilda	none
+🧑🏿‍🫯‍🧑🏻	persuna jagħmlu r-wrestling ton skur tal-ġilda u ton ċar tal-ġilda	none
+🧑🏿‍🫯‍🧑🏼	persuna jagħmlu r-wrestling ton skur tal-ġilda u ton medju-ċar tal-ġilda	none
+🧑🏿‍🫯‍🧑🏽	persuna jagħmlu r-wrestling ton skur tal-ġilda u ton medju tal-ġilda	none
+🧑🏿‍🫯‍🧑🏾	persuna jagħmlu r-wrestling ton skur tal-ġilda u ton medju-skur tal-ġilda	none
+🧑🏻‍🐰‍🧑🏼	persuni b’widnejn ta’ fenek jiddevertu ton ċar tal-ġilda u ton medju-ċar tal-ġilda	none
+🧑🏻‍🐰‍🧑🏽	persuni b’widnejn ta’ fenek jiddevertu ton ċar tal-ġilda u ton medju tal-ġilda	none
+🧑🏻‍🐰‍🧑🏾	persuni b’widnejn ta’ fenek jiddevertu ton ċar tal-ġilda u ton medju-skur tal-ġilda	none
+🧑🏻‍🐰‍🧑🏿	persuni b’widnejn ta’ fenek jiddevertu ton ċar tal-ġilda u ton skur tal-ġilda	none
+🧑🏼‍🐰‍🧑🏻	persuni b’widnejn ta’ fenek jiddevertu ton medju-ċar tal-ġilda u ton ċar tal-ġilda	none
+🧑🏼‍🐰‍🧑🏽	persuni b’widnejn ta’ fenek jiddevertu ton medju-ċar tal-ġilda u ton medju tal-ġilda	none
+🧑🏼‍🐰‍🧑🏾	persuni b’widnejn ta’ fenek jiddevertu ton medju-ċar tal-ġilda u ton medju-skur tal-ġilda	none
+🧑🏼‍🐰‍🧑🏿	persuni b’widnejn ta’ fenek jiddevertu ton medju-ċar tal-ġilda u ton skur tal-ġilda	none
+🧑🏽‍🐰‍🧑🏻	persuni b’widnejn ta’ fenek jiddevertu ton medju tal-ġilda u ton ċar tal-ġilda	none
+🧑🏽‍🐰‍🧑🏼	persuni b’widnejn ta’ fenek jiddevertu ton medju tal-ġilda u ton medju-ċar tal-ġilda	none
+🧑🏽‍🐰‍🧑🏾	persuni b’widnejn ta’ fenek jiddevertu ton medju tal-ġilda u ton medju-skur tal-ġilda	none
+🧑🏽‍🐰‍🧑🏿	persuni b’widnejn ta’ fenek jiddevertu ton medju tal-ġilda u ton skur tal-ġilda	none
+🧑🏾‍🐰‍🧑🏻	persuni b’widnejn ta’ fenek jiddevertu ton medju-skur tal-ġilda u ton ċar tal-ġilda	none
+🧑🏾‍🐰‍🧑🏼	persuni b’widnejn ta’ fenek jiddevertu ton medju-skur tal-ġilda u ton medju-ċar tal-ġilda	none
+🧑🏾‍🐰‍🧑🏽	persuni b’widnejn ta’ fenek jiddevertu ton medju-skur tal-ġilda u ton medju tal-ġilda	none
+🧑🏾‍🐰‍🧑🏿	persuni b’widnejn ta’ fenek jiddevertu ton medju-skur tal-ġilda u ton skur tal-ġilda	none
+🧑🏿‍🐰‍🧑🏻	persuni b’widnejn ta’ fenek jiddevertu ton skur tal-ġilda u ton ċar tal-ġilda	none
+🧑🏿‍🐰‍🧑🏼	persuni b’widnejn ta’ fenek jiddevertu ton skur tal-ġilda u ton medju-ċar tal-ġilda	none
+🧑🏿‍🐰‍🧑🏽	persuni b’widnejn ta’ fenek jiddevertu ton skur tal-ġilda u ton medju tal-ġilda	none
+🧑🏿‍🐰‍🧑🏾	persuni b’widnejn ta’ fenek jiddevertu ton skur tal-ġilda u ton medju-skur tal-ġilda	none
+👨🏻	raġel ton ċar tal-ġilda	none
+👨🏼	raġel ton medju-ċar tal-ġilda	none
+👨🏽	raġel ton medju tal-ġilda	none
+👨🏾	raġel ton medju-skur tal-ġilda	none
+👨🏿	raġel ton skur tal-ġilda	none
+🧔🏻	persuna bil-baffi ton ċar tal-ġilda	none
+🧔🏼	persuna bil-baffi ton medju-ċar tal-ġilda	none
+🧔🏽	persuna bil-baffi ton medju tal-ġilda	none
+🧔🏾	persuna bil-baffi ton medju-skur tal-ġilda	none
+🧔🏿	persuna bil-baffi ton skur tal-ġilda	none
+👱🏻‍♂	raġel b’xagħar isfar ton ċar tal-ġilda	none
+👱🏼‍♂	raġel b’xagħar isfar ton medju-ċar tal-ġilda	none
+👱🏽‍♂	raġel b’xagħar isfar ton medju tal-ġilda	none
+👱🏾‍♂	raġel b’xagħar isfar ton medju-skur tal-ġilda	none
+👱🏿‍♂	raġel b’xagħar isfar ton skur tal-ġilda	none
+👨🏻‍❤‍💋‍👨🏻	bewsa raġel, raġel, u ton ċar tal-ġilda	none
+👨🏻‍❤‍💋‍👨🏼	bewsa raġel, raġel, ton ċar tal-ġilda, u ton medju-ċar tal-ġilda	none
+👨🏻‍❤‍💋‍👨🏽	bewsa raġel, raġel, ton ċar tal-ġilda, u ton medju tal-ġilda	none
+👨🏻‍❤‍💋‍👨🏾	bewsa raġel, raġel, ton ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+👨🏻‍❤‍💋‍👨🏿	bewsa raġel, raġel, ton ċar tal-ġilda, u ton skur tal-ġilda	none
+👨🏼‍❤‍💋‍👨🏻	bewsa raġel, raġel, ton medju-ċar tal-ġilda, u ton ċar tal-ġilda	none
+👨🏼‍❤‍💋‍👨🏼	bewsa raġel, raġel, u ton medju-ċar tal-ġilda	none
+👨🏼‍❤‍💋‍👨🏽	bewsa raġel, raġel, ton medju-ċar tal-ġilda, u ton medju tal-ġilda	none
+👨🏼‍❤‍💋‍👨🏾	bewsa raġel, raġel, ton medju-ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+👨🏼‍❤‍💋‍👨🏿	bewsa raġel, raġel, ton medju-ċar tal-ġilda, u ton skur tal-ġilda	none
+👨🏽‍❤‍💋‍👨🏻	bewsa raġel, raġel, ton medju tal-ġilda, u ton ċar tal-ġilda	none
+👨🏽‍❤‍💋‍👨🏼	bewsa raġel, raġel, ton medju tal-ġilda, u ton medju-ċar tal-ġilda	none
+👨🏽‍❤‍💋‍👨🏽	bewsa raġel, raġel, u ton medju tal-ġilda	none
+👨🏽‍❤‍💋‍👨🏾	bewsa raġel, raġel, ton medju tal-ġilda, u ton medju-skur tal-ġilda	none
+👨🏽‍❤‍💋‍👨🏿	bewsa raġel, raġel, ton medju tal-ġilda, u ton skur tal-ġilda	none
+👨🏾‍❤‍💋‍👨🏻	bewsa raġel, raġel, ton medju-skur tal-ġilda, u ton ċar tal-ġilda	none
+👨🏾‍❤‍💋‍👨🏼	bewsa raġel, raġel, ton medju-skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+👨🏾‍❤‍💋‍👨🏽	bewsa raġel, raġel, ton medju-skur tal-ġilda, u ton medju tal-ġilda	none
+👨🏾‍❤‍💋‍👨🏾	bewsa raġel, raġel, u ton medju-skur tal-ġilda	none
+👨🏾‍❤‍💋‍👨🏿	bewsa raġel, raġel, ton medju-skur tal-ġilda, u ton skur tal-ġilda	none
+👨🏿‍❤‍💋‍👨🏻	bewsa raġel, raġel, ton skur tal-ġilda, u ton ċar tal-ġilda	none
+👨🏿‍❤‍💋‍👨🏼	bewsa raġel, raġel, ton skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+👨🏿‍❤‍💋‍👨🏽	bewsa raġel, raġel, ton skur tal-ġilda, u ton medju tal-ġilda	none
+👨🏿‍❤‍💋‍👨🏾	bewsa raġel, raġel, ton skur tal-ġilda, u ton medju-skur tal-ġilda	none
+👨🏿‍❤‍💋‍👨🏿	bewsa raġel, raġel, u ton skur tal-ġilda	none
+👨🏻‍❤‍👨🏻	koppja b’qalb raġel, raġel, u ton ċar tal-ġilda	none
+👨🏻‍❤‍👨🏼	koppja b’qalb raġel, raġel, ton ċar tal-ġilda, u ton medju-ċar tal-ġilda	none
+👨🏻‍❤‍👨🏽	koppja b’qalb raġel, raġel, ton ċar tal-ġilda, u ton medju tal-ġilda	none
+👨🏻‍❤‍👨🏾	koppja b’qalb raġel, raġel, ton ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+👨🏻‍❤‍👨🏿	koppja b’qalb raġel, raġel, ton ċar tal-ġilda, u ton skur tal-ġilda	none
+👨🏼‍❤‍👨🏻	koppja b’qalb raġel, raġel, ton medju-ċar tal-ġilda, u ton ċar tal-ġilda	none
+👨🏼‍❤‍👨🏼	koppja b’qalb raġel, raġel, u ton medju-ċar tal-ġilda	none
+👨🏼‍❤‍👨🏽	koppja b’qalb raġel, raġel, ton medju-ċar tal-ġilda, u ton medju tal-ġilda	none
+👨🏼‍❤‍👨🏾	koppja b’qalb raġel, raġel, ton medju-ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+👨🏼‍❤‍👨🏿	koppja b’qalb raġel, raġel, ton medju-ċar tal-ġilda, u ton skur tal-ġilda	none
+👨🏽‍❤‍👨🏻	koppja b’qalb raġel, raġel, ton medju tal-ġilda, u ton ċar tal-ġilda	none
+👨🏽‍❤‍👨🏼	koppja b’qalb raġel, raġel, ton medju tal-ġilda, u ton medju-ċar tal-ġilda	none
+👨🏽‍❤‍👨🏽	koppja b’qalb raġel, raġel, u ton medju tal-ġilda	none
+👨🏽‍❤‍👨🏾	koppja b’qalb raġel, raġel, ton medju tal-ġilda, u ton medju-skur tal-ġilda	none
+👨🏽‍❤‍👨🏿	koppja b’qalb raġel, raġel, ton medju tal-ġilda, u ton skur tal-ġilda	none
+👨🏾‍❤‍👨🏻	koppja b’qalb raġel, raġel, ton medju-skur tal-ġilda, u ton ċar tal-ġilda	none
+👨🏾‍❤‍👨🏼	koppja b’qalb raġel, raġel, ton medju-skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+👨🏾‍❤‍👨🏽	koppja b’qalb raġel, raġel, ton medju-skur tal-ġilda, u ton medju tal-ġilda	none
+👨🏾‍❤‍👨🏾	koppja b’qalb raġel, raġel, u ton medju-skur tal-ġilda	none
+👨🏾‍❤‍👨🏿	koppja b’qalb raġel, raġel, ton medju-skur tal-ġilda, u ton skur tal-ġilda	none
+👨🏿‍❤‍👨🏻	koppja b’qalb raġel, raġel, ton skur tal-ġilda, u ton ċar tal-ġilda	none
+👨🏿‍❤‍👨🏼	koppja b’qalb raġel, raġel, ton skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+👨🏿‍❤‍👨🏽	koppja b’qalb raġel, raġel, ton skur tal-ġilda, u ton medju tal-ġilda	none
+👨🏿‍❤‍👨🏾	koppja b’qalb raġel, raġel, ton skur tal-ġilda, u ton medju-skur tal-ġilda	none
+👨🏿‍❤‍👨🏿	koppja b’qalb raġel, raġel, u ton skur tal-ġilda	none
+👨🏻‍🫯‍👨🏼	irġiel jagħmlu r-wrestling ton ċar tal-ġilda u ton medju-ċar tal-ġilda	none
+👨🏻‍🫯‍👨🏽	irġiel jagħmlu r-wrestling ton ċar tal-ġilda u ton medju tal-ġilda	none
+👨🏻‍🫯‍👨🏾	irġiel jagħmlu r-wrestling ton ċar tal-ġilda u ton medju-skur tal-ġilda	none
+👨🏻‍🫯‍👨🏿	irġiel jagħmlu r-wrestling ton ċar tal-ġilda u ton skur tal-ġilda	none
+👨🏼‍🫯‍👨🏻	irġiel jagħmlu r-wrestling ton medju-ċar tal-ġilda u ton ċar tal-ġilda	none
+👨🏼‍🫯‍👨🏽	irġiel jagħmlu r-wrestling ton medju-ċar tal-ġilda u ton medju tal-ġilda	none
+👨🏼‍🫯‍👨🏾	irġiel jagħmlu r-wrestling ton medju-ċar tal-ġilda u ton medju-skur tal-ġilda	none
+👨🏼‍🫯‍👨🏿	irġiel jagħmlu r-wrestling ton medju-ċar tal-ġilda u ton skur tal-ġilda	none
+👨🏽‍🫯‍👨🏻	irġiel jagħmlu r-wrestling ton medju tal-ġilda u ton ċar tal-ġilda	none
+👨🏽‍🫯‍👨🏼	irġiel jagħmlu r-wrestling ton medju tal-ġilda u ton medju-ċar tal-ġilda	none
+👨🏽‍🫯‍👨🏾	irġiel jagħmlu r-wrestling ton medju tal-ġilda u ton medju-skur tal-ġilda	none
+👨🏽‍🫯‍👨🏿	irġiel jagħmlu r-wrestling ton medju tal-ġilda u ton skur tal-ġilda	none
+👨🏾‍🫯‍👨🏻	irġiel jagħmlu r-wrestling ton medju-skur tal-ġilda u ton ċar tal-ġilda	none
+👨🏾‍🫯‍👨🏼	irġiel jagħmlu r-wrestling ton medju-skur tal-ġilda u ton medju-ċar tal-ġilda	none
+👨🏾‍🫯‍👨🏽	irġiel jagħmlu r-wrestling ton medju-skur tal-ġilda u ton medju tal-ġilda	none
+👨🏾‍🫯‍👨🏿	irġiel jagħmlu r-wrestling ton medju-skur tal-ġilda u ton skur tal-ġilda	none
+👨🏿‍🫯‍👨🏻	irġiel jagħmlu r-wrestling ton skur tal-ġilda u ton ċar tal-ġilda	none
+👨🏿‍🫯‍👨🏼	irġiel jagħmlu r-wrestling ton skur tal-ġilda u ton medju-ċar tal-ġilda	none
+👨🏿‍🫯‍👨🏽	irġiel jagħmlu r-wrestling ton skur tal-ġilda u ton medju tal-ġilda	none
+👨🏿‍🫯‍👨🏾	irġiel jagħmlu r-wrestling ton skur tal-ġilda u ton medju-skur tal-ġilda	none
+👨🏻‍🐰‍👨🏼	rġiel b’widnejn ta’ fenek jiddevertu ton ċar tal-ġilda u ton medju-ċar tal-ġilda	none
+👨🏻‍🐰‍👨🏽	rġiel b’widnejn ta’ fenek jiddevertu ton ċar tal-ġilda u ton medju tal-ġilda	none
+👨🏻‍🐰‍👨🏾	rġiel b’widnejn ta’ fenek jiddevertu ton ċar tal-ġilda u ton medju-skur tal-ġilda	none
+👨🏻‍🐰‍👨🏿	rġiel b’widnejn ta’ fenek jiddevertu ton ċar tal-ġilda u ton skur tal-ġilda	none
+👨🏼‍🐰‍👨🏻	rġiel b’widnejn ta’ fenek jiddevertu ton medju-ċar tal-ġilda u ton ċar tal-ġilda	none
+👨🏼‍🐰‍👨🏽	rġiel b’widnejn ta’ fenek jiddevertu ton medju-ċar tal-ġilda u ton medju tal-ġilda	none
+👨🏼‍🐰‍👨🏾	rġiel b’widnejn ta’ fenek jiddevertu ton medju-ċar tal-ġilda u ton medju-skur tal-ġilda	none
+👨🏼‍🐰‍👨🏿	rġiel b’widnejn ta’ fenek jiddevertu ton medju-ċar tal-ġilda u ton skur tal-ġilda	none
+👨🏽‍🐰‍👨🏻	rġiel b’widnejn ta’ fenek jiddevertu ton medju tal-ġilda u ton ċar tal-ġilda	none
+👨🏽‍🐰‍👨🏼	rġiel b’widnejn ta’ fenek jiddevertu ton medju tal-ġilda u ton medju-ċar tal-ġilda	none
+👨🏽‍🐰‍👨🏾	rġiel b’widnejn ta’ fenek jiddevertu ton medju tal-ġilda u ton medju-skur tal-ġilda	none
+👨🏽‍🐰‍👨🏿	rġiel b’widnejn ta’ fenek jiddevertu ton medju tal-ġilda u ton skur tal-ġilda	none
+👨🏾‍🐰‍👨🏻	rġiel b’widnejn ta’ fenek jiddevertu ton medju-skur tal-ġilda u ton ċar tal-ġilda	none
+👨🏾‍🐰‍👨🏼	rġiel b’widnejn ta’ fenek jiddevertu ton medju-skur tal-ġilda u ton medju-ċar tal-ġilda	none
+👨🏾‍🐰‍👨🏽	rġiel b’widnejn ta’ fenek jiddevertu ton medju-skur tal-ġilda u ton medju tal-ġilda	none
+👨🏾‍🐰‍👨🏿	rġiel b’widnejn ta’ fenek jiddevertu ton medju-skur tal-ġilda u ton skur tal-ġilda	none
+👨🏿‍🐰‍👨🏻	rġiel b’widnejn ta’ fenek jiddevertu ton skur tal-ġilda u ton ċar tal-ġilda	none
+👨🏿‍🐰‍👨🏼	rġiel b’widnejn ta’ fenek jiddevertu ton skur tal-ġilda u ton medju-ċar tal-ġilda	none
+👨🏿‍🐰‍👨🏽	rġiel b’widnejn ta’ fenek jiddevertu ton skur tal-ġilda u ton medju tal-ġilda	none
+👨🏿‍🐰‍👨🏾	rġiel b’widnejn ta’ fenek jiddevertu ton skur tal-ġilda u ton medju-skur tal-ġilda	none
+👩🏻	mara ton ċar tal-ġilda	none
+👩🏼	mara ton medju-ċar tal-ġilda	none
+👩🏽	mara ton medju tal-ġilda	none
+👩🏾	mara ton medju-skur tal-ġilda	none
+👩🏿	mara ton skur tal-ġilda	none
+👱🏻‍♀	mara b’xagħar isfar ton ċar tal-ġilda	none
+👱🏼‍♀	mara b’xagħar isfar ton medju-ċar tal-ġilda	none
+👱🏽‍♀	mara b’xagħar isfar ton medju tal-ġilda	none
+👱🏾‍♀	mara b’xagħar isfar ton medju-skur tal-ġilda	none
+👱🏿‍♀	mara b’xagħar isfar ton skur tal-ġilda	none
+👩🏻‍❤‍💋‍👨🏻	bewsa mara, raġel, u ton ċar tal-ġilda	none
+👩🏻‍❤‍💋‍👨🏼	bewsa mara, raġel, ton ċar tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏻‍❤‍💋‍👨🏽	bewsa mara, raġel, ton ċar tal-ġilda, u ton medju tal-ġilda	none
+👩🏻‍❤‍💋‍👨🏾	bewsa mara, raġel, ton ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏻‍❤‍💋‍👨🏿	bewsa mara, raġel, ton ċar tal-ġilda, u ton skur tal-ġilda	none
+👩🏼‍❤‍💋‍👨🏻	bewsa mara, raġel, ton medju-ċar tal-ġilda, u ton ċar tal-ġilda	none
+👩🏼‍❤‍💋‍👨🏼	bewsa mara, raġel, u ton medju-ċar tal-ġilda	none
+👩🏼‍❤‍💋‍👨🏽	bewsa mara, raġel, ton medju-ċar tal-ġilda, u ton medju tal-ġilda	none
+👩🏼‍❤‍💋‍👨🏾	bewsa mara, raġel, ton medju-ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏼‍❤‍💋‍👨🏿	bewsa mara, raġel, ton medju-ċar tal-ġilda, u ton skur tal-ġilda	none
+👩🏽‍❤‍💋‍👨🏻	bewsa mara, raġel, ton medju tal-ġilda, u ton ċar tal-ġilda	none
+👩🏽‍❤‍💋‍👨🏼	bewsa mara, raġel, ton medju tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏽‍❤‍💋‍👨🏽	bewsa mara, raġel, u ton medju tal-ġilda	none
+👩🏽‍❤‍💋‍👨🏾	bewsa mara, raġel, ton medju tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏽‍❤‍💋‍👨🏿	bewsa mara, raġel, ton medju tal-ġilda, u ton skur tal-ġilda	none
+👩🏾‍❤‍💋‍👨🏻	bewsa mara, raġel, ton medju-skur tal-ġilda, u ton ċar tal-ġilda	none
+👩🏾‍❤‍💋‍👨🏼	bewsa mara, raġel, ton medju-skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏾‍❤‍💋‍👨🏽	bewsa mara, raġel, ton medju-skur tal-ġilda, u ton medju tal-ġilda	none
+👩🏾‍❤‍💋‍👨🏾	bewsa mara, raġel, u ton medju-skur tal-ġilda	none
+👩🏾‍❤‍💋‍👨🏿	bewsa mara, raġel, ton medju-skur tal-ġilda, u ton skur tal-ġilda	none
+👩🏿‍❤‍💋‍👨🏻	bewsa mara, raġel, ton skur tal-ġilda, u ton ċar tal-ġilda	none
+👩🏿‍❤‍💋‍👨🏼	bewsa mara, raġel, ton skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏿‍❤‍💋‍👨🏽	bewsa mara, raġel, ton skur tal-ġilda, u ton medju tal-ġilda	none
+👩🏿‍❤‍💋‍👨🏾	bewsa mara, raġel, ton skur tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏿‍❤‍💋‍👨🏿	bewsa mara, raġel, u ton skur tal-ġilda	none
+👩🏻‍❤‍💋‍👩🏻	bewsa mara, mara, u ton ċar tal-ġilda	none
+👩🏻‍❤‍💋‍👩🏼	bewsa mara, mara, ton ċar tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏻‍❤‍💋‍👩🏽	bewsa mara, mara, ton ċar tal-ġilda, u ton medju tal-ġilda	none
+👩🏻‍❤‍💋‍👩🏾	bewsa mara, mara, ton ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏻‍❤‍💋‍👩🏿	bewsa mara, mara, ton ċar tal-ġilda, u ton skur tal-ġilda	none
+👩🏼‍❤‍💋‍👩🏻	bewsa mara, mara, ton medju-ċar tal-ġilda, u ton ċar tal-ġilda	none
+👩🏼‍❤‍💋‍👩🏼	bewsa mara, mara, u ton medju-ċar tal-ġilda	none
+👩🏼‍❤‍💋‍👩🏽	bewsa mara, mara, ton medju-ċar tal-ġilda, u ton medju tal-ġilda	none
+👩🏼‍❤‍💋‍👩🏾	bewsa mara, mara, ton medju-ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏼‍❤‍💋‍👩🏿	bewsa mara, mara, ton medju-ċar tal-ġilda, u ton skur tal-ġilda	none
+👩🏽‍❤‍💋‍👩🏻	bewsa mara, mara, ton medju tal-ġilda, u ton ċar tal-ġilda	none
+👩🏽‍❤‍💋‍👩🏼	bewsa mara, mara, ton medju tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏽‍❤‍💋‍👩🏽	bewsa mara, mara, u ton medju tal-ġilda	none
+👩🏽‍❤‍💋‍👩🏾	bewsa mara, mara, ton medju tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏽‍❤‍💋‍👩🏿	bewsa mara, mara, ton medju tal-ġilda, u ton skur tal-ġilda	none
+👩🏾‍❤‍💋‍👩🏻	bewsa mara, mara, ton medju-skur tal-ġilda, u ton ċar tal-ġilda	none
+👩🏾‍❤‍💋‍👩🏼	bewsa mara, mara, ton medju-skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏾‍❤‍💋‍👩🏽	bewsa mara, mara, ton medju-skur tal-ġilda, u ton medju tal-ġilda	none
+👩🏾‍❤‍💋‍👩🏾	bewsa mara, mara, u ton medju-skur tal-ġilda	none
+👩🏾‍❤‍💋‍👩🏿	bewsa mara, mara, ton medju-skur tal-ġilda, u ton skur tal-ġilda	none
+👩🏿‍❤‍💋‍👩🏻	bewsa mara, mara, ton skur tal-ġilda, u ton ċar tal-ġilda	none
+👩🏿‍❤‍💋‍👩🏼	bewsa mara, mara, ton skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏿‍❤‍💋‍👩🏽	bewsa mara, mara, ton skur tal-ġilda, u ton medju tal-ġilda	none
+👩🏿‍❤‍💋‍👩🏾	bewsa mara, mara, ton skur tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏿‍❤‍💋‍👩🏿	bewsa mara, mara, u ton skur tal-ġilda	none
+👩🏻‍❤‍👨🏻	koppja b’qalb mara, raġel, u ton ċar tal-ġilda	none
+👩🏻‍❤‍👨🏼	koppja b’qalb mara, raġel, ton ċar tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏻‍❤‍👨🏽	koppja b’qalb mara, raġel, ton ċar tal-ġilda, u ton medju tal-ġilda	none
+👩🏻‍❤‍👨🏾	koppja b’qalb mara, raġel, ton ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏻‍❤‍👨🏿	koppja b’qalb mara, raġel, ton ċar tal-ġilda, u ton skur tal-ġilda	none
+👩🏼‍❤‍👨🏻	koppja b’qalb mara, raġel, ton medju-ċar tal-ġilda, u ton ċar tal-ġilda	none
+👩🏼‍❤‍👨🏼	koppja b’qalb mara, raġel, u ton medju-ċar tal-ġilda	none
+👩🏼‍❤‍👨🏽	koppja b’qalb mara, raġel, ton medju-ċar tal-ġilda, u ton medju tal-ġilda	none
+👩🏼‍❤‍👨🏾	koppja b’qalb mara, raġel, ton medju-ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏼‍❤‍👨🏿	koppja b’qalb mara, raġel, ton medju-ċar tal-ġilda, u ton skur tal-ġilda	none
+👩🏽‍❤‍👨🏻	koppja b’qalb mara, raġel, ton medju tal-ġilda, u ton ċar tal-ġilda	none
+👩🏽‍❤‍👨🏼	koppja b’qalb mara, raġel, ton medju tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏽‍❤‍👨🏽	koppja b’qalb mara, raġel, u ton medju tal-ġilda	none
+👩🏽‍❤‍👨🏾	koppja b’qalb mara, raġel, ton medju tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏽‍❤‍👨🏿	koppja b’qalb mara, raġel, ton medju tal-ġilda, u ton skur tal-ġilda	none
+👩🏾‍❤‍👨🏻	koppja b’qalb mara, raġel, ton medju-skur tal-ġilda, u ton ċar tal-ġilda	none
+👩🏾‍❤‍👨🏼	koppja b’qalb mara, raġel, ton medju-skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏾‍❤‍👨🏽	koppja b’qalb mara, raġel, ton medju-skur tal-ġilda, u ton medju tal-ġilda	none
+👩🏾‍❤‍👨🏾	koppja b’qalb mara, raġel, u ton medju-skur tal-ġilda	none
+👩🏾‍❤‍👨🏿	koppja b’qalb mara, raġel, ton medju-skur tal-ġilda, u ton skur tal-ġilda	none
+👩🏿‍❤‍👨🏻	koppja b’qalb mara, raġel, ton skur tal-ġilda, u ton ċar tal-ġilda	none
+👩🏿‍❤‍👨🏼	koppja b’qalb mara, raġel, ton skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏿‍❤‍👨🏽	koppja b’qalb mara, raġel, ton skur tal-ġilda, u ton medju tal-ġilda	none
+👩🏿‍❤‍👨🏾	koppja b’qalb mara, raġel, ton skur tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏿‍❤‍👨🏿	koppja b’qalb mara, raġel, u ton skur tal-ġilda	none
+👩🏻‍❤‍👩🏻	koppja b’qalb mara, mara, u ton ċar tal-ġilda	none
+👩🏻‍❤‍👩🏼	koppja b’qalb mara, mara, ton ċar tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏻‍❤‍👩🏽	koppja b’qalb mara, mara, ton ċar tal-ġilda, u ton medju tal-ġilda	none
+👩🏻‍❤‍👩🏾	koppja b’qalb mara, mara, ton ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏻‍❤‍👩🏿	koppja b’qalb mara, mara, ton ċar tal-ġilda, u ton skur tal-ġilda	none
+👩🏼‍❤‍👩🏻	koppja b’qalb mara, mara, ton medju-ċar tal-ġilda, u ton ċar tal-ġilda	none
+👩🏼‍❤‍👩🏼	koppja b’qalb mara, mara, u ton medju-ċar tal-ġilda	none
+👩🏼‍❤‍👩🏽	koppja b’qalb mara, mara, ton medju-ċar tal-ġilda, u ton medju tal-ġilda	none
+👩🏼‍❤‍👩🏾	koppja b’qalb mara, mara, ton medju-ċar tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏼‍❤‍👩🏿	koppja b’qalb mara, mara, ton medju-ċar tal-ġilda, u ton skur tal-ġilda	none
+👩🏽‍❤‍👩🏻	koppja b’qalb mara, mara, ton medju tal-ġilda, u ton ċar tal-ġilda	none
+👩🏽‍❤‍👩🏼	koppja b’qalb mara, mara, ton medju tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏽‍❤‍👩🏽	koppja b’qalb mara, mara, u ton medju tal-ġilda	none
+👩🏽‍❤‍👩🏾	koppja b’qalb mara, mara, ton medju tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏽‍❤‍👩🏿	koppja b’qalb mara, mara, ton medju tal-ġilda, u ton skur tal-ġilda	none
+👩🏾‍❤‍👩🏻	koppja b’qalb mara, mara, ton medju-skur tal-ġilda, u ton ċar tal-ġilda	none
+👩🏾‍❤‍👩🏼	koppja b’qalb mara, mara, ton medju-skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏾‍❤‍👩🏽	koppja b’qalb mara, mara, ton medju-skur tal-ġilda, u ton medju tal-ġilda	none
+👩🏾‍❤‍👩🏾	koppja b’qalb mara, mara, u ton medju-skur tal-ġilda	none
+👩🏾‍❤‍👩🏿	koppja b’qalb mara, mara, ton medju-skur tal-ġilda, u ton skur tal-ġilda	none
+👩🏿‍❤‍👩🏻	koppja b’qalb mara, mara, ton skur tal-ġilda, u ton ċar tal-ġilda	none
+👩🏿‍❤‍👩🏼	koppja b’qalb mara, mara, ton skur tal-ġilda, u ton medju-ċar tal-ġilda	none
+👩🏿‍❤‍👩🏽	koppja b’qalb mara, mara, ton skur tal-ġilda, u ton medju tal-ġilda	none
+👩🏿‍❤‍👩🏾	koppja b’qalb mara, mara, ton skur tal-ġilda, u ton medju-skur tal-ġilda	none
+👩🏿‍❤‍👩🏿	koppja b’qalb mara, mara, u ton skur tal-ġilda	none
+👩🏻‍🫯‍👩🏼	nisa jagħmlu r-wrestling ton ċar tal-ġilda u ton medju-ċar tal-ġilda	none
+👩🏻‍🫯‍👩🏽	nisa jagħmlu r-wrestling ton ċar tal-ġilda u ton medju tal-ġilda	none
+👩🏻‍🫯‍👩🏾	nisa jagħmlu r-wrestling ton ċar tal-ġilda u ton medju-skur tal-ġilda	none
+👩🏻‍🫯‍👩🏿	nisa jagħmlu r-wrestling ton ċar tal-ġilda u ton skur tal-ġilda	none
+👩🏼‍🫯‍👩🏻	nisa jagħmlu r-wrestling ton medju-ċar tal-ġilda u ton ċar tal-ġilda	none
+👩🏼‍🫯‍👩🏽	nisa jagħmlu r-wrestling ton medju-ċar tal-ġilda u ton medju tal-ġilda	none
+👩🏼‍🫯‍👩🏾	nisa jagħmlu r-wrestling ton medju-ċar tal-ġilda u ton medju-skur tal-ġilda	none
+👩🏼‍🫯‍👩🏿	nisa jagħmlu r-wrestling ton medju-ċar tal-ġilda u ton skur tal-ġilda	none
+👩🏽‍🫯‍👩🏻	nisa jagħmlu r-wrestling ton medju tal-ġilda u ton ċar tal-ġilda	none
+👩🏽‍🫯‍👩🏼	nisa jagħmlu r-wrestling ton medju tal-ġilda u ton medju-ċar tal-ġilda	none
+👩🏽‍🫯‍👩🏾	nisa jagħmlu r-wrestling ton medju tal-ġilda u ton medju-skur tal-ġilda	none
+👩🏽‍🫯‍👩🏿	nisa jagħmlu r-wrestling ton medju tal-ġilda u ton skur tal-ġilda	none
+👩🏾‍🫯‍👩🏻	nisa jagħmlu r-wrestling ton medju-skur tal-ġilda u ton ċar tal-ġilda	none
+👩🏾‍🫯‍👩🏼	nisa jagħmlu r-wrestling ton medju-skur tal-ġilda u ton medju-ċar tal-ġilda	none
+👩🏾‍🫯‍👩🏽	nisa jagħmlu r-wrestling ton medju-skur tal-ġilda u ton medju tal-ġilda	none
+👩🏾‍🫯‍👩🏿	nisa jagħmlu r-wrestling ton medju-skur tal-ġilda u ton skur tal-ġilda	none
+👩🏿‍🫯‍👩🏻	nisa jagħmlu r-wrestling ton skur tal-ġilda u ton ċar tal-ġilda	none
+👩🏿‍🫯‍👩🏼	nisa jagħmlu r-wrestling ton skur tal-ġilda u ton medju-ċar tal-ġilda	none
+👩🏿‍🫯‍👩🏽	nisa jagħmlu r-wrestling ton skur tal-ġilda u ton medju tal-ġilda	none
+👩🏿‍🫯‍👩🏾	nisa jagħmlu r-wrestling ton skur tal-ġilda u ton medju-skur tal-ġilda	none
+👩🏻‍🐰‍👩🏼	nisa b’widnejn ta’ fenek jiddevertu ton ċar tal-ġilda u ton medju-ċar tal-ġilda	none
+👩🏻‍🐰‍👩🏽	nisa b’widnejn ta’ fenek jiddevertu ton ċar tal-ġilda u ton medju tal-ġilda	none
+👩🏻‍🐰‍👩🏾	nisa b’widnejn ta’ fenek jiddevertu ton ċar tal-ġilda u ton medju-skur tal-ġilda	none
+👩🏻‍🐰‍👩🏿	nisa b’widnejn ta’ fenek jiddevertu ton ċar tal-ġilda u ton skur tal-ġilda	none
+👩🏼‍🐰‍👩🏻	nisa b’widnejn ta’ fenek jiddevertu ton medju-ċar tal-ġilda u ton ċar tal-ġilda	none
+👩🏼‍🐰‍👩🏽	nisa b’widnejn ta’ fenek jiddevertu ton medju-ċar tal-ġilda u ton medju tal-ġilda	none
+👩🏼‍🐰‍👩🏾	nisa b’widnejn ta’ fenek jiddevertu ton medju-ċar tal-ġilda u ton medju-skur tal-ġilda	none
+👩🏼‍🐰‍👩🏿	nisa b’widnejn ta’ fenek jiddevertu ton medju-ċar tal-ġilda u ton skur tal-ġilda	none
+👩🏽‍🐰‍👩🏻	nisa b’widnejn ta’ fenek jiddevertu ton medju tal-ġilda u ton ċar tal-ġilda	none
+👩🏽‍🐰‍👩🏼	nisa b’widnejn ta’ fenek jiddevertu ton medju tal-ġilda u ton medju-ċar tal-ġilda	none
+👩🏽‍🐰‍👩🏾	nisa b’widnejn ta’ fenek jiddevertu ton medju tal-ġilda u ton medju-skur tal-ġilda	none
+👩🏽‍🐰‍👩🏿	nisa b’widnejn ta’ fenek jiddevertu ton medju tal-ġilda u ton skur tal-ġilda	none
+👩🏾‍🐰‍👩🏻	nisa b’widnejn ta’ fenek jiddevertu ton medju-skur tal-ġilda u ton ċar tal-ġilda	none
+👩🏾‍🐰‍👩🏼	nisa b’widnejn ta’ fenek jiddevertu ton medju-skur tal-ġilda u ton medju-ċar tal-ġilda	none
+👩🏾‍🐰‍👩🏽	nisa b’widnejn ta’ fenek jiddevertu ton medju-skur tal-ġilda u ton medju tal-ġilda	none
+👩🏾‍🐰‍👩🏿	nisa b’widnejn ta’ fenek jiddevertu ton medju-skur tal-ġilda u ton skur tal-ġilda	none
+👩🏿‍🐰‍👩🏻	nisa b’widnejn ta’ fenek jiddevertu ton skur tal-ġilda u ton ċar tal-ġilda	none
+👩🏿‍🐰‍👩🏼	nisa b’widnejn ta’ fenek jiddevertu ton skur tal-ġilda u ton medju-ċar tal-ġilda	none
+👩🏿‍🐰‍👩🏽	nisa b’widnejn ta’ fenek jiddevertu ton skur tal-ġilda u ton medju tal-ġilda	none
+👩🏿‍🐰‍👩🏾	nisa b’widnejn ta’ fenek jiddevertu ton skur tal-ġilda u ton medju-skur tal-ġilda	none
+🧓🏻	adulti anzjan ton ċar tal-ġilda	none
+🧓🏼	adulti anzjan ton medju-ċar tal-ġilda	none
+🧓🏽	adulti anzjan ton medju tal-ġilda	none
+🧓🏾	adulti anzjan ton medju-skur tal-ġilda	none
+🧓🏿	adulti anzjan ton skur tal-ġilda	none
+👴🏻	raġel xiħ ton ċar tal-ġilda	none
+👴🏼	raġel xiħ ton medju-ċar tal-ġilda	none
+👴🏽	raġel xiħ ton medju tal-ġilda	none
+👴🏾	raġel xiħ ton medju-skur tal-ġilda	none
+👴🏿	raġel xiħ ton skur tal-ġilda	none
+👵🏻	mara xiħa ton ċar tal-ġilda	none
+👵🏼	mara xiħa ton medju-ċar tal-ġilda	none
+👵🏽	mara xiħa ton medju tal-ġilda	none
+👵🏾	mara xiħa ton medju-skur tal-ġilda	none
+👵🏿	mara xiħa ton skur tal-ġilda	none
+🙍🏻	persuna titkerrah ton ċar tal-ġilda	none
+🙍🏼	persuna titkerrah ton medju-ċar tal-ġilda	none
+🙍🏽	persuna titkerrah ton medju tal-ġilda	none
+🙍🏾	persuna titkerrah ton medju-skur tal-ġilda	none
+🙍🏿	persuna titkerrah ton skur tal-ġilda	none
+🙍🏻‍♂	raġel jitkerrah ton ċar tal-ġilda	none
+🙍🏼‍♂	raġel jitkerrah ton medju-ċar tal-ġilda	none
+🙍🏽‍♂	raġel jitkerrah ton medju tal-ġilda	none
+🙍🏾‍♂	raġel jitkerrah ton medju-skur tal-ġilda	none
+🙍🏿‍♂	raġel jitkerrah ton skur tal-ġilda	none
+🙍🏻‍♀	mara titkerrah ton ċar tal-ġilda	none
+🙍🏼‍♀	mara titkerrah ton medju-ċar tal-ġilda	none
+🙍🏽‍♀	mara titkerrah ton medju tal-ġilda	none
+🙍🏾‍♀	mara titkerrah ton medju-skur tal-ġilda	none
+🙍🏿‍♀	mara titkerrah ton skur tal-ġilda	none
+🙎🏻	persuna tisporġi x-xofftejn ton ċar tal-ġilda	none
+🙎🏼	persuna tisporġi x-xofftejn ton medju-ċar tal-ġilda	none
+🙎🏽	persuna tisporġi x-xofftejn ton medju tal-ġilda	none
+🙎🏾	persuna tisporġi x-xofftejn ton medju-skur tal-ġilda	none
+🙎🏿	persuna tisporġi x-xofftejn ton skur tal-ġilda	none
+🙎🏻‍♂	raġel jisporġi x-xofftejn ton ċar tal-ġilda	none
+🙎🏼‍♂	raġel jisporġi x-xofftejn ton medju-ċar tal-ġilda	none
+🙎🏽‍♂	raġel jisporġi x-xofftejn ton medju tal-ġilda	none
+🙎🏾‍♂	raġel jisporġi x-xofftejn ton medju-skur tal-ġilda	none
+🙎🏿‍♂	raġel jisporġi x-xofftejn ton skur tal-ġilda	none
+🙎🏻‍♀	mara tisporġi x-xofftejn ton ċar tal-ġilda	none
+🙎🏼‍♀	mara tisporġi x-xofftejn ton medju-ċar tal-ġilda	none
+🙎🏽‍♀	mara tisporġi x-xofftejn ton medju tal-ġilda	none
+🙎🏾‍♀	mara tisporġi x-xofftejn ton medju-skur tal-ġilda	none
+🙎🏿‍♀	mara tisporġi x-xofftejn ton skur tal-ġilda	none
+🙅🏻	persuna tagħmel sinjal ta’ LE ton ċar tal-ġilda	none
+🙅🏼	persuna tagħmel sinjal ta’ LE ton medju-ċar tal-ġilda	none
+🙅🏽	persuna tagħmel sinjal ta’ LE ton medju tal-ġilda	none
+🙅🏾	persuna tagħmel sinjal ta’ LE ton medju-skur tal-ġilda	none
+🙅🏿	persuna tagħmel sinjal ta’ LE ton skur tal-ġilda	none
+🙅🏻‍♂	raġel jagħmel sinjal ta’ LE ton ċar tal-ġilda	none
+🙅🏼‍♂	raġel jagħmel sinjal ta’ LE ton medju-ċar tal-ġilda	none
+🙅🏽‍♂	raġel jagħmel sinjal ta’ LE ton medju tal-ġilda	none
+🙅🏾‍♂	raġel jagħmel sinjal ta’ LE ton medju-skur tal-ġilda	none
+🙅🏿‍♂	raġel jagħmel sinjal ta’ LE ton skur tal-ġilda	none
+🙅🏻‍♀	mara tagħmel sinjal ta’ LE ton ċar tal-ġilda	none
+🙅🏼‍♀	mara tagħmel sinjal ta’ LE ton medju-ċar tal-ġilda	none
+🙅🏽‍♀	mara tagħmel sinjal ta’ LE ton medju tal-ġilda	none
+🙅🏾‍♀	mara tagħmel sinjal ta’ LE ton medju-skur tal-ġilda	none
+🙅🏿‍♀	mara tagħmel sinjal ta’ LE ton skur tal-ġilda	none
+🙆🏻	persuna tagħmel sinjal ta’ OK ton ċar tal-ġilda	none
+🙆🏼	persuna tagħmel sinjal ta’ OK ton medju-ċar tal-ġilda	none
+🙆🏽	persuna tagħmel sinjal ta’ OK ton medju tal-ġilda	none
+🙆🏾	persuna tagħmel sinjal ta’ OK ton medju-skur tal-ġilda	none
+🙆🏿	persuna tagħmel sinjal ta’ OK ton skur tal-ġilda	none
+🙆🏻‍♂	raġel jagħmel sinjal ta’ OK ton ċar tal-ġilda	none
+🙆🏼‍♂	raġel jagħmel sinjal ta’ OK ton medju-ċar tal-ġilda	none
+🙆🏽‍♂	raġel jagħmel sinjal ta’ OK ton medju tal-ġilda	none
+🙆🏾‍♂	raġel jagħmel sinjal ta’ OK ton medju-skur tal-ġilda	none
+🙆🏿‍♂	raġel jagħmel sinjal ta’ OK ton skur tal-ġilda	none
+🙆🏻‍♀	mara tagħmel sinjal ta’ OK ton ċar tal-ġilda	none
+🙆🏼‍♀	mara tagħmel sinjal ta’ OK ton medju-ċar tal-ġilda	none
+🙆🏽‍♀	mara tagħmel sinjal ta’ OK ton medju tal-ġilda	none
+🙆🏾‍♀	mara tagħmel sinjal ta’ OK ton medju-skur tal-ġilda	none
+🙆🏿‍♀	mara tagħmel sinjal ta’ OK ton skur tal-ġilda	none
+💁🏻	persuna tbaxxi idha ton ċar tal-ġilda	none
+💁🏼	persuna tbaxxi idha ton medju-ċar tal-ġilda	none
+💁🏽	persuna tbaxxi idha ton medju tal-ġilda	none
+💁🏾	persuna tbaxxi idha ton medju-skur tal-ġilda	none
+💁🏿	persuna tbaxxi idha ton skur tal-ġilda	none
+💁🏻‍♂	raġel ibaxxi idejh ton ċar tal-ġilda	none
+💁🏼‍♂	raġel ibaxxi idejh ton medju-ċar tal-ġilda	none
+💁🏽‍♂	raġel ibaxxi idejh ton medju tal-ġilda	none
+💁🏾‍♂	raġel ibaxxi idejh ton medju-skur tal-ġilda	none
+💁🏿‍♂	raġel ibaxxi idejh ton skur tal-ġilda	none
+💁🏻‍♀	mara tbaxxi idha ton ċar tal-ġilda	none
+💁🏼‍♀	mara tbaxxi idha ton medju-ċar tal-ġilda	none
+💁🏽‍♀	mara tbaxxi idha ton medju tal-ġilda	none
+💁🏾‍♀	mara tbaxxi idha ton medju-skur tal-ġilda	none
+💁🏿‍♀	mara tbaxxi idha ton skur tal-ġilda	none
+🙋🏻	persuna tgħolli idha ton ċar tal-ġilda	none
+🙋🏼	persuna tgħolli idha ton medju-ċar tal-ġilda	none
+🙋🏽	persuna tgħolli idha ton medju tal-ġilda	none
+🙋🏾	persuna tgħolli idha ton medju-skur tal-ġilda	none
+🙋🏿	persuna tgħolli idha ton skur tal-ġilda	none
+🙋🏻‍♂	raġel jgħolli idejh ton ċar tal-ġilda	none
+🙋🏼‍♂	raġel jgħolli idejh ton medju-ċar tal-ġilda	none
+🙋🏽‍♂	raġel jgħolli idejh ton medju tal-ġilda	none
+🙋🏾‍♂	raġel jgħolli idejh ton medju-skur tal-ġilda	none
+🙋🏿‍♂	raġel jgħolli idejh ton skur tal-ġilda	none
+🙋🏻‍♀	mara tgħolli idha ton ċar tal-ġilda	none
+🙋🏼‍♀	mara tgħolli idha ton medju-ċar tal-ġilda	none
+🙋🏽‍♀	mara tgħolli idha ton medju tal-ġilda	none
+🙋🏾‍♀	mara tgħolli idha ton medju-skur tal-ġilda	none
+🙋🏿‍♀	mara tgħolli idha ton skur tal-ġilda	none
+🙇🏻	persuna tinkina ton ċar tal-ġilda	none
+🙇🏼	persuna tinkina ton medju-ċar tal-ġilda	none
+🙇🏽	persuna tinkina ton medju tal-ġilda	none
+🙇🏾	persuna tinkina ton medju-skur tal-ġilda	none
+🙇🏿	persuna tinkina ton skur tal-ġilda	none
+🙇🏻‍♂	raġel jikina ton ċar tal-ġilda	none
+🙇🏼‍♂	raġel jikina ton medju-ċar tal-ġilda	none
+🙇🏽‍♂	raġel jikina ton medju tal-ġilda	none
+🙇🏾‍♂	raġel jikina ton medju-skur tal-ġilda	none
+🙇🏿‍♂	raġel jikina ton skur tal-ġilda	none
+🙇🏻‍♀	mara tikina ton ċar tal-ġilda	none
+🙇🏼‍♀	mara tikina ton medju-ċar tal-ġilda	none
+🙇🏽‍♀	mara tikina ton medju tal-ġilda	none
+🙇🏾‍♀	mara tikina ton medju-skur tal-ġilda	none
+🙇🏿‍♀	mara tikina ton skur tal-ġilda	none
+🤦🏻	persuna tagħmel facepalm ton ċar tal-ġilda	none
+🤦🏼	persuna tagħmel facepalm ton medju-ċar tal-ġilda	none
+🤦🏽	persuna tagħmel facepalm ton medju tal-ġilda	none
+🤦🏾	persuna tagħmel facepalm ton medju-skur tal-ġilda	none
+🤦🏿	persuna tagħmel facepalm ton skur tal-ġilda	none
+🤦🏻‍♂	raġel jagħmel facepalming ton ċar tal-ġilda	none
+🤦🏼‍♂	raġel jagħmel facepalming ton medju-ċar tal-ġilda	none
+🤦🏽‍♂	raġel jagħmel facepalming ton medju tal-ġilda	none
+🤦🏾‍♂	raġel jagħmel facepalming ton medju-skur tal-ġilda	none
+🤦🏿‍♂	raġel jagħmel facepalming ton skur tal-ġilda	none
+🤦🏻‍♀	mara tagħmel facepalming ton ċar tal-ġilda	none
+🤦🏼‍♀	mara tagħmel facepalming ton medju-ċar tal-ġilda	none
+🤦🏽‍♀	mara tagħmel facepalming ton medju tal-ġilda	none
+🤦🏾‍♀	mara tagħmel facepalming ton medju-skur tal-ġilda	none
+🤦🏿‍♀	mara tagħmel facepalming ton skur tal-ġilda	none
+🤷🏻	persuna xxengel spallejha ton ċar tal-ġilda	none
+🤷🏼	persuna xxengel spallejha ton medju-ċar tal-ġilda	none
+🤷🏽	persuna xxengel spallejha ton medju tal-ġilda	none
+🤷🏾	persuna xxengel spallejha ton medju-skur tal-ġilda	none
+🤷🏿	persuna xxengel spallejha ton skur tal-ġilda	none
+🤷🏻‍♂	raġel ixengel spallejh ton ċar tal-ġilda	none
+🤷🏼‍♂	raġel ixengel spallejh ton medju-ċar tal-ġilda	none
+🤷🏽‍♂	raġel ixengel spallejh ton medju tal-ġilda	none
+🤷🏾‍♂	raġel ixengel spallejh ton medju-skur tal-ġilda	none
+🤷🏿‍♂	raġel ixengel spallejh ton skur tal-ġilda	none
+🤷🏻‍♀	mara xxengel spallejha ton ċar tal-ġilda	none
+🤷🏼‍♀	mara xxengel spallejha ton medju-ċar tal-ġilda	none
+🤷🏽‍♀	mara xxengel spallejha ton medju tal-ġilda	none
+🤷🏾‍♀	mara xxengel spallejha ton medju-skur tal-ġilda	none
+🤷🏿‍♀	mara xxengel spallejha ton skur tal-ġilda	none
+👨🏻‍⚕	ħaddiem fil-kura tal-bniedem ton ċar tal-ġilda	none
+👨🏼‍⚕	ħaddiem fil-kura tal-bniedem ton medju-ċar tal-ġilda	none
+👨🏽‍⚕	ħaddiem fil-kura tal-bniedem ton medju tal-ġilda	none
+👨🏾‍⚕	ħaddiem fil-kura tal-bniedem ton medju-skur tal-ġilda	none
+👨🏿‍⚕	ħaddiem fil-kura tal-bniedem ton skur tal-ġilda	none
+👩🏻‍⚕	mara fil-kura tas-saħħa ton ċar tal-ġilda	none
+👩🏼‍⚕	mara fil-kura tas-saħħa ton medju-ċar tal-ġilda	none
+👩🏽‍⚕	mara fil-kura tas-saħħa ton medju tal-ġilda	none
+👩🏾‍⚕	mara fil-kura tas-saħħa ton medju-skur tal-ġilda	none
+👩🏿‍⚕	mara fil-kura tas-saħħa ton skur tal-ġilda	none
+👨🏻‍🎓	student maskil ton ċar tal-ġilda	none
+👨🏼‍🎓	student maskil ton medju-ċar tal-ġilda	none
+👨🏽‍🎓	student maskil ton medju tal-ġilda	none
+👨🏾‍🎓	student maskil ton medju-skur tal-ġilda	none
+👨🏿‍🎓	student maskil ton skur tal-ġilda	none
+👩🏻‍🎓	student femminil ton ċar tal-ġilda	none
+👩🏼‍🎓	student femminil ton medju-ċar tal-ġilda	none
+👩🏽‍🎓	student femminil ton medju tal-ġilda	none
+👩🏾‍🎓	student femminil ton medju-skur tal-ġilda	none
+👩🏿‍🎓	student femminil ton skur tal-ġilda	none
+👨🏻‍🏫	għalliem ton ċar tal-ġilda	none
+👨🏼‍🏫	għalliem ton medju-ċar tal-ġilda	none
+👨🏽‍🏫	għalliem ton medju tal-ġilda	none
+👨🏾‍🏫	għalliem ton medju-skur tal-ġilda	none
+👨🏿‍🏫	għalliem ton skur tal-ġilda	none
+👩🏻‍🏫	għalliema ton ċar tal-ġilda	none
+👩🏼‍🏫	għalliema ton medju-ċar tal-ġilda	none
+👩🏽‍🏫	għalliema ton medju tal-ġilda	none
+👩🏾‍🏫	għalliema ton medju-skur tal-ġilda	none
+👩🏿‍🏫	għalliema ton skur tal-ġilda	none
+👨🏻‍⚖	imħallef maskil ton ċar tal-ġilda	none
+👨🏼‍⚖	imħallef maskil ton medju-ċar tal-ġilda	none
+👨🏽‍⚖	imħallef maskil ton medju tal-ġilda	none
+👨🏾‍⚖	imħallef maskil ton medju-skur tal-ġilda	none
+👨🏿‍⚖	imħallef maskil ton skur tal-ġilda	none
+👩🏻‍⚖	imħallef mara ton ċar tal-ġilda	none
+👩🏼‍⚖	imħallef mara ton medju-ċar tal-ġilda	none
+👩🏽‍⚖	imħallef mara ton medju tal-ġilda	none
+👩🏾‍⚖	imħallef mara ton medju-skur tal-ġilda	none
+👩🏿‍⚖	imħallef mara ton skur tal-ġilda	none
+👨🏻‍🌾	bidwi maskil ton ċar tal-ġilda	none
+👨🏼‍🌾	bidwi maskil ton medju-ċar tal-ġilda	none
+👨🏽‍🌾	bidwi maskil ton medju tal-ġilda	none
+👨🏾‍🌾	bidwi maskil ton medju-skur tal-ġilda	none
+👨🏿‍🌾	bidwi maskil ton skur tal-ġilda	none
+👩🏻‍🌾	bidwi femminil ton ċar tal-ġilda	none
+👩🏼‍🌾	bidwi femminil ton medju-ċar tal-ġilda	none
+👩🏽‍🌾	bidwi femminil ton medju tal-ġilda	none
+👩🏾‍🌾	bidwi femminil ton medju-skur tal-ġilda	none
+👩🏿‍🌾	bidwi femminil ton skur tal-ġilda	none
+👨🏻‍🍳	kok maskil ton ċar tal-ġilda	none
+👨🏼‍🍳	kok maskil ton medju-ċar tal-ġilda	none
+👨🏽‍🍳	kok maskil ton medju tal-ġilda	none
+👨🏾‍🍳	kok maskil ton medju-skur tal-ġilda	none
+👨🏿‍🍳	kok maskil ton skur tal-ġilda	none
+👩🏻‍🍳	kok femminil ton ċar tal-ġilda	none
+👩🏼‍🍳	kok femminil ton medju-ċar tal-ġilda	none
+👩🏽‍🍳	kok femminil ton medju tal-ġilda	none
+👩🏾‍🍳	kok femminil ton medju-skur tal-ġilda	none
+👩🏿‍🍳	kok femminil ton skur tal-ġilda	none
+👨🏻‍🔧	mekkanik maskili ton ċar tal-ġilda	none
+👨🏼‍🔧	mekkanik maskili ton medju-ċar tal-ġilda	none
+👨🏽‍🔧	mekkanik maskili ton medju tal-ġilda	none
+👨🏾‍🔧	mekkanik maskili ton medju-skur tal-ġilda	none
+👨🏿‍🔧	mekkanik maskili ton skur tal-ġilda	none
+👩🏻‍🔧	mekkanik mara ton ċar tal-ġilda	none
+👩🏼‍🔧	mekkanik mara ton medju-ċar tal-ġilda	none
+👩🏽‍🔧	mekkanik mara ton medju tal-ġilda	none
+👩🏾‍🔧	mekkanik mara ton medju-skur tal-ġilda	none
+👩🏿‍🔧	mekkanik mara ton skur tal-ġilda	none
+👨🏻‍🏭	ħaddiem tal-fabbrika ton ċar tal-ġilda	none
+👨🏼‍🏭	ħaddiem tal-fabbrika ton medju-ċar tal-ġilda	none
+👨🏽‍🏭	ħaddiem tal-fabbrika ton medju tal-ġilda	none
+👨🏾‍🏭	ħaddiem tal-fabbrika ton medju-skur tal-ġilda	none
+👨🏿‍🏭	ħaddiem tal-fabbrika ton skur tal-ġilda	none
+👩🏻‍🏭	ħaddiema tal-fabbrika ton ċar tal-ġilda	none
+👩🏼‍🏭	ħaddiema tal-fabbrika ton medju-ċar tal-ġilda	none
+👩🏽‍🏭	ħaddiema tal-fabbrika ton medju tal-ġilda	none
+👩🏾‍🏭	ħaddiema tal-fabbrika ton medju-skur tal-ġilda	none
+👩🏿‍🏭	ħaddiema tal-fabbrika ton skur tal-ġilda	none
+👨🏻‍💼	raġel jaħdem f’uffiċċju ton ċar tal-ġilda	none
+👨🏼‍💼	raġel jaħdem f’uffiċċju ton medju-ċar tal-ġilda	none
+👨🏽‍💼	raġel jaħdem f’uffiċċju ton medju tal-ġilda	none
+👨🏾‍💼	raġel jaħdem f’uffiċċju ton medju-skur tal-ġilda	none
+👨🏿‍💼	raġel jaħdem f’uffiċċju ton skur tal-ġilda	none
+👩🏻‍💼	mara taħdem f’uffiċċju ton ċar tal-ġilda	none
+👩🏼‍💼	mara taħdem f’uffiċċju ton medju-ċar tal-ġilda	none
+👩🏽‍💼	mara taħdem f’uffiċċju ton medju tal-ġilda	none
+👩🏾‍💼	mara taħdem f’uffiċċju ton medju-skur tal-ġilda	none
+👩🏿‍💼	mara taħdem f’uffiċċju ton skur tal-ġilda	none
+👨🏻‍🔬	xjenzat maskili ton ċar tal-ġilda	none
+👨🏼‍🔬	xjenzat maskili ton medju-ċar tal-ġilda	none
+👨🏽‍🔬	xjenzat maskili ton medju tal-ġilda	none
+👨🏾‍🔬	xjenzat maskili ton medju-skur tal-ġilda	none
+👨🏿‍🔬	xjenzat maskili ton skur tal-ġilda	none
+👩🏻‍🔬	xjenzata mara ton ċar tal-ġilda	none
+👩🏼‍🔬	xjenzata mara ton medju-ċar tal-ġilda	none
+👩🏽‍🔬	xjenzata mara ton medju tal-ġilda	none
+👩🏾‍🔬	xjenzata mara ton medju-skur tal-ġilda	none
+👩🏿‍🔬	xjenzata mara ton skur tal-ġilda	none
+👨🏻‍💻	teknoloġist maskili ton ċar tal-ġilda	none
+👨🏼‍💻	teknoloġist maskili ton medju-ċar tal-ġilda	none
+👨🏽‍💻	teknoloġist maskili ton medju tal-ġilda	none
+👨🏾‍💻	teknoloġist maskili ton medju-skur tal-ġilda	none
+👨🏿‍💻	teknoloġist maskili ton skur tal-ġilda	none
+👩🏻‍💻	teknoloġist femminili ton ċar tal-ġilda	none
+👩🏼‍💻	teknoloġist femminili ton medju-ċar tal-ġilda	none
+👩🏽‍💻	teknoloġist femminili ton medju tal-ġilda	none
+👩🏾‍💻	teknoloġist femminili ton medju-skur tal-ġilda	none
+👩🏿‍💻	teknoloġist femminili ton skur tal-ġilda	none
+👨🏻‍🎤	kantant maskili ton ċar tal-ġilda	none
+👨🏼‍🎤	kantant maskili ton medju-ċar tal-ġilda	none
+👨🏽‍🎤	kantant maskili ton medju tal-ġilda	none
+👨🏾‍🎤	kantant maskili ton medju-skur tal-ġilda	none
+👨🏿‍🎤	kantant maskili ton skur tal-ġilda	none
+👩🏻‍🎤	katant femminil ton ċar tal-ġilda	none
+👩🏼‍🎤	katant femminil ton medju-ċar tal-ġilda	none
+👩🏽‍🎤	katant femminil ton medju tal-ġilda	none
+👩🏾‍🎤	katant femminil ton medju-skur tal-ġilda	none
+👩🏿‍🎤	katant femminil ton skur tal-ġilda	none
+👨🏻‍🎨	artist maskili ton ċar tal-ġilda	none
+👨🏼‍🎨	artist maskili ton medju-ċar tal-ġilda	none
+👨🏽‍🎨	artist maskili ton medju tal-ġilda	none
+👨🏾‍🎨	artist maskili ton medju-skur tal-ġilda	none
+👨🏿‍🎨	artist maskili ton skur tal-ġilda	none
+👩🏻‍🎨	artist femminil ton ċar tal-ġilda	none
+👩🏼‍🎨	artist femminil ton medju-ċar tal-ġilda	none
+👩🏽‍🎨	artist femminil ton medju tal-ġilda	none
+👩🏾‍🎨	artist femminil ton medju-skur tal-ġilda	none
+👩🏿‍🎨	artist femminil ton skur tal-ġilda	none
+👨🏻‍✈	pilota tal-bniedem ton ċar tal-ġilda	none
+👨🏼‍✈	pilota tal-bniedem ton medju-ċar tal-ġilda	none
+👨🏽‍✈	pilota tal-bniedem ton medju tal-ġilda	none
+👨🏾‍✈	pilota tal-bniedem ton medju-skur tal-ġilda	none
+👨🏿‍✈	pilota tal-bniedem ton skur tal-ġilda	none
+👩🏻‍✈	pilota mara ton ċar tal-ġilda	none
+👩🏼‍✈	pilota mara ton medju-ċar tal-ġilda	none
+👩🏽‍✈	pilota mara ton medju tal-ġilda	none
+👩🏾‍✈	pilota mara ton medju-skur tal-ġilda	none
+👩🏿‍✈	pilota mara ton skur tal-ġilda	none
+👨🏻‍🚀	astronawt maskil ton ċar tal-ġilda	none
+👨🏼‍🚀	astronawt maskil ton medju-ċar tal-ġilda	none
+👨🏽‍🚀	astronawt maskil ton medju tal-ġilda	none
+👨🏾‍🚀	astronawt maskil ton medju-skur tal-ġilda	none
+👨🏿‍🚀	astronawt maskil ton skur tal-ġilda	none
+👩🏻‍🚀	astronawta mara ton ċar tal-ġilda	none
+👩🏼‍🚀	astronawta mara ton medju-ċar tal-ġilda	none
+👩🏽‍🚀	astronawta mara ton medju tal-ġilda	none
+👩🏾‍🚀	astronawta mara ton medju-skur tal-ġilda	none
+👩🏿‍🚀	astronawta mara ton skur tal-ġilda	none
+👨🏻‍🚒	ħaddiem tat-tifi tan-nar maskil ton ċar tal-ġilda	none
+👨🏼‍🚒	ħaddiem tat-tifi tan-nar maskil ton medju-ċar tal-ġilda	none
+👨🏽‍🚒	ħaddiem tat-tifi tan-nar maskil ton medju tal-ġilda	none
+👨🏾‍🚒	ħaddiem tat-tifi tan-nar maskil ton medju-skur tal-ġilda	none
+👨🏿‍🚒	ħaddiem tat-tifi tan-nar maskil ton skur tal-ġilda	none
+👩🏻‍🚒	ħaddiem tat-tifi tan-nar femminil ton ċar tal-ġilda	none
+👩🏼‍🚒	ħaddiem tat-tifi tan-nar femminil ton medju-ċar tal-ġilda	none
+👩🏽‍🚒	ħaddiem tat-tifi tan-nar femminil ton medju tal-ġilda	none
+👩🏾‍🚒	ħaddiem tat-tifi tan-nar femminil ton medju-skur tal-ġilda	none
+👩🏿‍🚒	ħaddiem tat-tifi tan-nar femminil ton skur tal-ġilda	none
+👮🏻	uffiċjal tal-pulizija ton ċar tal-ġilda	none
+👮🏼	uffiċjal tal-pulizija ton medju-ċar tal-ġilda	none
+👮🏽	uffiċjal tal-pulizija ton medju tal-ġilda	none
+👮🏾	uffiċjal tal-pulizija ton medju-skur tal-ġilda	none
+👮🏿	uffiċjal tal-pulizija ton skur tal-ġilda	none
+👮🏻‍♂	uffiċjal tal-pulizija raġel ton ċar tal-ġilda	none
+👮🏼‍♂	uffiċjal tal-pulizija raġel ton medju-ċar tal-ġilda	none
+👮🏽‍♂	uffiċjal tal-pulizija raġel ton medju tal-ġilda	none
+👮🏾‍♂	uffiċjal tal-pulizija raġel ton medju-skur tal-ġilda	none
+👮🏿‍♂	uffiċjal tal-pulizija raġel ton skur tal-ġilda	none
+👮🏻‍♀	uffiċjal tal-pulizija mara ton ċar tal-ġilda	none
+👮🏼‍♀	uffiċjal tal-pulizija mara ton medju-ċar tal-ġilda	none
+👮🏽‍♀	uffiċjal tal-pulizija mara ton medju tal-ġilda	none
+👮🏾‍♀	uffiċjal tal-pulizija mara ton medju-skur tal-ġilda	none
+👮🏿‍♀	uffiċjal tal-pulizija mara ton skur tal-ġilda	none
+🕵🏻	ditektiv ton ċar tal-ġilda	none
+🕵🏼	ditektiv ton medju-ċar tal-ġilda	none
+🕵🏽	ditektiv ton medju tal-ġilda	none
+🕵🏾	ditektiv ton medju-skur tal-ġilda	none
+🕵🏿	ditektiv ton skur tal-ġilda	none
+🕵🏻‍♂	ditektiv raġel ton ċar tal-ġilda	none
+🕵🏼‍♂	ditektiv raġel ton medju-ċar tal-ġilda	none
+🕵🏽‍♂	ditektiv raġel ton medju tal-ġilda	none
+🕵🏾‍♂	ditektiv raġel ton medju-skur tal-ġilda	none
+🕵🏿‍♂	ditektiv raġel ton skur tal-ġilda	none
+🕵🏻‍♀	ditektiv mara ton ċar tal-ġilda	none
+🕵🏼‍♀	ditektiv mara ton medju-ċar tal-ġilda	none
+🕵🏽‍♀	ditektiv mara ton medju tal-ġilda	none
+🕵🏾‍♀	ditektiv mara ton medju-skur tal-ġilda	none
+🕵🏿‍♀	ditektiv mara ton skur tal-ġilda	none
+💂🏻	gwardjan ton ċar tal-ġilda	none
+💂🏼	gwardjan ton medju-ċar tal-ġilda	none
+💂🏽	gwardjan ton medju tal-ġilda	none
+💂🏾	gwardjan ton medju-skur tal-ġilda	none
+💂🏿	gwardjan ton skur tal-ġilda	none
+💂🏻‍♂	gwardjan raġel ton ċar tal-ġilda	none
+💂🏼‍♂	gwardjan raġel ton medju-ċar tal-ġilda	none
+💂🏽‍♂	gwardjan raġel ton medju tal-ġilda	none
+💂🏾‍♂	gwardjan raġel ton medju-skur tal-ġilda	none
+💂🏿‍♂	gwardjan raġel ton skur tal-ġilda	none
+💂🏻‍♀	gwardjan mara ton ċar tal-ġilda	none
+💂🏼‍♀	gwardjan mara ton medju-ċar tal-ġilda	none
+💂🏽‍♀	gwardjan mara ton medju tal-ġilda	none
+💂🏾‍♀	gwardjan mara ton medju-skur tal-ġilda	none
+💂🏿‍♀	gwardjan mara ton skur tal-ġilda	none
+👷🏻	ħaddiem tal-kostruzzjoni ton ċar tal-ġilda	none
+👷🏼	ħaddiem tal-kostruzzjoni ton medju-ċar tal-ġilda	none
+👷🏽	ħaddiem tal-kostruzzjoni ton medju tal-ġilda	none
+👷🏾	ħaddiem tal-kostruzzjoni ton medju-skur tal-ġilda	none
+👷🏿	ħaddiem tal-kostruzzjoni ton skur tal-ġilda	none
+👷🏻‍♂	ħaddiem tal-kostruzzjoni maskili ton ċar tal-ġilda	none
+👷🏼‍♂	ħaddiem tal-kostruzzjoni maskili ton medju-ċar tal-ġilda	none
+👷🏽‍♂	ħaddiem tal-kostruzzjoni maskili ton medju tal-ġilda	none
+👷🏾‍♂	ħaddiem tal-kostruzzjoni maskili ton medju-skur tal-ġilda	none
+👷🏿‍♂	ħaddiem tal-kostruzzjoni maskili ton skur tal-ġilda	none
+👷🏻‍♀	ħaddiem tal-kostruzzjoni femminili ton ċar tal-ġilda	none
+👷🏼‍♀	ħaddiem tal-kostruzzjoni femminili ton medju-ċar tal-ġilda	none
+👷🏽‍♀	ħaddiem tal-kostruzzjoni femminili ton medju tal-ġilda	none
+👷🏾‍♀	ħaddiem tal-kostruzzjoni femminili ton medju-skur tal-ġilda	none
+👷🏿‍♀	ħaddiem tal-kostruzzjoni femminili ton skur tal-ġilda	none
+🤴🏻	prinċep ton ċar tal-ġilda	none
+🤴🏼	prinċep ton medju-ċar tal-ġilda	none
+🤴🏽	prinċep ton medju tal-ġilda	none
+🤴🏾	prinċep ton medju-skur tal-ġilda	none
+🤴🏿	prinċep ton skur tal-ġilda	none
+👸🏻	prinċipessa ton ċar tal-ġilda	none
+👸🏼	prinċipessa ton medju-ċar tal-ġilda	none
+👸🏽	prinċipessa ton medju tal-ġilda	none
+👸🏾	prinċipessa ton medju-skur tal-ġilda	none
+👸🏿	prinċipessa ton skur tal-ġilda	none
+👳🏻	persuna liebsa turban ton ċar tal-ġilda	none
+👳🏼	persuna liebsa turban ton medju-ċar tal-ġilda	none
+👳🏽	persuna liebsa turban ton medju tal-ġilda	none
+👳🏾	persuna liebsa turban ton medju-skur tal-ġilda	none
+👳🏿	persuna liebsa turban ton skur tal-ġilda	none
+👳🏻‍♂	raġel liebes turban ton ċar tal-ġilda	none
+👳🏼‍♂	raġel liebes turban ton medju-ċar tal-ġilda	none
+👳🏽‍♂	raġel liebes turban ton medju tal-ġilda	none
+👳🏾‍♂	raġel liebes turban ton medju-skur tal-ġilda	none
+👳🏿‍♂	raġel liebes turban ton skur tal-ġilda	none
+👳🏻‍♀	mara liebsa turban ton ċar tal-ġilda	none
+👳🏼‍♀	mara liebsa turban ton medju-ċar tal-ġilda	none
+👳🏽‍♀	mara liebsa turban ton medju tal-ġilda	none
+👳🏾‍♀	mara liebsa turban ton medju-skur tal-ġilda	none
+👳🏿‍♀	mara liebsa turban ton skur tal-ġilda	none
+👲🏻	raġel b’kappell Ċiniż ton ċar tal-ġilda	none
+👲🏼	raġel b’kappell Ċiniż ton medju-ċar tal-ġilda	none
+👲🏽	raġel b’kappell Ċiniż ton medju tal-ġilda	none
+👲🏾	raġel b’kappell Ċiniż ton medju-skur tal-ġilda	none
+👲🏿	raġel b’kappell Ċiniż ton skur tal-ġilda	none
+🧕🏻	mara b’velu ton ċar tal-ġilda	none
+🧕🏼	mara b’velu ton medju-ċar tal-ġilda	none
+🧕🏽	mara b’velu ton medju tal-ġilda	none
+🧕🏾	mara b’velu ton medju-skur tal-ġilda	none
+🧕🏿	mara b’velu ton skur tal-ġilda	none
+🤵🏻	raġel b’tuxedo ton ċar tal-ġilda	none
+🤵🏼	raġel b’tuxedo ton medju-ċar tal-ġilda	none
+🤵🏽	raġel b’tuxedo ton medju tal-ġilda	none
+🤵🏾	raġel b’tuxedo ton medju-skur tal-ġilda	none
+🤵🏿	raġel b’tuxedo ton skur tal-ġilda	none
+👰🏻	għarusa b’velu ton ċar tal-ġilda	none
+👰🏼	għarusa b’velu ton medju-ċar tal-ġilda	none
+👰🏽	għarusa b’velu ton medju tal-ġilda	none
+👰🏾	għarusa b’velu ton medju-skur tal-ġilda	none
+👰🏿	għarusa b’velu ton skur tal-ġilda	none
+🤰🏻	mara tqila ton ċar tal-ġilda	none
+🤰🏼	mara tqila ton medju-ċar tal-ġilda	none
+🤰🏽	mara tqila ton medju tal-ġilda	none
+🤰🏾	mara tqila ton medju-skur tal-ġilda	none
+🤰🏿	mara tqila ton skur tal-ġilda	none
+🤱🏻	irdigħ ton ċar tal-ġilda	none
+🤱🏼	irdigħ ton medju-ċar tal-ġilda	none
+🤱🏽	irdigħ ton medju tal-ġilda	none
+🤱🏾	irdigħ ton medju-skur tal-ġilda	none
+🤱🏿	irdigħ ton skur tal-ġilda	none
+👼🏻	anġlu tarbija ton ċar tal-ġilda	none
+👼🏼	anġlu tarbija ton medju-ċar tal-ġilda	none
+👼🏽	anġlu tarbija ton medju tal-ġilda	none
+👼🏾	anġlu tarbija ton medju-skur tal-ġilda	none
+👼🏿	anġlu tarbija ton skur tal-ġilda	none
+🎅🏻	Santa Klaws ton ċar tal-ġilda	none
+🎅🏼	Santa Klaws ton medju-ċar tal-ġilda	none
+🎅🏽	Santa Klaws ton medju tal-ġilda	none
+🎅🏾	Santa Klaws ton medju-skur tal-ġilda	none
+🎅🏿	Santa Klaws ton skur tal-ġilda	none
+🤶🏻	Is-Sinjura Klaws ton ċar tal-ġilda	none
+🤶🏼	Is-Sinjura Klaws ton medju-ċar tal-ġilda	none
+🤶🏽	Is-Sinjura Klaws ton medju tal-ġilda	none
+🤶🏾	Is-Sinjura Klaws ton medju-skur tal-ġilda	none
+🤶🏿	Is-Sinjura Klaws ton skur tal-ġilda	none
+🧙🏻	magu ton ċar tal-ġilda	none
+🧙🏼	magu ton medju-ċar tal-ġilda	none
+🧙🏽	magu ton medju tal-ġilda	none
+🧙🏾	magu ton medju-skur tal-ġilda	none
+🧙🏿	magu ton skur tal-ġilda	none
+🧙🏻‍♂	raġel magu ton ċar tal-ġilda	none
+🧙🏼‍♂	raġel magu ton medju-ċar tal-ġilda	none
+🧙🏽‍♂	raġel magu ton medju tal-ġilda	none
+🧙🏾‍♂	raġel magu ton medju-skur tal-ġilda	none
+🧙🏿‍♂	raġel magu ton skur tal-ġilda	none
+🧙🏻‍♀	mara magu ton ċar tal-ġilda	none
+🧙🏼‍♀	mara magu ton medju-ċar tal-ġilda	none
+🧙🏽‍♀	mara magu ton medju tal-ġilda	none
+🧙🏾‍♀	mara magu ton medju-skur tal-ġilda	none
+🧙🏿‍♀	mara magu ton skur tal-ġilda	none
+🧚🏻	fatatina ton ċar tal-ġilda	none
+🧚🏼	fatatina ton medju-ċar tal-ġilda	none
+🧚🏽	fatatina ton medju tal-ġilda	none
+🧚🏾	fatatina ton medju-skur tal-ġilda	none
+🧚🏿	fatatina ton skur tal-ġilda	none
+🧚🏻‍♂	fatat maskil ton ċar tal-ġilda	none
+🧚🏼‍♂	fatat maskil ton medju-ċar tal-ġilda	none
+🧚🏽‍♂	fatat maskil ton medju tal-ġilda	none
+🧚🏾‍♂	fatat maskil ton medju-skur tal-ġilda	none
+🧚🏿‍♂	fatat maskil ton skur tal-ġilda	none
+🧚🏻‍♀	fatat femminil ton ċar tal-ġilda	none
+🧚🏼‍♀	fatat femminil ton medju-ċar tal-ġilda	none
+🧚🏽‍♀	fatat femminil ton medju tal-ġilda	none
+🧚🏾‍♀	fatat femminil ton medju-skur tal-ġilda	none
+🧚🏿‍♀	fatat femminil ton skur tal-ġilda	none
+🧛🏻	vampira ton ċar tal-ġilda	none
+🧛🏼	vampira ton medju-ċar tal-ġilda	none
+🧛🏽	vampira ton medju tal-ġilda	none
+🧛🏾	vampira ton medju-skur tal-ġilda	none
+🧛🏿	vampira ton skur tal-ġilda	none
+🧛🏻‍♂	raġel vampira ton ċar tal-ġilda	none
+🧛🏼‍♂	raġel vampira ton medju-ċar tal-ġilda	none
+🧛🏽‍♂	raġel vampira ton medju tal-ġilda	none
+🧛🏾‍♂	raġel vampira ton medju-skur tal-ġilda	none
+🧛🏿‍♂	raġel vampira ton skur tal-ġilda	none
+🧛🏻‍♀	mara vampira ton ċar tal-ġilda	none
+🧛🏼‍♀	mara vampira ton medju-ċar tal-ġilda	none
+🧛🏽‍♀	mara vampira ton medju tal-ġilda	none
+🧛🏾‍♀	mara vampira ton medju-skur tal-ġilda	none
+🧛🏿‍♀	mara vampira ton skur tal-ġilda	none
+🧜🏻	merperson ton ċar tal-ġilda	none
+🧜🏼	merperson ton medju-ċar tal-ġilda	none
+🧜🏽	merperson ton medju tal-ġilda	none
+🧜🏾	merperson ton medju-skur tal-ġilda	none
+🧜🏿	merperson ton skur tal-ġilda	none
+🧜🏻‍♂	merman ton ċar tal-ġilda	none
+🧜🏼‍♂	merman ton medju-ċar tal-ġilda	none
+🧜🏽‍♂	merman ton medju tal-ġilda	none
+🧜🏾‍♂	merman ton medju-skur tal-ġilda	none
+🧜🏿‍♂	merman ton skur tal-ġilda	none
+🧜🏻‍♀	serena ton ċar tal-ġilda	none
+🧜🏼‍♀	serena ton medju-ċar tal-ġilda	none
+🧜🏽‍♀	serena ton medju tal-ġilda	none
+🧜🏾‍♀	serena ton medju-skur tal-ġilda	none
+🧜🏿‍♀	serena ton skur tal-ġilda	none
+🧝🏻	għafrit ton ċar tal-ġilda	none
+🧝🏼	għafrit ton medju-ċar tal-ġilda	none
+🧝🏽	għafrit ton medju tal-ġilda	none
+🧝🏾	għafrit ton medju-skur tal-ġilda	none
+🧝🏿	għafrit ton skur tal-ġilda	none
+🧝🏻‍♂	għafrit raġel ton ċar tal-ġilda	none
+🧝🏼‍♂	għafrit raġel ton medju-ċar tal-ġilda	none
+🧝🏽‍♂	għafrit raġel ton medju tal-ġilda	none
+🧝🏾‍♂	għafrit raġel ton medju-skur tal-ġilda	none
+🧝🏿‍♂	għafrit raġel ton skur tal-ġilda	none
+🧝🏻‍♀	għafrit mara ton ċar tal-ġilda	none
+🧝🏼‍♀	għafrit mara ton medju-ċar tal-ġilda	none
+🧝🏽‍♀	għafrit mara ton medju tal-ġilda	none
+🧝🏾‍♀	għafrit mara ton medju-skur tal-ġilda	none
+🧝🏿‍♀	għafrit mara ton skur tal-ġilda	none
+💆🏻	persuna tingħata massaġġ ton ċar tal-ġilda	none
+💆🏼	persuna tingħata massaġġ ton medju-ċar tal-ġilda	none
+💆🏽	persuna tingħata massaġġ ton medju tal-ġilda	none
+💆🏾	persuna tingħata massaġġ ton medju-skur tal-ġilda	none
+💆🏿	persuna tingħata massaġġ ton skur tal-ġilda	none
+💆🏻‍♂	raġel jingħata massaġġ ton ċar tal-ġilda	none
+💆🏼‍♂	raġel jingħata massaġġ ton medju-ċar tal-ġilda	none
+💆🏽‍♂	raġel jingħata massaġġ ton medju tal-ġilda	none
+💆🏾‍♂	raġel jingħata massaġġ ton medju-skur tal-ġilda	none
+💆🏿‍♂	raġel jingħata massaġġ ton skur tal-ġilda	none
+💆🏻‍♀	mara tingħata massaġġ ton ċar tal-ġilda	none
+💆🏼‍♀	mara tingħata massaġġ ton medju-ċar tal-ġilda	none
+💆🏽‍♀	mara tingħata massaġġ ton medju tal-ġilda	none
+💆🏾‍♀	mara tingħata massaġġ ton medju-skur tal-ġilda	none
+💆🏿‍♀	mara tingħata massaġġ ton skur tal-ġilda	none
+💇🏻	persuna taqta’ xagħarha ton ċar tal-ġilda	none
+💇🏼	persuna taqta’ xagħarha ton medju-ċar tal-ġilda	none
+💇🏽	persuna taqta’ xagħarha ton medju tal-ġilda	none
+💇🏾	persuna taqta’ xagħarha ton medju-skur tal-ġilda	none
+💇🏿	persuna taqta’ xagħarha ton skur tal-ġilda	none
+💇🏻‍♂	raġel jaqta’ xagħaru ton ċar tal-ġilda	none
+💇🏼‍♂	raġel jaqta’ xagħaru ton medju-ċar tal-ġilda	none
+💇🏽‍♂	raġel jaqta’ xagħaru ton medju tal-ġilda	none
+💇🏾‍♂	raġel jaqta’ xagħaru ton medju-skur tal-ġilda	none
+💇🏿‍♂	raġel jaqta’ xagħaru ton skur tal-ġilda	none
+💇🏻‍♀	mara taqta’ xagħarha ton ċar tal-ġilda	none
+💇🏼‍♀	mara taqta’ xagħarha ton medju-ċar tal-ġilda	none
+💇🏽‍♀	mara taqta’ xagħarha ton medju tal-ġilda	none
+💇🏾‍♀	mara taqta’ xagħarha ton medju-skur tal-ġilda	none
+💇🏿‍♀	mara taqta’ xagħarha ton skur tal-ġilda	none
+🚶🏻	persuna timxi ton ċar tal-ġilda	none
+🚶🏼	persuna timxi ton medju-ċar tal-ġilda	none
+🚶🏽	persuna timxi ton medju tal-ġilda	none
+🚶🏾	persuna timxi ton medju-skur tal-ġilda	none
+🚶🏿	persuna timxi ton skur tal-ġilda	none
+🚶🏻‍♂	raġel miexi ton ċar tal-ġilda	none
+🚶🏼‍♂	raġel miexi ton medju-ċar tal-ġilda	none
+🚶🏽‍♂	raġel miexi ton medju tal-ġilda	none
+🚶🏾‍♂	raġel miexi ton medju-skur tal-ġilda	none
+🚶🏿‍♂	raġel miexi ton skur tal-ġilda	none
+🚶🏻‍♀	mara miexja ton ċar tal-ġilda	none
+🚶🏼‍♀	mara miexja ton medju-ċar tal-ġilda	none
+🚶🏽‍♀	mara miexja ton medju tal-ġilda	none
+🚶🏾‍♀	mara miexja ton medju-skur tal-ġilda	none
+🚶🏿‍♀	mara miexja ton skur tal-ġilda	none
+🏃🏻	persuna tiġri ton ċar tal-ġilda	none
+🏃🏼	persuna tiġri ton medju-ċar tal-ġilda	none
+🏃🏽	persuna tiġri ton medju tal-ġilda	none
+🏃🏾	persuna tiġri ton medju-skur tal-ġilda	none
+🏃🏿	persuna tiġri ton skur tal-ġilda	none
+🏃🏻‍♂	raġel qed jiġri ton ċar tal-ġilda	none
+🏃🏼‍♂	raġel qed jiġri ton medju-ċar tal-ġilda	none
+🏃🏽‍♂	raġel qed jiġri ton medju tal-ġilda	none
+🏃🏾‍♂	raġel qed jiġri ton medju-skur tal-ġilda	none
+🏃🏿‍♂	raġel qed jiġri ton skur tal-ġilda	none
+🏃🏻‍♀	mara qed tiġri ton ċar tal-ġilda	none
+🏃🏼‍♀	mara qed tiġri ton medju-ċar tal-ġilda	none
+🏃🏽‍♀	mara qed tiġri ton medju tal-ġilda	none
+🏃🏾‍♀	mara qed tiġri ton medju-skur tal-ġilda	none
+🏃🏿‍♀	mara qed tiġri ton skur tal-ġilda	none
+💃🏻	mara tiżfen ton ċar tal-ġilda	none
+💃🏼	mara tiżfen ton medju-ċar tal-ġilda	none
+💃🏽	mara tiżfen ton medju tal-ġilda	none
+💃🏾	mara tiżfen ton medju-skur tal-ġilda	none
+💃🏿	mara tiżfen ton skur tal-ġilda	none
+🕺🏻	raġel jiżfen ton ċar tal-ġilda	none
+🕺🏼	raġel jiżfen ton medju-ċar tal-ġilda	none
+🕺🏽	raġel jiżfen ton medju tal-ġilda	none
+🕺🏾	raġel jiżfen ton medju-skur tal-ġilda	none
+🕺🏿	raġel jiżfen ton skur tal-ġilda	none
+🕴🏻	raġel jillevita b’libsa ta’ negozju ton ċar tal-ġilda	none
+🕴🏼	raġel jillevita b’libsa ta’ negozju ton medju-ċar tal-ġilda	none
+🕴🏽	raġel jillevita b’libsa ta’ negozju ton medju tal-ġilda	none
+🕴🏾	raġel jillevita b’libsa ta’ negozju ton medju-skur tal-ġilda	none
+🕴🏿	raġel jillevita b’libsa ta’ negozju ton skur tal-ġilda	none
+👯🏻	persuni b’widnejn ta’ fenek jiddevertu ton ċar tal-ġilda	none
+👯🏼	persuni b’widnejn ta’ fenek jiddevertu ton medju-ċar tal-ġilda	none
+👯🏽	persuni b’widnejn ta’ fenek jiddevertu ton medju tal-ġilda	none
+👯🏾	persuni b’widnejn ta’ fenek jiddevertu ton medju-skur tal-ġilda	none
+👯🏿	persuni b’widnejn ta’ fenek jiddevertu ton skur tal-ġilda	none
+👯🏻‍♂	rġiel b’widnejn ta’ fenek jiddevertu ton ċar tal-ġilda	none
+👯🏼‍♂	rġiel b’widnejn ta’ fenek jiddevertu ton medju-ċar tal-ġilda	none
+👯🏽‍♂	rġiel b’widnejn ta’ fenek jiddevertu ton medju tal-ġilda	none
+👯🏾‍♂	rġiel b’widnejn ta’ fenek jiddevertu ton medju-skur tal-ġilda	none
+👯🏿‍♂	rġiel b’widnejn ta’ fenek jiddevertu ton skur tal-ġilda	none
+👯🏻‍♀	nisa b’widnejn ta’ fenek jiddevertu ton ċar tal-ġilda	none
+👯🏼‍♀	nisa b’widnejn ta’ fenek jiddevertu ton medju-ċar tal-ġilda	none
+👯🏽‍♀	nisa b’widnejn ta’ fenek jiddevertu ton medju tal-ġilda	none
+👯🏾‍♀	nisa b’widnejn ta’ fenek jiddevertu ton medju-skur tal-ġilda	none
+👯🏿‍♀	nisa b’widnejn ta’ fenek jiddevertu ton skur tal-ġilda	none
+🧖🏻	persuna f’kamra tal-fwar ton ċar tal-ġilda	none
+🧖🏼	persuna f’kamra tal-fwar ton medju-ċar tal-ġilda	none
+🧖🏽	persuna f’kamra tal-fwar ton medju tal-ġilda	none
+🧖🏾	persuna f’kamra tal-fwar ton medju-skur tal-ġilda	none
+🧖🏿	persuna f’kamra tal-fwar ton skur tal-ġilda	none
+🧖🏻‍♂	raġel f’kamra tal-fwar ton ċar tal-ġilda	none
+🧖🏼‍♂	raġel f’kamra tal-fwar ton medju-ċar tal-ġilda	none
+🧖🏽‍♂	raġel f’kamra tal-fwar ton medju tal-ġilda	none
+🧖🏾‍♂	raġel f’kamra tal-fwar ton medju-skur tal-ġilda	none
+🧖🏿‍♂	raġel f’kamra tal-fwar ton skur tal-ġilda	none
+🧖🏻‍♀	mara f’kamra tal-fwar ton ċar tal-ġilda	none
+🧖🏼‍♀	mara f’kamra tal-fwar ton medju-ċar tal-ġilda	none
+🧖🏽‍♀	mara f’kamra tal-fwar ton medju tal-ġilda	none
+🧖🏾‍♀	mara f’kamra tal-fwar ton medju-skur tal-ġilda	none
+🧖🏿‍♀	mara f’kamra tal-fwar ton skur tal-ġilda	none
+🧗🏻	persuna tiela’ ton ċar tal-ġilda	none
+🧗🏼	persuna tiela’ ton medju-ċar tal-ġilda	none
+🧗🏽	persuna tiela’ ton medju tal-ġilda	none
+🧗🏾	persuna tiela’ ton medju-skur tal-ġilda	none
+🧗🏿	persuna tiela’ ton skur tal-ġilda	none
+🧗🏻‍♂	raġel tiela’ ton ċar tal-ġilda	none
+🧗🏼‍♂	raġel tiela’ ton medju-ċar tal-ġilda	none
+🧗🏽‍♂	raġel tiela’ ton medju tal-ġilda	none
+🧗🏾‍♂	raġel tiela’ ton medju-skur tal-ġilda	none
+🧗🏿‍♂	raġel tiela’ ton skur tal-ġilda	none
+🧗🏻‍♀	mara tiela’ ton ċar tal-ġilda	none
+🧗🏼‍♀	mara tiela’ ton medju-ċar tal-ġilda	none
+🧗🏽‍♀	mara tiela’ ton medju tal-ġilda	none
+🧗🏾‍♀	mara tiela’ ton medju-skur tal-ġilda	none
+🧗🏿‍♀	mara tiela’ ton skur tal-ġilda	none
+🏇🏻	żiemel itellaq ton ċar tal-ġilda	none
+🏇🏼	żiemel itellaq ton medju-ċar tal-ġilda	none
+🏇🏽	żiemel itellaq ton medju tal-ġilda	none
+🏇🏾	żiemel itellaq ton medju-skur tal-ġilda	none
+🏇🏿	żiemel itellaq ton skur tal-ġilda	none
+🏂🏻	snowboarder ton ċar tal-ġilda	none
+🏂🏼	snowboarder ton medju-ċar tal-ġilda	none
+🏂🏽	snowboarder ton medju tal-ġilda	none
+🏂🏾	snowboarder ton medju-skur tal-ġilda	none
+🏂🏿	snowboarder ton skur tal-ġilda	none
+🏌🏻	persuna tilgħab il-golf ton ċar tal-ġilda	none
+🏌🏼	persuna tilgħab il-golf ton medju-ċar tal-ġilda	none
+🏌🏽	persuna tilgħab il-golf ton medju tal-ġilda	none
+🏌🏾	persuna tilgħab il-golf ton medju-skur tal-ġilda	none
+🏌🏿	persuna tilgħab il-golf ton skur tal-ġilda	none
+🏌🏻‍♂	raġel jilgħab il-golf ton ċar tal-ġilda	none
+🏌🏼‍♂	raġel jilgħab il-golf ton medju-ċar tal-ġilda	none
+🏌🏽‍♂	raġel jilgħab il-golf ton medju tal-ġilda	none
+🏌🏾‍♂	raġel jilgħab il-golf ton medju-skur tal-ġilda	none
+🏌🏿‍♂	raġel jilgħab il-golf ton skur tal-ġilda	none
+🏌🏻‍♀	mara tilgħab il-golf ton ċar tal-ġilda	none
+🏌🏼‍♀	mara tilgħab il-golf ton medju-ċar tal-ġilda	none
+🏌🏽‍♀	mara tilgħab il-golf ton medju tal-ġilda	none
+🏌🏾‍♀	mara tilgħab il-golf ton medju-skur tal-ġilda	none
+🏌🏿‍♀	mara tilgħab il-golf ton skur tal-ġilda	none
+🏄🏻	persuna surfing ton ċar tal-ġilda	none
+🏄🏼	persuna surfing ton medju-ċar tal-ġilda	none
+🏄🏽	persuna surfing ton medju tal-ġilda	none
+🏄🏾	persuna surfing ton medju-skur tal-ġilda	none
+🏄🏿	persuna surfing ton skur tal-ġilda	none
+🏄🏻‍♂	raġel surfing ton ċar tal-ġilda	none
+🏄🏼‍♂	raġel surfing ton medju-ċar tal-ġilda	none
+🏄🏽‍♂	raġel surfing ton medju tal-ġilda	none
+🏄🏾‍♂	raġel surfing ton medju-skur tal-ġilda	none
+🏄🏿‍♂	raġel surfing ton skur tal-ġilda	none
+🏄🏻‍♀	mara surfing ton ċar tal-ġilda	none
+🏄🏼‍♀	mara surfing ton medju-ċar tal-ġilda	none
+🏄🏽‍♀	mara surfing ton medju tal-ġilda	none
+🏄🏾‍♀	mara surfing ton medju-skur tal-ġilda	none
+🏄🏿‍♀	mara surfing ton skur tal-ġilda	none
+🚣🏻	persuna taqdef dgħajsa ton ċar tal-ġilda	none
+🚣🏼	persuna taqdef dgħajsa ton medju-ċar tal-ġilda	none
+🚣🏽	persuna taqdef dgħajsa ton medju tal-ġilda	none
+🚣🏾	persuna taqdef dgħajsa ton medju-skur tal-ġilda	none
+🚣🏿	persuna taqdef dgħajsa ton skur tal-ġilda	none
+🚣🏻‍♂	raġel taqdef dgħajsa ton ċar tal-ġilda	none
+🚣🏼‍♂	raġel taqdef dgħajsa ton medju-ċar tal-ġilda	none
+🚣🏽‍♂	raġel taqdef dgħajsa ton medju tal-ġilda	none
+🚣🏾‍♂	raġel taqdef dgħajsa ton medju-skur tal-ġilda	none
+🚣🏿‍♂	raġel taqdef dgħajsa ton skur tal-ġilda	none
+🚣🏻‍♀	mara taqdef dgħajsa ton ċar tal-ġilda	none
+🚣🏼‍♀	mara taqdef dgħajsa ton medju-ċar tal-ġilda	none
+🚣🏽‍♀	mara taqdef dgħajsa ton medju tal-ġilda	none
+🚣🏾‍♀	mara taqdef dgħajsa ton medju-skur tal-ġilda	none
+🚣🏿‍♀	mara taqdef dgħajsa ton skur tal-ġilda	none
+🏊🏻	persuna tgħum ton ċar tal-ġilda	none
+🏊🏼	persuna tgħum ton medju-ċar tal-ġilda	none
+🏊🏽	persuna tgħum ton medju tal-ġilda	none
+🏊🏾	persuna tgħum ton medju-skur tal-ġilda	none
+🏊🏿	persuna tgħum ton skur tal-ġilda	none
+🏊🏻‍♂	raġel jgħum ton ċar tal-ġilda	none
+🏊🏼‍♂	raġel jgħum ton medju-ċar tal-ġilda	none
+🏊🏽‍♂	raġel jgħum ton medju tal-ġilda	none
+🏊🏾‍♂	raġel jgħum ton medju-skur tal-ġilda	none
+🏊🏿‍♂	raġel jgħum ton skur tal-ġilda	none
+🏊🏻‍♀	mara tgħum ton ċar tal-ġilda	none
+🏊🏼‍♀	mara tgħum ton medju-ċar tal-ġilda	none
+🏊🏽‍♀	mara tgħum ton medju tal-ġilda	none
+🏊🏾‍♀	mara tgħum ton medju-skur tal-ġilda	none
+🏊🏿‍♀	mara tgħum ton skur tal-ġilda	none
+⛹🏻	persuna tqabbeż ballun ton ċar tal-ġilda	none
+⛹🏼	persuna tqabbeż ballun ton medju-ċar tal-ġilda	none
+⛹🏽	persuna tqabbeż ballun ton medju tal-ġilda	none
+⛹🏾	persuna tqabbeż ballun ton medju-skur tal-ġilda	none
+⛹🏿	persuna tqabbeż ballun ton skur tal-ġilda	none
+⛹🏻‍♂	raġel iqabbeż ballun ton ċar tal-ġilda	none
+⛹🏼‍♂	raġel iqabbeż ballun ton medju-ċar tal-ġilda	none
+⛹🏽‍♂	raġel iqabbeż ballun ton medju tal-ġilda	none
+⛹🏾‍♂	raġel iqabbeż ballun ton medju-skur tal-ġilda	none
+⛹🏿‍♂	raġel iqabbeż ballun ton skur tal-ġilda	none
+⛹🏻‍♀	mara tqabbeż ballun ton ċar tal-ġilda	none
+⛹🏼‍♀	mara tqabbeż ballun ton medju-ċar tal-ġilda	none
+⛹🏽‍♀	mara tqabbeż ballun ton medju tal-ġilda	none
+⛹🏾‍♀	mara tqabbeż ballun ton medju-skur tal-ġilda	none
+⛹🏿‍♀	mara tqabbeż ballun ton skur tal-ġilda	none
+🏋🏻	persuna terfa’ l-piż ton ċar tal-ġilda	none
+🏋🏼	persuna terfa’ l-piż ton medju-ċar tal-ġilda	none
+🏋🏽	persuna terfa’ l-piż ton medju tal-ġilda	none
+🏋🏾	persuna terfa’ l-piż ton medju-skur tal-ġilda	none
+🏋🏿	persuna terfa’ l-piż ton skur tal-ġilda	none
+🏋🏻‍♂	raġel jerfa’ l-piżijiet ton ċar tal-ġilda	none
+🏋🏼‍♂	raġel jerfa’ l-piżijiet ton medju-ċar tal-ġilda	none
+🏋🏽‍♂	raġel jerfa’ l-piżijiet ton medju tal-ġilda	none
+🏋🏾‍♂	raġel jerfa’ l-piżijiet ton medju-skur tal-ġilda	none
+🏋🏿‍♂	raġel jerfa’ l-piżijiet ton skur tal-ġilda	none
+🏋🏻‍♀	mara terfa’ l-piżijiet ton ċar tal-ġilda	none
+🏋🏼‍♀	mara terfa’ l-piżijiet ton medju-ċar tal-ġilda	none
+🏋🏽‍♀	mara terfa’ l-piżijiet ton medju tal-ġilda	none
+🏋🏾‍♀	mara terfa’ l-piżijiet ton medju-skur tal-ġilda	none
+🏋🏿‍♀	mara terfa’ l-piżijiet ton skur tal-ġilda	none
+🚴🏻	persuna ssuq rota ton ċar tal-ġilda	none
+🚴🏼	persuna ssuq rota ton medju-ċar tal-ġilda	none
+🚴🏽	persuna ssuq rota ton medju tal-ġilda	none
+🚴🏾	persuna ssuq rota ton medju-skur tal-ġilda	none
+🚴🏿	persuna ssuq rota ton skur tal-ġilda	none
+🚴🏻‍♂	raġel isuq rota ton ċar tal-ġilda	none
+🚴🏼‍♂	raġel isuq rota ton medju-ċar tal-ġilda	none
+🚴🏽‍♂	raġel isuq rota ton medju tal-ġilda	none
+🚴🏾‍♂	raġel isuq rota ton medju-skur tal-ġilda	none
+🚴🏿‍♂	raġel isuq rota ton skur tal-ġilda	none
+🚴🏻‍♀	mara ssuq rota ton ċar tal-ġilda	none
+🚴🏼‍♀	mara ssuq rota ton medju-ċar tal-ġilda	none
+🚴🏽‍♀	mara ssuq rota ton medju tal-ġilda	none
+🚴🏾‍♀	mara ssuq rota ton medju-skur tal-ġilda	none
+🚴🏿‍♀	mara ssuq rota ton skur tal-ġilda	none
+🚵🏻	persuna ssuq mountain bike ton ċar tal-ġilda	none
+🚵🏼	persuna ssuq mountain bike ton medju-ċar tal-ġilda	none
+🚵🏽	persuna ssuq mountain bike ton medju tal-ġilda	none
+🚵🏾	persuna ssuq mountain bike ton medju-skur tal-ġilda	none
+🚵🏿	persuna ssuq mountain bike ton skur tal-ġilda	none
+🚵🏻‍♂	raġel isuq mountain bike ton ċar tal-ġilda	none
+🚵🏼‍♂	raġel isuq mountain bike ton medju-ċar tal-ġilda	none
+🚵🏽‍♂	raġel isuq mountain bike ton medju tal-ġilda	none
+🚵🏾‍♂	raġel isuq mountain bike ton medju-skur tal-ġilda	none
+🚵🏿‍♂	raġel isuq mountain bike ton skur tal-ġilda	none
+🚵🏻‍♀	mara ssuq mountain bike ton ċar tal-ġilda	none
+🚵🏼‍♀	mara ssuq mountain bike ton medju-ċar tal-ġilda	none
+🚵🏽‍♀	mara ssuq mountain bike ton medju tal-ġilda	none
+🚵🏾‍♀	mara ssuq mountain bike ton medju-skur tal-ġilda	none
+🚵🏿‍♀	mara ssuq mountain bike ton skur tal-ġilda	none
+🤸🏻	persuna tagħmel gabrijoli ton ċar tal-ġilda	none
+🤸🏼	persuna tagħmel gabrijoli ton medju-ċar tal-ġilda	none
+🤸🏽	persuna tagħmel gabrijoli ton medju tal-ġilda	none
+🤸🏾	persuna tagħmel gabrijoli ton medju-skur tal-ġilda	none
+🤸🏿	persuna tagħmel gabrijoli ton skur tal-ġilda	none
+🤸🏻‍♂	raġel jagħmel gabrijoli ton ċar tal-ġilda	none
+🤸🏼‍♂	raġel jagħmel gabrijoli ton medju-ċar tal-ġilda	none
+🤸🏽‍♂	raġel jagħmel gabrijoli ton medju tal-ġilda	none
+🤸🏾‍♂	raġel jagħmel gabrijoli ton medju-skur tal-ġilda	none
+🤸🏿‍♂	raġel jagħmel gabrijoli ton skur tal-ġilda	none
+🤸🏻‍♀	mara tagħmel gabrijoli ton ċar tal-ġilda	none
+🤸🏼‍♀	mara tagħmel gabrijoli ton medju-ċar tal-ġilda	none
+🤸🏽‍♀	mara tagħmel gabrijoli ton medju tal-ġilda	none
+🤸🏾‍♀	mara tagħmel gabrijoli ton medju-skur tal-ġilda	none
+🤸🏿‍♀	mara tagħmel gabrijoli ton skur tal-ġilda	none
+🤼🏻	persuna jagħmlu r-wrestling ton ċar tal-ġilda	none
+🤼🏼	persuna jagħmlu r-wrestling ton medju-ċar tal-ġilda	none
+🤼🏽	persuna jagħmlu r-wrestling ton medju tal-ġilda	none
+🤼🏾	persuna jagħmlu r-wrestling ton medju-skur tal-ġilda	none
+🤼🏿	persuna jagħmlu r-wrestling ton skur tal-ġilda	none
+🤼🏻‍♂	irġiel jagħmlu r-wrestling ton ċar tal-ġilda	none
+🤼🏼‍♂	irġiel jagħmlu r-wrestling ton medju-ċar tal-ġilda	none
+🤼🏽‍♂	irġiel jagħmlu r-wrestling ton medju tal-ġilda	none
+🤼🏾‍♂	irġiel jagħmlu r-wrestling ton medju-skur tal-ġilda	none
+🤼🏿‍♂	irġiel jagħmlu r-wrestling ton skur tal-ġilda	none
+🤼🏻‍♀	nisa jagħmlu r-wrestling ton ċar tal-ġilda	none
+🤼🏼‍♀	nisa jagħmlu r-wrestling ton medju-ċar tal-ġilda	none
+🤼🏽‍♀	nisa jagħmlu r-wrestling ton medju tal-ġilda	none
+🤼🏾‍♀	nisa jagħmlu r-wrestling ton medju-skur tal-ġilda	none
+🤼🏿‍♀	nisa jagħmlu r-wrestling ton skur tal-ġilda	none
+🤽🏻	persuna tilgħab il-waterpolo ton ċar tal-ġilda	none
+🤽🏼	persuna tilgħab il-waterpolo ton medju-ċar tal-ġilda	none
+🤽🏽	persuna tilgħab il-waterpolo ton medju tal-ġilda	none
+🤽🏾	persuna tilgħab il-waterpolo ton medju-skur tal-ġilda	none
+🤽🏿	persuna tilgħab il-waterpolo ton skur tal-ġilda	none
+🤽🏻‍♂	raġel jilgħab il-waterpolo ton ċar tal-ġilda	none
+🤽🏼‍♂	raġel jilgħab il-waterpolo ton medju-ċar tal-ġilda	none
+🤽🏽‍♂	raġel jilgħab il-waterpolo ton medju tal-ġilda	none
+🤽🏾‍♂	raġel jilgħab il-waterpolo ton medju-skur tal-ġilda	none
+🤽🏿‍♂	raġel jilgħab il-waterpolo ton skur tal-ġilda	none
+🤽🏻‍♀	mara tilgħab il-waterpolo ton ċar tal-ġilda	none
+🤽🏼‍♀	mara tilgħab il-waterpolo ton medju-ċar tal-ġilda	none
+🤽🏽‍♀	mara tilgħab il-waterpolo ton medju tal-ġilda	none
+🤽🏾‍♀	mara tilgħab il-waterpolo ton medju-skur tal-ġilda	none
+🤽🏿‍♀	mara tilgħab il-waterpolo ton skur tal-ġilda	none
+🤾🏻	persuna tilgħab il-handball ton ċar tal-ġilda	none
+🤾🏼	persuna tilgħab il-handball ton medju-ċar tal-ġilda	none
+🤾🏽	persuna tilgħab il-handball ton medju tal-ġilda	none
+🤾🏾	persuna tilgħab il-handball ton medju-skur tal-ġilda	none
+🤾🏿	persuna tilgħab il-handball ton skur tal-ġilda	none
+🤾🏻‍♂	raġel jilgħab il-handball ton ċar tal-ġilda	none
+🤾🏼‍♂	raġel jilgħab il-handball ton medju-ċar tal-ġilda	none
+🤾🏽‍♂	raġel jilgħab il-handball ton medju tal-ġilda	none
+🤾🏾‍♂	raġel jilgħab il-handball ton medju-skur tal-ġilda	none
+🤾🏿‍♂	raġel jilgħab il-handball ton skur tal-ġilda	none
+🤾🏻‍♀	mara tilgħab il-handball ton ċar tal-ġilda	none
+🤾🏼‍♀	mara tilgħab il-handball ton medju-ċar tal-ġilda	none
+🤾🏽‍♀	mara tilgħab il-handball ton medju tal-ġilda	none
+🤾🏾‍♀	mara tilgħab il-handball ton medju-skur tal-ġilda	none
+🤾🏿‍♀	mara tilgħab il-handball ton skur tal-ġilda	none
+🤹🏻	persuna tagħmel il-juggling ton ċar tal-ġilda	none
+🤹🏼	persuna tagħmel il-juggling ton medju-ċar tal-ġilda	none
+🤹🏽	persuna tagħmel il-juggling ton medju tal-ġilda	none
+🤹🏾	persuna tagħmel il-juggling ton medju-skur tal-ġilda	none
+🤹🏿	persuna tagħmel il-juggling ton skur tal-ġilda	none
+🤹🏻‍♂	raġel jagħmel il-juggling ton ċar tal-ġilda	none
+🤹🏼‍♂	raġel jagħmel il-juggling ton medju-ċar tal-ġilda	none
+🤹🏽‍♂	raġel jagħmel il-juggling ton medju tal-ġilda	none
+🤹🏾‍♂	raġel jagħmel il-juggling ton medju-skur tal-ġilda	none
+🤹🏿‍♂	raġel jagħmel il-juggling ton skur tal-ġilda	none
+🤹🏻‍♀	mara tagħmel il-juggling ton ċar tal-ġilda	none
+🤹🏼‍♀	mara tagħmel il-juggling ton medju-ċar tal-ġilda	none
+🤹🏽‍♀	mara tagħmel il-juggling ton medju tal-ġilda	none
+🤹🏾‍♀	mara tagħmel il-juggling ton medju-skur tal-ġilda	none
+🤹🏿‍♀	mara tagħmel il-juggling ton skur tal-ġilda	none
+🧘🏻	persuna fil-pożizzjoni ta’ lotus ton ċar tal-ġilda	none
+🧘🏼	persuna fil-pożizzjoni ta’ lotus ton medju-ċar tal-ġilda	none
+🧘🏽	persuna fil-pożizzjoni ta’ lotus ton medju tal-ġilda	none
+🧘🏾	persuna fil-pożizzjoni ta’ lotus ton medju-skur tal-ġilda	none
+🧘🏿	persuna fil-pożizzjoni ta’ lotus ton skur tal-ġilda	none
+🧘🏻‍♂	raġel fil-pożizzjoni ta’ lotus ton ċar tal-ġilda	none
+🧘🏼‍♂	raġel fil-pożizzjoni ta’ lotus ton medju-ċar tal-ġilda	none
+🧘🏽‍♂	raġel fil-pożizzjoni ta’ lotus ton medju tal-ġilda	none
+🧘🏾‍♂	raġel fil-pożizzjoni ta’ lotus ton medju-skur tal-ġilda	none
+🧘🏿‍♂	raġel fil-pożizzjoni ta’ lotus ton skur tal-ġilda	none
+🧘🏻‍♀	mara fil-pożizzjoni ta’ lotus ton ċar tal-ġilda	none
+🧘🏼‍♀	mara fil-pożizzjoni ta’ lotus ton medju-ċar tal-ġilda	none
+🧘🏽‍♀	mara fil-pożizzjoni ta’ lotus ton medju tal-ġilda	none
+🧘🏾‍♀	mara fil-pożizzjoni ta’ lotus ton medju-skur tal-ġilda	none
+🧘🏿‍♀	mara fil-pożizzjoni ta’ lotus ton skur tal-ġilda	none
+🛀🏻	persuna tieħu banju ton ċar tal-ġilda	none
+🛀🏼	persuna tieħu banju ton medju-ċar tal-ġilda	none
+🛀🏽	persuna tieħu banju ton medju tal-ġilda	none
+🛀🏾	persuna tieħu banju ton medju-skur tal-ġilda	none
+🛀🏿	persuna tieħu banju ton skur tal-ġilda	none
+🛌🏻	persuna fis-sodda ton ċar tal-ġilda	none
+🛌🏼	persuna fis-sodda ton medju-ċar tal-ġilda	none
+🛌🏽	persuna fis-sodda ton medju tal-ġilda	none
+🛌🏾	persuna fis-sodda ton medju-skur tal-ġilda	none
+🛌🏿	persuna fis-sodda ton skur tal-ġilda	none
+👭🏻	żewġ nisa jżommu jdejhom ton ċar tal-ġilda	none
+👩🏻‍🤝‍👩🏼	żewġ nisa jżommu jdejhom ton ċar tal-ġilda u ton medju-ċar tal-ġilda	none
+👩🏻‍🤝‍👩🏽	żewġ nisa jżommu jdejhom ton ċar tal-ġilda u ton medju tal-ġilda	none
+👩🏻‍🤝‍👩🏾	żewġ nisa jżommu jdejhom ton ċar tal-ġilda u ton medju-skur tal-ġilda	none
+👩🏻‍🤝‍👩🏿	żewġ nisa jżommu jdejhom ton ċar tal-ġilda u ton skur tal-ġilda	none
+👩🏼‍🤝‍👩🏻	żewġ nisa jżommu jdejhom ton medju-ċar tal-ġilda u ton ċar tal-ġilda	none
+👭🏼	żewġ nisa jżommu jdejhom ton medju-ċar tal-ġilda	none
+👩🏼‍🤝‍👩🏽	żewġ nisa jżommu jdejhom ton medju-ċar tal-ġilda u ton medju tal-ġilda	none
+👩🏼‍🤝‍👩🏾	żewġ nisa jżommu jdejhom ton medju-ċar tal-ġilda u ton medju-skur tal-ġilda	none
+👩🏼‍🤝‍👩🏿	żewġ nisa jżommu jdejhom ton medju-ċar tal-ġilda u ton skur tal-ġilda	none
+👩🏽‍🤝‍👩🏻	żewġ nisa jżommu jdejhom ton medju tal-ġilda u ton ċar tal-ġilda	none
+👩🏽‍🤝‍👩🏼	żewġ nisa jżommu jdejhom ton medju tal-ġilda u ton medju-ċar tal-ġilda	none
+👭🏽	żewġ nisa jżommu jdejhom ton medju tal-ġilda	none
+👩🏽‍🤝‍👩🏾	żewġ nisa jżommu jdejhom ton medju tal-ġilda u ton medju-skur tal-ġilda	none
+👩🏽‍🤝‍👩🏿	żewġ nisa jżommu jdejhom ton medju tal-ġilda u ton skur tal-ġilda	none
+👩🏾‍🤝‍👩🏻	żewġ nisa jżommu jdejhom ton medju-skur tal-ġilda u ton ċar tal-ġilda	none
+👩🏾‍🤝‍👩🏼	żewġ nisa jżommu jdejhom ton medju-skur tal-ġilda u ton medju-ċar tal-ġilda	none
+👩🏾‍🤝‍👩🏽	żewġ nisa jżommu jdejhom ton medju-skur tal-ġilda u ton medju tal-ġilda	none
+👭🏾	żewġ nisa jżommu jdejhom ton medju-skur tal-ġilda	none
+👩🏾‍🤝‍👩🏿	żewġ nisa jżommu jdejhom ton medju-skur tal-ġilda u ton skur tal-ġilda	none
+👩🏿‍🤝‍👩🏻	żewġ nisa jżommu jdejhom ton skur tal-ġilda u ton ċar tal-ġilda	none
+👩🏿‍🤝‍👩🏼	żewġ nisa jżommu jdejhom ton skur tal-ġilda u ton medju-ċar tal-ġilda	none
+👩🏿‍🤝‍👩🏽	żewġ nisa jżommu jdejhom ton skur tal-ġilda u ton medju tal-ġilda	none
+👩🏿‍🤝‍👩🏾	żewġ nisa jżommu jdejhom ton skur tal-ġilda u ton medju-skur tal-ġilda	none
+👭🏿	żewġ nisa jżommu jdejhom ton skur tal-ġilda	none
+👫🏻	raġel u mara jżommu jdejhom ton ċar tal-ġilda	none
+👩🏻‍🤝‍👨🏼	raġel u mara jżommu jdejhom ton ċar tal-ġilda u ton medju-ċar tal-ġilda	none
+👩🏻‍🤝‍👨🏽	raġel u mara jżommu jdejhom ton ċar tal-ġilda u ton medju tal-ġilda	none
+👩🏻‍🤝‍👨🏾	raġel u mara jżommu jdejhom ton ċar tal-ġilda u ton medju-skur tal-ġilda	none
+👩🏻‍🤝‍👨🏿	raġel u mara jżommu jdejhom ton ċar tal-ġilda u ton skur tal-ġilda	none
+👩🏼‍🤝‍👨🏻	raġel u mara jżommu jdejhom ton medju-ċar tal-ġilda u ton ċar tal-ġilda	none
+👫🏼	raġel u mara jżommu jdejhom ton medju-ċar tal-ġilda	none
+👩🏼‍🤝‍👨🏽	raġel u mara jżommu jdejhom ton medju-ċar tal-ġilda u ton medju tal-ġilda	none
+👩🏼‍🤝‍👨🏾	raġel u mara jżommu jdejhom ton medju-ċar tal-ġilda u ton medju-skur tal-ġilda	none
+👩🏼‍🤝‍👨🏿	raġel u mara jżommu jdejhom ton medju-ċar tal-ġilda u ton skur tal-ġilda	none
+👩🏽‍🤝‍👨🏻	raġel u mara jżommu jdejhom ton medju tal-ġilda u ton ċar tal-ġilda	none
+👩🏽‍🤝‍👨🏼	raġel u mara jżommu jdejhom ton medju tal-ġilda u ton medju-ċar tal-ġilda	none
+👫🏽	raġel u mara jżommu jdejhom ton medju tal-ġilda	none
+👩🏽‍🤝‍👨🏾	raġel u mara jżommu jdejhom ton medju tal-ġilda u ton medju-skur tal-ġilda	none
+👩🏽‍🤝‍👨🏿	raġel u mara jżommu jdejhom ton medju tal-ġilda u ton skur tal-ġilda	none
+👩🏾‍🤝‍👨🏻	raġel u mara jżommu jdejhom ton medju-skur tal-ġilda u ton ċar tal-ġilda	none
+👩🏾‍🤝‍👨🏼	raġel u mara jżommu jdejhom ton medju-skur tal-ġilda u ton medju-ċar tal-ġilda	none
+👩🏾‍🤝‍👨🏽	raġel u mara jżommu jdejhom ton medju-skur tal-ġilda u ton medju tal-ġilda	none
+👫🏾	raġel u mara jżommu jdejhom ton medju-skur tal-ġilda	none
+👩🏾‍🤝‍👨🏿	raġel u mara jżommu jdejhom ton medju-skur tal-ġilda u ton skur tal-ġilda	none
+👩🏿‍🤝‍👨🏻	raġel u mara jżommu jdejhom ton skur tal-ġilda u ton ċar tal-ġilda	none
+👩🏿‍🤝‍👨🏼	raġel u mara jżommu jdejhom ton skur tal-ġilda u ton medju-ċar tal-ġilda	none
+👩🏿‍🤝‍👨🏽	raġel u mara jżommu jdejhom ton skur tal-ġilda u ton medju tal-ġilda	none
+👩🏿‍🤝‍👨🏾	raġel u mara jżommu jdejhom ton skur tal-ġilda u ton medju-skur tal-ġilda	none
+👫🏿	raġel u mara jżommu jdejhom ton skur tal-ġilda	none
+👬🏻	żewġt irġiel iżommu jdejhom ton ċar tal-ġilda	none
+👨🏻‍🤝‍👨🏼	żewġt irġiel iżommu jdejhom ton ċar tal-ġilda u ton medju-ċar tal-ġilda	none
+👨🏻‍🤝‍👨🏽	żewġt irġiel iżommu jdejhom ton ċar tal-ġilda u ton medju tal-ġilda	none
+👨🏻‍🤝‍👨🏾	żewġt irġiel iżommu jdejhom ton ċar tal-ġilda u ton medju-skur tal-ġilda	none
+👨🏻‍🤝‍👨🏿	żewġt irġiel iżommu jdejhom ton ċar tal-ġilda u ton skur tal-ġilda	none
+👨🏼‍🤝‍👨🏻	żewġt irġiel iżommu jdejhom ton medju-ċar tal-ġilda u ton ċar tal-ġilda	none
+👬🏼	żewġt irġiel iżommu jdejhom ton medju-ċar tal-ġilda	none
+👨🏼‍🤝‍👨🏽	żewġt irġiel iżommu jdejhom ton medju-ċar tal-ġilda u ton medju tal-ġilda	none
+👨🏼‍🤝‍👨🏾	żewġt irġiel iżommu jdejhom ton medju-ċar tal-ġilda u ton medju-skur tal-ġilda	none
+👨🏼‍🤝‍👨🏿	żewġt irġiel iżommu jdejhom ton medju-ċar tal-ġilda u ton skur tal-ġilda	none
+👨🏽‍🤝‍👨🏻	żewġt irġiel iżommu jdejhom ton medju tal-ġilda u ton ċar tal-ġilda	none
+👨🏽‍🤝‍👨🏼	żewġt irġiel iżommu jdejhom ton medju tal-ġilda u ton medju-ċar tal-ġilda	none
+👬🏽	żewġt irġiel iżommu jdejhom ton medju tal-ġilda	none
+👨🏽‍🤝‍👨🏾	żewġt irġiel iżommu jdejhom ton medju tal-ġilda u ton medju-skur tal-ġilda	none
+👨🏽‍🤝‍👨🏿	żewġt irġiel iżommu jdejhom ton medju tal-ġilda u ton skur tal-ġilda	none
+👨🏾‍🤝‍👨🏻	żewġt irġiel iżommu jdejhom ton medju-skur tal-ġilda u ton ċar tal-ġilda	none
+👨🏾‍🤝‍👨🏼	żewġt irġiel iżommu jdejhom ton medju-skur tal-ġilda u ton medju-ċar tal-ġilda	none
+👨🏾‍🤝‍👨🏽	żewġt irġiel iżommu jdejhom ton medju-skur tal-ġilda u ton medju tal-ġilda	none
+👬🏾	żewġt irġiel iżommu jdejhom ton medju-skur tal-ġilda	none
+👨🏾‍🤝‍👨🏿	żewġt irġiel iżommu jdejhom ton medju-skur tal-ġilda u ton skur tal-ġilda	none
+👨🏿‍🤝‍👨🏻	żewġt irġiel iżommu jdejhom ton skur tal-ġilda u ton ċar tal-ġilda	none
+👨🏿‍🤝‍👨🏼	żewġt irġiel iżommu jdejhom ton skur tal-ġilda u ton medju-ċar tal-ġilda	none
+👨🏿‍🤝‍👨🏽	żewġt irġiel iżommu jdejhom ton skur tal-ġilda u ton medju tal-ġilda	none
+👨🏿‍🤝‍👨🏾	żewġt irġiel iżommu jdejhom ton skur tal-ġilda u ton medju-skur tal-ġilda	none
+👬🏿	żewġt irġiel iżommu jdejhom ton skur tal-ġilda	none
+💏🏻	bewsa ton ċar tal-ġilda	none
+💏🏼	bewsa ton medju-ċar tal-ġilda	none
+💏🏽	bewsa ton medju tal-ġilda	none
+💏🏾	bewsa ton medju-skur tal-ġilda	none
+💏🏿	bewsa ton skur tal-ġilda	none
+👩‍❤‍💋‍👨	bewsa mara u raġel	none
+👨‍❤‍💋‍👨	bewsa raġel u raġel	none
+👩‍❤‍💋‍👩	bewsa mara u mara	none
+💑🏻	koppja b’qalb ton ċar tal-ġilda	none
+💑🏼	koppja b’qalb ton medju-ċar tal-ġilda	none
+💑🏽	koppja b’qalb ton medju tal-ġilda	none
+💑🏾	koppja b’qalb ton medju-skur tal-ġilda	none
+💑🏿	koppja b’qalb ton skur tal-ġilda	none
+👩‍❤‍👨	koppja b’qalb mara u raġel	none
+👨‍❤‍👨	koppja b’qalb raġel u raġel	none
+👩‍❤‍👩	koppja b’qalb mara u mara	none
+👨‍👩‍👦	familja raġel, mara, u tifel	none
+👨‍👩‍👧	familja raġel, mara, u tifla	none
+👨‍👩‍👧‍👦	familja raġel, mara, tifla, u tifel	none
+👨‍👩‍👦‍👦	familja raġel, mara, tifel, u tifel	none
+👨‍👩‍👧‍👧	familja raġel, mara, tifla, u tifla	none
+👨‍👨‍👦	familja raġel, raġel, u tifel	none
+👨‍👨‍👧	familja raġel, raġel, u tifla	none
+👨‍👨‍👧‍👦	familja raġel, raġel, tifla, u tifel	none
+👨‍👨‍👦‍👦	familja raġel, raġel, tifel, u tifel	none
+👨‍👨‍👧‍👧	familja raġel, raġel, tifla, u tifla	none
+👩‍👩‍👦	familja mara, mara, u tifel	none
+👩‍👩‍👧	familja mara, mara, u tifla	none
+👩‍👩‍👧‍👦	familja mara, mara, tifla, u tifel	none
+👩‍👩‍👦‍👦	familja mara, mara, tifel, u tifel	none
+👩‍👩‍👧‍👧	familja mara, mara, tifla, u tifla	none
+👨‍👦	familja raġel u tifel	none
+👨‍👦‍👦	familja raġel, tifel, u tifel	none
+👨‍👧	familja raġel u tifla	none
+👨‍👧‍👦	familja raġel, tifla, u tifel	none
+👨‍👧‍👧	familja raġel, tifla, u tifla	none
+👩‍👦	familja mara u tifel	none
+👩‍👦‍👦	familja mara, tifel, u tifel	none
+👩‍👧	familja mara u tifla	none
+👩‍👧‍👦	familja mara, tifla, u tifel	none
+👩‍👧‍👧	familja mara, tifla, u tifla	none

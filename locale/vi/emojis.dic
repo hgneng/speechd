@@ -100,39 +100,183 @@ symbols:
 ∈	phần tử của	none
 ∉	không thuộc	none
 ∋	chứa	none
+∎	chứng minh kết thúc	none
+∏	tích đa phân	none
+∑	tổng đa phân	none
+≮	không nhỏ hơn	none
 ≠	dấu khác	none
+≯	không lớn hơn	none
 −	dấu trừ	none
 ⁻	dấu trừ trên	none
+∓	trừ hoặc cộng	none
+∕	dấu gạch chéo phân chia	none
+∗	toán tử dấu hoa thị	none
+∘	vòng toán tử	none
+∙	toán tử dấu đầu dòng	none
 √	căn bậc hai	none
+∝	tỷ lệ	none
 ∞	biểu tượng vô cực	none
+∟	góc vuông	none
+∠	góc	none
+∣	chia ra	none
+∥	song song	none
+∧	logic và	none
 ∩	giao	none
 ∪	hợp	none
+∫	tích phân	none
+∬	tích phân kép	none
+∮	tích phân theo chu tuyến	none
+∴	do đó	none
+∵	vì	none
+∶	tỉ số	none
+∷	tỷ lệ thức	none
+∼	toán tử tương ứng	none
+∽	dấu ngã ngược	none
+∾	cực thuận	none
+≃	gần bằng	none
+≅	xấp xỉ bằng	none
 ≈	dấu xấp xỉ	none
+≌	như nhau	none
+≒	xấp xỉ	none
+≖	tương đương	none
 ≡	bằng	none
+≣	tương đồng	none
 ≤	dấu nhỏ hơn hoặc bằng	none
 ≥	dấu lớn hơn hoặc bằng	none
+≦	nhỏ hơn bằng	none
+≧	lớn hơn bằng	none
+≪	ít hơn rất nhiều so với	none
+≫	lớn hơn nhiều	none
+≬	trong khoảng	none
+≳	lớn hơn tương đương	none
+≺	đứng trước	none
+≻	đứng sau	none
+⊁	không đứng sau	none
 ⊂	tập hợp con của	none
+⊃	tập cha	none
+⊆	tập con bằng	none
+⊇	tập cha bằng	none
+⊕	dấu cộng trong vòng tròn	none
+⊖	dấu trừ trong vòng tròn	none
+⊗	dấu nhân trong vòng tròn	none
+⊘	dấu chia trong vòng tròn	none
+⊙	toán tử dấu chấm trong vòng tròn	none
+⊚	toán tử hình khuyên trong vòng tròn	none
+⊛	toán tử hoa thị trong vòng tròn	none
+⊞	dấu cộng trong hình vuông	none
+⊟	dấu trừ trong hình vuông	none
+⊥	chữ T lộn ngược	none
+⊮	không bắt buộc	none
+⊰	đứng trước trong hệ thức	none
+⊱	đứng sau trong hệ thức	none
+⋭	không chứa như nhóm con bình thường bằng	none
+⊶	gốc	none
+⊹	ma trận liên hợp hermitian	none
+⊿	tam giác vuông	none
+⋁	logic hoặc đa phân	none
+⋂	giao đa phân	none
+⋃	hợp đa phân	none
+⋅	toán tử dấu chấm	none
+⋆	toán tử dấu sao	none
+⋈	phép nối tự nhiên	none
+⋒	giao kép	none
+⋘	ít hơn rất nhiều	none
+⋙	lớn hơn rất nhiều	none
+⋮	dấu ba chấm dọc	none
+⋯	dấu ba chấm ngang đường trung tuyến	none
+⋰	dấu ba chấm chéo phải trên	none
+⋱	dấu ba chấm chéo phải xuống	none
+■	hình vuông đặc	none
+□	hình vuông rỗng	none
+▢	hình vuông rỗng có góc bo tròn	none
+▣	hình vuông rỗng chứa hình vuông đặc	none
+▤	hình vuông có sọc ngang	none
+▥	hình vuông có sọc dọc	none
+▦	hình vuông có sọc ngang dọc thẳng góc	none
+▧	hình vuông có sọc chéo từ trái trên xuống phải dưới	none
+▨	hình vuông có sọc chéo từ phải trên xuống trái dưới	none
+▩	hình vuông có sọc chéo song song	none
+▬	hình chữ nhật đặc	none
+▭	hình chữ nhật rỗng	none
+▮	hình chữ nhật dọc đặc	none
+▰	hình bình hành đặc	none
 ▲	tam giác hướng lên	none
+△	hình tam giác rỗng hướng lên	none
+▴	hình tam giác nhỏ đặc hướng lên	none
+▵	hình tam giác nhỏ rỗng hướng lên	none
+▷	hình tam giác rỗng hướng sang phải	none
+▸	hình tam giác nhỏ đặc hướng sang phải	none
+▹	hình tam giác nhỏ rỗng hướng sang phải	none
+►	con trỏ đặc hướng sang phải	none
+▻	con trỏ rỗng hướng sang phải	none
 ▼	tam giác hướng xuống	none
+▽	hình tam giác rỗng hướng xuống	none
+▾	hình tam giác nhỏ đặc hướng xuống	none
+▿	hình tam giác nhỏ rỗng hướng xuống	none
+◁	hình tam giác rỗng hướng sang trái	none
+◂	hình tam giác nhỏ đặc hướng sang trái	none
+◃	hình tam giác nhỏ rỗng hướng sang trái	none
+◄	con trỏ đặc hướng sang trái	none
+◅	con trỏ rỗng hướng sang trái	none
+◆	hình kim cương đặc	none
+◇	hình kim cương rỗng	none
+◈	hình kim cương rỗng chứa hình kim cương đặc	none
+◉	hình tròn rỗng chứa hình tròn đặc	none
 ◊	hình thoi	none
 ○	chấm rỗng	none
+◌	hình tròn chấm chấm	none
+◍	hình tròn có sọc dọc	none
+◎	hình tròn đồng tâm	none
 ●	chấm tròn	none
+◐	hình tròn nửa trái đặc	none
+◑	hình tròn nửa phải đặc	none
+◒	hình tròn nửa dưới đặc	none
+◓	hình tròn nửa trên đặc	none
+◔	hình tròn góc phần tư phía trên bên phải đặc	none
+◕	hình tròn góc phần tư phía trên bên trái rỗng	none
+◖	nửa hình tròn bên trái đặc	none
+◗	nửa hình tròn bên phải đặc	none
+◘	dấu đầu dòng ngược	none
+◙	hình vuông đặc chứa hình tròn rỗng	none
+◜	cung tròn góc phần tư phía trên bên trái	none
+◝	cung tròn góc phần tư phía trên bên phải	none
+◞	cung tròn góc phần tư phía dưới bên phải	none
+◟	cung tròn góc phần tư phía dưới bên trái	none
+◠	nửa hình tròn trên	none
+◡	nửa hình tròn dưới	none
+◢	hình tam giác phía dưới bên phải đặc	none
+◣	hình tam giác phía dưới bên trái đặc	none
+◤	hình tam giác phía trên bên trái đặc	none
+◥	hình tam giác phía trên bên phải đặc	none
+◦	dấu đầu dòng rỗng	none
 ◯	chấm rỗng lớn	none
+◳	hình vuông rỗng góc phần tư phía trên bên phải	none
+◷	hình tròn rỗng với góc phần tư phía trên bên phải	none
+◿	hình tam giác dưới bên phải	none
 ♪	nốt móc đơn	none
+⨧	dấu cộng với chỉ số dưới hai	none
+⨯	tích vectơ hữu hướng	none
+⨼	tích tự đẳng cấu trong	none
+⩣	logic hoặc gạch dưới kép	none
+⩽	nhỏ hơn hoặc nghiêng bằng	none
+⪍	nhỏ hơn hoặc đồng dạng bằng	none
+⪚	dấu bằng kép hoặc lớn hơn	none
+⪺	đứng sau hoặc gần như không bằng	none
 ♭	nốt giáng	none
 ♯	nốt thăng	none
-😀	mặt cười toét	none
+😀	mặt cười toe toét	none
 😃	mặt cười miệng há với mắt to	none
 😄	mặt cười miệng há mắt cười	none
-😁	mặt cười toét mắt cười	none
+😁	mặt cười nhe răng và mắt cười	none
 😆	mặt cười miệng há mắt nhắm chặt	none
-😅	mặt cười miệng há mồ hôi	none
+😅	mặt cười toát mồ hôi	none
 🤣	mặt cười lăn cười bò	none
 😂	mặt cười với nước mắt vui sướng	none
 🙂	mặt cười mỉm	none
 🙃	mặt lộn ngược	none
+🫠	mặt tan chảy	none
 😉	mặt nháy mắt	none
-😊	mặt mỉm cười với hai mắt híp lại	none
+😊	mặt cười híp mắt	none
 😇	mặt cười có hào quang	none
 🥰	mặt cười với 3 trái tim	none
 😍	mặt cười mắt hình trái tim	none
@@ -151,13 +295,17 @@ symbols:
 🤑	mặt có tiền ở miệng	none
 🤗	mặt ôm	none
 🤭	mặt với tay che miệng	none
+🫢	mặt với cặp mắt mở to và tay che miệng	none
+🫣	mặt hé mắt nhìn trộm	none
 🤫	mặt ra dấu suỵt	none
 🤔	mặt suy nghĩ	none
+🫡	mặt chào	none
 🤐	mặt có miệng bị kéo khóa	none
 🤨	mặt với lông mày rướn lên	none
 😐	mặt trung lập	none
 😑	mặt vô cảm	none
 😶	mặt không có miệng	none
+🫥	mặt có đường viền chấm chấm	none
 😶‍🌫	mặt trong đám mây	none
 😏	mặt cười khẩy	none
 😒	mặt buồn	none
@@ -165,11 +313,15 @@ symbols:
 😬	mặt nhăn nhó	none
 😮‍💨	mặt thở ra	none
 🤥	mặt nói dối	none
+🫨	mặt lắc	none
+🙂‍↔	lắc đầu	none
+🙂‍↕	gật đầu	none
 😌	mặt nhẹ nhõm	none
 😔	mặt trầm ngâm	none
 😪	mặt buồn ngủ	none
 🤤	mặt chảy dãi	none
 😴	mặt đang ngủ	none
+🫩	mặt có túi mắt	none
 😷	mặt đeo khẩu trang y tế	none
 🤒	mặt có miệng ngậm nhiệt kế	none
 🤕	mặt đeo băng đầu	none
@@ -189,6 +341,7 @@ symbols:
 🤓	mặt mọt sách	none
 🧐	mặt với kính một mắt	none
 😕	mặt bối rối	none
+🫤	mặt có miệng xiên	none
 😟	mặt lo lắng	none
 🙁	mặt hơi cau mày	none
 ☹	mặt cau mày	none
@@ -196,7 +349,9 @@ symbols:
 😯	mặt làm thinh	none
 😲	mặt kinh ngạc	none
 😳	mặt đỏ ửng	none
+🫪	mặt méo	none
 🥺	mặt cầu xin	none
+🥹	mặt kìm nén nước mắt	none
 😦	mặt cau miệng há	none
 😧	mặt đau khổ	none
 😨	mặt sợ hãi	none
@@ -240,7 +395,6 @@ symbols:
 🙈	khỉ không nhìn điều xấu	none
 🙉	khỉ không nghe điều xấu	none
 🙊	khỉ không nói điều xấu	none
-💋	dấu nụ hôn	none
 💌	thư tình	none
 💘	trái tim với mũi tên	none
 💝	trái tim với ruy băng	none
@@ -255,22 +409,26 @@ symbols:
 ❤‍🔥	trái tim bốc lửa	none
 ❤‍🩹	trái tim đang lành	none
 ❤	trái tim màu đỏ	none
+🩷	trái tim màu hồng	none
 🧡	trái tim màu cam	none
 💛	trái tim màu vàng	none
 💚	trái tim màu lục	none
 💙	trái tim màu lam	none
-💜	trái tim tím	none
+🩵	trái tim màu xanh dương nhạt	none
+💜	trái tim màu tím	none
 🤎	trái tim màu nâu	none
-🖤	tim đen	none
+🖤	trái tim màu đen	none
+🩶	trái tim màu xám	none
 🤍	trái tim màu trắng	none
+💋	dấu nụ hôn	none
 💯	100 điểm	none
 💢	biểu tượng giận giữ	none
+🫯	đám mây chiến đấu	none
 💥	va chạm	none
 💫	choáng váng	none
 💦	giọt mồ hôi	none
-💨	chớp nhoáng	none
+💨	lao đi	none
 🕳	lỗ	none
-💣	bom	none
 💬	bong bóng lời nói	none
 👁‍🗨	mắt trong bong bóng lời nói	none
 🗨	bong bóng lời nói trái	none
@@ -282,11 +440,18 @@ symbols:
 🖐	tay xòe ngón giơ lên	none
 ✋	bàn tay giơ lên	none
 🖖	tay thần lửa	none
+🫱	bàn tay hướng sang bên phải	none
+🫲	bàn tay hướng sang bên trái	none
+🫳	bàn tay có lòng bàn tay hướng xuống	none
+🫴	bàn tay có lòng bàn tay hướng lên	none
+🫷	bàn tay đẩy sang trái	none
+🫸	bàn tay đẩy sang phải	none
 👌	bàn tay làm dấu OK	none
 🤌	ngón tay khum lại	none
 🤏	tay chụm	none
 ✌	tay chiến thắng	none
 🤞	hai ngón tay bắt chéo	none
+🫰	bàn tay với ngón trỏ và ngón cái bắt chéo	none
 🤟	cử chỉ yêu nhau	none
 🤘	ký hiệu cặp sừng	none
 🤙	bàn tay gọi cho tôi	none
@@ -296,6 +461,7 @@ symbols:
 🖕	ngón giữa	none
 👇	ngón trỏ trái chỉ xuống	none
 ☝	ngón trỏ chỉ lên trên	none
+🫵	ngón trỏ chỉ vào người xem	none
 👍	dấu ra hiệu đồng ý	none
 👎	dấu ra hiệu từ chối	none
 ✊	nắm đấm giơ lên	none
@@ -304,6 +470,7 @@ symbols:
 🤜	nắm đấm hướng sang phải	none
 👏	vỗ tay	none
 🙌	hai bàn tay giơ lên	none
+🫶	hai bàn tay tạo hình trái tim	none
 👐	hai bàn tay đang xòe	none
 🤲	hai bàn tay chạm vào nhau	none
 🤝	bắt tay	none
@@ -328,6 +495,7 @@ symbols:
 👁	mắt	none
 👅	lưỡi	none
 👄	miệng	none
+🫦	cắn môi	none
 👶	trẻ con	none
 🧒	trẻ em	none
 👦	con trai	none
@@ -435,6 +603,7 @@ symbols:
 👷	công nhân xây dựng	none
 👷‍♂	công nhân xây dựng nam	none
 👷‍♀	công nhân xây dựng nữ	none
+🫅	người đội vương miện	none
 🤴	hoàng tử	none
 👸	công chúa	none
 👳	người đội khăn xếp	none
@@ -444,11 +613,13 @@ symbols:
 🧕	người phụ nữ quàng khăn trùm đầu	none
 🤵	người mặc bộ vest	none
 🤵‍♂	người đàn ông mặc bộ vest	none
-🤵‍♀	người phụ nữ mặc tuxedo	none
+🤵‍♀	người phụ nữ mặc bộ vest	none
 👰	người đội khăn voan	none
 👰‍♂	người đàn ông đội khăn voan	none
 👰‍♀	người phụ nữ đội khăn voan	none
 🤰	người phụ nữ có thai	none
+🫃	người đàn ông mang bầu	none
+🫄	người mang bầu	none
 🤱	cho con bú	none
 👩‍🍼	người phụ nữ cho con bú	none
 👨‍🍼	người cho con bú	none
@@ -484,6 +655,8 @@ symbols:
 🧟	xác chết sống lại	none
 🧟‍♂	xác chết nam sống lại	none
 🧟‍♀	xác chết nữ sống lại	none
+🧌	người khổng lồ độc ác	none
+🫈	sinh vật nhiều lông	none
 💆	người được xoa bóp mặt	none
 💆‍♂	người đàn ông được xoa bóp mặt	none
 💆‍♀	người phụ nữ được xoa bóp mặt	none
@@ -511,6 +684,7 @@ symbols:
 🏃	người chạy	none
 🏃‍♂	người đàn ông đang chạy	none
 🏃‍♀	người phụ nữ đang chạy	none
+🧑‍🩰	vũ công ba lê	none
 💃	người phụ nữ đang khiêu vũ	none
 🕺	người đàn ông đang khiêu vũ	none
 🕴	người đàn ông mặc vest đang bay lên	none
@@ -577,12 +751,17 @@ symbols:
 👬	hai người đàn ông nắm tay	none
 💏	nụ hôn	none
 💑	cặp đôi với trái tim	none
-👪	gia đình	none
 🗣	đầu người đang nói	none
 👤	bóng tượng bán thân	none
 👥	các bóng tượng bán thân	none
 🫂	hai người ôm nhau	none
+👪	gia đình	none
+🧑‍🧑‍🧒	gia đình người lớn, người lớn, trẻ em	none
+🧑‍🧑‍🧒‍🧒	gia đình người lớn, người lớn, trẻ em, trẻ em	none
+🧑‍🧒	gia đình người lớn, trẻ em	none
+🧑‍🧒‍🧒	gia đình người lớn, trẻ em, trẻ em	none
 👣	dấu chân	none
+🫆	dấu vân tay	none
 🦰	tóc đỏ	none
 🦱	tóc xoăn	none
 🦳	tóc trắng	none
@@ -596,19 +775,21 @@ symbols:
 🦮	chó dẫn đường	none
 🐕‍🦺	chó hỗ trợ	none
 🐩	chó xù	none
-🐺	mặt chó sói	none
-🦊	mặt cáo	none
+🐺	chó sói	none
+🦊	cáo	none
 🦝	gấu trúc	none
 🐱	mặt mèo	none
 🐈	mèo	none
 🐈‍⬛	mèo đen	none
-🦁	mặt sư tử	none
+🦁	sư tử	none
 🐯	mặt hổ	none
 🐅	hổ	none
 🐆	báo hoa mai	none
 🐴	mặt ngựa	none
+🫎	nai sừng tấm Bắc Mỹ	none
+🫏	con lừa	none
 🐎	ngựa	none
-🦄	mặt kỳ lân	none
+🦄	kỳ lân	none
 🦓	ngựa vằn	none
 🦌	hươu	none
 🦬	bò rừng	none
@@ -641,7 +822,7 @@ symbols:
 🦫	hải ly	none
 🦔	nhím	none
 🦇	dơi	none
-🐻	mặt gấu	none
+🐻	gấu	none
 🐻‍❄	Gấu trắng Bắc Cực	none
 🐨	gấu túi	none
 🐼	mặt gấu trúc	none
@@ -669,7 +850,11 @@ symbols:
 🦩	hồng hạc	none
 🦚	con công	none
 🦜	con vẹt	none
-🐸	mặt ếch	none
+🪽	cánh	none
+🐦‍⬛	chim hoét đen	none
+🪿	con ngỗng	none
+🐦‍🔥	phượng hoàng	none
+🐸	ếch	none
 🐊	cá sấu	none
 🐢	rùa	none
 🦎	thằn lằn	none
@@ -681,6 +866,7 @@ symbols:
 🐳	cá voi đang phun nước	none
 🐋	cá voi	none
 🐬	cá heo	none
+🫍	cá voi sát thủ	none
 🦭	chó biển	none
 🐟	cá	none
 🐠	cá nhiệt đới	none
@@ -688,6 +874,13 @@ symbols:
 🦈	cá mập	none
 🐙	bạch tuộc	none
 🐚	vỏ xoắn ốc	none
+🪸	san hô	none
+🪼	sứa	none
+🦀	cua	none
+🦞	tôm hùm	none
+🦐	tôm	none
+🦑	mực ống	none
+🦪	hàu	none
 🐌	ốc sên	none
 🦋	bướm	none
 🐛	con bọ	none
@@ -707,6 +900,7 @@ symbols:
 💐	bó hoa	none
 🌸	hoa anh đào	none
 💮	hoa trắng	none
+🪷	hoa sen	none
 🏵	nơ hoa hồng	none
 🌹	hoa hồng	none
 🥀	hoa héo	none
@@ -714,6 +908,7 @@ symbols:
 🌻	hoa hướng dương	none
 🌼	hoa	none
 🌷	hoa tulip	none
+🪻	lục bình	none
 🌱	cây non	none
 🪴	cây trồng trong chậu	none
 🌲	cây thường xanh	none
@@ -727,11 +922,16 @@ symbols:
 🍁	lá phong	none
 🍂	lá rụng	none
 🍃	lá rung rinh trong gió	none
+🪹	tổ trống rỗng	none
+🪺	tổ có trứng	none
+🍄	nấm	none
+🪾	cây trụi lá	none
 🍇	chùm nho	none
 🍈	dưa	none
 🍉	dưa hấu	none
 🍊	quýt	none
-🍋	chanh	none
+🍋	chanh tây	none
+🍋‍🟩	chanh ta	none
 🍌	chuối	none
 🍍	dứa	none
 🥭	xoài	none
@@ -758,9 +958,13 @@ symbols:
 🥦	xúp lơ xanh	none
 🧄	tỏi	none
 🧅	hành	none
-🍄	nấm	none
 🥜	đậu phộng	none
+🫘	hạt đậu	none
 🌰	hạt dẻ	none
+🫚	củ gừng	none
+🫛	đậu Hà Lan	none
+🍄‍🟫	nấm màu nâu	none
+🫜	rau củ	none
 🍞	bánh mì	none
 🥐	bánh sừng bò	none
 🥖	bánh mì que	none
@@ -812,11 +1016,6 @@ symbols:
 🥟	bánh bao	none
 🥠	bánh quy may mắn	none
 🥡	hộp đựng đồ ăn mang đi	none
-🦀	cua	none
-🦞	tôm hùm	none
-🦐	tôm	none
-🦑	mực ống	none
-🦪	hàu	none
 🍦	kem mềm	none
 🍧	đá bào	none
 🍨	kem	none
@@ -845,8 +1044,9 @@ symbols:
 🍻	chạm cốc bia	none
 🥂	chạm cốc	none
 🥃	ly đáy phẳng	none
+🫗	đổ chất lỏng	none
 🥤	cốc và ống hút	none
-🧋	trà sữa	none
+🧋	trà sữa trân châu	none
 🧃	hộp đồ uống	none
 🧉	trà nhựa ruồi	none
 🧊	viên đá	none
@@ -855,6 +1055,7 @@ symbols:
 🍴	dĩa và dao	none
 🥄	thìa	none
 🔪	dao làm bếp	none
+🫙	bình đựng	none
 🏺	vò hai quai	none
 🌍	địa cầu thể hiện Châu Âu-Châu Phi	none
 🌎	địa cầu thể hiện Châu Mỹ	none
@@ -865,6 +1066,7 @@ symbols:
 🧭	la bàn	none
 🏔	đỉnh núi phủ tuyết	none
 ⛰	núi	none
+🛘	lở đất	none
 🌋	núi lửa	none
 🗻	núi Phú Sĩ	none
 🏕	cắm trại	none
@@ -917,6 +1119,7 @@ symbols:
 🌉	cây cầu về đêm	none
 ♨	suối nước nóng	none
 🎠	ngựa đu quay	none
+🛝	cầu trượt	none
 🎡	vòng đu quay	none
 🎢	tàu lượn siêu tốc	none
 💈	biển hiệu của thợ cắt tóc	none
@@ -965,12 +1168,14 @@ symbols:
 🛤	đường ray	none
 🛢	thùng dầu	none
 ⛽	bơm nhiên liệu	none
+🛞	bánh xe	none
 🚨	đèn xe cảnh sát	none
 🚥	đèn giao thông ngang	none
 🚦	đèn giao thông dọc	none
 🛑	ký hiệu dừng	none
 🚧	công trường	none
 ⚓	mỏ neo	none
+🛟	phao cứu sinh	none
 ⛵	thuyền buồm	none
 🛶	xuồng	none
 🚤	xuồng cao tốc	none
@@ -1128,10 +1333,10 @@ symbols:
 🎯	trúng đích	none
 🪀	yo-yo	none
 🪁	diều	none
+🔫	súng nước	none
 🎱	bi-a 8 bóng	none
 🔮	quả cầu pha lê	none
 🪄	gậy thần	none
-🧿	bùa may mắn nazar	none
 🎮	trò chơi điện tử	none
 🕹	cần điều khiển	none
 🎰	máy giật xèng	none
@@ -1139,6 +1344,7 @@ symbols:
 🧩	ghép hình	none
 🧸	gấu bông	none
 🪅	piñata	none
+🪩	quả cầu gương	none
 🪆	búp bê matryoshka	none
 ♠	bộ bích	none
 ♥	bộ cơ	none
@@ -1175,6 +1381,7 @@ symbols:
 🩳	quần soóc	none
 👙	áo tắm hai mảnh	none
 👚	quần áo nữ	none
+🪭	quạt giấy	none
 👛	ví	none
 👜	túi xách	none
 👝	túi cắp nách	none
@@ -1189,6 +1396,7 @@ symbols:
 👡	xăng đan nữ	none
 🩰	giày múa balê	none
 👢	giày bốt nữ	none
+🪮	lược Afro Pick	none
 👑	vương miện	none
 👒	mũ phụ nữ	none
 🎩	mũ chóp cao	none
@@ -1219,14 +1427,18 @@ symbols:
 🎧	tai nghe	none
 📻	radio	none
 🎷	kèn saxophone	none
+🎺	kèn trumpet	none
+🪊	kèn trombone	none
 🪗	phong cầm	none
 🎸	đàn ghi-ta	none
 🎹	phím đàn	none
-🎺	kèn trumpet	none
 🎻	đàn violin	none
 🪕	đàn banjo	none
 🥁	trống	none
 🪘	trống dài	none
+🪇	maraca	none
+🪈	sáo	none
+🪉	đàn hạc	none
 📱	điện thoại di động	none
 📲	điện thoại di động có mũi tên	none
 ☎	điện thoại bàn	none
@@ -1234,6 +1446,7 @@ symbols:
 📟	máy nhắn tin	none
 📠	máy fax	none
 🔋	pin	none
+🪫	pin yếu	none
 🔌	phích cắm điện	none
 💻	máy tính xách tay	none
 🖥	máy tính để bàn	none
@@ -1279,8 +1492,9 @@ symbols:
 📑	tab dấu trang	none
 🔖	đánh dấu trang	none
 🏷	nhãn	none
-💰	túi tiền	none
 🪙	đồng tiền	none
+💰	túi tiền	none
+🪎	rương báu	none
 💴	tiền giấy yên	none
 💵	tiền giấy đô la	none
 💶	tiền giấy euro	none
@@ -1345,7 +1559,7 @@ symbols:
 🛠	búa và cờ lê	none
 🗡	dao găm	none
 ⚔	kiếm bắt chéo	none
-🔫	súng nước	none
+💣	bom	none
 🪃	bumơrang	none
 🏹	cung tên	none
 🛡	cái khiên	none
@@ -1358,11 +1572,13 @@ symbols:
 ⚖	cân thăng bằng	none
 🦯	gậy dò đường	none
 🔗	mắt xích	none
+⛓‍💥	xích bị đứt	none
 ⛓	dây xích	none
 🪝	móc	none
 🧰	hộp dụng cụ	none
 🧲	nam châm	none
 🪜	thang	none
+🪏	xẻng	none
 ⚗	bình chưng cất	none
 🧪	ống nghiệm	none
 🧫	đĩa petri	none
@@ -1374,7 +1590,9 @@ symbols:
 🩸	giọt máu	none
 💊	viên thuốc	none
 🩹	băng dính	none
+🩼	nạng	none
 🩺	ống nghe	none
+🩻	x-quang	none
 🚪	cửa	none
 🛗	thang máy	none
 🪞	gương	none
@@ -1395,6 +1613,7 @@ symbols:
 🧻	cuộn giấy	none
 🪣	xô	none
 🧼	xà phòng	none
+🫧	bong bóng	none
 🪥	bàn chải răng	none
 🧽	bọt biển	none
 🧯	bình chữa cháy	none
@@ -1403,8 +1622,11 @@ symbols:
 ⚰	quan tài	none
 🪦	bia mộ	none
 ⚱	bình đựng tro cốt	none
+🧿	bùa may mắn nazar	none
+🪬	hamsa	none
 🗿	tượng moai	none
 🪧	bảng hiệu	none
+🪪	thẻ nhận dạng	none
 🏧	ký hiệu ATM	none
 🚮	ký hiệu bỏ rác vào thùng	none
 🚰	nước uống	none
@@ -1465,6 +1687,7 @@ symbols:
 ☮	biểu tượng hòa bình	none
 🕎	cây đèn menorah	none
 🔯	ngôi sao sáu cánh có dấu chấm	none
+🪯	biểu tượng khanda	none
 ♈	Bạch Dương	none
 ♉	Kim Ngưu	none
 ♊	Song Tử	none
@@ -1472,7 +1695,7 @@ symbols:
 ♌	Sư Tử	none
 ♍	Xử Nữ	none
 ♎	Thiên Bình	none
-♏	Thiên Yết	none
+♏	Bọ Cạp	none
 ♐	Nhân Mã	none
 ♑	Ma Kết	none
 ♒	Bảo Bình	none
@@ -1500,6 +1723,7 @@ symbols:
 🔅	nút mờ	none
 🔆	nút sáng	none
 📶	vạch ăng-ten	none
+🛜	không dây	none
 📳	chế độ rung	none
 📴	tắt điện thoại di động	none
 ♀	ký hiệu nữ	none
@@ -1509,6 +1733,7 @@ symbols:
 ➕	cộng	none
 ➖	trừ	none
 ➗	dấu chia	none
+🟰	dấu bằng đậm	none
 ♾	vô cực	none
 ❓	dấu chấm hỏi	none
 ❔	dấu chấm hỏi màu trắng	none
@@ -1534,6 +1759,7 @@ symbols:
 ✴	ngôi sao tám cánh	none
 ❇	lấp lánh	none
 ™	nhãn hiệu	none
+🫟	bắn tung tóe	none
 🔠	nhập chữ hoa la tinh	none
 🔡	nhập chữ thường la tinh	none
 🔢	nhập số	none
@@ -1598,13 +1824,21 @@ symbols:
 🏳‍🌈	cờ cầu vồng	none
 🏳‍⚧	cờ màu xanh, hồng và trắng	none
 🏴‍☠	cờ cướp biển	none
+₢	cruzeiro	none
+₣	đồng franc Pháp	none
+₤	lira	none
 ₥	mill	none
 ₩	won	none
 €	euro	none
+₰	xu Đức	none
 ₱	peso	none
+₳	austral	none
+₶	đồng livre	none
+₷	đồng spesmilo	none
 ₹	rupee Ấn Độ	none
 ₽	rúp	none
 ₿	bitcoin	none
+₨	rupee	none
 👋🏻	vẫy tay màu da sáng	none
 👋🏼	vẫy tay màu da sáng trung bình	none
 👋🏽	vẫy tay màu da trung bình	none
@@ -1630,6 +1864,56 @@ symbols:
 🖖🏽	tay thần lửa màu da trung bình	none
 🖖🏾	tay thần lửa màu da tối trung bình	none
 🖖🏿	tay thần lửa màu da tối	none
+🫱🏻	bàn tay hướng sang bên phải màu da sáng	none
+🫱🏼	bàn tay hướng sang bên phải màu da sáng trung bình	none
+🫱🏽	bàn tay hướng sang bên phải màu da trung bình	none
+🫱🏾	bàn tay hướng sang bên phải màu da tối trung bình	none
+🫱🏿	bàn tay hướng sang bên phải màu da tối	none
+🫱🏻‍🫲🏼	bắt tay màu da sáng, màu da sáng trung bình	none
+🫱🏻‍🫲🏽	bắt tay màu da sáng, màu da trung bình	none
+🫱🏻‍🫲🏾	bắt tay màu da sáng, màu da tối trung bình	none
+🫱🏻‍🫲🏿	bắt tay màu da sáng, màu da tối	none
+🫱🏼‍🫲🏻	bắt tay màu da sáng trung bình, màu da sáng	none
+🫱🏼‍🫲🏽	bắt tay màu da sáng trung bình, màu da trung bình	none
+🫱🏼‍🫲🏾	bắt tay màu da sáng trung bình, màu da tối trung bình	none
+🫱🏼‍🫲🏿	bắt tay màu da sáng trung bình, màu da tối	none
+🫱🏽‍🫲🏻	bắt tay màu da trung bình, màu da sáng	none
+🫱🏽‍🫲🏼	bắt tay màu da trung bình, màu da sáng trung bình	none
+🫱🏽‍🫲🏾	bắt tay màu da trung bình, màu da tối trung bình	none
+🫱🏽‍🫲🏿	bắt tay màu da trung bình, màu da tối	none
+🫱🏾‍🫲🏻	bắt tay màu da tối trung bình, màu da sáng	none
+🫱🏾‍🫲🏼	bắt tay màu da tối trung bình, màu da sáng trung bình	none
+🫱🏾‍🫲🏽	bắt tay màu da tối trung bình, màu da trung bình	none
+🫱🏾‍🫲🏿	bắt tay màu da tối trung bình, màu da tối	none
+🫱🏿‍🫲🏻	bắt tay màu da tối, màu da sáng	none
+🫱🏿‍🫲🏼	bắt tay màu da tối, màu da sáng trung bình	none
+🫱🏿‍🫲🏽	bắt tay màu da tối, màu da trung bình	none
+🫱🏿‍🫲🏾	bắt tay màu da tối, màu da tối trung bình	none
+🫲🏻	bàn tay hướng sang bên trái màu da sáng	none
+🫲🏼	bàn tay hướng sang bên trái màu da sáng trung bình	none
+🫲🏽	bàn tay hướng sang bên trái màu da trung bình	none
+🫲🏾	bàn tay hướng sang bên trái màu da tối trung bình	none
+🫲🏿	bàn tay hướng sang bên trái màu da tối	none
+🫳🏻	bàn tay có lòng bàn tay hướng xuống màu da sáng	none
+🫳🏼	bàn tay có lòng bàn tay hướng xuống màu da sáng trung bình	none
+🫳🏽	bàn tay có lòng bàn tay hướng xuống màu da trung bình	none
+🫳🏾	bàn tay có lòng bàn tay hướng xuống màu da tối trung bình	none
+🫳🏿	bàn tay có lòng bàn tay hướng xuống màu da tối	none
+🫴🏻	bàn tay có lòng bàn tay hướng lên màu da sáng	none
+🫴🏼	bàn tay có lòng bàn tay hướng lên màu da sáng trung bình	none
+🫴🏽	bàn tay có lòng bàn tay hướng lên màu da trung bình	none
+🫴🏾	bàn tay có lòng bàn tay hướng lên màu da tối trung bình	none
+🫴🏿	bàn tay có lòng bàn tay hướng lên màu da tối	none
+🫷🏻	bàn tay đẩy sang trái màu da sáng	none
+🫷🏼	bàn tay đẩy sang trái màu da sáng trung bình	none
+🫷🏽	bàn tay đẩy sang trái màu da trung bình	none
+🫷🏾	bàn tay đẩy sang trái màu da tối trung bình	none
+🫷🏿	bàn tay đẩy sang trái màu da tối	none
+🫸🏻	bàn tay đẩy sang phải màu da sáng	none
+🫸🏼	bàn tay đẩy sang phải màu da sáng trung bình	none
+🫸🏽	bàn tay đẩy sang phải màu da trung bình	none
+🫸🏾	bàn tay đẩy sang phải màu da tối trung bình	none
+🫸🏿	bàn tay đẩy sang phải màu da tối	none
 👌🏻	bàn tay làm dấu OK màu da sáng	none
 👌🏼	bàn tay làm dấu OK màu da sáng trung bình	none
 👌🏽	bàn tay làm dấu OK màu da trung bình	none
@@ -1655,6 +1939,11 @@ symbols:
 🤞🏽	hai ngón tay bắt chéo màu da trung bình	none
 🤞🏾	hai ngón tay bắt chéo màu da tối trung bình	none
 🤞🏿	hai ngón tay bắt chéo màu da tối	none
+🫰🏻	bàn tay với ngón trỏ và ngón cái bắt chéo màu da sáng	none
+🫰🏼	bàn tay với ngón trỏ và ngón cái bắt chéo màu da sáng trung bình	none
+🫰🏽	bàn tay với ngón trỏ và ngón cái bắt chéo màu da trung bình	none
+🫰🏾	bàn tay với ngón trỏ và ngón cái bắt chéo màu da tối trung bình	none
+🫰🏿	bàn tay với ngón trỏ và ngón cái bắt chéo màu da tối	none
 🤟🏻	cử chỉ yêu nhau màu da sáng	none
 🤟🏼	cử chỉ yêu nhau màu da sáng trung bình	none
 🤟🏽	cử chỉ yêu nhau màu da trung bình	none
@@ -1700,6 +1989,11 @@ symbols:
 ☝🏽	ngón trỏ chỉ lên trên màu da trung bình	none
 ☝🏾	ngón trỏ chỉ lên trên màu da tối trung bình	none
 ☝🏿	ngón trỏ chỉ lên trên màu da tối	none
+🫵🏻	ngón trỏ chỉ vào người xem màu da sáng	none
+🫵🏼	ngón trỏ chỉ vào người xem màu da sáng trung bình	none
+🫵🏽	ngón trỏ chỉ vào người xem màu da trung bình	none
+🫵🏾	ngón trỏ chỉ vào người xem màu da tối trung bình	none
+🫵🏿	ngón trỏ chỉ vào người xem màu da tối	none
 👍🏻	dấu ra hiệu đồng ý màu da sáng	none
 👍🏼	dấu ra hiệu đồng ý màu da sáng trung bình	none
 👍🏽	dấu ra hiệu đồng ý màu da trung bình	none
@@ -1740,6 +2034,11 @@ symbols:
 🙌🏽	hai bàn tay giơ lên màu da trung bình	none
 🙌🏾	hai bàn tay giơ lên màu da tối trung bình	none
 🙌🏿	hai bàn tay giơ lên màu da tối	none
+🫶🏻	hai bàn tay tạo hình trái tim màu da sáng	none
+🫶🏼	hai bàn tay tạo hình trái tim màu da sáng trung bình	none
+🫶🏽	hai bàn tay tạo hình trái tim màu da trung bình	none
+🫶🏾	hai bàn tay tạo hình trái tim màu da tối trung bình	none
+🫶🏿	hai bàn tay tạo hình trái tim màu da tối	none
 👐🏻	hai bàn tay đang xòe màu da sáng	none
 👐🏼	hai bàn tay đang xòe màu da sáng trung bình	none
 👐🏽	hai bàn tay đang xòe màu da trung bình	none
@@ -1750,6 +2049,11 @@ symbols:
 🤲🏽	hai bàn tay chạm vào nhau màu da trung bình	none
 🤲🏾	hai bàn tay chạm vào nhau màu da tối trung bình	none
 🤲🏿	hai bàn tay chạm vào nhau màu da tối	none
+🤝🏻	bắt tay màu da sáng	none
+🤝🏼	bắt tay màu da sáng trung bình	none
+🤝🏽	bắt tay màu da trung bình	none
+🤝🏾	bắt tay màu da tối trung bình	none
+🤝🏿	bắt tay màu da tối	none
 🙏🏻	chắp tay màu da sáng	none
 🙏🏼	chắp tay màu da sáng trung bình	none
 🙏🏽	chắp tay màu da trung bình	none
@@ -1870,6 +2174,26 @@ symbols:
 🧑🏿‍❤‍🧑🏼	cặp đôi với trái tim người, người, màu da tối, màu da sáng trung bình	none
 🧑🏿‍❤‍🧑🏽	cặp đôi với trái tim người, người, màu da tối, màu da trung bình	none
 🧑🏿‍❤‍🧑🏾	cặp đôi với trái tim người, người, màu da tối, màu da tối trung bình	none
+🧑🏻‍🫯‍🧑🏼	người chơi vật màu da sáng, màu da sáng trung bình	none
+🧑🏻‍🫯‍🧑🏽	người chơi vật màu da sáng, màu da trung bình	none
+🧑🏻‍🫯‍🧑🏾	người chơi vật màu da sáng, màu da tối trung bình	none
+🧑🏻‍🫯‍🧑🏿	người chơi vật màu da sáng, màu da tối	none
+🧑🏼‍🫯‍🧑🏻	người chơi vật màu da sáng trung bình, màu da sáng	none
+🧑🏼‍🫯‍🧑🏽	người chơi vật màu da sáng trung bình, màu da trung bình	none
+🧑🏼‍🫯‍🧑🏾	người chơi vật màu da sáng trung bình, màu da tối trung bình	none
+🧑🏼‍🫯‍🧑🏿	người chơi vật màu da sáng trung bình, màu da tối	none
+🧑🏽‍🫯‍🧑🏻	người chơi vật màu da trung bình, màu da sáng	none
+🧑🏽‍🫯‍🧑🏼	người chơi vật màu da trung bình, màu da sáng trung bình	none
+🧑🏽‍🫯‍🧑🏾	người chơi vật màu da trung bình, màu da tối trung bình	none
+🧑🏽‍🫯‍🧑🏿	người chơi vật màu da trung bình, màu da tối	none
+🧑🏾‍🫯‍🧑🏻	người chơi vật màu da tối trung bình, màu da sáng	none
+🧑🏾‍🫯‍🧑🏼	người chơi vật màu da tối trung bình, màu da sáng trung bình	none
+🧑🏾‍🫯‍🧑🏽	người chơi vật màu da tối trung bình, màu da trung bình	none
+🧑🏾‍🫯‍🧑🏿	người chơi vật màu da tối trung bình, màu da tối	none
+🧑🏿‍🫯‍🧑🏻	người chơi vật màu da tối, màu da sáng	none
+🧑🏿‍🫯‍🧑🏼	người chơi vật màu da tối, màu da sáng trung bình	none
+🧑🏿‍🫯‍🧑🏽	người chơi vật màu da tối, màu da trung bình	none
+🧑🏿‍🫯‍🧑🏾	người chơi vật màu da tối, màu da tối trung bình	none
 🧑‍🦰	người tóc đỏ	none
 🧑🏻‍🦰	người màu da sáng, tóc đỏ	none
 🧑🏼‍🦰	người màu da sáng trung bình, tóc đỏ	none
@@ -1894,6 +2218,26 @@ symbols:
 🧑🏽‍🦲	người màu da trung bình, hói	none
 🧑🏾‍🦲	người màu da tối trung bình, hói	none
 🧑🏿‍🦲	người màu da tối, hói	none
+🧑🏻‍🐰‍🧑🏼	những người đeo tai thỏ màu da sáng, màu da sáng trung bình	none
+🧑🏻‍🐰‍🧑🏽	những người đeo tai thỏ màu da sáng, màu da trung bình	none
+🧑🏻‍🐰‍🧑🏾	những người đeo tai thỏ màu da sáng, màu da tối trung bình	none
+🧑🏻‍🐰‍🧑🏿	những người đeo tai thỏ màu da sáng, màu da tối	none
+🧑🏼‍🐰‍🧑🏻	những người đeo tai thỏ màu da sáng trung bình, màu da sáng	none
+🧑🏼‍🐰‍🧑🏽	những người đeo tai thỏ màu da sáng trung bình, màu da trung bình	none
+🧑🏼‍🐰‍🧑🏾	những người đeo tai thỏ màu da sáng trung bình, màu da tối trung bình	none
+🧑🏼‍🐰‍🧑🏿	những người đeo tai thỏ màu da sáng trung bình, màu da tối	none
+🧑🏽‍🐰‍🧑🏻	những người đeo tai thỏ màu da trung bình, màu da sáng	none
+🧑🏽‍🐰‍🧑🏼	những người đeo tai thỏ màu da trung bình, màu da sáng trung bình	none
+🧑🏽‍🐰‍🧑🏾	những người đeo tai thỏ màu da trung bình, màu da tối trung bình	none
+🧑🏽‍🐰‍🧑🏿	những người đeo tai thỏ màu da trung bình, màu da tối	none
+🧑🏾‍🐰‍🧑🏻	những người đeo tai thỏ màu da tối trung bình, màu da sáng	none
+🧑🏾‍🐰‍🧑🏼	những người đeo tai thỏ màu da tối trung bình, màu da sáng trung bình	none
+🧑🏾‍🐰‍🧑🏽	những người đeo tai thỏ màu da tối trung bình, màu da trung bình	none
+🧑🏾‍🐰‍🧑🏿	những người đeo tai thỏ màu da tối trung bình, màu da tối	none
+🧑🏿‍🐰‍🧑🏻	những người đeo tai thỏ màu da tối, màu da sáng	none
+🧑🏿‍🐰‍🧑🏼	những người đeo tai thỏ màu da tối, màu da sáng trung bình	none
+🧑🏿‍🐰‍🧑🏽	những người đeo tai thỏ màu da tối, màu da trung bình	none
+🧑🏿‍🐰‍🧑🏾	những người đeo tai thỏ màu da tối, màu da tối trung bình	none
 👨🏻	đàn ông màu da sáng	none
 👨🏼	đàn ông màu da sáng trung bình	none
 👨🏽	đàn ông màu da trung bình	none
@@ -1964,6 +2308,26 @@ symbols:
 👨🏿‍❤‍👨🏽	cặp đôi với trái tim đàn ông, đàn ông, màu da tối, màu da trung bình	none
 👨🏿‍❤‍👨🏾	cặp đôi với trái tim đàn ông, đàn ông, màu da tối, màu da tối trung bình	none
 👨🏿‍❤‍👨🏿	cặp đôi với trái tim đàn ông, đàn ông, màu da tối	none
+👨🏻‍🫯‍👨🏼	những người đàn ông chơi vật màu da sáng, màu da sáng trung bình	none
+👨🏻‍🫯‍👨🏽	những người đàn ông chơi vật màu da sáng, màu da trung bình	none
+👨🏻‍🫯‍👨🏾	những người đàn ông chơi vật màu da sáng, màu da tối trung bình	none
+👨🏻‍🫯‍👨🏿	những người đàn ông chơi vật màu da sáng, màu da tối	none
+👨🏼‍🫯‍👨🏻	những người đàn ông chơi vật màu da sáng trung bình, màu da sáng	none
+👨🏼‍🫯‍👨🏽	những người đàn ông chơi vật màu da sáng trung bình, màu da trung bình	none
+👨🏼‍🫯‍👨🏾	những người đàn ông chơi vật màu da sáng trung bình, màu da tối trung bình	none
+👨🏼‍🫯‍👨🏿	những người đàn ông chơi vật màu da sáng trung bình, màu da tối	none
+👨🏽‍🫯‍👨🏻	những người đàn ông chơi vật màu da trung bình, màu da sáng	none
+👨🏽‍🫯‍👨🏼	những người đàn ông chơi vật màu da trung bình, màu da sáng trung bình	none
+👨🏽‍🫯‍👨🏾	những người đàn ông chơi vật màu da trung bình, màu da tối trung bình	none
+👨🏽‍🫯‍👨🏿	những người đàn ông chơi vật màu da trung bình, màu da tối	none
+👨🏾‍🫯‍👨🏻	những người đàn ông chơi vật màu da tối trung bình, màu da sáng	none
+👨🏾‍🫯‍👨🏼	những người đàn ông chơi vật màu da tối trung bình, màu da sáng trung bình	none
+👨🏾‍🫯‍👨🏽	những người đàn ông chơi vật màu da tối trung bình, màu da trung bình	none
+👨🏾‍🫯‍👨🏿	những người đàn ông chơi vật màu da tối trung bình, màu da tối	none
+👨🏿‍🫯‍👨🏻	những người đàn ông chơi vật màu da tối, màu da sáng	none
+👨🏿‍🫯‍👨🏼	những người đàn ông chơi vật màu da tối, màu da sáng trung bình	none
+👨🏿‍🫯‍👨🏽	những người đàn ông chơi vật màu da tối, màu da trung bình	none
+👨🏿‍🫯‍👨🏾	những người đàn ông chơi vật màu da tối, màu da tối trung bình	none
 👨‍🦰	đàn ông tóc đỏ	none
 👨🏻‍🦰	đàn ông màu da sáng, tóc đỏ	none
 👨🏼‍🦰	đàn ông màu da sáng trung bình, tóc đỏ	none
@@ -1988,6 +2352,26 @@ symbols:
 👨🏽‍🦲	đàn ông màu da trung bình, hói	none
 👨🏾‍🦲	đàn ông màu da tối trung bình, hói	none
 👨🏿‍🦲	đàn ông màu da tối, hói	none
+👨🏻‍🐰‍👨🏼	những người đàn ông đeo tai thỏ màu da sáng, màu da sáng trung bình	none
+👨🏻‍🐰‍👨🏽	những người đàn ông đeo tai thỏ màu da sáng, màu da trung bình	none
+👨🏻‍🐰‍👨🏾	những người đàn ông đeo tai thỏ màu da sáng, màu da tối trung bình	none
+👨🏻‍🐰‍👨🏿	những người đàn ông đeo tai thỏ màu da sáng, màu da tối	none
+👨🏼‍🐰‍👨🏻	những người đàn ông đeo tai thỏ màu da sáng trung bình, màu da sáng	none
+👨🏼‍🐰‍👨🏽	những người đàn ông đeo tai thỏ màu da sáng trung bình, màu da trung bình	none
+👨🏼‍🐰‍👨🏾	những người đàn ông đeo tai thỏ màu da sáng trung bình, màu da tối trung bình	none
+👨🏼‍🐰‍👨🏿	những người đàn ông đeo tai thỏ màu da sáng trung bình, màu da tối	none
+👨🏽‍🐰‍👨🏻	những người đàn ông đeo tai thỏ màu da trung bình, màu da sáng	none
+👨🏽‍🐰‍👨🏼	những người đàn ông đeo tai thỏ màu da trung bình, màu da sáng trung bình	none
+👨🏽‍🐰‍👨🏾	những người đàn ông đeo tai thỏ màu da trung bình, màu da tối trung bình	none
+👨🏽‍🐰‍👨🏿	những người đàn ông đeo tai thỏ màu da trung bình, màu da tối	none
+👨🏾‍🐰‍👨🏻	những người đàn ông đeo tai thỏ màu da tối trung bình, màu da sáng	none
+👨🏾‍🐰‍👨🏼	những người đàn ông đeo tai thỏ màu da tối trung bình, màu da sáng trung bình	none
+👨🏾‍🐰‍👨🏽	những người đàn ông đeo tai thỏ màu da tối trung bình, màu da trung bình	none
+👨🏾‍🐰‍👨🏿	những người đàn ông đeo tai thỏ màu da tối trung bình, màu da tối	none
+👨🏿‍🐰‍👨🏻	những người đàn ông đeo tai thỏ màu da tối, màu da sáng	none
+👨🏿‍🐰‍👨🏼	những người đàn ông đeo tai thỏ màu da tối, màu da sáng trung bình	none
+👨🏿‍🐰‍👨🏽	những người đàn ông đeo tai thỏ màu da tối, màu da trung bình	none
+👨🏿‍🐰‍👨🏾	những người đàn ông đeo tai thỏ màu da tối, màu da tối trung bình	none
 👩🏻	phụ nữ màu da sáng	none
 👩🏼	phụ nữ màu da sáng trung bình	none
 👩🏽	phụ nữ màu da trung bình	none
@@ -2103,6 +2487,26 @@ symbols:
 👩🏿‍❤‍👩🏽	cặp đôi với trái tim phụ nữ, phụ nữ, màu da tối, màu da trung bình	none
 👩🏿‍❤‍👩🏾	cặp đôi với trái tim phụ nữ, phụ nữ, màu da tối, màu da tối trung bình	none
 👩🏿‍❤‍👩🏿	cặp đôi với trái tim phụ nữ, phụ nữ, màu da tối	none
+👩🏻‍🫯‍👩🏼	những người phụ nữ chơi vật màu da sáng, màu da sáng trung bình	none
+👩🏻‍🫯‍👩🏽	những người phụ nữ chơi vật màu da sáng, màu da trung bình	none
+👩🏻‍🫯‍👩🏾	những người phụ nữ chơi vật màu da sáng, màu da tối trung bình	none
+👩🏻‍🫯‍👩🏿	những người phụ nữ chơi vật màu da sáng, màu da tối	none
+👩🏼‍🫯‍👩🏻	những người phụ nữ chơi vật màu da sáng trung bình, màu da sáng	none
+👩🏼‍🫯‍👩🏽	những người phụ nữ chơi vật màu da sáng trung bình, màu da trung bình	none
+👩🏼‍🫯‍👩🏾	những người phụ nữ chơi vật màu da sáng trung bình, màu da tối trung bình	none
+👩🏼‍🫯‍👩🏿	những người phụ nữ chơi vật màu da sáng trung bình, màu da tối	none
+👩🏽‍🫯‍👩🏻	những người phụ nữ chơi vật màu da trung bình, màu da sáng	none
+👩🏽‍🫯‍👩🏼	những người phụ nữ chơi vật màu da trung bình, màu da sáng trung bình	none
+👩🏽‍🫯‍👩🏾	những người phụ nữ chơi vật màu da trung bình, màu da tối trung bình	none
+👩🏽‍🫯‍👩🏿	những người phụ nữ chơi vật màu da trung bình, màu da tối	none
+👩🏾‍🫯‍👩🏻	những người phụ nữ chơi vật màu da tối trung bình, màu da sáng	none
+👩🏾‍🫯‍👩🏼	những người phụ nữ chơi vật màu da tối trung bình, màu da sáng trung bình	none
+👩🏾‍🫯‍👩🏽	những người phụ nữ chơi vật màu da tối trung bình, màu da trung bình	none
+👩🏾‍🫯‍👩🏿	những người phụ nữ chơi vật màu da tối trung bình, màu da tối	none
+👩🏿‍🫯‍👩🏻	những người phụ nữ chơi vật màu da tối, màu da sáng	none
+👩🏿‍🫯‍👩🏼	những người phụ nữ chơi vật màu da tối, màu da sáng trung bình	none
+👩🏿‍🫯‍👩🏽	những người phụ nữ chơi vật màu da tối, màu da trung bình	none
+👩🏿‍🫯‍👩🏾	những người phụ nữ chơi vật màu da tối, màu da tối trung bình	none
 👩‍🦰	phụ nữ tóc đỏ	none
 👩🏻‍🦰	phụ nữ màu da sáng, tóc đỏ	none
 👩🏼‍🦰	phụ nữ màu da sáng trung bình, tóc đỏ	none
@@ -2127,6 +2531,26 @@ symbols:
 👩🏽‍🦲	phụ nữ màu da trung bình, hói	none
 👩🏾‍🦲	phụ nữ màu da tối trung bình, hói	none
 👩🏿‍🦲	phụ nữ màu da tối, hói	none
+👩🏻‍🐰‍👩🏼	những người phụ nữ đeo tai thỏ màu da sáng, màu da sáng trung bình	none
+👩🏻‍🐰‍👩🏽	những người phụ nữ đeo tai thỏ màu da sáng, màu da trung bình	none
+👩🏻‍🐰‍👩🏾	những người phụ nữ đeo tai thỏ màu da sáng, màu da tối trung bình	none
+👩🏻‍🐰‍👩🏿	những người phụ nữ đeo tai thỏ màu da sáng, màu da tối	none
+👩🏼‍🐰‍👩🏻	những người phụ nữ đeo tai thỏ màu da sáng trung bình, màu da sáng	none
+👩🏼‍🐰‍👩🏽	những người phụ nữ đeo tai thỏ màu da sáng trung bình, màu da trung bình	none
+👩🏼‍🐰‍👩🏾	những người phụ nữ đeo tai thỏ màu da sáng trung bình, màu da tối trung bình	none
+👩🏼‍🐰‍👩🏿	những người phụ nữ đeo tai thỏ màu da sáng trung bình, màu da tối	none
+👩🏽‍🐰‍👩🏻	những người phụ nữ đeo tai thỏ màu da trung bình, màu da sáng	none
+👩🏽‍🐰‍👩🏼	những người phụ nữ đeo tai thỏ màu da trung bình, màu da sáng trung bình	none
+👩🏽‍🐰‍👩🏾	những người phụ nữ đeo tai thỏ màu da trung bình, màu da tối trung bình	none
+👩🏽‍🐰‍👩🏿	những người phụ nữ đeo tai thỏ màu da trung bình, màu da tối	none
+👩🏾‍🐰‍👩🏻	những người phụ nữ đeo tai thỏ màu da tối trung bình, màu da sáng	none
+👩🏾‍🐰‍👩🏼	những người phụ nữ đeo tai thỏ màu da tối trung bình, màu da sáng trung bình	none
+👩🏾‍🐰‍👩🏽	những người phụ nữ đeo tai thỏ màu da tối trung bình, màu da trung bình	none
+👩🏾‍🐰‍👩🏿	những người phụ nữ đeo tai thỏ màu da tối trung bình, màu da tối	none
+👩🏿‍🐰‍👩🏻	những người phụ nữ đeo tai thỏ màu da tối, màu da sáng	none
+👩🏿‍🐰‍👩🏼	những người phụ nữ đeo tai thỏ màu da tối, màu da sáng trung bình	none
+👩🏿‍🐰‍👩🏽	những người phụ nữ đeo tai thỏ màu da tối, màu da trung bình	none
+👩🏿‍🐰‍👩🏾	những người phụ nữ đeo tai thỏ màu da tối, màu da tối trung bình	none
 🧓🏻	người lớn tuổi màu da sáng	none
 🧓🏼	người lớn tuổi màu da sáng trung bình	none
 🧓🏽	người lớn tuổi màu da trung bình	none
@@ -2597,6 +3021,11 @@ symbols:
 👷🏽‍♀	công nhân xây dựng nữ màu da trung bình	none
 👷🏾‍♀	công nhân xây dựng nữ màu da tối trung bình	none
 👷🏿‍♀	công nhân xây dựng nữ màu da tối	none
+🫅🏻	người đội vương miện màu da sáng	none
+🫅🏼	người đội vương miện màu da sáng trung bình	none
+🫅🏽	người đội vương miện màu da trung bình	none
+🫅🏾	người đội vương miện màu da tối trung bình	none
+🫅🏿	người đội vương miện màu da tối	none
 🤴🏻	hoàng tử màu da sáng	none
 🤴🏼	hoàng tử màu da sáng trung bình	none
 🤴🏽	hoàng tử màu da trung bình	none
@@ -2642,11 +3071,11 @@ symbols:
 🤵🏽‍♂	người đàn ông mặc bộ vest màu da trung bình	none
 🤵🏾‍♂	người đàn ông mặc bộ vest màu da tối trung bình	none
 🤵🏿‍♂	người đàn ông mặc bộ vest màu da tối	none
-🤵🏻‍♀	người phụ nữ mặc tuxedo màu da sáng	none
-🤵🏼‍♀	người phụ nữ mặc tuxedo màu da sáng trung bình	none
-🤵🏽‍♀	người phụ nữ mặc tuxedo màu da trung bình	none
-🤵🏾‍♀	người phụ nữ mặc tuxedo màu da tối trung bình	none
-🤵🏿‍♀	người phụ nữ mặc tuxedo màu da tối	none
+🤵🏻‍♀	người phụ nữ mặc bộ vest màu da sáng	none
+🤵🏼‍♀	người phụ nữ mặc bộ vest màu da sáng trung bình	none
+🤵🏽‍♀	người phụ nữ mặc bộ vest màu da trung bình	none
+🤵🏾‍♀	người phụ nữ mặc bộ vest màu da tối trung bình	none
+🤵🏿‍♀	người phụ nữ mặc bộ vest màu da tối	none
 👰🏻	người đội khăn voan màu da sáng	none
 👰🏼	người đội khăn voan màu da sáng trung bình	none
 👰🏽	người đội khăn voan màu da trung bình	none
@@ -2667,6 +3096,16 @@ symbols:
 🤰🏽	người phụ nữ có thai màu da trung bình	none
 🤰🏾	người phụ nữ có thai màu da tối trung bình	none
 🤰🏿	người phụ nữ có thai màu da tối	none
+🫃🏻	người đàn ông mang bầu màu da sáng	none
+🫃🏼	người đàn ông mang bầu màu da sáng trung bình	none
+🫃🏽	người đàn ông mang bầu màu da trung bình	none
+🫃🏾	người đàn ông mang bầu màu da tối trung bình	none
+🫃🏿	người đàn ông mang bầu màu da tối	none
+🫄🏻	người mang bầu màu da sáng	none
+🫄🏼	người mang bầu màu da sáng trung bình	none
+🫄🏽	người mang bầu màu da trung bình	none
+🫄🏾	người mang bầu màu da tối trung bình	none
+🫄🏿	người mang bầu màu da tối	none
 🤱🏻	cho con bú màu da sáng	none
 🤱🏼	cho con bú màu da sáng trung bình	none
 🤱🏽	cho con bú màu da trung bình	none
@@ -2857,6 +3296,24 @@ symbols:
 🚶🏽‍♀	người phụ nữ đi bộ màu da trung bình	none
 🚶🏾‍♀	người phụ nữ đi bộ màu da tối trung bình	none
 🚶🏿‍♀	người phụ nữ đi bộ màu da tối	none
+🚶‍➡	người đi bộ hướng sang phải	none
+🚶🏻‍➡	người đi bộ màu da sáng, hướng sang phải	none
+🚶🏼‍➡	người đi bộ màu da sáng trung bình, hướng sang phải	none
+🚶🏽‍➡	người đi bộ màu da trung bình, hướng sang phải	none
+🚶🏾‍➡	người đi bộ màu da tối trung bình, hướng sang phải	none
+🚶🏿‍➡	người đi bộ màu da tối, hướng sang phải	none
+🚶‍♀‍➡	người phụ nữ đi bộ hướng sang phải	none
+🚶🏻‍♀‍➡	người phụ nữ đi bộ màu da sáng, hướng sang phải	none
+🚶🏼‍♀‍➡	người phụ nữ đi bộ màu da sáng trung bình, hướng sang phải	none
+🚶🏽‍♀‍➡	người phụ nữ đi bộ màu da trung bình, hướng sang phải	none
+🚶🏾‍♀‍➡	người phụ nữ đi bộ màu da tối trung bình, hướng sang phải	none
+🚶🏿‍♀‍➡	người phụ nữ đi bộ màu da tối, hướng sang phải	none
+🚶‍♂‍➡	người đàn ông đi bộ hướng sang phải	none
+🚶🏻‍♂‍➡	người đàn ông đi bộ màu da sáng, hướng sang phải	none
+🚶🏼‍♂‍➡	người đàn ông đi bộ màu da sáng trung bình, hướng sang phải	none
+🚶🏽‍♂‍➡	người đàn ông đi bộ màu da trung bình, hướng sang phải	none
+🚶🏾‍♂‍➡	người đàn ông đi bộ màu da tối trung bình, hướng sang phải	none
+🚶🏿‍♂‍➡	người đàn ông đi bộ màu da tối, hướng sang phải	none
 🧍🏻	người đứng màu da sáng	none
 🧍🏼	người đứng màu da sáng trung bình	none
 🧍🏽	người đứng màu da trung bình	none
@@ -2887,51 +3344,123 @@ symbols:
 🧎🏽‍♀	người phụ nữ quỳ màu da trung bình	none
 🧎🏾‍♀	người phụ nữ quỳ màu da tối trung bình	none
 🧎🏿‍♀	người phụ nữ quỳ màu da tối	none
+🧎‍➡	người quỳ hướng sang phải	none
+🧎🏻‍➡	người quỳ màu da sáng, hướng sang phải	none
+🧎🏼‍➡	người quỳ màu da sáng trung bình, hướng sang phải	none
+🧎🏽‍➡	người quỳ màu da trung bình, hướng sang phải	none
+🧎🏾‍➡	người quỳ màu da tối trung bình, hướng sang phải	none
+🧎🏿‍➡	người quỳ màu da tối, hướng sang phải	none
+🧎‍♀‍➡	người phụ nữ quỳ hướng sang phải	none
+🧎🏻‍♀‍➡	người phụ nữ quỳ màu da sáng, hướng sang phải	none
+🧎🏼‍♀‍➡	người phụ nữ quỳ màu da sáng trung bình, hướng sang phải	none
+🧎🏽‍♀‍➡	người phụ nữ quỳ màu da trung bình, hướng sang phải	none
+🧎🏾‍♀‍➡	người phụ nữ quỳ màu da tối trung bình, hướng sang phải	none
+🧎🏿‍♀‍➡	người phụ nữ quỳ màu da tối, hướng sang phải	none
+🧎‍♂‍➡	người đàn ông quỳ hướng sang phải	none
+🧎🏻‍♂‍➡	người đàn ông quỳ màu da sáng, hướng sang phải	none
+🧎🏼‍♂‍➡	người đàn ông quỳ màu da sáng trung bình, hướng sang phải	none
+🧎🏽‍♂‍➡	người đàn ông quỳ màu da trung bình, hướng sang phải	none
+🧎🏾‍♂‍➡	người đàn ông quỳ màu da tối trung bình, hướng sang phải	none
+🧎🏿‍♂‍➡	người đàn ông quỳ màu da tối, hướng sang phải	none
 🧑🏻‍🦯	người với gậy dò đường màu da sáng	none
 🧑🏼‍🦯	người với gậy dò đường màu da sáng trung bình	none
 🧑🏽‍🦯	người với gậy dò đường màu da trung bình	none
 🧑🏾‍🦯	người với gậy dò đường màu da tối trung bình	none
 🧑🏿‍🦯	người với gậy dò đường màu da tối	none
+🧑‍🦯‍➡	người với gậy dò đường hướng sang phải	none
+🧑🏻‍🦯‍➡	người với gậy dò đường màu da sáng, hướng sang phải	none
+🧑🏼‍🦯‍➡	người với gậy dò đường màu da sáng trung bình, hướng sang phải	none
+🧑🏽‍🦯‍➡	người với gậy dò đường màu da trung bình, hướng sang phải	none
+🧑🏾‍🦯‍➡	người với gậy dò đường màu da tối trung bình, hướng sang phải	none
+🧑🏿‍🦯‍➡	người với gậy dò đường màu da tối, hướng sang phải	none
 👨🏻‍🦯	người đàn ông với gậy dò đường màu da sáng	none
 👨🏼‍🦯	người đàn ông với gậy dò đường màu da sáng trung bình	none
 👨🏽‍🦯	người đàn ông với gậy dò đường màu da trung bình	none
 👨🏾‍🦯	người đàn ông với gậy dò đường màu da tối trung bình	none
 👨🏿‍🦯	người đàn ông với gậy dò đường màu da tối	none
+👨‍🦯‍➡	người đàn ông với gậy dò đường hướng sang phải	none
+👨🏻‍🦯‍➡	người đàn ông với gậy dò đường màu da sáng, hướng sang phải	none
+👨🏼‍🦯‍➡	người đàn ông với gậy dò đường màu da sáng trung bình, hướng sang phải	none
+👨🏽‍🦯‍➡	người đàn ông với gậy dò đường màu da trung bình, hướng sang phải	none
+👨🏾‍🦯‍➡	người đàn ông với gậy dò đường màu da tối trung bình, hướng sang phải	none
+👨🏿‍🦯‍➡	người đàn ông với gậy dò đường màu da tối, hướng sang phải	none
 👩🏻‍🦯	người phụ nữ với gậy dò đường màu da sáng	none
 👩🏼‍🦯	người phụ nữ với gậy dò đường màu da sáng trung bình	none
 👩🏽‍🦯	người phụ nữ với gậy dò đường màu da trung bình	none
 👩🏾‍🦯	người phụ nữ với gậy dò đường màu da tối trung bình	none
 👩🏿‍🦯	người phụ nữ với gậy dò đường màu da tối	none
+👩‍🦯‍➡	người phụ nữ với gậy dò đường hướng sang phải	none
+👩🏻‍🦯‍➡	người phụ nữ với gậy dò đường màu da sáng, hướng sang phải	none
+👩🏼‍🦯‍➡	người phụ nữ với gậy dò đường màu da sáng trung bình, hướng sang phải	none
+👩🏽‍🦯‍➡	người phụ nữ với gậy dò đường màu da trung bình, hướng sang phải	none
+👩🏾‍🦯‍➡	người phụ nữ với gậy dò đường màu da tối trung bình, hướng sang phải	none
+👩🏿‍🦯‍➡	người phụ nữ với gậy dò đường màu da tối, hướng sang phải	none
 🧑🏻‍🦼	người trên xe lăn điện màu da sáng	none
 🧑🏼‍🦼	người trên xe lăn điện màu da sáng trung bình	none
 🧑🏽‍🦼	người trên xe lăn điện màu da trung bình	none
 🧑🏾‍🦼	người trên xe lăn điện màu da tối trung bình	none
 🧑🏿‍🦼	người trên xe lăn điện màu da tối	none
+🧑‍🦼‍➡	người trên xe lăn điện hướng sang phải	none
+🧑🏻‍🦼‍➡	người trên xe lăn điện màu da sáng, hướng sang phải	none
+🧑🏼‍🦼‍➡	người trên xe lăn điện màu da sáng trung bình, hướng sang phải	none
+🧑🏽‍🦼‍➡	người trên xe lăn điện màu da trung bình, hướng sang phải	none
+🧑🏾‍🦼‍➡	người trên xe lăn điện màu da tối trung bình, hướng sang phải	none
+🧑🏿‍🦼‍➡	người trên xe lăn điện màu da tối, hướng sang phải	none
 👨🏻‍🦼	người đàn ông trên xe lăn điện màu da sáng	none
 👨🏼‍🦼	người đàn ông trên xe lăn điện màu da sáng trung bình	none
 👨🏽‍🦼	người đàn ông trên xe lăn điện màu da trung bình	none
 👨🏾‍🦼	người đàn ông trên xe lăn điện màu da tối trung bình	none
 👨🏿‍🦼	người đàn ông trên xe lăn điện màu da tối	none
+👨‍🦼‍➡	người đàn ông trên xe lăn điện hướng sang phải	none
+👨🏻‍🦼‍➡	người đàn ông trên xe lăn điện màu da sáng, hướng sang phải	none
+👨🏼‍🦼‍➡	người đàn ông trên xe lăn điện màu da sáng trung bình, hướng sang phải	none
+👨🏽‍🦼‍➡	người đàn ông trên xe lăn điện màu da trung bình, hướng sang phải	none
+👨🏾‍🦼‍➡	người đàn ông trên xe lăn điện màu da tối trung bình, hướng sang phải	none
+👨🏿‍🦼‍➡	người đàn ông trên xe lăn điện màu da tối, hướng sang phải	none
 👩🏻‍🦼	người phụ nữ trên xe lăn điện màu da sáng	none
 👩🏼‍🦼	người phụ nữ trên xe lăn điện màu da sáng trung bình	none
 👩🏽‍🦼	người phụ nữ trên xe lăn điện màu da trung bình	none
 👩🏾‍🦼	người phụ nữ trên xe lăn điện màu da tối trung bình	none
 👩🏿‍🦼	người phụ nữ trên xe lăn điện màu da tối	none
+👩‍🦼‍➡	người phụ nữ trên xe lăn điện hướng sang phải	none
+👩🏻‍🦼‍➡	người phụ nữ trên xe lăn điện màu da sáng, hướng sang phải	none
+👩🏼‍🦼‍➡	người phụ nữ trên xe lăn điện màu da sáng trung bình, hướng sang phải	none
+👩🏽‍🦼‍➡	người phụ nữ trên xe lăn điện màu da trung bình, hướng sang phải	none
+👩🏾‍🦼‍➡	người phụ nữ trên xe lăn điện màu da tối trung bình, hướng sang phải	none
+👩🏿‍🦼‍➡	người phụ nữ trên xe lăn điện màu da tối, hướng sang phải	none
 🧑🏻‍🦽	người trên xe lăn tay màu da sáng	none
 🧑🏼‍🦽	người trên xe lăn tay màu da sáng trung bình	none
 🧑🏽‍🦽	người trên xe lăn tay màu da trung bình	none
 🧑🏾‍🦽	người trên xe lăn tay màu da tối trung bình	none
 🧑🏿‍🦽	người trên xe lăn tay màu da tối	none
+🧑‍🦽‍➡	người trên xe lăn tay hướng sang phải	none
+🧑🏻‍🦽‍➡	người trên xe lăn tay màu da sáng, hướng sang phải	none
+🧑🏼‍🦽‍➡	người trên xe lăn tay màu da sáng trung bình, hướng sang phải	none
+🧑🏽‍🦽‍➡	người trên xe lăn tay màu da trung bình, hướng sang phải	none
+🧑🏾‍🦽‍➡	người trên xe lăn tay màu da tối trung bình, hướng sang phải	none
+🧑🏿‍🦽‍➡	người trên xe lăn tay màu da tối, hướng sang phải	none
 👨🏻‍🦽	người đàn ông trên xe lăn tay màu da sáng	none
 👨🏼‍🦽	người đàn ông trên xe lăn tay màu da sáng trung bình	none
 👨🏽‍🦽	người đàn ông trên xe lăn tay màu da trung bình	none
 👨🏾‍🦽	người đàn ông trên xe lăn tay màu da tối trung bình	none
 👨🏿‍🦽	người đàn ông trên xe lăn tay màu da tối	none
+👨‍🦽‍➡	người đàn ông trên xe lăn tay hướng sang phải	none
+👨🏻‍🦽‍➡	người đàn ông trên xe lăn tay màu da sáng, hướng sang phải	none
+👨🏼‍🦽‍➡	người đàn ông trên xe lăn tay màu da sáng trung bình, hướng sang phải	none
+👨🏽‍🦽‍➡	người đàn ông trên xe lăn tay màu da trung bình, hướng sang phải	none
+👨🏾‍🦽‍➡	người đàn ông trên xe lăn tay màu da tối trung bình, hướng sang phải	none
+👨🏿‍🦽‍➡	người đàn ông trên xe lăn tay màu da tối, hướng sang phải	none
 👩🏻‍🦽	người phụ nữ trên xe lăn tay màu da sáng	none
 👩🏼‍🦽	người phụ nữ trên xe lăn tay màu da sáng trung bình	none
 👩🏽‍🦽	người phụ nữ trên xe lăn tay màu da trung bình	none
 👩🏾‍🦽	người phụ nữ trên xe lăn tay màu da tối trung bình	none
 👩🏿‍🦽	người phụ nữ trên xe lăn tay màu da tối	none
+👩‍🦽‍➡	người phụ nữ trên xe lăn tay hướng sang phải	none
+👩🏻‍🦽‍➡	người phụ nữ trên xe lăn tay màu da sáng, hướng sang phải	none
+👩🏼‍🦽‍➡	người phụ nữ trên xe lăn tay màu da sáng trung bình, hướng sang phải	none
+👩🏽‍🦽‍➡	người phụ nữ trên xe lăn tay màu da trung bình, hướng sang phải	none
+👩🏾‍🦽‍➡	người phụ nữ trên xe lăn tay màu da tối trung bình, hướng sang phải	none
+👩🏿‍🦽‍➡	người phụ nữ trên xe lăn tay màu da tối, hướng sang phải	none
 🏃🏻	người chạy màu da sáng	none
 🏃🏼	người chạy màu da sáng trung bình	none
 🏃🏽	người chạy màu da trung bình	none
@@ -2947,6 +3476,29 @@ symbols:
 🏃🏽‍♀	người phụ nữ đang chạy màu da trung bình	none
 🏃🏾‍♀	người phụ nữ đang chạy màu da tối trung bình	none
 🏃🏿‍♀	người phụ nữ đang chạy màu da tối	none
+🏃‍➡	người chạy hướng sang phải	none
+🏃🏻‍➡	người chạy màu da sáng, hướng sang phải	none
+🏃🏼‍➡	người chạy màu da sáng trung bình, hướng sang phải	none
+🏃🏽‍➡	người chạy màu da trung bình, hướng sang phải	none
+🏃🏾‍➡	người chạy màu da tối trung bình, hướng sang phải	none
+🏃🏿‍➡	người chạy màu da tối, hướng sang phải	none
+🏃‍♀‍➡	người phụ nữ đang chạy hướng sang phải	none
+🏃🏻‍♀‍➡	người phụ nữ đang chạy màu da sáng, hướng sang phải	none
+🏃🏼‍♀‍➡	người phụ nữ đang chạy màu da sáng trung bình, hướng sang phải	none
+🏃🏽‍♀‍➡	người phụ nữ đang chạy màu da trung bình, hướng sang phải	none
+🏃🏾‍♀‍➡	người phụ nữ đang chạy màu da tối trung bình, hướng sang phải	none
+🏃🏿‍♀‍➡	người phụ nữ đang chạy màu da tối, hướng sang phải	none
+🏃‍♂‍➡	người đàn ông đang chạy hướng sang phải	none
+🏃🏻‍♂‍➡	người đàn ông đang chạy màu da sáng, hướng sang phải	none
+🏃🏼‍♂‍➡	người đàn ông đang chạy màu da sáng trung bình, hướng sang phải	none
+🏃🏽‍♂‍➡	người đàn ông đang chạy màu da trung bình, hướng sang phải	none
+🏃🏾‍♂‍➡	người đàn ông đang chạy màu da tối trung bình, hướng sang phải	none
+🏃🏿‍♂‍➡	người đàn ông đang chạy màu da tối, hướng sang phải	none
+🧑🏻‍🩰	vũ công ba lê màu da sáng	none
+🧑🏼‍🩰	vũ công ba lê màu da sáng trung bình	none
+🧑🏽‍🩰	vũ công ba lê màu da trung bình	none
+🧑🏾‍🩰	vũ công ba lê màu da tối trung bình	none
+🧑🏿‍🩰	vũ công ba lê màu da tối	none
 💃🏻	người phụ nữ đang khiêu vũ màu da sáng	none
 💃🏼	người phụ nữ đang khiêu vũ màu da sáng trung bình	none
 💃🏽	người phụ nữ đang khiêu vũ màu da trung bình	none
@@ -2962,6 +3514,21 @@ symbols:
 🕴🏽	người đàn ông mặc vest đang bay lên màu da trung bình	none
 🕴🏾	người đàn ông mặc vest đang bay lên màu da tối trung bình	none
 🕴🏿	người đàn ông mặc vest đang bay lên màu da tối	none
+👯🏻	những người đeo tai thỏ màu da sáng	none
+👯🏼	những người đeo tai thỏ màu da sáng trung bình	none
+👯🏽	những người đeo tai thỏ màu da trung bình	none
+👯🏾	những người đeo tai thỏ màu da tối trung bình	none
+👯🏿	những người đeo tai thỏ màu da tối	none
+👯🏻‍♂	những người đàn ông đeo tai thỏ màu da sáng	none
+👯🏼‍♂	những người đàn ông đeo tai thỏ màu da sáng trung bình	none
+👯🏽‍♂	những người đàn ông đeo tai thỏ màu da trung bình	none
+👯🏾‍♂	những người đàn ông đeo tai thỏ màu da tối trung bình	none
+👯🏿‍♂	những người đàn ông đeo tai thỏ màu da tối	none
+👯🏻‍♀	những người phụ nữ đeo tai thỏ màu da sáng	none
+👯🏼‍♀	những người phụ nữ đeo tai thỏ màu da sáng trung bình	none
+👯🏽‍♀	những người phụ nữ đeo tai thỏ màu da trung bình	none
+👯🏾‍♀	những người phụ nữ đeo tai thỏ màu da tối trung bình	none
+👯🏿‍♀	những người phụ nữ đeo tai thỏ màu da tối	none
 🧖🏻	người ở trong phòng xông hơi màu da sáng	none
 🧖🏼	người ở trong phòng xông hơi màu da sáng trung bình	none
 🧖🏽	người ở trong phòng xông hơi màu da trung bình	none
@@ -3137,6 +3704,21 @@ symbols:
 🤸🏽‍♀	người phụ nữ nhào lộn màu da trung bình	none
 🤸🏾‍♀	người phụ nữ nhào lộn màu da tối trung bình	none
 🤸🏿‍♀	người phụ nữ nhào lộn màu da tối	none
+🤼🏻	người chơi vật màu da sáng	none
+🤼🏼	người chơi vật màu da sáng trung bình	none
+🤼🏽	người chơi vật màu da trung bình	none
+🤼🏾	người chơi vật màu da tối trung bình	none
+🤼🏿	người chơi vật màu da tối	none
+🤼🏻‍♂	những người đàn ông chơi vật màu da sáng	none
+🤼🏼‍♂	những người đàn ông chơi vật màu da sáng trung bình	none
+🤼🏽‍♂	những người đàn ông chơi vật màu da trung bình	none
+🤼🏾‍♂	những người đàn ông chơi vật màu da tối trung bình	none
+🤼🏿‍♂	những người đàn ông chơi vật màu da tối	none
+🤼🏻‍♀	những người phụ nữ chơi vật màu da sáng	none
+🤼🏼‍♀	những người phụ nữ chơi vật màu da sáng trung bình	none
+🤼🏽‍♀	những người phụ nữ chơi vật màu da trung bình	none
+🤼🏾‍♀	những người phụ nữ chơi vật màu da tối trung bình	none
+🤼🏿‍♀	những người phụ nữ chơi vật màu da tối	none
 🤽🏻	người chơi bóng nước màu da sáng	none
 🤽🏼	người chơi bóng nước màu da sáng trung bình	none
 🤽🏽	người chơi bóng nước màu da trung bình	none
@@ -3362,7 +3944,7 @@ symbols:
 🇦🇷	cờ Argentina	none
 🇦🇸	cờ Samoa thuộc Mỹ	none
 🇦🇹	cờ Áo	none
-🇦🇺	cờ Australia	none
+🇦🇺	cờ Úc	none
 🇦🇼	cờ Aruba	none
 🇦🇽	cờ Quần đảo Åland	none
 🇦🇿	cờ Azerbaijan	none
@@ -3400,6 +3982,7 @@ symbols:
 🇨🇳	cờ Trung Quốc	none
 🇨🇴	cờ Colombia	none
 🇨🇵	cờ Đảo Clipperton	none
+🇨🇶	cờ Sark	none
 🇨🇷	cờ Costa Rica	none
 🇨🇺	cờ Cuba	none
 🇨🇻	cờ Cape Verde	none
@@ -3588,7 +4171,7 @@ symbols:
 🇺🇦	cờ Ukraina	none
 🇺🇬	cờ Uganda	none
 🇺🇲	cờ Các tiểu đảo xa của Hoa Kỳ	none
-🇺🇳	cờ Liên hiệp quốc	none
+🇺🇳	cờ Liên hợp quốc	none
 🇺🇸	cờ Hoa Kỳ	none
 🇺🇾	cờ Uruguay	none
 🇺🇿	cờ Uzbekistan	none
@@ -3612,7 +4195,6 @@ symbols:
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	cờ Xứ Wales	none
 ₡	Colón Costa Rica	none
 ₦	Naira Nigeria	none
-₧	Đồng Peseta Tây Ban Nha	none
 ₪	Sheqel Israel mới	none
 ₫	Đồng Việt Nam	none
 ₭	Kip Lào	none
@@ -3624,3 +4206,4 @@ symbols:
 ₺	Lia Thổ Nhĩ Kỳ	none
 ₼	Manat Azerbaijan	none
 ₾	Lari Georgia	none
+₧	Đồng Peseta Tây Ban Nha	none

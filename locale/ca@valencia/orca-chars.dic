@@ -2,7 +2,7 @@
 # DO NOT MODIFY IT!
 # See locale/README.md to know how to import dictionaries
 
-# locale/ca@valencia/orca.dic
+# locale/ca@valencia/orca-chars.dic
 # Copyright (C) 2004-2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the orca package.
 
@@ -25,6 +25,7 @@ symbols:
 Ó	O AGUDA	char	norep
 Õ	O TITLLA	char	norep
 Ö	O DIÈRESI	char	norep
+×	signe de multiplicació	some
 Ø	O BARRADA	char	norep
 Ù	U GREU	char	norep
 Ú	U AGUDA	char	norep
@@ -47,6 +48,7 @@ symbols:
 ó	o aguda	char	norep
 õ	o titlla	char	norep
 ö	o dièresi	char	norep
+÷	divisió	some
 ø	o barrada	char	norep
 ú	u aguda	char	norep
 ù	u greu	char	norep

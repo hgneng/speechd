@@ -274,7 +274,8 @@ symbols:
 😂	ansikte med glädjetårar	none
 🙂	småleende ansikte	none
 🙃	upp-och-nervänt ansikte	none
-😉	ansikte som blinkar med ögonen	none
+🫠	smältande ansikte	none
+😉	ansikte som blinkar med ett öga	none
 😊	leende ansikte och ögon	none
 😇	leende ansikte med gloria	none
 🥰	leende ansikte med tre hjärtan	none
@@ -294,13 +295,17 @@ symbols:
 🤑	ansikte med dollarögon	none
 🤗	ansikte som kramas	none
 🤭	ansikte med handen för munnen	none
+🫢	ansikte med öppna ögon och hand för munnen	none
+🫣	ansikte med kikande öga	none
 🤫	hyssjande ansikte	none
 🤔	ansikte som tänker	none
+🫡	ansikte som gör honnör	none
 🤐	ansikte som tiger	none
 🤨	ansikte med höjt ögonbryn	none
 😐	neutralt ansikte	none
 😑	uttryckslöst ansikte	none
 😶	ansikte utan mun	none
+🫥	osynligt ansikte	none
 😶‍🌫	ansikte i moln	none
 😏	halvleende ansikte	none
 😒	missnöjt ansikte	none
@@ -308,11 +313,15 @@ symbols:
 😬	grimaserande ansikte	none
 😮‍💨	ansikte andas ut	none
 🤥	ljugande ansikte	none
+🫨	skakande ansikte	none
+🙂‍↔	huvud skakar horisontellt	none
+🙂‍↕	huvud skakar vertikalt	none
 😌	lättat ansikte	none
 😔	funderande ansikte	none
 😪	sömnigt ansikte	none
 🤤	dreglande ansikte	none
 😴	sovande ansikte	none
+🫩	ansikte med påsar under ögonen	none
 😷	ansikte med munskydd	none
 🤒	ansikte med termometer	none
 🤕	ansikte med bandage på huvudet	none
@@ -332,6 +341,7 @@ symbols:
 🤓	nördansikte	none
 🧐	ansikte med monokel	none
 😕	förbryllat ansikte	none
+🫤	ansikte med diagonal mun	none
 😟	bekymrat ansikte	none
 🙁	ansikte med lite sur mun	none
 ☹	ansikte med sur mun	none
@@ -339,7 +349,9 @@ symbols:
 😯	hyssjat ansikte	none
 😲	chockat ansikte	none
 😳	rodnande ansikte	none
+🫪	ansikte i närbild	none
 🥺	bönfallande ansikte	none
+🥹	ansikte som håller tillbaka tårarna	none
 😦	ogillande ansikte med öppen mun	none
 😧	plågat ansikte	none
 😨	skrämt ansikte	none
@@ -356,7 +368,7 @@ symbols:
 😫	trött ansikte	none
 🥱	gäspande ansikte	none
 😤	ansikte med ånga ur näsan	none
-😡	plutande ansikte	none
+😡	rasande ansikte	none
 😠	argt ansikte	none
 🤬	ansikte med symboler på munnen	none
 😈	leende ansikte med horn	none
@@ -383,7 +395,6 @@ symbols:
 🙈	apa ser inget	none
 🙉	apa hör inget	none
 🙊	apa säger inget	none
-💋	läppavtryck	none
 💌	kärleksbrev	none
 💘	hjärta med pil	none
 💝	hjärta med rosett	none
@@ -398,22 +409,26 @@ symbols:
 ❤‍🔥	brinnande hjärta	none
 ❤‍🩹	läkande hjärta	none
 ❤	rött hjärta	none
+🩷	rosa hjärta	none
 🧡	hjärta i orange	none
 💛	gult hjärta	none
 💚	grönt hjärta	none
 💙	blått hjärta	none
+🩵	ljusblått hjärta	none
 💜	lila hjärta	none
 🤎	brunt hjärta	none
 🖤	svart hjärta	none
+🩶	grått hjärta	none
 🤍	vitt hjärta	none
+💋	läppavtryck	none
 💯	100 poäng	none
 💢	symbol för ilska	none
+🫯	slagsmål	none
 💥	explosion	none
 💫	omtumlad	none
 💦	stänkande svett	none
 💨	fartsymbol	none
 🕳	hål	none
-💣	bomb	none
 💬	pratbubbla	none
 👁‍🗨	öga i pratbubbla	none
 🗨	pratbubbla åt vänster	none
@@ -425,11 +440,18 @@ symbols:
 🖐	hand med utspretade fingrar	none
 ✋	hand i luften	none
 🖖	vulcan-hälsning	none
+🫱	hand som pekar till höger	none
+🫲	hand som pekar till vänster	none
+🫳	handflatan nedåt	none
+🫴	handflatan uppåt	none
+🫷	hand som knuffar åt vänster	none
+🫸	hand som knuffar åt höger	none
 👌	OK-tecken	none
 🤌	fingerportmonnä	none
 🤏	nypande hand	none
 ✌	v-tecken	none
 🤞	korsade fingrar	none
+🫰	hand med tummen och pekfingret korsade	none
 🤟	jag älskar dig-gest	none
 🤘	djävulstecknet	none
 🤙	ring mig-hand	none
@@ -439,6 +461,7 @@ symbols:
 🖕	långfinger upp	none
 👇	nedåtpekande finger	none
 ☝	finger upp	none
+🫵	finger som pekar på mig	none
 👍	tummen upp	none
 👎	tummen ned	none
 ✊	knytnäve i luften	none
@@ -447,6 +470,7 @@ symbols:
 🤜	högervänd näve	none
 👏	klappande händer	none
 🙌	båda händerna i luften	none
+🫶	handhjärta	none
 👐	öppna händer	none
 🤲	handflatorna upp	none
 🤝	handskakning	none
@@ -471,6 +495,7 @@ symbols:
 👁	öga	none
 👅	tunga	none
 👄	mun	none
+🫦	biter i läppen	none
 👶	bebis	none
 🧒	barn	none
 👦	pojke	none
@@ -507,7 +532,7 @@ symbols:
 🙋‍♀	kvinna som räcker upp handen	none
 🧏	hörselskadad person	none
 🧏‍♂	hörselskadad man	none
-🧏‍♀	hörselskada kvinna	none
+🧏‍♀	hörselskadad kvinna	none
 🙇	bugande person	none
 🙇‍♂	bugande man	none
 🙇‍♀	bugande kvinna	none
@@ -578,6 +603,7 @@ symbols:
 👷	byggarbetare	none
 👷‍♂	manlig byggarbetare	none
 👷‍♀	kvinnlig byggarbetare	none
+🫅	person med krona	none
 🤴	prins	none
 👸	prinsessa	none
 👳	man med turban	none
@@ -592,6 +618,8 @@ symbols:
 👰‍♂	man i brudslöja	none
 👰‍♀	kvinna i brudslöja	none
 🤰	gravid kvinna	none
+🫃	gravid man	none
+🫄	gravid person	none
 🤱	amning	none
 👩‍🍼	kvinna matar spädbarn	none
 👨‍🍼	man matar spädbarn	none
@@ -627,6 +655,8 @@ symbols:
 🧟	zombie	none
 🧟‍♂	manlig zombie	none
 🧟‍♀	kvinnlig zombie	none
+🧌	troll	none
+🫈	hårig varelse	none
 💆	person som blir masserad	none
 💆‍♂	man som blir masserad	none
 💆‍♀	kvinna som blir masserad	none
@@ -654,6 +684,7 @@ symbols:
 🏃	person som springer	none
 🏃‍♂	man som springer	none
 🏃‍♀	kvinna som springer	none
+🧑‍🩰	balettdansare	none
 💃	dansande kvinna	none
 🕺	dansande man	none
 🕴	svävande man i kostym	none
@@ -720,12 +751,17 @@ symbols:
 👬	två män håller hand	none
 💏	puss	none
 💑	par med hjärta	none
-👪	familj	none
 🗣	silhuett som talar	none
 👤	figur i silhuett	none
 👥	figurer i silhuett	none
 🫂	personer kramas	none
+👪	familj	none
+🧑‍🧑‍🧒	familj vuxen, vuxen, barn	none
+🧑‍🧑‍🧒‍🧒	familj vuxen, vuxen, barn, barn	none
+🧑‍🧒	familj vuxen, barn	none
+🧑‍🧒‍🧒	familj vuxen, barn, barn	none
 👣	fotavtryck	none
+🫆	fingeravtryck	none
 🦰	rödhårig	none
 🦱	lockigt hår	none
 🦳	vithårig	none
@@ -750,6 +786,8 @@ symbols:
 🐅	tiger	none
 🐆	leopard	none
 🐴	hästansikte	none
+🫎	älg	none
+🫏	åsna	none
 🐎	häst	none
 🦄	enhörningsansikte	none
 🦓	zebra	none
@@ -812,6 +850,10 @@ symbols:
 🦩	flamingo	none
 🦚	påfågel	none
 🦜	papegoja	none
+🪽	vinge	none
+🐦‍⬛	koltrast	none
+🪿	gås	none
+🐦‍🔥	fenix	none
 🐸	grodansikte	none
 🐊	krokodil	none
 🐢	sköldpadda	none
@@ -824,6 +866,7 @@ symbols:
 🐳	val som sprutar vatten	none
 🐋	val	none
 🐬	delfin	none
+🫍	späckhuggare	none
 🦭	säl	none
 🐟	fisk	none
 🐠	tropisk fisk	none
@@ -831,6 +874,13 @@ symbols:
 🦈	haj	none
 🐙	bläckfisk	none
 🐚	snäcka	none
+🪸	korall	none
+🪼	manet	none
+🦀	krabba	none
+🦞	hummer	none
+🦐	räka	none
+🦑	mindre bläckfisk	none
+🦪	ostron	none
 🐌	snigel	none
 🦋	fjäril	none
 🐛	tusenfoting	none
@@ -850,6 +900,7 @@ symbols:
 💐	blombukett	none
 🌸	körsbärsblomma	none
 💮	vit blomma	none
+🪷	lotus	none
 🏵	bandros	none
 🌹	ros	none
 🥀	vissnad blomma	none
@@ -857,6 +908,7 @@ symbols:
 🌻	solros	none
 🌼	blomma	none
 🌷	tulpan	none
+🪻	hyacint	none
 🌱	skott	none
 🪴	krukväxt	none
 🌲	barrträd	none
@@ -870,11 +922,16 @@ symbols:
 🍁	lönnlöv	none
 🍂	fallande löv	none
 🍃	löv i vinden	none
+🪹	tomt bo	none
+🪺	bo med ägg	none
+🍄	svamp	none
+🪾	träd utan löv	none
 🍇	vindruvor	none
 🍈	melon	none
 🍉	vattenmelon	none
 🍊	mandarin	none
 🍋	citron	none
+🍋‍🟩	lime	none
 🍌	banan	none
 🍍	ananas	none
 🥭	mango	none
@@ -901,9 +958,13 @@ symbols:
 🥦	broccoli	none
 🧄	vitlök	none
 🧅	lök	none
-🍄	svamp	none
 🥜	jordnötter	none
+🫘	bönor	none
 🌰	kastanj	none
+🫚	ingefära	none
+🫛	ärtskida	none
+🍄‍🟫	brun svamp	none
+🫜	rotfrukt	none
 🍞	bröd	none
 🥐	croissant	none
 🥖	baguette	none
@@ -929,7 +990,7 @@ symbols:
 🧆	falafel	none
 🥚	ägg	none
 🍳	matlagning	none
-🥘	stekpanna	none
+🥘	paella	none
 🍲	gryta	none
 🫕	fondue	none
 🥣	skål och sked	none
@@ -955,11 +1016,6 @@ symbols:
 🥟	dumpling	none
 🥠	lyckokaka	none
 🥡	hämtmatkartong	none
-🦀	krabba	none
-🦞	hummer	none
-🦐	räka	none
-🦑	mindre bläckfisk	none
-🦪	ostron	none
 🍦	mjukglass	none
 🍧	kakigōri	none
 🍨	glass	none
@@ -988,6 +1044,7 @@ symbols:
 🍻	skålande ölstop	none
 🥂	skålande glas	none
 🥃	whiskyglas	none
+🫗	hälla vätska	none
 🥤	mugg med sugrör	none
 🧋	bubbelte	none
 🧃	dryckeskartong	none
@@ -998,6 +1055,7 @@ symbols:
 🍴	kniv och gaffel	none
 🥄	sked	none
 🔪	kökskniv	none
+🫙	burk	none
 🏺	amfora	none
 🌍	jordglob Europa–Afrika	none
 🌎	jordglob nord- och sydamerika	none
@@ -1008,6 +1066,7 @@ symbols:
 🧭	kompass	none
 🏔	snöklätt berg	none
 ⛰	berg	none
+🛘	jordskred	none
 🌋	vulkan	none
 🗻	Fuji	none
 🏕	camping	none
@@ -1060,6 +1119,7 @@ symbols:
 🌉	bro på natten	none
 ♨	varma källor	none
 🎠	karusellhäst	none
+🛝	rutschbana	none
 🎡	pariserhjul	none
 🎢	berg- och dalbana	none
 💈	barberarstolpe	none
@@ -1108,12 +1168,14 @@ symbols:
 🛤	räls	none
 🛢	oljefat	none
 ⛽	bränslepump	none
+🛞	hjul	none
 🚨	polisbilslampa	none
 🚥	vågräta trafikljus	none
 🚦	lodräta trafikljus	none
 🛑	stoppskylt	none
 🚧	skylt för byggområde	none
 ⚓	ankare	none
+🛟	livboj	none
 ⛵	segelbåt	none
 🛶	kanot	none
 🚤	racerbåt	none
@@ -1271,10 +1333,10 @@ symbols:
 🎯	mitt i prick	none
 🪀	jojo	none
 🪁	flygande drake	none
+🔫	vattenpistol	none
 🎱	biljardboll	none
 🔮	kristallkula	none
 🪄	trollspö	none
-🧿	onda ögat-sten	none
 🎮	tv-spel	none
 🕹	joystick	none
 🎰	enarmad bandit	none
@@ -1282,6 +1344,7 @@ symbols:
 🧩	pusselbit	none
 🧸	nallebjörn	none
 🪅	piñata	none
+🪩	discokula	none
 🪆	ryska dockor	none
 ♠	spader	none
 ♥	hjärter	none
@@ -1318,6 +1381,7 @@ symbols:
 🩳	shorts	none
 👙	bikini	none
 👚	blus	none
+🪭	solfjäder	none
 👛	portmonnä	none
 👜	handväska	none
 👝	kuvertväska	none
@@ -1332,6 +1396,7 @@ symbols:
 👡	damsandal	none
 🩰	ballettskor	none
 👢	damstövel	none
+🪮	afrokam	none
 👑	krona	none
 👒	damhatt	none
 🎩	hög hatt	none
@@ -1362,14 +1427,18 @@ symbols:
 🎧	hörlur	none
 📻	radio	none
 🎷	saxofon	none
+🎺	trumpet	none
+🪊	trombon	none
 🪗	dragspel	none
 🎸	gitarr	none
 🎹	klaviatur	none
-🎺	trumpet	none
 🎻	fiol	none
 🪕	banjo	none
 🥁	trumma	none
 🪘	congatrumma	none
+🪇	maracas	none
+🪈	flöjt	none
+🪉	harpa	none
 📱	mobiltelefon	none
 📲	mobiltelefon med pil	none
 ☎	telefon	none
@@ -1377,6 +1446,7 @@ symbols:
 📟	personsökare	none
 📠	fax	none
 🔋	batteri	none
+🪫	låg batterinivå	none
 🔌	elkontakt	none
 💻	bärbar dator	none
 🖥	stationär dator	none
@@ -1422,8 +1492,9 @@ symbols:
 📑	bokmärkesflikar	none
 🔖	bokmärke	none
 🏷	etikett	none
-💰	pengapåse	none
 🪙	mynt	none
+💰	pengapåse	none
+🪎	skattkista	none
 💴	yensedel	none
 💵	dollarsedel	none
 💶	eurosedel	none
@@ -1433,7 +1504,7 @@ symbols:
 🧾	kvitto	none
 💹	stigande diagram med yen	none
 ✉	kuvert	none
-📧	e-postsymbol	none
+📧	e-post	none
 📨	inkommande brev	none
 📩	kuvert med pil	none
 📤	utkorg	none
@@ -1488,7 +1559,7 @@ symbols:
 🛠	hammare och skiftnyckel	none
 🗡	dolk	none
 ⚔	korslagda svärd	none
-🔫	vattenpistol	none
+💣	bomb	none
 🪃	boomerang	none
 🏹	pil och båge	none
 🛡	sköld	none
@@ -1501,11 +1572,13 @@ symbols:
 ⚖	balansvåg	none
 🦯	blindkäpp	none
 🔗	länk	none
+⛓‍💥	bruten länk	none
 ⛓	kedjor	none
 🪝	krok	none
 🧰	verktygslåda	none
 🧲	magnet	none
 🪜	stege	none
+🪏	spade	none
 ⚗	retort	none
 🧪	provrör	none
 🧫	petriskål	none
@@ -1517,7 +1590,9 @@ symbols:
 🩸	blodsdroppe	none
 💊	piller	none
 🩹	plåster	none
+🩼	krycka	none
 🩺	stetoskop	none
+🩻	röntgen	none
 🚪	dörr	none
 🛗	hiss	none
 🪞	spegel	none
@@ -1538,6 +1613,7 @@ symbols:
 🧻	toarulle	none
 🪣	spann	none
 🧼	tvål	none
+🫧	bubblor	none
 🪥	tandborste	none
 🧽	tvättsvamp	none
 🧯	brandsläckare	none
@@ -1546,8 +1622,11 @@ symbols:
 ⚰	kista	none
 🪦	gravsten	none
 ⚱	begravningsurna	none
+🧿	onda ögat-sten	none
+🪬	hamsa	none
 🗿	staty	none
 🪧	plakat	none
+🪪	ID-kort	none
 🏧	bankomat	none
 🚮	soptunna	none
 🚰	dricksvatten	none
@@ -1608,6 +1687,7 @@ symbols:
 ☮	fredssymbol	none
 🕎	menora	none
 🔯	sexuddig stjärna med prick	none
+🪯	khanda	none
 ♈	Väduren	none
 ♉	Oxen	none
 ♊	Tvillingarna	none
@@ -1643,6 +1723,7 @@ symbols:
 🔅	låg ljusstyrka	none
 🔆	hög ljusstyrka	none
 📶	stapel signalstyrka	none
+🛜	trådlös	none
 📳	vibrationsläge	none
 📴	avstängd mobil	none
 ♀	kvinnosymbol	none
@@ -1652,6 +1733,7 @@ symbols:
 ➕	addera	none
 ➖	subtrahera	none
 ➗	dividera	none
+🟰	fetstilt likamedtecken	none
 ♾	oändlighet	none
 ❓	rött frågetecken	none
 ❔	vitt frågetecken	none
@@ -1677,6 +1759,7 @@ symbols:
 ✴	åttauddig stjärna	none
 ❇	glittra	none
 ™	skyddat varumärke	none
+🫟	stänk	none
 🔠	versaler	none
 🔡	gemener	none
 🔢	siffror	none
@@ -1781,6 +1864,56 @@ symbols:
 🖖🏽	vulcan-hälsning mellanfärgad hy	none
 🖖🏾	vulcan-hälsning mellanmörk hy	none
 🖖🏿	vulcan-hälsning mörk hy	none
+🫱🏻	hand som pekar till höger ljus hy	none
+🫱🏼	hand som pekar till höger mellanljus hy	none
+🫱🏽	hand som pekar till höger mellanfärgad hy	none
+🫱🏾	hand som pekar till höger mellanmörk hy	none
+🫱🏿	hand som pekar till höger mörk hy	none
+🫱🏻‍🫲🏼	handskakning ljus hy, mellanljus hy	none
+🫱🏻‍🫲🏽	handskakning ljus hy, mellanfärgad hy	none
+🫱🏻‍🫲🏾	handskakning ljus hy, mellanmörk hy	none
+🫱🏻‍🫲🏿	handskakning ljus hy, mörk hy	none
+🫱🏼‍🫲🏻	handskakning mellanljus hy, ljus hy	none
+🫱🏼‍🫲🏽	handskakning mellanljus hy, mellanfärgad hy	none
+🫱🏼‍🫲🏾	handskakning mellanljus hy, mellanmörk hy	none
+🫱🏼‍🫲🏿	handskakning mellanljus hy, mörk hy	none
+🫱🏽‍🫲🏻	handskakning mellanfärgad hy, ljus hy	none
+🫱🏽‍🫲🏼	handskakning mellanfärgad hy, mellanljus hy	none
+🫱🏽‍🫲🏾	handskakning mellanfärgad hy, mellanmörk hy	none
+🫱🏽‍🫲🏿	handskakning mellanfärgad hy, mörk hy	none
+🫱🏾‍🫲🏻	handskakning mellanmörk hy, ljus hy	none
+🫱🏾‍🫲🏼	handskakning mellanmörk hy, mellanljus hy	none
+🫱🏾‍🫲🏽	handskakning mellanmörk hy, mellanfärgad hy	none
+🫱🏾‍🫲🏿	handskakning mellanmörk hy, mörk hy	none
+🫱🏿‍🫲🏻	handskakning mörk hy, ljus hy	none
+🫱🏿‍🫲🏼	handskakning mörk hy, mellanljus hy	none
+🫱🏿‍🫲🏽	handskakning mörk hy, mellanfärgad hy	none
+🫱🏿‍🫲🏾	handskakning mörk hy, mellanmörk hy	none
+🫲🏻	hand som pekar till vänster ljus hy	none
+🫲🏼	hand som pekar till vänster mellanljus hy	none
+🫲🏽	hand som pekar till vänster mellanfärgad hy	none
+🫲🏾	hand som pekar till vänster mellanmörk hy	none
+🫲🏿	hand som pekar till vänster mörk hy	none
+🫳🏻	handflatan nedåt ljus hy	none
+🫳🏼	handflatan nedåt mellanljus hy	none
+🫳🏽	handflatan nedåt mellanfärgad hy	none
+🫳🏾	handflatan nedåt mellanmörk hy	none
+🫳🏿	handflatan nedåt mörk hy	none
+🫴🏻	handflatan uppåt ljus hy	none
+🫴🏼	handflatan uppåt mellanljus hy	none
+🫴🏽	handflatan uppåt mellanfärgad hy	none
+🫴🏾	handflatan uppåt mellanmörk hy	none
+🫴🏿	handflatan uppåt mörk hy	none
+🫷🏻	hand som knuffar åt vänster ljus hy	none
+🫷🏼	hand som knuffar åt vänster mellanljus hy	none
+🫷🏽	hand som knuffar åt vänster mellanfärgad hy	none
+🫷🏾	hand som knuffar åt vänster mellanmörk hy	none
+🫷🏿	hand som knuffar åt vänster mörk hy	none
+🫸🏻	hand som knuffar åt höger ljus hy	none
+🫸🏼	hand som knuffar åt höger mellanljus hy	none
+🫸🏽	hand som knuffar åt höger mellanfärgad hy	none
+🫸🏾	hand som knuffar åt höger mellanmörk hy	none
+🫸🏿	hand som knuffar åt höger mörk hy	none
 👌🏻	OK-tecken ljus hy	none
 👌🏼	OK-tecken mellanljus hy	none
 👌🏽	OK-tecken mellanfärgad hy	none
@@ -1806,6 +1939,11 @@ symbols:
 🤞🏽	korsade fingrar mellanfärgad hy	none
 🤞🏾	korsade fingrar mellanmörk hy	none
 🤞🏿	korsade fingrar mörk hy	none
+🫰🏻	hand med tummen och pekfingret korsade ljus hy	none
+🫰🏼	hand med tummen och pekfingret korsade mellanljus hy	none
+🫰🏽	hand med tummen och pekfingret korsade mellanfärgad hy	none
+🫰🏾	hand med tummen och pekfingret korsade mellanmörk hy	none
+🫰🏿	hand med tummen och pekfingret korsade mörk hy	none
 🤟🏻	jag älskar dig-gest ljus hy	none
 🤟🏼	jag älskar dig-gest mellanljus hy	none
 🤟🏽	jag älskar dig-gest mellanfärgad hy	none
@@ -1851,6 +1989,11 @@ symbols:
 ☝🏽	finger upp mellanfärgad hy	none
 ☝🏾	finger upp mellanmörk hy	none
 ☝🏿	finger upp mörk hy	none
+🫵🏻	finger som pekar på mig ljus hy	none
+🫵🏼	finger som pekar på mig mellanljus hy	none
+🫵🏽	finger som pekar på mig mellanfärgad hy	none
+🫵🏾	finger som pekar på mig mellanmörk hy	none
+🫵🏿	finger som pekar på mig mörk hy	none
 👍🏻	tummen upp ljus hy	none
 👍🏼	tummen upp mellanljus hy	none
 👍🏽	tummen upp mellanfärgad hy	none
@@ -1891,6 +2034,11 @@ symbols:
 🙌🏽	båda händerna i luften mellanfärgad hy	none
 🙌🏾	båda händerna i luften mellanmörk hy	none
 🙌🏿	båda händerna i luften mörk hy	none
+🫶🏻	handhjärta ljus hy	none
+🫶🏼	handhjärta mellanljus hy	none
+🫶🏽	handhjärta mellanfärgad hy	none
+🫶🏾	handhjärta mellanmörk hy	none
+🫶🏿	handhjärta mörk hy	none
 👐🏻	öppna händer ljus hy	none
 👐🏼	öppna händer mellanljus hy	none
 👐🏽	öppna händer mellanfärgad hy	none
@@ -1901,6 +2049,11 @@ symbols:
 🤲🏽	handflatorna upp mellanfärgad hy	none
 🤲🏾	handflatorna upp mellanmörk hy	none
 🤲🏿	handflatorna upp mörk hy	none
+🤝🏻	handskakning ljus hy	none
+🤝🏼	handskakning mellanljus hy	none
+🤝🏽	handskakning mellanfärgad hy	none
+🤝🏾	handskakning mellanmörk hy	none
+🤝🏿	handskakning mörk hy	none
 🙏🏻	beende händer ljus hy	none
 🙏🏼	beende händer mellanljus hy	none
 🙏🏽	beende händer mellanfärgad hy	none
@@ -2021,6 +2174,26 @@ symbols:
 🧑🏿‍❤‍🧑🏼	par med hjärta person, person, mörk hy, mellanljus hy	none
 🧑🏿‍❤‍🧑🏽	par med hjärta person, person, mörk hy, mellanfärgad hy	none
 🧑🏿‍❤‍🧑🏾	par med hjärta person, person, mörk hy, mellanmörk hy	none
+🧑🏻‍🫯‍🧑🏼	brottande personer ljus hy, mellanljus hy	none
+🧑🏻‍🫯‍🧑🏽	brottande personer ljus hy, mellanfärgad hy	none
+🧑🏻‍🫯‍🧑🏾	brottande personer ljus hy, mellanmörk hy	none
+🧑🏻‍🫯‍🧑🏿	brottande personer ljus hy, mörk hy	none
+🧑🏼‍🫯‍🧑🏻	brottande personer mellanljus hy, ljus hy	none
+🧑🏼‍🫯‍🧑🏽	brottande personer mellanljus hy, mellanfärgad hy	none
+🧑🏼‍🫯‍🧑🏾	brottande personer mellanljus hy, mellanmörk hy	none
+🧑🏼‍🫯‍🧑🏿	brottande personer mellanljus hy, mörk hy	none
+🧑🏽‍🫯‍🧑🏻	brottande personer mellanfärgad hy, ljus hy	none
+🧑🏽‍🫯‍🧑🏼	brottande personer mellanfärgad hy, mellanljus hy	none
+🧑🏽‍🫯‍🧑🏾	brottande personer mellanfärgad hy, mellanmörk hy	none
+🧑🏽‍🫯‍🧑🏿	brottande personer mellanfärgad hy, mörk hy	none
+🧑🏾‍🫯‍🧑🏻	brottande personer mellanmörk hy, ljus hy	none
+🧑🏾‍🫯‍🧑🏼	brottande personer mellanmörk hy, mellanljus hy	none
+🧑🏾‍🫯‍🧑🏽	brottande personer mellanmörk hy, mellanfärgad hy	none
+🧑🏾‍🫯‍🧑🏿	brottande personer mellanmörk hy, mörk hy	none
+🧑🏿‍🫯‍🧑🏻	brottande personer mörk hy, ljus hy	none
+🧑🏿‍🫯‍🧑🏼	brottande personer mörk hy, mellanljus hy	none
+🧑🏿‍🫯‍🧑🏽	brottande personer mörk hy, mellanfärgad hy	none
+🧑🏿‍🫯‍🧑🏾	brottande personer mörk hy, mellanmörk hy	none
 🧑‍🦰	person rödhårig	none
 🧑🏻‍🦰	person ljus hy, rödhårig	none
 🧑🏼‍🦰	person mellanljus hy, rödhårig	none
@@ -2045,6 +2218,26 @@ symbols:
 🧑🏽‍🦲	person mellanfärgad hy, skallig	none
 🧑🏾‍🦲	person mellanmörk hy, skallig	none
 🧑🏿‍🦲	person mörk hy, skallig	none
+🧑🏻‍🐰‍🧑🏼	personer med kaninöron ljus hy, mellanljus hy	none
+🧑🏻‍🐰‍🧑🏽	personer med kaninöron ljus hy, mellanfärgad hy	none
+🧑🏻‍🐰‍🧑🏾	personer med kaninöron ljus hy, mellanmörk hy	none
+🧑🏻‍🐰‍🧑🏿	personer med kaninöron ljus hy, mörk hy	none
+🧑🏼‍🐰‍🧑🏻	personer med kaninöron mellanljus hy, ljus hy	none
+🧑🏼‍🐰‍🧑🏽	personer med kaninöron mellanljus hy, mellanfärgad hy	none
+🧑🏼‍🐰‍🧑🏾	personer med kaninöron mellanljus hy, mellanmörk hy	none
+🧑🏼‍🐰‍🧑🏿	personer med kaninöron mellanljus hy, mörk hy	none
+🧑🏽‍🐰‍🧑🏻	personer med kaninöron mellanfärgad hy, ljus hy	none
+🧑🏽‍🐰‍🧑🏼	personer med kaninöron mellanfärgad hy, mellanljus hy	none
+🧑🏽‍🐰‍🧑🏾	personer med kaninöron mellanfärgad hy, mellanmörk hy	none
+🧑🏽‍🐰‍🧑🏿	personer med kaninöron mellanfärgad hy, mörk hy	none
+🧑🏾‍🐰‍🧑🏻	personer med kaninöron mellanmörk hy, ljus hy	none
+🧑🏾‍🐰‍🧑🏼	personer med kaninöron mellanmörk hy, mellanljus hy	none
+🧑🏾‍🐰‍🧑🏽	personer med kaninöron mellanmörk hy, mellanfärgad hy	none
+🧑🏾‍🐰‍🧑🏿	personer med kaninöron mellanmörk hy, mörk hy	none
+🧑🏿‍🐰‍🧑🏻	personer med kaninöron mörk hy, ljus hy	none
+🧑🏿‍🐰‍🧑🏼	personer med kaninöron mörk hy, mellanljus hy	none
+🧑🏿‍🐰‍🧑🏽	personer med kaninöron mörk hy, mellanfärgad hy	none
+🧑🏿‍🐰‍🧑🏾	personer med kaninöron mörk hy, mellanmörk hy	none
 👨🏻	man ljus hy	none
 👨🏼	man mellanljus hy	none
 👨🏽	man mellanfärgad hy	none
@@ -2115,6 +2308,26 @@ symbols:
 👨🏿‍❤‍👨🏽	par med hjärta man, man, mörk hy, mellanfärgad hy	none
 👨🏿‍❤‍👨🏾	par med hjärta man, man, mörk hy, mellanmörk hy	none
 👨🏿‍❤‍👨🏿	par med hjärta man, man, mörk hy	none
+👨🏻‍🫯‍👨🏼	brottande män ljus hy, mellanljus hy	none
+👨🏻‍🫯‍👨🏽	brottande män ljus hy, mellanfärgad hy	none
+👨🏻‍🫯‍👨🏾	brottande män ljus hy, mellanmörk hy	none
+👨🏻‍🫯‍👨🏿	brottande män ljus hy, mörk hy	none
+👨🏼‍🫯‍👨🏻	brottande män mellanljus hy, ljus hy	none
+👨🏼‍🫯‍👨🏽	brottande män mellanljus hy, mellanfärgad hy	none
+👨🏼‍🫯‍👨🏾	brottande män mellanljus hy, mellanmörk hy	none
+👨🏼‍🫯‍👨🏿	brottande män mellanljus hy, mörk hy	none
+👨🏽‍🫯‍👨🏻	brottande män mellanfärgad hy, ljus hy	none
+👨🏽‍🫯‍👨🏼	brottande män mellanfärgad hy, mellanljus hy	none
+👨🏽‍🫯‍👨🏾	brottande män mellanfärgad hy, mellanmörk hy	none
+👨🏽‍🫯‍👨🏿	brottande män mellanfärgad hy, mörk hy	none
+👨🏾‍🫯‍👨🏻	brottande män mellanmörk hy, ljus hy	none
+👨🏾‍🫯‍👨🏼	brottande män mellanmörk hy, mellanljus hy	none
+👨🏾‍🫯‍👨🏽	brottande män mellanmörk hy, mellanfärgad hy	none
+👨🏾‍🫯‍👨🏿	brottande män mellanmörk hy, mörk hy	none
+👨🏿‍🫯‍👨🏻	brottande män mörk hy, ljus hy	none
+👨🏿‍🫯‍👨🏼	brottande män mörk hy, mellanljus hy	none
+👨🏿‍🫯‍👨🏽	brottande män mörk hy, mellanfärgad hy	none
+👨🏿‍🫯‍👨🏾	brottande män mörk hy, mellanmörk hy	none
 👨‍🦰	man rödhårig	none
 👨🏻‍🦰	man ljus hy, rödhårig	none
 👨🏼‍🦰	man mellanljus hy, rödhårig	none
@@ -2139,6 +2352,26 @@ symbols:
 👨🏽‍🦲	man mellanfärgad hy, skallig	none
 👨🏾‍🦲	man mellanmörk hy, skallig	none
 👨🏿‍🦲	man mörk hy, skallig	none
+👨🏻‍🐰‍👨🏼	män med kaninöron ljus hy, mellanljus hy	none
+👨🏻‍🐰‍👨🏽	män med kaninöron ljus hy, mellanfärgad hy	none
+👨🏻‍🐰‍👨🏾	män med kaninöron ljus hy, mellanmörk hy	none
+👨🏻‍🐰‍👨🏿	män med kaninöron ljus hy, mörk hy	none
+👨🏼‍🐰‍👨🏻	män med kaninöron mellanljus hy, ljus hy	none
+👨🏼‍🐰‍👨🏽	män med kaninöron mellanljus hy, mellanfärgad hy	none
+👨🏼‍🐰‍👨🏾	män med kaninöron mellanljus hy, mellanmörk hy	none
+👨🏼‍🐰‍👨🏿	män med kaninöron mellanljus hy, mörk hy	none
+👨🏽‍🐰‍👨🏻	män med kaninöron mellanfärgad hy, ljus hy	none
+👨🏽‍🐰‍👨🏼	män med kaninöron mellanfärgad hy, mellanljus hy	none
+👨🏽‍🐰‍👨🏾	män med kaninöron mellanfärgad hy, mellanmörk hy	none
+👨🏽‍🐰‍👨🏿	män med kaninöron mellanfärgad hy, mörk hy	none
+👨🏾‍🐰‍👨🏻	män med kaninöron mellanmörk hy, ljus hy	none
+👨🏾‍🐰‍👨🏼	män med kaninöron mellanmörk hy, mellanljus hy	none
+👨🏾‍🐰‍👨🏽	män med kaninöron mellanmörk hy, mellanfärgad hy	none
+👨🏾‍🐰‍👨🏿	män med kaninöron mellanmörk hy, mörk hy	none
+👨🏿‍🐰‍👨🏻	män med kaninöron mörk hy, ljus hy	none
+👨🏿‍🐰‍👨🏼	män med kaninöron mörk hy, mellanljus hy	none
+👨🏿‍🐰‍👨🏽	män med kaninöron mörk hy, mellanfärgad hy	none
+👨🏿‍🐰‍👨🏾	män med kaninöron mörk hy, mellanmörk hy	none
 👩🏻	kvinna ljus hy	none
 👩🏼	kvinna mellanljus hy	none
 👩🏽	kvinna mellanfärgad hy	none
@@ -2254,6 +2487,26 @@ symbols:
 👩🏿‍❤‍👩🏽	par med hjärta kvinna, kvinna, mörk hy, mellanfärgad hy	none
 👩🏿‍❤‍👩🏾	par med hjärta kvinna, kvinna, mörk hy, mellanmörk hy	none
 👩🏿‍❤‍👩🏿	par med hjärta kvinna, kvinna, mörk hy	none
+👩🏻‍🫯‍👩🏼	brottande kvinnor ljus hy, mellanljus hy	none
+👩🏻‍🫯‍👩🏽	brottande kvinnor ljus hy, mellanfärgad hy	none
+👩🏻‍🫯‍👩🏾	brottande kvinnor ljus hy, mellanmörk hy	none
+👩🏻‍🫯‍👩🏿	brottande kvinnor ljus hy, mörk hy	none
+👩🏼‍🫯‍👩🏻	brottande kvinnor mellanljus hy, ljus hy	none
+👩🏼‍🫯‍👩🏽	brottande kvinnor mellanljus hy, mellanfärgad hy	none
+👩🏼‍🫯‍👩🏾	brottande kvinnor mellanljus hy, mellanmörk hy	none
+👩🏼‍🫯‍👩🏿	brottande kvinnor mellanljus hy, mörk hy	none
+👩🏽‍🫯‍👩🏻	brottande kvinnor mellanfärgad hy, ljus hy	none
+👩🏽‍🫯‍👩🏼	brottande kvinnor mellanfärgad hy, mellanljus hy	none
+👩🏽‍🫯‍👩🏾	brottande kvinnor mellanfärgad hy, mellanmörk hy	none
+👩🏽‍🫯‍👩🏿	brottande kvinnor mellanfärgad hy, mörk hy	none
+👩🏾‍🫯‍👩🏻	brottande kvinnor mellanmörk hy, ljus hy	none
+👩🏾‍🫯‍👩🏼	brottande kvinnor mellanmörk hy, mellanljus hy	none
+👩🏾‍🫯‍👩🏽	brottande kvinnor mellanmörk hy, mellanfärgad hy	none
+👩🏾‍🫯‍👩🏿	brottande kvinnor mellanmörk hy, mörk hy	none
+👩🏿‍🫯‍👩🏻	brottande kvinnor mörk hy, ljus hy	none
+👩🏿‍🫯‍👩🏼	brottande kvinnor mörk hy, mellanljus hy	none
+👩🏿‍🫯‍👩🏽	brottande kvinnor mörk hy, mellanfärgad hy	none
+👩🏿‍🫯‍👩🏾	brottande kvinnor mörk hy, mellanmörk hy	none
 👩‍🦰	kvinna rödhårig	none
 👩🏻‍🦰	kvinna ljus hy, rödhårig	none
 👩🏼‍🦰	kvinna mellanljus hy, rödhårig	none
@@ -2278,6 +2531,26 @@ symbols:
 👩🏽‍🦲	kvinna mellanfärgad hy, skallig	none
 👩🏾‍🦲	kvinna mellanmörk hy, skallig	none
 👩🏿‍🦲	kvinna mörk hy, skallig	none
+👩🏻‍🐰‍👩🏼	kvinnor med kaninöron ljus hy, mellanljus hy	none
+👩🏻‍🐰‍👩🏽	kvinnor med kaninöron ljus hy, mellanfärgad hy	none
+👩🏻‍🐰‍👩🏾	kvinnor med kaninöron ljus hy, mellanmörk hy	none
+👩🏻‍🐰‍👩🏿	kvinnor med kaninöron ljus hy, mörk hy	none
+👩🏼‍🐰‍👩🏻	kvinnor med kaninöron mellanljus hy, ljus hy	none
+👩🏼‍🐰‍👩🏽	kvinnor med kaninöron mellanljus hy, mellanfärgad hy	none
+👩🏼‍🐰‍👩🏾	kvinnor med kaninöron mellanljus hy, mellanmörk hy	none
+👩🏼‍🐰‍👩🏿	kvinnor med kaninöron mellanljus hy, mörk hy	none
+👩🏽‍🐰‍👩🏻	kvinnor med kaninöron mellanfärgad hy, ljus hy	none
+👩🏽‍🐰‍👩🏼	kvinnor med kaninöron mellanfärgad hy, mellanljus hy	none
+👩🏽‍🐰‍👩🏾	kvinnor med kaninöron mellanfärgad hy, mellanmörk hy	none
+👩🏽‍🐰‍👩🏿	kvinnor med kaninöron mellanfärgad hy, mörk hy	none
+👩🏾‍🐰‍👩🏻	kvinnor med kaninöron mellanmörk hy, ljus hy	none
+👩🏾‍🐰‍👩🏼	kvinnor med kaninöron mellanmörk hy, mellanljus hy	none
+👩🏾‍🐰‍👩🏽	kvinnor med kaninöron mellanmörk hy, mellanfärgad hy	none
+👩🏾‍🐰‍👩🏿	kvinnor med kaninöron mellanmörk hy, mörk hy	none
+👩🏿‍🐰‍👩🏻	kvinnor med kaninöron mörk hy, ljus hy	none
+👩🏿‍🐰‍👩🏼	kvinnor med kaninöron mörk hy, mellanljus hy	none
+👩🏿‍🐰‍👩🏽	kvinnor med kaninöron mörk hy, mellanfärgad hy	none
+👩🏿‍🐰‍👩🏾	kvinnor med kaninöron mörk hy, mellanmörk hy	none
 🧓🏻	äldre person ljus hy	none
 🧓🏼	äldre person mellanljus hy	none
 🧓🏽	äldre person mellanfärgad hy	none
@@ -2393,11 +2666,11 @@ symbols:
 🧏🏽‍♂	hörselskadad man mellanfärgad hy	none
 🧏🏾‍♂	hörselskadad man mellanmörk hy	none
 🧏🏿‍♂	hörselskadad man mörk hy	none
-🧏🏻‍♀	hörselskada kvinna ljus hy	none
-🧏🏼‍♀	hörselskada kvinna mellanljus hy	none
-🧏🏽‍♀	hörselskada kvinna mellanfärgad hy	none
-🧏🏾‍♀	hörselskada kvinna mellanmörk hy	none
-🧏🏿‍♀	hörselskada kvinna mörk hy	none
+🧏🏻‍♀	hörselskadad kvinna ljus hy	none
+🧏🏼‍♀	hörselskadad kvinna mellanljus hy	none
+🧏🏽‍♀	hörselskadad kvinna mellanfärgad hy	none
+🧏🏾‍♀	hörselskadad kvinna mellanmörk hy	none
+🧏🏿‍♀	hörselskadad kvinna mörk hy	none
 🙇🏻	bugande person ljus hy	none
 🙇🏼	bugande person mellanljus hy	none
 🙇🏽	bugande person mellanfärgad hy	none
@@ -2748,6 +3021,11 @@ symbols:
 👷🏽‍♀	kvinnlig byggarbetare mellanfärgad hy	none
 👷🏾‍♀	kvinnlig byggarbetare mellanmörk hy	none
 👷🏿‍♀	kvinnlig byggarbetare mörk hy	none
+🫅🏻	person med krona ljus hy	none
+🫅🏼	person med krona mellanljus hy	none
+🫅🏽	person med krona mellanfärgad hy	none
+🫅🏾	person med krona mellanmörk hy	none
+🫅🏿	person med krona mörk hy	none
 🤴🏻	prins ljus hy	none
 🤴🏼	prins mellanljus hy	none
 🤴🏽	prins mellanfärgad hy	none
@@ -2818,6 +3096,16 @@ symbols:
 🤰🏽	gravid kvinna mellanfärgad hy	none
 🤰🏾	gravid kvinna mellanmörk hy	none
 🤰🏿	gravid kvinna mörk hy	none
+🫃🏻	gravid man ljus hy	none
+🫃🏼	gravid man mellanljus hy	none
+🫃🏽	gravid man mellanfärgad hy	none
+🫃🏾	gravid man mellanmörk hy	none
+🫃🏿	gravid man mörk hy	none
+🫄🏻	gravid person ljus hy	none
+🫄🏼	gravid person mellanljus hy	none
+🫄🏽	gravid person mellanfärgad hy	none
+🫄🏾	gravid person mellanmörk hy	none
+🫄🏿	gravid person mörk hy	none
 🤱🏻	amning ljus hy	none
 🤱🏼	amning mellanljus hy	none
 🤱🏽	amning mellanfärgad hy	none
@@ -3008,6 +3296,24 @@ symbols:
 🚶🏽‍♀	kvinna som går mellanfärgad hy	none
 🚶🏾‍♀	kvinna som går mellanmörk hy	none
 🚶🏿‍♀	kvinna som går mörk hy	none
+🚶‍➡	fotgängare åt höger	none
+🚶🏻‍➡	fotgängare ljus hy, åt höger	none
+🚶🏼‍➡	fotgängare mellanljus hy, åt höger	none
+🚶🏽‍➡	fotgängare mellanfärgad hy, åt höger	none
+🚶🏾‍➡	fotgängare mellanmörk hy, åt höger	none
+🚶🏿‍➡	fotgängare mörk hy, åt höger	none
+🚶‍♀‍➡	kvinna som går åt höger	none
+🚶🏻‍♀‍➡	kvinna som går ljus hy, åt höger	none
+🚶🏼‍♀‍➡	kvinna som går mellanljus hy, åt höger	none
+🚶🏽‍♀‍➡	kvinna som går mellanfärgad hy, åt höger	none
+🚶🏾‍♀‍➡	kvinna som går mellanmörk hy, åt höger	none
+🚶🏿‍♀‍➡	kvinna som går mörk hy, åt höger	none
+🚶‍♂‍➡	man som går åt höger	none
+🚶🏻‍♂‍➡	man som går ljus hy, åt höger	none
+🚶🏼‍♂‍➡	man som går mellanljus hy, åt höger	none
+🚶🏽‍♂‍➡	man som går mellanfärgad hy, åt höger	none
+🚶🏾‍♂‍➡	man som går mellanmörk hy, åt höger	none
+🚶🏿‍♂‍➡	man som går mörk hy, åt höger	none
 🧍🏻	stående person ljus hy	none
 🧍🏼	stående person mellanljus hy	none
 🧍🏽	stående person mellanfärgad hy	none
@@ -3038,51 +3344,123 @@ symbols:
 🧎🏽‍♀	knäsittande kvinna mellanfärgad hy	none
 🧎🏾‍♀	knäsittande kvinna mellanmörk hy	none
 🧎🏿‍♀	knäsittande kvinna mörk hy	none
+🧎‍➡	knäsittande person åt höger	none
+🧎🏻‍➡	knäsittande person ljus hy, åt höger	none
+🧎🏼‍➡	knäsittande person mellanljus hy, åt höger	none
+🧎🏽‍➡	knäsittande person mellanfärgad hy, åt höger	none
+🧎🏾‍➡	knäsittande person mellanmörk hy, åt höger	none
+🧎🏿‍➡	knäsittande person mörk hy, åt höger	none
+🧎‍♀‍➡	knäsittande kvinna åt höger	none
+🧎🏻‍♀‍➡	knäsittande kvinna ljus hy, åt höger	none
+🧎🏼‍♀‍➡	knäsittande kvinna mellanljus hy, åt höger	none
+🧎🏽‍♀‍➡	knäsittande kvinna mellanfärgad hy, åt höger	none
+🧎🏾‍♀‍➡	knäsittande kvinna mellanmörk hy, åt höger	none
+🧎🏿‍♀‍➡	knäsittande kvinna mörk hy, åt höger	none
+🧎‍♂‍➡	knäsittande man åt höger	none
+🧎🏻‍♂‍➡	knäsittande man ljus hy, åt höger	none
+🧎🏼‍♂‍➡	knäsittande man mellanljus hy, åt höger	none
+🧎🏽‍♂‍➡	knäsittande man mellanfärgad hy, åt höger	none
+🧎🏾‍♂‍➡	knäsittande man mellanmörk hy, åt höger	none
+🧎🏿‍♂‍➡	knäsittande man mörk hy, åt höger	none
 🧑🏻‍🦯	person med vit käpp ljus hy	none
 🧑🏼‍🦯	person med vit käpp mellanljus hy	none
 🧑🏽‍🦯	person med vit käpp mellanfärgad hy	none
 🧑🏾‍🦯	person med vit käpp mellanmörk hy	none
 🧑🏿‍🦯	person med vit käpp mörk hy	none
+🧑‍🦯‍➡	person med vit käpp åt höger	none
+🧑🏻‍🦯‍➡	person med vit käpp ljus hy, åt höger	none
+🧑🏼‍🦯‍➡	person med vit käpp mellanljus hy, åt höger	none
+🧑🏽‍🦯‍➡	person med vit käpp mellanfärgad hy, åt höger	none
+🧑🏾‍🦯‍➡	person med vit käpp mellanmörk hy, åt höger	none
+🧑🏿‍🦯‍➡	person med vit käpp mörk hy, åt höger	none
 👨🏻‍🦯	man med vit käpp ljus hy	none
 👨🏼‍🦯	man med vit käpp mellanljus hy	none
 👨🏽‍🦯	man med vit käpp mellanfärgad hy	none
 👨🏾‍🦯	man med vit käpp mellanmörk hy	none
 👨🏿‍🦯	man med vit käpp mörk hy	none
+👨‍🦯‍➡	man med vit käpp åt höger	none
+👨🏻‍🦯‍➡	man med vit käpp ljus hy, åt höger	none
+👨🏼‍🦯‍➡	man med vit käpp mellanljus hy, åt höger	none
+👨🏽‍🦯‍➡	man med vit käpp mellanfärgad hy, åt höger	none
+👨🏾‍🦯‍➡	man med vit käpp mellanmörk hy, åt höger	none
+👨🏿‍🦯‍➡	man med vit käpp mörk hy, åt höger	none
 👩🏻‍🦯	kvinna med vit käpp ljus hy	none
 👩🏼‍🦯	kvinna med vit käpp mellanljus hy	none
 👩🏽‍🦯	kvinna med vit käpp mellanfärgad hy	none
 👩🏾‍🦯	kvinna med vit käpp mellanmörk hy	none
 👩🏿‍🦯	kvinna med vit käpp mörk hy	none
+👩‍🦯‍➡	kvinna med vit käpp åt höger	none
+👩🏻‍🦯‍➡	kvinna med vit käpp ljus hy, åt höger	none
+👩🏼‍🦯‍➡	kvinna med vit käpp mellanljus hy, åt höger	none
+👩🏽‍🦯‍➡	kvinna med vit käpp mellanfärgad hy, åt höger	none
+👩🏾‍🦯‍➡	kvinna med vit käpp mellanmörk hy, åt höger	none
+👩🏿‍🦯‍➡	kvinna med vit käpp mörk hy, åt höger	none
 🧑🏻‍🦼	person i permobil ljus hy	none
 🧑🏼‍🦼	person i permobil mellanljus hy	none
 🧑🏽‍🦼	person i permobil mellanfärgad hy	none
 🧑🏾‍🦼	person i permobil mellanmörk hy	none
 🧑🏿‍🦼	person i permobil mörk hy	none
+🧑‍🦼‍➡	person i permobil åt höger	none
+🧑🏻‍🦼‍➡	person i permobil ljus hy, åt höger	none
+🧑🏼‍🦼‍➡	person i permobil mellanljus hy, åt höger	none
+🧑🏽‍🦼‍➡	person i permobil mellanfärgad hy, åt höger	none
+🧑🏾‍🦼‍➡	person i permobil mellanmörk hy, åt höger	none
+🧑🏿‍🦼‍➡	person i permobil mörk hy, åt höger	none
 👨🏻‍🦼	man i permobil ljus hy	none
 👨🏼‍🦼	man i permobil mellanljus hy	none
 👨🏽‍🦼	man i permobil mellanfärgad hy	none
 👨🏾‍🦼	man i permobil mellanmörk hy	none
 👨🏿‍🦼	man i permobil mörk hy	none
+👨‍🦼‍➡	man i permobil åt höger	none
+👨🏻‍🦼‍➡	man i permobil ljus hy, åt höger	none
+👨🏼‍🦼‍➡	man i permobil mellanljus hy, åt höger	none
+👨🏽‍🦼‍➡	man i permobil mellanfärgad hy, åt höger	none
+👨🏾‍🦼‍➡	man i permobil mellanmörk hy, åt höger	none
+👨🏿‍🦼‍➡	man i permobil mörk hy, åt höger	none
 👩🏻‍🦼	kvinna i permobil ljus hy	none
 👩🏼‍🦼	kvinna i permobil mellanljus hy	none
 👩🏽‍🦼	kvinna i permobil mellanfärgad hy	none
 👩🏾‍🦼	kvinna i permobil mellanmörk hy	none
 👩🏿‍🦼	kvinna i permobil mörk hy	none
+👩‍🦼‍➡	kvinna i permobil åt höger	none
+👩🏻‍🦼‍➡	kvinna i permobil ljus hy, åt höger	none
+👩🏼‍🦼‍➡	kvinna i permobil mellanljus hy, åt höger	none
+👩🏽‍🦼‍➡	kvinna i permobil mellanfärgad hy, åt höger	none
+👩🏾‍🦼‍➡	kvinna i permobil mellanmörk hy, åt höger	none
+👩🏿‍🦼‍➡	kvinna i permobil mörk hy, åt höger	none
 🧑🏻‍🦽	person i manuell rullstol ljus hy	none
 🧑🏼‍🦽	person i manuell rullstol mellanljus hy	none
 🧑🏽‍🦽	person i manuell rullstol mellanfärgad hy	none
 🧑🏾‍🦽	person i manuell rullstol mellanmörk hy	none
 🧑🏿‍🦽	person i manuell rullstol mörk hy	none
+🧑‍🦽‍➡	person i manuell rullstol åt höger	none
+🧑🏻‍🦽‍➡	person i manuell rullstol ljus hy, åt höger	none
+🧑🏼‍🦽‍➡	person i manuell rullstol mellanljus hy, åt höger	none
+🧑🏽‍🦽‍➡	person i manuell rullstol mellanfärgad hy, åt höger	none
+🧑🏾‍🦽‍➡	person i manuell rullstol mellanmörk hy, åt höger	none
+🧑🏿‍🦽‍➡	person i manuell rullstol mörk hy, åt höger	none
 👨🏻‍🦽	man i manuell rullstol ljus hy	none
 👨🏼‍🦽	man i manuell rullstol mellanljus hy	none
 👨🏽‍🦽	man i manuell rullstol mellanfärgad hy	none
 👨🏾‍🦽	man i manuell rullstol mellanmörk hy	none
 👨🏿‍🦽	man i manuell rullstol mörk hy	none
+👨‍🦽‍➡	man i manuell rullstol åt höger	none
+👨🏻‍🦽‍➡	man i manuell rullstol ljus hy, åt höger	none
+👨🏼‍🦽‍➡	man i manuell rullstol mellanljus hy, åt höger	none
+👨🏽‍🦽‍➡	man i manuell rullstol mellanfärgad hy, åt höger	none
+👨🏾‍🦽‍➡	man i manuell rullstol mellanmörk hy, åt höger	none
+👨🏿‍🦽‍➡	man i manuell rullstol mörk hy, åt höger	none
 👩🏻‍🦽	kvinna i manuell rullstol ljus hy	none
 👩🏼‍🦽	kvinna i manuell rullstol mellanljus hy	none
 👩🏽‍🦽	kvinna i manuell rullstol mellanfärgad hy	none
 👩🏾‍🦽	kvinna i manuell rullstol mellanmörk hy	none
 👩🏿‍🦽	kvinna i manuell rullstol mörk hy	none
+👩‍🦽‍➡	kvinna i manuell rullstol åt höger	none
+👩🏻‍🦽‍➡	kvinna i manuell rullstol ljus hy, åt höger	none
+👩🏼‍🦽‍➡	kvinna i manuell rullstol mellanljus hy, åt höger	none
+👩🏽‍🦽‍➡	kvinna i manuell rullstol mellanfärgad hy, åt höger	none
+👩🏾‍🦽‍➡	kvinna i manuell rullstol mellanmörk hy, åt höger	none
+👩🏿‍🦽‍➡	kvinna i manuell rullstol mörk hy, åt höger	none
 🏃🏻	person som springer ljus hy	none
 🏃🏼	person som springer mellanljus hy	none
 🏃🏽	person som springer mellanfärgad hy	none
@@ -3098,6 +3476,29 @@ symbols:
 🏃🏽‍♀	kvinna som springer mellanfärgad hy	none
 🏃🏾‍♀	kvinna som springer mellanmörk hy	none
 🏃🏿‍♀	kvinna som springer mörk hy	none
+🏃‍➡	person som springer åt höger	none
+🏃🏻‍➡	person som springer ljus hy, åt höger	none
+🏃🏼‍➡	person som springer mellanljus hy, åt höger	none
+🏃🏽‍➡	person som springer mellanfärgad hy, åt höger	none
+🏃🏾‍➡	person som springer mellanmörk hy, åt höger	none
+🏃🏿‍➡	person som springer mörk hy, åt höger	none
+🏃‍♀‍➡	kvinna som springer åt höger	none
+🏃🏻‍♀‍➡	kvinna som springer ljus hy, åt höger	none
+🏃🏼‍♀‍➡	kvinna som springer mellanljus hy, åt höger	none
+🏃🏽‍♀‍➡	kvinna som springer mellanfärgad hy, åt höger	none
+🏃🏾‍♀‍➡	kvinna som springer mellanmörk hy, åt höger	none
+🏃🏿‍♀‍➡	kvinna som springer mörk hy, åt höger	none
+🏃‍♂‍➡	man som springer åt höger	none
+🏃🏻‍♂‍➡	man som springer ljus hy, åt höger	none
+🏃🏼‍♂‍➡	man som springer mellanljus hy, åt höger	none
+🏃🏽‍♂‍➡	man som springer mellanfärgad hy, åt höger	none
+🏃🏾‍♂‍➡	man som springer mellanmörk hy, åt höger	none
+🏃🏿‍♂‍➡	man som springer mörk hy, åt höger	none
+🧑🏻‍🩰	balettdansare ljus hy	none
+🧑🏼‍🩰	balettdansare mellanljus hy	none
+🧑🏽‍🩰	balettdansare mellanfärgad hy	none
+🧑🏾‍🩰	balettdansare mellanmörk hy	none
+🧑🏿‍🩰	balettdansare mörk hy	none
 💃🏻	dansande kvinna ljus hy	none
 💃🏼	dansande kvinna mellanljus hy	none
 💃🏽	dansande kvinna mellanfärgad hy	none
@@ -3113,6 +3514,21 @@ symbols:
 🕴🏽	svävande man i kostym mellanfärgad hy	none
 🕴🏾	svävande man i kostym mellanmörk hy	none
 🕴🏿	svävande man i kostym mörk hy	none
+👯🏻	personer med kaninöron ljus hy	none
+👯🏼	personer med kaninöron mellanljus hy	none
+👯🏽	personer med kaninöron mellanfärgad hy	none
+👯🏾	personer med kaninöron mellanmörk hy	none
+👯🏿	personer med kaninöron mörk hy	none
+👯🏻‍♂	män med kaninöron ljus hy	none
+👯🏼‍♂	män med kaninöron mellanljus hy	none
+👯🏽‍♂	män med kaninöron mellanfärgad hy	none
+👯🏾‍♂	män med kaninöron mellanmörk hy	none
+👯🏿‍♂	män med kaninöron mörk hy	none
+👯🏻‍♀	kvinnor med kaninöron ljus hy	none
+👯🏼‍♀	kvinnor med kaninöron mellanljus hy	none
+👯🏽‍♀	kvinnor med kaninöron mellanfärgad hy	none
+👯🏾‍♀	kvinnor med kaninöron mellanmörk hy	none
+👯🏿‍♀	kvinnor med kaninöron mörk hy	none
 🧖🏻	person i ångbastu ljus hy	none
 🧖🏼	person i ångbastu mellanljus hy	none
 🧖🏽	person i ångbastu mellanfärgad hy	none
@@ -3288,6 +3704,21 @@ symbols:
 🤸🏽‍♀	kvinna som hjular mellanfärgad hy	none
 🤸🏾‍♀	kvinna som hjular mellanmörk hy	none
 🤸🏿‍♀	kvinna som hjular mörk hy	none
+🤼🏻	brottande personer ljus hy	none
+🤼🏼	brottande personer mellanljus hy	none
+🤼🏽	brottande personer mellanfärgad hy	none
+🤼🏾	brottande personer mellanmörk hy	none
+🤼🏿	brottande personer mörk hy	none
+🤼🏻‍♂	brottande män ljus hy	none
+🤼🏼‍♂	brottande män mellanljus hy	none
+🤼🏽‍♂	brottande män mellanfärgad hy	none
+🤼🏾‍♂	brottande män mellanmörk hy	none
+🤼🏿‍♂	brottande män mörk hy	none
+🤼🏻‍♀	brottande kvinnor ljus hy	none
+🤼🏼‍♀	brottande kvinnor mellanljus hy	none
+🤼🏽‍♀	brottande kvinnor mellanfärgad hy	none
+🤼🏾‍♀	brottande kvinnor mellanmörk hy	none
+🤼🏿‍♀	brottande kvinnor mörk hy	none
 🤽🏻	person som spelar vattenpolo ljus hy	none
 🤽🏼	person som spelar vattenpolo mellanljus hy	none
 🤽🏽	person som spelar vattenpolo mellanfärgad hy	none
@@ -3499,7 +3930,6 @@ symbols:
 👩‍👧	familj kvinna, flicka	none
 👩‍👧‍👦	familj kvinna, flicka, pojke	none
 👩‍👧‍👧	familj kvinna, flicka, flicka	none
-🔟	keycap 10	none
 🇦🇨	flagga Ascension	none
 🇦🇩	flagga Andorra	none
 🇦🇪	flagga Förenade Arabemiraten	none
@@ -3536,7 +3966,7 @@ symbols:
 🇧🇹	flagga Bhutan	none
 🇧🇻	flagga Bouvetön	none
 🇧🇼	flagga Botswana	none
-🇧🇾	flagga Vitryssland	none
+🇧🇾	flagga Belarus	none
 🇧🇿	flagga Belize	none
 🇨🇦	flagga Kanada	none
 🇨🇨	flagga Kokosöarna	none
@@ -3544,13 +3974,14 @@ symbols:
 🇨🇫	flagga Centralafrikanska republiken	none
 🇨🇬	flagga Kongo-Brazzaville	none
 🇨🇭	flagga Schweiz	none
-🇨🇮	flagga Côte d’Ivoire	none
+🇨🇮	flagga Elfenbenskusten	none
 🇨🇰	flagga Cooköarna	none
 🇨🇱	flagga Chile	none
 🇨🇲	flagga Kamerun	none
 🇨🇳	flagga Kina	none
 🇨🇴	flagga Colombia	none
 🇨🇵	flagga Clippertonön	none
+🇨🇶	flagga Sark	none
 🇨🇷	flagga Costa Rica	none
 🇨🇺	flagga Kuba	none
 🇨🇻	flagga Kap Verde	none
@@ -3718,7 +4149,7 @@ symbols:
 🇸🇻	flagga El Salvador	none
 🇸🇽	flagga Sint Maarten	none
 🇸🇾	flagga Syrien	none
-🇸🇿	flagga Swaziland	none
+🇸🇿	flagga Eswatini	none
 🇹🇦	flagga Tristan da Cunha	none
 🇹🇨	flagga Turks- och Caicosöarna	none
 🇹🇩	flagga Tchad	none
@@ -3763,7 +4194,6 @@ symbols:
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	flagga Wales	none
 ₡	costarikansk colón	none
 ₦	nigeriansk naira	none
-₧	spansk peseta	none
 ₪	israelisk ny shekel	none
 ₫	vietnamesisk dong	none
 ₭	laotisk kip	none
@@ -3775,3 +4205,4 @@ symbols:
 ₺	turkisk lira	none
 ₼	azerbajdzjansk manat	none
 ₾	georgisk lari	none
+₧	spansk peseta	none

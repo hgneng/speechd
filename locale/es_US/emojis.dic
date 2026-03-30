@@ -7,10 +7,6 @@ symbols:
 ↛	flecha derecha y diagonal	none
 ↜	flecha izquierda ondulada	none
 ↝	flecha derecha ondulada	none
-↞	flecha doble izquierda	none
-↟	flecha doble hacia arriba	none
-↠	felcha derecha doble	none
-↡	flecha doble hacia abajo	none
 ↢	flecha izquierda con cola	none
 ↣	flecha derecha con cola	none
 ↤	flecha izquierda desde barra vertical	none
@@ -31,7 +27,7 @@ symbols:
 ↶	flecha en semicírculo contra reloj	none
 ↷	flecha semicírculo en sentido del reloj	none
 ↸	flecha hacia el noroeste y guión largo	none
-↹	flecha izquierda hacia barra vertical sobre flecha derecha hacia barra vertical	none
+↹	flecha izquierda sobre flecha derecha hacia barras verticales	none
 ↺	flecha contra reloj en círculo abierto	none
 ↻	flecha en sentido del reloj en círculo abierto	none
 ↼	arpón hacia la izquierda con punta hacia arriba	none
@@ -43,12 +39,8 @@ symbols:
 ⇂	arpón hacia abajo con punta hacia la derecha	none
 ⇃	arpón hacia abajo con punta hacia la izquierda	none
 ⇄	flecha derecha sobre flecha izquierda	none
-⇇	par de flechas hacia la izquierda	none
-⇈	par de flechas hacia arriba	none
-⇉	par de flechas hacia la derecha	none
-⇊	par de flechas hacia abajo	none
-⇋	arpón hacia la izquierda sobre arpón hacia la derecha	none
-⇌	arpón hacia la derecha sobre arpón hacia la izquierda	none
+⇋	arpón izquierdo sobre arpón derecho	none
+⇌	arpón derecho sobre arpón izquierdo	none
 ⇐	flecha izquierda doble	none
 ⇍	flecha izquierda doble con diagonal	none
 ⇑	flecha hacia arriba doble	none
@@ -79,12 +71,9 @@ symbols:
 ⇩	contorno flecha hacia abajo	none
 ⇪	contorno flecha hacia arriba desde barra	none
 ⇵	flechas paralelas hacia arriba y abajo	none
-∀	para todo	none
-∂	parcialmente diferencial	none
 ∃	entonces existe	none
 ∉	no es un elemento	none
 ∋	es elemento	none
-∎	fin de la prueba	none
 ∏	producto de n elementos	none
 ∑	suma de n elementos	none
 ≮	no menor de	none
@@ -95,164 +84,112 @@ symbols:
 ∗	operador asterísco	none
 ∘	composición de funciones	none
 ∙	operador matemático de punto	none
-∝	proporcional	none
-∟	ángulo recto	none
-∠	ángulo agudo	none
-∣	divide	none
-∥	paralelo	none
-∧	lógica y	none
-∫	integral	none
+∧	conjunción	none
 ∬	integral doble	none
-∮	integral con círculo	none
-∴	por lo tanto	none
-∵	porque	none
 ∶	razón	none
-∷	proporción	none
 ∼	operador tilde	none
 ∽	tilde invertida	none
 ∾	s acostada invertida	none
 ≃	asíntota igual	none
 ≅	aproximadamente igual	none
-≌	todo igual	none
 ≒	aproximadamente igual a la imagen	none
 ≖	signo de igual con anillo	none
-≣	estrictamente equivalente	none
 ≤	menor o igual a	none
 ≥	mayor o igual a	none
 ≦	signo de menor que sobre signo de igual	none
 ≧	signo de mayor que sobre signo de igual	none
-≪	mucho menor que	none
-≫	mucho mayor que	none
-≬	entre	none
 ≳	mayor o equivalente que	none
-≺	precede	none
 ≻	es posterior a	none
 ⊁	no es posterior a	none
 ⊃	superconjunto	none
-⊆	subconjunto igual a	none
-⊇	superconjunto igual a	none
 ⊕	signo de más dentro de un círculo	none
 ⊖	signo de menos dentro de un círculo	none
 ⊗	signo de por dentro de un círculo	none
 ⊘	diagonal dentro de un círculo	none
 ⊙	punto dentro de un círculo	none
-⊚	operador composición de funciones dentro de un círculo	none
+⊚	operador de derivada parcial dentro de un círculo	none
 ⊛	asterísco dentro de un círculo	none
 ⊞	signo de más dentro de un cuadrado	none
 ⊟	signo de menos dentro de un cuadrado	none
 ⊥	contradicción	none
 ⊮	no forzar	none
-⊰	procede bajo relación	none
-⊱	posterior a bajo relación	none
-⋭	no lo contiene como subgrupo normal igual a	none
-⊶	original	none
+⊰	precede bajo relación	none
+⊱	posterior bajo relación	none
 ⊹	matriz hermitiana conjugada	none
-⊿	triángulo recto	none
-⋁	n elementos conector lógico o	none
-⋂	n elementos intersección	none
-⋃	n elementos unión	none
-⋆	operador de asterísco	none
+⋁	conector lógico O n elementos	none
+⋂	intersección n elementos	none
+⋃	unión n elementos	none
 ⋒	intersección doble	none
-⋘	mucho mucho menos que	none
-⋙	mucho mucho más que	none
-⋯	elipsis horizontal media linea	none
+⋯	elipsis horizontal en mitad de la línea	none
 ⋰	elipsis diagonal hacia arriba dercha	none
 ⋱	elipsis diagonal hacia abajo derecha	none
-□	contorno cuadrado	none
-▢	contorno cuadrado con esquinas redondeadas	none
-▣	contorno cuadrado con un cuadrado relleno	none
+□	cuadrado vacío	none
+▣	cuadrado vacío conteniendo cuadrado relleno	none
 ▤	cuadrado relleno con líneas horizantales	none
 ▥	cuadrado relleno con líneas verticales	none
-▦	cuadrado relleno con rayas ortogonales	none
+▦	cuadrado relleno con rayas ortogonales cruzadas	none
 ▧	cuadrado relleno desde la esquina superior izquierda a la inferior derecha	none
 ▨	cuadrado relleno desde la esquina superior derecha a la inferior izquierda	none
-▩	cuadrado relleno con rayas diagonales	none
-▭	contorno de rectángulo	none
-△	contorno de triángulo apuntando hacia arriba	none
+▩	cuadrado relleno con rayas diagonales cruzadas	none
+△	triángulo vacío apuntando hacia arriba	none
 ▴	triángulo pequeño relleno apuntando hacia arriba	none
-▵	contorno triángulo pequeño apuntando hacia arriba	none
-▷	contorno triángulo apuntando a la derecha	none
+▵	triángulo pequeño vacío apuntando hacia arriba	none
+▷	triángulo vacío apuntando hacia la derecha	none
 ▸	triángulo pequeño relleno apuntando a la derecha	none
-▹	contorno triángulo pequeño apuntando a la derecha	none
+▹	triángulo vacío pequeño apuntando hacia la derecha	none
 ►	apuntador rellenado hacia la derecha	none
-▻	contorno de apuntador hacia la derecha	none
-▽	contorno triángulo apuntando abajo	none
+▻	apuntador vacío hacia la derecha	none
+▽	triángulo vacío apuntado hacia abajo	none
 ▾	triángulo pequeño relleno apuntando abajo	none
-▿	contorno triángulo pequeño apuntando abajo	none
-◁	contorno triángulo apuntando izquierda	none
+▿	triángulo vacío pequeño apuntado hacia abajo	none
+◁	triángulo vacío apuntando izquierda	none
 ◂	triángulo pequeño relleno apuntando izquierda	none
-◃	contorno triángulo pequeño apuntando izquierda	none
+◃	triángulo vacío pequeño apuntando izquierda	none
 ◄	apuntador relleno apuntando izquierda	none
-◅	contorno apuntador apuntando izquierda	none
-◆	rombo relleno	none
-◇	contorno de rombo	none
-◈	contorno de rombo con un rombo relleno	none
-◉	contorno de círculo con un círculo relleno	none
+◅	apuntador vacío hacia la izquierda	none
+◇	rombo vacío	none
+◈	rombo vacío conteniendo un rombo relleno	none
+◉	círculo vacío con círculo relleno dentro	none
 ◌	circulo discontinuo	none
-◍	círculo con relleno vertical	none
-◎	diana	none
 ◐	círculo mitad izquierda rellena	none
 ◑	círculo mitad derecha rellena	none
 ◒	círculo mitad inferior rellena	none
 ◓	círculo mitad superior rellena	none
-◔	círculo cuadrante derecho relleno	none
-◕	círculo relleno menos cuadrante superior izquierdo	none
+◔	círculo cuadrante superior derecho relleno	none
+◕	círculo sin cuadrante superior izquierdo	none
 ◖	medio círculo relleno a la izquierda	none
 ◗	medio círculo relleno a la derecha	none
 ◘	viñeta inversa	none
-◙	cuadrado relleno con círculo vacío	none
+◙	cuadrado relleno conteniendo círculo vacío	none
 ◜	arco cuadrante superior izquierdo	none
 ◝	arco cuadrante superior dercho	none
 ◞	arco cuadrante inferior derecho	none
 ◟	arco cuadrante inferior izquierdo	none
-◠	medio círculo superior	none
-◡	medio círculo inferior	none
 ◢	triángulo relleno inferior derecho	none
 ◣	triángulo relleno inferior izquierdo	none
 ◤	triángulo relleno superior izquierdo	none
 ◥	triángulo relleno superior derecho	none
-◦	viñeta vacía	none
 ◳	cuadrado vacío cuadrante superior derecho	none
 ◷	círculo vacío cuadrante superior derecho	none
-◿	triángulo inferior derecho	none
-⨧	mas y subíndice dos	none
-⨯	producto vectorial	none
-⨼	producto interior	none
-⩣	guión bajo doble o lógico	none
-⩽	menos que y signo de igual inclinado	none
-⪍	menos que sobre signo de similar	none
-⪚	signo de igual de doble línea y mayor que	none
+⨧	signo de más con subíndice dos	none
+⩣	disyunción lógica con subrayado doble	none
 ⪺	posterior a arriba de casi igual	none
-😀	cara sonriendo	none
-😃	cara sonriendo con ojos grandes	none
-😄	cara sonriendo con ojos sonrientes	none
-😁	cara radiante con ojos sonrientes	none
-😆	cara sonriendo con los ojos cerrados	none
-😅	cara sonriendo con sudor frío	none
 😂	cara llorando de felicidad	none
-🙂	cara sonriendo ligeramente	none
-😉	cara guiñando el ojo	none
-😊	cara feliz con ojos sonrientes	none
-😚	cara besando con los ojos cerrados	none
-😋	cara saboreando comida	none
+🫠	cara que se derrite	none
+😇	cara sonriente con aureola	none
+😍	cara sonriente con ojos de corazón	none
 😝	cara con ojos cerrados y sacando la lengua	none
 🤔	cara pensativa	none
 🙄	cara con ojos en blanco	none
+🙂‍↔	cara moviéndose horizontalmente	none
+🙂‍↕	cara moviéndose verticalmente	none
 😷	cara con mascarilla médica	none
-🤕	cara con la cabeza vendada	none
-🤧	cara estornudando	none
 🥵	cara de calor	none
 🥴	cara de mareo	none
 😵	cara noqueada	none
-😮	cara con la boca abierta	none
 😦	cara con el ceño fruncido y la boca abierta	none
 😧	cara angustiada	none
-😢	cara llorando	none
-😱	cara gritando de miedo	none
-😞	cara decepcionada	none
-😩	cara agotada	none
-😤	cara resoplando	none
-😠	cara enfadada	none
+😓	cara alicaída con sudor	none
 😈	cara malvada sonriendo con cuernos	none
 👿	cara malvada enfadada con cuernos	none
 💀	calavera	none
@@ -262,19 +199,13 @@ symbols:
 👺	demonio japonés tengu	none
 🧡	corazón anaranjado	none
 🤎	corazón café	none
-💢	símbolo de enfado	none
-💫	símbolo de mareo	none
 👁‍🗨	ojo en un globo de texto	none
 🤚	dorso de la mano levantada	none
 ✌	mano con señal de victoria	none
-🤘	mano haciendo los cuernos	none
 🤙	mano haciendo el gesto de llamar	none
-👆	mano con dedo índice hacia arriba	none
-🤛	puño hacia la izquierda	none
-🤜	puño hacia la derecha	none
+👊	puño cerrado acercándose	none
 🙌	manos levantadas celebrando	none
-🤳	selfi	none
-🙍‍♀	mujer frunciendo el ceño	none
+🫦	mordiendo el labio	none
 🙎	persona enojada	none
 🙎‍♂	hombre enojado	none
 🙎‍♀	mujer enojada	none
@@ -290,25 +221,25 @@ symbols:
 🧑‍💼	profesional	none
 👨‍💼	profesional hombre	none
 👩‍💼	profesional mujer	none
-👲	persona con gorro chino	none
 🤵‍♂	hombre con esmoquín	none
-🦸‍♀	mujer superheroína	none
 🦹‍♂	hombre supervillano	none
-🧑‍🦯	Persona con bastón blanco	none
+🧝	duende	none
 👨‍🦯	hombre con bastón blanco	none
 👩‍🦯	mujer con bastón blanco	none
 🕴	persona en traje levitando	none
 👯	gente con orejas de conejo	none
 🏂	persona en snowboard	none
 🏌	persona jugando golf	none
-🏄	persona haciendo surf	none
-🚣	persona remando en un bote	none
 ⛹	persona botando un balón	none
+🤸	persona haciendo vuelta de carro	none
 🤾	persona jugando handball	none
 🧑‍🤝‍🧑	personas que se toman de la mano	none
-👫	hombre y mujer de la mano	none
 💏	beso	none
-👣	huellas de pies	none
+🧑‍🧑‍🧒	familia adulto, adulto, infante	none
+🧑‍🧑‍🧒‍🧒	familia adulto, adulto, infante, infante	none
+🧑‍🧒	familia adulto, infante	none
+🧑‍🧒‍🧒	familia adulto, infante, infante	none
+🫆	huella digital	none
 🦰	pelirrojo	none
 🦳	pelo canoso	none
 🦲	calvo	none
@@ -316,17 +247,19 @@ symbols:
 🐫	camello de dos jorobas	none
 🦨	zorrillo	none
 🐾	huellas de pezuña	none
-🐤	pollito	none
+🐦‍⬛	mirlo	none
+🐚	concha espiral	none
+🪷	flor de loto	none
 🌺	flor de jamaica	none
 🌱	planta de semillero	none
-🪴	planta en una maceta	none
+🪴	planta en maceta	none
 🍌	plátano	none
-🍓	fresa	none
 🫐	moras azules	none
-🥑	aguacate	none
 🌶	chile	none
 🫑	pimiento morrón	none
 🥜	cacahuates	none
+🍄‍🟫	hongo portabello	none
+🫜	betabel	none
 🥐	cuernito	none
 🥨	pretzel	none
 🧇	waffle	none
@@ -338,58 +271,70 @@ symbols:
 🥣	tazón con cuchara	none
 🥗	ensalada verde	none
 🍠	camote asado	none
-🥟	empanada	none
 🍦	nieve en cono	none
 🍧	raspado	none
-🎂	pastel de cumpleaños	none
-🍰	rebanada de pastel	none
-🧁	pastelito	none
+🍰	pastel de frutas	none
 🥧	pay	none
 🍫	barra de chocolate	none
+🫗	líquido derramándose	none
 🥤	vaso con popote	none
 🧃	bebida en caja	none
 🥢	palillos chinos	none
 🍽	tenedor, cuchillo y plato	none
+🫙	tarro	none
 🏺	ánfora	none
+🪵	tronco	none
 🛖	choza	none
+🏪	tienda de conveniencia	none
+💒	boda en capilla	none
+🛝	resbaladilla	none
+🎡	rueda de la fortuna	none
 💈	signo de barbería	none
 🎪	carpa de circo	none
-🚇	metro	none
+🚂	locomotora	none
 🚓	patrulla	none
 🚔	patrulla se aproxima	none
+🚗	carro	none
+🚘	carro se aproxima	none
 🚙	vehículo SUV	none
 🛻	camioneta pickup	none
 🚛	tractocamión	none
 🛹	patineta	none
 🛼	patín	none
+🛢	barril de petróleo	none
 🚨	torreta	none
 🛑	señal de alto	none
 🕛	doce en punto	none
 🕐	una en punto	none
 🌙	luna creciente	none
-⭐	estrella	none
 🌩	nube y relámpagos	none
 🌂	paraguas cerrado	none
 ☃	muñeco de nieve nevando	none
 ⛄	muñeco de nieve sin nevar	none
 🎍	adorno para pino	none
 🎏	banderín en forma de pescado	none
+🎁	regalo envuelto	none
 ⚽	pelota de soccer	none
+🎾	tenis	none
+🎳	boliche	none
+🪁	papalote	none
+🕹	palanca de control	none
 🎰	máquina tragamonedas	none
 🧸	oso de peluche	none
 🪆	muñecas rusas	none
+🎴	cartas juego de flores	none
 🎭	artes escénicas	none
+🧶	estambre	none
 🎒	mochila escolar	none
 👠	zapato de tacón alto	none
 🎩	sombrero de copa	none
 🎓	birrete	none
-⛑	casco con una cruz blanca	none
 🎛	botones de control	none
+🪉	harpa	none
 📞	auricular	none
 🎥	cámara de filmar	none
 🎞	fotograma	none
 📼	videocassette	none
-💡	foco	none
 🏮	linterna de papel roja	none
 📄	página viendo hacia arriba	none
 📑	etiquetas separadoras	none
@@ -399,18 +344,25 @@ symbols:
 ✒	plumilla negra	none
 🖊	bolígrafo	none
 🗂	separadores	none
+📆	calendario de hojas	none
+📌	chinche	none
+📍	chinche redonda	none
 🗃	organizador de archivos	none
 🗄	archivero	none
 🔏	candado cerrado con plumilla	none
 🦯	bastón blanco	none
+🪝	anzuelo	none
 🧫	placa de Petri	none
 🧬	ADN	none
 🩹	curita	none
+🩻	rayos X	none
 🪤	ratonera	none
 🧺	canasta	none
 🪣	balde	none
+🪬	Hamsa	none
 🪧	cartel	none
-♿	cartel silla de ruedas	none
+🪪	tarjeta de identificación	none
+🚮	señal cesto de basura	none
 🚹	baño de hombres	none
 🚺	baño de mujeres	none
 🚻	baño	none
@@ -428,23 +380,35 @@ symbols:
 ⏮	botón última pista	none
 🔼	botón triángulo hacia arriba	none
 ⏫	botón triángulo doble hacia arriba	none
+⏸	botón pausa	none
+⏹	botón detener	none
+⏺	botón grabar	none
+⏏	botón expulsar	none
+🔅	botón brillo bajo	none
+🔆	botón brillo alto	none
+🟰	signo igual resaltado	none
 ❓	signo de interrogación rojo	none
 ❔	signo de interrogación blanco	none
 ❕	signo de exclamación blanco	none
 ❗	signo de exclamación rojo	none
+💲	símbolo de dólar resaltado	none
+📛	gafete	none
 ✔	marca de verificación	none
 🆓	botón FREE	none
 🆔	botón ID	none
+🅿	botón P	none
 🆘	botón SOS	none
 🟤	círculo café	none
 🟫	cuadrado café	none
 🔶	rombo anaranjado grande	none
 🔷	rombo azul grande	none
 🔸	rombo anaranjado pequeño	none
+🔺	triángulo rojo apuntando hacia arriba	none
+🔻	triángulo rojo apuntando hacia abajo	none
 💠	rombo con un punto	none
+🔳	botón cuadrado blanco	none
+🔲	botón cuadrado negro	none
 ₥	mil	none
-₰	pfennig alemán	none
-₶	libra francesa	none
 🤚🏻	dorso de la mano levantada tono de piel claro	none
 🤚🏼	dorso de la mano levantada tono de piel claro medio	none
 🤚🏽	dorso de la mano levantada tono de piel medio	none
@@ -455,41 +419,21 @@ symbols:
 ✌🏽	mano con señal de victoria tono de piel medio	none
 ✌🏾	mano con señal de victoria tono de piel oscuro medio	none
 ✌🏿	mano con señal de victoria tono de piel oscuro	none
-🤘🏻	mano haciendo los cuernos tono de piel claro	none
-🤘🏼	mano haciendo los cuernos tono de piel claro medio	none
-🤘🏽	mano haciendo los cuernos tono de piel medio	none
-🤘🏾	mano haciendo los cuernos tono de piel oscuro medio	none
-🤘🏿	mano haciendo los cuernos tono de piel oscuro	none
 🤙🏻	mano haciendo el gesto de llamar tono de piel claro	none
 🤙🏼	mano haciendo el gesto de llamar tono de piel claro medio	none
 🤙🏽	mano haciendo el gesto de llamar tono de piel medio	none
 🤙🏾	mano haciendo el gesto de llamar tono de piel oscuro medio	none
 🤙🏿	mano haciendo el gesto de llamar tono de piel oscuro	none
-👆🏻	mano con dedo índice hacia arriba tono de piel claro	none
-👆🏼	mano con dedo índice hacia arriba tono de piel claro medio	none
-👆🏽	mano con dedo índice hacia arriba tono de piel medio	none
-👆🏾	mano con dedo índice hacia arriba tono de piel oscuro medio	none
-👆🏿	mano con dedo índice hacia arriba tono de piel oscuro	none
-🤛🏻	puño hacia la izquierda tono de piel claro	none
-🤛🏼	puño hacia la izquierda tono de piel claro medio	none
-🤛🏽	puño hacia la izquierda tono de piel medio	none
-🤛🏾	puño hacia la izquierda tono de piel oscuro medio	none
-🤛🏿	puño hacia la izquierda tono de piel oscuro	none
-🤜🏻	puño hacia la derecha tono de piel claro	none
-🤜🏼	puño hacia la derecha tono de piel claro medio	none
-🤜🏽	puño hacia la derecha tono de piel medio	none
-🤜🏾	puño hacia la derecha tono de piel oscuro medio	none
-🤜🏿	puño hacia la derecha tono de piel oscuro	none
+👊🏻	puño cerrado acercándose tono de piel claro	none
+👊🏼	puño cerrado acercándose tono de piel claro medio	none
+👊🏽	puño cerrado acercándose tono de piel medio	none
+👊🏾	puño cerrado acercándose tono de piel oscuro medio	none
+👊🏿	puño cerrado acercándose tono de piel oscuro	none
 🙌🏻	manos levantadas celebrando tono de piel claro	none
 🙌🏼	manos levantadas celebrando tono de piel claro medio	none
 🙌🏽	manos levantadas celebrando tono de piel medio	none
 🙌🏾	manos levantadas celebrando tono de piel oscuro medio	none
 🙌🏿	manos levantadas celebrando tono de piel oscuro	none
-🤳🏻	selfi tono de piel claro	none
-🤳🏼	selfi tono de piel claro medio	none
-🤳🏽	selfi tono de piel medio	none
-🤳🏾	selfi tono de piel oscuro medio	none
-🤳🏿	selfi tono de piel oscuro	none
 🧑🏻‍❤‍💋‍🧑🏼	beso persona adulta, persona adulta, tono de piel claro y tono de piel claro medio	none
 🧑🏻‍❤‍💋‍🧑🏽	beso persona adulta, persona adulta, tono de piel claro y tono de piel medio	none
 🧑🏻‍❤‍💋‍🧑🏾	beso persona adulta, persona adulta, tono de piel claro y tono de piel oscuro medio	none
@@ -548,6 +492,26 @@ symbols:
 🧑🏽‍🦲	persona adulta tono de piel medio y calvo	none
 🧑🏾‍🦲	persona adulta tono de piel oscuro medio y calvo	none
 🧑🏿‍🦲	persona adulta tono de piel oscuro y calvo	none
+🧑🏻‍🐰‍🧑🏼	gente con orejas de conejo tono de piel claro y tono de piel claro medio	none
+🧑🏻‍🐰‍🧑🏽	gente con orejas de conejo tono de piel claro y tono de piel medio	none
+🧑🏻‍🐰‍🧑🏾	gente con orejas de conejo tono de piel claro y tono de piel oscuro medio	none
+🧑🏻‍🐰‍🧑🏿	gente con orejas de conejo tono de piel claro y tono de piel oscuro	none
+🧑🏼‍🐰‍🧑🏻	gente con orejas de conejo tono de piel claro medio y tono de piel claro	none
+🧑🏼‍🐰‍🧑🏽	gente con orejas de conejo tono de piel claro medio y tono de piel medio	none
+🧑🏼‍🐰‍🧑🏾	gente con orejas de conejo tono de piel claro medio y tono de piel oscuro medio	none
+🧑🏼‍🐰‍🧑🏿	gente con orejas de conejo tono de piel claro medio y tono de piel oscuro	none
+🧑🏽‍🐰‍🧑🏻	gente con orejas de conejo tono de piel medio y tono de piel claro	none
+🧑🏽‍🐰‍🧑🏼	gente con orejas de conejo tono de piel medio y tono de piel claro medio	none
+🧑🏽‍🐰‍🧑🏾	gente con orejas de conejo tono de piel medio y tono de piel oscuro medio	none
+🧑🏽‍🐰‍🧑🏿	gente con orejas de conejo tono de piel medio y tono de piel oscuro	none
+🧑🏾‍🐰‍🧑🏻	gente con orejas de conejo tono de piel oscuro medio y tono de piel claro	none
+🧑🏾‍🐰‍🧑🏼	gente con orejas de conejo tono de piel oscuro medio y tono de piel claro medio	none
+🧑🏾‍🐰‍🧑🏽	gente con orejas de conejo tono de piel oscuro medio y tono de piel medio	none
+🧑🏾‍🐰‍🧑🏿	gente con orejas de conejo tono de piel oscuro medio y tono de piel oscuro	none
+🧑🏿‍🐰‍🧑🏻	gente con orejas de conejo tono de piel oscuro y tono de piel claro	none
+🧑🏿‍🐰‍🧑🏼	gente con orejas de conejo tono de piel oscuro y tono de piel claro medio	none
+🧑🏿‍🐰‍🧑🏽	gente con orejas de conejo tono de piel oscuro y tono de piel medio	none
+🧑🏿‍🐰‍🧑🏾	gente con orejas de conejo tono de piel oscuro y tono de piel oscuro medio	none
 👨🏻‍❤‍💋‍👨🏻	beso hombre, hombre y tono de piel claro	none
 👨🏻‍❤‍💋‍👨🏼	beso hombre, hombre, tono de piel claro y tono de piel claro medio	none
 👨🏻‍❤‍💋‍👨🏽	beso hombre, hombre, tono de piel claro y tono de piel medio	none
@@ -734,11 +698,6 @@ symbols:
 👩🏽‍🦲	mujer tono de piel medio y calvo	none
 👩🏾‍🦲	mujer tono de piel oscuro medio y calvo	none
 👩🏿‍🦲	mujer tono de piel oscuro y calvo	none
-🙍🏻‍♀	mujer frunciendo el ceño tono de piel claro	none
-🙍🏼‍♀	mujer frunciendo el ceño tono de piel claro medio	none
-🙍🏽‍♀	mujer frunciendo el ceño tono de piel medio	none
-🙍🏾‍♀	mujer frunciendo el ceño tono de piel oscuro medio	none
-🙍🏿‍♀	mujer frunciendo el ceño tono de piel oscuro	none
 🙎🏻	persona enojada tono de piel claro	none
 🙎🏼	persona enojada tono de piel claro medio	none
 🙎🏽	persona enojada tono de piel medio	none
@@ -814,46 +773,53 @@ symbols:
 👩🏽‍💼	profesional mujer tono de piel medio	none
 👩🏾‍💼	profesional mujer tono de piel oscuro medio	none
 👩🏿‍💼	profesional mujer tono de piel oscuro	none
-👲🏻	persona con gorro chino tono de piel claro	none
-👲🏼	persona con gorro chino tono de piel claro medio	none
-👲🏽	persona con gorro chino tono de piel medio	none
-👲🏾	persona con gorro chino tono de piel oscuro medio	none
-👲🏿	persona con gorro chino tono de piel oscuro	none
 🤵🏻‍♂	hombre con esmoquín tono de piel claro	none
 🤵🏼‍♂	hombre con esmoquín tono de piel claro medio	none
 🤵🏽‍♂	hombre con esmoquín tono de piel medio	none
 🤵🏾‍♂	hombre con esmoquín tono de piel oscuro medio	none
 🤵🏿‍♂	hombre con esmoquín tono de piel oscuro	none
-🦸🏻‍♀	mujer superheroína tono de piel claro	none
-🦸🏼‍♀	mujer superheroína tono de piel claro medio	none
-🦸🏽‍♀	mujer superheroína tono de piel medio	none
-🦸🏾‍♀	mujer superheroína tono de piel oscuro medio	none
-🦸🏿‍♀	mujer superheroína tono de piel oscuro	none
 🦹🏻‍♂	hombre supervillano tono de piel claro	none
 🦹🏼‍♂	hombre supervillano tono de piel claro medio	none
 🦹🏽‍♂	hombre supervillano tono de piel medio	none
 🦹🏾‍♂	hombre supervillano tono de piel oscuro medio	none
 🦹🏿‍♂	hombre supervillano tono de piel oscuro	none
-🧑🏻‍🦯	Persona con bastón blanco tono de piel claro	none
-🧑🏼‍🦯	Persona con bastón blanco tono de piel claro medio	none
-🧑🏽‍🦯	Persona con bastón blanco tono de piel medio	none
-🧑🏾‍🦯	Persona con bastón blanco tono de piel oscuro medio	none
-🧑🏿‍🦯	Persona con bastón blanco tono de piel oscuro	none
+🧝🏻	duende tono de piel claro	none
+🧝🏼	duende tono de piel claro medio	none
+🧝🏽	duende tono de piel medio	none
+🧝🏾	duende tono de piel oscuro medio	none
+🧝🏿	duende tono de piel oscuro	none
 👨🏻‍🦯	hombre con bastón blanco tono de piel claro	none
 👨🏼‍🦯	hombre con bastón blanco tono de piel claro medio	none
 👨🏽‍🦯	hombre con bastón blanco tono de piel medio	none
 👨🏾‍🦯	hombre con bastón blanco tono de piel oscuro medio	none
 👨🏿‍🦯	hombre con bastón blanco tono de piel oscuro	none
+👨‍🦯‍➡	hombre con bastón blanco hacia la derecha	none
+👨🏻‍🦯‍➡	hombre con bastón blanco tono de piel claro y hacia la derecha	none
+👨🏼‍🦯‍➡	hombre con bastón blanco tono de piel claro medio y hacia la derecha	none
+👨🏽‍🦯‍➡	hombre con bastón blanco tono de piel medio y hacia la derecha	none
+👨🏾‍🦯‍➡	hombre con bastón blanco tono de piel oscuro medio y hacia la derecha	none
+👨🏿‍🦯‍➡	hombre con bastón blanco tono de piel oscuro y hacia la derecha	none
 👩🏻‍🦯	mujer con bastón blanco tono de piel claro	none
 👩🏼‍🦯	mujer con bastón blanco tono de piel claro medio	none
 👩🏽‍🦯	mujer con bastón blanco tono de piel medio	none
 👩🏾‍🦯	mujer con bastón blanco tono de piel oscuro medio	none
 👩🏿‍🦯	mujer con bastón blanco tono de piel oscuro	none
+👩‍🦯‍➡	mujer con bastón blanco hacia la derecha	none
+👩🏻‍🦯‍➡	mujer con bastón blanco tono de piel claro y hacia la derecha	none
+👩🏼‍🦯‍➡	mujer con bastón blanco tono de piel claro medio y hacia la derecha	none
+👩🏽‍🦯‍➡	mujer con bastón blanco tono de piel medio y hacia la derecha	none
+👩🏾‍🦯‍➡	mujer con bastón blanco tono de piel oscuro medio y hacia la derecha	none
+👩🏿‍🦯‍➡	mujer con bastón blanco tono de piel oscuro y hacia la derecha	none
 🕴🏻	persona en traje levitando tono de piel claro	none
 🕴🏼	persona en traje levitando tono de piel claro medio	none
 🕴🏽	persona en traje levitando tono de piel medio	none
 🕴🏾	persona en traje levitando tono de piel oscuro medio	none
 🕴🏿	persona en traje levitando tono de piel oscuro	none
+👯🏻	gente con orejas de conejo tono de piel claro	none
+👯🏼	gente con orejas de conejo tono de piel claro medio	none
+👯🏽	gente con orejas de conejo tono de piel medio	none
+👯🏾	gente con orejas de conejo tono de piel oscuro medio	none
+👯🏿	gente con orejas de conejo tono de piel oscuro	none
 🏂🏻	persona en snowboard tono de piel claro	none
 🏂🏼	persona en snowboard tono de piel claro medio	none
 🏂🏽	persona en snowboard tono de piel medio	none
@@ -864,21 +830,16 @@ symbols:
 🏌🏽	persona jugando golf tono de piel medio	none
 🏌🏾	persona jugando golf tono de piel oscuro medio	none
 🏌🏿	persona jugando golf tono de piel oscuro	none
-🏄🏻	persona haciendo surf tono de piel claro	none
-🏄🏼	persona haciendo surf tono de piel claro medio	none
-🏄🏽	persona haciendo surf tono de piel medio	none
-🏄🏾	persona haciendo surf tono de piel oscuro medio	none
-🏄🏿	persona haciendo surf tono de piel oscuro	none
-🚣🏻	persona remando en un bote tono de piel claro	none
-🚣🏼	persona remando en un bote tono de piel claro medio	none
-🚣🏽	persona remando en un bote tono de piel medio	none
-🚣🏾	persona remando en un bote tono de piel oscuro medio	none
-🚣🏿	persona remando en un bote tono de piel oscuro	none
 ⛹🏻	persona botando un balón tono de piel claro	none
 ⛹🏼	persona botando un balón tono de piel claro medio	none
 ⛹🏽	persona botando un balón tono de piel medio	none
 ⛹🏾	persona botando un balón tono de piel oscuro medio	none
 ⛹🏿	persona botando un balón tono de piel oscuro	none
+🤸🏻	persona haciendo vuelta de carro tono de piel claro	none
+🤸🏼	persona haciendo vuelta de carro tono de piel claro medio	none
+🤸🏽	persona haciendo vuelta de carro tono de piel medio	none
+🤸🏾	persona haciendo vuelta de carro tono de piel oscuro medio	none
+🤸🏿	persona haciendo vuelta de carro tono de piel oscuro	none
 🤾🏻	persona jugando handball tono de piel claro	none
 🤾🏼	persona jugando handball tono de piel claro medio	none
 🤾🏽	persona jugando handball tono de piel medio	none
@@ -909,31 +870,6 @@ symbols:
 🧑🏿‍🤝‍🧑🏽	personas que se toman de la mano tono de piel oscuro y tono de piel medio	none
 🧑🏿‍🤝‍🧑🏾	personas que se toman de la mano tono de piel oscuro y tono de piel oscuro medio	none
 🧑🏿‍🤝‍🧑🏿	personas que se toman de la mano tono de piel oscuro	none
-👫🏻	hombre y mujer de la mano tono de piel claro	none
-👩🏻‍🤝‍👨🏼	hombre y mujer de la mano tono de piel claro y tono de piel claro medio	none
-👩🏻‍🤝‍👨🏽	hombre y mujer de la mano tono de piel claro y tono de piel medio	none
-👩🏻‍🤝‍👨🏾	hombre y mujer de la mano tono de piel claro y tono de piel oscuro medio	none
-👩🏻‍🤝‍👨🏿	hombre y mujer de la mano tono de piel claro y tono de piel oscuro	none
-👩🏼‍🤝‍👨🏻	hombre y mujer de la mano tono de piel claro medio y tono de piel claro	none
-👫🏼	hombre y mujer de la mano tono de piel claro medio	none
-👩🏼‍🤝‍👨🏽	hombre y mujer de la mano tono de piel claro medio y tono de piel medio	none
-👩🏼‍🤝‍👨🏾	hombre y mujer de la mano tono de piel claro medio y tono de piel oscuro medio	none
-👩🏼‍🤝‍👨🏿	hombre y mujer de la mano tono de piel claro medio y tono de piel oscuro	none
-👩🏽‍🤝‍👨🏻	hombre y mujer de la mano tono de piel medio y tono de piel claro	none
-👩🏽‍🤝‍👨🏼	hombre y mujer de la mano tono de piel medio y tono de piel claro medio	none
-👫🏽	hombre y mujer de la mano tono de piel medio	none
-👩🏽‍🤝‍👨🏾	hombre y mujer de la mano tono de piel medio y tono de piel oscuro medio	none
-👩🏽‍🤝‍👨🏿	hombre y mujer de la mano tono de piel medio y tono de piel oscuro	none
-👩🏾‍🤝‍👨🏻	hombre y mujer de la mano tono de piel oscuro medio y tono de piel claro	none
-👩🏾‍🤝‍👨🏼	hombre y mujer de la mano tono de piel oscuro medio y tono de piel claro medio	none
-👩🏾‍🤝‍👨🏽	hombre y mujer de la mano tono de piel oscuro medio y tono de piel medio	none
-👫🏾	hombre y mujer de la mano tono de piel oscuro medio	none
-👩🏾‍🤝‍👨🏿	hombre y mujer de la mano tono de piel oscuro medio y tono de piel oscuro	none
-👩🏿‍🤝‍👨🏻	hombre y mujer de la mano tono de piel oscuro y tono de piel claro	none
-👩🏿‍🤝‍👨🏼	hombre y mujer de la mano tono de piel oscuro y tono de piel claro medio	none
-👩🏿‍🤝‍👨🏽	hombre y mujer de la mano tono de piel oscuro y tono de piel medio	none
-👩🏿‍🤝‍👨🏾	hombre y mujer de la mano tono de piel oscuro y tono de piel oscuro medio	none
-👫🏿	hombre y mujer de la mano tono de piel oscuro	none
 💏🏻	beso tono de piel claro	none
 💏🏼	beso tono de piel claro medio	none
 💏🏽	beso tono de piel medio	none
@@ -964,11 +900,8 @@ symbols:
 👩‍👧‍👦	familia mujer, niña y niño	none
 👩‍👧‍👧	familia mujer, niña y niña	none
 🔟	tecla 10	none
-🇦🇨	bandera Isla de la Ascensión	none
-🇧🇦	bandera Bosnia y Herzegovina	none
-🇨🇮	bandera Côte d’Ivoire	none
-🇬🇬	bandera Guernsey	none
-🇹🇦	bandera Tristán de Acuña	none
-🇺🇲	bandera Islas menores alejadas de EE. UU.	none
-₫	dong vietnamita	none
-₭	kip laosiano	none
+🇦🇨	Bandera Isla de la Ascensión	none
+🇧🇦	Bandera Bosnia y Herzegovina	none
+🇪🇭	Bandera Sahara Occidental	none
+🇬🇬	Bandera Guernsey	none
+🇺🇲	Bandera Islas menores alejadas de EE. UU.	none

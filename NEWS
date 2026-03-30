@@ -1,3 +1,60 @@
+Version 0.12
+* Add openjtalk module.
+* Add socket activation.
+* Add language and variant parameters to "list voice" command.
+* Add libspeechd-module library for making it simpler to create external spd modules.
+* libspeechd: Simplify buffer management.
+* Fix use of semaphores on MacOS.
+* Fix splitting long UTF-8 sequences.
+* Update CLDR to version 45, symbols from orca 45.2, and symbols from NVDA.
+* Add spd_fd function to C api.
+* Detect module failures from generic module.
+* Make the fallback espeak-ng and dummy modules hardcoded.
+* Better detect generic module failures to disable them.
+* pulse: Use asynchronous API to avoid buffer underruns.
+* generic: Make stripping punctuation use locale charset.
+* audio: Fix logging from audio modules in server-side audio.
+* Sort Baratinoo engine higher.
+* espeak-ng-mbrola: Fix mbrola voices with rate different from 22KHz
+* Add a run-spd-say script and make run-speechd and run-spd-say able to talk directly.
+* server: fix daemon mode on macOS with libao.
+* Add initial pipewire support.
+* Also support loading symbols from home directory
+
+Version 0.11.5
+* Update CLDR to version 43 and symbols from NVDA.
+* Fix parsing and emitting space character.
+* Reduce espeak buffer size to avoid ssml issues.
+* Add --disable-doc.
+* Fix spd-conf not being able to set the default module.
+* Fix pausing without index.
+* ibmtts: Fix parameter reset.
+* ibmtts: Disable using the module punctuation by default.
+
+Version 0.11.4
+* Update CLDR to version 42 and symbols from NVDA.
+* Fix audio plugin loading with dlopen.
+* Fix atomicity of getting reply in threaded mode.
+
+Version 0.11.3
+* Fix back DefaultModule configuration.
+* pico: Avoid falling to english when passed a bogus voice name.
+* espeak: Fix setting voice type.
+
+Version 0.11.2
+* Fix loading xx-yy locales.
+* Various memory leaks fixes.
+* Add mimic3 configuration file.
+* pico: Fix setting language vs voice.
+* Make sure that modules report a list of voices.
+* Update CLDR to version 41, symbols from NVDA and orca.
+* Allow building without ltdl.
+* Re-enable SSML in espeak-ng-mbrola module.
+
+Version 0.11.1
+* Add SPEECHD_PLUGIN_DIR environment variable.
+* Fix listing voices of the default module.
+
 Version 0.11
 * Support playing audio through the server.
 * Simplify modules thanks to this.
@@ -178,7 +235,7 @@ Version 0.7.1
    why was it not possible to autostart the server, what has the
    server reported etc.)  Clients can directly show this information
    to the user and the user doesn't have to search them in logfiles.
- * Improvements in memmory usage
+ * Improvements in memory usage
  * Cleanup of priorities of messages in logging output
  * Various bugfixes, cleanups and fine-tunnings
 
@@ -203,7 +260,7 @@ Version 0.7
  * Updated documentation
 
 Version 0.6.7
- * Central settings for prefered audio output method
+ * Central settings for preferred audio output method
  * Dummy output module gives a pre-recorded message whenever
    no other output module works   
  * Possibility to switch on verbose logging over SSIP
@@ -391,7 +448,7 @@ Version 0.0.1
 
 Copyright (C) 2002-2012 Brailcom, o.p.s
 Copyright (C) 2002-2012 Brailcom, o.p.s
-Copyright (C) 2018-2021 Samuel Thibault <samuel.thibault@ens-lyon.org>
+Copyright (C) 2018-2025 Samuel Thibault <samuel.thibault@ens-lyon.org>
 Copyright (C) 2018 Florian Steinhardt <no.known.email@example.com>
 
 This program is free software; you can redistribute it and/or modify it under

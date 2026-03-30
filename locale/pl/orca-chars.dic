@@ -2,7 +2,7 @@
 # DO NOT MODIFY IT!
 # See locale/README.md to know how to import dictionaries
 
-# locale/pl/orca.dic
+# locale/pl/orca-chars.dic
 # Copyright (C) 2004-2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the orca package.
 
@@ -27,7 +27,6 @@ symbols:
 Ð	WIELKI ZNAK ETH	char	norep
 Ñ	WIELKIE N Z TYLDĄ	char	norep
 Ò	WIELKIE O Z ODWROTNĄ KRESKĄ	char	norep
-Ó	WIELKIE O Z KRESKĄ	char	norep
 Ô	WIELKIE O Z DASZKIEM	char	norep
 Õ	WIELKIE O Z TYLDĄ	char	norep
 Ö	WIELKIE O Z UMLAUTEM	char	norep
@@ -57,7 +56,6 @@ symbols:
 ð	znak eth	char	norep
 ñ	n z tyldą	char	norep
 ò	o z odwrotną kreską	char	norep
-ó	o z kreską	char	norep
 ô	o z daszkiem	char	norep
 õ	o z tyldą	char	norep
 ö	o z umlautem	char	norep

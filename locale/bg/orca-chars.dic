@@ -2,7 +2,7 @@
 # DO NOT MODIFY IT!
 # See locale/README.md to know how to import dictionaries
 
-# locale/bg/orca.dic
+# locale/bg/orca-chars.dic
 # Copyright (C) 2004-2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the orca package.
 
@@ -20,7 +20,7 @@ symbols:
 É	главно е с остро ударение	char	norep
 Ê	главно е с двойно ударение	char	norep
 Ë	главно е с преглас	char	norep
-Ì	Главно и с тежко ударение	char	norep
+Ì	главно и с тежко ударение	char	norep
 Í	главно и с остро ударение	char	norep
 Î	главно и с двойно ударение	char	norep
 Ï	главно и с преглас	char	norep

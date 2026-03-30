@@ -27,9 +27,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <semaphore.h>
 
 #include "speechd_types.h"
 #include "libspeechd.h"
+
+#ifdef THOROUGH
+static sem_t *semaphore;
+
+/* Callback for Speech Dispatcher notifications */
+static void end_of_speech(size_t msg_id, size_t client_id, SPDNotificationType type)
+{
+	sem_post(semaphore);
+}
+#endif
 
 int main()
 {
@@ -42,46 +55,77 @@ int main()
 	int value;
 	SPDVoiceType voice_type = SPD_CHILD_MALE;
 	SPDVoice **synth_voices;
+#ifndef THOROUGH
+	SPDVoiceType voice_types[] = {
+		SPD_MALE1,
+		SPD_MALE2,
+		SPD_MALE3,
+		SPD_FEMALE1,
+		SPD_FEMALE2,
+		SPD_FEMALE3,
+		SPD_CHILD_MALE,
+		SPD_CHILD_FEMALE,
+		SPD_UNSPECIFIED
+	};
+#endif
 
 	printf("Start of the test.\n");
 
-	printf("Trying to initialize Speech Deamon...");
-	conn = spd_open("say", NULL, NULL, SPD_MODE_SINGLE);
+	printf("Trying to initialize Speech Daemon...\n");
+	conn = spd_open("say", NULL, NULL,
+#ifdef THOROUGH
+			SPD_MODE_THREADED
+#else
+			SPD_MODE_SINGLE
+#endif
+			);
 	if (conn == 0) {
-		printf("Speech Deamon failed");
+		printf("Speech Daemon failed\n");
 		exit(1);
 	}
 	printf("OK\n");
 
-	printf("Trying to get the current output module...");
+#ifdef THOROUGH
+	char name[64];
+	snprintf(name, sizeof(name), "/speechd-tests-clibrary2-%d", getpid());
+	semaphore = sem_open(name, O_CREAT | O_EXCL, S_IRUSR | S_IWUSR, 0);
+	sem_unlink(name);
+	conn->callback_end = conn->callback_cancel = end_of_speech;
+	spd_set_notification_on(conn, SPD_END);
+	spd_set_notification_on(conn, SPD_CANCEL);
+#endif
+
+	printf("Trying to get the current output module...\n");
 	module = spd_get_output_module(conn);
 	printf("Got module %s\n", module);
 	if (module == NULL) {
 		printf("Can't get current output module\n");
 		exit(1);
 	}
+	free(module);
 
-	printf("Trying to get the language...");
+	printf("Trying to get the language...\n");
 	language = spd_get_language(conn);
 	printf("Got language %s\n", language);
 	if (language == NULL) {
 		printf("Can't get the language\n");
 		exit(1);
 	}
+	free(language);
 
-	printf("Trying to get the voice rate...");
+	printf("Trying to get the voice rate...\n");
 	value = spd_get_voice_rate(conn);
 	printf("Got rate %d\n", value);
 
-	printf("Trying to get the voice pitch...");
+	printf("Trying to get the voice pitch...\n");
 	value = spd_get_voice_pitch(conn);
 	printf("Got pitch %d\n", value);
 
-	printf("Trying to get the current volume...");
+	printf("Trying to get the current volume...\n");
 	value = spd_get_volume(conn);
 	printf("Got volume %d\n", value);
 
-	printf("Trying to get the current voice type...");
+	printf("Trying to get the current voice type...\n");
 	spd_set_voice_type(conn, voice_type);
 	voice_type = spd_get_voice_type(conn);
 	printf("Got voice type %d\n", voice_type);
@@ -111,15 +155,17 @@ int main()
 			break;
 		printf("     %s\n", voices[i]);
 	}
+	free_spd_symbolic_voices(voices);
 
 	for (j = 0;; j++) {
 		if (modules[j] == NULL)
 			break;
 		ret = spd_set_output_module(conn, modules[j]);
 		if (ret == -1) {
-			printf("spd_set_output_module failed");
+			printf("spd_set_output_module failed\n");
 			exit(1);
 		}
+#ifdef THOROUGH
 		printf("\nListing voices for %s\n", modules[j]);
 		synth_voices = spd_list_synthesis_voices(conn);
 		if (synth_voices == NULL) {
@@ -137,20 +183,43 @@ int main()
 			    spd_set_synthesis_voice(conn,
 						    synth_voices[i]->name);
 			if (ret == -1) {
-				printf("spd_set_synthesis_voice failed");
+				printf("spd_set_synthesis_voice failed\n");
 				exit(1);
 			}
+#else
+		printf("\nIterating over voice types for %s\n", modules[j]);
+		for (i = 0;; i++) {
+			if (voice_types[i] == SPD_UNSPECIFIED)
+				break;
+			printf("     symbolic voice: %d\n",
+			       voice_types[i]);
+			ret =
+			    spd_set_voice_type(conn, voice_types[i]);
+			if (ret == -1) {
+				printf("spd_set_voice_type failed\n");
+				exit(1);
+			}
+#endif
 
 			ret = spd_say(conn, SPD_TEXT, "test");
 			if (ret == -1) {
-				printf("spd_say failed");
+				printf("spd_say failed\n");
 				exit(1);
 			}
+#ifdef THOROUGH
+			sem_wait(semaphore);
+#else
 			sleep(1);
+#endif
 		}
+#ifdef THOROUGH
+		free_spd_voices(synth_voices);
+#endif
 	}
 
-	printf("Trying to close Speech Dispatcher connection...");
+	free_spd_modules(modules);
+
+	printf("Trying to close Speech Dispatcher connection...\n");
 	spd_close(conn);
 	printf("OK\n");
 

@@ -3,6 +3,7 @@
 # See locale/README.md to know how to import dictionaries
 
 symbols:
+🏿	krocʼhen teñval	none
 ∇	nabla	none
 √	gwrizienn garrez	none
 ∞	arouezenn anfin	none
@@ -33,18 +34,17 @@ symbols:
 💯	kant poent	none
 💥	tarzhadenn	none
 🕳	toull	none
-💣	bombezenn	none
-💤	zzz	none
+💤	ZZZ	none
 🤳	emboltred	none
 💪	kigenn daoubennek argrezet	none
-🦾	brecʼh mekanikel	none
-🦿	gar mekanikel	none
+🦾	brecʼh vekanikel	none
+🦿	gar vekanikel	none
 🦵	gar	none
 🦶	troad	none
 👂	skouarn	none
 👃	fri	none
 🧠	empenn	none
-🫀	kalon	none
+🫀	kalon korfadurel	none
 🫁	skevent	none
 🦷	dant	none
 🦴	askorn	none
@@ -165,7 +165,7 @@ symbols:
 🦙	lama	none
 🦒	jirafenn	none
 🐘	olifant	none
-🦣	mamout	none
+🦣	mammout	none
 🦏	frikorneg	none
 🦛	dourvarc’h	none
 🐭	penn logodenn	none
@@ -178,7 +178,7 @@ symbols:
 🦫	avank	none
 🦔	heureuchin	none
 🦇	logodenn-zall	none
-🐻	penn arzh	none
+🐻	arzh	none
 🐻‍❄	arzh gwenn	none
 🐨	koala	none
 🐼	panda	none
@@ -215,6 +215,7 @@ symbols:
 🦖	tiranosaor roue	none
 🐋	balum	none
 🐬	delfin	none
+🫍	skoazog	none
 🦭	reunig	none
 🐟	pesk	none
 🐠	pesk trovanel	none
@@ -222,6 +223,11 @@ symbols:
 🦈	rinkin	none
 🐙	morgazh	none
 🐚	krogenn droellennek	none
+🦀	krank	none
+🦞	legestr	none
+🦐	chevr	none
+🦑	stivell	none
+🦪	istr	none
 🐌	maligorn	none
 🦋	balafenn	none
 🐛	biskoulenn	none
@@ -261,6 +267,7 @@ symbols:
 🍁	delienn skav-gwracʼh	none
 🍂	delioù secʼh	none
 🍃	delienn en avel	none
+🍄	kabell-touseg	none
 🍇	rezin	none
 🍈	meloñs	none
 🍉	pastekez	none
@@ -292,7 +299,6 @@ symbols:
 🥦	brikoli	none
 🧄	kignen	none
 🧅	ognon	none
-🍄	kabell-touseg	none
 🥜	kakaouetez	none
 🌰	kistin	none
 🍞	bara	none
@@ -344,11 +350,6 @@ symbols:
 🥮	gwastell-loar	none
 🍡	beriad madigoù	none
 🥟	pouloud	none
-🦀	krank	none
-🦞	legestr	none
-🦐	chevr	none
-🦑	stivell	none
-🦪	istr	none
 🍦	dienn-skorn mod Italia	none
 🍧	greunitad	none
 🍨	dienn-skorn	none
@@ -394,6 +395,7 @@ symbols:
 🧭	nadoz-vor	none
 🏔	menez ercʼhek	none
 ⛰	menez	none
+🛘	riskladur douar	none
 🌋	menez-tan	none
 🗻	menez Fuji	none
 🏕	kampiñ	none
@@ -638,10 +640,10 @@ symbols:
 🎯	ober mil	none
 🪀	pun-dibun	none
 🪁	sarpant-nij	none
+🔫	pistolenn	none
 🎱	bilhard saoz	none
 🔮	boulenn strink	none
 🪄	gwialenn-hud	none
-🧿	amuzetez nazar	none
 🎮	cʼhoari video	none
 🕹	lanker cʼhoari	none
 🎲	diñs	none
@@ -714,10 +716,11 @@ symbols:
 🎧	selaouelloù	none
 📻	skingomzer	none
 🎷	saksofon	none
+🎺	trompilh	none
+🪊	trombon	none
 🪗	akordeoñs	none
 🎸	gitar	none
 🎹	klavier sonerezh	none
-🎺	trompilh	none
 🎻	violoñs	none
 🪕	banjo	none
 🥁	taboulin	none
@@ -773,8 +776,8 @@ symbols:
 📑	sinedoù	none
 🔖	merk-pajenn	none
 🏷	tikedenn	none
-💰	sacʼhad moneiz	none
 🪙	pezh moneiz	none
+💰	sacʼhad moneiz	none
 💴	bilhed e yenoù	none
 💵	bilhed e dollaroù	none
 💶	bilhed en euroioù	none
@@ -828,7 +831,7 @@ symbols:
 🛠	morzhol hag alcʼhwez plat	none
 🗡	badalenn	none
 ⚔	klezeier kroaziet	none
-🔫	pistolenn	none
+💣	bombezenn	none
 🪃	boumerang	none
 🏹	gwareg ha saezh	none
 🛡	skoed	none
@@ -885,6 +888,7 @@ symbols:
 ⚰	charke	none
 🪦	maen-bez	none
 ⚱	jarl-kañv	none
+🧿	amuzetez nazar	none
 🗿	moai	none
 🏧	arlun bilhedaouer	none
 🚮	arlun pod-lastez	none
@@ -908,6 +912,7 @@ symbols:
 🚯	arabat lakaat lastez	none
 🚱	dour fall da evañ	none
 🚷	difennet dʼar gerzhourien	none
+📵	pellgomzerioù difennet	none
 ☢	skinoberiek	none
 ☣	riskl bevoniel	none
 🛐	lec’h azeuliñ	none
@@ -1009,6 +1014,7 @@ symbols:
 🔸	romb bihan orañjez	none
 🔹	romb bihan glas	none
 🔘	bouton radio	none
+🏁	banniel karrezek	none
 🚩	banniel tricʼhornek	none
 🎌	bannieloù kroaziet	none
 🏴	banniel du	none
@@ -1021,18 +1027,103 @@ symbols:
 ₱	peso	none
 ₹	roupi	none
 ₽	roubl	none
+🤳🏿	emboltred  krocʼhen teñval	none
+💪🏿	kigenn daoubennek argrezet  krocʼhen teñval	none
+🦵🏿	gar  krocʼhen teñval	none
+🦶🏿	troad  krocʼhen teñval	none
+👂🏿	skouarn  krocʼhen teñval	none
+👃🏿	fri  krocʼhen teñval	none
+👶🏿	babig  krocʼhen teñval	none
+🧒🏿	bugel  krocʼhen teñval	none
+👦🏿	paotr  krocʼhen teñval	none
+👧🏿	placʼh  krocʼhen teñval	none
+🧑🏿	den deuet  krocʼhen teñval	none
+👱🏿	den melegan  krocʼhen teñval	none
 🧑‍🦰	den deuet  blev ruz	none
+🧑🏿‍🦰	den deuet  krocʼhen teñval, blev ruz	none
 🧑‍🦱	den deuet  blev rodellek	none
+🧑🏿‍🦱	den deuet  krocʼhen teñval, blev rodellek	none
 🧑‍🦳	den deuet  blev gwenn	none
+🧑🏿‍🦳	den deuet  krocʼhen teñval, blev gwenn	none
 🧑‍🦲	den deuet  moal	none
+🧑🏿‍🦲	den deuet  krocʼhen teñval, moal	none
+👨🏿	gwaz  krocʼhen teñval	none
+👱🏿‍♂	melegan  krocʼhen teñval	none
 👨‍🦰	gwaz  blev ruz	none
+👨🏿‍🦰	gwaz  krocʼhen teñval, blev ruz	none
 👨‍🦱	gwaz  blev rodellek	none
+👨🏿‍🦱	gwaz  krocʼhen teñval, blev rodellek	none
 👨‍🦳	gwaz  blev gwenn	none
+👨🏿‍🦳	gwaz  krocʼhen teñval, blev gwenn	none
 👨‍🦲	gwaz  moal	none
+👨🏿‍🦲	gwaz  krocʼhen teñval, moal	none
+👩🏿	maouez  krocʼhen teñval	none
+👱🏿‍♀	meleganez  krocʼhen teñval	none
 👩‍🦰	maouez  blev ruz	none
+👩🏿‍🦰	maouez  krocʼhen teñval, blev ruz	none
 👩‍🦱	maouez  blev rodellek	none
+👩🏿‍🦱	maouez  krocʼhen teñval, blev rodellek	none
 👩‍🦳	maouez  blev gwenn	none
+👩🏿‍🦳	maouez  krocʼhen teñval, blev gwenn	none
 👩‍🦲	maouez  moal	none
+👩🏿‍🦲	maouez  krocʼhen teñval, moal	none
+🧓🏿	den kozh  krocʼhen teñval	none
+👴🏿	gwaz kozh  krocʼhen teñval	none
+👵🏿	maouez kozh  krocʼhen teñval	none
+👨🏿‍🎓	studier  krocʼhen teñval	none
+👩🏿‍🎓	studierez  krocʼhen teñval	none
+👨🏿‍🏫	kelenner  krocʼhen teñval	none
+👩🏿‍🏫	kelennerez  krocʼhen teñval	none
+👨🏿‍⚖	barner  krocʼhen teñval	none
+👩🏿‍⚖	barnerez  krocʼhen teñval	none
+👨🏿‍🌾	labourer-douar  krocʼhen teñval	none
+👩🏿‍🌾	labourerez-douar  krocʼhen teñval	none
+👨🏿‍🍳	keginer  krocʼhen teñval	none
+👩🏿‍🍳	keginerez  krocʼhen teñval	none
+👨🏿‍🏭	micherour  krocʼhen teñval	none
+👩🏿‍🏭	micherourez  krocʼhen teñval	none
+👨🏿‍💼	implijad  krocʼhen teñval	none
+👩🏿‍💼	implijadez  krocʼhen teñval	none
+👨🏿‍🔬	skiantour  krocʼhen teñval	none
+👩🏿‍🔬	skiantourez  krocʼhen teñval	none
+👨🏿‍💻	stlennegour  krocʼhen teñval	none
+👩🏿‍💻	stlennegourez  krocʼhen teñval	none
+🧑🏿‍🎤	den a gan  krocʼhen teñval	none
+👨🏿‍🎤	kaner  krocʼhen teñval	none
+👩🏿‍🎤	kanerez  krocʼhen teñval	none
+👨🏿‍🎨	arzour  krocʼhen teñval	none
+👩🏿‍🎨	arzourez  krocʼhen teñval	none
+👨🏿‍✈	levier  krocʼhen teñval	none
+👩🏿‍✈	levierez  krocʼhen teñval	none
+👨🏿‍🚀	astraer  krocʼhen teñval	none
+👩🏿‍🚀	astraerez  krocʼhen teñval	none
+👨🏿‍🚒	pomper  krocʼhen teñval	none
+👩🏿‍🚒	pomperez  krocʼhen teñval	none
+👮🏿	polis  krocʼhen teñval	none
+👮🏿‍♂	poliser  krocʼhen teñval	none
+👮🏿‍♀	poliserez  krocʼhen teñval	none
+🕵🏿	igoun  krocʼhen teñval	none
+🕵🏿‍♂	igounier  krocʼhen teñval	none
+🕵🏿‍♀	igounierez  krocʼhen teñval	none
+💂🏿	gward  krocʼhen teñval	none
+🥷🏿	ninja  krocʼhen teñval	none
+🤴🏿	priñs  krocʼhen teñval	none
+👸🏿	priñsez  krocʼhen teñval	none
+👼🏿	babig ael  krocʼhen teñval	none
+🎅🏿	Tad Nedeleg  krocʼhen teñval	none
+🤶🏿	Mamm Nedeleg  krocʼhen teñval	none
+🦸🏿	gourharoz  krocʼhen teñval	none
+🧙🏿	maj  krocʼhen teñval	none
+🧙🏿‍♂	hudour  krocʼhen teñval	none
+🧙🏿‍♀	hudourez  krocʼhen teñval	none
+🧚🏿	boudig  krocʼhen teñval	none
+🧛🏿	suner/ez-gwad  krocʼhen teñval	none
+🧛🏿‍♂	suner-gwad  krocʼhen teñval	none
+🧛🏿‍♀	sunerez-gwad  krocʼhen teñval	none
+🧜🏿‍♂	morgan  krocʼhen teñval	none
+🧜🏿‍♀	morganez  krocʼhen teñval	none
+🧝🏿‍♂	elf  krocʼhen teñval	none
+🧝🏿‍♀	elfez  krocʼhen teñval	none
 👨‍👩‍👦	familh  gwaz, maouez, paotr	none
 👨‍👩‍👧	familh  gwaz, maouez, placʼh	none
 👨‍👩‍👧‍👦	familh  gwaz, maouez, placʼh, paotr	none
@@ -1060,9 +1151,9 @@ symbols:
 👩‍👧‍👧	familh  maouez, placʼh, placʼh	none
 🇦🇨	banniel  Enez Ascension	none
 🇦🇩	banniel  Andorra	none
-🇦🇪	banniel  Emirelezhioù Arab Unanet	none
+🇦🇪	banniel  Emirelezhioù-Arab-Unanet	none
 🇦🇫	banniel  Afghanistan	none
-🇦🇬	banniel  Antigua ha Barbuda	none
+🇦🇬	banniel  Antigua-ha-Barbuda	none
 🇦🇮	banniel  Anguilla	none
 🇦🇱	banniel  Albania	none
 🇦🇲	banniel  Armenia	none
@@ -1075,7 +1166,7 @@ symbols:
 🇦🇼	banniel  Aruba	none
 🇦🇽	banniel  Inizi Åland	none
 🇦🇿	banniel  Azerbaidjan	none
-🇧🇦	banniel  Bosnia ha Herzegovina	none
+🇧🇦	banniel  Bosnia-ha-Herzegovina	none
 🇧🇧	banniel  Barbados	none
 🇧🇩	banniel  Bangladesh	none
 🇧🇪	banniel  Belgia	none
@@ -1084,8 +1175,8 @@ symbols:
 🇧🇭	banniel  Bahrein	none
 🇧🇮	banniel  Burundi	none
 🇧🇯	banniel  Benin	none
-🇧🇱	banniel  Saint Barthélemy	none
-🇧🇲	banniel  Bermuda	none
+🇧🇱	banniel  Sant-Bertele	none
+🇧🇲	banniel  Bermudez	none
 🇧🇳	banniel  Brunei	none
 🇧🇴	banniel  Bolivia	none
 🇧🇶	banniel  Karib Nederlandat	none
@@ -1102,13 +1193,14 @@ symbols:
 🇨🇫	banniel  Republik Kreizafrikan	none
 🇨🇬	banniel  Kongo - Brazzaville	none
 🇨🇭	banniel  Suis	none
-🇨🇮	banniel  Aod an Olifant	none
+🇨🇮	banniel  Aod-an-Olifant	none
 🇨🇰	banniel  Inizi Cook	none
 🇨🇱	banniel  Chile	none
 🇨🇲	banniel  Kameroun	none
 🇨🇳	banniel  Sina	none
 🇨🇴	banniel  Kolombia	none
 🇨🇵	banniel  Enez Clipperton	none
+🇨🇶	banniel  Sark	none
 🇨🇷	banniel  Costa Rica	none
 🇨🇺	banniel  Kuba	none
 🇨🇻	banniel  Kab-Glas	none
@@ -1150,7 +1242,7 @@ symbols:
 🇬🇲	banniel  Gambia	none
 🇬🇳	banniel  Ginea	none
 🇬🇵	banniel  Gwadeloup	none
-🇬🇶	banniel  Ginea ar Cʼheheder	none
+🇬🇶	banniel  Ginea-ar-Cʼheheder	none
 🇬🇷	banniel  Gres	none
 🇬🇸	banniel  Inizi Georgia ar Su hag Inizi Sandwich ar Su	none
 🇬🇹	banniel  Guatemala	none
@@ -1158,7 +1250,7 @@ symbols:
 🇬🇼	banniel  Ginea-Bissau	none
 🇬🇾	banniel  Guyana	none
 🇭🇰	banniel  Hong Kong RMD Sina	none
-🇭🇲	banniel  Inizi Heard ha McDonald	none
+🇭🇲	banniel  Inizi Heard-ha-McDonald	none
 🇭🇳	banniel  Honduras	none
 🇭🇷	banniel  Kroatia	none
 🇭🇹	banniel  Haiti	none
@@ -1167,7 +1259,7 @@ symbols:
 🇮🇩	banniel  Indonezia	none
 🇮🇪	banniel  Iwerzhon	none
 🇮🇱	banniel  Israel	none
-🇮🇲	banniel  Enez Vanav	none
+🇮🇲	banniel  Enez-Vanav	none
 🇮🇳	banniel  India	none
 🇮🇴	banniel  Tiriad breizhveurat Meurvor Indez	none
 🇮🇶	banniel  Iraq	none
@@ -1183,9 +1275,9 @@ symbols:
 🇰🇭	banniel  Kambodja	none
 🇰🇮	banniel  Kiribati	none
 🇰🇲	banniel  Komorez	none
-🇰🇳	banniel  Saint Kitts ha Nevis	none
-🇰🇵	banniel  Korea an Norzh	none
-🇰🇷	banniel  Korea ar Su	none
+🇰🇳	banniel  Saint Kitts-ha-Nevis	none
+🇰🇵	banniel  Norzhkorea	none
+🇰🇷	banniel  Sukorea	none
 🇰🇼	banniel  Koweit	none
 🇰🇾	banniel  Inizi Cayman	none
 🇰🇿	banniel  Kazakstan	none
@@ -1204,14 +1296,14 @@ symbols:
 🇲🇨	banniel  Monaco	none
 🇲🇩	banniel  Moldova	none
 🇲🇪	banniel  Montenegro	none
-🇲🇫	banniel  Saint Martin	none
+🇲🇫	banniel  Sant-Martin	none
 🇲🇬	banniel  Madagaskar	none
 🇲🇭	banniel  Inizi Marshall	none
 🇲🇰	banniel  Makedonia an Norzh	none
 🇲🇱	banniel  Mali	none
 🇲🇲	banniel  Myanmar (Birmania)	none
 🇲🇳	banniel  Mongolia	none
-🇲🇴	banniel  Macau RMD Sina	none
+🇲🇴	banniel  Makao RMD Sina	none
 🇲🇵	banniel  Inizi Mariana an Norzh	none
 🇲🇶	banniel  Martinik	none
 🇲🇷	banniel  Maouritania	none
@@ -1224,7 +1316,7 @@ symbols:
 🇲🇾	banniel  Malaysia	none
 🇲🇿	banniel  Mozambik	none
 🇳🇦	banniel  Namibia	none
-🇳🇨	banniel  Kaledonia Nevez	none
+🇳🇨	banniel  Kaledonia-Nevez	none
 🇳🇪	banniel  Niger	none
 🇳🇫	banniel  Enez Norfolk	none
 🇳🇬	banniel  Nigeria	none
@@ -1261,7 +1353,7 @@ symbols:
 🇸🇨	banniel  Sechelez	none
 🇸🇩	banniel  Soudan	none
 🇸🇪	banniel  Sveden	none
-🇸🇬	banniel  Singapour	none
+🇸🇬	banniel  Singapoura	none
 🇸🇭	banniel  Saint-Helena	none
 🇸🇮	banniel  Slovenia	none
 🇸🇯	banniel  Svalbard	none
@@ -1271,14 +1363,14 @@ symbols:
 🇸🇳	banniel  Senegal	none
 🇸🇴	banniel  Somalia	none
 🇸🇷	banniel  Surinam	none
-🇸🇸	banniel  Susoudan	none
-🇸🇹	banniel  São Tomé ha Príncipe	none
+🇸🇸	banniel  Soudan ar Su	none
+🇸🇹	banniel  São-Tomé-ha-Príncipe	none
 🇸🇻	banniel  Salvador	none
 🇸🇽	banniel  Sint Maarten	none
 🇸🇾	banniel  Siria	none
 🇸🇿	banniel  Eswatini	none
 🇹🇦	banniel  Tristan da Cunha	none
-🇹🇨	banniel  Inizi Turks ha Caicos	none
+🇹🇨	banniel  Inizi Turks-ha-Caicos	none
 🇹🇩	banniel  Tchad	none
 🇹🇫	banniel  Douaroù aostral Frañs	none
 🇹🇬	banniel  Togo	none
@@ -1290,7 +1382,7 @@ symbols:
 🇹🇳	banniel  Tunizia	none
 🇹🇴	banniel  Tonga	none
 🇹🇷	banniel  Turkia	none
-🇹🇹	banniel  Trinidad ha Tobago	none
+🇹🇹	banniel  Trinidad-ha-Tobago	none
 🇹🇻	banniel  Tuvalu	none
 🇹🇼	banniel  Taiwan	none
 🇹🇿	banniel  Tanzania	none
@@ -1302,13 +1394,13 @@ symbols:
 🇺🇾	banniel  Uruguay	none
 🇺🇿	banniel  Ouzbekistan	none
 🇻🇦	banniel  Vatikan	none
-🇻🇨	banniel  Sant Visant hag ar Grenadinez	none
+🇻🇨	banniel  Sant-Visant hag ar Grenadinez	none
 🇻🇪	banniel  Venezuela	none
 🇻🇬	banniel  Inizi Gwercʼh Breizh-Veur	none
 🇻🇮	banniel  Inizi Gwercʼh ar Stadoù-Unanet	none
 🇻🇳	banniel  Viêt Nam	none
 🇻🇺	banniel  Vanuatu	none
-🇼🇫	banniel  Wallis ha Futuna	none
+🇼🇫	banniel  Wallis-ha-Futuna	none
 🇼🇸	banniel  Samoa	none
 🇽🇰	banniel  Kosovo	none
 🇾🇪	banniel  Yemen	none
@@ -1321,7 +1413,6 @@ symbols:
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	banniel  Kembre	none
 ₡	colón Costa Rica	none
 ₦	naira Nigeria	none
-₧	peseta Spagn	none
 ₪	shekel nevez Israel	none
 ₫	dong Viêt Nam	none
 ₭	kip Laos	none
@@ -1333,3 +1424,4 @@ symbols:
 ₺	lur Turkia	none
 ₼	manat Azerbaidjan	none
 ₾	lari Jorjia	none
+₧	peseta Spagn	none

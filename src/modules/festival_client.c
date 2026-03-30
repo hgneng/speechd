@@ -393,21 +393,21 @@ int festival_read_response(FT_Info * info, char **expr)
 	DBG("<- Festival: |%s|", buf);
 
 	if (!strcmp(buf, "ER\n")) {
-		if (expr != NULL)
-			*expr = NULL;
 		return 1;
-	} else {
-		if (expr != NULL) {
-			*expr = client_accept_s_expr(info->server_fd);
-		} else {
-			r = client_accept_s_expr(info->server_fd);
-			if (r != NULL)
-				g_free(r);
-		}
 	}
 
-	if (festival_get_ack(&info, buf))
+	r = client_accept_s_expr(info->server_fd);
+	if (expr != NULL) {
+		*expr = r;
+	} else if (r != NULL) {
+		g_free(r);
+	}
+
+	if (festival_get_ack(&info, buf)) {
+		if (expr)
+			g_free(*expr);
 		return 1;
+	}
 	DBG("<- Festival: |%s|", buf);
 
 	return 0;
@@ -484,14 +484,21 @@ FT_Info *festivalOpen(FT_Info * info)
 	if (ret || resp == NULL || strcmp(resp, "t\n")) {
 		DBG("ERROR: Can't load speech-dispatcher module into Festival."
 		    "Reason: %s", resp);
+		delete_FT_Info(info);
+		if (!ret && resp)
+			g_free(resp);
 		return NULL;
 	}
 	g_free(resp);
+	resp = NULL;
 
 	FEST_SEND_CMD("(Parameter.set 'Wavefiletype 'nist)\n");
 	ret = festival_read_response(info, &resp);
 	if (ret || resp == NULL || strcmp(resp, "nist\n")) {
 		DBG("ERROR: Can't set Wavefiletype to nist in Festival. Reason: %s", resp);
+		delete_FT_Info(info);
+		if (!ret && resp)
+			g_free(resp);
 		return NULL;
 	}
 	g_free(resp);
@@ -584,6 +591,7 @@ FT_Wave *festivalStringToWaveGetData(FT_Info * info)
 {
 	FT_Wave *wave = NULL;
 	char ack[5];
+	char *expr;
 
 	/* Read back info from server */
 	/* This assumes only one waveform will come back, also LP is unlikely */
@@ -594,7 +602,9 @@ FT_Wave *festivalStringToWaveGetData(FT_Info * info)
 		if (strcmp(ack, "WV\n") == 0) {
 			wave = client_accept_waveform(info->server_fd, NULL, 0);
 		} else if (strcmp(ack, "LP\n") == 0) {
-			client_accept_s_expr(info->server_fd);
+			expr = client_accept_s_expr(info->server_fd);
+			if (expr != NULL)
+				g_free(expr);
 		} else if (strcmp(ack, "ER\n") == 0) {
 			//  fprintf(stderr,"festival_client: server returned error\n");
 			break;
@@ -633,6 +643,7 @@ FT_Wave *festivalGetDataMulti(FT_Info * info, char **callback, int *stop_flag,
 	do {
 		if (festival_get_ack(&info, ack)) {
 			DBG("Get ack failed");
+			g_free(resp);
 			return NULL;
 		}
 		DBG("<- Festival: %s", ack);
@@ -642,8 +653,7 @@ FT_Wave *festivalGetDataMulti(FT_Info * info, char **callback, int *stop_flag,
 			    client_accept_waveform(info->server_fd, stop_flag,
 						   stop_by_close);
 		} else if (strcmp(ack, "LP\n") == 0) {
-			if (resp != NULL)
-				g_free(resp);
+			g_free(resp);
 			resp = client_accept_s_expr(info->server_fd);
 			if (resp == NULL) {
 				DBG("ERROR: Something wrong in communication with Festival, s_expr = NULL");
@@ -660,6 +670,7 @@ FT_Wave *festivalGetDataMulti(FT_Info * info, char **callback, int *stop_flag,
 			}
 		} else if (strcmp(ack, "ER\n") == 0) {
 			DBG("festival_client: server returned error\n");
+			g_free(resp);
 			return NULL;
 		}
 	} while (strcmp(ack, "OK\n") != 0);
@@ -717,6 +728,7 @@ char **lisp_list_get_vect(const char *expr)
 
 	// Split into a vector of atoms
 	vect = g_strsplit(helper, " ", 0);
+	g_free(helper);
 
 	return vect;
 }

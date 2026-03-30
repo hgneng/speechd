@@ -137,8 +137,8 @@ DECLARE_DEBUG();
 	{ \
 		T ## name *new_item; \
 		char* new_key; \
-		new_item = (T ## name *) g_malloc(sizeof(T ## name)); \
 		if (cmd->data.list[0] == NULL) return NULL; \
+		new_item = (T ## name *) g_malloc(sizeof(T ## name)); \
 		new_key = g_strdup(cmd->data.list[0]); \
 		new_item->arg1 = (int) strtol(cmd->data.list[1], NULL, 10); \
 		new_item->arg2 = (int) strtol(cmd->data.list[2], NULL, 10); \
@@ -258,6 +258,7 @@ MOD_OPTION_6_INT_HT(IbmttsVoiceParameters,
 		    gender, breathiness, head_size, pitch_baseline,
 		    pitch_fluctuation, roughness, speed);
 MOD_OPTION_3_STR_HT_DLL(IbmttsKeySubstitution, lang, key, newkey);
+MOD_OPTION_1_INT(IbmttsMulticasesWords);
 
 #ifdef VOXIN
 /* Array of installed voices returned by voxGetVoices() */
@@ -337,7 +338,7 @@ int module_load(void)
 	REGISTER_DEBUG();
 
 	MOD_OPTION_1_INT_REG(IbmttsUseSSML, 1);
-	MOD_OPTION_1_INT_REG(IbmttsUsePunctuation, 1);
+	MOD_OPTION_1_INT_REG(IbmttsUsePunctuation, 0);
 	MOD_OPTION_1_INT_REG(IbmttsUseAbbreviation, 1);
 	MOD_OPTION_1_STR_REG(IbmttsPunctuationList, "()?");
 	MOD_OPTION_1_STR_REG(IbmttsDictionaryFolder,
@@ -346,6 +347,7 @@ int module_load(void)
 	MOD_OPTION_1_INT_REG(IbmttsAudioChunkSize, 20000);
 	MOD_OPTION_1_STR_REG(IbmttsSoundIconFolder,
 			     "/usr/share/sounds/sound-icons/");
+	MOD_OPTION_1_INT_REG(IbmttsMulticasesWords, 1);
 
 	/* Register voices. */
 	module_register_settings_voices();
@@ -475,11 +477,11 @@ void module_speak_sync(const gchar * data, size_t bytes, SPDMessageType msgtype)
 	UPDATE_STRING_PARAMETER(voice.language, set_language);
 	UPDATE_PARAMETER(voice_type, set_voice_type);
 	UPDATE_STRING_PARAMETER(voice.name, set_synthesis_voice);
-	UPDATE_PARAMETER(rate, set_rate);
-	UPDATE_PARAMETER(volume, set_volume);
-	UPDATE_PARAMETER(pitch, set_pitch);
-	UPDATE_PARAMETER(punctuation_mode, set_punctuation_mode);
-	UPDATE_PARAMETER(cap_let_recogn, set_capital_mode);
+	set_rate(msg_settings.rate);
+	set_volume(msg_settings.volume);
+	set_pitch(msg_settings.pitch);
+	set_punctuation_mode(msg_settings.punctuation_mode);
+	set_capital_mode(msg_settings.cap_let_recogn);
 	
 	if (!IbmttsUseSSML) {
 		/* Strip all SSML */
@@ -496,6 +498,8 @@ void module_speak_sync(const gchar * data, size_t bytes, SPDMessageType msgtype)
 			message = tmp;
 		}
 	}
+	if (IbmttsMulticasesWords)
+		message = module_multicases_string(message);
 
 	stop_requested = FALSE;
 	pause_requested = FALSE;
@@ -1418,8 +1422,7 @@ static char *search_for_sound_icon(const char *icon_name)
 	 * situation the string filename must be freed, including its character
 	 * data.
 	 */
-	g_string_free(filename, (fn == NULL));
-	return fn;
+	return g_string_free(filename, (fn == NULL));
 }
 
 #ifdef VOXIN
@@ -1526,7 +1529,7 @@ gboolean alloc_voice_list()
 	int nLanguages = MAX_NB_OF_LANGUAGES;
 	int i = 0;
 
-	if (eciGetAvailableLanguages(aLanguage, &nLanguages))
+	if (eciGetAvailableLanguages(aLanguage, &nLanguages) || nLanguages == 0)
 		return FALSE;
 
 	speechd_voice = g_malloc((nLanguages + 1) * sizeof(SPDVoice *));
@@ -1678,6 +1681,7 @@ static void load_user_dictionary()
 				DBG(DBG_MODNAME "%s is not a directory",
 				    dirname->str);
 				g_free(language);
+				g_string_free(dirname, TRUE);
 				return;
 			}
 		}

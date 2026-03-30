@@ -1,0 +1,159 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    name: Build with ${{ matrix.sanitizer }} sanitizer
+    strategy:
+      fail-fast: false
+      matrix:
+        sanitizer: [no, address, leak, thread, undefined, valgrind]
+
+        include:
+          - sanitizer: "no"
+            deps: ""
+            configflags: ""
+            config: ""
+            build_env: ""
+            check_env: ""
+
+          - sanitizer: "address"
+            deps: ""
+            configenv: 'ac_cv_func_malloc_0_nonnull=yes ac_cv_func_realloc_0_nonnull=yes'
+            configflags: '-fsanitize=address -g -Og'
+            config: ""
+            build_env: ""
+            check_env: "ASAN_OPTIONS=detect_leaks=0"
+
+          - sanitizer: "leak"
+            deps: ""
+            configenv: 'ac_cv_func_malloc_0_nonnull=yes ac_cv_func_realloc_0_nonnull=yes'
+            configflags: '-fsanitize=leak -g -Og'
+            config: ""
+            build_env: ""
+            check_env: "ASAN_OPTIONS=fast_unwind_on_malloc=0 LSAN_OPTIONS=malloc_context_size=24"
+
+          - sanitizer: "thread"
+            deps: ""
+            configflags: '-fsanitize=thread -g -Og'
+            config: ""
+            build_env: ""
+            check_env: ""
+
+          - sanitizer: "undefined"
+            deps: ""
+            configflags: '-fsanitize=undefined -g -Og'
+            config: ""
+            build_env: ""
+            check_env: "UBSAN_OPTIONS=halt_on_error=1"
+
+          - sanitizer: "valgrind"
+            deps: "libtool-bin valgrind"
+            configflags: '-g -Og'
+            config: ""
+            build_env: ""
+            check_env: ""
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: firebuild/apt-eatmydata-action@v1
+    - name: dependencies
+      run: sudo apt-get update ; sudo apt-get install autopoint
+                        python3 python3-xdg
+                        flite1-dev flite
+                        libespeak-dev libespeak-ng-dev
+                        libttspico-dev
+                        libao-dev libasound2-dev libaudio-dev libpulse-dev libpipewire-0.3-dev libxau-dev libsndfile1-dev
+                        libdotconf-dev libglib2.0-dev libltdl-dev systemd
+                        gettext help2man texinfo texlive texlive-plain-generic
+                        librubberband-dev
+                        pulseaudio ${{ matrix.deps }}
+    - name: install piper
+      run: |
+        wget https://github.com/rhasspy/piper-phonemize/releases/download/2023.11.14-4/piper-phonemize_linux_x86_64.tar.gz
+        echo "22ae85dba1c07e328b33e8311ae6e67ad1ea2a57068d08238c452c69b0b1761eb39b064bf7e51f7413317a8200f6f92c23426a5a575abbb4dbdde86c81825601  piper-phonemize_linux_x86_64.tar.gz" | sha512sum --check
+        tar -C /opt -xvf piper-phonemize_linux_x86_64.tar.gz
+        wget https://github.com/rhasspy/piper/archive/refs/tags/2023.11.14-2.tar.gz
+        echo "2156c8d384aafc977a41eea181855b5e3fddab1eca353528d919d421958e4c10dbcf6526d03433e4246ac847a2fe4a7c43a57d2cb5666993ad0f28ed9fb68fe6  2023.11.14-2.tar.gz" | sha512sum --check
+        tar -C /opt -xvf 2023.11.14-2.tar.gz
+    - name: autoconf
+      run: ./build.sh
+    - name: configure
+      run: ${{ matrix.configenv }}
+           CFLAGS="${{ matrix.configflags }}"
+           CXXFLAGS="${{ matrix.configflags }} -I/opt/piper_phonemize/include"
+           LDFLAGS="-L/opt/piper_phonemize/lib"
+           ./configure --prefix=/tmp/foobar --with-piper=/opt/piper-2023.11.14-2 ${{ matrix.config }}
+    - name: Store the config
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: config-${{ matrix.sanitizer }}.log
+        path: config.log
+    - name: make
+      run: ${{ matrix.build_env }} make
+    - name: make check
+      run: ${{ matrix.check_env }} make check
+    - name: make install
+      run: ${{ matrix.build_env }} sudo make install
+    - name: make testsuite
+      run: ${{ matrix.build_env }} make -C src/tests testsuite
+    - name: run testsuite
+      run: dbus-run-session sh -c '( pulseaudio & cd src/tests ; MALLOC_PERTURB_=1234 ${{ matrix.check_env }} ./testsuite )'
+      if: ${{ matrix.sanitizer != 'valgrind' }}
+    - name: run testsuite
+      run: dbus-run-session sh -c '( pulseaudio & cd src/tests ; libtool --mode=execute valgrind --track-origins=yes --leak-check=full --error-exitcode=1 ./clibrary ; libtool --mode=execute valgrind --track-origins=yes --leak-check=full --error-exitcode=1 ./clibrary2 ; libtool --mode=execute valgrind --track-origins=yes --leak-check=full --error-exitcode=1 ./long_message )'
+      if: ${{ matrix.sanitizer == 'valgrind' }}
+    - name: Store the log
+      if: ${{ failure() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: testsuite-${{ matrix.sanitizer }}
+        path: |
+          src/tests/testsuite.log
+          src/tests/testsuite.dir/*/testsuite.log
+          /home/runner/.cache/speech-dispatcher/log/speech-dispatcher.log
+    - name: make distcheck
+      run: make distcheck
+      if: matrix.sanitizer == 'no'
+
+  build-noltdl:
+    runs-on: ubuntu-latest
+
+    name: Build with no ltdl
+    steps:
+    - uses: actions/checkout@v3
+    - uses: firebuild/apt-eatmydata-action@v1
+    - name: dependencies
+      run: sudo apt-get update ; sudo apt-get install autopoint
+                        python3 python3-xdg
+                        flite1-dev flite
+                        libespeak-dev libespeak-ng-dev
+                        libttspico-dev
+                        libao-dev libasound2-dev libaudio-dev libpulse-dev libpipewire-0.3-dev libxau-dev libsndfile1-dev
+                        libdotconf-dev libglib2.0-dev libltdl-dev- libsystemd-dev systemd
+                        gettext help2man texinfo texlive texlive-plain-generic
+                        pulseaudio
+    - name: autoconf
+      run: ./build.sh
+    - name: configure
+      run: ./configure
+    - name: Store the config
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: config-${{ matrix.sanitizer }}.log
+        path: config.log
+    - name: make
+      run: ${{ matrix.build_env }} make
+    - name: make check
+      run: ${{ matrix.check_env }} make check

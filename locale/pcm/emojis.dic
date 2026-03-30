@@ -10,33 +10,258 @@ symbols:
 🏿	Dák Skín Ton	none
 ℗	Kọ́pírait Fọ Rẹ́kọ́dín Saund	none
 ←	Áro Wé De Pọínt Lẹft	none
+↚	leftwads áro strok	none
 →	Áro Wé De Pọínt Rait	none
+↛	ráitwads áro strok	none
 ↑	Áro Wé De Pọínt Ọp	none
 ↓	Áro Wé De Pọínt Daun	none
+↜	wé pọínt lẹft wév áro	none
+↝	wé pọínt ráít wév áro	none
+↞	wé pọínt left tú héd áro	none
+↟	wé pọínt op tú héd áro	none
+↠	ráitwads tú hẹd áro	none
+↡	wé pọínt daun tú héd áro	none
+↢	wé pọínt left áro tel	none
+↣	ráitwads áro tél	none
+↤	áro wé pọínt left from bá	none
+↥	áro wé pọínt op from bá	none
+↦	ráitwads áro from baa	none
+↧	áro wé pọínt daun from bá	none
+↨	op daun áro wit bez	none
+↫	wé pọínt left áro lup	none
+↬	wé pọínt ráit áro lup	none
+↭	left ráit wév áro	none
+↯	wé pọínt daun zigzag áro	none
+↰	op áro tip wé pọínt left	none
+↱	op áro tip wé pọínt ráit	none
+↲	daun áro tip wé pọínt left	none
+↳	wé pọínt daun áro tip wé pọínt ráit	none
+↴	áro wé pọínt ráit kọna wé pọínt ráit	none
+↵	áro wé pọínt down kọna wé pọínt left	none
+↶	áro wé nọ́ de múv gó klọ́k hánd dairẹ́kshọn top semisákul	none
+↷	áro wé de múv gó klọ́k hánd dairẹ́kshọn top semisákul	none
+↸	nọ́t wẹst áro lọng bá	none
+↹	wé pọínt left ọva wé pọínt ráit áro bá	none
+↺	áro wé nọ́ de múv gó klọ́k hánd dairẹ́kshọn opun sákul	none
+↻	áro wé de múv gó klọ́k hánd dairẹ́kshọn opun sákul	none
+↼	wé pọínt left hápún báb wé pọínt op	none
+↽	wé pọínt left hápún báb wé pọínt daun	none
+↾	wé pọínt up hápún báb wé pọínt ráit	none
+↿	wé pọínt up hápún báb wé pọínt left	none
+⇀	wé pọínt ráit hápún báb wé pọínt op	none
+⇁	hápún wé pọínt ráit báb wé pọínt daun	none
+⇂	hápún wé pọínt daun báb wé pọínt ráit	none
+⇃	hápún wé pọínt daun báb wé pọínt left	none
+⇄	áro wé pọínt ráit ova áro wé pọínt left	none
 ⇅	Pọínt Ọ́p Áro An Pọínt Daún Áro	none
 ⇆	Áro Wé De Pọínt Lẹft Ọn Tọ́p Raít Aro	none
+⇇	piád áro wé pọínt left	none
+⇈	piád áro wé pọínt op	none
+⇉	piád áro wé pọínt ráit	none
+⇊	piád áro wé pọínt daun	none
+⇋	hápún wé pọínt left ova hápún wé pọínt ráit	none
+⇌	hápún wé pọínt ráit ova hápún wé pọínt left	none
+⇐	dobúl áro wé pọínt left	none
+⇍	dobúl áro strọk wé pọínt left	none
+⇑	dobúl áro wé pọínt op	none
+⇒	ráitwads dọ́bul áro	none
+⇏	ráitwads dọ́bul áro strok	none
+⇓	dobúl áro wé pọínt daun	none
+⇔	left ráit dọ́bul áro	none
+⇎	left ráit dọ́bul áro strok	none
+⇖	nọt wést dobúl áro	none
+⇗	nọt íst dobúl áro	none
+⇘	sáút íst dobúl áro	none
+⇙	sáút wẹ́st dobúl áro	none
+⇚	tripúl áro wé pọínt left	none
+⇛	tripúl áro wé pọínt ráit	none
+⇜	skwigúl áro wé pọínt left	none
+⇝	skwigúl áro wé pọínt ráit	none
+⇞	dobúl áro strọk wé pọínt op	none
+⇟	dobúl áro strọk wé pọínt daun	none
+⇠	dásh áro wé pọínt left	none
+⇡	dásh áro wé pọínt op	none
+⇢	dásh áro wé pọínt ráit	none
+⇣	dásh áro wé pọínt daun	none
+⇤	áro bá wé pọínt left	none
+⇥	áro bá wé pọínt ráit	none
+⇦	họlọ áro wé pọínt left	none
+⇧	họlọ áro wé pọínt op	none
+⇨	họlọ áro wé pọínt ráit	none
+⇩	họlọ áro wé pọínt daun	none
+⇪	họlọ áro wé pọínt op from bá	none
+⇵	áro wé pọínt daun áro wé pọínt lẹft áro wé pọínt ọp	none
+∀	fọ all	none
+∂	pashál difrenshál	none
+∃	diá exists	none
+∅	émtí set	none
 ∆	Ínkrímẹnt	none
 ∇	Nábla	none
 ∈	Ẹ́lẹ́mẹ́nt Ọf	none
+∉	no be élemént	none
+∋	contáins ás membá	none
+∎	end pruv	none
+∏	n-ary prọdukt	none
+∑	n-ary sumeshọn	none
+≮	no be smọ́l-pas	none
 ≠	Nọ́ Dé Íkwọl	none
+≯	no big-pas	none
 −	Maínọ́s Sain	none
 ⁻	Supaskrípt Maínọs	none
+∓	maínọs-ọr-plọs	none
+∕	divishọn slásh	none
+∗	asterisk ọperatọ	none
+∘	ring ọperatọ	none
+∙	búlẹt ọperatọ	none
 √	Skweá Rut	none
+∝	prọpọshọnál	none
 ∞	Infíníti Sain	none
+∟	ráit ángul	none
+∠	ángul	none
+∣	divaíd	none
+∥	paralél	none
+∧	lọjikal and	none
 ∩	Intasẹ́kshọn	none
 ∪	Yúniọn	none
+∫	íntégral	none
+∬	dọ́bul íntégral	none
+∮	kontọ́ íntégral	none
+∴	diáfọ	none
+∵	bikọs	none
+∶	rẹ́shọ	none
+∷	proposhọn	none
+∼	tíldẹ operatọ	none
+∽	rivás tíldẹ	none
+∾	ọpsaíd-daún lazí s	none
+≃	asímptotikalí íkwọ́ls	none
+≅	niáli íkwọ́l	none
 ≈	Dé Niálí Íkwọl	none
+≌	all íkwọ́l	none
+≒	niáli íkwọ́l di imẹj	none
+≖	ríng in íkwọ́l	none
 ≡	Di Sem As	none
+≣	fíksd ẹkwívalent	none
 ≤	Smọ́l-pas Ọ Íkwọl	none
 ≥	Bíg-pas Ọ Íkwọl	none
+≦	smọ́l-pas ọ́va íkwọ́l	none
+≧	bíg-pas ọ́va íkwọl	none
+≪	smọ́l-pas well	none
+≫	bíg-pas well	none
+≬	bitwín	none
+≳	bíg-pas ẹkwívalent	none
+≺	prísíds	none
+≻	sọksíds	none
+⊁	e no sọksíds	none
 ⊂	Sọbsẹ́t Ọf	none
+⊃	supásẹt	none
+⊆	sọbsẹt íkwọ́l	none
+⊇	supásẹt íkwọ́l	none
+⊕	sákul plọ́s	none
+⊖	sákul maínọs	none
+⊗	sákul taíms	none
+⊘	sákul divíshọn slásh	none
+⊙	sákul dọt ọperatọ	none
+⊚	sákul ring ọperatọ	none
+⊛	sákul asterisk ọperatọ	none
+⊞	skwiá plọs	none
+⊟	skwiá maínọs	none
+⊥	ọ́p ták	none
+⊮	e nọ fọs	none
+⊰	prísíds ọndá reláshọn	none
+⊱	suksíds ọndá reláshọn	none
+⋭	e no cọ́ntáin as nọ́mál sọ́bgrup íkwọ́l	none
+⊶	orijínál	none
+⊹	hermítíyan kọ́njuget metríks	none
+⊿	ráít tráyángúl	none
+⋁	n-ary lọjíkal or	none
+⋂	n-ary intasekshọn	none
+⋃	n-ary yúniọ́n	none
+⋅	dọt operatọ	none
+⋆	stá operatọ	none
+⋈	náturál jọín	none
+⋒	dọ́bul intasekshọn	none
+⋘	smọ́l-pas well well	none
+⋙	bíg-pas well well	none
+⋮	vátíkál élíspsís	none
+⋯	mídlaín horizọ́ntál élíspsís	none
+⋰	ọ́p ráít dayágonál élíspsís	none
+⋱	dáun ráít dayágonál élíspsís	none
+■	ful skwiá	none
+□	họlọ skwiá	none
+▢	họlọ skwiá wit round kọnas	none
+▣	họlọ skwiá kontenin full skwiás	none
+▤	skwiá with horizóntál fil	none
+▥	skwiá with vátíkál fil	none
+▦	skwiá ọ́tọ́gonál kroshach fil	none
+▧	skwiá opa left lowa ráit fil	none
+▨	skwiá opa ráit lowa left fil	none
+▩	skwiá dáyágonál kroshach fil	none
+▬	full rektángúl	none
+▭	họlọ rektángúl	none
+▮	full vátikal rektángúl	none
+▰	fild paralẹ́lọgrám	none
 ▲	Blák Tráyángul Wé De Pọínt Ọp	none
+△	họlọ op-pointin tráyángúl	none
+▴	fild op-pointin smọl tráyángúl	none
+▵	họlọ op-pointin smọl tráyángúl	none
+▷	họ́lọ́ ráít-pọinting tráyángúl	none
+▸	fild ráit-pointin smọl tráyángúl	none
+▹	họlọ ráit-pointin smọl tráyángúl	none
+►	fild ráit-pointin pointá	none
+▻	họlọ ráit-pointin pointá	none
 ▼	Blák Tráyángul Wé De Pọínt Daun	none
+▽	họlọ daun-pointin tráyángúl	none
+▾	fild daun-pointin smọl tráyángúl	none
+▿	họlọ daun-pointin smọl tráyángúl	none
+◁	họ́lọ́ left-pọinting tráyángúl	none
+◂	fild left-pointin smọl tráyángúl	none
+◃	họlọ left-pointin smọl tráyángúl	none
+◄	fild left-pointin pointá	none
+◅	họlọ left-pointin pointá	none
+◆	dáyámọnd wẹ́ ful	none
+◇	họlọ dáyámọnd	none
+◈	họlọ dáyámọnd kontenin dáyámọnd wẹ́ ful	none
+◉	họlọ sákul kontenin sákul wẹ́ ful	none
 ◊	Lọ́zínj Símbul	none
 ○	Sẹ́kul Wé Gẹ́t Hol	none
+◌	sákul wẹ́ gẹ́t dọt	none
+◍	sákul wít vátikál fíl	none
+◎	konsẹ́ntrik sákul	none
 ●	Blák Smọ́l Sẹ́kul	none
+◐	sákul left half full	none
+◑	sákul ráit half full	none
+◒	sákul lowá half full	none
+◓	sákul opá half full	none
+◔	sákul opá ráit kwadránt full	none
+◕	sákul ol but opá left kwadránt full	none
+◖	left haf ful sákul	none
+◗	ráit haf ful sákul	none
+◘	invás búlẹt	none
+◙	ful skwiá kontenin họlọ sákul	none
+◜	opa left kwadránt sákula ák	none
+◝	opa ráit kwadránt sákula ák	none
+◞	lowa ráit kwadránt sákula ák	none
+◟	lowa left kwadránt sákula ák	none
+◠	opa haf sákul	none
+◡	lowa haf sákul	none
+◢	full lowa ráit tráyángul	none
+◣	ful lowa left tráyángul	none
+◤	ful opa left tráyángul	none
+◥	ful opa ráit tráyángul	none
+◦	họlọ búlẹt	none
 ◯	Bíg Sẹ́kul Wé Gẹ́t Hol	none
+◳	họlọ skwiá opa ráit kwadránt	none
+◷	họlọ sákul opa ráit kwadránt	none
+◿	lówá ráít tráyángúl	none
 ♪	Ẹ́t Not	none
+⨧	plós subskrípt tú	none
+⨯	vektọ́ krọ́s prọ́dukt	none
+⨼	ínteríor prọ́dukt	none
+⩣	lọjíkal or dọ́bul ọ́ndabá	none
+⩽	smọ́l-pas slanted íkwọ́l	none
+⪍	smọ́l-pas abọ́v similá íkwọ́l	none
+⪚	dọ́búl-laín íkwọ́l bíg-pas	none
+⪺	suksíd abọv not niálí íkwọl	none
 ♭	Flat	none
 ♯	Shap	none
 😀	Láfín Fes	none
@@ -49,6 +274,7 @@ symbols:
 😂	Fes Wit Laf and Tias Fọ Ai	none
 🙂	Smaílín Fes Wit Jẹ́ntúl Ai	none
 🙃	Ọ́psaíd-daún Fes	none
+🫠	Fes Wé De Mẹ́lt Laik Ọ́yil	none
 😉	Fes Wé Klóz Wọ́n Ai	none
 😊	Smaílín Fes Wit Shaínín Ai	none
 😇	Smaílín Fes With Raúnd Lait Fọ Hẹd	none
@@ -69,13 +295,17 @@ symbols:
 🤑	Mọní-Maút Fes	none
 🤗	Hand De Họ́l Fes	none
 🤭	Fes Wit Hand Fọ Maut	none
+🫢	Fes Wé Gẹ́t Ópún Ai An Ték Hand Kọ́vá Maut	none
+🫣	Fes Wé De Lúk Wit Wọ́n Ai	none
 🤫	Fes Pút Fínga Fọ Maut De Mék Shhhh	none
 🤔	Fes De Tink	none
+🫡	Fes Wé De Trowé Salut	none
 🤐	Zíp-Maut Fes	none
 🤨	Fes Wé Réz Ọ́p Aíbrau	none
 😐	Plén Fes	none
 😑	Fes Nọ́ Shó Ẹ́nítin Wé De Hápún To Am	none
 😶	Fes Wé Nọ́ Gẹ́t Maut	none
+🫥	Fes Wé Gẹ́t Dọt-dọt Lain	none
 😶‍🌫	Pẹ́sin De Sí Pípul Fes Fọ Klaud	none
 😏	Fes Wit Bẹn Bẹ́n Smail	none
 😒	Fes Wé Nọ́ Dé Hapí	none
@@ -83,11 +313,15 @@ symbols:
 😬	Ọ́glí Fes Wé Sọ́mtin De Pen	none
 😮‍💨	Fes Wé De Brít Ea Kọmọt	none
 🤥	Lai-laí Fes	none
+🫨	Shek Shék Fes	none
+🙂‍↔	shek shék hẹd horizóntáli	none
+🙂‍↕	shek shék hẹd vatikali	none
 😌	Fes Wé Riláks Wẹ́l	none
 😔	Fes Wé Dé Tínk Díp Dip	none
 😪	Fes Wé Slip De Kach	none
 🤤	Fes Wé Salaíva De Kọmọ́t Fọ Maut	none
 😴	Fes Wé De Slip	none
+🫩	fes wé gẹ́t bíg bag under ai	none
 😷	Fes Wé Wía Mẹ́díkál Mask	none
 🤒	Fes Wit Tamómẹ́ta	none
 🤕	Fés Wit Bándej Fọ Hẹd	none
@@ -107,6 +341,7 @@ symbols:
 🤓	Tẹ́kíníkál Ẹ́spat Fes	none
 🧐	Fes Wit Wọ́n Ai Aíglas	none
 😕	Fes Wé Nọ́ Nó Wétín I Go Du	none
+🫤	Fes Wé Gẹ́t Bẹn Bẹ́n Maut	none
 😟	Fes Wé Sọ́mtin De Wọ́ri	none
 🙁	Fes Wé De Fraún Smọ́l Smọl	none
 ☹	Fes Wé De Fraun	none
@@ -114,7 +349,9 @@ symbols:
 😯	Fes Wé Dé Kwáyẹt	none
 😲	Fes Wé Sọpraiz Fúl Am	none
 😳	Rẹ́d Fes	none
+🫪	dístọted fes	none
 🥺	Fes Wé De Bẹ́g Fọ Sọ́mtin	none
+🥹	Fes Wé De Hól Imsẹf Mék I Nọ́ Krai	none
 😦	Fes Wé De Fraún Wit Ópún Maut	none
 😧	Fes Wé Sọ́mtin De Pén Wẹ́l Wẹl	none
 😨	Fes Wé Fia De Kach	none
@@ -137,7 +374,7 @@ symbols:
 😈	Smaílín Fes Wit Tú Họn	none
 👿	Fes Wé De Vẹks An Gẹt Tú Họn	none
 💀	Bon Bón Pát Ọf Hẹd	none
-☠	Bon Bón Pát Ọf Hẹd Wit Tú Krọ́s Bon-dẹm	none
+☠	Bon Bón Pát Ọf Hẹd Wit Tuú Krọ́s Bon-dẹm	none
 💩	Bíg Shit	none
 🤡	Klaun Im Fes	none
 👹	Ọ́glí Wíkẹ́d Fes	none
@@ -158,7 +395,6 @@ symbols:
 🙈	Mọnkí Wé Nọ́ Wán Sí Bád Tin	none
 🙉	Mọnkí Wé Nọ́ Wán Hiá Bád Tin	none
 🙊	Mọnkí Wé Nọ́ Wán Tọ́k Bád Tin	none
-💋	Kis Mak	none
 💌	Lọ́v Lẹ́ta	none
 💘	Hat Wé Áro Dọ́n Chuk	none
 💝	Hat Wé Dẹm Taí Ríbọn	none
@@ -173,22 +409,26 @@ symbols:
 ❤‍🔥	Hat Wé De Bọ́n Wít Fáya	none
 ❤‍🩹	To Ripiá Hat Wé Dọn Brẹk	none
 ❤	Rẹ́d Hat	none
+🩷	Pínk Kọ́lọ Hat	none
 🧡	Ọ́rénj Kọ́lọ Hat	none
 💛	Yẹ́ló Hat	none
 💚	Grín Hat	none
 💙	Blú Hat	none
+🩵	Hat Wé Dé Laít Blu	none
 💜	Pọ́pul Kọ́lọ Hat	none
 🤎	Braún Hat	none
 🖤	Blák Hat	none
+🩶	Gré Kọ́lọ Hat	none
 🤍	Waít Hat	none
+💋	Kis Mak	none
 💯	Skọ Wé Bi Wọ́n Họ́ndrẹ́d Pọínt	none
 💢	Vẹ́ks Sain	none
+🫯	fait klaọ́d	none
 💥	Jam	none
 💫	Ai De Tọn Tọ́n Yu An Yu Wán Fọl	none
 💦	Sọm Drọ́p Ọf Swẹt	none
 💨	To Ték Spid Rọn	none
 🕳	Hol	none
-💣	Bọmb	none
 💬	Mẹ́séj Blonbló Píkchọ	none
 👁‍🗨	Ai Fọ Ínsaid Mẹ́séj Blonbló Píkchọ	none
 🗨	Lẹ́ft Hánd Saíd Mẹ́séj Blonbló Píkchọ	none
@@ -200,11 +440,18 @@ symbols:
 🖐	Hand Wé Dẹm Sprẹ́d Di Fínga-dẹm	none
 ✋	Hand Wé Dẹm Réz Ọp	none
 🖖	Vọ́lkán Salut	none
+🫱	Hand Wé De Pọínt Raít Said	none
+🫲	Hand Wé De Pọínt Lẹ́ft Said	none
+🫳	Hand Wé De Fés Daun	none
+🫴	Hand Wé De Pọínt Ọp	none
+🫷	Hand Wé De Púsh Gó Lẹ́ft Said	none
+🫸	Hand Wé De Púsh Gó Raít Said	none
 👌	OK Hand	none
-🤌	Pínch Fínga	none
+🤌	To Pínch Fínga-dẹm Togẹ́da	none
 🤏	Hand Wé De Pinch	none
 ✌	Víktri Hand	none
 🤞	Krọ́s Fínga-dẹm	none
+🫰	Hand Wé Krọ́s Im Sẹ́kọ́n Fínga An Tọmb	none
 🤟	A Lọ́v Yu Sain	none
 🤘	Họ́n Sain	none
 🤙	Mék Yu Fón Mí Hand	none
@@ -214,14 +461,16 @@ symbols:
 🖕	Mídúl Fínga	none
 👇	Bakhánd Niá-Tọ́mb-Fínga De Pọínt Daun	none
 ☝	Niá-Tọ́mb-Fínga De Pọínt Ọp	none
+🫵	Sẹ́kọ́n Fínga De Pọínt Di Pẹ́sin Wé De Luk	none
 👍	Tọ́mb Ọp	none
 👎	Tọ́mb Daun	none
 ✊	Réz Klózd Hand Ọp	none
 👊	Klózd Hand Wán Gív Pẹ́sin Blo	none
-🤛	Klós Hand Wé De Fés Lẹft	none
-🤜	Klós Hand Wé De Fés Rait	none
+🤛	Klózd Hand Wé De Fés Lẹft	none
+🤜	Klózd Hand Wé De Fés Rait	none
 👏	Hand-dẹm Wé De Klap	none
 🙌	Hand-dẹm Wé Dẹm Réz Ọp	none
+🫶	Hát hand-dẹm	none
 👐	Ópún Hand-dẹm	none
 🤲	Ópún Hand-dẹm Wé Dé Togẹ́da	none
 🤝	Hándshek	none
@@ -246,10 +495,11 @@ symbols:
 👁	Ai	none
 👅	Tọng	none
 👄	Maut	none
+🫦	Pẹ́sin Wé De Baít Im Lip	none
 👶	Taata	none
 🧒	Smọ́l Pikin	none
 👦	Smọ́l Bọi	none
-👧	Smọ́l Gẹl	none
+👧	Gẹl	none
 🧑	Pẹ́sin	none
 👱	Pẹ́sin Wé Gẹ́t Blọ́nd Hea	none
 👨	Man	none
@@ -353,6 +603,7 @@ symbols:
 👷	Kọnstrọ́kshọ́n Wọ́ka	none
 👷‍♂	Mán Kọnstrọ́kshọ́n Wọ́ka	none
 👷‍♀	Wúmán Kọnstrọ́kshọ́n Wọ́ka	none
+🫅	Pẹ́sin Wé Wiá Kraun	none
 🤴	Prins	none
 👸	Prínsẹs	none
 👳	Pẹ́sin Wé Taí Hẹd-Tai Fọ Hẹd	none
@@ -367,6 +618,8 @@ symbols:
 👰‍♂	Man Wé Wiá Vẹl	none
 👰‍♀	Wúman Wé Wiá Vẹl	none
 🤰	Wúman Wé Gẹ́t Bẹlẹ́	none
+🫃	Man Wé Gẹ́t Bẹlẹ́	none
+🫄	Pẹ́sin Wé Gẹ́t Bẹlẹ́	none
 🤱	Wúman Wé De Gív Pikin Brẹst	none
 👩‍🍼	Wúman Wé De Gív Pikin Chọp	none
 👨‍🍼	Man Wé De Gív Pikin Chọp	none
@@ -402,6 +655,8 @@ symbols:
 🧟	Zombí	none
 🧟‍♂	Mán Zombí	none
 🧟‍♀	Wúmán Zombí	none
+🧌	Sọ́mtin Wé Rizẹ́mbúl Ọ́glí Húmánbin	none
+🫈	híárí kríẹchọ	none
 💆	Pẹ́sin Wé Dẹm De Masáj Im Bọdí	none
 💆‍♂	Man Wé Dẹm De Masáj Im Bọdí	none
 💆‍♀	Wúman Wé Dẹm De Masáj Im Bọdí	none
@@ -429,13 +684,14 @@ symbols:
 🏃	Pẹ́sin Wé De Rọn	none
 🏃‍♂	Man Wé De Rọn	none
 🏃‍♀	Wúman Wé De Rọn	none
+🧑‍🩰	bálẹ dánsá	none
 💃	Wúman Wé De Dans	none
 🕺	Man Wé De Dans	none
 🕴	Pẹ́sin Wé Wiá Sút-An-Sut An De Flót Fọ Ea	none
-👯	Pípol Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia	none
+👯	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia	none
 👯‍♂	Mẹn Wé Wiá Rábít Iá Kaín Tins	none
 👯‍♀	Wímẹn Wé Wiá Rábít Iá Kaín Tins	none
-🧖	Pẹ́sin Ínsaíd Họt Wọtá Smók Rum	none
+🧖	Pẹ́sin Wé Dé Ínsaíd Họ́t-Wọ́ta-Smók Rum	none
 🧖‍♂	Man Wé Dé Ínsaíd Họt Wọtá Smók Rum	none
 🧖‍♀	Wúman Wé Dé Ínsaíd Họt Wọtá Smók Rum	none
 🧗	Pẹ́sin Wé De Klaimb	none
@@ -494,13 +750,18 @@ symbols:
 👫	Wúman An Man Wé Hól Hand	none
 👬	Man-dẹm Wé Hól Han	none
 💏	Kis	none
-💑	Tú Pípol Wit Hat	none
-👪	Fámíli	none
+💑	Tuú Pípul Wit Hat	none
 🗣	Hẹd Wé De Tọk	none
 👤	Dák Shép Ọf Ọ́p Pát Ọf Pẹ́sin Bọdí	none
 👥	Dák Shép Ọf Ọ́p Pát Ọf Tú Pípul Bọdí	none
 🫂	Pípul Wé Hól Ích Ọ́da Tait	none
+👪	Fámíli	none
+🧑‍🧑‍🧒	fámíli machọ́ pẹ́sin, machọ́ pẹ́sin, pikin	none
+🧑‍🧑‍🧒‍🧒	fámíli machọ́ pẹ́sin, machọ́ pẹ́sin, pikin, pikin	none
+🧑‍🧒	fámíli machọ́ pẹ́sin, pikin	none
+🧑‍🧒‍🧒	fámíli machọ́ pẹ́sin, pikin, pikin	none
 👣	Fútmak-dẹm	none
+🫆	fíngaprint	none
 🦰	Rẹ́d Hea	none
 🦱	Kọ́lí Hea	none
 🦳	Waít Hea	none
@@ -525,6 +786,8 @@ symbols:
 🐅	Taíga	none
 🐆	Liópad	none
 🐴	Họ́s Fes	none
+🫎	muus	none
+🫏	Jakí	none
 🐎	Họs	none
 🦄	Yúnikọn	none
 🦓	Zẹbra	none
@@ -542,7 +805,7 @@ symbols:
 🐑	Wuman Ship	none
 🐐	Got	none
 🐪	Kámẹl	none
-🐫	Kámẹl Wé Gẹ́t Tú Họ́nchbak	none
+🐫	Kámẹl Wé Gẹ́t Tuú Họ́nchbak	none
 🦙	Láma	none
 🦒	Jiraf	none
 🐘	Ẹ́lẹ́fant	none
@@ -587,6 +850,10 @@ symbols:
 🦩	Flamíngo	none
 🦚	Píkọk	none
 🦜	Párọt	none
+🪽	wíng	none
+🐦‍⬛	blák bẹd	none
+🪿	guus	none
+🐦‍🔥	fíniks	none
 🐸	Frọg	none
 🐊	Krókodail	none
 🐢	Tọ́tul	none
@@ -597,15 +864,23 @@ symbols:
 🦕	Sórópọd	none
 🦖	T-Rẹks	none
 🐳	Weil Wé De Bló Wọtá	none
-🐋	Weil	none
+🐋	Weil Dis Na Wọ́n Bíg Ánímal Wé De Lív Fọ Wọtá	none
 🐬	Dọ́lfin	none
-🦭	Wọtá Anímọl Wé Im Nem Na Siil	none
+🫍	ọ́ká	none
+🦭	Wọtá Ánímal Wé Im Nem Na Siil	none
 🐟	Fish	none
 🐠	Họ́t Ríjọ́n Fish	none
 🐡	Blófish	none
 🦈	Shak	none
-🐙	Wọ́n Wọtá Kríchọ Wé Im Nem Na Ọ́ktọ́pọs	none
+🐙	Ọ́ktọ́pọs Dis Na Wọ́n Ánímal Wé De Lív Ínsaíd Bíg-díp-wọtá	none
 🐚	Snel Shẹl	none
+🪸	Wọ́n Tin Wé De Fọ́m Fọ Bọtọ́m Ọf Díp Wọtá An Wé Im Nem Na "Kọ́ral"	none
+🪼	Jẹ́lifish	none
+🦀	Krab	none
+🦞	Lọ́bsta	none
+🦐	Shrimp	none
+🦑	Skwid	none
+🦪	Ọísta	none
 🐌	Snel	none
 🦋	Bọtaflai	none
 🐛	Smọ́l Ínsẹkt	none
@@ -625,6 +900,7 @@ symbols:
 💐	Bọ́nch Ọf Fláwa	none
 🌸	Chẹ́rí Fláwa	none
 💮	Waít Fláwa	none
+🪷	Lótús Fláwa	none
 🏵	Rozẹt	none
 🌹	Roz	none
 🥀	Fláwa Wé Dọ́n De Dai	none
@@ -632,24 +908,30 @@ symbols:
 🌻	Sọ́nfláwa	none
 🌼	Faín Fláwa	none
 🌷	Túlip	none
+🪻	hayasint	none
 🌱	Yọ́ng Plant	none
 🪴	Plant Ínsaíd Pọt	none
-🌲	Ẹvagrín Tri	none
+🌲	Ẹvagrín Trii	none
 🌳	Tri Wé Gẹ́t Plẹ́ntí Líf	none
-🌴	Pám Tri	none
+🌴	Pám Trii	none
 🌵	Káktọ́s Plant	none
 🌾	Rais Bọ́ndul	none
 🌿	Hab Plant Wé De Mék Fud Swit	none
 ☘	Shámrọ́k Plant	none
 🍀	Fọ́ Líf Klóva	none
-🍁	Mápúl Tri Lif	none
+🍁	Mápúl Trii Lif	none
 🍂	Lif Wé Fọ́l Fọ Graund	none
 🍃	Lif Wé Wind De Blo	none
+🪹	Ẹ́mtí Nẹst	none
+🪺	Nẹst Wit Ẹg-dẹm	none
+🍄	Mọ́shrum	none
+🪾	trii wey no get lif	none
 🍇	Grep-dẹm	none
 🍈	Mẹ́lọn	none
 🍉	Wọ́tamẹ́lọn	none
 🍊	Tanjẹrin	none
 🍋	Lẹ́mọn	none
+🍋‍🟩	láim	none
 🍌	Banána	none
 🍍	Painápul	none
 🥭	Mángo	none
@@ -676,9 +958,13 @@ symbols:
 🥦	Brọ́kọ́li	none
 🧄	Gálik	none
 🧅	Ọ́niọn	none
-🍄	Mọ́shrum	none
 🥜	Granọt	none
+🫘	Bins	none
 🌰	Chẹ́stnọt	none
+🫚	Jínja Rut	none
+🫛	pii pod	none
+🍄‍🟫	braun mọ́shrum	none
+🫜	rut vẹ́jítébul	none
 🍞	Brẹd	none
 🥐	Kroásant	none
 🥖	Bagẹt Brẹd	none
@@ -730,11 +1016,6 @@ symbols:
 🥟	Dọ́mplin	none
 🥠	Fọtiún Kúki	none
 🥡	Tékaút Bọks	none
-🦀	Krab	none
-🦞	Lọ́bsta	none
-🦐	Shrimp	none
-🦑	Skwid	none
-🦪	Ọísta	none
 🍦	Sọ́ft Aís Krim	none
 🍧	Ais Wé Dẹm Dọ́n Shev	none
 🍨	Aís Krim	none
@@ -755,7 +1036,7 @@ symbols:
 🫖	Típọt	none
 🍵	Tíkọp Wé Nọ́ Gẹ́t Hand	none
 🍶	Sáki	none
-🍾	Bọ́tul Wit Kọk	none
+🍾	Bọtul Wé Gẹ́t Kọk Wé De Mék Pọ́pín Nọiz	none
 🍷	Waín Glas	none
 🍸	Kọ́ktél Glas	none
 🍹	Họ́t Ríjọn Drink	none
@@ -763,6 +1044,7 @@ symbols:
 🍻	Klínkín Biá Kọp-dẹm	none
 🥂	Klínkín Glas-dẹm	none
 🥃	Tọ́mbla	none
+🫗	To Pọọ́ Líkwid	none
 🥤	Kọp Wit Strọ	none
 🧋	Bọ́búl Tii	none
 🧃	Drínk Bọks	none
@@ -773,6 +1055,7 @@ symbols:
 🍴	Fọ́k An Naif	none
 🥄	Spun	none
 🔪	Kíchín Naif	none
+🫙	Bọ́tul Wé Im Nem Na "Jaa"	none
 🏺	Ámfora	none
 🌍	Raúnd Wọ́ld Map Wẹ De Shó Yúrop-Áfrika	none
 🌎	Raúnd Wọ́ld Map Wé De Shó Amẹ́ríkas	none
@@ -780,9 +1063,10 @@ symbols:
 🌐	Raúnd Wọ́ld Map Wit Mẹrídían Lain-dẹm	none
 🗺	Wọ́ld Map	none
 🗾	Japán Map	none
-🧭	Kọ́mpas To Ték Nó Dairẹ́kshọn	none
+🧭	Kọ́mpas	none
 🏔	Maúntin Wé Sno Kọ́vá Di Tọp	none
 ⛰	Maúntin	none
+🛘	lánd sláid	none
 🌋	Volkáno	none
 🗻	Fújí Maúntin	none
 🏕	Kamp	none
@@ -820,8 +1104,8 @@ symbols:
 ⛪	Chọch	none
 🕌	Mọsk	none
 🛕	Híndú Tẹ́mpul	none
-🕍	Judiá Pípol Dẹm Preya Haus	none
-⛩	Japán Rilíjọn Jujú Haus	none
+🕍	Juu Pípul Dẹm Preya Haus	none
+⛩	Shínto Jujú Haus	none
 🕋	Kaaba	none
 ⛲	Sọ́mtin Wé De Pọ́mp Wọtá Gó Ọp	none
 ⛺	Tẹnt	none
@@ -835,6 +1119,7 @@ symbols:
 🌉	Haú Brij Bì Wẹn Yú Lúk Am Fọ Naít Taim	none
 ♨	Họt Wọtá Wé De Kọmọ́t Frọm Ínsaíd Graun	none
 🎠	Hápí-Gó-Raúnd Họs	none
+🛝	Slaid Ple Plé Graund	none
 🎡	Fẹ́rís Wiil	none
 🎢	Rólá Kósta	none
 💈	Bába Pol	none
@@ -858,17 +1143,17 @@ symbols:
 🚑	Ámbúlans	none
 🚒	Fáyá Ẹ́njin	none
 🚓	Polís Móto	none
-🚔	Polís Móto Wé De Kọ́m Wiá Yu Dè	none
+🚔	Polís Móto Wé De Kọ́m Fọ Yọ Front	none
 🚕	Taksí	none
 🚖	Taksí Wé De Kọ́m Wiá Yu Dè	none
 🚗	Móto	none
-🚘	Móto Wé De Kọ́m Wiá Yu Dè	none
+🚘	Móto Wé De Kọ́m Fọ Yọ Frọnt	none
 🚙	Spọ́t Yutílítí Móto	none
 🛻	Píkọ́p	none
-🚚	Móto Wé De Kárí Tins To Kọ́stọ́ma-dẹm	none
+🚚	Lọ́ri Wé De Kárí Tins To Kọ́stọ́ma-dẹm	none
 🚛	Tréla	none
 🚜	Tráktọ	none
-🏎	Móto Wé Bi Fọ Résín Kọmpitíshọn	none
+🏎	Móto Wé Bi Fọ Rọ́nín Kọmpitíshọn	none
 🏍	Motosaíkul	none
 🛵	Skúta Motosaíkul	none
 🦽	Wílchia Wé Nọ́ Gẹ́t Ẹ́njin	none
@@ -883,12 +1168,14 @@ symbols:
 🛤	Relwé Lain	none
 🛢	Ọ́yil Drọm	none
 ⛽	Fúẹl Pọmp	none
+🛞	Wiil	none
 🚨	Polís Kaa Lait	none
 🚥	Flát-an-Lẹ́vúl Tráfík Lait	none
 🚦	Tráfík Lait Wé Dé Stret Frọm Ọ́p Rích Daun	none
 🛑	Stọ́p Sain	none
 🚧	Kọnstrọ́kshọn	none
 ⚓	Hẹ́ví Áyọn Wé De Hól Ship Fọ Wọ́n Ples	none
+🛟	Ríng Buói	none
 ⛵	Sélbot	none
 🛶	Kenú	none
 🚤	Spídbot	none
@@ -922,12 +1209,12 @@ symbols:
 🕧	Twẹ́lf-Táti	none
 🕐	Wọ́n O’klọk	none
 🕜	Wọ́n-Táti	none
-🕑	Tú O’klọk	none
-🕝	Tú-Táti	none
+🕑	Tuú O’klọk	none
+🕝	Tuú-Táti	none
 🕒	Tírí O’klọk	none
 🕞	Tírí-Táti	none
-🕓	Fọ́ O’klọk	none
-🕟	Fọ́-Táti	none
+🕓	Fọọ́ O’klọk	none
+🕟	Fọọ́-Táti	none
 🕔	Faíf O’klọk	none
 🕠	Faíf-Táti	none
 🕕	Síks O’klọk	none
@@ -943,7 +1230,7 @@ symbols:
 🕚	Ilẹ́vún O’klọk	none
 🕦	Ilẹ́vún-Táti	none
 🌑	Níu Mun	none
-🌒	Mun Im Braít Pat Jọ́s Stát To Bíg Mọ́ Mọ	none
+🌒	Mun Im Braít Pat Jọ́s Stát To Bíg Mọọ́ Mọọ	none
 🌓	Mún Im Fẹ́st Kwọ́ta	none
 🌔	Mun Braít Pat Bíg Pás Háf Di Mun	none
 🌕	Fúl Mun	none
@@ -966,7 +1253,7 @@ symbols:
 ☁	Klaud	none
 ⛅	Sọn Bihaínd Klaud	none
 ⛈	Klaud Wit Laítnin An Ren	none
-🌤	Sọn Bihaínd Smọl Klaud	none
+🌤	Sọn Bihaínd Smọ́l Klaud	none
 🌥	Sọn Bihaínd Bíg Klaud	none
 🌦	Sọn Bihaínd Klaud Wé De Bríng Ren	none
 🌧	Klaud Wit Ren	none
@@ -990,7 +1277,7 @@ symbols:
 💧	Smọ́l Drọ́p Ọf Líkwid	none
 🌊	Wọtá Wev	none
 🎃	Jak-O-Lántan	none
-🎄	Krísmás Tri	none
+🎄	Krísmás Trii	none
 🎆	Fáyáwọks	none
 🎇	Spákla	none
 🧨	Fáyákráka	none
@@ -1037,8 +1324,8 @@ symbols:
 🥅	Gól Nẹt	none
 ⛳	Flag Wé Dé Ínsaíd Hol	none
 ⛸	Aís Sket	none
-🎣	Stik Wé Pípol De Ték Kách Fish	none
-🤿	Mask Wé Pípol De Ték Daív Ínsaíd Wọtá	none
+🎣	Stik Wé Pípul De Ték Kách Fish	none
+🤿	Daívín Mask	none
 🎽	Rọ́nín Shẹt	none
 🎿	Skii-dẹm	none
 🛷	Slẹd	none
@@ -1046,10 +1333,10 @@ symbols:
 🎯	Dairẹ́kt Hit	none
 🪀	Yó-Yo	none
 🪁	Kait	none
+🔫	Wọ́tá Pístul	none
 🎱	Pul 8 Bọl	none
 🔮	Krístál Bọl	none
 🪄	Májík Stik	none
-🧿	Ívúl-Aí Talisman	none
 🎮	Vídió Gem	none
 🕹	Jọístik	none
 🎰	Gámblín Máshin	none
@@ -1057,6 +1344,7 @@ symbols:
 🧩	Pọ́zul Sid	none
 🧸	Tẹ́dí Bẹ́a	none
 🪅	Pinyáta	none
+🪩	Mírọ Bọl	none
 🪆	Dọlbebí Ínsaíd Anọ́dá Dọlbebí	none
 ♠	Sped Pléyín Kad	none
 ♥	Hat Pléyín Kad	none
@@ -1065,7 +1353,7 @@ symbols:
 ♟	Chẹ́s Pọn	none
 🃏	Jóka	none
 🀄	Máhjọng Rẹ́d Drágọn	none
-🎴	Fláwá Pléyín Kad	none
+🎴	Fláwá Pléyín Kad-dẹm	none
 🎭	Átists Dẹm Mask	none
 🖼	Píkchọ Wé Dẹm Pút Fọ Frem	none
 🎨	Plet Wé Átist De Ték Míks Pent	none
@@ -1077,7 +1365,7 @@ symbols:
 🕶	Sọ́nglásis	none
 🥽	Gọ́guls	none
 🥼	Láb Kot	none
-🦺	Klọt To Ték Kíp Pẹ́sin Sef	none
+🦺	Klọt Fọ Ték Protẹ́t Pẹ́sin	none
 👔	Tai	none
 👕	T-Shẹt	none
 👖	Jins	none
@@ -1088,11 +1376,12 @@ symbols:
 👗	Gaun	none
 👘	Japán Klọt Wé Im Nem Na Kimóno	none
 🥻	Sári Klọt	none
-🩱	Tú-In-Wọ́n Swímín Klọt	none
-🩲	Mán Swímín Pant	none
+🩱	Tuú-In-Wọ́n Swimin Klọt	none
+🩲	Man Swimin Pant	none
 🩳	Shọ́t Níka	none
 👙	Bikíni	none
 👚	Wúmán Klọt	none
+🪭	Fan Wé Dẹm De Ték Hand Fold	none
 👛	Pọs	none
 👜	Hándbag	none
 👝	Bag Wé Wúman De Hóld Taít Tait	none
@@ -1107,6 +1396,7 @@ symbols:
 👡	Wúmán Sándal	none
 🩰	Shu Fọ Ték Dáns Balẹ́t Dans	none
 👢	Wúmán But	none
+🪮	hia pik	none
 👑	Kraun	none
 👒	Wúmán Hat	none
 🎩	Tọ́l Hat	none
@@ -1137,14 +1427,18 @@ symbols:
 🎧	Hẹ́dfon	none
 📻	Rédio	none
 🎷	Saksafon	none
+🎺	Trọ́mpẹt	none
+🪊	trọ́mbọ́n	none
 🪗	Akọ́diọn	none
 🎸	Gita	none
 🎹	Miúzik Kíbọd	none
-🎺	Trọ́mpẹt	none
 🎻	Vayọlin	none
 🪕	Banjó	none
 🥁	Drọm	none
 🪘	Lọ́ng Drọm	none
+🪇	Márákas	none
+🪈	fluut	none
+🪉	háp	none
 📱	Mọ́baíl Fon	none
 📲	Mọ́baíl Fon Wit Áro	none
 ☎	Tẹlífon	none
@@ -1152,6 +1446,7 @@ symbols:
 📟	Bípa	none
 📠	Fáks Mashin	none
 🔋	Bátri	none
+🪫	Ló Bátri	none
 🔌	Ẹlẹ́trík Plọg	none
 💻	Láptọp	none
 🖥	Dẹ́sktọ́p Kọmpúta	none
@@ -1197,8 +1492,9 @@ symbols:
 📑	Bukmák Tab-dẹm	none
 🔖	Bukmák	none
 🏷	Lébẹl	none
-💰	Mọní Bag	none
 🪙	Kọin	none
+💰	Mọní Bag	none
+🪎	Trẹ́zhọ chẹst	none
 💴	Yẹn Pépá Mọní	none
 💵	Dọ́la Pépá Mọní	none
 💶	Yúro Pépá Mọní	none
@@ -1263,7 +1559,7 @@ symbols:
 🛠	Háma An Spána	none
 🗡	Dága	none
 ⚔	Sọd-dẹm Wé Dẹm Krọs	none
-🔫	Wọ́tá Pístul	none
+💣	Bọmb	none
 🪃	Búmárang	none
 🏹	Bó An Áro	none
 🛡	Shild	none
@@ -1276,11 +1572,13 @@ symbols:
 ⚖	Balans Skel	none
 🦯	Waít Stik	none
 🔗	Link	none
+⛓‍💥	brókún chen	none
 ⛓	Chen-dẹm	none
 🪝	Huk	none
 🧰	Túlbọks	none
 🧲	Magnẹ́tọ	none
 🪜	Láda	none
+🪏	shọ́vẹ́l	none
 ⚗	Alẹ́mbik	none
 🧪	Tẹ́st Tub	none
 🧫	Pẹ́trí Plet	none
@@ -1292,7 +1590,9 @@ symbols:
 🩸	Drọ́p Ọf Blọd	none
 💊	Mẹ́dísin	none
 🩹	Plásta	none
+🩼	Krọ́chis	none
 🩺	Stẹteskop	none
+🩻	Eks-Rè	none
 🚪	Dọọ	none
 🛗	Lìft	none
 🪞	Mírọ	none
@@ -1313,6 +1613,7 @@ symbols:
 🧻	Tọílẹ́t Rol	none
 🪣	Bọ́kẹt	none
 🧼	Sop	none
+🫧	Bọ́bul	none
 🪥	Tútbrọsh	none
 🧽	Spọnj	none
 🧯	Fáyá Ẹkstíngwísha	none
@@ -1321,8 +1622,11 @@ symbols:
 ⚰	Kọ́fin	none
 🪦	Grévston	none
 ⚱	Bẹ́riál Kọnténa Fọ Ásh Ọf Pẹ́sin Wé Dọ́n Dai	none
+🧿	Ívúl-Aí Talisman	none
+🪬	Hámsa	none
 🗿	Moai	none
 🪧	Plákad	none
+🪪	Adẹ́ntíti Kat	none
 🏧	ATM Sain	none
 🚮	Dọtí Ínsaíd Dọstbin	none
 🚰	Klín Wọtá	none
@@ -1359,6 +1663,7 @@ symbols:
 ↖	Áro De Pọínt Ọ́p-Lẹft	none
 ↕	Áro De Pọínt Ọ́p An Daun	none
 ↔	Áro De Pọínt Lẹ́ft An Rait	none
+↮	left ráit áro strok	none
 ↩	Raít Áro Kọ́v Gó Lẹft	none
 ↪	Lẹ́ft Áro Kọ́v Gó Raít	none
 ⤴	Raít Áro Kọ́v Gó Ọp	none
@@ -1382,6 +1687,7 @@ symbols:
 ☮	Piís Símbul	none
 🕎	Mẹnóra	none
 🔯	Síks Pọínt Sta Wit Dọt Fọ Mídul	none
+🪯	Khánda	none
 ♈	É́riz	none
 ♉	Tọ́rus	none
 ♊	Jẹ́míni	none
@@ -1417,6 +1723,7 @@ symbols:
 🔅	Dim Bọ́tin	none
 🔆	Braít Bọ́tin	none
 📶	Antẹ́ná Baa-dẹm	none
+🛜	Wáyálẹs	none
 📳	Vaibréshọ́n Mod	none
 📴	Mọ́baíl Fon Dé Ọff	none
 ♀	Wúman Sain	none
@@ -1426,6 +1733,7 @@ symbols:
 ➕	Plọs	none
 ➖	Maínọs	none
 ➗	Divaid	none
+🟰	Bíg Íkwọ́ls Sain	none
 ♾	Infíníti	none
 ❓	Kwẹ́shọn Mak	none
 ❔	Waít Kwẹ́shọn Mak	none
@@ -1451,7 +1759,8 @@ symbols:
 ✴	Sta Wé Gẹ́t Ẹ́t Pọint	none
 ❇	Spákul	none
 ™	Tréd Mak	none
-🔠	Pút Látin Bíg Lẹ́ta-dẹm	none
+🫟	splátá	none
+🔠	Pút Látin Bíg Sain-dẹm	none
 🔡	Pút Látin Smọ́l Lẹ́ta-dẹm	none
 🔢	Pút Nọ́mba-dẹm	none
 🔣	Pút Sain-dẹm	none
@@ -1515,13 +1824,21 @@ symbols:
 🏳‍🌈	Rénbo Flag	none
 🏳‍⚧	Transjẹ́nda Flag	none
 🏴‍☠	Paíret Flag	none
+₢	kruzéro	none
+₣	frẹnch frank	none
+₤	líra	none
 ₥	Mil	none
 ₩	Wọn	none
 €	Yúro	none
+₰	jámán pẹ́ní	none
 ₱	Pẹ́so	none
+₳	ọ́stral	none
+₶	livre tournois	none
+₷	spesmílo	none
 ₹	Índiá Rúpi	none
 ₽	Rúbul	none
 ₿	Bítkọ́in	none
+₨	rupí	none
 👋🏻	Hand Wé De Wev Laít Skín Ton	none
 👋🏼	Hand Wé De Wev Mídíọ́m-Laít Skín Ton	none
 👋🏽	Hand Wé De Wev Mídíọ́m Skín Ton	none
@@ -1547,16 +1864,66 @@ symbols:
 🖖🏽	Vọ́lkán Salut Mídíọ́m Skín Ton	none
 🖖🏾	Vọ́lkán Salut Mídíọ́m Dák Skín Ton	none
 🖖🏿	Vọ́lkán Salut Dák Skín Ton	none
+🫱🏻	Hand Wé De Pọínt Raít Said Laít Skín Ton	none
+🫱🏼	Hand Wé De Pọínt Raít Said Mídíọ́m-Laít Skín Ton	none
+🫱🏽	Hand Wé De Pọínt Raít Said Mídíọ́m Skín Ton	none
+🫱🏾	Hand Wé De Pọínt Raít Said Mídíọ́m Dák Skín Ton	none
+🫱🏿	Hand Wé De Pọínt Raít Said Dák Skín Ton	none
+🫱🏻‍🫲🏼	Hándshek Laít Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🫱🏻‍🫲🏽	Hándshek Laít Skín Ton, Mídíọ́m Skín Ton	none
+🫱🏻‍🫲🏾	Hándshek Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+🫱🏻‍🫲🏿	Hándshek Laít Skín Ton, Dák Skín Ton	none
+🫱🏼‍🫲🏻	Hándshek Mídíọ́m-Laít Skín Ton, Laít Skín Ton	none
+🫱🏼‍🫲🏽	Hándshek Mídíọ́m-Laít Skín Ton, Mídíọ́m Skín Ton	none
+🫱🏼‍🫲🏾	Hándshek Mídíọ́m-Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+🫱🏼‍🫲🏿	Hándshek Mídíọ́m-Laít Skín Ton, Dák Skín Ton	none
+🫱🏽‍🫲🏻	Hándshek Mídíọ́m Skín Ton, Laít Skín Ton	none
+🫱🏽‍🫲🏼	Hándshek Mídíọ́m Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🫱🏽‍🫲🏾	Hándshek Mídíọ́m Skín Ton, Mídíọ́m Dák Skín Ton	none
+🫱🏽‍🫲🏿	Hándshek Mídíọ́m Skín Ton, Dák Skín Ton	none
+🫱🏾‍🫲🏻	Hándshek Mídíọ́m Dák Skín Ton, Laít Skín Ton	none
+🫱🏾‍🫲🏼	Hándshek Mídíọ́m Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🫱🏾‍🫲🏽	Hándshek Mídíọ́m Dák Skín Ton, Mídíọ́m Skín Ton	none
+🫱🏾‍🫲🏿	Hándshek Mídíọ́m Dák Skín Ton, Dák Skín Ton	none
+🫱🏿‍🫲🏻	Hándshek Dák Skín Ton, Laít Skín Ton	none
+🫱🏿‍🫲🏼	Hándshek Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🫱🏿‍🫲🏽	Hándshek Dák Skín Ton, Mídíọ́m Skín Ton	none
+🫱🏿‍🫲🏾	Hándshek Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
+🫲🏻	Hand Wé De Pọínt Lẹ́ft Said Laít Skín Ton	none
+🫲🏼	Hand Wé De Pọínt Lẹ́ft Said Mídíọ́m-Laít Skín Ton	none
+🫲🏽	Hand Wé De Pọínt Lẹ́ft Said Mídíọ́m Skín Ton	none
+🫲🏾	Hand Wé De Pọínt Lẹ́ft Said Mídíọ́m Dák Skín Ton	none
+🫲🏿	Hand Wé De Pọínt Lẹ́ft Said Dák Skín Ton	none
+🫳🏻	Hand Wé De Fés Daun Laít Skín Ton	none
+🫳🏼	Hand Wé De Fés Daun Mídíọ́m-Laít Skín Ton	none
+🫳🏽	Hand Wé De Fés Daun Mídíọ́m Skín Ton	none
+🫳🏾	Hand Wé De Fés Daun Mídíọ́m Dák Skín Ton	none
+🫳🏿	Hand Wé De Fés Daun Dák Skín Ton	none
+🫴🏻	Hand Wé De Pọínt Ọp Laít Skín Ton	none
+🫴🏼	Hand Wé De Pọínt Ọp Mídíọ́m-Laít Skín Ton	none
+🫴🏽	Hand Wé De Pọínt Ọp Mídíọ́m Skín Ton	none
+🫴🏾	Hand Wé De Pọínt Ọp Mídíọ́m Dák Skín Ton	none
+🫴🏿	Hand Wé De Pọínt Ọp Dák Skín Ton	none
+🫷🏻	Hand Wé De Púsh Gó Lẹ́ft Said Laít Skín Ton	none
+🫷🏼	Hand Wé De Púsh Gó Lẹ́ft Said Mídíọ́m-Laít Skín Ton	none
+🫷🏽	Hand Wé De Púsh Gó Lẹ́ft Said Mídíọ́m Skín Ton	none
+🫷🏾	Hand Wé De Púsh Gó Lẹ́ft Said Mídíọ́m Dák Skín Ton	none
+🫷🏿	Hand Wé De Púsh Gó Lẹ́ft Said Dák Skín Ton	none
+🫸🏻	Hand Wé De Púsh Gó Raít Said Laít Skín Ton	none
+🫸🏼	Hand Wé De Púsh Gó Raít Said Mídíọ́m-Laít Skín Ton	none
+🫸🏽	Hand Wé De Púsh Gó Raít Said Mídíọ́m Skín Ton	none
+🫸🏾	Hand Wé De Púsh Gó Raít Said Mídíọ́m Dák Skín Ton	none
+🫸🏿	Hand Wé De Púsh Gó Raít Said Dák Skín Ton	none
 👌🏻	OK Hand Laít Skín Ton	none
 👌🏼	OK Hand Mídíọ́m-Laít Skín Ton	none
 👌🏽	OK Hand Mídíọ́m Skín Ton	none
 👌🏾	OK Hand Mídíọ́m Dák Skín Ton	none
 👌🏿	OK Hand Dák Skín Ton	none
-🤌🏻	Pínch Fínga Laít Skín Ton	none
-🤌🏼	Pínch Fínga Mídíọ́m-Laít Skín Ton	none
-🤌🏽	Pínch Fínga Mídíọ́m Skín Ton	none
-🤌🏾	Pínch Fínga Mídíọ́m Dák Skín Ton	none
-🤌🏿	Pínch Fínga Dák Skín Ton	none
+🤌🏻	To Pínch Fínga-dẹm Togẹ́da Laít Skín Ton	none
+🤌🏼	To Pínch Fínga-dẹm Togẹ́da Mídíọ́m-Laít Skín Ton	none
+🤌🏽	To Pínch Fínga-dẹm Togẹ́da Mídíọ́m Skín Ton	none
+🤌🏾	To Pínch Fínga-dẹm Togẹ́da Mídíọ́m Dák Skín Ton	none
+🤌🏿	To Pínch Fínga-dẹm Togẹ́da Dák Skín Ton	none
 🤏🏻	Hand Wé De Pinch Laít Skín Ton	none
 🤏🏼	Hand Wé De Pinch Mídíọ́m-Laít Skín Ton	none
 🤏🏽	Hand Wé De Pinch Mídíọ́m Skín Ton	none
@@ -1572,6 +1939,11 @@ symbols:
 🤞🏽	Krọ́s Fínga-dẹm Mídíọ́m Skín Ton	none
 🤞🏾	Krọ́s Fínga-dẹm Mídíọ́m Dák Skín Ton	none
 🤞🏿	Krọ́s Fínga-dẹm Dák Skín Ton	none
+🫰🏻	Hand Wé Krọ́s Im Sẹ́kọ́n Fínga An Tọmb Laít Skín Ton	none
+🫰🏼	Hand Wé Krọ́s Im Sẹ́kọ́n Fínga An Tọmb Mídíọ́m-Laít Skín Ton	none
+🫰🏽	Hand Wé Krọ́s Im Sẹ́kọ́n Fínga An Tọmb Mídíọ́m Skín Ton	none
+🫰🏾	Hand Wé Krọ́s Im Sẹ́kọ́n Fínga An Tọmb Mídíọ́m Dák Skín Ton	none
+🫰🏿	Hand Wé Krọ́s Im Sẹ́kọ́n Fínga An Tọmb Dák Skín Ton	none
 🤟🏻	A Lọ́v Yu Sain Laít Skín Ton	none
 🤟🏼	A Lọ́v Yu Sain Mídíọ́m-Laít Skín Ton	none
 🤟🏽	A Lọ́v Yu Sain Mídíọ́m Skín Ton	none
@@ -1617,6 +1989,11 @@ symbols:
 ☝🏽	Niá-Tọ́mb-Fínga De Pọínt Ọp Mídíọ́m Skín Ton	none
 ☝🏾	Niá-Tọ́mb-Fínga De Pọínt Ọp Mídíọ́m Dák Skín Ton	none
 ☝🏿	Niá-Tọ́mb-Fínga De Pọínt Ọp Dák Skín Ton	none
+🫵🏻	Sẹ́kọ́n Fínga De Pọínt Di Pẹ́sin Wé De Luk Laít Skín Ton	none
+🫵🏼	Sẹ́kọ́n Fínga De Pọínt Di Pẹ́sin Wé De Luk Mídíọ́m-Laít Skín Ton	none
+🫵🏽	Sẹ́kọ́n Fínga De Pọínt Di Pẹ́sin Wé De Luk Mídíọ́m Skín Ton	none
+🫵🏾	Sẹ́kọ́n Fínga De Pọínt Di Pẹ́sin Wé De Luk Mídíọ́m Dák Skín Ton	none
+🫵🏿	Sẹ́kọ́n Fínga De Pọínt Di Pẹ́sin Wé De Luk Dák Skín Ton	none
 👍🏻	Tọ́mb Ọp Laít Skín Ton	none
 👍🏼	Tọ́mb Ọp Mídíọ́m-Laít Skín Ton	none
 👍🏽	Tọ́mb Ọp Mídíọ́m Skín Ton	none
@@ -1637,16 +2014,16 @@ symbols:
 👊🏽	Klózd Hand Wán Gív Pẹ́sin Blo Mídíọ́m Skín Ton	none
 👊🏾	Klózd Hand Wán Gív Pẹ́sin Blo Mídíọ́m Dák Skín Ton	none
 👊🏿	Klózd Hand Wán Gív Pẹ́sin Blo Dák Skín Ton	none
-🤛🏻	Klós Hand Wé De Fés Lẹft Laít Skín Ton	none
-🤛🏼	Klós Hand Wé De Fés Lẹft Mídíọ́m-Laít Skín Ton	none
-🤛🏽	Klós Hand Wé De Fés Lẹft Mídíọ́m Skín Ton	none
-🤛🏾	Klós Hand Wé De Fés Lẹft Mídíọ́m Dák Skín Ton	none
-🤛🏿	Klós Hand Wé De Fés Lẹft Dák Skín Ton	none
-🤜🏻	Klós Hand Wé De Fés Rait Laít Skín Ton	none
-🤜🏼	Klós Hand Wé De Fés Rait Mídíọ́m-Laít Skín Ton	none
-🤜🏽	Klós Hand Wé De Fés Rait Mídíọ́m Skín Ton	none
-🤜🏾	Klós Hand Wé De Fés Rait Mídíọ́m Dák Skín Ton	none
-🤜🏿	Klós Hand Wé De Fés Rait Dák Skín Ton	none
+🤛🏻	Klózd Hand Wé De Fés Lẹft Laít Skín Ton	none
+🤛🏼	Klózd Hand Wé De Fés Lẹft Mídíọ́m-Laít Skín Ton	none
+🤛🏽	Klózd Hand Wé De Fés Lẹft Mídíọ́m Skín Ton	none
+🤛🏾	Klózd Hand Wé De Fés Lẹft Mídíọ́m Dák Skín Ton	none
+🤛🏿	Klózd Hand Wé De Fés Lẹft Dák Skín Ton	none
+🤜🏻	Klózd Hand Wé De Fés Rait Laít Skín Ton	none
+🤜🏼	Klózd Hand Wé De Fés Rait Mídíọ́m-Laít Skín Ton	none
+🤜🏽	Klózd Hand Wé De Fés Rait Mídíọ́m Skín Ton	none
+🤜🏾	Klózd Hand Wé De Fés Rait Mídíọ́m Dák Skín Ton	none
+🤜🏿	Klózd Hand Wé De Fés Rait Dák Skín Ton	none
 👏🏻	Hand-dẹm Wé De Klap Laít Skín Ton	none
 👏🏼	Hand-dẹm Wé De Klap Mídíọ́m-Laít Skín Ton	none
 👏🏽	Hand-dẹm Wé De Klap Mídíọ́m Skín Ton	none
@@ -1657,6 +2034,11 @@ symbols:
 🙌🏽	Hand-dẹm Wé Dẹm Réz Ọp Mídíọ́m Skín Ton	none
 🙌🏾	Hand-dẹm Wé Dẹm Réz Ọp Mídíọ́m Dák Skín Ton	none
 🙌🏿	Hand-dẹm Wé Dẹm Réz Ọp Dák Skín Ton	none
+🫶🏻	Hát hand-dẹm Laít Skín Ton	none
+🫶🏼	Hát hand-dẹm Mídíọ́m-Laít Skín Ton	none
+🫶🏽	Hát hand-dẹm Mídíọ́m Skín Ton	none
+🫶🏾	Hát hand-dẹm Mídíọ́m Dák Skín Ton	none
+🫶🏿	Hát hand-dẹm Dák Skín Ton	none
 👐🏻	Ópún Hand-dẹm Laít Skín Ton	none
 👐🏼	Ópún Hand-dẹm Mídíọ́m-Laít Skín Ton	none
 👐🏽	Ópún Hand-dẹm Mídíọ́m Skín Ton	none
@@ -1667,6 +2049,11 @@ symbols:
 🤲🏽	Ópún Hand-dẹm Wé Dé Togẹ́da Mídíọ́m Skín Ton	none
 🤲🏾	Ópún Hand-dẹm Wé Dé Togẹ́da Mídíọ́m Dák Skín Ton	none
 🤲🏿	Ópún Hand-dẹm Wé Dé Togẹ́da Dák Skín Ton	none
+🤝🏻	Hándshek Laít Skín Ton	none
+🤝🏼	Hándshek Mídíọ́m-Laít Skín Ton	none
+🤝🏽	Hándshek Mídíọ́m Skín Ton	none
+🤝🏾	Hándshek Mídíọ́m Dák Skín Ton	none
+🤝🏿	Hándshek Dák Skín Ton	none
 🙏🏻	Hand-dẹm Wé Dẹm Fold Laít Skín Ton	none
 🙏🏼	Hand-dẹm Wé Dẹm Fold Mídíọ́m-Laít Skín Ton	none
 🙏🏽	Hand-dẹm Wé Dẹm Fold Mídíọ́m Skín Ton	none
@@ -1732,11 +2119,11 @@ symbols:
 👦🏽	Smọ́l Bọi Mídíọ́m Skín Ton	none
 👦🏾	Smọ́l Bọi Mídíọ́m Dák Skín Ton	none
 👦🏿	Smọ́l Bọi Dák Skín Ton	none
-👧🏻	Smọ́l Gẹl Laít Skín Ton	none
-👧🏼	Smọ́l Gẹl Mídíọ́m-Laít Skín Ton	none
-👧🏽	Smọ́l Gẹl Mídíọ́m Skín Ton	none
-👧🏾	Smọ́l Gẹl Mídíọ́m Dák Skín Ton	none
-👧🏿	Smọ́l Gẹl Dák Skín Ton	none
+👧🏻	Gẹl Laít Skín Ton	none
+👧🏼	Gẹl Mídíọ́m-Laít Skín Ton	none
+👧🏽	Gẹl Mídíọ́m Skín Ton	none
+👧🏾	Gẹl Mídíọ́m Dák Skín Ton	none
+👧🏿	Gẹl Dák Skín Ton	none
 🧑🏻	Pẹ́sin Laít Skín Ton	none
 🧑🏼	Pẹ́sin Mídíọ́m-Laít Skín Ton	none
 🧑🏽	Pẹ́sin Mídíọ́m Skín Ton	none
@@ -1767,26 +2154,46 @@ symbols:
 🧑🏿‍❤‍💋‍🧑🏼	Kis Pẹ́sin, Pẹ́sin, Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
 🧑🏿‍❤‍💋‍🧑🏽	Kis Pẹ́sin, Pẹ́sin, Dák Skín Ton, Mídíọ́m Skín Ton	none
 🧑🏿‍❤‍💋‍🧑🏾	Kis Pẹ́sin, Pẹ́sin, Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
-🧑🏻‍❤‍🧑🏼	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Laít Skín Ton, Mídíọ́m-Laít Skín Ton	none
-🧑🏻‍❤‍🧑🏽	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Laít Skín Ton, Mídíọ́m Skín Ton	none
-🧑🏻‍❤‍🧑🏾	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
-🧑🏻‍❤‍🧑🏿	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Laít Skín Ton, Dák Skín Ton	none
-🧑🏼‍❤‍🧑🏻	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m-Laít Skín Ton, Laít Skín Ton	none
-🧑🏼‍❤‍🧑🏽	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m-Laít Skín Ton, Mídíọ́m Skín Ton	none
-🧑🏼‍❤‍🧑🏾	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m-Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
-🧑🏼‍❤‍🧑🏿	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m-Laít Skín Ton, Dák Skín Ton	none
-🧑🏽‍❤‍🧑🏻	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Skín Ton, Laít Skín Ton	none
-🧑🏽‍❤‍🧑🏼	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Skín Ton, Mídíọ́m-Laít Skín Ton	none
-🧑🏽‍❤‍🧑🏾	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Skín Ton, Mídíọ́m Dák Skín Ton	none
-🧑🏽‍❤‍🧑🏿	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Skín Ton, Dák Skín Ton	none
-🧑🏾‍❤‍🧑🏻	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Dák Skín Ton, Laít Skín Ton	none
-🧑🏾‍❤‍🧑🏼	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
-🧑🏾‍❤‍🧑🏽	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Dák Skín Ton, Mídíọ́m Skín Ton	none
-🧑🏾‍❤‍🧑🏿	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Dák Skín Ton, Dák Skín Ton	none
-🧑🏿‍❤‍🧑🏻	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Dák Skín Ton, Laít Skín Ton	none
-🧑🏿‍❤‍🧑🏼	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
-🧑🏿‍❤‍🧑🏽	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Dák Skín Ton, Mídíọ́m Skín Ton	none
-🧑🏿‍❤‍🧑🏾	Tú Pípol Wit Hat Pẹ́sin, Pẹ́sin, Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
+🧑🏻‍❤‍🧑🏼	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Laít Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🧑🏻‍❤‍🧑🏽	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Laít Skín Ton, Mídíọ́m Skín Ton	none
+🧑🏻‍❤‍🧑🏾	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+🧑🏻‍❤‍🧑🏿	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Laít Skín Ton, Dák Skín Ton	none
+🧑🏼‍❤‍🧑🏻	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m-Laít Skín Ton, Laít Skín Ton	none
+🧑🏼‍❤‍🧑🏽	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m-Laít Skín Ton, Mídíọ́m Skín Ton	none
+🧑🏼‍❤‍🧑🏾	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m-Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+🧑🏼‍❤‍🧑🏿	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m-Laít Skín Ton, Dák Skín Ton	none
+🧑🏽‍❤‍🧑🏻	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Skín Ton, Laít Skín Ton	none
+🧑🏽‍❤‍🧑🏼	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🧑🏽‍❤‍🧑🏾	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Skín Ton, Mídíọ́m Dák Skín Ton	none
+🧑🏽‍❤‍🧑🏿	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Skín Ton, Dák Skín Ton	none
+🧑🏾‍❤‍🧑🏻	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Dák Skín Ton, Laít Skín Ton	none
+🧑🏾‍❤‍🧑🏼	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🧑🏾‍❤‍🧑🏽	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Dák Skín Ton, Mídíọ́m Skín Ton	none
+🧑🏾‍❤‍🧑🏿	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Mídíọ́m Dák Skín Ton, Dák Skín Ton	none
+🧑🏿‍❤‍🧑🏻	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Dák Skín Ton, Laít Skín Ton	none
+🧑🏿‍❤‍🧑🏼	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🧑🏿‍❤‍🧑🏽	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Dák Skín Ton, Mídíọ́m Skín Ton	none
+🧑🏿‍❤‍🧑🏾	Tuú Pípul Wit Hat Pẹ́sin, Pẹ́sin, Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
+🧑🏻‍🫯‍🧑🏼	Pípul Wé De Rẹ́sul Laít Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🧑🏻‍🫯‍🧑🏽	Pípul Wé De Rẹ́sul Laít Skín Ton, Mídíọ́m Skín Ton	none
+🧑🏻‍🫯‍🧑🏾	Pípul Wé De Rẹ́sul Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+🧑🏻‍🫯‍🧑🏿	Pípul Wé De Rẹ́sul Laít Skín Ton, Dák Skín Ton	none
+🧑🏼‍🫯‍🧑🏻	Pípul Wé De Rẹ́sul Mídíọ́m-Laít Skín Ton, Laít Skín Ton	none
+🧑🏼‍🫯‍🧑🏽	Pípul Wé De Rẹ́sul Mídíọ́m-Laít Skín Ton, Mídíọ́m Skín Ton	none
+🧑🏼‍🫯‍🧑🏾	Pípul Wé De Rẹ́sul Mídíọ́m-Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+🧑🏼‍🫯‍🧑🏿	Pípul Wé De Rẹ́sul Mídíọ́m-Laít Skín Ton, Dák Skín Ton	none
+🧑🏽‍🫯‍🧑🏻	Pípul Wé De Rẹ́sul Mídíọ́m Skín Ton, Laít Skín Ton	none
+🧑🏽‍🫯‍🧑🏼	Pípul Wé De Rẹ́sul Mídíọ́m Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🧑🏽‍🫯‍🧑🏾	Pípul Wé De Rẹ́sul Mídíọ́m Skín Ton, Mídíọ́m Dák Skín Ton	none
+🧑🏽‍🫯‍🧑🏿	Pípul Wé De Rẹ́sul Mídíọ́m Skín Ton, Dák Skín Ton	none
+🧑🏾‍🫯‍🧑🏻	Pípul Wé De Rẹ́sul Mídíọ́m Dák Skín Ton, Laít Skín Ton	none
+🧑🏾‍🫯‍🧑🏼	Pípul Wé De Rẹ́sul Mídíọ́m Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🧑🏾‍🫯‍🧑🏽	Pípul Wé De Rẹ́sul Mídíọ́m Dák Skín Ton, Mídíọ́m Skín Ton	none
+🧑🏾‍🫯‍🧑🏿	Pípul Wé De Rẹ́sul Mídíọ́m Dák Skín Ton, Dák Skín Ton	none
+🧑🏿‍🫯‍🧑🏻	Pípul Wé De Rẹ́sul Dák Skín Ton, Laít Skín Ton	none
+🧑🏿‍🫯‍🧑🏼	Pípul Wé De Rẹ́sul Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🧑🏿‍🫯‍🧑🏽	Pípul Wé De Rẹ́sul Dák Skín Ton, Mídíọ́m Skín Ton	none
+🧑🏿‍🫯‍🧑🏾	Pípul Wé De Rẹ́sul Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
 🧑‍🦰	Pẹ́sin Rẹ́d Hea	none
 🧑🏻‍🦰	Pẹ́sin Laít Skín Ton, Rẹ́d Hea	none
 🧑🏼‍🦰	Pẹ́sin Mídíọ́m-Laít Skín Ton, Rẹ́d Hea	none
@@ -1811,6 +2218,26 @@ symbols:
 🧑🏽‍🦲	Pẹ́sin Mídíọ́m Skín Ton, Bọld	none
 🧑🏾‍🦲	Pẹ́sin Mídíọ́m Dák Skín Ton, Bọld	none
 🧑🏿‍🦲	Pẹ́sin Dák Skín Ton, Bọld	none
+🧑🏻‍🐰‍🧑🏼	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Laít Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🧑🏻‍🐰‍🧑🏽	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Laít Skín Ton, Mídíọ́m Skín Ton	none
+🧑🏻‍🐰‍🧑🏾	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+🧑🏻‍🐰‍🧑🏿	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Laít Skín Ton, Dák Skín Ton	none
+🧑🏼‍🐰‍🧑🏻	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Mídíọ́m-Laít Skín Ton, Laít Skín Ton	none
+🧑🏼‍🐰‍🧑🏽	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Mídíọ́m-Laít Skín Ton, Mídíọ́m Skín Ton	none
+🧑🏼‍🐰‍🧑🏾	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Mídíọ́m-Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+🧑🏼‍🐰‍🧑🏿	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Mídíọ́m-Laít Skín Ton, Dák Skín Ton	none
+🧑🏽‍🐰‍🧑🏻	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Mídíọ́m Skín Ton, Laít Skín Ton	none
+🧑🏽‍🐰‍🧑🏼	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Mídíọ́m Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🧑🏽‍🐰‍🧑🏾	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Mídíọ́m Skín Ton, Mídíọ́m Dák Skín Ton	none
+🧑🏽‍🐰‍🧑🏿	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Mídíọ́m Skín Ton, Dák Skín Ton	none
+🧑🏾‍🐰‍🧑🏻	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Mídíọ́m Dák Skín Ton, Laít Skín Ton	none
+🧑🏾‍🐰‍🧑🏼	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Mídíọ́m Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🧑🏾‍🐰‍🧑🏽	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Mídíọ́m Dák Skín Ton, Mídíọ́m Skín Ton	none
+🧑🏾‍🐰‍🧑🏿	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Mídíọ́m Dák Skín Ton, Dák Skín Ton	none
+🧑🏿‍🐰‍🧑🏻	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Dák Skín Ton, Laít Skín Ton	none
+🧑🏿‍🐰‍🧑🏼	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+🧑🏿‍🐰‍🧑🏽	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Dák Skín Ton, Mídíọ́m Skín Ton	none
+🧑🏿‍🐰‍🧑🏾	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
 👨🏻	Man Laít Skín Ton	none
 👨🏼	Man Mídíọ́m-Laít Skín Ton	none
 👨🏽	Man Mídíọ́m Skín Ton	none
@@ -1856,31 +2283,51 @@ symbols:
 👨🏿‍❤‍💋‍👨🏽	Kis Man, Man, Dák Skín Ton, Mídíọ́m Skín Ton	none
 👨🏿‍❤‍💋‍👨🏾	Kis Man, Man, Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
 👨🏿‍❤‍💋‍👨🏿	Kis Man, Man, Dák Skín Ton	none
-👨🏻‍❤‍👨🏻	Tú Pípol Wit Hat Man, Man, Laít Skín Ton	none
-👨🏻‍❤‍👨🏼	Tú Pípol Wit Hat Man, Man, Laít Skín Ton, Mídíọ́m-Laít Skín Ton	none
-👨🏻‍❤‍👨🏽	Tú Pípol Wit Hat Man, Man, Laít Skín Ton, Mídíọ́m Skín Ton	none
-👨🏻‍❤‍👨🏾	Tú Pípol Wit Hat Man, Man, Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
-👨🏻‍❤‍👨🏿	Tú Pípol Wit Hat Man, Man, Laít Skín Ton, Dák Skín Ton	none
-👨🏼‍❤‍👨🏻	Tú Pípol Wit Hat Man, Man, Mídíọ́m-Laít Skín Ton, Laít Skín Ton	none
-👨🏼‍❤‍👨🏼	Tú Pípol Wit Hat Man, Man, Mídíọ́m-Laít Skín Ton	none
-👨🏼‍❤‍👨🏽	Tú Pípol Wit Hat Man, Man, Mídíọ́m-Laít Skín Ton, Mídíọ́m Skín Ton	none
-👨🏼‍❤‍👨🏾	Tú Pípol Wit Hat Man, Man, Mídíọ́m-Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
-👨🏼‍❤‍👨🏿	Tú Pípol Wit Hat Man, Man, Mídíọ́m-Laít Skín Ton, Dák Skín Ton	none
-👨🏽‍❤‍👨🏻	Tú Pípol Wit Hat Man, Man, Mídíọ́m Skín Ton, Laít Skín Ton	none
-👨🏽‍❤‍👨🏼	Tú Pípol Wit Hat Man, Man, Mídíọ́m Skín Ton, Mídíọ́m-Laít Skín Ton	none
-👨🏽‍❤‍👨🏽	Tú Pípol Wit Hat Man, Man, Mídíọ́m Skín Ton	none
-👨🏽‍❤‍👨🏾	Tú Pípol Wit Hat Man, Man, Mídíọ́m Skín Ton, Mídíọ́m Dák Skín Ton	none
-👨🏽‍❤‍👨🏿	Tú Pípol Wit Hat Man, Man, Mídíọ́m Skín Ton, Dák Skín Ton	none
-👨🏾‍❤‍👨🏻	Tú Pípol Wit Hat Man, Man, Mídíọ́m Dák Skín Ton, Laít Skín Ton	none
-👨🏾‍❤‍👨🏼	Tú Pípol Wit Hat Man, Man, Mídíọ́m Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
-👨🏾‍❤‍👨🏽	Tú Pípol Wit Hat Man, Man, Mídíọ́m Dák Skín Ton, Mídíọ́m Skín Ton	none
-👨🏾‍❤‍👨🏾	Tú Pípol Wit Hat Man, Man, Mídíọ́m Dák Skín Ton	none
-👨🏾‍❤‍👨🏿	Tú Pípol Wit Hat Man, Man, Mídíọ́m Dák Skín Ton, Dák Skín Ton	none
-👨🏿‍❤‍👨🏻	Tú Pípol Wit Hat Man, Man, Dák Skín Ton, Laít Skín Ton	none
-👨🏿‍❤‍👨🏼	Tú Pípol Wit Hat Man, Man, Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
-👨🏿‍❤‍👨🏽	Tú Pípol Wit Hat Man, Man, Dák Skín Ton, Mídíọ́m Skín Ton	none
-👨🏿‍❤‍👨🏾	Tú Pípol Wit Hat Man, Man, Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
-👨🏿‍❤‍👨🏿	Tú Pípol Wit Hat Man, Man, Dák Skín Ton	none
+👨🏻‍❤‍👨🏻	Tuú Pípul Wit Hat Man, Man, Laít Skín Ton	none
+👨🏻‍❤‍👨🏼	Tuú Pípul Wit Hat Man, Man, Laít Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👨🏻‍❤‍👨🏽	Tuú Pípul Wit Hat Man, Man, Laít Skín Ton, Mídíọ́m Skín Ton	none
+👨🏻‍❤‍👨🏾	Tuú Pípul Wit Hat Man, Man, Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+👨🏻‍❤‍👨🏿	Tuú Pípul Wit Hat Man, Man, Laít Skín Ton, Dák Skín Ton	none
+👨🏼‍❤‍👨🏻	Tuú Pípul Wit Hat Man, Man, Mídíọ́m-Laít Skín Ton, Laít Skín Ton	none
+👨🏼‍❤‍👨🏼	Tuú Pípul Wit Hat Man, Man, Mídíọ́m-Laít Skín Ton	none
+👨🏼‍❤‍👨🏽	Tuú Pípul Wit Hat Man, Man, Mídíọ́m-Laít Skín Ton, Mídíọ́m Skín Ton	none
+👨🏼‍❤‍👨🏾	Tuú Pípul Wit Hat Man, Man, Mídíọ́m-Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+👨🏼‍❤‍👨🏿	Tuú Pípul Wit Hat Man, Man, Mídíọ́m-Laít Skín Ton, Dák Skín Ton	none
+👨🏽‍❤‍👨🏻	Tuú Pípul Wit Hat Man, Man, Mídíọ́m Skín Ton, Laít Skín Ton	none
+👨🏽‍❤‍👨🏼	Tuú Pípul Wit Hat Man, Man, Mídíọ́m Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👨🏽‍❤‍👨🏽	Tuú Pípul Wit Hat Man, Man, Mídíọ́m Skín Ton	none
+👨🏽‍❤‍👨🏾	Tuú Pípul Wit Hat Man, Man, Mídíọ́m Skín Ton, Mídíọ́m Dák Skín Ton	none
+👨🏽‍❤‍👨🏿	Tuú Pípul Wit Hat Man, Man, Mídíọ́m Skín Ton, Dák Skín Ton	none
+👨🏾‍❤‍👨🏻	Tuú Pípul Wit Hat Man, Man, Mídíọ́m Dák Skín Ton, Laít Skín Ton	none
+👨🏾‍❤‍👨🏼	Tuú Pípul Wit Hat Man, Man, Mídíọ́m Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👨🏾‍❤‍👨🏽	Tuú Pípul Wit Hat Man, Man, Mídíọ́m Dák Skín Ton, Mídíọ́m Skín Ton	none
+👨🏾‍❤‍👨🏾	Tuú Pípul Wit Hat Man, Man, Mídíọ́m Dák Skín Ton	none
+👨🏾‍❤‍👨🏿	Tuú Pípul Wit Hat Man, Man, Mídíọ́m Dák Skín Ton, Dák Skín Ton	none
+👨🏿‍❤‍👨🏻	Tuú Pípul Wit Hat Man, Man, Dák Skín Ton, Laít Skín Ton	none
+👨🏿‍❤‍👨🏼	Tuú Pípul Wit Hat Man, Man, Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👨🏿‍❤‍👨🏽	Tuú Pípul Wit Hat Man, Man, Dák Skín Ton, Mídíọ́m Skín Ton	none
+👨🏿‍❤‍👨🏾	Tuú Pípul Wit Hat Man, Man, Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
+👨🏿‍❤‍👨🏿	Tuú Pípul Wit Hat Man, Man, Dák Skín Ton	none
+👨🏻‍🫯‍👨🏼	Mẹn Wé De Rẹ́sul Laít Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👨🏻‍🫯‍👨🏽	Mẹn Wé De Rẹ́sul Laít Skín Ton, Mídíọ́m Skín Ton	none
+👨🏻‍🫯‍👨🏾	Mẹn Wé De Rẹ́sul Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+👨🏻‍🫯‍👨🏿	Mẹn Wé De Rẹ́sul Laít Skín Ton, Dák Skín Ton	none
+👨🏼‍🫯‍👨🏻	Mẹn Wé De Rẹ́sul Mídíọ́m-Laít Skín Ton, Laít Skín Ton	none
+👨🏼‍🫯‍👨🏽	Mẹn Wé De Rẹ́sul Mídíọ́m-Laít Skín Ton, Mídíọ́m Skín Ton	none
+👨🏼‍🫯‍👨🏾	Mẹn Wé De Rẹ́sul Mídíọ́m-Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+👨🏼‍🫯‍👨🏿	Mẹn Wé De Rẹ́sul Mídíọ́m-Laít Skín Ton, Dák Skín Ton	none
+👨🏽‍🫯‍👨🏻	Mẹn Wé De Rẹ́sul Mídíọ́m Skín Ton, Laít Skín Ton	none
+👨🏽‍🫯‍👨🏼	Mẹn Wé De Rẹ́sul Mídíọ́m Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👨🏽‍🫯‍👨🏾	Mẹn Wé De Rẹ́sul Mídíọ́m Skín Ton, Mídíọ́m Dák Skín Ton	none
+👨🏽‍🫯‍👨🏿	Mẹn Wé De Rẹ́sul Mídíọ́m Skín Ton, Dák Skín Ton	none
+👨🏾‍🫯‍👨🏻	Mẹn Wé De Rẹ́sul Mídíọ́m Dák Skín Ton, Laít Skín Ton	none
+👨🏾‍🫯‍👨🏼	Mẹn Wé De Rẹ́sul Mídíọ́m Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👨🏾‍🫯‍👨🏽	Mẹn Wé De Rẹ́sul Mídíọ́m Dák Skín Ton, Mídíọ́m Skín Ton	none
+👨🏾‍🫯‍👨🏿	Mẹn Wé De Rẹ́sul Mídíọ́m Dák Skín Ton, Dák Skín Ton	none
+👨🏿‍🫯‍👨🏻	Mẹn Wé De Rẹ́sul Dák Skín Ton, Laít Skín Ton	none
+👨🏿‍🫯‍👨🏼	Mẹn Wé De Rẹ́sul Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👨🏿‍🫯‍👨🏽	Mẹn Wé De Rẹ́sul Dák Skín Ton, Mídíọ́m Skín Ton	none
+👨🏿‍🫯‍👨🏾	Mẹn Wé De Rẹ́sul Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
 👨‍🦰	Man Rẹ́d Hea	none
 👨🏻‍🦰	Man Laít Skín Ton, Rẹ́d Hea	none
 👨🏼‍🦰	Man Mídíọ́m-Laít Skín Ton, Rẹ́d Hea	none
@@ -1905,6 +2352,26 @@ symbols:
 👨🏽‍🦲	Man Mídíọ́m Skín Ton, Bọld	none
 👨🏾‍🦲	Man Mídíọ́m Dák Skín Ton, Bọld	none
 👨🏿‍🦲	Man Dák Skín Ton, Bọld	none
+👨🏻‍🐰‍👨🏼	Mẹn Wé Wiá Rábít Iá Kaín Tins Laít Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👨🏻‍🐰‍👨🏽	Mẹn Wé Wiá Rábít Iá Kaín Tins Laít Skín Ton, Mídíọ́m Skín Ton	none
+👨🏻‍🐰‍👨🏾	Mẹn Wé Wiá Rábít Iá Kaín Tins Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+👨🏻‍🐰‍👨🏿	Mẹn Wé Wiá Rábít Iá Kaín Tins Laít Skín Ton, Dák Skín Ton	none
+👨🏼‍🐰‍👨🏻	Mẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m-Laít Skín Ton, Laít Skín Ton	none
+👨🏼‍🐰‍👨🏽	Mẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m-Laít Skín Ton, Mídíọ́m Skín Ton	none
+👨🏼‍🐰‍👨🏾	Mẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m-Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+👨🏼‍🐰‍👨🏿	Mẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m-Laít Skín Ton, Dák Skín Ton	none
+👨🏽‍🐰‍👨🏻	Mẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Skín Ton, Laít Skín Ton	none
+👨🏽‍🐰‍👨🏼	Mẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👨🏽‍🐰‍👨🏾	Mẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Skín Ton, Mídíọ́m Dák Skín Ton	none
+👨🏽‍🐰‍👨🏿	Mẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Skín Ton, Dák Skín Ton	none
+👨🏾‍🐰‍👨🏻	Mẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Dák Skín Ton, Laít Skín Ton	none
+👨🏾‍🐰‍👨🏼	Mẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👨🏾‍🐰‍👨🏽	Mẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Dák Skín Ton, Mídíọ́m Skín Ton	none
+👨🏾‍🐰‍👨🏿	Mẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Dák Skín Ton, Dák Skín Ton	none
+👨🏿‍🐰‍👨🏻	Mẹn Wé Wiá Rábít Iá Kaín Tins Dák Skín Ton, Laít Skín Ton	none
+👨🏿‍🐰‍👨🏼	Mẹn Wé Wiá Rábít Iá Kaín Tins Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👨🏿‍🐰‍👨🏽	Mẹn Wé Wiá Rábít Iá Kaín Tins Dák Skín Ton, Mídíọ́m Skín Ton	none
+👨🏿‍🐰‍👨🏾	Mẹn Wé Wiá Rábít Iá Kaín Tins Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
 👩🏻	Wúman Laít Skín Ton	none
 👩🏼	Wúman Mídíọ́m-Laít Skín Ton	none
 👩🏽	Wúman Mídíọ́m Skín Ton	none
@@ -1970,56 +2437,76 @@ symbols:
 👩🏿‍❤‍💋‍👩🏽	Kis Wúman, Wúman, Dák Skín Ton, Mídíọ́m Skín Ton	none
 👩🏿‍❤‍💋‍👩🏾	Kis Wúman, Wúman, Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
 👩🏿‍❤‍💋‍👩🏿	Kis Wúman, Wúman, Dák Skín Ton	none
-👩🏻‍❤‍👨🏻	Tú Pípol Wit Hat Wúman, Man, Laít Skín Ton	none
-👩🏻‍❤‍👨🏼	Tú Pípol Wit Hat Wúman, Man, Laít Skín Ton, Mídíọ́m-Laít Skín Ton	none
-👩🏻‍❤‍👨🏽	Tú Pípol Wit Hat Wúman, Man, Laít Skín Ton, Mídíọ́m Skín Ton	none
-👩🏻‍❤‍👨🏾	Tú Pípol Wit Hat Wúman, Man, Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
-👩🏻‍❤‍👨🏿	Tú Pípol Wit Hat Wúman, Man, Laít Skín Ton, Dák Skín Ton	none
-👩🏼‍❤‍👨🏻	Tú Pípol Wit Hat Wúman, Man, Mídíọ́m-Laít Skín Ton, Laít Skín Ton	none
-👩🏼‍❤‍👨🏼	Tú Pípol Wit Hat Wúman, Man, Mídíọ́m-Laít Skín Ton	none
-👩🏼‍❤‍👨🏽	Tú Pípol Wit Hat Wúman, Man, Mídíọ́m-Laít Skín Ton, Mídíọ́m Skín Ton	none
-👩🏼‍❤‍👨🏾	Tú Pípol Wit Hat Wúman, Man, Mídíọ́m-Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
-👩🏼‍❤‍👨🏿	Tú Pípol Wit Hat Wúman, Man, Mídíọ́m-Laít Skín Ton, Dák Skín Ton	none
-👩🏽‍❤‍👨🏻	Tú Pípol Wit Hat Wúman, Man, Mídíọ́m Skín Ton, Laít Skín Ton	none
-👩🏽‍❤‍👨🏼	Tú Pípol Wit Hat Wúman, Man, Mídíọ́m Skín Ton, Mídíọ́m-Laít Skín Ton	none
-👩🏽‍❤‍👨🏽	Tú Pípol Wit Hat Wúman, Man, Mídíọ́m Skín Ton	none
-👩🏽‍❤‍👨🏾	Tú Pípol Wit Hat Wúman, Man, Mídíọ́m Skín Ton, Mídíọ́m Dák Skín Ton	none
-👩🏽‍❤‍👨🏿	Tú Pípol Wit Hat Wúman, Man, Mídíọ́m Skín Ton, Dák Skín Ton	none
-👩🏾‍❤‍👨🏻	Tú Pípol Wit Hat Wúman, Man, Mídíọ́m Dák Skín Ton, Laít Skín Ton	none
-👩🏾‍❤‍👨🏼	Tú Pípol Wit Hat Wúman, Man, Mídíọ́m Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
-👩🏾‍❤‍👨🏽	Tú Pípol Wit Hat Wúman, Man, Mídíọ́m Dák Skín Ton, Mídíọ́m Skín Ton	none
-👩🏾‍❤‍👨🏾	Tú Pípol Wit Hat Wúman, Man, Mídíọ́m Dák Skín Ton	none
-👩🏾‍❤‍👨🏿	Tú Pípol Wit Hat Wúman, Man, Mídíọ́m Dák Skín Ton, Dák Skín Ton	none
-👩🏿‍❤‍👨🏻	Tú Pípol Wit Hat Wúman, Man, Dák Skín Ton, Laít Skín Ton	none
-👩🏿‍❤‍👨🏼	Tú Pípol Wit Hat Wúman, Man, Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
-👩🏿‍❤‍👨🏽	Tú Pípol Wit Hat Wúman, Man, Dák Skín Ton, Mídíọ́m Skín Ton	none
-👩🏿‍❤‍👨🏾	Tú Pípol Wit Hat Wúman, Man, Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
-👩🏿‍❤‍👨🏿	Tú Pípol Wit Hat Wúman, Man, Dák Skín Ton	none
-👩🏻‍❤‍👩🏻	Tú Pípol Wit Hat Wúman, Wúman, Laít Skín Ton	none
-👩🏻‍❤‍👩🏼	Tú Pípol Wit Hat Wúman, Wúman, Laít Skín Ton, Mídíọ́m-Laít Skín Ton	none
-👩🏻‍❤‍👩🏽	Tú Pípol Wit Hat Wúman, Wúman, Laít Skín Ton, Mídíọ́m Skín Ton	none
-👩🏻‍❤‍👩🏾	Tú Pípol Wit Hat Wúman, Wúman, Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
-👩🏻‍❤‍👩🏿	Tú Pípol Wit Hat Wúman, Wúman, Laít Skín Ton, Dák Skín Ton	none
-👩🏼‍❤‍👩🏻	Tú Pípol Wit Hat Wúman, Wúman, Mídíọ́m-Laít Skín Ton, Laít Skín Ton	none
-👩🏼‍❤‍👩🏼	Tú Pípol Wit Hat Wúman, Wúman, Mídíọ́m-Laít Skín Ton	none
-👩🏼‍❤‍👩🏽	Tú Pípol Wit Hat Wúman, Wúman, Mídíọ́m-Laít Skín Ton, Mídíọ́m Skín Ton	none
-👩🏼‍❤‍👩🏾	Tú Pípol Wit Hat Wúman, Wúman, Mídíọ́m-Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
-👩🏼‍❤‍👩🏿	Tú Pípol Wit Hat Wúman, Wúman, Mídíọ́m-Laít Skín Ton, Dák Skín Ton	none
-👩🏽‍❤‍👩🏻	Tú Pípol Wit Hat Wúman, Wúman, Mídíọ́m Skín Ton, Laít Skín Ton	none
-👩🏽‍❤‍👩🏼	Tú Pípol Wit Hat Wúman, Wúman, Mídíọ́m Skín Ton, Mídíọ́m-Laít Skín Ton	none
-👩🏽‍❤‍👩🏽	Tú Pípol Wit Hat Wúman, Wúman, Mídíọ́m Skín Ton	none
-👩🏽‍❤‍👩🏾	Tú Pípol Wit Hat Wúman, Wúman, Mídíọ́m Skín Ton, Mídíọ́m Dák Skín Ton	none
-👩🏽‍❤‍👩🏿	Tú Pípol Wit Hat Wúman, Wúman, Mídíọ́m Skín Ton, Dák Skín Ton	none
-👩🏾‍❤‍👩🏻	Tú Pípol Wit Hat Wúman, Wúman, Mídíọ́m Dák Skín Ton, Laít Skín Ton	none
-👩🏾‍❤‍👩🏼	Tú Pípol Wit Hat Wúman, Wúman, Mídíọ́m Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
-👩🏾‍❤‍👩🏽	Tú Pípol Wit Hat Wúman, Wúman, Mídíọ́m Dák Skín Ton, Mídíọ́m Skín Ton	none
-👩🏾‍❤‍👩🏾	Tú Pípol Wit Hat Wúman, Wúman, Mídíọ́m Dák Skín Ton	none
-👩🏾‍❤‍👩🏿	Tú Pípol Wit Hat Wúman, Wúman, Mídíọ́m Dák Skín Ton, Dák Skín Ton	none
-👩🏿‍❤‍👩🏻	Tú Pípol Wit Hat Wúman, Wúman, Dák Skín Ton, Laít Skín Ton	none
-👩🏿‍❤‍👩🏼	Tú Pípol Wit Hat Wúman, Wúman, Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
-👩🏿‍❤‍👩🏽	Tú Pípol Wit Hat Wúman, Wúman, Dák Skín Ton, Mídíọ́m Skín Ton	none
-👩🏿‍❤‍👩🏾	Tú Pípol Wit Hat Wúman, Wúman, Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
-👩🏿‍❤‍👩🏿	Tú Pípol Wit Hat Wúman, Wúman, Dák Skín Ton	none
+👩🏻‍❤‍👨🏻	Tuú Pípul Wit Hat Wúman, Man, Laít Skín Ton	none
+👩🏻‍❤‍👨🏼	Tuú Pípul Wit Hat Wúman, Man, Laít Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏻‍❤‍👨🏽	Tuú Pípul Wit Hat Wúman, Man, Laít Skín Ton, Mídíọ́m Skín Ton	none
+👩🏻‍❤‍👨🏾	Tuú Pípul Wit Hat Wúman, Man, Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+👩🏻‍❤‍👨🏿	Tuú Pípul Wit Hat Wúman, Man, Laít Skín Ton, Dák Skín Ton	none
+👩🏼‍❤‍👨🏻	Tuú Pípul Wit Hat Wúman, Man, Mídíọ́m-Laít Skín Ton, Laít Skín Ton	none
+👩🏼‍❤‍👨🏼	Tuú Pípul Wit Hat Wúman, Man, Mídíọ́m-Laít Skín Ton	none
+👩🏼‍❤‍👨🏽	Tuú Pípul Wit Hat Wúman, Man, Mídíọ́m-Laít Skín Ton, Mídíọ́m Skín Ton	none
+👩🏼‍❤‍👨🏾	Tuú Pípul Wit Hat Wúman, Man, Mídíọ́m-Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+👩🏼‍❤‍👨🏿	Tuú Pípul Wit Hat Wúman, Man, Mídíọ́m-Laít Skín Ton, Dák Skín Ton	none
+👩🏽‍❤‍👨🏻	Tuú Pípul Wit Hat Wúman, Man, Mídíọ́m Skín Ton, Laít Skín Ton	none
+👩🏽‍❤‍👨🏼	Tuú Pípul Wit Hat Wúman, Man, Mídíọ́m Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏽‍❤‍👨🏽	Tuú Pípul Wit Hat Wúman, Man, Mídíọ́m Skín Ton	none
+👩🏽‍❤‍👨🏾	Tuú Pípul Wit Hat Wúman, Man, Mídíọ́m Skín Ton, Mídíọ́m Dák Skín Ton	none
+👩🏽‍❤‍👨🏿	Tuú Pípul Wit Hat Wúman, Man, Mídíọ́m Skín Ton, Dák Skín Ton	none
+👩🏾‍❤‍👨🏻	Tuú Pípul Wit Hat Wúman, Man, Mídíọ́m Dák Skín Ton, Laít Skín Ton	none
+👩🏾‍❤‍👨🏼	Tuú Pípul Wit Hat Wúman, Man, Mídíọ́m Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏾‍❤‍👨🏽	Tuú Pípul Wit Hat Wúman, Man, Mídíọ́m Dák Skín Ton, Mídíọ́m Skín Ton	none
+👩🏾‍❤‍👨🏾	Tuú Pípul Wit Hat Wúman, Man, Mídíọ́m Dák Skín Ton	none
+👩🏾‍❤‍👨🏿	Tuú Pípul Wit Hat Wúman, Man, Mídíọ́m Dák Skín Ton, Dák Skín Ton	none
+👩🏿‍❤‍👨🏻	Tuú Pípul Wit Hat Wúman, Man, Dák Skín Ton, Laít Skín Ton	none
+👩🏿‍❤‍👨🏼	Tuú Pípul Wit Hat Wúman, Man, Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏿‍❤‍👨🏽	Tuú Pípul Wit Hat Wúman, Man, Dák Skín Ton, Mídíọ́m Skín Ton	none
+👩🏿‍❤‍👨🏾	Tuú Pípul Wit Hat Wúman, Man, Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
+👩🏿‍❤‍👨🏿	Tuú Pípul Wit Hat Wúman, Man, Dák Skín Ton	none
+👩🏻‍❤‍👩🏻	Tuú Pípul Wit Hat Wúman, Wúman, Laít Skín Ton	none
+👩🏻‍❤‍👩🏼	Tuú Pípul Wit Hat Wúman, Wúman, Laít Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏻‍❤‍👩🏽	Tuú Pípul Wit Hat Wúman, Wúman, Laít Skín Ton, Mídíọ́m Skín Ton	none
+👩🏻‍❤‍👩🏾	Tuú Pípul Wit Hat Wúman, Wúman, Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+👩🏻‍❤‍👩🏿	Tuú Pípul Wit Hat Wúman, Wúman, Laít Skín Ton, Dák Skín Ton	none
+👩🏼‍❤‍👩🏻	Tuú Pípul Wit Hat Wúman, Wúman, Mídíọ́m-Laít Skín Ton, Laít Skín Ton	none
+👩🏼‍❤‍👩🏼	Tuú Pípul Wit Hat Wúman, Wúman, Mídíọ́m-Laít Skín Ton	none
+👩🏼‍❤‍👩🏽	Tuú Pípul Wit Hat Wúman, Wúman, Mídíọ́m-Laít Skín Ton, Mídíọ́m Skín Ton	none
+👩🏼‍❤‍👩🏾	Tuú Pípul Wit Hat Wúman, Wúman, Mídíọ́m-Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+👩🏼‍❤‍👩🏿	Tuú Pípul Wit Hat Wúman, Wúman, Mídíọ́m-Laít Skín Ton, Dák Skín Ton	none
+👩🏽‍❤‍👩🏻	Tuú Pípul Wit Hat Wúman, Wúman, Mídíọ́m Skín Ton, Laít Skín Ton	none
+👩🏽‍❤‍👩🏼	Tuú Pípul Wit Hat Wúman, Wúman, Mídíọ́m Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏽‍❤‍👩🏽	Tuú Pípul Wit Hat Wúman, Wúman, Mídíọ́m Skín Ton	none
+👩🏽‍❤‍👩🏾	Tuú Pípul Wit Hat Wúman, Wúman, Mídíọ́m Skín Ton, Mídíọ́m Dák Skín Ton	none
+👩🏽‍❤‍👩🏿	Tuú Pípul Wit Hat Wúman, Wúman, Mídíọ́m Skín Ton, Dák Skín Ton	none
+👩🏾‍❤‍👩🏻	Tuú Pípul Wit Hat Wúman, Wúman, Mídíọ́m Dák Skín Ton, Laít Skín Ton	none
+👩🏾‍❤‍👩🏼	Tuú Pípul Wit Hat Wúman, Wúman, Mídíọ́m Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏾‍❤‍👩🏽	Tuú Pípul Wit Hat Wúman, Wúman, Mídíọ́m Dák Skín Ton, Mídíọ́m Skín Ton	none
+👩🏾‍❤‍👩🏾	Tuú Pípul Wit Hat Wúman, Wúman, Mídíọ́m Dák Skín Ton	none
+👩🏾‍❤‍👩🏿	Tuú Pípul Wit Hat Wúman, Wúman, Mídíọ́m Dák Skín Ton, Dák Skín Ton	none
+👩🏿‍❤‍👩🏻	Tuú Pípul Wit Hat Wúman, Wúman, Dák Skín Ton, Laít Skín Ton	none
+👩🏿‍❤‍👩🏼	Tuú Pípul Wit Hat Wúman, Wúman, Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏿‍❤‍👩🏽	Tuú Pípul Wit Hat Wúman, Wúman, Dák Skín Ton, Mídíọ́m Skín Ton	none
+👩🏿‍❤‍👩🏾	Tuú Pípul Wit Hat Wúman, Wúman, Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
+👩🏿‍❤‍👩🏿	Tuú Pípul Wit Hat Wúman, Wúman, Dák Skín Ton	none
+👩🏻‍🫯‍👩🏼	Wímẹn Wé De Rẹ́sul Laít Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏻‍🫯‍👩🏽	Wímẹn Wé De Rẹ́sul Laít Skín Ton, Mídíọ́m Skín Ton	none
+👩🏻‍🫯‍👩🏾	Wímẹn Wé De Rẹ́sul Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+👩🏻‍🫯‍👩🏿	Wímẹn Wé De Rẹ́sul Laít Skín Ton, Dák Skín Ton	none
+👩🏼‍🫯‍👩🏻	Wímẹn Wé De Rẹ́sul Mídíọ́m-Laít Skín Ton, Laít Skín Ton	none
+👩🏼‍🫯‍👩🏽	Wímẹn Wé De Rẹ́sul Mídíọ́m-Laít Skín Ton, Mídíọ́m Skín Ton	none
+👩🏼‍🫯‍👩🏾	Wímẹn Wé De Rẹ́sul Mídíọ́m-Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+👩🏼‍🫯‍👩🏿	Wímẹn Wé De Rẹ́sul Mídíọ́m-Laít Skín Ton, Dák Skín Ton	none
+👩🏽‍🫯‍👩🏻	Wímẹn Wé De Rẹ́sul Mídíọ́m Skín Ton, Laít Skín Ton	none
+👩🏽‍🫯‍👩🏼	Wímẹn Wé De Rẹ́sul Mídíọ́m Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏽‍🫯‍👩🏾	Wímẹn Wé De Rẹ́sul Mídíọ́m Skín Ton, Mídíọ́m Dák Skín Ton	none
+👩🏽‍🫯‍👩🏿	Wímẹn Wé De Rẹ́sul Mídíọ́m Skín Ton, Dák Skín Ton	none
+👩🏾‍🫯‍👩🏻	Wímẹn Wé De Rẹ́sul Mídíọ́m Dák Skín Ton, Laít Skín Ton	none
+👩🏾‍🫯‍👩🏼	Wímẹn Wé De Rẹ́sul Mídíọ́m Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏾‍🫯‍👩🏽	Wímẹn Wé De Rẹ́sul Mídíọ́m Dák Skín Ton, Mídíọ́m Skín Ton	none
+👩🏾‍🫯‍👩🏿	Wímẹn Wé De Rẹ́sul Mídíọ́m Dák Skín Ton, Dák Skín Ton	none
+👩🏿‍🫯‍👩🏻	Wímẹn Wé De Rẹ́sul Dák Skín Ton, Laít Skín Ton	none
+👩🏿‍🫯‍👩🏼	Wímẹn Wé De Rẹ́sul Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏿‍🫯‍👩🏽	Wímẹn Wé De Rẹ́sul Dák Skín Ton, Mídíọ́m Skín Ton	none
+👩🏿‍🫯‍👩🏾	Wímẹn Wé De Rẹ́sul Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
 👩‍🦰	Wúman Rẹ́d Hea	none
 👩🏻‍🦰	Wúman Laít Skín Ton, Rẹ́d Hea	none
 👩🏼‍🦰	Wúman Mídíọ́m-Laít Skín Ton, Rẹ́d Hea	none
@@ -2044,6 +2531,26 @@ symbols:
 👩🏽‍🦲	Wúman Mídíọ́m Skín Ton, Bọld	none
 👩🏾‍🦲	Wúman Mídíọ́m Dák Skín Ton, Bọld	none
 👩🏿‍🦲	Wúman Dák Skín Ton, Bọld	none
+👩🏻‍🐰‍👩🏼	Wímẹn Wé Wiá Rábít Iá Kaín Tins Laít Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏻‍🐰‍👩🏽	Wímẹn Wé Wiá Rábít Iá Kaín Tins Laít Skín Ton, Mídíọ́m Skín Ton	none
+👩🏻‍🐰‍👩🏾	Wímẹn Wé Wiá Rábít Iá Kaín Tins Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+👩🏻‍🐰‍👩🏿	Wímẹn Wé Wiá Rábít Iá Kaín Tins Laít Skín Ton, Dák Skín Ton	none
+👩🏼‍🐰‍👩🏻	Wímẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m-Laít Skín Ton, Laít Skín Ton	none
+👩🏼‍🐰‍👩🏽	Wímẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m-Laít Skín Ton, Mídíọ́m Skín Ton	none
+👩🏼‍🐰‍👩🏾	Wímẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m-Laít Skín Ton, Mídíọ́m Dák Skín Ton	none
+👩🏼‍🐰‍👩🏿	Wímẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m-Laít Skín Ton, Dák Skín Ton	none
+👩🏽‍🐰‍👩🏻	Wímẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Skín Ton, Laít Skín Ton	none
+👩🏽‍🐰‍👩🏼	Wímẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏽‍🐰‍👩🏾	Wímẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Skín Ton, Mídíọ́m Dák Skín Ton	none
+👩🏽‍🐰‍👩🏿	Wímẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Skín Ton, Dák Skín Ton	none
+👩🏾‍🐰‍👩🏻	Wímẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Dák Skín Ton, Laít Skín Ton	none
+👩🏾‍🐰‍👩🏼	Wímẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏾‍🐰‍👩🏽	Wímẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Dák Skín Ton, Mídíọ́m Skín Ton	none
+👩🏾‍🐰‍👩🏿	Wímẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Dák Skín Ton, Dák Skín Ton	none
+👩🏿‍🐰‍👩🏻	Wímẹn Wé Wiá Rábít Iá Kaín Tins Dák Skín Ton, Laít Skín Ton	none
+👩🏿‍🐰‍👩🏼	Wímẹn Wé Wiá Rábít Iá Kaín Tins Dák Skín Ton, Mídíọ́m-Laít Skín Ton	none
+👩🏿‍🐰‍👩🏽	Wímẹn Wé Wiá Rábít Iá Kaín Tins Dák Skín Ton, Mídíọ́m Skín Ton	none
+👩🏿‍🐰‍👩🏾	Wímẹn Wé Wiá Rábít Iá Kaín Tins Dák Skín Ton, Mídíọ́m Dák Skín Ton	none
 🧓🏻	Síniọ́ Pẹ́sin Laít Skín Ton	none
 🧓🏼	Síniọ́ Pẹ́sin Mídíọ́m-Laít Skín Ton	none
 🧓🏽	Síniọ́ Pẹ́sin Mídíọ́m Skín Ton	none
@@ -2514,6 +3021,11 @@ symbols:
 👷🏽‍♀	Wúmán Kọnstrọ́kshọ́n Wọ́ka Mídíọ́m Skín Ton	none
 👷🏾‍♀	Wúmán Kọnstrọ́kshọ́n Wọ́ka Mídíọ́m Dák Skín Ton	none
 👷🏿‍♀	Wúmán Kọnstrọ́kshọ́n Wọ́ka Dák Skín Ton	none
+🫅🏻	Pẹ́sin Wé Wiá Kraun Laít Skín Ton	none
+🫅🏼	Pẹ́sin Wé Wiá Kraun Mídíọ́m-Laít Skín Ton	none
+🫅🏽	Pẹ́sin Wé Wiá Kraun Mídíọ́m Skín Ton	none
+🫅🏾	Pẹ́sin Wé Wiá Kraun Mídíọ́m Dák Skín Ton	none
+🫅🏿	Pẹ́sin Wé Wiá Kraun Dák Skín Ton	none
 🤴🏻	Prins Laít Skín Ton	none
 🤴🏼	Prins Mídíọ́m-Laít Skín Ton	none
 🤴🏽	Prins Mídíọ́m Skín Ton	none
@@ -2584,6 +3096,16 @@ symbols:
 🤰🏽	Wúman Wé Gẹ́t Bẹlẹ́ Mídíọ́m Skín Ton	none
 🤰🏾	Wúman Wé Gẹ́t Bẹlẹ́ Mídíọ́m Dák Skín Ton	none
 🤰🏿	Wúman Wé Gẹ́t Bẹlẹ́ Dák Skín Ton	none
+🫃🏻	Man Wé Gẹ́t Bẹlẹ́ Laít Skín Ton	none
+🫃🏼	Man Wé Gẹ́t Bẹlẹ́ Mídíọ́m-Laít Skín Ton	none
+🫃🏽	Man Wé Gẹ́t Bẹlẹ́ Mídíọ́m Skín Ton	none
+🫃🏾	Man Wé Gẹ́t Bẹlẹ́ Mídíọ́m Dák Skín Ton	none
+🫃🏿	Man Wé Gẹ́t Bẹlẹ́ Dák Skín Ton	none
+🫄🏻	Pẹ́sin Wé Gẹ́t Bẹlẹ́ Laít Skín Ton	none
+🫄🏼	Pẹ́sin Wé Gẹ́t Bẹlẹ́ Mídíọ́m-Laít Skín Ton	none
+🫄🏽	Pẹ́sin Wé Gẹ́t Bẹlẹ́ Mídíọ́m Skín Ton	none
+🫄🏾	Pẹ́sin Wé Gẹ́t Bẹlẹ́ Mídíọ́m Dák Skín Ton	none
+🫄🏿	Pẹ́sin Wé Gẹ́t Bẹlẹ́ Dák Skín Ton	none
 🤱🏻	Wúman Wé De Gív Pikin Brẹst Laít Skín Ton	none
 🤱🏼	Wúman Wé De Gív Pikin Brẹst Mídíọ́m-Laít Skín Ton	none
 🤱🏽	Wúman Wé De Gív Pikin Brẹst Mídíọ́m Skín Ton	none
@@ -2774,6 +3296,24 @@ symbols:
 🚶🏽‍♀	Wúman Wé De Waká Mídíọ́m Skín Ton	none
 🚶🏾‍♀	Wúman Wé De Waká Mídíọ́m Dák Skín Ton	none
 🚶🏿‍♀	Wúman Wé De Waká Dák Skín Ton	none
+🚶‍➡	Pẹ́sin Wé De Waká Fẹsin ráít	none
+🚶🏻‍➡	Pẹ́sin Wé De Waká Laít Skín Ton, Fẹsin ráít	none
+🚶🏼‍➡	Pẹ́sin Wé De Waká Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+🚶🏽‍➡	Pẹ́sin Wé De Waká Mídíọ́m Skín Ton, Fẹsin ráít	none
+🚶🏾‍➡	Pẹ́sin Wé De Waká Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+🚶🏿‍➡	Pẹ́sin Wé De Waká Dák Skín Ton, Fẹsin ráít	none
+🚶‍♀‍➡	Wúman Wé De Waká Fẹsin ráít	none
+🚶🏻‍♀‍➡	Wúman Wé De Waká Laít Skín Ton, Fẹsin ráít	none
+🚶🏼‍♀‍➡	Wúman Wé De Waká Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+🚶🏽‍♀‍➡	Wúman Wé De Waká Mídíọ́m Skín Ton, Fẹsin ráít	none
+🚶🏾‍♀‍➡	Wúman Wé De Waká Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+🚶🏿‍♀‍➡	Wúman Wé De Waká Dák Skín Ton, Fẹsin ráít	none
+🚶‍♂‍➡	Man Wé De Waká Fẹsin ráít	none
+🚶🏻‍♂‍➡	Man Wé De Waká Laít Skín Ton, Fẹsin ráít	none
+🚶🏼‍♂‍➡	Man Wé De Waká Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+🚶🏽‍♂‍➡	Man Wé De Waká Mídíọ́m Skín Ton, Fẹsin ráít	none
+🚶🏾‍♂‍➡	Man Wé De Waká Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+🚶🏿‍♂‍➡	Man Wé De Waká Dák Skín Ton, Fẹsin ráít	none
 🧍🏻	Pẹ́sín Wé De Stánd Ọp Laít Skín Ton	none
 🧍🏼	Pẹ́sín Wé De Stánd Ọp Mídíọ́m-Laít Skín Ton	none
 🧍🏽	Pẹ́sín Wé De Stánd Ọp Mídíọ́m Skín Ton	none
@@ -2804,51 +3344,123 @@ symbols:
 🧎🏽‍♀	Wúman Wé Níl Daun Mídíọ́m Skín Ton	none
 🧎🏾‍♀	Wúman Wé Níl Daun Mídíọ́m Dák Skín Ton	none
 🧎🏿‍♀	Wúman Wé Níl Daun Dák Skín Ton	none
+🧎‍➡	Pẹ́sin Wé Níl Daun Fẹsin ráít	none
+🧎🏻‍➡	Pẹ́sin Wé Níl Daun Laít Skín Ton, Fẹsin ráít	none
+🧎🏼‍➡	Pẹ́sin Wé Níl Daun Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+🧎🏽‍➡	Pẹ́sin Wé Níl Daun Mídíọ́m Skín Ton, Fẹsin ráít	none
+🧎🏾‍➡	Pẹ́sin Wé Níl Daun Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+🧎🏿‍➡	Pẹ́sin Wé Níl Daun Dák Skín Ton, Fẹsin ráít	none
+🧎‍♀‍➡	Wúman Wé Níl Daun Fẹsin ráít	none
+🧎🏻‍♀‍➡	Wúman Wé Níl Daun Laít Skín Ton, Fẹsin ráít	none
+🧎🏼‍♀‍➡	Wúman Wé Níl Daun Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+🧎🏽‍♀‍➡	Wúman Wé Níl Daun Mídíọ́m Skín Ton, Fẹsin ráít	none
+🧎🏾‍♀‍➡	Wúman Wé Níl Daun Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+🧎🏿‍♀‍➡	Wúman Wé Níl Daun Dák Skín Ton, Fẹsin ráít	none
+🧎‍♂‍➡	Man Wé Níl Daun Fẹsin ráít	none
+🧎🏻‍♂‍➡	Man Wé Níl Daun Laít Skín Ton, Fẹsin ráít	none
+🧎🏼‍♂‍➡	Man Wé Níl Daun Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+🧎🏽‍♂‍➡	Man Wé Níl Daun Mídíọ́m Skín Ton, Fẹsin ráít	none
+🧎🏾‍♂‍➡	Man Wé Níl Daun Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+🧎🏿‍♂‍➡	Man Wé Níl Daun Dák Skín Ton, Fẹsin ráít	none
 🧑🏻‍🦯	Pẹ́sin Wit Waít Wọkín-Stik Laít Skín Ton	none
 🧑🏼‍🦯	Pẹ́sin Wit Waít Wọkín-Stik Mídíọ́m-Laít Skín Ton	none
 🧑🏽‍🦯	Pẹ́sin Wit Waít Wọkín-Stik Mídíọ́m Skín Ton	none
 🧑🏾‍🦯	Pẹ́sin Wit Waít Wọkín-Stik Mídíọ́m Dák Skín Ton	none
 🧑🏿‍🦯	Pẹ́sin Wit Waít Wọkín-Stik Dák Skín Ton	none
+🧑‍🦯‍➡	Pẹ́sin Wit Waít Wọkín-Stik Fẹsin ráít	none
+🧑🏻‍🦯‍➡	Pẹ́sin Wit Waít Wọkín-Stik Laít Skín Ton, Fẹsin ráít	none
+🧑🏼‍🦯‍➡	Pẹ́sin Wit Waít Wọkín-Stik Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+🧑🏽‍🦯‍➡	Pẹ́sin Wit Waít Wọkín-Stik Mídíọ́m Skín Ton, Fẹsin ráít	none
+🧑🏾‍🦯‍➡	Pẹ́sin Wit Waít Wọkín-Stik Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+🧑🏿‍🦯‍➡	Pẹ́sin Wit Waít Wọkín-Stik Dák Skín Ton, Fẹsin ráít	none
 👨🏻‍🦯	Man Wit Waít Wọkín-Stik Laít Skín Ton	none
 👨🏼‍🦯	Man Wit Waít Wọkín-Stik Mídíọ́m-Laít Skín Ton	none
 👨🏽‍🦯	Man Wit Waít Wọkín-Stik Mídíọ́m Skín Ton	none
 👨🏾‍🦯	Man Wit Waít Wọkín-Stik Mídíọ́m Dák Skín Ton	none
 👨🏿‍🦯	Man Wit Waít Wọkín-Stik Dák Skín Ton	none
+👨‍🦯‍➡	Man Wit Waít Wọkín-Stik Fẹsin ráít	none
+👨🏻‍🦯‍➡	Man Wit Waít Wọkín-Stik Laít Skín Ton, Fẹsin ráít	none
+👨🏼‍🦯‍➡	Man Wit Waít Wọkín-Stik Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+👨🏽‍🦯‍➡	Man Wit Waít Wọkín-Stik Mídíọ́m Skín Ton, Fẹsin ráít	none
+👨🏾‍🦯‍➡	Man Wit Waít Wọkín-Stik Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+👨🏿‍🦯‍➡	Man Wit Waít Wọkín-Stik Dák Skín Ton, Fẹsin ráít	none
 👩🏻‍🦯	Wúman Wit Waít Wọkín-Stik Laít Skín Ton	none
 👩🏼‍🦯	Wúman Wit Waít Wọkín-Stik Mídíọ́m-Laít Skín Ton	none
 👩🏽‍🦯	Wúman Wit Waít Wọkín-Stik Mídíọ́m Skín Ton	none
 👩🏾‍🦯	Wúman Wit Waít Wọkín-Stik Mídíọ́m Dák Skín Ton	none
 👩🏿‍🦯	Wúman Wit Waít Wọkín-Stik Dák Skín Ton	none
+👩‍🦯‍➡	Wúman Wit Waít Wọkín-Stik Fẹsin ráít	none
+👩🏻‍🦯‍➡	Wúman Wit Waít Wọkín-Stik Laít Skín Ton, Fẹsin ráít	none
+👩🏼‍🦯‍➡	Wúman Wit Waít Wọkín-Stik Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+👩🏽‍🦯‍➡	Wúman Wit Waít Wọkín-Stik Mídíọ́m Skín Ton, Fẹsin ráít	none
+👩🏾‍🦯‍➡	Wúman Wit Waít Wọkín-Stik Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+👩🏿‍🦯‍➡	Wúman Wit Waít Wọkín-Stik Dák Skín Ton, Fẹsin ráít	none
 🧑🏻‍🦼	Pẹ́sin Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Laít Skín Ton	none
 🧑🏼‍🦼	Pẹ́sin Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m-Laít Skín Ton	none
 🧑🏽‍🦼	Pẹ́sin Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m Skín Ton	none
 🧑🏾‍🦼	Pẹ́sin Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m Dák Skín Ton	none
 🧑🏿‍🦼	Pẹ́sin Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Dák Skín Ton	none
+🧑‍🦼‍➡	Pẹ́sin Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Fẹsin ráít	none
+🧑🏻‍🦼‍➡	Pẹ́sin Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Laít Skín Ton, Fẹsin ráít	none
+🧑🏼‍🦼‍➡	Pẹ́sin Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+🧑🏽‍🦼‍➡	Pẹ́sin Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m Skín Ton, Fẹsin ráít	none
+🧑🏾‍🦼‍➡	Pẹ́sin Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+🧑🏿‍🦼‍➡	Pẹ́sin Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Dák Skín Ton, Fẹsin ráít	none
 👨🏻‍🦼	Man Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Laít Skín Ton	none
 👨🏼‍🦼	Man Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m-Laít Skín Ton	none
 👨🏽‍🦼	Man Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m Skín Ton	none
 👨🏾‍🦼	Man Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m Dák Skín Ton	none
 👨🏿‍🦼	Man Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Dák Skín Ton	none
+👨‍🦼‍➡	Man Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Fẹsin ráít	none
+👨🏻‍🦼‍➡	Man Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Laít Skín Ton, Fẹsin ráít	none
+👨🏼‍🦼‍➡	Man Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+👨🏽‍🦼‍➡	Man Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m Skín Ton, Fẹsin ráít	none
+👨🏾‍🦼‍➡	Man Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+👨🏿‍🦼‍➡	Man Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Dák Skín Ton, Fẹsin ráít	none
 👩🏻‍🦼	Wúman Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Laít Skín Ton	none
 👩🏼‍🦼	Wúman Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m-Laít Skín Ton	none
 👩🏽‍🦼	Wúman Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m Skín Ton	none
 👩🏾‍🦼	Wúman Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m Dák Skín Ton	none
 👩🏿‍🦼	Wúman Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Dák Skín Ton	none
+👩‍🦼‍➡	Wúman Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Fẹsin ráít	none
+👩🏻‍🦼‍➡	Wúman Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Laít Skín Ton, Fẹsin ráít	none
+👩🏼‍🦼‍➡	Wúman Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+👩🏽‍🦼‍➡	Wúman Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m Skín Ton, Fẹsin ráít	none
+👩🏾‍🦼‍➡	Wúman Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+👩🏿‍🦼‍➡	Wúman Wé Dé Fọ Wílchia Wé Gẹ́t Ẹ́njin Dák Skín Ton, Fẹsin ráít	none
 🧑🏻‍🦽	Pẹ́sin Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Laít Skín Ton	none
 🧑🏼‍🦽	Pẹ́sin Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m-Laít Skín Ton	none
 🧑🏽‍🦽	Pẹ́sin Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m Skín Ton	none
 🧑🏾‍🦽	Pẹ́sin Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m Dák Skín Ton	none
 🧑🏿‍🦽	Pẹ́sin Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Dák Skín Ton	none
+🧑‍🦽‍➡	Pẹ́sin Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Fẹsin ráít	none
+🧑🏻‍🦽‍➡	Pẹ́sin Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Laít Skín Ton, Fẹsin ráít	none
+🧑🏼‍🦽‍➡	Pẹ́sin Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+🧑🏽‍🦽‍➡	Pẹ́sin Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m Skín Ton, Fẹsin ráít	none
+🧑🏾‍🦽‍➡	Pẹ́sin Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+🧑🏿‍🦽‍➡	Pẹ́sin Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Dák Skín Ton, Fẹsin ráít	none
 👨🏻‍🦽	Man Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Laít Skín Ton	none
 👨🏼‍🦽	Man Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m-Laít Skín Ton	none
 👨🏽‍🦽	Man Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m Skín Ton	none
 👨🏾‍🦽	Man Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m Dák Skín Ton	none
 👨🏿‍🦽	Man Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Dák Skín Ton	none
+👨‍🦽‍➡	Man Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Fẹsin ráít	none
+👨🏻‍🦽‍➡	Man Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Laít Skín Ton, Fẹsin ráít	none
+👨🏼‍🦽‍➡	Man Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+👨🏽‍🦽‍➡	Man Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m Skín Ton, Fẹsin ráít	none
+👨🏾‍🦽‍➡	Man Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+👨🏿‍🦽‍➡	Man Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Dák Skín Ton, Fẹsin ráít	none
 👩🏻‍🦽	Wúman Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Laít Skín Ton	none
 👩🏼‍🦽	Wúman Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m-Laít Skín Ton	none
 👩🏽‍🦽	Wúman Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m Skín Ton	none
 👩🏾‍🦽	Wúman Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m Dák Skín Ton	none
 👩🏿‍🦽	Wúman Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Dák Skín Ton	none
+👩‍🦽‍➡	Wúman Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Fẹsin ráít	none
+👩🏻‍🦽‍➡	Wúman Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Laít Skín Ton, Fẹsin ráít	none
+👩🏼‍🦽‍➡	Wúman Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+👩🏽‍🦽‍➡	Wúman Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m Skín Ton, Fẹsin ráít	none
+👩🏾‍🦽‍➡	Wúman Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+👩🏿‍🦽‍➡	Wúman Wé Dé Fọ Wílchia Wé Nọ́ Gẹ́t Ẹ́njin Dák Skín Ton, Fẹsin ráít	none
 🏃🏻	Pẹ́sin Wé De Rọn Laít Skín Ton	none
 🏃🏼	Pẹ́sin Wé De Rọn Mídíọ́m-Laít Skín Ton	none
 🏃🏽	Pẹ́sin Wé De Rọn Mídíọ́m Skín Ton	none
@@ -2864,6 +3476,29 @@ symbols:
 🏃🏽‍♀	Wúman Wé De Rọn Mídíọ́m Skín Ton	none
 🏃🏾‍♀	Wúman Wé De Rọn Mídíọ́m Dák Skín Ton	none
 🏃🏿‍♀	Wúman Wé De Rọn Dák Skín Ton	none
+🏃‍➡	Pẹ́sin Wé De Rọn Fẹsin ráít	none
+🏃🏻‍➡	Pẹ́sin Wé De Rọn Laít Skín Ton, Fẹsin ráít	none
+🏃🏼‍➡	Pẹ́sin Wé De Rọn Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+🏃🏽‍➡	Pẹ́sin Wé De Rọn Mídíọ́m Skín Ton, Fẹsin ráít	none
+🏃🏾‍➡	Pẹ́sin Wé De Rọn Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+🏃🏿‍➡	Pẹ́sin Wé De Rọn Dák Skín Ton, Fẹsin ráít	none
+🏃‍♀‍➡	Wúman Wé De Rọn Fẹsin ráít	none
+🏃🏻‍♀‍➡	Wúman Wé De Rọn Laít Skín Ton, Fẹsin ráít	none
+🏃🏼‍♀‍➡	Wúman Wé De Rọn Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+🏃🏽‍♀‍➡	Wúman Wé De Rọn Mídíọ́m Skín Ton, Fẹsin ráít	none
+🏃🏾‍♀‍➡	Wúman Wé De Rọn Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+🏃🏿‍♀‍➡	Wúman Wé De Rọn Dák Skín Ton, Fẹsin ráít	none
+🏃‍♂‍➡	Man Wé De Rọn Fẹsin ráít	none
+🏃🏻‍♂‍➡	Man Wé De Rọn Laít Skín Ton, Fẹsin ráít	none
+🏃🏼‍♂‍➡	Man Wé De Rọn Mídíọ́m-Laít Skín Ton, Fẹsin ráít	none
+🏃🏽‍♂‍➡	Man Wé De Rọn Mídíọ́m Skín Ton, Fẹsin ráít	none
+🏃🏾‍♂‍➡	Man Wé De Rọn Mídíọ́m Dák Skín Ton, Fẹsin ráít	none
+🏃🏿‍♂‍➡	Man Wé De Rọn Dák Skín Ton, Fẹsin ráít	none
+🧑🏻‍🩰	bálẹ dánsá Laít Skín Ton	none
+🧑🏼‍🩰	bálẹ dánsá Mídíọ́m-Laít Skín Ton	none
+🧑🏽‍🩰	bálẹ dánsá Mídíọ́m Skín Ton	none
+🧑🏾‍🩰	bálẹ dánsá Mídíọ́m Dák Skín Ton	none
+🧑🏿‍🩰	bálẹ dánsá Dák Skín Ton	none
 💃🏻	Wúman Wé De Dans Laít Skín Ton	none
 💃🏼	Wúman Wé De Dans Mídíọ́m-Laít Skín Ton	none
 💃🏽	Wúman Wé De Dans Mídíọ́m Skín Ton	none
@@ -2879,11 +3514,26 @@ symbols:
 🕴🏽	Pẹ́sin Wé Wiá Sút-An-Sut An De Flót Fọ Ea Mídíọ́m Skín Ton	none
 🕴🏾	Pẹ́sin Wé Wiá Sút-An-Sut An De Flót Fọ Ea Mídíọ́m Dák Skín Ton	none
 🕴🏿	Pẹ́sin Wé Wiá Sút-An-Sut An De Flót Fọ Ea Dák Skín Ton	none
-🧖🏻	Pẹ́sin Ínsaíd Họt Wọtá Smók Rum Laít Skín Ton	none
-🧖🏼	Pẹ́sin Ínsaíd Họt Wọtá Smók Rum Mídíọ́m-Laít Skín Ton	none
-🧖🏽	Pẹ́sin Ínsaíd Họt Wọtá Smók Rum Mídíọ́m Skín Ton	none
-🧖🏾	Pẹ́sin Ínsaíd Họt Wọtá Smók Rum Mídíọ́m Dák Skín Ton	none
-🧖🏿	Pẹ́sin Ínsaíd Họt Wọtá Smók Rum Dák Skín Ton	none
+👯🏻	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Laít Skín Ton	none
+👯🏼	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Mídíọ́m-Laít Skín Ton	none
+👯🏽	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Mídíọ́m Skín Ton	none
+👯🏾	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Mídíọ́m Dák Skín Ton	none
+👯🏿	Pípul Wé Wiá Tins Wé Rizẹ́mbúl Rábit Ia Dák Skín Ton	none
+👯🏻‍♂	Mẹn Wé Wiá Rábít Iá Kaín Tins Laít Skín Ton	none
+👯🏼‍♂	Mẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m-Laít Skín Ton	none
+👯🏽‍♂	Mẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Skín Ton	none
+👯🏾‍♂	Mẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Dák Skín Ton	none
+👯🏿‍♂	Mẹn Wé Wiá Rábít Iá Kaín Tins Dák Skín Ton	none
+👯🏻‍♀	Wímẹn Wé Wiá Rábít Iá Kaín Tins Laít Skín Ton	none
+👯🏼‍♀	Wímẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m-Laít Skín Ton	none
+👯🏽‍♀	Wímẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Skín Ton	none
+👯🏾‍♀	Wímẹn Wé Wiá Rábít Iá Kaín Tins Mídíọ́m Dák Skín Ton	none
+👯🏿‍♀	Wímẹn Wé Wiá Rábít Iá Kaín Tins Dák Skín Ton	none
+🧖🏻	Pẹ́sin Wé Dé Ínsaíd Họ́t-Wọ́ta-Smók Rum Laít Skín Ton	none
+🧖🏼	Pẹ́sin Wé Dé Ínsaíd Họ́t-Wọ́ta-Smók Rum Mídíọ́m-Laít Skín Ton	none
+🧖🏽	Pẹ́sin Wé Dé Ínsaíd Họ́t-Wọ́ta-Smók Rum Mídíọ́m Skín Ton	none
+🧖🏾	Pẹ́sin Wé Dé Ínsaíd Họ́t-Wọ́ta-Smók Rum Mídíọ́m Dák Skín Ton	none
+🧖🏿	Pẹ́sin Wé Dé Ínsaíd Họ́t-Wọ́ta-Smók Rum Dák Skín Ton	none
 🧖🏻‍♂	Man Wé Dé Ínsaíd Họt Wọtá Smók Rum Laít Skín Ton	none
 🧖🏼‍♂	Man Wé Dé Ínsaíd Họt Wọtá Smók Rum Mídíọ́m-Laít Skín Ton	none
 🧖🏽‍♂	Man Wé Dé Ínsaíd Họt Wọtá Smók Rum Mídíọ́m Skín Ton	none
@@ -3054,6 +3704,21 @@ symbols:
 🤸🏽‍♀	Wúman Wé De Dú Kátwil Mídíọ́m Skín Ton	none
 🤸🏾‍♀	Wúman Wé De Dú Kátwil Mídíọ́m Dák Skín Ton	none
 🤸🏿‍♀	Wúman Wé De Dú Kátwil Dák Skín Ton	none
+🤼🏻	Pípul Wé De Rẹ́sul Laít Skín Ton	none
+🤼🏼	Pípul Wé De Rẹ́sul Mídíọ́m-Laít Skín Ton	none
+🤼🏽	Pípul Wé De Rẹ́sul Mídíọ́m Skín Ton	none
+🤼🏾	Pípul Wé De Rẹ́sul Mídíọ́m Dák Skín Ton	none
+🤼🏿	Pípul Wé De Rẹ́sul Dák Skín Ton	none
+🤼🏻‍♂	Mẹn Wé De Rẹ́sul Laít Skín Ton	none
+🤼🏼‍♂	Mẹn Wé De Rẹ́sul Mídíọ́m-Laít Skín Ton	none
+🤼🏽‍♂	Mẹn Wé De Rẹ́sul Mídíọ́m Skín Ton	none
+🤼🏾‍♂	Mẹn Wé De Rẹ́sul Mídíọ́m Dák Skín Ton	none
+🤼🏿‍♂	Mẹn Wé De Rẹ́sul Dák Skín Ton	none
+🤼🏻‍♀	Wímẹn Wé De Rẹ́sul Laít Skín Ton	none
+🤼🏼‍♀	Wímẹn Wé De Rẹ́sul Mídíọ́m-Laít Skín Ton	none
+🤼🏽‍♀	Wímẹn Wé De Rẹ́sul Mídíọ́m Skín Ton	none
+🤼🏾‍♀	Wímẹn Wé De Rẹ́sul Mídíọ́m Dák Skín Ton	none
+🤼🏿‍♀	Wímẹn Wé De Rẹ́sul Dák Skín Ton	none
 🤽🏻	Pẹ́sin Wé De Plé Wọ́tá Poló Laít Skín Ton	none
 🤽🏼	Pẹ́sin Wé De Plé Wọ́tá Poló Mídíọ́m-Laít Skín Ton	none
 🤽🏽	Pẹ́sin Wé De Plé Wọ́tá Poló Mídíọ́m Skín Ton	none
@@ -3232,39 +3897,39 @@ symbols:
 👩‍❤‍💋‍👨	Kis Wúman, Man	none
 👨‍❤‍💋‍👨	Kis Man, Man	none
 👩‍❤‍💋‍👩	Kis Wúman, Wúman	none
-💑🏻	Tú Pípol Wit Hat Laít Skín Ton	none
-💑🏼	Tú Pípol Wit Hat Mídíọ́m-Laít Skín Ton	none
-💑🏽	Tú Pípol Wit Hat Mídíọ́m Skín Ton	none
-💑🏾	Tú Pípol Wit Hat Mídíọ́m Dák Skín Ton	none
-💑🏿	Tú Pípol Wit Hat Dák Skín Ton	none
-👩‍❤‍👨	Tú Pípol Wit Hat Wúman, Man	none
-👨‍❤‍👨	Tú Pípol Wit Hat Man, Man	none
-👩‍❤‍👩	Tú Pípol Wit Hat Wúman, Wúman	none
+💑🏻	Tuú Pípul Wit Hat Laít Skín Ton	none
+💑🏼	Tuú Pípul Wit Hat Mídíọ́m-Laít Skín Ton	none
+💑🏽	Tuú Pípul Wit Hat Mídíọ́m Skín Ton	none
+💑🏾	Tuú Pípul Wit Hat Mídíọ́m Dák Skín Ton	none
+💑🏿	Tuú Pípul Wit Hat Dák Skín Ton	none
+👩‍❤‍👨	Tuú Pípul Wit Hat Wúman, Man	none
+👨‍❤‍👨	Tuú Pípul Wit Hat Man, Man	none
+👩‍❤‍👩	Tuú Pípul Wit Hat Wúman, Wúman	none
 👨‍👩‍👦	Fámíli Man, Wúman, Smọ́l Bọi	none
-👨‍👩‍👧	Fámíli Man, Wúman, Smọ́l Gẹl	none
-👨‍👩‍👧‍👦	Fámíli Man, Wúman, Smọ́l Gẹl, Smọ́l Bọi	none
+👨‍👩‍👧	Fámíli Man, Wúman, Gẹl	none
+👨‍👩‍👧‍👦	Fámíli Man, Wúman, Gẹl, Smọ́l Bọi	none
 👨‍👩‍👦‍👦	Fámíli Man, Wúman, Smọ́l Bọi, Smọ́l Bọi	none
-👨‍👩‍👧‍👧	Fámíli Man, Wúman, Smọ́l Gẹl, Smọ́l Gẹl	none
+👨‍👩‍👧‍👧	Fámíli Man, Wúman, Gẹl, Gẹl	none
 👨‍👨‍👦	Fámíli Man, Man, Smọ́l Bọi	none
-👨‍👨‍👧	Fámíli Man, Man, Smọ́l Gẹl	none
-👨‍👨‍👧‍👦	Fámíli Man, Man, Smọ́l Gẹl, Smọ́l Bọi	none
+👨‍👨‍👧	Fámíli Man, Man, Gẹl	none
+👨‍👨‍👧‍👦	Fámíli Man, Man, Gẹl, Smọ́l Bọi	none
 👨‍👨‍👦‍👦	Fámíli Man, Man, Smọ́l Bọi, Smọ́l Bọi	none
-👨‍👨‍👧‍👧	Fámíli Man, Man, Smọ́l Gẹl, Smọ́l Gẹl	none
+👨‍👨‍👧‍👧	Fámíli Man, Man, Gẹl, Gẹl	none
 👩‍👩‍👦	Fámíli Wúman, Wúman, Smọ́l Bọi	none
-👩‍👩‍👧	Fámíli Wúman, Wúman, Smọ́l Gẹl	none
-👩‍👩‍👧‍👦	Fámíli Wúman, Wúman, Smọ́l Gẹl, Smọ́l Bọi	none
+👩‍👩‍👧	Fámíli Wúman, Wúman, Gẹl	none
+👩‍👩‍👧‍👦	Fámíli Wúman, Wúman, Gẹl, Smọ́l Bọi	none
 👩‍👩‍👦‍👦	Fámíli Wúman, Wúman, Smọ́l Bọi, Smọ́l Bọi	none
-👩‍👩‍👧‍👧	Fámíli Wúman, Wúman, Smọ́l Gẹl, Smọ́l Gẹl	none
+👩‍👩‍👧‍👧	Fámíli Wúman, Wúman, Gẹl, Gẹl	none
 👨‍👦	Fámíli Man, Smọ́l Bọi	none
 👨‍👦‍👦	Fámíli Man, Smọ́l Bọi, Smọ́l Bọi	none
-👨‍👧	Fámíli Man, Smọ́l Gẹl	none
-👨‍👧‍👦	Fámíli Man, Smọ́l Gẹl, Smọ́l Bọi	none
-👨‍👧‍👧	Fámíli Man, Smọ́l Gẹl, Smọ́l Gẹl	none
+👨‍👧	Fámíli Man, Gẹl	none
+👨‍👧‍👦	Fámíli Man, Gẹl, Smọ́l Bọi	none
+👨‍👧‍👧	Fámíli Man, Gẹl, Gẹl	none
 👩‍👦	Fámíli Wúman, Smọ́l Bọi	none
 👩‍👦‍👦	Fámíli Wúman, Smọ́l Bọi, Smọ́l Bọi	none
-👩‍👧	Fámíli Wúman, Smọ́l Gẹl	none
-👩‍👧‍👦	Fámíli Wúman, Smọ́l Gẹl, Smọ́l Bọi	none
-👩‍👧‍👧	Fámíli Wúman, Smọ́l Gẹl, Smọ́l Gẹl	none
+👩‍👧	Fámíli Wúman, Gẹl	none
+👩‍👧‍👦	Fámíli Wúman, Gẹl, Smọ́l Bọi	none
+👩‍👧‍👧	Fámíli Wúman, Gẹl, Gẹl	none
 🔟	Kíkap 10	none
 🇦🇨	Flag Asẹ́nshọ́n Aíland	none
 🇦🇩	Flag Andọ́ra	none
@@ -3317,6 +3982,7 @@ symbols:
 🇨🇳	Flag Chaína	none
 🇨🇴	Flag Kolómbia	none
 🇨🇵	Flag Klipatọ́n Aíland	none
+🇨🇶	Flag Sák	none
 🇨🇷	Flag Kósta Ríka	none
 🇨🇺	Flag Kiúbá	none
 🇨🇻	Flag Kép Vẹ́d	none
@@ -3362,7 +4028,7 @@ symbols:
 🇬🇷	Flag Gris	none
 🇬🇸	Flag Saút Jọ́jia an Saút Sándwích Aílands	none
 🇬🇹	Flag Guátẹmála	none
-🇬🇺	Flag Guam	none
+🇬🇺	Flag Guám	none
 🇬🇼	Flag Gíní-Bisáu	none
 🇬🇾	Flag Gayána	none
 🇭🇰	Flag Họng Kọng SAR	none
@@ -3379,13 +4045,13 @@ symbols:
 🇮🇳	Flag Índia	none
 🇮🇴	Flag Brítísh Índián Óshen Tẹ́rẹ́tri	none
 🇮🇶	Flag Irak	none
-🇮🇷	Flag Iran	none
+🇮🇷	Flag Irán	none
 🇮🇸	Flag Aísland	none
 🇮🇹	Flag Ítáli	none
 🇯🇪	Flag Jẹ́si	none
 🇯🇲	Flag Jamaíka	none
 🇯🇴	Flag Jọ́dan	none
-🇯🇵	Flag Japan	none
+🇯🇵	Flag Japán	none
 🇰🇪	Flag Kẹ́nya	none
 🇰🇬	Flag Kẹjístan	none
 🇰🇭	Flag Kambódia	none
@@ -3397,7 +4063,7 @@ symbols:
 🇰🇼	Flag Kuwét	none
 🇰🇾	Flag Kéman Aílands	none
 🇰🇿	Flag Kazakstan	none
-🇱🇦	Flag Laos	none
+🇱🇦	Flag Láos	none
 🇱🇧	Flag Lẹ́bánọn	none
 🇱🇨	Flag Sent Lúshia	none
 🇱🇮	Flag Líktẹ́nstain	none
@@ -3443,7 +4109,7 @@ symbols:
 🇳🇷	Flag Náuru	none
 🇳🇺	Flag Niúẹ	none
 🇳🇿	Flag Niú Zíland	none
-🇴🇲	Flag Oman	none
+🇴🇲	Flag Omán	none
 🇵🇦	Flag Pánáma	none
 🇵🇪	Flag Pẹ́ru	none
 🇵🇫	Flag Frẹ́nch Poliníshia	none
@@ -3456,7 +4122,7 @@ symbols:
 🇵🇷	Flag Puẹ́rto Ríkọ	none
 🇵🇸	Flag Pálẹ́staín Éria-dẹm	none
 🇵🇹	Flag Pọ́túgal	none
-🇵🇼	Flag Palau	none
+🇵🇼	Flag Paláu	none
 🇵🇾	Flag Párágwue	none
 🇶🇦	Flag Kata	none
 🇷🇪	Flag Réyúniọn	none
@@ -3467,7 +4133,7 @@ symbols:
 🇸🇦	Flag Saúdí Arébia	none
 🇸🇧	Flag Sólómọ́n Aílands	none
 🇸🇨	Flag Sẹ́chẹls	none
-🇸🇩	Flag Sudan	none
+🇸🇩	Flag Sudán	none
 🇸🇪	Flag Swídẹn	none
 🇸🇬	Flag Singapọ	none
 🇸🇭	Flag Sent Hẹlẹ́na	none
@@ -3487,7 +4153,7 @@ symbols:
 🇸🇿	Flag Ẹswatíni	none
 🇹🇦	Flag Trístán da Kúna	none
 🇹🇨	Flag Tọks an Kaíkọ́s Aílands	none
-🇹🇩	Flag Chad	none
+🇹🇩	Flag Chád	none
 🇹🇫	Flag Frẹ́nch Saútán Tẹ́rẹ́tris	none
 🇹🇬	Flag Tógo	none
 🇹🇭	Flag Taíland	none
@@ -3500,7 +4166,7 @@ symbols:
 🇹🇷	Flag Tọ́ki	none
 🇹🇹	Flag Trínídad & Tobágo	none
 🇹🇻	Flag Tuválu	none
-🇹🇼	Flag Taiwan	none
+🇹🇼	Flag Taíwán	none
 🇹🇿	Flag Tanzánia	none
 🇺🇦	Flag Yukrein	none
 🇺🇬	Flag Yugánda	none

@@ -22,20 +22,31 @@ pkgconfig_DATA = speech-dispatcher.pc
 
 BUILT_SOURCES = $(top_srcdir)/.version
 
-SUBDIRS= include locale src config doc po
+SUBDIRS= include locale src config po
 
-EXTRA_DIST= config.rpath COPYING.LGPL COPYING.GPL-2 COPYING.GPL-3 ANNOUNCE BUGS FAQ README.md README.packagers README.translators README.overview.md README.style.md build.sh git-version-gen split-version.sh speech-dispatcherd.service.in po/Makevars.in po/README
+if ENABLE_DOC
+SUBDIRS += doc
+endif
+
+EXTRA_DIST= config.rpath COPYING.LGPL COPYING.GPL-2 COPYING.GPL-3 ANNOUNCE BUGS FAQ README.md README.packagers README.translators README.overview.md README.style.md build.sh speech-dispatcherd.service.in speech-dispatcher.socket speech-dispatcher.service.in po/Makevars.in po/README
 
 CLEANFILES=
+DISTCLEANFILES=
 
 MAINTAINERCLEANFILES=configure
 
-AM_DISTCHECK_CONFIGURE_FLAGS=--without-systemdsystemunitdir
+AM_DISTCHECK_CONFIGURE_FLAGS=--without-systemdsystemunitdir --without-systemduserunitdir
 
 nodist_systemdsystemunit_DATA = \
 	speech-dispatcherd.service
+if USE_LIBSYSTEMD
+nodist_systemduserunit_DATA = \
+	speech-dispatcher.service speech-dispatcher.socket
+endif
 CLEANFILES += \
-	speech-dispatcherd.service
+	speech-dispatcherd.service speech-dispatcher.service
+DISTCLEANFILES += \
+	po/Makevars
 %.service: %.service.in
 	$(AM_V_GEN)sed -e 's,@bindir\@,$(bindir),g' $< > $@
 
@@ -48,7 +59,6 @@ $(top_srcdir)/.version:
 dist-hook:
 	echo $(VERSION) > $(distdir)/.tarball-version
 	echo $(VERSION) > $(distdir)/.version
-	rm $(distdir)/po/speech-dispatcher.pot
 
 -include $(top_srcdir)/git.mk
 

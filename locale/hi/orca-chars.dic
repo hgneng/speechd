@@ -2,7 +2,7 @@
 # DO NOT MODIFY IT!
 # See locale/README.md to know how to import dictionaries
 
-# locale/hi/orca.dic
+# locale/hi/orca-chars.dic
 # Copyright (C) 2004-2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the orca package.
 
@@ -11,6 +11,8 @@ symbols:
 Ã	A टिल्डे	char	norep
 Å	A रिंग	char	norep
 Ç	C सेडिला	char	norep
+×	बार	some
 Ø	O स्ट्रोक	char	norep
+÷	इससे विभाजित	some
 	काला वर्ग	none
 	काला हीरक	none

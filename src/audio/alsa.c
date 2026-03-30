@@ -3,7 +3,7 @@
  * alsa.c -- The Advanced Linux Sound System backend for Speech Dispatcher
  *
  * Copyright (C) 2005,2006 Brailcom, o.p.s.
- * Copyright (C) 2019 Samuel Thibault <samuel.thibault@ens-lyon.org>
+ * Copyright (C) 2019-2024 Samuel Thibault <samuel.thibault@ens-lyon.org>
  *
  * This is free software; you can redistribute it and/or modify it under the
  * terms of the GNU Lesser General Public License as published by the Free
@@ -37,8 +37,14 @@
 #include <alsa/asoundlib.h>
 #include <alsa/pcm.h>
 
+#ifdef USE_DLOPEN
+#define SPD_AUDIO_PLUGIN_ENTRY spd_audio_plugin_get
+#else
 #define SPD_AUDIO_PLUGIN_ENTRY spd_alsa_LTX_spd_audio_plugin_get
+#endif
 #include <spd_audio_plugin.h>
+
+#include "../common/common.h"
 
 typedef struct {
 	AudioID id;
@@ -79,39 +85,8 @@ static int wait_for_poll(spd_alsa_id_t * id, struct pollfd *alsa_poll_fds,
 #endif
 
 /* Put a message into the logfile (stderr) */
-#define MSG(level, arg...) \
-	if(level <= alsa_log_level){ \
-		time_t t; \
-		struct timeval tv; \
-		char *tstr; \
-		t = time(NULL); \
-		tstr = g_strdup(ctime(&t)); \
-		tstr[strlen(tstr)-1] = 0; \
-		gettimeofday(&tv,NULL); \
-		fprintf(stderr," %s [%d.%06d]",tstr, (int)tv.tv_sec % 10, (int) tv.tv_usec); \
-		fprintf(stderr," ALSA: "); \
-		fprintf(stderr,arg); \
-		fprintf(stderr,"\n"); \
-		fflush(stderr); \
-		g_free(tstr); \
-	}
-
-#define ERR(arg...) \
-	{ \
-		time_t t; \
-		struct timeval tv; \
-		char *tstr; \
-		t = time(NULL); \
-		tstr = g_strdup(ctime(&t)); \
-		tstr[strlen(tstr)-1] = 0; \
-		gettimeofday(&tv,NULL); \
-		fprintf(stderr," %s [%d]",tstr, (int) tv.tv_usec); \
-		fprintf(stderr," ALSA ERROR: "); \
-		fprintf(stderr,arg); \
-		fprintf(stderr,"\n"); \
-		fflush(stderr); \
-		g_free(tstr); \
-	}
+#define MSG(level, arg, ...) if (level <= alsa_log_level) { MSG(0, "ALSA: " arg, ##__VA_ARGS__); }
+#define ERR(arg, ...) MSG(0, "ALSA ERROR: " arg, ##__VA_ARGS__)
 
 static int alsa_log_level;
 static char const *alsa_play_cmd = "aplay";
@@ -771,7 +746,7 @@ static int alsa_drain_left(AudioID * id, snd_pcm_uframes_t left)
 	}
 
 	/* When ALSA is going through Pulseaudio, wait_for_poll returns too
-	   early because the file descriptor is always availble for writing
+	   early because the file descriptor is always available for writing
 	   :/ */
 	while (!alsa_id->stop_requested)
 	{
@@ -926,7 +901,7 @@ static int alsa_end(AudioID * id)
 /* Play the track _track_ (see spd_audio.h) using the id->alsa_pcm device and
  id-hw_params parameters. This is a blocking function, however, it's possible
  to interrupt playing from a different thread with alsa_stop(). alsa_play
- returns after and immediatelly after the whole sound was played on the
+ returns after and immediately after the whole sound was played on the
  speakers.
 
  The idea is that we get the ALSA file descriptors and we will poll() to see
@@ -1029,7 +1004,11 @@ spd_audio_plugin_t *alsa_plugin_get(void)
 	return &alsa_functions;
 }
 
-spd_audio_plugin_t *SPD_AUDIO_PLUGIN_ENTRY(void)
-    __attribute__ ((weak, alias("alsa_plugin_get")));
+spd_audio_plugin_t *
+    __attribute__ ((weak))
+    SPD_AUDIO_PLUGIN_ENTRY(void)
+{
+	return &alsa_functions;
+}
 #undef MSG
 #undef ERR

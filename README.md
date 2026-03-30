@@ -15,6 +15,30 @@ Speech Dispatcher project provides a high-level *device independent* layer
 for access to speech synthesis through a simple, stable and well documented
 interface.
 
+Support
+-------
+
+These speech syntheses are supported:
+
+- Baratinoo / VoxyGen
+- Cicero
+- DECTalk
+- Epos
+- ESpeak/ESpeak-NG
+- Festival
+- Flite
+- IBMTTS / voxin
+- Ivona
+- Kali
+- Llia
+- Mary
+- MBrola
+- Mimic3
+- OpenJTalk
+- Pico
+- Piper
+- Swift
+
 Documentation
 -------------
 
@@ -29,6 +53,10 @@ This documentation is also available online:
 the [speech dispatcher documentation](http://htmlpreview.github.io/?https://github.com/brailcom/speechd/blob/master/doc/speech-dispatcher.html),
 the [spd-say documentation](http://htmlpreview.github.io/?https://github.com/brailcom/speechd/blob/master/doc/spd-say.html),
 and the [SSIP protocol documentation](http://htmlpreview.github.io/?https://github.com/brailcom/speechd/blob/master/doc/ssip.html).
+
+The python binding documentation is available on the shell with
+`pydoc3 speechd` (or `pydoc speechd`)
+and online: the [speechd.client module documentation](http://htmlpreview.github.io/?https://github.com/brailcom/speechd/blob/master/doc/speechd.client.html)
 
 The key features and the supported TTS engines, output subsystems, client
 interfaces and client applications known to work with Speech Dispatcher are
@@ -62,6 +90,22 @@ repository from:
 
     https://github.com/brailcom/speechd.git
 
+
+Modules for different speech synthesis backends can easily be developped in
+different ways. This allows to integrate all kinds of speech syntheses, be
+they C libraries, external commands, or even http services, and whatever their
+licences since the interface between the speechd server and the syntheses is a
+mere pipe between processes with a very simple protocol. More details are
+available in the
+[Output Modules documentation](https://htmlpreview.github.io/?https://github.com/brailcom/speechd/blob/master/doc/speech-dispatcher.html#Output-Modules)
+
+
+Rust bindings are currently developed separately. You can use the [GitLab web
+interface](https://gitlab.com/ndarilek/speech-dispatcher-rs) or clone the
+repository from:
+
+    https://gitlab.com/ndarilek/speech-dispatcher-rs.git
+
 A Java library is currently developed separately. You can use the [GitHub web
 interface](https://github.com/brailcom/speechd-java) or clone the repository
 from:
@@ -70,6 +114,34 @@ from:
 
 To build and install speech-dispatcher and all of it's components, read the
 file [INSTALL](INSTALL).
+
+
+To try the just-built speech-dispatcher without installing it (e.g. to avoid
+disturbing an existing speech-dispatcher instance), you can run
+
+```
+./run-speechd -t 0 -s
+```
+
+and in another terminal run
+
+```
+./run-spd-say foo
+```
+
+You can also make other speech-dispatcher clients connect to your dedicated
+instance by first running
+
+```
+export SPEECHD_ADDRESS=inet_socket:127.0.0.1:6561
+```
+
+If you want those clients to also use the just-built libspeechd, you can
+additionally use
+
+```
+export LD_LIBRARY_PATH=$PWD/src/api/c/.libs
+```
 
 
 People
@@ -99,37 +171,42 @@ Contributors: Trevor Saunders, Lukas Loehrer,Gary Cramblitt, Olivier Bert, Jacob
 Schmude, Steve Holmes, Gilles Casse, Rui Batista, Marco Skambraks ...and many
 others.
 
-License
--------
+Licensing
+---------
 
-Copyright (C) 2001-2009 Brailcom, o.p.s
-Copyright (C) 2018-2020 Samuel Thibault <samuel.thibault@ens-lyon.org>
-Copyright (C) 2018 Didier Spaier <didier@slint.fr>
+Speech Dispatcher uses several layers of software, to allow for flexible
+licensing.
 
-This program is free software; you can redistribute it and/or modify it under
-the terms of the GNU General Public License as published by the Free Software
-Foundation; either version 2 of the License, or (at your option) any later
-version.
+The central speechd server is essentially GPLv2.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE.  See the GNU General Public License for more details (file
-COPYING in the root directory).
+The C api client library is essentially LGPL2.1-or-later, which thus allows to
+use it in various applications with little licensing concerns. It is connected
+to the central server through a socket with the SSIP protocol, in such a way
+that GPL licensing propagation doesn't apply.
 
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
+The speech modules are connected to the central server through a pipe with
+a very simple protocol similar to SSIP, in such a way that GPL licensing
+propagation doesn't apply either.
+
+To make writing speech modules simpler, a libspeechd_module library is provided
+under a BSD-2 license, which can thus be combined with essentially any other
+license.
+
+Some more advanced module helpers are also provided under LGPLv2.1-or-later, but
+they are not mandatory.
 
 
-Note:
+
+In detail:
 
 - The speech-dispatcher server (src/server/ + src/common/) contains
 GPLv2-or-later and LGPLv2.1-or-later source code, but is linked against
 libdotconf, which is LGPLv2.1-only at the time of writing.
 
 - The speech-dispatcher modules (src/modules/ + src/common/ + src/audio/)
-contain GPLv2-or-later, LGPLv2.1-or-later, and LGPLv2-or-later source code,
-but are also linked against libdotconf, which is LGPLv2.1-only at the time of
-writing.
+contain GPLv2-or-later, LGPLv2.1-or-later, LGPLv2-or-later, and BSD-2 source
+code, but some parts are also linked against libdotconf, which is LGPLv2.1-only
+at the time of writing.
 
 - The spd-conf tool (src/api/python/speechd_config/), spd-say tool
 (src/clients/say), and spdsend tool (src/clients/spdsend/) are GPLv2-or-later.
@@ -144,3 +221,22 @@ LGPLv2.1-or-later source code.
 - The Python API library (src/api/python/speechd/) is LGPLv2.1-or-later.
 
 - All tests in src/tests/ are GPLv2-or-later.
+
+
+
+Copyright (C) 2001-2009 Brailcom, o.p.s
+Copyright (C) 2018-2020, 2022, 2024-2026 Samuel Thibault <samuel.thibault@ens-lyon.org>
+Copyright (C) 2018 Didier Spaier <didier@slint.fr>
+
+This README file is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the License, or (at your option) any later
+version.
+
+This README file is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.  See the GNU General Public License for more details (file
+COPYING in the root directory).
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.

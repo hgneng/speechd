@@ -2,12 +2,13 @@
 # DO NOT MODIFY IT!
 # See locale/README.md to know how to import dictionaries
 
-# locale/bn_IN/orca.dic
+# locale/bn_IN/orca-chars.dic
 # Copyright (C) 2004-2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the orca package.
 
 symbols:
 á	a একিউট	char	norep
+×	বার	some
 ß	s সার্প	char	norep
 à	গ্রেভ	char	norep
 â	a সারকামফ্লেক্স	char	norep
@@ -25,6 +26,7 @@ symbols:
 ó	o একিউট	char	norep
 ô	o সারকামফ্লেক্স	char	norep
 õ	o টিল্ডা	char	norep
+÷	এর দ্বারা ভাহ করা হয়েছে	some
 ø	o স্ট্রোক	char	norep
 þ	থর্ন	char	norep
 ú	u একিউট	char	norep

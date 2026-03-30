@@ -24,8 +24,6 @@
 
 #define __SPDSEND_H
 
-#define _GNU_SOURCE
-
 #include <stddef.h>
 #include <stdbool.h>
 #define FALSE false
@@ -39,7 +37,6 @@
 
 /* Types */
 
-//typedef enum { FALSE, TRUE } bool;
 typedef int Stream;
 typedef int Connection_Id;
 

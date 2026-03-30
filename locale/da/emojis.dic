@@ -101,8 +101,8 @@ symbols:
 ∉	tilhører ikke	none
 ∋	indeholder som element	none
 ∎	slut på bevis	none
-∏	produkt	none
-∑	sum	none
+∏	n-ært produkt	none
+∑	n-ær summering	none
 ≮	ikke mindre end	none
 ≠	ikke lig med	none
 ≯	ikke større end	none
@@ -114,7 +114,7 @@ symbols:
 ∘	ringoperator	none
 ∙	punktoperator	none
 √	kvadratrod	none
-∝	proportional	none
+∝	proportionalt med	none
 ∞	uendelighedstegn	none
 ∟	ret vinkel	none
 ∠	vinkel	none
@@ -140,6 +140,7 @@ symbols:
 ≒	cirka lig med billedet	none
 ≖	ring i lighedstegn	none
 ≡	identisk med	none
+≣	strengt ækvivalent	none
 ≤	mindre end eller lig med	none
 ≥	større end eller lig med	none
 ≦	mindre end over lig med	none
@@ -147,12 +148,14 @@ symbols:
 ≪	meget mindre end	none
 ≫	meget større end	none
 ≬	mellem	none
-≳	større end-ekvivalent	none
+≳	større end-ækvivalent	none
 ≺	kommer før	none
 ≻	kommer efter	none
 ⊁	kommer ikke efter	none
 ⊂	delmængde af	none
+⊃	supermængde	none
 ⊆	delmængde eller lig med	none
+⊇	supermængde eller lig med	none
 ⊕	plus med ring	none
 ⊖	minus med ring	none
 ⊗	gange med ring	none
@@ -160,6 +163,9 @@ symbols:
 ⊙	punktoperator med ring	none
 ⊚	ring-operator med ring	none
 ⊛	stjerne-operator med ring	none
+⊞	firkant med plus	none
+⊟	firkant med minus	none
+⊥	falsum	none
 ⊮	gennemtvinger ikke	none
 ⊰	kommer før under relation	none
 ⊱	følger efter under relation	none
@@ -180,15 +186,82 @@ symbols:
 ⋯	vandret ellipse	none
 ⋰	diagonal ellipse opad mod højre	none
 ⋱	diagonal ellipse nedad mod højre	none
-■	udfyldt firkant	none
-□	hul firkant	none
+■	udfyldt kvadrat	none
+□	hult kvadrat	none
+▢	hult kvadrat med afrundede hjørner	none
+▣	hult kvadrat, der indeholder udfyldt kvadrat	none
+▤	kvadrat med vandret udfyldning	none
+▥	kvadrat med lodret udfyldning	none
+▦	kvadrat med krydsskraveret udfyldning	none
+▧	kvadrat med skravering øverst til venstre mod nederst til højre	none
+▨	kvadrat med skravering øverst til højre mod nederst til venstre	none
+▩	kvadrat med diagonal krydsskraveret udfyldning	none
+▬	udfyldt rektangel	none
+▭	hult rektangel	none
+▮	udfyldt lodret rektangel	none
+▰	udfyldt parallellogram	none
 ▲	udfyldt opadvendt trekant	none
+△	hul trekant, der peger opad	none
+▴	udfyldt lille trekant, der peger opad	none
+▵	hul lille trekant, der peger opad	none
+▷	hul trekant, der peger mod højre	none
+▸	udfyldt lille trekant, der peger mod højre	none
+▹	hul lille trekant, der peger mod højre	none
+►	udfyldt pointer, der peger mod højre	none
+▻	hul pointer, der peger mod højre	none
 ▼	udfyldt nedadvendt trekant	none
+▽	hul trekant, der peger nedad	none
+▾	udfyldt lille trekant, der peger nedad	none
+▿	hul lille trekant, der peger nedad	none
+◁	hul trekant, der peger mod venstre	none
+◂	udfyldt lille trekant, der peger mod venstre	none
+◃	hul lille trekant, der peger mod venstre	none
+◄	udfyldt pointer, der peger mod venstre	none
+◅	hul pointer, der peger mod venstre	none
+◆	udfyldt ruder	none
+◇	hul ruder	none
+◈	hul ruder, der indeholder udfyldt ruder	none
+◉	hul cirkel, der indeholder udfyldt cirkel	none
 ◊	rombe	none
 ○	hul cirkel	none
+◌	punkteret cirkel	none
+◍	cirkel med lodret udfyldning	none
+◎	koncentriske cirkler	none
 ●	udfyldt cirkel	none
+◐	cirkel med venstre halvdel udfyldt	none
+◑	cirkel med højre halvdel udfyldt	none
+◒	cirkel med nederste halvdel udfyldt	none
+◓	cirkel med øverste halvdel udfyldt	none
+◔	cirkel med øverste højre kvadrant udfyldt	none
+◕	cirkel med alt andet end øverste venstre kvadrant udfyldt	none
+◖	venstre halvdel af udfyldt cirkel	none
+◗	højre halvdel af udfyldt cirkel	none
+◘	omvendt punkttegn	none
+◙	udfyldt kvadrat, der indeholder hul cirkel	none
+◜	øverste venstre kvadrant af cirkelbue	none
+◝	øverste højre kvadrant af cirkelbue	none
+◞	nederste højre kvadrant af cirkelbue	none
+◟	nederste venstre kvadrant af cirkelbue	none
+◠	øverste halvcirkel	none
+◡	nederste halvcirkel	none
+◢	udfyldt trekant nedad mod højre	none
+◣	udfyldt trekant nedad mod venstre	none
+◤	udfyldt trekant opad mod venstre	none
+◥	udfyldt trekant opad mod højre	none
+◦	hult punkttegn	none
 ◯	stor hul cirkel	none
+◳	hul firkant øverste højre kvadrant	none
+◷	hul cirkel med øverste højre kvadrant	none
+◿	trekant nedad mod højre	none
 ♪	ottendedelsnode	none
+⨧	plus med sænket 2	none
+⨯	krydsprodukt, vektor	none
+⨼	indre produkt	none
+⩣	logisk eller med dobbelt understregning	none
+⩽	mindre end med skråt lighedstegn	none
+⪍	mindre end over cirka lig med	none
+⪚	dobbeltstreget lighedstegn og større end	none
+⪺	følger efter over ikke cirka lig med	none
 ♭	tone med b for	none
 ♯	tone med kryds for	none
 😀	grinende ansigt	none
@@ -201,6 +274,7 @@ symbols:
 😂	ansigt med glædestårer	none
 🙂	let smilende ansigt	none
 🙃	omvendt ansigt	none
+🫠	smeltende ansigt	none
 😉	blinkende ansigt	none
 😊	smilende ansigt og øjne	none
 😇	smilende ansigt med glorie	none
@@ -221,13 +295,17 @@ symbols:
 🤑	ansigt med dollartegn	none
 🤗	krammende ansigt	none
 🤭	ansigt med hånd over munden	none
+🫢	ansigt med åbne øjne og hånden over munden	none
+🫣	ansigt, der smugkigger	none
 🤫	tyssende ansigt	none
 🤔	tænkende ansigt	none
+🫡	ansigt, der gør honnør	none
 🤐	ansigt med lynlåsmund	none
 🤨	ansigt med løftet øjenbryn	none
 😐	neutralt ansigt	none
 😑	udtryksløst ansigt	none
 😶	ansigt uden mund	none
+🫥	stiplet linje ansigt	none
 😶‍🌫	ansigt i sky	none
 😏	ansigt med smørret grin	none
 😒	uimponeret ansigt	none
@@ -235,11 +313,15 @@ symbols:
 😬	sammenbidt ansigt	none
 😮‍💨	udåndende ansigt	none
 🤥	løgneransigt	none
+🫨	rystende ansigt	none
+🙂‍↔	ryster på hovedet vandret	none
+🙂‍↕	ryster på hovedet lodret	none
 😌	lettet ansigt	none
 😔	eftertænksomt ansigt	none
 😪	søvnigt ansigt	none
 🤤	savlende ansigt	none
 😴	sovende ansigt	none
+🫩	ansigt med poser under øjnene	none
 😷	ansigt med mundbind	none
 🤒	ansigt med termometer	none
 🤕	ansigt med bandage	none
@@ -259,6 +341,7 @@ symbols:
 🤓	nørdansigt	none
 🧐	ansigt med monokel	none
 😕	forvirret ansigt	none
+🫤	ansigt med skrå mund	none
 😟	bekymret ansigt	none
 🙁	lidt trist ansigt	none
 ☹	trist ansigt	none
@@ -266,7 +349,9 @@ symbols:
 😯	tavst ansigt	none
 😲	overrasket ansigt	none
 😳	rødmende ansigt	none
+🫪	forvrænget ansigt	none
 🥺	bønfaldende ansigt	none
+🥹	ansigt, der holder tårer tilbage	none
 😦	måbende ansigt med åben mund	none
 😧	forpint ansigt	none
 😨	bange ansigt	none
@@ -292,7 +377,7 @@ symbols:
 ☠	kranium og korslagte knogler	none
 💩	bæ	none
 🤡	klovneansigt	none
-👹	trold	none
+👹	uhyre	none
 👺	ånd	none
 👻	spøgelse	none
 👽	rumvæsen	none
@@ -310,7 +395,6 @@ symbols:
 🙈	ikke se	none
 🙉	ikke høre	none
 🙊	ikke tale	none
-💋	læbeaftryk	none
 💌	kærlighedsbrev	none
 💘	hjerte med pil	none
 💝	hjerte med bånd	none
@@ -325,22 +409,26 @@ symbols:
 ❤‍🔥	brændende hjerte	none
 ❤‍🩹	helende hjerte	none
 ❤	rødt hjerte	none
+🩷	lyserødt hjerte	none
 🧡	orange hjerte	none
 💛	gult hjerte	none
 💚	grønt hjerte	none
 💙	blåt hjerte	none
+🩵	lyseblåt hjerte	none
 💜	violet hjerte	none
 🤎	brunt hjerte	none
 🖤	sort hjerte	none
+🩶	gråt hjerte	none
 🤍	hvidt hjerte	none
+💋	læbeaftryk	none
 💯	100 point	none
 💢	vrede	none
+🫯	slagsmålssky	none
 💥	kollision	none
 💫	svimmel	none
 💦	sveddråber	none
 💨	smutter	none
 🕳	hul	none
-💣	bombe	none
 💬	taleboble	none
 👁‍🗨	øje i taleboble	none
 🗨	taleboble til venstre	none
@@ -352,11 +440,18 @@ symbols:
 🖐	hånd med spredte fingre	none
 ✋	løftet hånd	none
 🖖	vulcan-hilsen	none
+🫱	hånd til højre	none
+🫲	hånd til venstre	none
+🫳	håndflade nedad	none
+🫴	håndflade opad	none
+🫷	hånd skubber mod venstre	none
+🫸	hånd skubber mod højre	none
 👌	ok-tegn	none
 🤌	samlede fingre	none
 🤏	lidt vist med tommel- og pegefinger	none
 ✌	v-tegn	none
 🤞	krydsede fingre	none
+🫰	krydset pegefinger og tommelfinger	none
 🤟	elsker dig-gestus	none
 🤘	djævletegn	none
 🤙	ring til mig-hånd	none
@@ -366,6 +461,7 @@ symbols:
 🖕	langefinger	none
 👇	peger nedad	none
 ☝	rækker finger op	none
+🫵	peger på seeren	none
 👍	tommelfinger op	none
 👎	tommelfinger ned	none
 ✊	løftet knytnæve	none
@@ -374,6 +470,7 @@ symbols:
 🤜	højrevendt knytnæve	none
 👏	klappende hænder	none
 🙌	løftede hænder	none
+🫶	hjertehænder	none
 👐	åbne hænder	none
 🤲	håndflader samlet og løftet	none
 🤝	håndtryk	none
@@ -398,6 +495,7 @@ symbols:
 👁	øje	none
 👅	tunge	none
 👄	mund	none
+🫦	bider i læben	none
 👶	baby	none
 🧒	barn	none
 👦	dreng	none
@@ -411,7 +509,7 @@ symbols:
 👩	kvinde	none
 🧔‍♀	kvinde med skæg	none
 👱‍♀	blond kvinde	none
-🧓	gammel person	none
+🧓	ældre menneske	none
 👴	gammel mand	none
 👵	gammel kvinde	none
 🙍	Utilfreds person	none
@@ -435,7 +533,7 @@ symbols:
 🧏	døv person	none
 🧏‍♂	døv mand	none
 🧏‍♀	døv kvinde	none
-🙇	bukker	none
+🙇	person bukker dybt	none
 🙇‍♂	mand bukker dybt	none
 🙇‍♀	kvinde bukker dybt	none
 🤦	slå sig for panden	none
@@ -468,17 +566,17 @@ symbols:
 🧑‍🏭	fabriksarbejder	none
 👨‍🏭	mandlig fabriksarbejder	none
 👩‍🏭	kvindelig fabriksarbejder	none
-🧑‍💼	kontormedarbejder	none
+🧑‍💼	kontoransat	none
 👨‍💼	mandlig kontoransat	none
 👩‍💼	kvindelig kontoransat	none
-🧑‍🔬	videnskabsmand	none
+🧑‍🔬	forsker	none
 👨‍🔬	mandlig forsker	none
 👩‍🔬	kvindelig forsker	none
 🧑‍💻	it-medarbejder	none
 👨‍💻	mandlig IT-medarbejder	none
 👩‍💻	kvindelig IT-medarbejder	none
-🧑‍🎤	sangsolist	none
-👨‍🎤	sanger	none
+🧑‍🎤	sanger	none
+👨‍🎤	mandlig sanger	none
 👩‍🎤	sangerinde	none
 🧑‍🎨	kunstner	none
 👨‍🎨	mandlig kunstner	none
@@ -505,6 +603,7 @@ symbols:
 👷	bygningsarbejder	none
 👷‍♂	mandlig bygningsarbejder	none
 👷‍♀	kvindelig bygningsarbejder	none
+🫅	person med krone	none
 🤴	prins	none
 👸	prinsesse	none
 👳	person med turban	none
@@ -519,6 +618,8 @@ symbols:
 👰‍♂	mand med brudeslør	none
 👰‍♀	kvinde med brudeslør	none
 🤰	gravid kvinde	none
+🫃	gravid mand	none
+🫄	gravid person	none
 🤱	kvinde, der ammer	none
 👩‍🍼	kvinde, der mader baby	none
 👨‍🍼	mand, der mader baby	none
@@ -554,6 +655,8 @@ symbols:
 🧟	zombie	none
 🧟‍♂	mandlig zombie	none
 🧟‍♀	kvindelig zombie	none
+🧌	trold	none
+🫈	behåret væsen	none
 💆	ansigtsmassage	none
 💆‍♂	mand får ansigtsmassage	none
 💆‍♀	kvinde får ansigtsmassage	none
@@ -581,6 +684,7 @@ symbols:
 🏃	løber	none
 🏃‍♂	mand løber	none
 🏃‍♀	kvinde løber	none
+🧑‍🩰	balletdanser	none
 💃	danser	none
 🕺	dansende mand	none
 🕴	svævende forretningsmand	none
@@ -641,18 +745,23 @@ symbols:
 🧘‍♀	kvinde i lotusstilling	none
 🛀	bad	none
 🛌	person i seng	none
-🧑‍🤝‍🧑	mennesker, der holder hånd	none
+🧑‍🤝‍🧑	personer hånd i hånd	none
 👭	to kvinder hånd i hånd	none
 👫	mand og kvinde hånd i hånd	none
 👬	to mænd hånd i hånd	none
 💏	kys	none
 💑	par med hjerte	none
-👪	familie	none
 🗣	talende hoved	none
 👤	buste i silhuet	none
 👥	buster i silhuet	none
 🫂	knus	none
+👪	familie	none
+🧑‍🧑‍🧒	familie voksen, voksen, barn	none
+🧑‍🧑‍🧒‍🧒	familie voksen, voksen, barn, barn	none
+🧑‍🧒	familie voksen, barn	none
+🧑‍🧒‍🧒	familie voksen, barn, barn	none
 👣	fodspor	none
+🫆	fingeraftryk	none
 🦰	rødt hår	none
 🦱	krøllet hår	none
 🦳	hvidt hår	none
@@ -677,6 +786,8 @@ symbols:
 🐅	tiger	none
 🐆	leopard	none
 🐴	hestehoved	none
+🫎	elg	none
+🫏	æsel	none
 🐎	hest	none
 🦄	enhjørningehoved	none
 🦓	zebra	none
@@ -739,6 +850,10 @@ symbols:
 🦩	flamingo	none
 🦚	påfugl	none
 🦜	papegøje	none
+🪽	vinge	none
+🐦‍⬛	sort fugl	none
+🪿	gås	none
+🐦‍🔥	føniks	none
 🐸	frø	none
 🐊	krokodille	none
 🐢	skildpadde	none
@@ -751,6 +866,7 @@ symbols:
 🐳	hval med vandsprøjt	none
 🐋	hval	none
 🐬	delfin	none
+🫍	spækhugger	none
 🦭	sæl	none
 🐟	fisk	none
 🐠	tropisk fisk	none
@@ -758,6 +874,13 @@ symbols:
 🦈	haj	none
 🐙	blæksprutte	none
 🐚	konkylie	none
+🪸	koral	none
+🪼	gople	none
+🦀	krabbe	none
+🦞	hummer	none
+🦐	reje	none
+🦑	sprutte	none
+🦪	østers	none
 🐌	snegl	none
 🦋	sommerfugl	none
 🐛	larve	none
@@ -777,6 +900,7 @@ symbols:
 💐	blomsterbuket	none
 🌸	kirsebærblomst	none
 💮	hvid blomst	none
+🪷	lotus	none
 🏵	roset	none
 🌹	rose	none
 🥀	vissen blomst	none
@@ -784,6 +908,7 @@ symbols:
 🌻	solsikke	none
 🌼	blomst	none
 🌷	tulipan	none
+🪻	hyacint	none
 🌱	spire	none
 🪴	potteplante	none
 🌲	nåletræ	none
@@ -797,11 +922,16 @@ symbols:
 🍁	ahornblad	none
 🍂	faldende blade	none
 🍃	blade i vinden	none
+🪹	tom rede	none
+🪺	rede med æg	none
+🍄	svamp	none
+🪾	træ uden blade	none
 🍇	vindruer	none
 🍈	melon	none
 🍉	vandmelon	none
 🍊	appelsin	none
 🍋	citron	none
+🍋‍🟩	lime	none
 🍌	banan	none
 🍍	ananas	none
 🥭	mango	none
@@ -828,9 +958,13 @@ symbols:
 🥦	broccoli	none
 🧄	hvidløg	none
 🧅	løg	none
-🍄	svamp	none
 🥜	jordnødder	none
+🫘	bønner	none
 🌰	kastanje	none
+🫚	ingefærrod	none
+🫛	ærtebælg	none
+🍄‍🟫	brun svamp	none
+🫜	rodfrugt	none
 🍞	brød	none
 🥐	croissant	none
 🥖	flute	none
@@ -882,11 +1016,6 @@ symbols:
 🥟	dumpling	none
 🥠	lykkekage	none
 🥡	kinesisk takeaway	none
-🦀	krabbe	none
-🦞	hummer	none
-🦐	reje	none
-🦑	sprutte	none
-🦪	østers	none
 🍦	softice	none
 🍧	isdessert	none
 🍨	is	none
@@ -915,6 +1044,7 @@ symbols:
 🍻	skålende ølkrus	none
 🥂	skål	none
 🥃	fladbundet glas	none
+🫗	hælde vand	none
 🥤	bæger med sugerør	none
 🧋	bubble tea	none
 🧃	brik	none
@@ -925,6 +1055,7 @@ symbols:
 🍴	kniv og gaffel	none
 🥄	ske	none
 🔪	køkkenkniv	none
+🫙	krukke	none
 🏺	amfora	none
 🌍	globus med Europa og Afrika	none
 🌎	globus med Nord- og Sydamerika	none
@@ -935,6 +1066,7 @@ symbols:
 🧭	kompas	none
 🏔	sneklædt bjerg	none
 ⛰	bjerg	none
+🛘	jordskred	none
 🌋	vulkan	none
 🗻	Fuji-bjerget	none
 🏕	camping	none
@@ -987,6 +1119,7 @@ symbols:
 🌉	bro i mørke	none
 ♨	varme kilder	none
 🎠	karrusel	none
+🛝	legeplads-rutsjebane	none
 🎡	pariserhjul	none
 🎢	rutsjebane	none
 💈	barber	none
@@ -1035,12 +1168,14 @@ symbols:
 🛤	jernbane	none
 🛢	olietønde	none
 ⛽	tankstation	none
+🛞	hjul	none
 🚨	politiblink	none
 🚥	liggende trafiklys	none
 🚦	trafiklys	none
 🛑	stopskilt	none
 🚧	byggeri	none
 ⚓	anker	none
+🛟	redningskrans	none
 ⛵	sejlbåd	none
 🛶	kano	none
 🚤	speedbåd	none
@@ -1198,10 +1333,10 @@ symbols:
 🎯	pletskud	none
 🪀	yoyo	none
 🪁	legetøjsdrage	none
+🔫	vandpistol	none
 🎱	billard	none
 🔮	krystalkugle	none
 🪄	tryllestav	none
-🧿	nazaramulet	none
 🎮	videospil	none
 🕹	joystick	none
 🎰	spillemaskine	none
@@ -1209,6 +1344,7 @@ symbols:
 🧩	brik til puslespil	none
 🧸	bamse	none
 🪅	piñata	none
+🪩	diskokugle	none
 🪆	russiske dukker	none
 ♠	spar	none
 ♥	hjerter	none
@@ -1245,6 +1381,7 @@ symbols:
 🩳	shorts	none
 👙	bikini	none
 👚	bluse	none
+🪭	sammenklappelig håndvifte	none
 👛	pung	none
 👜	håndtaske	none
 👝	clutch	none
@@ -1259,6 +1396,7 @@ symbols:
 👡	damesandal	none
 🩰	balletsko	none
 👢	damestøvle	none
+🪮	afrokam	none
 👑	krone	none
 👒	hat	none
 🎩	høj hat	none
@@ -1289,14 +1427,18 @@ symbols:
 🎧	hovedtelefon	none
 📻	radio	none
 🎷	saxofon	none
+🎺	trompet	none
+🪊	basun	none
 🪗	akkordeon	none
 🎸	guitar	none
 🎹	klaver	none
-🎺	trompet	none
 🎻	violin	none
 🪕	banjo	none
 🥁	tromme	none
 🪘	høj tromme	none
+🪇	maracas	none
+🪈	fløjte	none
+🪉	harpe	none
 📱	mobil	none
 📲	mobil med pil	none
 ☎	telefon	none
@@ -1304,6 +1446,7 @@ symbols:
 📟	personsøger	none
 📠	fax	none
 🔋	batteri	none
+🪫	lavt batteriniveau	none
 🔌	stik	none
 💻	bærbar computer	none
 🖥	stationær computer	none
@@ -1349,8 +1492,9 @@ symbols:
 📑	faner	none
 🔖	bogmærke	none
 🏷	mærkat	none
-💰	pengepose	none
 🪙	mønt	none
+💰	pengepose	none
+🪎	skattekiste	none
 💴	yenseddel	none
 💵	dollarseddel	none
 💶	euroseddel	none
@@ -1415,7 +1559,7 @@ symbols:
 🛠	hammer og skruenøgle	none
 🗡	dolk	none
 ⚔	korslagte sværd	none
-🔫	vandpistol	none
+💣	bombe	none
 🪃	boomerang	none
 🏹	bue og pil	none
 🛡	skjold	none
@@ -1428,11 +1572,13 @@ symbols:
 ⚖	vægt	none
 🦯	blindestok	none
 🔗	link	none
+⛓‍💥	brudt kæde	none
 ⛓	kæder	none
 🪝	krog	none
 🧰	værktøjskasse	none
 🧲	magnet	none
 🪜	stige	none
+🪏	skovl	none
 ⚗	kolbe	none
 🧪	reagensglas	none
 🧫	petriskål	none
@@ -1444,7 +1590,9 @@ symbols:
 🩸	bloddråbe	none
 💊	pille	none
 🩹	plaster	none
+🩼	krykke	none
 🩺	stetoskop	none
+🩻	røntgen	none
 🚪	dør	none
 🛗	elevator	none
 🪞	spejl	none
@@ -1465,6 +1613,7 @@ symbols:
 🧻	papirrulle	none
 🪣	spand	none
 🧼	sæbe	none
+🫧	bobler	none
 🪥	tandbørste	none
 🧽	vaskesvamp	none
 🧯	brandslukker	none
@@ -1473,8 +1622,11 @@ symbols:
 ⚰	kiste	none
 🪦	gravsten	none
 ⚱	urne	none
+🧿	nazaramulet	none
+🪬	hamsa	none
 🗿	statue	none
 🪧	skilt	none
+🪪	legitimationskort	none
 🏧	hæveautomat	none
 🚮	brug affaldsspanden	none
 🚰	drikkevand	none
@@ -1535,6 +1687,7 @@ symbols:
 ☮	fredssymbol	none
 🕎	syvarmet lysestage	none
 🔯	sekstakket stjerne med prik	none
+🪯	khanda	none
 ♈	vædderen	none
 ♉	tyren	none
 ♊	tvillingen	none
@@ -1570,6 +1723,7 @@ symbols:
 🔅	lav lysstyrke	none
 🔆	høj lysstyrke	none
 📶	mobilsignal	none
+🛜	trådløs	none
 📳	vibration	none
 📴	mobil slået fra	none
 ♀	kvindesymbol	none
@@ -1579,6 +1733,7 @@ symbols:
 ➕	plus	none
 ➖	minus	none
 ➗	dividere	none
+🟰	fedt lighedstegn	none
 ♾	uendelig	none
 ❓	rødt spørgsmålstegn	none
 ❔	hvidt spørgsmålstegn	none
@@ -1604,6 +1759,7 @@ symbols:
 ✴	ottetakket stjerne	none
 ❇	funkle	none
 ™	varemærke	none
+🫟	klat	none
 🔠	store bogstaver	none
 🔡	små bogstaver	none
 🔢	tal	none
@@ -1635,13 +1791,13 @@ symbols:
 🟤	brun cirkel	none
 ⚫	sort cirkel	none
 ⚪	hvid cirkel	none
-🟥	rød firkant	none
-🟧	orange firkant	none
-🟨	gul firkant	none
-🟩	grøn firkant	none
-🟦	blå firkant	none
-🟪	lilla firkant	none
-🟫	brun firkant	none
+🟥	rødt kvadrat	none
+🟧	orange kvadrat	none
+🟨	gult kvadrat	none
+🟩	grønt kvadrat	none
+🟦	blåt kvadrat	none
+🟪	lilla kvadrat	none
+🟫	brunt kvadrat	none
 ⬛	stort sort kvadrat	none
 ⬜	stort hvidt kvadrat	none
 ◼	mellemstort sort kvadrat	none
@@ -1668,13 +1824,21 @@ symbols:
 🏳‍🌈	regnbueflag	none
 🏳‍⚧	transkønnet flag	none
 🏴‍☠	piratflag	none
+₢	cruzeiro	none
+₣	fransk franc	none
+₤	lira	none
 ₥	mill	none
 ₩	won	none
 €	euro	none
+₰	tysk pfennig	none
 ₱	peso	none
+₳	austral	none
+₶	livre tournois	none
+₷	spesmilo	none
 ₹	indisk rupee	none
 ₽	rubel	none
 ₿	bitcoin	none
+₨	rupee	none
 👋🏻	vinker lys teint	none
 👋🏼	vinker medium til lys teint	none
 👋🏽	vinker medium teint	none
@@ -1700,6 +1864,56 @@ symbols:
 🖖🏽	vulcan-hilsen medium teint	none
 🖖🏾	vulcan-hilsen medium til mørk teint	none
 🖖🏿	vulcan-hilsen mørk teint	none
+🫱🏻	hånd til højre lys teint	none
+🫱🏼	hånd til højre medium til lys teint	none
+🫱🏽	hånd til højre medium teint	none
+🫱🏾	hånd til højre medium til mørk teint	none
+🫱🏿	hånd til højre mørk teint	none
+🫱🏻‍🫲🏼	håndtryk lys teint og medium til lys teint	none
+🫱🏻‍🫲🏽	håndtryk lys teint og medium teint	none
+🫱🏻‍🫲🏾	håndtryk lys teint og medium til mørk teint	none
+🫱🏻‍🫲🏿	håndtryk lys teint og mørk teint	none
+🫱🏼‍🫲🏻	håndtryk medium til lys teint og lys teint	none
+🫱🏼‍🫲🏽	håndtryk medium til lys teint og medium teint	none
+🫱🏼‍🫲🏾	håndtryk medium til lys teint og medium til mørk teint	none
+🫱🏼‍🫲🏿	håndtryk medium til lys teint og mørk teint	none
+🫱🏽‍🫲🏻	håndtryk medium teint og lys teint	none
+🫱🏽‍🫲🏼	håndtryk medium teint og medium til lys teint	none
+🫱🏽‍🫲🏾	håndtryk medium teint og medium til mørk teint	none
+🫱🏽‍🫲🏿	håndtryk medium teint og mørk teint	none
+🫱🏾‍🫲🏻	håndtryk medium til mørk teint og lys teint	none
+🫱🏾‍🫲🏼	håndtryk medium til mørk teint og medium til lys teint	none
+🫱🏾‍🫲🏽	håndtryk medium til mørk teint og medium teint	none
+🫱🏾‍🫲🏿	håndtryk medium til mørk teint og mørk teint	none
+🫱🏿‍🫲🏻	håndtryk mørk teint og lys teint	none
+🫱🏿‍🫲🏼	håndtryk mørk teint og medium til lys teint	none
+🫱🏿‍🫲🏽	håndtryk mørk teint og medium teint	none
+🫱🏿‍🫲🏾	håndtryk mørk teint og medium til mørk teint	none
+🫲🏻	hånd til venstre lys teint	none
+🫲🏼	hånd til venstre medium til lys teint	none
+🫲🏽	hånd til venstre medium teint	none
+🫲🏾	hånd til venstre medium til mørk teint	none
+🫲🏿	hånd til venstre mørk teint	none
+🫳🏻	håndflade nedad lys teint	none
+🫳🏼	håndflade nedad medium til lys teint	none
+🫳🏽	håndflade nedad medium teint	none
+🫳🏾	håndflade nedad medium til mørk teint	none
+🫳🏿	håndflade nedad mørk teint	none
+🫴🏻	håndflade opad lys teint	none
+🫴🏼	håndflade opad medium til lys teint	none
+🫴🏽	håndflade opad medium teint	none
+🫴🏾	håndflade opad medium til mørk teint	none
+🫴🏿	håndflade opad mørk teint	none
+🫷🏻	hånd skubber mod venstre lys teint	none
+🫷🏼	hånd skubber mod venstre medium til lys teint	none
+🫷🏽	hånd skubber mod venstre medium teint	none
+🫷🏾	hånd skubber mod venstre medium til mørk teint	none
+🫷🏿	hånd skubber mod venstre mørk teint	none
+🫸🏻	hånd skubber mod højre lys teint	none
+🫸🏼	hånd skubber mod højre medium til lys teint	none
+🫸🏽	hånd skubber mod højre medium teint	none
+🫸🏾	hånd skubber mod højre medium til mørk teint	none
+🫸🏿	hånd skubber mod højre mørk teint	none
 👌🏻	ok-tegn lys teint	none
 👌🏼	ok-tegn medium til lys teint	none
 👌🏽	ok-tegn medium teint	none
@@ -1725,6 +1939,11 @@ symbols:
 🤞🏽	krydsede fingre medium teint	none
 🤞🏾	krydsede fingre medium til mørk teint	none
 🤞🏿	krydsede fingre mørk teint	none
+🫰🏻	krydset pegefinger og tommelfinger lys teint	none
+🫰🏼	krydset pegefinger og tommelfinger medium til lys teint	none
+🫰🏽	krydset pegefinger og tommelfinger medium teint	none
+🫰🏾	krydset pegefinger og tommelfinger medium til mørk teint	none
+🫰🏿	krydset pegefinger og tommelfinger mørk teint	none
 🤟🏻	elsker dig-gestus lys teint	none
 🤟🏼	elsker dig-gestus medium til lys teint	none
 🤟🏽	elsker dig-gestus medium teint	none
@@ -1770,6 +1989,11 @@ symbols:
 ☝🏽	rækker finger op medium teint	none
 ☝🏾	rækker finger op medium til mørk teint	none
 ☝🏿	rækker finger op mørk teint	none
+🫵🏻	peger på seeren lys teint	none
+🫵🏼	peger på seeren medium til lys teint	none
+🫵🏽	peger på seeren medium teint	none
+🫵🏾	peger på seeren medium til mørk teint	none
+🫵🏿	peger på seeren mørk teint	none
 👍🏻	tommelfinger op lys teint	none
 👍🏼	tommelfinger op medium til lys teint	none
 👍🏽	tommelfinger op medium teint	none
@@ -1810,6 +2034,11 @@ symbols:
 🙌🏽	løftede hænder medium teint	none
 🙌🏾	løftede hænder medium til mørk teint	none
 🙌🏿	løftede hænder mørk teint	none
+🫶🏻	hjertehænder lys teint	none
+🫶🏼	hjertehænder medium til lys teint	none
+🫶🏽	hjertehænder medium teint	none
+🫶🏾	hjertehænder medium til mørk teint	none
+🫶🏿	hjertehænder mørk teint	none
 👐🏻	åbne hænder lys teint	none
 👐🏼	åbne hænder medium til lys teint	none
 👐🏽	åbne hænder medium teint	none
@@ -1820,6 +2049,11 @@ symbols:
 🤲🏽	håndflader samlet og løftet medium teint	none
 🤲🏾	håndflader samlet og løftet medium til mørk teint	none
 🤲🏿	håndflader samlet og løftet mørk teint	none
+🤝🏻	håndtryk lys teint	none
+🤝🏼	håndtryk medium til lys teint	none
+🤝🏽	håndtryk medium teint	none
+🤝🏾	håndtryk medium til mørk teint	none
+🤝🏿	håndtryk mørk teint	none
 🙏🏻	foldede hænder lys teint	none
 🙏🏼	foldede hænder medium til lys teint	none
 🙏🏽	foldede hænder medium teint	none
@@ -1940,6 +2174,26 @@ symbols:
 🧑🏿‍❤‍🧑🏼	par med hjerte voksen, voksen, mørk teint og medium til lys teint	none
 🧑🏿‍❤‍🧑🏽	par med hjerte voksen, voksen, mørk teint og medium teint	none
 🧑🏿‍❤‍🧑🏾	par med hjerte voksen, voksen, mørk teint og medium til mørk teint	none
+🧑🏻‍🫯‍🧑🏼	brydere lys teint og medium til lys teint	none
+🧑🏻‍🫯‍🧑🏽	brydere lys teint og medium teint	none
+🧑🏻‍🫯‍🧑🏾	brydere lys teint og medium til mørk teint	none
+🧑🏻‍🫯‍🧑🏿	brydere lys teint og mørk teint	none
+🧑🏼‍🫯‍🧑🏻	brydere medium til lys teint og lys teint	none
+🧑🏼‍🫯‍🧑🏽	brydere medium til lys teint og medium teint	none
+🧑🏼‍🫯‍🧑🏾	brydere medium til lys teint og medium til mørk teint	none
+🧑🏼‍🫯‍🧑🏿	brydere medium til lys teint og mørk teint	none
+🧑🏽‍🫯‍🧑🏻	brydere medium teint og lys teint	none
+🧑🏽‍🫯‍🧑🏼	brydere medium teint og medium til lys teint	none
+🧑🏽‍🫯‍🧑🏾	brydere medium teint og medium til mørk teint	none
+🧑🏽‍🫯‍🧑🏿	brydere medium teint og mørk teint	none
+🧑🏾‍🫯‍🧑🏻	brydere medium til mørk teint og lys teint	none
+🧑🏾‍🫯‍🧑🏼	brydere medium til mørk teint og medium til lys teint	none
+🧑🏾‍🫯‍🧑🏽	brydere medium til mørk teint og medium teint	none
+🧑🏾‍🫯‍🧑🏿	brydere medium til mørk teint og mørk teint	none
+🧑🏿‍🫯‍🧑🏻	brydere mørk teint og lys teint	none
+🧑🏿‍🫯‍🧑🏼	brydere mørk teint og medium til lys teint	none
+🧑🏿‍🫯‍🧑🏽	brydere mørk teint og medium teint	none
+🧑🏿‍🫯‍🧑🏾	brydere mørk teint og medium til mørk teint	none
 🧑‍🦰	voksen rødt hår	none
 🧑🏻‍🦰	voksen lys teint og rødt hår	none
 🧑🏼‍🦰	voksen medium til lys teint og rødt hår	none
@@ -1964,6 +2218,26 @@ symbols:
 🧑🏽‍🦲	voksen medium teint og skaldet	none
 🧑🏾‍🦲	voksen medium til mørk teint og skaldet	none
 🧑🏿‍🦲	voksen mørk teint og skaldet	none
+🧑🏻‍🐰‍🧑🏼	personer med kaninører lys teint og medium til lys teint	none
+🧑🏻‍🐰‍🧑🏽	personer med kaninører lys teint og medium teint	none
+🧑🏻‍🐰‍🧑🏾	personer med kaninører lys teint og medium til mørk teint	none
+🧑🏻‍🐰‍🧑🏿	personer med kaninører lys teint og mørk teint	none
+🧑🏼‍🐰‍🧑🏻	personer med kaninører medium til lys teint og lys teint	none
+🧑🏼‍🐰‍🧑🏽	personer med kaninører medium til lys teint og medium teint	none
+🧑🏼‍🐰‍🧑🏾	personer med kaninører medium til lys teint og medium til mørk teint	none
+🧑🏼‍🐰‍🧑🏿	personer med kaninører medium til lys teint og mørk teint	none
+🧑🏽‍🐰‍🧑🏻	personer med kaninører medium teint og lys teint	none
+🧑🏽‍🐰‍🧑🏼	personer med kaninører medium teint og medium til lys teint	none
+🧑🏽‍🐰‍🧑🏾	personer med kaninører medium teint og medium til mørk teint	none
+🧑🏽‍🐰‍🧑🏿	personer med kaninører medium teint og mørk teint	none
+🧑🏾‍🐰‍🧑🏻	personer med kaninører medium til mørk teint og lys teint	none
+🧑🏾‍🐰‍🧑🏼	personer med kaninører medium til mørk teint og medium til lys teint	none
+🧑🏾‍🐰‍🧑🏽	personer med kaninører medium til mørk teint og medium teint	none
+🧑🏾‍🐰‍🧑🏿	personer med kaninører medium til mørk teint og mørk teint	none
+🧑🏿‍🐰‍🧑🏻	personer med kaninører mørk teint og lys teint	none
+🧑🏿‍🐰‍🧑🏼	personer med kaninører mørk teint og medium til lys teint	none
+🧑🏿‍🐰‍🧑🏽	personer med kaninører mørk teint og medium teint	none
+🧑🏿‍🐰‍🧑🏾	personer med kaninører mørk teint og medium til mørk teint	none
 👨🏻	mand lys teint	none
 👨🏼	mand medium til lys teint	none
 👨🏽	mand medium teint	none
@@ -2034,6 +2308,26 @@ symbols:
 👨🏿‍❤‍👨🏽	par med hjerte mand, mand, mørk teint og medium teint	none
 👨🏿‍❤‍👨🏾	par med hjerte mand, mand, mørk teint og medium til mørk teint	none
 👨🏿‍❤‍👨🏿	par med hjerte mand, mand og mørk teint	none
+👨🏻‍🫯‍👨🏼	mandlige brydere lys teint og medium til lys teint	none
+👨🏻‍🫯‍👨🏽	mandlige brydere lys teint og medium teint	none
+👨🏻‍🫯‍👨🏾	mandlige brydere lys teint og medium til mørk teint	none
+👨🏻‍🫯‍👨🏿	mandlige brydere lys teint og mørk teint	none
+👨🏼‍🫯‍👨🏻	mandlige brydere medium til lys teint og lys teint	none
+👨🏼‍🫯‍👨🏽	mandlige brydere medium til lys teint og medium teint	none
+👨🏼‍🫯‍👨🏾	mandlige brydere medium til lys teint og medium til mørk teint	none
+👨🏼‍🫯‍👨🏿	mandlige brydere medium til lys teint og mørk teint	none
+👨🏽‍🫯‍👨🏻	mandlige brydere medium teint og lys teint	none
+👨🏽‍🫯‍👨🏼	mandlige brydere medium teint og medium til lys teint	none
+👨🏽‍🫯‍👨🏾	mandlige brydere medium teint og medium til mørk teint	none
+👨🏽‍🫯‍👨🏿	mandlige brydere medium teint og mørk teint	none
+👨🏾‍🫯‍👨🏻	mandlige brydere medium til mørk teint og lys teint	none
+👨🏾‍🫯‍👨🏼	mandlige brydere medium til mørk teint og medium til lys teint	none
+👨🏾‍🫯‍👨🏽	mandlige brydere medium til mørk teint og medium teint	none
+👨🏾‍🫯‍👨🏿	mandlige brydere medium til mørk teint og mørk teint	none
+👨🏿‍🫯‍👨🏻	mandlige brydere mørk teint og lys teint	none
+👨🏿‍🫯‍👨🏼	mandlige brydere mørk teint og medium til lys teint	none
+👨🏿‍🫯‍👨🏽	mandlige brydere mørk teint og medium teint	none
+👨🏿‍🫯‍👨🏾	mandlige brydere mørk teint og medium til mørk teint	none
 👨‍🦰	mand rødt hår	none
 👨🏻‍🦰	mand lys teint og rødt hår	none
 👨🏼‍🦰	mand medium til lys teint og rødt hår	none
@@ -2058,6 +2352,26 @@ symbols:
 👨🏽‍🦲	mand medium teint og skaldet	none
 👨🏾‍🦲	mand medium til mørk teint og skaldet	none
 👨🏿‍🦲	mand mørk teint og skaldet	none
+👨🏻‍🐰‍👨🏼	mænd med kaninører lys teint og medium til lys teint	none
+👨🏻‍🐰‍👨🏽	mænd med kaninører lys teint og medium teint	none
+👨🏻‍🐰‍👨🏾	mænd med kaninører lys teint og medium til mørk teint	none
+👨🏻‍🐰‍👨🏿	mænd med kaninører lys teint og mørk teint	none
+👨🏼‍🐰‍👨🏻	mænd med kaninører medium til lys teint og lys teint	none
+👨🏼‍🐰‍👨🏽	mænd med kaninører medium til lys teint og medium teint	none
+👨🏼‍🐰‍👨🏾	mænd med kaninører medium til lys teint og medium til mørk teint	none
+👨🏼‍🐰‍👨🏿	mænd med kaninører medium til lys teint og mørk teint	none
+👨🏽‍🐰‍👨🏻	mænd med kaninører medium teint og lys teint	none
+👨🏽‍🐰‍👨🏼	mænd med kaninører medium teint og medium til lys teint	none
+👨🏽‍🐰‍👨🏾	mænd med kaninører medium teint og medium til mørk teint	none
+👨🏽‍🐰‍👨🏿	mænd med kaninører medium teint og mørk teint	none
+👨🏾‍🐰‍👨🏻	mænd med kaninører medium til mørk teint og lys teint	none
+👨🏾‍🐰‍👨🏼	mænd med kaninører medium til mørk teint og medium til lys teint	none
+👨🏾‍🐰‍👨🏽	mænd med kaninører medium til mørk teint og medium teint	none
+👨🏾‍🐰‍👨🏿	mænd med kaninører medium til mørk teint og mørk teint	none
+👨🏿‍🐰‍👨🏻	mænd med kaninører mørk teint og lys teint	none
+👨🏿‍🐰‍👨🏼	mænd med kaninører mørk teint og medium til lys teint	none
+👨🏿‍🐰‍👨🏽	mænd med kaninører mørk teint og medium teint	none
+👨🏿‍🐰‍👨🏾	mænd med kaninører mørk teint og medium til mørk teint	none
 👩🏻	kvinde lys teint	none
 👩🏼	kvinde medium til lys teint	none
 👩🏽	kvinde medium teint	none
@@ -2173,6 +2487,26 @@ symbols:
 👩🏿‍❤‍👩🏽	par med hjerte kvinde, kvinde, mørk teint og medium teint	none
 👩🏿‍❤‍👩🏾	par med hjerte kvinde, kvinde, mørk teint og medium til mørk teint	none
 👩🏿‍❤‍👩🏿	par med hjerte kvinde, kvinde og mørk teint	none
+👩🏻‍🫯‍👩🏼	kvindelige brydere lys teint og medium til lys teint	none
+👩🏻‍🫯‍👩🏽	kvindelige brydere lys teint og medium teint	none
+👩🏻‍🫯‍👩🏾	kvindelige brydere lys teint og medium til mørk teint	none
+👩🏻‍🫯‍👩🏿	kvindelige brydere lys teint og mørk teint	none
+👩🏼‍🫯‍👩🏻	kvindelige brydere medium til lys teint og lys teint	none
+👩🏼‍🫯‍👩🏽	kvindelige brydere medium til lys teint og medium teint	none
+👩🏼‍🫯‍👩🏾	kvindelige brydere medium til lys teint og medium til mørk teint	none
+👩🏼‍🫯‍👩🏿	kvindelige brydere medium til lys teint og mørk teint	none
+👩🏽‍🫯‍👩🏻	kvindelige brydere medium teint og lys teint	none
+👩🏽‍🫯‍👩🏼	kvindelige brydere medium teint og medium til lys teint	none
+👩🏽‍🫯‍👩🏾	kvindelige brydere medium teint og medium til mørk teint	none
+👩🏽‍🫯‍👩🏿	kvindelige brydere medium teint og mørk teint	none
+👩🏾‍🫯‍👩🏻	kvindelige brydere medium til mørk teint og lys teint	none
+👩🏾‍🫯‍👩🏼	kvindelige brydere medium til mørk teint og medium til lys teint	none
+👩🏾‍🫯‍👩🏽	kvindelige brydere medium til mørk teint og medium teint	none
+👩🏾‍🫯‍👩🏿	kvindelige brydere medium til mørk teint og mørk teint	none
+👩🏿‍🫯‍👩🏻	kvindelige brydere mørk teint og lys teint	none
+👩🏿‍🫯‍👩🏼	kvindelige brydere mørk teint og medium til lys teint	none
+👩🏿‍🫯‍👩🏽	kvindelige brydere mørk teint og medium teint	none
+👩🏿‍🫯‍👩🏾	kvindelige brydere mørk teint og medium til mørk teint	none
 👩‍🦰	kvinde rødt hår	none
 👩🏻‍🦰	kvinde lys teint og rødt hår	none
 👩🏼‍🦰	kvinde medium til lys teint og rødt hår	none
@@ -2197,11 +2531,31 @@ symbols:
 👩🏽‍🦲	kvinde medium teint og skaldet	none
 👩🏾‍🦲	kvinde medium til mørk teint og skaldet	none
 👩🏿‍🦲	kvinde mørk teint og skaldet	none
-🧓🏻	gammel person lys teint	none
-🧓🏼	gammel person medium til lys teint	none
-🧓🏽	gammel person medium teint	none
-🧓🏾	gammel person medium til mørk teint	none
-🧓🏿	gammel person mørk teint	none
+👩🏻‍🐰‍👩🏼	kvinder med kaninører lys teint og medium til lys teint	none
+👩🏻‍🐰‍👩🏽	kvinder med kaninører lys teint og medium teint	none
+👩🏻‍🐰‍👩🏾	kvinder med kaninører lys teint og medium til mørk teint	none
+👩🏻‍🐰‍👩🏿	kvinder med kaninører lys teint og mørk teint	none
+👩🏼‍🐰‍👩🏻	kvinder med kaninører medium til lys teint og lys teint	none
+👩🏼‍🐰‍👩🏽	kvinder med kaninører medium til lys teint og medium teint	none
+👩🏼‍🐰‍👩🏾	kvinder med kaninører medium til lys teint og medium til mørk teint	none
+👩🏼‍🐰‍👩🏿	kvinder med kaninører medium til lys teint og mørk teint	none
+👩🏽‍🐰‍👩🏻	kvinder med kaninører medium teint og lys teint	none
+👩🏽‍🐰‍👩🏼	kvinder med kaninører medium teint og medium til lys teint	none
+👩🏽‍🐰‍👩🏾	kvinder med kaninører medium teint og medium til mørk teint	none
+👩🏽‍🐰‍👩🏿	kvinder med kaninører medium teint og mørk teint	none
+👩🏾‍🐰‍👩🏻	kvinder med kaninører medium til mørk teint og lys teint	none
+👩🏾‍🐰‍👩🏼	kvinder med kaninører medium til mørk teint og medium til lys teint	none
+👩🏾‍🐰‍👩🏽	kvinder med kaninører medium til mørk teint og medium teint	none
+👩🏾‍🐰‍👩🏿	kvinder med kaninører medium til mørk teint og mørk teint	none
+👩🏿‍🐰‍👩🏻	kvinder med kaninører mørk teint og lys teint	none
+👩🏿‍🐰‍👩🏼	kvinder med kaninører mørk teint og medium til lys teint	none
+👩🏿‍🐰‍👩🏽	kvinder med kaninører mørk teint og medium teint	none
+👩🏿‍🐰‍👩🏾	kvinder med kaninører mørk teint og medium til mørk teint	none
+🧓🏻	ældre menneske lys teint	none
+🧓🏼	ældre menneske medium til lys teint	none
+🧓🏽	ældre menneske medium teint	none
+🧓🏾	ældre menneske medium til mørk teint	none
+🧓🏿	ældre menneske mørk teint	none
 👴🏻	gammel mand lys teint	none
 👴🏼	gammel mand medium til lys teint	none
 👴🏽	gammel mand medium teint	none
@@ -2317,11 +2671,11 @@ symbols:
 🧏🏽‍♀	døv kvinde medium teint	none
 🧏🏾‍♀	døv kvinde medium til mørk teint	none
 🧏🏿‍♀	døv kvinde mørk teint	none
-🙇🏻	bukker lys teint	none
-🙇🏼	bukker medium til lys teint	none
-🙇🏽	bukker medium teint	none
-🙇🏾	bukker medium til mørk teint	none
-🙇🏿	bukker mørk teint	none
+🙇🏻	person bukker dybt lys teint	none
+🙇🏼	person bukker dybt medium til lys teint	none
+🙇🏽	person bukker dybt medium teint	none
+🙇🏾	person bukker dybt medium til mørk teint	none
+🙇🏿	person bukker dybt mørk teint	none
 🙇🏻‍♂	mand bukker dybt lys teint	none
 🙇🏼‍♂	mand bukker dybt medium til lys teint	none
 🙇🏽‍♂	mand bukker dybt medium teint	none
@@ -2482,11 +2836,11 @@ symbols:
 👩🏽‍🏭	kvindelig fabriksarbejder medium teint	none
 👩🏾‍🏭	kvindelig fabriksarbejder medium til mørk teint	none
 👩🏿‍🏭	kvindelig fabriksarbejder mørk teint	none
-🧑🏻‍💼	kontormedarbejder lys teint	none
-🧑🏼‍💼	kontormedarbejder medium til lys teint	none
-🧑🏽‍💼	kontormedarbejder medium teint	none
-🧑🏾‍💼	kontormedarbejder medium til mørk teint	none
-🧑🏿‍💼	kontormedarbejder mørk teint	none
+🧑🏻‍💼	kontoransat lys teint	none
+🧑🏼‍💼	kontoransat medium til lys teint	none
+🧑🏽‍💼	kontoransat medium teint	none
+🧑🏾‍💼	kontoransat medium til mørk teint	none
+🧑🏿‍💼	kontoransat mørk teint	none
 👨🏻‍💼	mandlig kontoransat lys teint	none
 👨🏼‍💼	mandlig kontoransat medium til lys teint	none
 👨🏽‍💼	mandlig kontoransat medium teint	none
@@ -2497,11 +2851,11 @@ symbols:
 👩🏽‍💼	kvindelig kontoransat medium teint	none
 👩🏾‍💼	kvindelig kontoransat medium til mørk teint	none
 👩🏿‍💼	kvindelig kontoransat mørk teint	none
-🧑🏻‍🔬	videnskabsmand lys teint	none
-🧑🏼‍🔬	videnskabsmand medium til lys teint	none
-🧑🏽‍🔬	videnskabsmand medium teint	none
-🧑🏾‍🔬	videnskabsmand medium til mørk teint	none
-🧑🏿‍🔬	videnskabsmand mørk teint	none
+🧑🏻‍🔬	forsker lys teint	none
+🧑🏼‍🔬	forsker medium til lys teint	none
+🧑🏽‍🔬	forsker medium teint	none
+🧑🏾‍🔬	forsker medium til mørk teint	none
+🧑🏿‍🔬	forsker mørk teint	none
 👨🏻‍🔬	mandlig forsker lys teint	none
 👨🏼‍🔬	mandlig forsker medium til lys teint	none
 👨🏽‍🔬	mandlig forsker medium teint	none
@@ -2527,16 +2881,16 @@ symbols:
 👩🏽‍💻	kvindelig IT-medarbejder medium teint	none
 👩🏾‍💻	kvindelig IT-medarbejder medium til mørk teint	none
 👩🏿‍💻	kvindelig IT-medarbejder mørk teint	none
-🧑🏻‍🎤	sangsolist lys teint	none
-🧑🏼‍🎤	sangsolist medium til lys teint	none
-🧑🏽‍🎤	sangsolist medium teint	none
-🧑🏾‍🎤	sangsolist medium til mørk teint	none
-🧑🏿‍🎤	sangsolist mørk teint	none
-👨🏻‍🎤	sanger lys teint	none
-👨🏼‍🎤	sanger medium til lys teint	none
-👨🏽‍🎤	sanger medium teint	none
-👨🏾‍🎤	sanger medium til mørk teint	none
-👨🏿‍🎤	sanger mørk teint	none
+🧑🏻‍🎤	sanger lys teint	none
+🧑🏼‍🎤	sanger medium til lys teint	none
+🧑🏽‍🎤	sanger medium teint	none
+🧑🏾‍🎤	sanger medium til mørk teint	none
+🧑🏿‍🎤	sanger mørk teint	none
+👨🏻‍🎤	mandlig sanger lys teint	none
+👨🏼‍🎤	mandlig sanger medium til lys teint	none
+👨🏽‍🎤	mandlig sanger medium teint	none
+👨🏾‍🎤	mandlig sanger medium til mørk teint	none
+👨🏿‍🎤	mandlig sanger mørk teint	none
 👩🏻‍🎤	sangerinde lys teint	none
 👩🏼‍🎤	sangerinde medium til lys teint	none
 👩🏽‍🎤	sangerinde medium teint	none
@@ -2667,6 +3021,11 @@ symbols:
 👷🏽‍♀	kvindelig bygningsarbejder medium teint	none
 👷🏾‍♀	kvindelig bygningsarbejder medium til mørk teint	none
 👷🏿‍♀	kvindelig bygningsarbejder mørk teint	none
+🫅🏻	person med krone lys teint	none
+🫅🏼	person med krone medium til lys teint	none
+🫅🏽	person med krone medium teint	none
+🫅🏾	person med krone medium til mørk teint	none
+🫅🏿	person med krone mørk teint	none
 🤴🏻	prins lys teint	none
 🤴🏼	prins medium til lys teint	none
 🤴🏽	prins medium teint	none
@@ -2737,6 +3096,16 @@ symbols:
 🤰🏽	gravid kvinde medium teint	none
 🤰🏾	gravid kvinde medium til mørk teint	none
 🤰🏿	gravid kvinde mørk teint	none
+🫃🏻	gravid mand lys teint	none
+🫃🏼	gravid mand medium til lys teint	none
+🫃🏽	gravid mand medium teint	none
+🫃🏾	gravid mand medium til mørk teint	none
+🫃🏿	gravid mand mørk teint	none
+🫄🏻	gravid person lys teint	none
+🫄🏼	gravid person medium til lys teint	none
+🫄🏽	gravid person medium teint	none
+🫄🏾	gravid person medium til mørk teint	none
+🫄🏿	gravid person mørk teint	none
 🤱🏻	kvinde, der ammer lys teint	none
 🤱🏼	kvinde, der ammer medium til lys teint	none
 🤱🏽	kvinde, der ammer medium teint	none
@@ -2927,6 +3296,24 @@ symbols:
 🚶🏽‍♀	kvinde går medium teint	none
 🚶🏾‍♀	kvinde går medium til mørk teint	none
 🚶🏿‍♀	kvinde går mørk teint	none
+🚶‍➡	fodgænger mod højre	none
+🚶🏻‍➡	fodgænger lys teint og mod højre	none
+🚶🏼‍➡	fodgænger medium til lys teint og mod højre	none
+🚶🏽‍➡	fodgænger medium teint og mod højre	none
+🚶🏾‍➡	fodgænger medium til mørk teint og mod højre	none
+🚶🏿‍➡	fodgænger mørk teint og mod højre	none
+🚶‍♀‍➡	kvinde går mod højre	none
+🚶🏻‍♀‍➡	kvinde går lys teint og mod højre	none
+🚶🏼‍♀‍➡	kvinde går medium til lys teint og mod højre	none
+🚶🏽‍♀‍➡	kvinde går medium teint og mod højre	none
+🚶🏾‍♀‍➡	kvinde går medium til mørk teint og mod højre	none
+🚶🏿‍♀‍➡	kvinde går mørk teint og mod højre	none
+🚶‍♂‍➡	mand går mod højre	none
+🚶🏻‍♂‍➡	mand går lys teint og mod højre	none
+🚶🏼‍♂‍➡	mand går medium til lys teint og mod højre	none
+🚶🏽‍♂‍➡	mand går medium teint og mod højre	none
+🚶🏾‍♂‍➡	mand går medium til mørk teint og mod højre	none
+🚶🏿‍♂‍➡	mand går mørk teint og mod højre	none
 🧍🏻	stående person lys teint	none
 🧍🏼	stående person medium til lys teint	none
 🧍🏽	stående person medium teint	none
@@ -2957,51 +3344,123 @@ symbols:
 🧎🏽‍♀	knælende kvinde medium teint	none
 🧎🏾‍♀	knælende kvinde medium til mørk teint	none
 🧎🏿‍♀	knælende kvinde mørk teint	none
+🧎‍➡	knælende person mod højre	none
+🧎🏻‍➡	knælende person lys teint og mod højre	none
+🧎🏼‍➡	knælende person medium til lys teint og mod højre	none
+🧎🏽‍➡	knælende person medium teint og mod højre	none
+🧎🏾‍➡	knælende person medium til mørk teint og mod højre	none
+🧎🏿‍➡	knælende person mørk teint og mod højre	none
+🧎‍♀‍➡	knælende kvinde mod højre	none
+🧎🏻‍♀‍➡	knælende kvinde lys teint og mod højre	none
+🧎🏼‍♀‍➡	knælende kvinde medium til lys teint og mod højre	none
+🧎🏽‍♀‍➡	knælende kvinde medium teint og mod højre	none
+🧎🏾‍♀‍➡	knælende kvinde medium til mørk teint og mod højre	none
+🧎🏿‍♀‍➡	knælende kvinde mørk teint og mod højre	none
+🧎‍♂‍➡	knælende mand mod højre	none
+🧎🏻‍♂‍➡	knælende mand lys teint og mod højre	none
+🧎🏼‍♂‍➡	knælende mand medium til lys teint og mod højre	none
+🧎🏽‍♂‍➡	knælende mand medium teint og mod højre	none
+🧎🏾‍♂‍➡	knælende mand medium til mørk teint og mod højre	none
+🧎🏿‍♂‍➡	knælende mand mørk teint og mod højre	none
 🧑🏻‍🦯	person med blindestok lys teint	none
 🧑🏼‍🦯	person med blindestok medium til lys teint	none
 🧑🏽‍🦯	person med blindestok medium teint	none
 🧑🏾‍🦯	person med blindestok medium til mørk teint	none
 🧑🏿‍🦯	person med blindestok mørk teint	none
+🧑‍🦯‍➡	person med blindestok mod højre	none
+🧑🏻‍🦯‍➡	person med blindestok lys teint og mod højre	none
+🧑🏼‍🦯‍➡	person med blindestok medium til lys teint og mod højre	none
+🧑🏽‍🦯‍➡	person med blindestok medium teint og mod højre	none
+🧑🏾‍🦯‍➡	person med blindestok medium til mørk teint og mod højre	none
+🧑🏿‍🦯‍➡	person med blindestok mørk teint og mod højre	none
 👨🏻‍🦯	mand med blindestok lys teint	none
 👨🏼‍🦯	mand med blindestok medium til lys teint	none
 👨🏽‍🦯	mand med blindestok medium teint	none
 👨🏾‍🦯	mand med blindestok medium til mørk teint	none
 👨🏿‍🦯	mand med blindestok mørk teint	none
+👨‍🦯‍➡	mand med blindestok mod højre	none
+👨🏻‍🦯‍➡	mand med blindestok lys teint og mod højre	none
+👨🏼‍🦯‍➡	mand med blindestok medium til lys teint og mod højre	none
+👨🏽‍🦯‍➡	mand med blindestok medium teint og mod højre	none
+👨🏾‍🦯‍➡	mand med blindestok medium til mørk teint og mod højre	none
+👨🏿‍🦯‍➡	mand med blindestok mørk teint og mod højre	none
 👩🏻‍🦯	kvinde med blindestok lys teint	none
 👩🏼‍🦯	kvinde med blindestok medium til lys teint	none
 👩🏽‍🦯	kvinde med blindestok medium teint	none
 👩🏾‍🦯	kvinde med blindestok medium til mørk teint	none
 👩🏿‍🦯	kvinde med blindestok mørk teint	none
+👩‍🦯‍➡	kvinde med blindestok mod højre	none
+👩🏻‍🦯‍➡	kvinde med blindestok lys teint og mod højre	none
+👩🏼‍🦯‍➡	kvinde med blindestok medium til lys teint og mod højre	none
+👩🏽‍🦯‍➡	kvinde med blindestok medium teint og mod højre	none
+👩🏾‍🦯‍➡	kvinde med blindestok medium til mørk teint og mod højre	none
+👩🏿‍🦯‍➡	kvinde med blindestok mørk teint og mod højre	none
 🧑🏻‍🦼	person i elkørestol lys teint	none
 🧑🏼‍🦼	person i elkørestol medium til lys teint	none
 🧑🏽‍🦼	person i elkørestol medium teint	none
 🧑🏾‍🦼	person i elkørestol medium til mørk teint	none
 🧑🏿‍🦼	person i elkørestol mørk teint	none
+🧑‍🦼‍➡	person i elkørestol mod højre	none
+🧑🏻‍🦼‍➡	person i elkørestol lys teint og mod højre	none
+🧑🏼‍🦼‍➡	person i elkørestol medium til lys teint og mod højre	none
+🧑🏽‍🦼‍➡	person i elkørestol medium teint og mod højre	none
+🧑🏾‍🦼‍➡	person i elkørestol medium til mørk teint og mod højre	none
+🧑🏿‍🦼‍➡	person i elkørestol mørk teint og mod højre	none
 👨🏻‍🦼	mand i elektrisk kørestol lys teint	none
 👨🏼‍🦼	mand i elektrisk kørestol medium til lys teint	none
 👨🏽‍🦼	mand i elektrisk kørestol medium teint	none
 👨🏾‍🦼	mand i elektrisk kørestol medium til mørk teint	none
 👨🏿‍🦼	mand i elektrisk kørestol mørk teint	none
+👨‍🦼‍➡	mand i elektrisk kørestol mod højre	none
+👨🏻‍🦼‍➡	mand i elektrisk kørestol lys teint og mod højre	none
+👨🏼‍🦼‍➡	mand i elektrisk kørestol medium til lys teint og mod højre	none
+👨🏽‍🦼‍➡	mand i elektrisk kørestol medium teint og mod højre	none
+👨🏾‍🦼‍➡	mand i elektrisk kørestol medium til mørk teint og mod højre	none
+👨🏿‍🦼‍➡	mand i elektrisk kørestol mørk teint og mod højre	none
 👩🏻‍🦼	kvinde i elektrisk kørestol lys teint	none
 👩🏼‍🦼	kvinde i elektrisk kørestol medium til lys teint	none
 👩🏽‍🦼	kvinde i elektrisk kørestol medium teint	none
 👩🏾‍🦼	kvinde i elektrisk kørestol medium til mørk teint	none
 👩🏿‍🦼	kvinde i elektrisk kørestol mørk teint	none
+👩‍🦼‍➡	kvinde i elektrisk kørestol mod højre	none
+👩🏻‍🦼‍➡	kvinde i elektrisk kørestol lys teint og mod højre	none
+👩🏼‍🦼‍➡	kvinde i elektrisk kørestol medium til lys teint og mod højre	none
+👩🏽‍🦼‍➡	kvinde i elektrisk kørestol medium teint og mod højre	none
+👩🏾‍🦼‍➡	kvinde i elektrisk kørestol medium til mørk teint og mod højre	none
+👩🏿‍🦼‍➡	kvinde i elektrisk kørestol mørk teint og mod højre	none
 🧑🏻‍🦽	person i manuel kørestol lys teint	none
 🧑🏼‍🦽	person i manuel kørestol medium til lys teint	none
 🧑🏽‍🦽	person i manuel kørestol medium teint	none
 🧑🏾‍🦽	person i manuel kørestol medium til mørk teint	none
 🧑🏿‍🦽	person i manuel kørestol mørk teint	none
+🧑‍🦽‍➡	person i manuel kørestol mod højre	none
+🧑🏻‍🦽‍➡	person i manuel kørestol lys teint og mod højre	none
+🧑🏼‍🦽‍➡	person i manuel kørestol medium til lys teint og mod højre	none
+🧑🏽‍🦽‍➡	person i manuel kørestol medium teint og mod højre	none
+🧑🏾‍🦽‍➡	person i manuel kørestol medium til mørk teint og mod højre	none
+🧑🏿‍🦽‍➡	person i manuel kørestol mørk teint og mod højre	none
 👨🏻‍🦽	mand i manuel kørestol lys teint	none
 👨🏼‍🦽	mand i manuel kørestol medium til lys teint	none
 👨🏽‍🦽	mand i manuel kørestol medium teint	none
 👨🏾‍🦽	mand i manuel kørestol medium til mørk teint	none
 👨🏿‍🦽	mand i manuel kørestol mørk teint	none
+👨‍🦽‍➡	mand i manuel kørestol mod højre	none
+👨🏻‍🦽‍➡	mand i manuel kørestol lys teint og mod højre	none
+👨🏼‍🦽‍➡	mand i manuel kørestol medium til lys teint og mod højre	none
+👨🏽‍🦽‍➡	mand i manuel kørestol medium teint og mod højre	none
+👨🏾‍🦽‍➡	mand i manuel kørestol medium til mørk teint og mod højre	none
+👨🏿‍🦽‍➡	mand i manuel kørestol mørk teint og mod højre	none
 👩🏻‍🦽	kvinde i manuel kørestol lys teint	none
 👩🏼‍🦽	kvinde i manuel kørestol medium til lys teint	none
 👩🏽‍🦽	kvinde i manuel kørestol medium teint	none
 👩🏾‍🦽	kvinde i manuel kørestol medium til mørk teint	none
 👩🏿‍🦽	kvinde i manuel kørestol mørk teint	none
+👩‍🦽‍➡	kvinde i manuel kørestol mod højre	none
+👩🏻‍🦽‍➡	kvinde i manuel kørestol lys teint og mod højre	none
+👩🏼‍🦽‍➡	kvinde i manuel kørestol medium til lys teint og mod højre	none
+👩🏽‍🦽‍➡	kvinde i manuel kørestol medium teint og mod højre	none
+👩🏾‍🦽‍➡	kvinde i manuel kørestol medium til mørk teint og mod højre	none
+👩🏿‍🦽‍➡	kvinde i manuel kørestol mørk teint og mod højre	none
 🏃🏻	løber lys teint	none
 🏃🏼	løber medium til lys teint	none
 🏃🏽	løber medium teint	none
@@ -3017,6 +3476,29 @@ symbols:
 🏃🏽‍♀	kvinde løber medium teint	none
 🏃🏾‍♀	kvinde løber medium til mørk teint	none
 🏃🏿‍♀	kvinde løber mørk teint	none
+🏃‍➡	løber mod højre	none
+🏃🏻‍➡	løber lys teint og mod højre	none
+🏃🏼‍➡	løber medium til lys teint og mod højre	none
+🏃🏽‍➡	løber medium teint og mod højre	none
+🏃🏾‍➡	løber medium til mørk teint og mod højre	none
+🏃🏿‍➡	løber mørk teint og mod højre	none
+🏃‍♀‍➡	kvinde løber mod højre	none
+🏃🏻‍♀‍➡	kvinde løber lys teint og mod højre	none
+🏃🏼‍♀‍➡	kvinde løber medium til lys teint og mod højre	none
+🏃🏽‍♀‍➡	kvinde løber medium teint og mod højre	none
+🏃🏾‍♀‍➡	kvinde løber medium til mørk teint og mod højre	none
+🏃🏿‍♀‍➡	kvinde løber mørk teint og mod højre	none
+🏃‍♂‍➡	mand løber mod højre	none
+🏃🏻‍♂‍➡	mand løber lys teint og mod højre	none
+🏃🏼‍♂‍➡	mand løber medium til lys teint og mod højre	none
+🏃🏽‍♂‍➡	mand løber medium teint og mod højre	none
+🏃🏾‍♂‍➡	mand løber medium til mørk teint og mod højre	none
+🏃🏿‍♂‍➡	mand løber mørk teint og mod højre	none
+🧑🏻‍🩰	balletdanser lys teint	none
+🧑🏼‍🩰	balletdanser medium til lys teint	none
+🧑🏽‍🩰	balletdanser medium teint	none
+🧑🏾‍🩰	balletdanser medium til mørk teint	none
+🧑🏿‍🩰	balletdanser mørk teint	none
 💃🏻	danser lys teint	none
 💃🏼	danser medium til lys teint	none
 💃🏽	danser medium teint	none
@@ -3032,6 +3514,21 @@ symbols:
 🕴🏽	svævende forretningsmand medium teint	none
 🕴🏾	svævende forretningsmand medium til mørk teint	none
 🕴🏿	svævende forretningsmand mørk teint	none
+👯🏻	personer med kaninører lys teint	none
+👯🏼	personer med kaninører medium til lys teint	none
+👯🏽	personer med kaninører medium teint	none
+👯🏾	personer med kaninører medium til mørk teint	none
+👯🏿	personer med kaninører mørk teint	none
+👯🏻‍♂	mænd med kaninører lys teint	none
+👯🏼‍♂	mænd med kaninører medium til lys teint	none
+👯🏽‍♂	mænd med kaninører medium teint	none
+👯🏾‍♂	mænd med kaninører medium til mørk teint	none
+👯🏿‍♂	mænd med kaninører mørk teint	none
+👯🏻‍♀	kvinder med kaninører lys teint	none
+👯🏼‍♀	kvinder med kaninører medium til lys teint	none
+👯🏽‍♀	kvinder med kaninører medium teint	none
+👯🏾‍♀	kvinder med kaninører medium til mørk teint	none
+👯🏿‍♀	kvinder med kaninører mørk teint	none
 🧖🏻	person i dampbad lys teint	none
 🧖🏼	person i dampbad medium til lys teint	none
 🧖🏽	person i dampbad medium teint	none
@@ -3207,6 +3704,21 @@ symbols:
 🤸🏽‍♀	kvinde slår vejrmøller medium teint	none
 🤸🏾‍♀	kvinde slår vejrmøller medium til mørk teint	none
 🤸🏿‍♀	kvinde slår vejrmøller mørk teint	none
+🤼🏻	brydere lys teint	none
+🤼🏼	brydere medium til lys teint	none
+🤼🏽	brydere medium teint	none
+🤼🏾	brydere medium til mørk teint	none
+🤼🏿	brydere mørk teint	none
+🤼🏻‍♂	mandlige brydere lys teint	none
+🤼🏼‍♂	mandlige brydere medium til lys teint	none
+🤼🏽‍♂	mandlige brydere medium teint	none
+🤼🏾‍♂	mandlige brydere medium til mørk teint	none
+🤼🏿‍♂	mandlige brydere mørk teint	none
+🤼🏻‍♀	kvindelige brydere lys teint	none
+🤼🏼‍♀	kvindelige brydere medium til lys teint	none
+🤼🏽‍♀	kvindelige brydere medium teint	none
+🤼🏾‍♀	kvindelige brydere medium til mørk teint	none
+🤼🏿‍♀	kvindelige brydere mørk teint	none
 🤽🏻	vandpolospiller lys teint	none
 🤽🏼	vandpolospiller medium til lys teint	none
 🤽🏽	vandpolospiller medium teint	none
@@ -3277,31 +3789,31 @@ symbols:
 🛌🏽	person i seng medium teint	none
 🛌🏾	person i seng medium til mørk teint	none
 🛌🏿	person i seng mørk teint	none
-🧑🏻‍🤝‍🧑🏻	mennesker, der holder hånd lys teint	none
-🧑🏻‍🤝‍🧑🏼	mennesker, der holder hånd lys teint og medium til lys teint	none
-🧑🏻‍🤝‍🧑🏽	mennesker, der holder hånd lys teint og medium teint	none
-🧑🏻‍🤝‍🧑🏾	mennesker, der holder hånd lys teint og medium til mørk teint	none
-🧑🏻‍🤝‍🧑🏿	mennesker, der holder hånd lys teint og mørk teint	none
-🧑🏼‍🤝‍🧑🏻	mennesker, der holder hånd medium til lys teint og lys teint	none
-🧑🏼‍🤝‍🧑🏼	mennesker, der holder hånd medium til lys teint	none
-🧑🏼‍🤝‍🧑🏽	mennesker, der holder hånd medium til lys teint og medium teint	none
-🧑🏼‍🤝‍🧑🏾	mennesker, der holder hånd medium til lys teint og medium til mørk teint	none
-🧑🏼‍🤝‍🧑🏿	mennesker, der holder hånd medium til lys teint og mørk teint	none
-🧑🏽‍🤝‍🧑🏻	mennesker, der holder hånd medium teint og lys teint	none
-🧑🏽‍🤝‍🧑🏼	mennesker, der holder hånd medium teint og medium til lys teint	none
-🧑🏽‍🤝‍🧑🏽	mennesker, der holder hånd medium teint	none
-🧑🏽‍🤝‍🧑🏾	mennesker, der holder hånd medium teint og medium til mørk teint	none
-🧑🏽‍🤝‍🧑🏿	mennesker, der holder hånd medium teint og mørk teint	none
-🧑🏾‍🤝‍🧑🏻	mennesker, der holder hånd medium til mørk teint og lys teint	none
-🧑🏾‍🤝‍🧑🏼	mennesker, der holder hånd medium til mørk teint og medium til lys teint	none
-🧑🏾‍🤝‍🧑🏽	mennesker, der holder hånd medium til mørk teint og medium teint	none
-🧑🏾‍🤝‍🧑🏾	mennesker, der holder hånd medium til mørk teint	none
-🧑🏾‍🤝‍🧑🏿	mennesker, der holder hånd medium til mørk teint og mørk teint	none
-🧑🏿‍🤝‍🧑🏻	mennesker, der holder hånd mørk teint og lys teint	none
-🧑🏿‍🤝‍🧑🏼	mennesker, der holder hånd mørk teint og medium til lys teint	none
-🧑🏿‍🤝‍🧑🏽	mennesker, der holder hånd mørk teint og medium teint	none
-🧑🏿‍🤝‍🧑🏾	mennesker, der holder hånd mørk teint og medium til mørk teint	none
-🧑🏿‍🤝‍🧑🏿	mennesker, der holder hånd mørk teint	none
+🧑🏻‍🤝‍🧑🏻	personer hånd i hånd lys teint	none
+🧑🏻‍🤝‍🧑🏼	personer hånd i hånd lys teint og medium til lys teint	none
+🧑🏻‍🤝‍🧑🏽	personer hånd i hånd lys teint og medium teint	none
+🧑🏻‍🤝‍🧑🏾	personer hånd i hånd lys teint og medium til mørk teint	none
+🧑🏻‍🤝‍🧑🏿	personer hånd i hånd lys teint og mørk teint	none
+🧑🏼‍🤝‍🧑🏻	personer hånd i hånd medium til lys teint og lys teint	none
+🧑🏼‍🤝‍🧑🏼	personer hånd i hånd medium til lys teint	none
+🧑🏼‍🤝‍🧑🏽	personer hånd i hånd medium til lys teint og medium teint	none
+🧑🏼‍🤝‍🧑🏾	personer hånd i hånd medium til lys teint og medium til mørk teint	none
+🧑🏼‍🤝‍🧑🏿	personer hånd i hånd medium til lys teint og mørk teint	none
+🧑🏽‍🤝‍🧑🏻	personer hånd i hånd medium teint og lys teint	none
+🧑🏽‍🤝‍🧑🏼	personer hånd i hånd medium teint og medium til lys teint	none
+🧑🏽‍🤝‍🧑🏽	personer hånd i hånd medium teint	none
+🧑🏽‍🤝‍🧑🏾	personer hånd i hånd medium teint og medium til mørk teint	none
+🧑🏽‍🤝‍🧑🏿	personer hånd i hånd medium teint og mørk teint	none
+🧑🏾‍🤝‍🧑🏻	personer hånd i hånd medium til mørk teint og lys teint	none
+🧑🏾‍🤝‍🧑🏼	personer hånd i hånd medium til mørk teint og medium til lys teint	none
+🧑🏾‍🤝‍🧑🏽	personer hånd i hånd medium til mørk teint og medium teint	none
+🧑🏾‍🤝‍🧑🏾	personer hånd i hånd medium til mørk teint	none
+🧑🏾‍🤝‍🧑🏿	personer hånd i hånd medium til mørk teint og mørk teint	none
+🧑🏿‍🤝‍🧑🏻	personer hånd i hånd mørk teint og lys teint	none
+🧑🏿‍🤝‍🧑🏼	personer hånd i hånd mørk teint og medium til lys teint	none
+🧑🏿‍🤝‍🧑🏽	personer hånd i hånd mørk teint og medium teint	none
+🧑🏿‍🤝‍🧑🏾	personer hånd i hånd mørk teint og medium til mørk teint	none
+🧑🏿‍🤝‍🧑🏿	personer hånd i hånd mørk teint	none
 👭🏻	to kvinder hånd i hånd lys teint	none
 👩🏻‍🤝‍👩🏼	to kvinder hånd i hånd lys teint og medium til lys teint	none
 👩🏻‍🤝‍👩🏽	to kvinder hånd i hånd lys teint og medium teint	none
@@ -3418,271 +3930,8 @@ symbols:
 👩‍👧	familie kvinde og pige	none
 👩‍👧‍👦	familie kvinde, pige og dreng	none
 👩‍👧‍👧	familie kvinde, pige og pige	none
-🔟	keycap 10	none
-🇦🇨	flag Ascensionøen	none
-🇦🇩	flag Andorra	none
-🇦🇪	flag De Forenede Arabiske Emirater	none
-🇦🇫	flag Afghanistan	none
-🇦🇬	flag Antigua og Barbuda	none
-🇦🇮	flag Anguilla	none
-🇦🇱	flag Albanien	none
-🇦🇲	flag Armenien	none
-🇦🇴	flag Angola	none
-🇦🇶	flag Antarktis	none
-🇦🇷	flag Argentina	none
-🇦🇸	flag Amerikansk Samoa	none
-🇦🇹	flag Østrig	none
-🇦🇺	flag Australien	none
-🇦🇼	flag Aruba	none
-🇦🇽	flag Åland	none
-🇦🇿	flag Aserbajdsjan	none
-🇧🇦	flag Bosnien-Hercegovina	none
-🇧🇧	flag Barbados	none
-🇧🇩	flag Bangladesh	none
-🇧🇪	flag Belgien	none
-🇧🇫	flag Burkina Faso	none
-🇧🇬	flag Bulgarien	none
-🇧🇭	flag Bahrain	none
-🇧🇮	flag Burundi	none
-🇧🇯	flag Benin	none
-🇧🇱	flag Saint Barthélemy	none
-🇧🇲	flag Bermuda	none
-🇧🇳	flag Brunei	none
-🇧🇴	flag Bolivia	none
-🇧🇶	flag De tidligere Nederlandske Antiller	none
-🇧🇷	flag Brasilien	none
-🇧🇸	flag Bahamas	none
-🇧🇹	flag Bhutan	none
-🇧🇻	flag Bouvetøen	none
-🇧🇼	flag Botswana	none
-🇧🇾	flag Hviderusland	none
-🇧🇿	flag Belize	none
-🇨🇦	flag Canada	none
-🇨🇨	flag Cocosøerne	none
-🇨🇩	flag Congo-Kinshasa	none
-🇨🇫	flag Den Centralafrikanske Republik	none
-🇨🇬	flag Congo-Brazzaville	none
-🇨🇭	flag Schweiz	none
-🇨🇮	flag Elfenbenskysten	none
-🇨🇰	flag Cookøerne	none
-🇨🇱	flag Chile	none
-🇨🇲	flag Cameroun	none
-🇨🇳	flag Kina	none
-🇨🇴	flag Colombia	none
-🇨🇵	flag Clippertonøen	none
-🇨🇷	flag Costa Rica	none
-🇨🇺	flag Cuba	none
-🇨🇻	flag Kap Verde	none
-🇨🇼	flag Curaçao	none
-🇨🇽	flag Juleøen	none
-🇨🇾	flag Cypern	none
-🇨🇿	flag Tjekkiet	none
-🇩🇪	flag Tyskland	none
-🇩🇬	flag Diego Garcia	none
-🇩🇯	flag Djibouti	none
-🇩🇰	flag Danmark	none
-🇩🇲	flag Dominica	none
-🇩🇴	flag Den Dominikanske Republik	none
-🇩🇿	flag Algeriet	none
-🇪🇦	flag Ceuta og Melilla	none
-🇪🇨	flag Ecuador	none
-🇪🇪	flag Estland	none
-🇪🇬	flag Egypten	none
-🇪🇭	flag Vestsahara	none
-🇪🇷	flag Eritrea	none
-🇪🇸	flag Spanien	none
-🇪🇹	flag Etiopien	none
-🇪🇺	flag Den Europæiske Union	none
-🇫🇮	flag Finland	none
-🇫🇯	flag Fiji	none
-🇫🇰	flag Falklandsøerne	none
-🇫🇲	flag Mikronesien	none
-🇫🇴	flag Færøerne	none
-🇫🇷	flag Frankrig	none
-🇬🇦	flag Gabon	none
-🇬🇧	flag Storbritannien	none
-🇬🇩	flag Grenada	none
-🇬🇪	flag Georgien	none
-🇬🇫	flag Fransk Guyana	none
-🇬🇬	flag Guernsey	none
-🇬🇭	flag Ghana	none
-🇬🇮	flag Gibraltar	none
-🇬🇱	flag Grønland	none
-🇬🇲	flag Gambia	none
-🇬🇳	flag Guinea	none
-🇬🇵	flag Guadeloupe	none
-🇬🇶	flag Ækvatorialguinea	none
-🇬🇷	flag Grækenland	none
-🇬🇸	flag South Georgia og De Sydlige Sandwichøer	none
-🇬🇹	flag Guatemala	none
-🇬🇺	flag Guam	none
-🇬🇼	flag Guinea-Bissau	none
-🇬🇾	flag Guyana	none
-🇭🇰	flag SAR Hongkong	none
-🇭🇲	flag Heard Island og McDonald Islands	none
-🇭🇳	flag Honduras	none
-🇭🇷	flag Kroatien	none
-🇭🇹	flag Haiti	none
-🇭🇺	flag Ungarn	none
-🇮🇨	flag Kanariske øer	none
-🇮🇩	flag Indonesien	none
-🇮🇪	flag Irland	none
-🇮🇱	flag Israel	none
-🇮🇲	flag Isle of Man	none
-🇮🇳	flag Indien	none
-🇮🇴	flag Det Britiske Territorium i Det Indiske Ocean	none
-🇮🇶	flag Irak	none
-🇮🇷	flag Iran	none
-🇮🇸	flag Island	none
-🇮🇹	flag Italien	none
-🇯🇪	flag Jersey	none
-🇯🇲	flag Jamaica	none
-🇯🇴	flag Jordan	none
-🇯🇵	flag Japan	none
-🇰🇪	flag Kenya	none
-🇰🇬	flag Kirgisistan	none
-🇰🇭	flag Cambodja	none
-🇰🇮	flag Kiribati	none
-🇰🇲	flag Comorerne	none
-🇰🇳	flag Saint Kitts og Nevis	none
-🇰🇵	flag Nordkorea	none
-🇰🇷	flag Sydkorea	none
-🇰🇼	flag Kuwait	none
-🇰🇾	flag Caymanøerne	none
-🇰🇿	flag Kasakhstan	none
-🇱🇦	flag Laos	none
-🇱🇧	flag Libanon	none
-🇱🇨	flag Saint Lucia	none
-🇱🇮	flag Liechtenstein	none
-🇱🇰	flag Sri Lanka	none
-🇱🇷	flag Liberia	none
-🇱🇸	flag Lesotho	none
-🇱🇹	flag Litauen	none
-🇱🇺	flag Luxembourg	none
-🇱🇻	flag Letland	none
-🇱🇾	flag Libyen	none
-🇲🇦	flag Marokko	none
-🇲🇨	flag Monaco	none
-🇲🇩	flag Moldova	none
-🇲🇪	flag Montenegro	none
-🇲🇫	flag Saint Martin	none
-🇲🇬	flag Madagaskar	none
-🇲🇭	flag Marshalløerne	none
-🇲🇰	flag Nordmakedonien	none
-🇲🇱	flag Mali	none
-🇲🇲	flag Myanmar (Burma)	none
-🇲🇳	flag Mongoliet	none
-🇲🇴	flag SAR Macao	none
-🇲🇵	flag Nordmarianerne	none
-🇲🇶	flag Martinique	none
-🇲🇷	flag Mauretanien	none
-🇲🇸	flag Montserrat	none
-🇲🇹	flag Malta	none
-🇲🇺	flag Mauritius	none
-🇲🇻	flag Maldiverne	none
-🇲🇼	flag Malawi	none
-🇲🇽	flag Mexico	none
-🇲🇾	flag Malaysia	none
-🇲🇿	flag Mozambique	none
-🇳🇦	flag Namibia	none
-🇳🇨	flag Ny Kaledonien	none
-🇳🇪	flag Niger	none
-🇳🇫	flag Norfolk Island	none
-🇳🇬	flag Nigeria	none
-🇳🇮	flag Nicaragua	none
-🇳🇱	flag Holland	none
-🇳🇴	flag Norge	none
-🇳🇵	flag Nepal	none
-🇳🇷	flag Nauru	none
-🇳🇺	flag Niue	none
-🇳🇿	flag New Zealand	none
-🇴🇲	flag Oman	none
-🇵🇦	flag Panama	none
-🇵🇪	flag Peru	none
-🇵🇫	flag Fransk Polynesien	none
-🇵🇬	flag Papua Ny Guinea	none
-🇵🇭	flag Filippinerne	none
-🇵🇰	flag Pakistan	none
-🇵🇱	flag Polen	none
-🇵🇲	flag Saint Pierre og Miquelon	none
-🇵🇳	flag Pitcairn	none
-🇵🇷	flag Puerto Rico	none
-🇵🇸	flag De palæstinensiske områder	none
-🇵🇹	flag Portugal	none
-🇵🇼	flag Palau	none
-🇵🇾	flag Paraguay	none
-🇶🇦	flag Qatar	none
-🇷🇪	flag Réunion	none
-🇷🇴	flag Rumænien	none
-🇷🇸	flag Serbien	none
-🇷🇺	flag Rusland	none
-🇷🇼	flag Rwanda	none
-🇸🇦	flag Saudi-Arabien	none
-🇸🇧	flag Salomonøerne	none
-🇸🇨	flag Seychellerne	none
-🇸🇩	flag Sudan	none
-🇸🇪	flag Sverige	none
-🇸🇬	flag Singapore	none
-🇸🇭	flag St. Helena	none
-🇸🇮	flag Slovenien	none
-🇸🇯	flag Svalbard og Jan Mayen	none
-🇸🇰	flag Slovakiet	none
-🇸🇱	flag Sierra Leone	none
-🇸🇲	flag San Marino	none
-🇸🇳	flag Senegal	none
-🇸🇴	flag Somalia	none
-🇸🇷	flag Surinam	none
-🇸🇸	flag Sydsudan	none
-🇸🇹	flag São Tomé og Príncipe	none
-🇸🇻	flag El Salvador	none
-🇸🇽	flag Sint Maarten	none
-🇸🇾	flag Syrien	none
-🇸🇿	flag Eswatini	none
-🇹🇦	flag Tristan da Cunha	none
-🇹🇨	flag Turks- og Caicosøerne	none
-🇹🇩	flag Tchad	none
-🇹🇫	flag De Franske Besiddelser i Det Sydlige Indiske Ocean og Antarktis	none
-🇹🇬	flag Togo	none
-🇹🇭	flag Thailand	none
-🇹🇯	flag Tadsjikistan	none
-🇹🇰	flag Tokelau	none
-🇹🇱	flag Timor-Leste	none
-🇹🇲	flag Turkmenistan	none
-🇹🇳	flag Tunesien	none
-🇹🇴	flag Tonga	none
-🇹🇷	flag Tyrkiet	none
-🇹🇹	flag Trinidad og Tobago	none
-🇹🇻	flag Tuvalu	none
-🇹🇼	flag Taiwan	none
-🇹🇿	flag Tanzania	none
-🇺🇦	flag Ukraine	none
-🇺🇬	flag Uganda	none
-🇺🇲	flag Amerikanske oversøiske øer	none
-🇺🇳	flag De Forenede Nationer	none
-🇺🇸	flag USA	none
-🇺🇾	flag Uruguay	none
-🇺🇿	flag Usbekistan	none
-🇻🇦	flag Vatikanstaten	none
-🇻🇨	flag Saint Vincent og Grenadinerne	none
-🇻🇪	flag Venezuela	none
-🇻🇬	flag De Britiske Jomfruøer	none
-🇻🇮	flag De Amerikanske Jomfruøer	none
-🇻🇳	flag Vietnam	none
-🇻🇺	flag Vanuatu	none
-🇼🇫	flag Wallis og Futuna	none
-🇼🇸	flag Samoa	none
-🇽🇰	flag Kosovo	none
-🇾🇪	flag Yemen	none
-🇾🇹	flag Mayotte	none
-🇿🇦	flag Sydafrika	none
-🇿🇲	flag Zambia	none
-🇿🇼	flag Zimbabwe	none
-🏴󠁧󠁢󠁥󠁮󠁧󠁿	flag England	none
-🏴󠁧󠁢󠁳󠁣󠁴󠁿	flag Skotland	none
-🏴󠁧󠁢󠁷󠁬󠁳󠁿	flag Wales	none
 ₡	costaricansk colón	none
 ₦	nigeriansk naira	none
-₧	Spansk peseta	none
 ₪	ny israelsk shekel	none
 ₫	vietnamesisk dong	none
 ₭	laotisk kip	none
@@ -3694,3 +3943,4 @@ symbols:
 ₺	tyrkisk lira	none
 ₼	aserbajdsjansk manat	none
 ₾	georgisk lari	none
+₧	Spansk peseta	none

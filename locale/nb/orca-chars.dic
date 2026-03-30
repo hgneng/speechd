@@ -2,7 +2,7 @@
 # DO NOT MODIFY IT!
 # See locale/README.md to know how to import dictionaries
 
-# locale/nb/orca.dic
+# locale/nb/orca-chars.dic
 # Copyright (C) 2004-2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the orca package.
 
@@ -27,6 +27,7 @@ symbols:
 Ó	O AKUTT	char	norep
 Ô	O SIRKUMFLEKS	char	norep
 Ö	O TREMA	char	norep
+×	ganger	some
 Ø	Ø	char	norep
 Ù	U GRAVIS	char	norep
 Ú	U AKUTT	char	norep
@@ -52,6 +53,7 @@ symbols:
 ó	o akutt	char	norep
 ô	o cirkumfleks	char	norep
 ö	o trema	char	norep
+÷	delt på	some
 ø	ø	char	norep
 ú	u akutt	char	norep
 ù	u gravis	char	norep

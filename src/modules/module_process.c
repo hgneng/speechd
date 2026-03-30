@@ -1,7 +1,7 @@
 /*
  * module_process.c - Processing loop of output modules.
  *
- * Copyright (C) 2020-2021 Samuel Thibault <samuel.thibault@ens-lyon.org>
+ * Copyright (C) 2020-2023, 2025 Samuel Thibault <samuel.thibault@ens-lyon.org>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -34,7 +34,7 @@
 #include <pthread.h>
 
 #include <spd_audio.h>
-#include "module_main.h"
+#include "spd_module_main.h"
 
 pthread_mutex_t module_stdout_mutex = PTHREAD_MUTEX_INITIALIZER;
 
@@ -248,10 +248,11 @@ static void cmd_speak(int fd, SPDMessageType msgtype)
 		return;
 	}
 
-	if (msgtype == SPD_MSGTYPE_CHAR) {
+	if (msgtype == SPD_MSGTYPE_KEY || msgtype == SPD_MSGTYPE_CHAR) {
 		if (!strcmp(text, "space")) {
 			free(text);
 			text = strdup(" ");
+			text_len = 1;
 		}
 	}
 
@@ -316,16 +317,34 @@ static void cmd_pause(void)
 	module_pause();
 }
 
-static void cmd_list_voices(void)
+static void cmd_list_voices(char *line)
 {
 	SPDVoice **voices, **voice;
 	int one = 0;;
+	char *dumb;
+	char *requested_language;
+	char *requested_variant = NULL;
+	char *save = NULL;
 
 	voices = module_list_voices();
 	if (!voices) {
 		print("304 CANT LIST VOICES");
 		return;
 	}
+
+	dumb = strtok_r(line, " \n", &save);
+	if (strcmp(dumb, "LIST")) {
+		bad_internal();
+		return;
+	}
+	dumb = strtok_r(NULL, " \n", &save);
+	if (strcmp(dumb, "VOICES")) {
+		bad_internal();
+		return;
+	}
+	requested_language = strtok_r(NULL, " \n", &save);
+	if (requested_language)
+		requested_variant = strtok_r(NULL, " \n", &save);
 
 	pthread_mutex_lock(&module_stdout_mutex);
 	for (voice = voices; *voice; voice++) {
@@ -337,11 +356,30 @@ static void cmd_list_voices(void)
 			/* Ok, skip this */
 			continue;
 
-		one = 1;
 		if (!language)
 			language = "none";
 		if (!variant)
 			variant = "none";
+
+		if (requested_language) {
+			if (strcasecmp(requested_language, language))
+			{
+				/* Not exactly the requested locale, but maybe the language? */
+				const char *dash = strchr(language, '-');
+				size_t langlen = dash - language;
+
+				if (strlen(requested_language) != langlen
+				    || strncasecmp(requested_language, language, langlen))
+					/* Not the requested language */
+					continue;
+			}
+			if (requested_variant)
+				if (strcasecmp(requested_variant, variant))
+					/* Not the requested variant, skip */
+					continue;
+		}
+
+		one = 1;
 
 		printf("200-%s\t%s\t%s\n", name, language, variant);
 	}
@@ -516,8 +554,8 @@ int module_process(int fd, int block)
 		else if (!strcmp(line, "PAUSE\n"))
 			cmd_pause();
 
-		else if (!strcmp(line, "LIST VOICES\n"))
-			cmd_list_voices();
+		else if (!strncmp(line, "LIST VOICES", 11))
+			cmd_list_voices(line);
 
 		else if (!strcmp(line, "SET\n"))
 			cmd_set(fd);

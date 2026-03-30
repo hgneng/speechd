@@ -115,7 +115,6 @@ symbols:
 🙈	inkende itareba	none
 🙉	inkende itumva	none
 🙊	inkende itavuga	none
-💋	ikimenyetso cyo gusomana	none
 💌	ibahasha y’urukundo	none
 💘	umutima n’akambi	none
 💝	umutima uriho riba	none
@@ -134,6 +133,7 @@ symbols:
 💙	umutima w’ubururu	none
 💜	umutima wa move	none
 🖤	imitima yirabura	none
+💋	ikimenyetso cyo gusomana	none
 💯	amanota ijana	none
 💢	ikimenyetso cy’uburakari	none
 💥	igongana	none
@@ -141,7 +141,6 @@ symbols:
 💦	udutonyanga tw’ibyuya	none
 💨	ikimenyetso cy’ibinyaruka	none
 🕳	umwobo	none
-💣	ibombe	none
 💬	igipurizomvugo	none
 👁‍🗨	ijisho riri mu kabaruni	none
 🗨	ikiganiro cy’akabaruni k’ibumoso	none
@@ -385,10 +384,10 @@ symbols:
 👬	abagabo babiri bafatanye ibigaza	none
 💏	gusomana	none
 💑	ikupule n’umutima	none
-👪	umuryango	none
 🗣	umutwe uvuga	none
 👤	ishusho y’igihimba cy’umuntu	none
 👥	amashusho y’igihimba cy’umuntu	none
+👪	umuryango	none
 👣	ahakandagiye ibirenge	none
 🐵	isura y’inkende	none
 🐒	inguge	none
@@ -468,6 +467,9 @@ symbols:
 🦈	roke	none
 🐙	igikoko cyo mumazi	none
 🐚	igikonoshwa	none
+🦀	karabu	none
+🦐	kerevete	none
+🦑	sikwidi	none
 🐌	ikinyamunjonjorerwa	none
 🦋	ikinyugunyugu	none
 🐛	kemura ibibazo	none
@@ -500,6 +502,7 @@ symbols:
 🍁	ikibabi cy’igiti cya maple	none
 🍂	ikibabi cyaguye	none
 🍃	ikibabi gihuhwa n’umuyaga	none
+🍄	igihumyo	none
 🍇	imizabibu	none
 🍈	melo	none
 🍉	pasiteke	none
@@ -524,7 +527,6 @@ symbols:
 🌶	urusenda	none
 🥒	kokombure	none
 🥦	udushu	none
-🍄	igihumyo	none
 🥜	urunyobwa	none
 🌰	igiti cya shatenye	none
 🍞	umugati	none
@@ -569,9 +571,6 @@ symbols:
 🥟	umugati wokeje	none
 🥠	igisuguti	none
 🥡	agakarito batwaramo ibiryo	none
-🦀	karabu	none
-🦐	kerevete	none
-🦑	sikwidi	none
 🍦	ayisikirimu yoroheje	none
 🍧	urubura rusennye neza	none
 🍨	ayisikirimu	none
@@ -854,6 +853,7 @@ symbols:
 🛷	agatebe kanyerera ku rubuga	none
 🥌	ibuye rya curling	none
 🎯	gukubita ako kanya	none
+🔫	masotera	none
 🎱	umupira wa biyari wa nomero 8	none
 🔮	ikibumbe cy’urubura	none
 🎮	videwo y’umukino	none
@@ -922,9 +922,9 @@ symbols:
 🎧	ekuteri	none
 📻	radiyo	none
 🎷	umwirongi	none
+🎺	umuduri	none
 🎸	gitari	none
 🎹	sentetizeri	none
-🎺	umuduri	none
 🎻	inanga	none
 🥁	ingoma	none
 📱	telefone igendanwa	none
@@ -1040,7 +1040,7 @@ symbols:
 🛠	inyundo na kasuku	none
 🗡	daga	none
 ⚔	inkota zisobekeranye	none
-🔫	masotera	none
+💣	ibombe	none
 🏹	umuheto n’umwambi	none
 🛡	ingabo	none
 🔧	gushikuza	none
@@ -1243,3 +1243,1544 @@ symbols:
 🏴	ibendera ry’umukara	none
 🏳	ibendera ryera	none
 🏳‍🌈	ibendera ry’amabara y’umukororombya	none
+👋🏻	ikiganza gipepera ibara ry’uruhu rwera	none
+👋🏼	ikiganza gipepera ibara ry’uruhu rwera gahoro	none
+👋🏽	ikiganza gipepera ibara ry’uruhu rw’inzobe	none
+👋🏾	ikiganza gipepera ibara ry’uruhu rw’inzobe yirabura	none
+👋🏿	ikiganza gipepera ibara ry’uruhu rwirabura	none
+🤚🏻	inyuma y’ikiganza kizamuye ibara ry’uruhu rwera	none
+🤚🏼	inyuma y’ikiganza kizamuye ibara ry’uruhu rwera gahoro	none
+🤚🏽	inyuma y’ikiganza kizamuye ibara ry’uruhu rw’inzobe	none
+🤚🏾	inyuma y’ikiganza kizamuye ibara ry’uruhu rw’inzobe yirabura	none
+🤚🏿	inyuma y’ikiganza kizamuye ibara ry’uruhu rwirabura	none
+🖐🏻	ikiganza kizamuye intoki zitandukanyije ibara ry’uruhu rwera	none
+🖐🏼	ikiganza kizamuye intoki zitandukanyije ibara ry’uruhu rwera gahoro	none
+🖐🏽	ikiganza kizamuye intoki zitandukanyije ibara ry’uruhu rw’inzobe	none
+🖐🏾	ikiganza kizamuye intoki zitandukanyije ibara ry’uruhu rw’inzobe yirabura	none
+🖐🏿	ikiganza kizamuye intoki zitandukanyije ibara ry’uruhu rwirabura	none
+✋🏻	ikiganza kizamuye ibara ry’uruhu rwera	none
+✋🏼	ikiganza kizamuye ibara ry’uruhu rwera gahoro	none
+✋🏽	ikiganza kizamuye ibara ry’uruhu rw’inzobe	none
+✋🏾	ikiganza kizamuye ibara ry’uruhu rw’inzobe yirabura	none
+✋🏿	ikiganza kizamuye ibara ry’uruhu rwirabura	none
+🖖🏻	indamukanyo ya vulcan ibara ry’uruhu rwera	none
+🖖🏼	indamukanyo ya vulcan ibara ry’uruhu rwera gahoro	none
+🖖🏽	indamukanyo ya vulcan ibara ry’uruhu rw’inzobe	none
+🖖🏾	indamukanyo ya vulcan ibara ry’uruhu rw’inzobe yirabura	none
+🖖🏿	indamukanyo ya vulcan ibara ry’uruhu rwirabura	none
+🫱🏻‍🫲🏼	gusuhuzanya ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+🫱🏻‍🫲🏽	gusuhuzanya ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+🫱🏻‍🫲🏾	gusuhuzanya ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+🫱🏻‍🫲🏿	gusuhuzanya ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+🫱🏼‍🫲🏻	gusuhuzanya ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+🫱🏼‍🫲🏽	gusuhuzanya ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+🫱🏼‍🫲🏾	gusuhuzanya ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+🫱🏼‍🫲🏿	gusuhuzanya ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+🫱🏽‍🫲🏻	gusuhuzanya ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+🫱🏽‍🫲🏼	gusuhuzanya ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+🫱🏽‍🫲🏾	gusuhuzanya ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+🫱🏽‍🫲🏿	gusuhuzanya ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+🫱🏾‍🫲🏻	gusuhuzanya ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+🫱🏾‍🫲🏼	gusuhuzanya ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+🫱🏾‍🫲🏽	gusuhuzanya ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+🫱🏾‍🫲🏿	gusuhuzanya ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+🫱🏿‍🫲🏻	gusuhuzanya ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+🫱🏿‍🫲🏼	gusuhuzanya ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+🫱🏿‍🫲🏽	gusuhuzanya ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+🫱🏿‍🫲🏾	gusuhuzanya ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+👌🏻	ikiganza cyemeza ibara ry’uruhu rwera	none
+👌🏼	ikiganza cyemeza ibara ry’uruhu rwera gahoro	none
+👌🏽	ikiganza cyemeza ibara ry’uruhu rw’inzobe	none
+👌🏾	ikiganza cyemeza ibara ry’uruhu rw’inzobe yirabura	none
+👌🏿	ikiganza cyemeza ibara ry’uruhu rwirabura	none
+✌🏻	Ikiganza cy’intsinzi ibara ry’uruhu rwera	none
+✌🏼	Ikiganza cy’intsinzi ibara ry’uruhu rwera gahoro	none
+✌🏽	Ikiganza cy’intsinzi ibara ry’uruhu rw’inzobe	none
+✌🏾	Ikiganza cy’intsinzi ibara ry’uruhu rw’inzobe yirabura	none
+✌🏿	Ikiganza cy’intsinzi ibara ry’uruhu rwirabura	none
+🤞🏻	intoki zinyuranyemo ibara ry’uruhu rwera	none
+🤞🏼	intoki zinyuranyemo ibara ry’uruhu rwera gahoro	none
+🤞🏽	intoki zinyuranyemo ibara ry’uruhu rw’inzobe	none
+🤞🏾	intoki zinyuranyemo ibara ry’uruhu rw’inzobe yirabura	none
+🤞🏿	intoki zinyuranyemo ibara ry’uruhu rwirabura	none
+🤟🏻	ikimenyetso cya ndagukunda ibara ry’uruhu rwera	none
+🤟🏼	ikimenyetso cya ndagukunda ibara ry’uruhu rwera gahoro	none
+🤟🏽	ikimenyetso cya ndagukunda ibara ry’uruhu rw’inzobe	none
+🤟🏾	ikimenyetso cya ndagukunda ibara ry’uruhu rw’inzobe yirabura	none
+🤟🏿	ikimenyetso cya ndagukunda ibara ry’uruhu rwirabura	none
+🤘🏻	ikimenyetso cy’amahembe ibara ry’uruhu rwera	none
+🤘🏼	ikimenyetso cy’amahembe ibara ry’uruhu rwera gahoro	none
+🤘🏽	ikimenyetso cy’amahembe ibara ry’uruhu rw’inzobe	none
+🤘🏾	ikimenyetso cy’amahembe ibara ry’uruhu rw’inzobe yirabura	none
+🤘🏿	ikimenyetso cy’amahembe ibara ry’uruhu rwirabura	none
+🤙🏻	ikiganza gisaba guhamagarwa ibara ry’uruhu rwera	none
+🤙🏼	ikiganza gisaba guhamagarwa ibara ry’uruhu rwera gahoro	none
+🤙🏽	ikiganza gisaba guhamagarwa ibara ry’uruhu rw’inzobe	none
+🤙🏾	ikiganza gisaba guhamagarwa ibara ry’uruhu rw’inzobe yirabura	none
+🤙🏿	ikiganza gisaba guhamagarwa ibara ry’uruhu rwirabura	none
+👈🏻	urutoki rutunze ibumoso ibara ry’uruhu rwera	none
+👈🏼	urutoki rutunze ibumoso ibara ry’uruhu rwera gahoro	none
+👈🏽	urutoki rutunze ibumoso ibara ry’uruhu rw’inzobe	none
+👈🏾	urutoki rutunze ibumoso ibara ry’uruhu rw’inzobe yirabura	none
+👈🏿	urutoki rutunze ibumoso ibara ry’uruhu rwirabura	none
+👉🏻	urutoki rutunze iburyo ibara ry’uruhu rwera	none
+👉🏼	urutoki rutunze iburyo ibara ry’uruhu rwera gahoro	none
+👉🏽	urutoki rutunze iburyo ibara ry’uruhu rw’inzobe	none
+👉🏾	urutoki rutunze iburyo ibara ry’uruhu rw’inzobe yirabura	none
+👉🏿	urutoki rutunze iburyo ibara ry’uruhu rwirabura	none
+👆🏻	urutoki rutunze hejuru ibara ry’uruhu rwera	none
+👆🏼	urutoki rutunze hejuru ibara ry’uruhu rwera gahoro	none
+👆🏽	urutoki rutunze hejuru ibara ry’uruhu rw’inzobe	none
+👆🏾	urutoki rutunze hejuru ibara ry’uruhu rw’inzobe yirabura	none
+👆🏿	urutoki rutunze hejuru ibara ry’uruhu rwirabura	none
+🖕🏻	musumbazose ibara ry’uruhu rwera	none
+🖕🏼	musumbazose ibara ry’uruhu rwera gahoro	none
+🖕🏽	musumbazose ibara ry’uruhu rw’inzobe	none
+🖕🏾	musumbazose ibara ry’uruhu rw’inzobe yirabura	none
+🖕🏿	musumbazose ibara ry’uruhu rwirabura	none
+👇🏻	urutoki rutunze hasi ibara ry’uruhu rwera	none
+👇🏼	urutoki rutunze hasi ibara ry’uruhu rwera gahoro	none
+👇🏽	urutoki rutunze hasi ibara ry’uruhu rw’inzobe	none
+👇🏾	urutoki rutunze hasi ibara ry’uruhu rw’inzobe yirabura	none
+👇🏿	urutoki rutunze hasi ibara ry’uruhu rwirabura	none
+☝🏻	gutunga mukubitarukoko hejuru ibara ry’uruhu rwera	none
+☝🏼	gutunga mukubitarukoko hejuru ibara ry’uruhu rwera gahoro	none
+☝🏽	gutunga mukubitarukoko hejuru ibara ry’uruhu rw’inzobe	none
+☝🏾	gutunga mukubitarukoko hejuru ibara ry’uruhu rw’inzobe yirabura	none
+☝🏿	gutunga mukubitarukoko hejuru ibara ry’uruhu rwirabura	none
+👍🏻	ibikumwe bireba hejuru ibara ry’uruhu rwera	none
+👍🏼	ibikumwe bireba hejuru ibara ry’uruhu rwera gahoro	none
+👍🏽	ibikumwe bireba hejuru ibara ry’uruhu rw’inzobe	none
+👍🏾	ibikumwe bireba hejuru ibara ry’uruhu rw’inzobe yirabura	none
+👍🏿	ibikumwe bireba hejuru ibara ry’uruhu rwirabura	none
+👎🏻	ibikumwe bireba hasi ibara ry’uruhu rwera	none
+👎🏼	ibikumwe bireba hasi ibara ry’uruhu rwera gahoro	none
+👎🏽	ibikumwe bireba hasi ibara ry’uruhu rw’inzobe	none
+👎🏾	ibikumwe bireba hasi ibara ry’uruhu rw’inzobe yirabura	none
+👎🏿	ibikumwe bireba hasi ibara ry’uruhu rwirabura	none
+✊🏻	igipfunsi kizamuye ibara ry’uruhu rwera	none
+✊🏼	igipfunsi kizamuye ibara ry’uruhu rwera gahoro	none
+✊🏽	igipfunsi kizamuye ibara ry’uruhu rw’inzobe	none
+✊🏾	igipfunsi kizamuye ibara ry’uruhu rw’inzobe yirabura	none
+✊🏿	igipfunsi kizamuye ibara ry’uruhu rwirabura	none
+👊🏻	igipfunsi kikureba ibara ry’uruhu rwera	none
+👊🏼	igipfunsi kikureba ibara ry’uruhu rwera gahoro	none
+👊🏽	igipfunsi kikureba ibara ry’uruhu rw’inzobe	none
+👊🏾	igipfunsi kikureba ibara ry’uruhu rw’inzobe yirabura	none
+👊🏿	igipfunsi kikureba ibara ry’uruhu rwirabura	none
+🤛🏻	igipfunsi kireba ibumoso ibara ry’uruhu rwera	none
+🤛🏼	igipfunsi kireba ibumoso ibara ry’uruhu rwera gahoro	none
+🤛🏽	igipfunsi kireba ibumoso ibara ry’uruhu rw’inzobe	none
+🤛🏾	igipfunsi kireba ibumoso ibara ry’uruhu rw’inzobe yirabura	none
+🤛🏿	igipfunsi kireba ibumoso ibara ry’uruhu rwirabura	none
+🤜🏻	igipfunsi kireba iburyo ibara ry’uruhu rwera	none
+🤜🏼	igipfunsi kireba iburyo ibara ry’uruhu rwera gahoro	none
+🤜🏽	igipfunsi kireba iburyo ibara ry’uruhu rw’inzobe	none
+🤜🏾	igipfunsi kireba iburyo ibara ry’uruhu rw’inzobe yirabura	none
+🤜🏿	igipfunsi kireba iburyo ibara ry’uruhu rwirabura	none
+👏🏻	ibiganza bikoma amashyi ibara ry’uruhu rwera	none
+👏🏼	ibiganza bikoma amashyi ibara ry’uruhu rwera gahoro	none
+👏🏽	ibiganza bikoma amashyi ibara ry’uruhu rw’inzobe	none
+👏🏾	ibiganza bikoma amashyi ibara ry’uruhu rw’inzobe yirabura	none
+👏🏿	ibiganza bikoma amashyi ibara ry’uruhu rwirabura	none
+🙌🏻	ibiganza bizamuye ibara ry’uruhu rwera	none
+🙌🏼	ibiganza bizamuye ibara ry’uruhu rwera gahoro	none
+🙌🏽	ibiganza bizamuye ibara ry’uruhu rw’inzobe	none
+🙌🏾	ibiganza bizamuye ibara ry’uruhu rw’inzobe yirabura	none
+🙌🏿	ibiganza bizamuye ibara ry’uruhu rwirabura	none
+👐🏻	ikimenyetso cy’ibiganza bibumbuye ibara ry’uruhu rwera	none
+👐🏼	ikimenyetso cy’ibiganza bibumbuye ibara ry’uruhu rwera gahoro	none
+👐🏽	ikimenyetso cy’ibiganza bibumbuye ibara ry’uruhu rw’inzobe	none
+👐🏾	ikimenyetso cy’ibiganza bibumbuye ibara ry’uruhu rw’inzobe yirabura	none
+👐🏿	ikimenyetso cy’ibiganza bibumbuye ibara ry’uruhu rwirabura	none
+🤲🏻	ibiganza byombi hejuru ibara ry’uruhu rwera	none
+🤲🏼	ibiganza byombi hejuru ibara ry’uruhu rwera gahoro	none
+🤲🏽	ibiganza byombi hejuru ibara ry’uruhu rw’inzobe	none
+🤲🏾	ibiganza byombi hejuru ibara ry’uruhu rw’inzobe yirabura	none
+🤲🏿	ibiganza byombi hejuru ibara ry’uruhu rwirabura	none
+🤝🏻	gusuhuzanya ibara ry’uruhu rwera	none
+🤝🏼	gusuhuzanya ibara ry’uruhu rwera gahoro	none
+🤝🏽	gusuhuzanya ibara ry’uruhu rw’inzobe	none
+🤝🏾	gusuhuzanya ibara ry’uruhu rw’inzobe yirabura	none
+🤝🏿	gusuhuzanya ibara ry’uruhu rwirabura	none
+🙏🏻	ibiganza bifatanye ibara ry’uruhu rwera	none
+🙏🏼	ibiganza bifatanye ibara ry’uruhu rwera gahoro	none
+🙏🏽	ibiganza bifatanye ibara ry’uruhu rw’inzobe	none
+🙏🏾	ibiganza bifatanye ibara ry’uruhu rw’inzobe yirabura	none
+🙏🏿	ibiganza bifatanye ibara ry’uruhu rwirabura	none
+✍🏻	ikiganza cyandika ibara ry’uruhu rwera	none
+✍🏼	ikiganza cyandika ibara ry’uruhu rwera gahoro	none
+✍🏽	ikiganza cyandika ibara ry’uruhu rw’inzobe	none
+✍🏾	ikiganza cyandika ibara ry’uruhu rw’inzobe yirabura	none
+✍🏿	ikiganza cyandika ibara ry’uruhu rwirabura	none
+💅🏻	verini y’inzara ibara ry’uruhu rwera	none
+💅🏼	verini y’inzara ibara ry’uruhu rwera gahoro	none
+💅🏽	verini y’inzara ibara ry’uruhu rw’inzobe	none
+💅🏾	verini y’inzara ibara ry’uruhu rw’inzobe yirabura	none
+💅🏿	verini y’inzara ibara ry’uruhu rwirabura	none
+🤳🏻	serifi ibara ry’uruhu rwera	none
+🤳🏼	serifi ibara ry’uruhu rwera gahoro	none
+🤳🏽	serifi ibara ry’uruhu rw’inzobe	none
+🤳🏾	serifi ibara ry’uruhu rw’inzobe yirabura	none
+🤳🏿	serifi ibara ry’uruhu rwirabura	none
+💪🏻	amaboko ahinnye ibara ry’uruhu rwera	none
+💪🏼	amaboko ahinnye ibara ry’uruhu rwera gahoro	none
+💪🏽	amaboko ahinnye ibara ry’uruhu rw’inzobe	none
+💪🏾	amaboko ahinnye ibara ry’uruhu rw’inzobe yirabura	none
+💪🏿	amaboko ahinnye ibara ry’uruhu rwirabura	none
+👂🏻	ugutwi ibara ry’uruhu rwera	none
+👂🏼	ugutwi ibara ry’uruhu rwera gahoro	none
+👂🏽	ugutwi ibara ry’uruhu rw’inzobe	none
+👂🏾	ugutwi ibara ry’uruhu rw’inzobe yirabura	none
+👂🏿	ugutwi ibara ry’uruhu rwirabura	none
+👃🏻	izuru ibara ry’uruhu rwera	none
+👃🏼	izuru ibara ry’uruhu rwera gahoro	none
+👃🏽	izuru ibara ry’uruhu rw’inzobe	none
+👃🏾	izuru ibara ry’uruhu rw’inzobe yirabura	none
+👃🏿	izuru ibara ry’uruhu rwirabura	none
+👶🏻	uruhinja ibara ry’uruhu rwera	none
+👶🏼	uruhinja ibara ry’uruhu rwera gahoro	none
+👶🏽	uruhinja ibara ry’uruhu rw’inzobe	none
+👶🏾	uruhinja ibara ry’uruhu rw’inzobe yirabura	none
+👶🏿	uruhinja ibara ry’uruhu rwirabura	none
+🧒🏻	umwana ibara ry’uruhu rwera	none
+🧒🏼	umwana ibara ry’uruhu rwera gahoro	none
+🧒🏽	umwana ibara ry’uruhu rw’inzobe	none
+🧒🏾	umwana ibara ry’uruhu rw’inzobe yirabura	none
+🧒🏿	umwana ibara ry’uruhu rwirabura	none
+👦🏻	umuhungu ibara ry’uruhu rwera	none
+👦🏼	umuhungu ibara ry’uruhu rwera gahoro	none
+👦🏽	umuhungu ibara ry’uruhu rw’inzobe	none
+👦🏾	umuhungu ibara ry’uruhu rw’inzobe yirabura	none
+👦🏿	umuhungu ibara ry’uruhu rwirabura	none
+👧🏻	umukobwa ibara ry’uruhu rwera	none
+👧🏼	umukobwa ibara ry’uruhu rwera gahoro	none
+👧🏽	umukobwa ibara ry’uruhu rw’inzobe	none
+👧🏾	umukobwa ibara ry’uruhu rw’inzobe yirabura	none
+👧🏿	umukobwa ibara ry’uruhu rwirabura	none
+🧑🏻	umuntu mukuru ibara ry’uruhu rwera	none
+🧑🏼	umuntu mukuru ibara ry’uruhu rwera gahoro	none
+🧑🏽	umuntu mukuru ibara ry’uruhu rw’inzobe	none
+🧑🏾	umuntu mukuru ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏿	umuntu mukuru ibara ry’uruhu rwirabura	none
+👱🏻	umuntu ufite imisatsi y’umweru ibara ry’uruhu rwera	none
+👱🏼	umuntu ufite imisatsi y’umweru ibara ry’uruhu rwera gahoro	none
+👱🏽	umuntu ufite imisatsi y’umweru ibara ry’uruhu rw’inzobe	none
+👱🏾	umuntu ufite imisatsi y’umweru ibara ry’uruhu rw’inzobe yirabura	none
+👱🏿	umuntu ufite imisatsi y’umweru ibara ry’uruhu rwirabura	none
+🧑🏻‍❤‍💋‍🧑🏼	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+🧑🏻‍❤‍💋‍🧑🏽	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+🧑🏻‍❤‍💋‍🧑🏾	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏻‍❤‍💋‍🧑🏿	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+🧑🏼‍❤‍💋‍🧑🏻	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+🧑🏼‍❤‍💋‍🧑🏽	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+🧑🏼‍❤‍💋‍🧑🏾	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏼‍❤‍💋‍🧑🏿	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+🧑🏽‍❤‍💋‍🧑🏻	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+🧑🏽‍❤‍💋‍🧑🏼	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+🧑🏽‍❤‍💋‍🧑🏾	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏽‍❤‍💋‍🧑🏿	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+🧑🏾‍❤‍💋‍🧑🏻	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+🧑🏾‍❤‍💋‍🧑🏼	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+🧑🏾‍❤‍💋‍🧑🏽	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+🧑🏾‍❤‍💋‍🧑🏿	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+🧑🏿‍❤‍💋‍🧑🏻	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+🧑🏿‍❤‍💋‍🧑🏼	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+🧑🏿‍❤‍💋‍🧑🏽	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+🧑🏿‍❤‍💋‍🧑🏾	gusomana umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏻‍❤‍🧑🏼	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+🧑🏻‍❤‍🧑🏽	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+🧑🏻‍❤‍🧑🏾	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏻‍❤‍🧑🏿	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+🧑🏼‍❤‍🧑🏻	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+🧑🏼‍❤‍🧑🏽	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+🧑🏼‍❤‍🧑🏾	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏼‍❤‍🧑🏿	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+🧑🏽‍❤‍🧑🏻	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+🧑🏽‍❤‍🧑🏼	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+🧑🏽‍❤‍🧑🏾	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏽‍❤‍🧑🏿	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+🧑🏾‍❤‍🧑🏻	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+🧑🏾‍❤‍🧑🏼	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+🧑🏾‍❤‍🧑🏽	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+🧑🏾‍❤‍🧑🏿	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+🧑🏿‍❤‍🧑🏻	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+🧑🏿‍❤‍🧑🏼	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+🧑🏿‍❤‍🧑🏽	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+🧑🏿‍❤‍🧑🏾	ikupule n’umutima umuntu mukuru, umuntu mukuru, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏻‍🫯‍🧑🏼	umuntu uri gukirana ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+🧑🏻‍🫯‍🧑🏽	umuntu uri gukirana ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+🧑🏻‍🫯‍🧑🏾	umuntu uri gukirana ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏻‍🫯‍🧑🏿	umuntu uri gukirana ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+🧑🏼‍🫯‍🧑🏻	umuntu uri gukirana ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+🧑🏼‍🫯‍🧑🏽	umuntu uri gukirana ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+🧑🏼‍🫯‍🧑🏾	umuntu uri gukirana ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏼‍🫯‍🧑🏿	umuntu uri gukirana ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+🧑🏽‍🫯‍🧑🏻	umuntu uri gukirana ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+🧑🏽‍🫯‍🧑🏼	umuntu uri gukirana ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+🧑🏽‍🫯‍🧑🏾	umuntu uri gukirana ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏽‍🫯‍🧑🏿	umuntu uri gukirana ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+🧑🏾‍🫯‍🧑🏻	umuntu uri gukirana ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+🧑🏾‍🫯‍🧑🏼	umuntu uri gukirana ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+🧑🏾‍🫯‍🧑🏽	umuntu uri gukirana ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+🧑🏾‍🫯‍🧑🏿	umuntu uri gukirana ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+🧑🏿‍🫯‍🧑🏻	umuntu uri gukirana ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+🧑🏿‍🫯‍🧑🏼	umuntu uri gukirana ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+🧑🏿‍🫯‍🧑🏽	umuntu uri gukirana ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+🧑🏿‍🫯‍🧑🏾	umuntu uri gukirana ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏻‍🐰‍🧑🏼	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+🧑🏻‍🐰‍🧑🏽	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+🧑🏻‍🐰‍🧑🏾	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏻‍🐰‍🧑🏿	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+🧑🏼‍🐰‍🧑🏻	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+🧑🏼‍🐰‍🧑🏽	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+🧑🏼‍🐰‍🧑🏾	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏼‍🐰‍🧑🏿	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+🧑🏽‍🐰‍🧑🏻	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+🧑🏽‍🐰‍🧑🏼	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+🧑🏽‍🐰‍🧑🏾	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+🧑🏽‍🐰‍🧑🏿	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+🧑🏾‍🐰‍🧑🏻	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+🧑🏾‍🐰‍🧑🏼	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+🧑🏾‍🐰‍🧑🏽	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+🧑🏾‍🐰‍🧑🏿	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+🧑🏿‍🐰‍🧑🏻	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+🧑🏿‍🐰‍🧑🏼	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+🧑🏿‍🐰‍🧑🏽	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+🧑🏿‍🐰‍🧑🏾	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏻	umugabo ibara ry’uruhu rwera	none
+👨🏼	umugabo ibara ry’uruhu rwera gahoro	none
+👨🏽	umugabo ibara ry’uruhu rw’inzobe	none
+👨🏾	umugabo ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿	umugabo ibara ry’uruhu rwirabura	none
+🧔🏻	umuntu ufite ubwanwa ibara ry’uruhu rwera	none
+🧔🏼	umuntu ufite ubwanwa ibara ry’uruhu rwera gahoro	none
+🧔🏽	umuntu ufite ubwanwa ibara ry’uruhu rw’inzobe	none
+🧔🏾	umuntu ufite ubwanwa ibara ry’uruhu rw’inzobe yirabura	none
+🧔🏿	umuntu ufite ubwanwa ibara ry’uruhu rwirabura	none
+👱🏻‍♂	umugabo ufite imisatsi yera ibara ry’uruhu rwera	none
+👱🏼‍♂	umugabo ufite imisatsi yera ibara ry’uruhu rwera gahoro	none
+👱🏽‍♂	umugabo ufite imisatsi yera ibara ry’uruhu rw’inzobe	none
+👱🏾‍♂	umugabo ufite imisatsi yera ibara ry’uruhu rw’inzobe yirabura	none
+👱🏿‍♂	umugabo ufite imisatsi yera ibara ry’uruhu rwirabura	none
+👨🏻‍❤‍💋‍👨🏻	gusomana umugabo, umugabo, ibara ry’uruhu rwera	none
+👨🏻‍❤‍💋‍👨🏼	gusomana umugabo, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+👨🏻‍❤‍💋‍👨🏽	gusomana umugabo, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+👨🏻‍❤‍💋‍👨🏾	gusomana umugabo, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏻‍❤‍💋‍👨🏿	gusomana umugabo, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+👨🏼‍❤‍💋‍👨🏻	gusomana umugabo, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+👨🏼‍❤‍💋‍👨🏼	gusomana umugabo, umugabo, ibara ry’uruhu rwera gahoro	none
+👨🏼‍❤‍💋‍👨🏽	gusomana umugabo, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+👨🏼‍❤‍💋‍👨🏾	gusomana umugabo, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏼‍❤‍💋‍👨🏿	gusomana umugabo, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+👨🏽‍❤‍💋‍👨🏻	gusomana umugabo, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+👨🏽‍❤‍💋‍👨🏼	gusomana umugabo, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+👨🏽‍❤‍💋‍👨🏽	gusomana umugabo, umugabo, ibara ry’uruhu rw’inzobe	none
+👨🏽‍❤‍💋‍👨🏾	gusomana umugabo, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏽‍❤‍💋‍👨🏿	gusomana umugabo, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+👨🏾‍❤‍💋‍👨🏻	gusomana umugabo, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+👨🏾‍❤‍💋‍👨🏼	gusomana umugabo, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+👨🏾‍❤‍💋‍👨🏽	gusomana umugabo, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+👨🏾‍❤‍💋‍👨🏾	gusomana umugabo, umugabo, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏾‍❤‍💋‍👨🏿	gusomana umugabo, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+👨🏿‍❤‍💋‍👨🏻	gusomana umugabo, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+👨🏿‍❤‍💋‍👨🏼	gusomana umugabo, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+👨🏿‍❤‍💋‍👨🏽	gusomana umugabo, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+👨🏿‍❤‍💋‍👨🏾	gusomana umugabo, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍❤‍💋‍👨🏿	gusomana umugabo, umugabo, ibara ry’uruhu rwirabura	none
+👨🏻‍❤‍👨🏻	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rwera	none
+👨🏻‍❤‍👨🏼	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+👨🏻‍❤‍👨🏽	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+👨🏻‍❤‍👨🏾	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏻‍❤‍👨🏿	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+👨🏼‍❤‍👨🏻	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+👨🏼‍❤‍👨🏼	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rwera gahoro	none
+👨🏼‍❤‍👨🏽	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+👨🏼‍❤‍👨🏾	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏼‍❤‍👨🏿	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+👨🏽‍❤‍👨🏻	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+👨🏽‍❤‍👨🏼	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+👨🏽‍❤‍👨🏽	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rw’inzobe	none
+👨🏽‍❤‍👨🏾	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏽‍❤‍👨🏿	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+👨🏾‍❤‍👨🏻	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+👨🏾‍❤‍👨🏼	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+👨🏾‍❤‍👨🏽	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+👨🏾‍❤‍👨🏾	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏾‍❤‍👨🏿	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+👨🏿‍❤‍👨🏻	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+👨🏿‍❤‍👨🏼	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+👨🏿‍❤‍👨🏽	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+👨🏿‍❤‍👨🏾	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍❤‍👨🏿	ikupule n’umutima umugabo, umugabo, ibara ry’uruhu rwirabura	none
+👨🏻‍🫯‍👨🏼	abagabo barushanwa ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+👨🏻‍🫯‍👨🏽	abagabo barushanwa ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+👨🏻‍🫯‍👨🏾	abagabo barushanwa ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏻‍🫯‍👨🏿	abagabo barushanwa ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+👨🏼‍🫯‍👨🏻	abagabo barushanwa ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+👨🏼‍🫯‍👨🏽	abagabo barushanwa ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+👨🏼‍🫯‍👨🏾	abagabo barushanwa ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏼‍🫯‍👨🏿	abagabo barushanwa ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+👨🏽‍🫯‍👨🏻	abagabo barushanwa ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+👨🏽‍🫯‍👨🏼	abagabo barushanwa ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+👨🏽‍🫯‍👨🏾	abagabo barushanwa ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏽‍🫯‍👨🏿	abagabo barushanwa ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+👨🏾‍🫯‍👨🏻	abagabo barushanwa ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+👨🏾‍🫯‍👨🏼	abagabo barushanwa ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+👨🏾‍🫯‍👨🏽	abagabo barushanwa ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+👨🏾‍🫯‍👨🏿	abagabo barushanwa ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+👨🏿‍🫯‍👨🏻	abagabo barushanwa ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+👨🏿‍🫯‍👨🏼	abagabo barushanwa ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+👨🏿‍🫯‍👨🏽	abagabo barushanwa ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+👨🏿‍🫯‍👨🏾	abagabo barushanwa ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏻‍🐰‍👨🏼	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+👨🏻‍🐰‍👨🏽	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+👨🏻‍🐰‍👨🏾	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏻‍🐰‍👨🏿	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+👨🏼‍🐰‍👨🏻	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+👨🏼‍🐰‍👨🏽	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+👨🏼‍🐰‍👨🏾	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏼‍🐰‍👨🏿	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+👨🏽‍🐰‍👨🏻	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+👨🏽‍🐰‍👨🏼	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+👨🏽‍🐰‍👨🏾	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏽‍🐰‍👨🏿	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+👨🏾‍🐰‍👨🏻	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+👨🏾‍🐰‍👨🏼	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+👨🏾‍🐰‍👨🏽	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+👨🏾‍🐰‍👨🏿	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+👨🏿‍🐰‍👨🏻	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+👨🏿‍🐰‍👨🏼	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+👨🏿‍🐰‍👨🏽	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+👨🏿‍🐰‍👨🏾	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏻	umugore ibara ry’uruhu rwera	none
+👩🏼	umugore ibara ry’uruhu rwera gahoro	none
+👩🏽	umugore ibara ry’uruhu rw’inzobe	none
+👩🏾	umugore ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿	umugore ibara ry’uruhu rwirabura	none
+👱🏻‍♀	umugore ufite imisatsi yera ibara ry’uruhu rwera	none
+👱🏼‍♀	umugore ufite imisatsi yera ibara ry’uruhu rwera gahoro	none
+👱🏽‍♀	umugore ufite imisatsi yera ibara ry’uruhu rw’inzobe	none
+👱🏾‍♀	umugore ufite imisatsi yera ibara ry’uruhu rw’inzobe yirabura	none
+👱🏿‍♀	umugore ufite imisatsi yera ibara ry’uruhu rwirabura	none
+👩🏻‍❤‍💋‍👨🏻	gusomana umugore, umugabo, ibara ry’uruhu rwera	none
+👩🏻‍❤‍💋‍👨🏼	gusomana umugore, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+👩🏻‍❤‍💋‍👨🏽	gusomana umugore, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+👩🏻‍❤‍💋‍👨🏾	gusomana umugore, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏻‍❤‍💋‍👨🏿	gusomana umugore, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+👩🏼‍❤‍💋‍👨🏻	gusomana umugore, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+👩🏼‍❤‍💋‍👨🏼	gusomana umugore, umugabo, ibara ry’uruhu rwera gahoro	none
+👩🏼‍❤‍💋‍👨🏽	gusomana umugore, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+👩🏼‍❤‍💋‍👨🏾	gusomana umugore, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏼‍❤‍💋‍👨🏿	gusomana umugore, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+👩🏽‍❤‍💋‍👨🏻	gusomana umugore, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+👩🏽‍❤‍💋‍👨🏼	gusomana umugore, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+👩🏽‍❤‍💋‍👨🏽	gusomana umugore, umugabo, ibara ry’uruhu rw’inzobe	none
+👩🏽‍❤‍💋‍👨🏾	gusomana umugore, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏽‍❤‍💋‍👨🏿	gusomana umugore, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+👩🏾‍❤‍💋‍👨🏻	gusomana umugore, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+👩🏾‍❤‍💋‍👨🏼	gusomana umugore, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+👩🏾‍❤‍💋‍👨🏽	gusomana umugore, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+👩🏾‍❤‍💋‍👨🏾	gusomana umugore, umugabo, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏾‍❤‍💋‍👨🏿	gusomana umugore, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+👩🏿‍❤‍💋‍👨🏻	gusomana umugore, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+👩🏿‍❤‍💋‍👨🏼	gusomana umugore, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+👩🏿‍❤‍💋‍👨🏽	gusomana umugore, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+👩🏿‍❤‍💋‍👨🏾	gusomana umugore, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍❤‍💋‍👨🏿	gusomana umugore, umugabo, ibara ry’uruhu rwirabura	none
+👩🏻‍❤‍💋‍👩🏻	gusomana umugore, umugore, ibara ry’uruhu rwera	none
+👩🏻‍❤‍💋‍👩🏼	gusomana umugore, umugore, ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+👩🏻‍❤‍💋‍👩🏽	gusomana umugore, umugore, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+👩🏻‍❤‍💋‍👩🏾	gusomana umugore, umugore, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏻‍❤‍💋‍👩🏿	gusomana umugore, umugore, ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+👩🏼‍❤‍💋‍👩🏻	gusomana umugore, umugore, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+👩🏼‍❤‍💋‍👩🏼	gusomana umugore, umugore, ibara ry’uruhu rwera gahoro	none
+👩🏼‍❤‍💋‍👩🏽	gusomana umugore, umugore, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+👩🏼‍❤‍💋‍👩🏾	gusomana umugore, umugore, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏼‍❤‍💋‍👩🏿	gusomana umugore, umugore, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+👩🏽‍❤‍💋‍👩🏻	gusomana umugore, umugore, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+👩🏽‍❤‍💋‍👩🏼	gusomana umugore, umugore, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+👩🏽‍❤‍💋‍👩🏽	gusomana umugore, umugore, ibara ry’uruhu rw’inzobe	none
+👩🏽‍❤‍💋‍👩🏾	gusomana umugore, umugore, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏽‍❤‍💋‍👩🏿	gusomana umugore, umugore, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+👩🏾‍❤‍💋‍👩🏻	gusomana umugore, umugore, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+👩🏾‍❤‍💋‍👩🏼	gusomana umugore, umugore, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+👩🏾‍❤‍💋‍👩🏽	gusomana umugore, umugore, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+👩🏾‍❤‍💋‍👩🏾	gusomana umugore, umugore, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏾‍❤‍💋‍👩🏿	gusomana umugore, umugore, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+👩🏿‍❤‍💋‍👩🏻	gusomana umugore, umugore, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+👩🏿‍❤‍💋‍👩🏼	gusomana umugore, umugore, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+👩🏿‍❤‍💋‍👩🏽	gusomana umugore, umugore, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+👩🏿‍❤‍💋‍👩🏾	gusomana umugore, umugore, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍❤‍💋‍👩🏿	gusomana umugore, umugore, ibara ry’uruhu rwirabura	none
+👩🏻‍❤‍👨🏻	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rwera	none
+👩🏻‍❤‍👨🏼	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+👩🏻‍❤‍👨🏽	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+👩🏻‍❤‍👨🏾	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏻‍❤‍👨🏿	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+👩🏼‍❤‍👨🏻	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+👩🏼‍❤‍👨🏼	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rwera gahoro	none
+👩🏼‍❤‍👨🏽	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+👩🏼‍❤‍👨🏾	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏼‍❤‍👨🏿	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+👩🏽‍❤‍👨🏻	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+👩🏽‍❤‍👨🏼	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+👩🏽‍❤‍👨🏽	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rw’inzobe	none
+👩🏽‍❤‍👨🏾	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏽‍❤‍👨🏿	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+👩🏾‍❤‍👨🏻	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+👩🏾‍❤‍👨🏼	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+👩🏾‍❤‍👨🏽	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+👩🏾‍❤‍👨🏾	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏾‍❤‍👨🏿	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+👩🏿‍❤‍👨🏻	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+👩🏿‍❤‍👨🏼	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+👩🏿‍❤‍👨🏽	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+👩🏿‍❤‍👨🏾	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍❤‍👨🏿	ikupule n’umutima umugore, umugabo, ibara ry’uruhu rwirabura	none
+👩🏻‍❤‍👩🏻	ikupule n’umutima umugore, umugore, ibara ry’uruhu rwera	none
+👩🏻‍❤‍👩🏼	ikupule n’umutima umugore, umugore, ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+👩🏻‍❤‍👩🏽	ikupule n’umutima umugore, umugore, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+👩🏻‍❤‍👩🏾	ikupule n’umutima umugore, umugore, ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏻‍❤‍👩🏿	ikupule n’umutima umugore, umugore, ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+👩🏼‍❤‍👩🏻	ikupule n’umutima umugore, umugore, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+👩🏼‍❤‍👩🏼	ikupule n’umutima umugore, umugore, ibara ry’uruhu rwera gahoro	none
+👩🏼‍❤‍👩🏽	ikupule n’umutima umugore, umugore, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+👩🏼‍❤‍👩🏾	ikupule n’umutima umugore, umugore, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏼‍❤‍👩🏿	ikupule n’umutima umugore, umugore, ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+👩🏽‍❤‍👩🏻	ikupule n’umutima umugore, umugore, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+👩🏽‍❤‍👩🏼	ikupule n’umutima umugore, umugore, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+👩🏽‍❤‍👩🏽	ikupule n’umutima umugore, umugore, ibara ry’uruhu rw’inzobe	none
+👩🏽‍❤‍👩🏾	ikupule n’umutima umugore, umugore, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏽‍❤‍👩🏿	ikupule n’umutima umugore, umugore, ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+👩🏾‍❤‍👩🏻	ikupule n’umutima umugore, umugore, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+👩🏾‍❤‍👩🏼	ikupule n’umutima umugore, umugore, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+👩🏾‍❤‍👩🏽	ikupule n’umutima umugore, umugore, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+👩🏾‍❤‍👩🏾	ikupule n’umutima umugore, umugore, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏾‍❤‍👩🏿	ikupule n’umutima umugore, umugore, ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+👩🏿‍❤‍👩🏻	ikupule n’umutima umugore, umugore, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+👩🏿‍❤‍👩🏼	ikupule n’umutima umugore, umugore, ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+👩🏿‍❤‍👩🏽	ikupule n’umutima umugore, umugore, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+👩🏿‍❤‍👩🏾	ikupule n’umutima umugore, umugore, ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍❤‍👩🏿	ikupule n’umutima umugore, umugore, ibara ry’uruhu rwirabura	none
+👩🏻‍🫯‍👩🏼	abagore barushanwa ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+👩🏻‍🫯‍👩🏽	abagore barushanwa ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+👩🏻‍🫯‍👩🏾	abagore barushanwa ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏻‍🫯‍👩🏿	abagore barushanwa ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+👩🏼‍🫯‍👩🏻	abagore barushanwa ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+👩🏼‍🫯‍👩🏽	abagore barushanwa ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+👩🏼‍🫯‍👩🏾	abagore barushanwa ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏼‍🫯‍👩🏿	abagore barushanwa ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+👩🏽‍🫯‍👩🏻	abagore barushanwa ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+👩🏽‍🫯‍👩🏼	abagore barushanwa ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+👩🏽‍🫯‍👩🏾	abagore barushanwa ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏽‍🫯‍👩🏿	abagore barushanwa ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+👩🏾‍🫯‍👩🏻	abagore barushanwa ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+👩🏾‍🫯‍👩🏼	abagore barushanwa ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+👩🏾‍🫯‍👩🏽	abagore barushanwa ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+👩🏾‍🫯‍👩🏿	abagore barushanwa ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+👩🏿‍🫯‍👩🏻	abagore barushanwa ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+👩🏿‍🫯‍👩🏼	abagore barushanwa ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+👩🏿‍🫯‍👩🏽	abagore barushanwa ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+👩🏿‍🫯‍👩🏾	abagore barushanwa ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏻‍🐰‍👩🏼	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+👩🏻‍🐰‍👩🏽	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+👩🏻‍🐰‍👩🏾	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏻‍🐰‍👩🏿	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+👩🏼‍🐰‍👩🏻	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+👩🏼‍🐰‍👩🏽	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+👩🏼‍🐰‍👩🏾	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏼‍🐰‍👩🏿	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+👩🏽‍🐰‍👩🏻	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+👩🏽‍🐰‍👩🏼	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+👩🏽‍🐰‍👩🏾	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏽‍🐰‍👩🏿	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+👩🏾‍🐰‍👩🏻	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+👩🏾‍🐰‍👩🏼	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+👩🏾‍🐰‍👩🏽	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+👩🏾‍🐰‍👩🏿	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+👩🏿‍🐰‍👩🏻	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+👩🏿‍🐰‍👩🏼	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+👩🏿‍🐰‍👩🏽	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+👩🏿‍🐰‍👩🏾	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+🧓🏻	umuntu mukuru ushaje ibara ry’uruhu rwera	none
+🧓🏼	umuntu mukuru ushaje ibara ry’uruhu rwera gahoro	none
+🧓🏽	umuntu mukuru ushaje ibara ry’uruhu rw’inzobe	none
+🧓🏾	umuntu mukuru ushaje ibara ry’uruhu rw’inzobe yirabura	none
+🧓🏿	umuntu mukuru ushaje ibara ry’uruhu rwirabura	none
+👴🏻	umusaza ibara ry’uruhu rwera	none
+👴🏼	umusaza ibara ry’uruhu rwera gahoro	none
+👴🏽	umusaza ibara ry’uruhu rw’inzobe	none
+👴🏾	umusaza ibara ry’uruhu rw’inzobe yirabura	none
+👴🏿	umusaza ibara ry’uruhu rwirabura	none
+👵🏻	umukecuru ibara ry’uruhu rwera	none
+👵🏼	umukecuru ibara ry’uruhu rwera gahoro	none
+👵🏽	umukecuru ibara ry’uruhu rw’inzobe	none
+👵🏾	umukecuru ibara ry’uruhu rw’inzobe yirabura	none
+👵🏿	umukecuru ibara ry’uruhu rwirabura	none
+🙍🏻	umuntu utishimye ibara ry’uruhu rwera	none
+🙍🏼	umuntu utishimye ibara ry’uruhu rwera gahoro	none
+🙍🏽	umuntu utishimye ibara ry’uruhu rw’inzobe	none
+🙍🏾	umuntu utishimye ibara ry’uruhu rw’inzobe yirabura	none
+🙍🏿	umuntu utishimye ibara ry’uruhu rwirabura	none
+🙍🏻‍♂	umugabo utishimye ibara ry’uruhu rwera	none
+🙍🏼‍♂	umugabo utishimye ibara ry’uruhu rwera gahoro	none
+🙍🏽‍♂	umugabo utishimye ibara ry’uruhu rw’inzobe	none
+🙍🏾‍♂	umugabo utishimye ibara ry’uruhu rw’inzobe yirabura	none
+🙍🏿‍♂	umugabo utishimye ibara ry’uruhu rwirabura	none
+🙍🏻‍♀	umugore utishimye ibara ry’uruhu rwera	none
+🙍🏼‍♀	umugore utishimye ibara ry’uruhu rwera gahoro	none
+🙍🏽‍♀	umugore utishimye ibara ry’uruhu rw’inzobe	none
+🙍🏾‍♀	umugore utishimye ibara ry’uruhu rw’inzobe yirabura	none
+🙍🏿‍♀	umugore utishimye ibara ry’uruhu rwirabura	none
+🙎🏻	umuntu uhakana ibara ry’uruhu rwera	none
+🙎🏼	umuntu uhakana ibara ry’uruhu rwera gahoro	none
+🙎🏽	umuntu uhakana ibara ry’uruhu rw’inzobe	none
+🙎🏾	umuntu uhakana ibara ry’uruhu rw’inzobe yirabura	none
+🙎🏿	umuntu uhakana ibara ry’uruhu rwirabura	none
+🙎🏻‍♂	umugabo urakaye ibara ry’uruhu rwera	none
+🙎🏼‍♂	umugabo urakaye ibara ry’uruhu rwera gahoro	none
+🙎🏽‍♂	umugabo urakaye ibara ry’uruhu rw’inzobe	none
+🙎🏾‍♂	umugabo urakaye ibara ry’uruhu rw’inzobe yirabura	none
+🙎🏿‍♂	umugabo urakaye ibara ry’uruhu rwirabura	none
+🙎🏻‍♀	umugore urakaye ibara ry’uruhu rwera	none
+🙎🏼‍♀	umugore urakaye ibara ry’uruhu rwera gahoro	none
+🙎🏽‍♀	umugore urakaye ibara ry’uruhu rw’inzobe	none
+🙎🏾‍♀	umugore urakaye ibara ry’uruhu rw’inzobe yirabura	none
+🙎🏿‍♀	umugore urakaye ibara ry’uruhu rwirabura	none
+🙅🏻	umuntu ugaragaza OYA ibara ry’uruhu rwera	none
+🙅🏼	umuntu ugaragaza OYA ibara ry’uruhu rwera gahoro	none
+🙅🏽	umuntu ugaragaza OYA ibara ry’uruhu rw’inzobe	none
+🙅🏾	umuntu ugaragaza OYA ibara ry’uruhu rw’inzobe yirabura	none
+🙅🏿	umuntu ugaragaza OYA ibara ry’uruhu rwirabura	none
+🙅🏻‍♂	umugabo werekana ikimenyetso cya OYA ibara ry’uruhu rwera	none
+🙅🏼‍♂	umugabo werekana ikimenyetso cya OYA ibara ry’uruhu rwera gahoro	none
+🙅🏽‍♂	umugabo werekana ikimenyetso cya OYA ibara ry’uruhu rw’inzobe	none
+🙅🏾‍♂	umugabo werekana ikimenyetso cya OYA ibara ry’uruhu rw’inzobe yirabura	none
+🙅🏿‍♂	umugabo werekana ikimenyetso cya OYA ibara ry’uruhu rwirabura	none
+🙅🏻‍♀	umugore werekana ikimenyetso cya OYA ibara ry’uruhu rwera	none
+🙅🏼‍♀	umugore werekana ikimenyetso cya OYA ibara ry’uruhu rwera gahoro	none
+🙅🏽‍♀	umugore werekana ikimenyetso cya OYA ibara ry’uruhu rw’inzobe	none
+🙅🏾‍♀	umugore werekana ikimenyetso cya OYA ibara ry’uruhu rw’inzobe yirabura	none
+🙅🏿‍♀	umugore werekana ikimenyetso cya OYA ibara ry’uruhu rwirabura	none
+🙆🏻	umuntu ugaragaza Yego ibara ry’uruhu rwera	none
+🙆🏼	umuntu ugaragaza Yego ibara ry’uruhu rwera gahoro	none
+🙆🏽	umuntu ugaragaza Yego ibara ry’uruhu rw’inzobe	none
+🙆🏾	umuntu ugaragaza Yego ibara ry’uruhu rw’inzobe yirabura	none
+🙆🏿	umuntu ugaragaza Yego ibara ry’uruhu rwirabura	none
+🙆🏻‍♂	umugabo werekana ikimenyetso cya Yego ibara ry’uruhu rwera	none
+🙆🏼‍♂	umugabo werekana ikimenyetso cya Yego ibara ry’uruhu rwera gahoro	none
+🙆🏽‍♂	umugabo werekana ikimenyetso cya Yego ibara ry’uruhu rw’inzobe	none
+🙆🏾‍♂	umugabo werekana ikimenyetso cya Yego ibara ry’uruhu rw’inzobe yirabura	none
+🙆🏿‍♂	umugabo werekana ikimenyetso cya Yego ibara ry’uruhu rwirabura	none
+🙆🏻‍♀	umugore werekana ikimenyetso cya Yego ibara ry’uruhu rwera	none
+🙆🏼‍♀	umugore werekana ikimenyetso cya Yego ibara ry’uruhu rwera gahoro	none
+🙆🏽‍♀	umugore werekana ikimenyetso cya Yego ibara ry’uruhu rw’inzobe	none
+🙆🏾‍♀	umugore werekana ikimenyetso cya Yego ibara ry’uruhu rw’inzobe yirabura	none
+🙆🏿‍♀	umugore werekana ikimenyetso cya Yego ibara ry’uruhu rwirabura	none
+💁🏻	umuntu wazamuye urutoki ibara ry’uruhu rwera	none
+💁🏼	umuntu wazamuye urutoki ibara ry’uruhu rwera gahoro	none
+💁🏽	umuntu wazamuye urutoki ibara ry’uruhu rw’inzobe	none
+💁🏾	umuntu wazamuye urutoki ibara ry’uruhu rw’inzobe yirabura	none
+💁🏿	umuntu wazamuye urutoki ibara ry’uruhu rwirabura	none
+💁🏻‍♂	umugabo uteze ikiganza ibara ry’uruhu rwera	none
+💁🏼‍♂	umugabo uteze ikiganza ibara ry’uruhu rwera gahoro	none
+💁🏽‍♂	umugabo uteze ikiganza ibara ry’uruhu rw’inzobe	none
+💁🏾‍♂	umugabo uteze ikiganza ibara ry’uruhu rw’inzobe yirabura	none
+💁🏿‍♂	umugabo uteze ikiganza ibara ry’uruhu rwirabura	none
+💁🏻‍♀	umugore uteze ikiganza ibara ry’uruhu rwera	none
+💁🏼‍♀	umugore uteze ikiganza ibara ry’uruhu rwera gahoro	none
+💁🏽‍♀	umugore uteze ikiganza ibara ry’uruhu rw’inzobe	none
+💁🏾‍♀	umugore uteze ikiganza ibara ry’uruhu rw’inzobe yirabura	none
+💁🏿‍♀	umugore uteze ikiganza ibara ry’uruhu rwirabura	none
+🙋🏻	umuntu wazamuye ikiganza ibara ry’uruhu rwera	none
+🙋🏼	umuntu wazamuye ikiganza ibara ry’uruhu rwera gahoro	none
+🙋🏽	umuntu wazamuye ikiganza ibara ry’uruhu rw’inzobe	none
+🙋🏾	umuntu wazamuye ikiganza ibara ry’uruhu rw’inzobe yirabura	none
+🙋🏿	umuntu wazamuye ikiganza ibara ry’uruhu rwirabura	none
+🙋🏻‍♂	umugabo uzamuye ikiganza ibara ry’uruhu rwera	none
+🙋🏼‍♂	umugabo uzamuye ikiganza ibara ry’uruhu rwera gahoro	none
+🙋🏽‍♂	umugabo uzamuye ikiganza ibara ry’uruhu rw’inzobe	none
+🙋🏾‍♂	umugabo uzamuye ikiganza ibara ry’uruhu rw’inzobe yirabura	none
+🙋🏿‍♂	umugabo uzamuye ikiganza ibara ry’uruhu rwirabura	none
+🙋🏻‍♀	umugore uzamuye ikiganza ibara ry’uruhu rwera	none
+🙋🏼‍♀	umugore uzamuye ikiganza ibara ry’uruhu rwera gahoro	none
+🙋🏽‍♀	umugore uzamuye ikiganza ibara ry’uruhu rw’inzobe	none
+🙋🏾‍♀	umugore uzamuye ikiganza ibara ry’uruhu rw’inzobe yirabura	none
+🙋🏿‍♀	umugore uzamuye ikiganza ibara ry’uruhu rwirabura	none
+🙇🏻	umuntu wunamye ibara ry’uruhu rwera	none
+🙇🏼	umuntu wunamye ibara ry’uruhu rwera gahoro	none
+🙇🏽	umuntu wunamye ibara ry’uruhu rw’inzobe	none
+🙇🏾	umuntu wunamye ibara ry’uruhu rw’inzobe yirabura	none
+🙇🏿	umuntu wunamye ibara ry’uruhu rwirabura	none
+🙇🏻‍♂	umugabo wunamye ibara ry’uruhu rwera	none
+🙇🏼‍♂	umugabo wunamye ibara ry’uruhu rwera gahoro	none
+🙇🏽‍♂	umugabo wunamye ibara ry’uruhu rw’inzobe	none
+🙇🏾‍♂	umugabo wunamye ibara ry’uruhu rw’inzobe yirabura	none
+🙇🏿‍♂	umugabo wunamye ibara ry’uruhu rwirabura	none
+🙇🏻‍♀	umugore wunamye ibara ry’uruhu rwera	none
+🙇🏼‍♀	umugore wunamye ibara ry’uruhu rwera gahoro	none
+🙇🏽‍♀	umugore wunamye ibara ry’uruhu rw’inzobe	none
+🙇🏾‍♀	umugore wunamye ibara ry’uruhu rw’inzobe yirabura	none
+🙇🏿‍♀	umugore wunamye ibara ry’uruhu rwirabura	none
+🤦🏻	umuntu wifash mu maso ibara ry’uruhu rwera	none
+🤦🏼	umuntu wifash mu maso ibara ry’uruhu rwera gahoro	none
+🤦🏽	umuntu wifash mu maso ibara ry’uruhu rw’inzobe	none
+🤦🏾	umuntu wifash mu maso ibara ry’uruhu rw’inzobe yirabura	none
+🤦🏿	umuntu wifash mu maso ibara ry’uruhu rwirabura	none
+🤦🏻‍♂	umugabo ushyize ikiganza mu maso ibara ry’uruhu rwera	none
+🤦🏼‍♂	umugabo ushyize ikiganza mu maso ibara ry’uruhu rwera gahoro	none
+🤦🏽‍♂	umugabo ushyize ikiganza mu maso ibara ry’uruhu rw’inzobe	none
+🤦🏾‍♂	umugabo ushyize ikiganza mu maso ibara ry’uruhu rw’inzobe yirabura	none
+🤦🏿‍♂	umugabo ushyize ikiganza mu maso ibara ry’uruhu rwirabura	none
+🤦🏻‍♀	umugore ushyize ikiganza mu maso ibara ry’uruhu rwera	none
+🤦🏼‍♀	umugore ushyize ikiganza mu maso ibara ry’uruhu rwera gahoro	none
+🤦🏽‍♀	umugore ushyize ikiganza mu maso ibara ry’uruhu rw’inzobe	none
+🤦🏾‍♀	umugore ushyize ikiganza mu maso ibara ry’uruhu rw’inzobe yirabura	none
+🤦🏿‍♀	umugore ushyize ikiganza mu maso ibara ry’uruhu rwirabura	none
+🤷🏻	umuntu wazamuye intugu ibara ry’uruhu rwera	none
+🤷🏼	umuntu wazamuye intugu ibara ry’uruhu rwera gahoro	none
+🤷🏽	umuntu wazamuye intugu ibara ry’uruhu rw’inzobe	none
+🤷🏾	umuntu wazamuye intugu ibara ry’uruhu rw’inzobe yirabura	none
+🤷🏿	umuntu wazamuye intugu ibara ry’uruhu rwirabura	none
+🤷🏻‍♂	umugabo utigisa intugu ibara ry’uruhu rwera	none
+🤷🏼‍♂	umugabo utigisa intugu ibara ry’uruhu rwera gahoro	none
+🤷🏽‍♂	umugabo utigisa intugu ibara ry’uruhu rw’inzobe	none
+🤷🏾‍♂	umugabo utigisa intugu ibara ry’uruhu rw’inzobe yirabura	none
+🤷🏿‍♂	umugabo utigisa intugu ibara ry’uruhu rwirabura	none
+🤷🏻‍♀	umugore utigisa intugu ibara ry’uruhu rwera	none
+🤷🏼‍♀	umugore utigisa intugu ibara ry’uruhu rwera gahoro	none
+🤷🏽‍♀	umugore utigisa intugu ibara ry’uruhu rw’inzobe	none
+🤷🏾‍♀	umugore utigisa intugu ibara ry’uruhu rw’inzobe yirabura	none
+🤷🏿‍♀	umugore utigisa intugu ibara ry’uruhu rwirabura	none
+👨🏻‍⚕	umugabo muzima w’umukozi ibara ry’uruhu rwera	none
+👨🏼‍⚕	umugabo muzima w’umukozi ibara ry’uruhu rwera gahoro	none
+👨🏽‍⚕	umugabo muzima w’umukozi ibara ry’uruhu rw’inzobe	none
+👨🏾‍⚕	umugabo muzima w’umukozi ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍⚕	umugabo muzima w’umukozi ibara ry’uruhu rwirabura	none
+👩🏻‍⚕	umugore ukora mu by’ubuzima ibara ry’uruhu rwera	none
+👩🏼‍⚕	umugore ukora mu by’ubuzima ibara ry’uruhu rwera gahoro	none
+👩🏽‍⚕	umugore ukora mu by’ubuzima ibara ry’uruhu rw’inzobe	none
+👩🏾‍⚕	umugore ukora mu by’ubuzima ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍⚕	umugore ukora mu by’ubuzima ibara ry’uruhu rwirabura	none
+👨🏻‍🎓	umugabo w’umunyeshuri ibara ry’uruhu rwera	none
+👨🏼‍🎓	umugabo w’umunyeshuri ibara ry’uruhu rwera gahoro	none
+👨🏽‍🎓	umugabo w’umunyeshuri ibara ry’uruhu rw’inzobe	none
+👨🏾‍🎓	umugabo w’umunyeshuri ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍🎓	umugabo w’umunyeshuri ibara ry’uruhu rwirabura	none
+👩🏻‍🎓	umugore w’umunyeshuri ibara ry’uruhu rwera	none
+👩🏼‍🎓	umugore w’umunyeshuri ibara ry’uruhu rwera gahoro	none
+👩🏽‍🎓	umugore w’umunyeshuri ibara ry’uruhu rw’inzobe	none
+👩🏾‍🎓	umugore w’umunyeshuri ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍🎓	umugore w’umunyeshuri ibara ry’uruhu rwirabura	none
+👨🏻‍🏫	umugabo w’umwarimu ibara ry’uruhu rwera	none
+👨🏼‍🏫	umugabo w’umwarimu ibara ry’uruhu rwera gahoro	none
+👨🏽‍🏫	umugabo w’umwarimu ibara ry’uruhu rw’inzobe	none
+👨🏾‍🏫	umugabo w’umwarimu ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍🏫	umugabo w’umwarimu ibara ry’uruhu rwirabura	none
+👩🏻‍🏫	umwarimukazi ibara ry’uruhu rwera	none
+👩🏼‍🏫	umwarimukazi ibara ry’uruhu rwera gahoro	none
+👩🏽‍🏫	umwarimukazi ibara ry’uruhu rw’inzobe	none
+👩🏾‍🏫	umwarimukazi ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍🏫	umwarimukazi ibara ry’uruhu rwirabura	none
+👨🏻‍⚖	umugabo w’umucamanza ibara ry’uruhu rwera	none
+👨🏼‍⚖	umugabo w’umucamanza ibara ry’uruhu rwera gahoro	none
+👨🏽‍⚖	umugabo w’umucamanza ibara ry’uruhu rw’inzobe	none
+👨🏾‍⚖	umugabo w’umucamanza ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍⚖	umugabo w’umucamanza ibara ry’uruhu rwirabura	none
+👩🏻‍⚖	umugore w’umucamanza ibara ry’uruhu rwera	none
+👩🏼‍⚖	umugore w’umucamanza ibara ry’uruhu rwera gahoro	none
+👩🏽‍⚖	umugore w’umucamanza ibara ry’uruhu rw’inzobe	none
+👩🏾‍⚖	umugore w’umucamanza ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍⚖	umugore w’umucamanza ibara ry’uruhu rwirabura	none
+👨🏻‍🌾	umugabo w’umworozi ibara ry’uruhu rwera	none
+👨🏼‍🌾	umugabo w’umworozi ibara ry’uruhu rwera gahoro	none
+👨🏽‍🌾	umugabo w’umworozi ibara ry’uruhu rw’inzobe	none
+👨🏾‍🌾	umugabo w’umworozi ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍🌾	umugabo w’umworozi ibara ry’uruhu rwirabura	none
+👩🏻‍🌾	umworozikazi ibara ry’uruhu rwera	none
+👩🏼‍🌾	umworozikazi ibara ry’uruhu rwera gahoro	none
+👩🏽‍🌾	umworozikazi ibara ry’uruhu rw’inzobe	none
+👩🏾‍🌾	umworozikazi ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍🌾	umworozikazi ibara ry’uruhu rwirabura	none
+👨🏻‍🍳	umugabo w’umutetsi ibara ry’uruhu rwera	none
+👨🏼‍🍳	umugabo w’umutetsi ibara ry’uruhu rwera gahoro	none
+👨🏽‍🍳	umugabo w’umutetsi ibara ry’uruhu rw’inzobe	none
+👨🏾‍🍳	umugabo w’umutetsi ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍🍳	umugabo w’umutetsi ibara ry’uruhu rwirabura	none
+👩🏻‍🍳	umutetsikazi ibara ry’uruhu rwera	none
+👩🏼‍🍳	umutetsikazi ibara ry’uruhu rwera gahoro	none
+👩🏽‍🍳	umutetsikazi ibara ry’uruhu rw’inzobe	none
+👩🏾‍🍳	umutetsikazi ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍🍳	umutetsikazi ibara ry’uruhu rwirabura	none
+👨🏻‍🔧	umugabo w’umukanishi ibara ry’uruhu rwera	none
+👨🏼‍🔧	umugabo w’umukanishi ibara ry’uruhu rwera gahoro	none
+👨🏽‍🔧	umugabo w’umukanishi ibara ry’uruhu rw’inzobe	none
+👨🏾‍🔧	umugabo w’umukanishi ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍🔧	umugabo w’umukanishi ibara ry’uruhu rwirabura	none
+👩🏻‍🔧	umugore w’umukanishi ibara ry’uruhu rwera	none
+👩🏼‍🔧	umugore w’umukanishi ibara ry’uruhu rwera gahoro	none
+👩🏽‍🔧	umugore w’umukanishi ibara ry’uruhu rw’inzobe	none
+👩🏾‍🔧	umugore w’umukanishi ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍🔧	umugore w’umukanishi ibara ry’uruhu rwirabura	none
+👨🏻‍🏭	umugabo ukora mu ruganda ibara ry’uruhu rwera	none
+👨🏼‍🏭	umugabo ukora mu ruganda ibara ry’uruhu rwera gahoro	none
+👨🏽‍🏭	umugabo ukora mu ruganda ibara ry’uruhu rw’inzobe	none
+👨🏾‍🏭	umugabo ukora mu ruganda ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍🏭	umugabo ukora mu ruganda ibara ry’uruhu rwirabura	none
+👩🏻‍🏭	umugore ukora mu ruganda ibara ry’uruhu rwera	none
+👩🏼‍🏭	umugore ukora mu ruganda ibara ry’uruhu rwera gahoro	none
+👩🏽‍🏭	umugore ukora mu ruganda ibara ry’uruhu rw’inzobe	none
+👩🏾‍🏭	umugore ukora mu ruganda ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍🏭	umugore ukora mu ruganda ibara ry’uruhu rwirabura	none
+👨🏻‍💼	umugabo ukorera mu biro ibara ry’uruhu rwera	none
+👨🏼‍💼	umugabo ukorera mu biro ibara ry’uruhu rwera gahoro	none
+👨🏽‍💼	umugabo ukorera mu biro ibara ry’uruhu rw’inzobe	none
+👨🏾‍💼	umugabo ukorera mu biro ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍💼	umugabo ukorera mu biro ibara ry’uruhu rwirabura	none
+👩🏻‍💼	umugore ukorera mu biro ibara ry’uruhu rwera	none
+👩🏼‍💼	umugore ukorera mu biro ibara ry’uruhu rwera gahoro	none
+👩🏽‍💼	umugore ukorera mu biro ibara ry’uruhu rw’inzobe	none
+👩🏾‍💼	umugore ukorera mu biro ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍💼	umugore ukorera mu biro ibara ry’uruhu rwirabura	none
+👨🏻‍🔬	umugabo w’impuguke mu bya siyansi ibara ry’uruhu rwera	none
+👨🏼‍🔬	umugabo w’impuguke mu bya siyansi ibara ry’uruhu rwera gahoro	none
+👨🏽‍🔬	umugabo w’impuguke mu bya siyansi ibara ry’uruhu rw’inzobe	none
+👨🏾‍🔬	umugabo w’impuguke mu bya siyansi ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍🔬	umugabo w’impuguke mu bya siyansi ibara ry’uruhu rwirabura	none
+👩🏻‍🔬	impugukekazi mu bya siyansi ibara ry’uruhu rwera	none
+👩🏼‍🔬	impugukekazi mu bya siyansi ibara ry’uruhu rwera gahoro	none
+👩🏽‍🔬	impugukekazi mu bya siyansi ibara ry’uruhu rw’inzobe	none
+👩🏾‍🔬	impugukekazi mu bya siyansi ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍🔬	impugukekazi mu bya siyansi ibara ry’uruhu rwirabura	none
+👨🏻‍💻	umugabo w’impuguke mu by’ikoranabuhanga ibara ry’uruhu rwera	none
+👨🏼‍💻	umugabo w’impuguke mu by’ikoranabuhanga ibara ry’uruhu rwera gahoro	none
+👨🏽‍💻	umugabo w’impuguke mu by’ikoranabuhanga ibara ry’uruhu rw’inzobe	none
+👨🏾‍💻	umugabo w’impuguke mu by’ikoranabuhanga ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍💻	umugabo w’impuguke mu by’ikoranabuhanga ibara ry’uruhu rwirabura	none
+👩🏻‍💻	umugabo w’impuguke mu by’ikoranahanga ibara ry’uruhu rwera	none
+👩🏼‍💻	umugabo w’impuguke mu by’ikoranahanga ibara ry’uruhu rwera gahoro	none
+👩🏽‍💻	umugabo w’impuguke mu by’ikoranahanga ibara ry’uruhu rw’inzobe	none
+👩🏾‍💻	umugabo w’impuguke mu by’ikoranahanga ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍💻	umugabo w’impuguke mu by’ikoranahanga ibara ry’uruhu rwirabura	none
+👨🏻‍🎤	umugabo w’umuririmbyi ibara ry’uruhu rwera	none
+👨🏼‍🎤	umugabo w’umuririmbyi ibara ry’uruhu rwera gahoro	none
+👨🏽‍🎤	umugabo w’umuririmbyi ibara ry’uruhu rw’inzobe	none
+👨🏾‍🎤	umugabo w’umuririmbyi ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍🎤	umugabo w’umuririmbyi ibara ry’uruhu rwirabura	none
+👩🏻‍🎤	umuririmbyikazi ibara ry’uruhu rwera	none
+👩🏼‍🎤	umuririmbyikazi ibara ry’uruhu rwera gahoro	none
+👩🏽‍🎤	umuririmbyikazi ibara ry’uruhu rw’inzobe	none
+👩🏾‍🎤	umuririmbyikazi ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍🎤	umuririmbyikazi ibara ry’uruhu rwirabura	none
+👨🏻‍🎨	umugabo w’umunyabugeni ibara ry’uruhu rwera	none
+👨🏼‍🎨	umugabo w’umunyabugeni ibara ry’uruhu rwera gahoro	none
+👨🏽‍🎨	umugabo w’umunyabugeni ibara ry’uruhu rw’inzobe	none
+👨🏾‍🎨	umugabo w’umunyabugeni ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍🎨	umugabo w’umunyabugeni ibara ry’uruhu rwirabura	none
+👩🏻‍🎨	umunyabugenikazi ibara ry’uruhu rwera	none
+👩🏼‍🎨	umunyabugenikazi ibara ry’uruhu rwera gahoro	none
+👩🏽‍🎨	umunyabugenikazi ibara ry’uruhu rw’inzobe	none
+👩🏾‍🎨	umunyabugenikazi ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍🎨	umunyabugenikazi ibara ry’uruhu rwirabura	none
+👨🏻‍✈	umugabo w’umuderevu ibara ry’uruhu rwera	none
+👨🏼‍✈	umugabo w’umuderevu ibara ry’uruhu rwera gahoro	none
+👨🏽‍✈	umugabo w’umuderevu ibara ry’uruhu rw’inzobe	none
+👨🏾‍✈	umugabo w’umuderevu ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍✈	umugabo w’umuderevu ibara ry’uruhu rwirabura	none
+👩🏻‍✈	umupilotekazi ibara ry’uruhu rwera	none
+👩🏼‍✈	umupilotekazi ibara ry’uruhu rwera gahoro	none
+👩🏽‍✈	umupilotekazi ibara ry’uruhu rw’inzobe	none
+👩🏾‍✈	umupilotekazi ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍✈	umupilotekazi ibara ry’uruhu rwirabura	none
+👨🏻‍🚀	umugabo w’ impuguke mu by’ isanzure ibara ry’uruhu rwera	none
+👨🏼‍🚀	umugabo w’ impuguke mu by’ isanzure ibara ry’uruhu rwera gahoro	none
+👨🏽‍🚀	umugabo w’ impuguke mu by’ isanzure ibara ry’uruhu rw’inzobe	none
+👨🏾‍🚀	umugabo w’ impuguke mu by’ isanzure ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍🚀	umugabo w’ impuguke mu by’ isanzure ibara ry’uruhu rwirabura	none
+👩🏻‍🚀	umugore w’impuguke mu by’isanzure ibara ry’uruhu rwera	none
+👩🏼‍🚀	umugore w’impuguke mu by’isanzure ibara ry’uruhu rwera gahoro	none
+👩🏽‍🚀	umugore w’impuguke mu by’isanzure ibara ry’uruhu rw’inzobe	none
+👩🏾‍🚀	umugore w’impuguke mu by’isanzure ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍🚀	umugore w’impuguke mu by’isanzure ibara ry’uruhu rwirabura	none
+👨🏻‍🚒	umugabo uzimya umuriro ibara ry’uruhu rwera	none
+👨🏼‍🚒	umugabo uzimya umuriro ibara ry’uruhu rwera gahoro	none
+👨🏽‍🚒	umugabo uzimya umuriro ibara ry’uruhu rw’inzobe	none
+👨🏾‍🚒	umugabo uzimya umuriro ibara ry’uruhu rw’inzobe yirabura	none
+👨🏿‍🚒	umugabo uzimya umuriro ibara ry’uruhu rwirabura	none
+👩🏻‍🚒	umugore uzimya umuriro ibara ry’uruhu rwera	none
+👩🏼‍🚒	umugore uzimya umuriro ibara ry’uruhu rwera gahoro	none
+👩🏽‍🚒	umugore uzimya umuriro ibara ry’uruhu rw’inzobe	none
+👩🏾‍🚒	umugore uzimya umuriro ibara ry’uruhu rw’inzobe yirabura	none
+👩🏿‍🚒	umugore uzimya umuriro ibara ry’uruhu rwirabura	none
+👮🏻	umupolisi ibara ry’uruhu rwera	none
+👮🏼	umupolisi ibara ry’uruhu rwera gahoro	none
+👮🏽	umupolisi ibara ry’uruhu rw’inzobe	none
+👮🏾	umupolisi ibara ry’uruhu rw’inzobe yirabura	none
+👮🏿	umupolisi ibara ry’uruhu rwirabura	none
+👮🏻‍♂	umupolisi w’umugabo ibara ry’uruhu rwera	none
+👮🏼‍♂	umupolisi w’umugabo ibara ry’uruhu rwera gahoro	none
+👮🏽‍♂	umupolisi w’umugabo ibara ry’uruhu rw’inzobe	none
+👮🏾‍♂	umupolisi w’umugabo ibara ry’uruhu rw’inzobe yirabura	none
+👮🏿‍♂	umupolisi w’umugabo ibara ry’uruhu rwirabura	none
+👮🏻‍♀	umupolisi w’umugore ibara ry’uruhu rwera	none
+👮🏼‍♀	umupolisi w’umugore ibara ry’uruhu rwera gahoro	none
+👮🏽‍♀	umupolisi w’umugore ibara ry’uruhu rw’inzobe	none
+👮🏾‍♀	umupolisi w’umugore ibara ry’uruhu rw’inzobe yirabura	none
+👮🏿‍♀	umupolisi w’umugore ibara ry’uruhu rwirabura	none
+🕵🏻	umugenzuzi ibara ry’uruhu rwera	none
+🕵🏼	umugenzuzi ibara ry’uruhu rwera gahoro	none
+🕵🏽	umugenzuzi ibara ry’uruhu rw’inzobe	none
+🕵🏾	umugenzuzi ibara ry’uruhu rw’inzobe yirabura	none
+🕵🏿	umugenzuzi ibara ry’uruhu rwirabura	none
+🕵🏻‍♂	umugenzuzi w’umugabo ibara ry’uruhu rwera	none
+🕵🏼‍♂	umugenzuzi w’umugabo ibara ry’uruhu rwera gahoro	none
+🕵🏽‍♂	umugenzuzi w’umugabo ibara ry’uruhu rw’inzobe	none
+🕵🏾‍♂	umugenzuzi w’umugabo ibara ry’uruhu rw’inzobe yirabura	none
+🕵🏿‍♂	umugenzuzi w’umugabo ibara ry’uruhu rwirabura	none
+🕵🏻‍♀	umugenzuzi w’umugore ibara ry’uruhu rwera	none
+🕵🏼‍♀	umugenzuzi w’umugore ibara ry’uruhu rwera gahoro	none
+🕵🏽‍♀	umugenzuzi w’umugore ibara ry’uruhu rw’inzobe	none
+🕵🏾‍♀	umugenzuzi w’umugore ibara ry’uruhu rw’inzobe yirabura	none
+🕵🏿‍♀	umugenzuzi w’umugore ibara ry’uruhu rwirabura	none
+💂🏻	umusuruveya ibara ry’uruhu rwera	none
+💂🏼	umusuruveya ibara ry’uruhu rwera gahoro	none
+💂🏽	umusuruveya ibara ry’uruhu rw’inzobe	none
+💂🏾	umusuruveya ibara ry’uruhu rw’inzobe yirabura	none
+💂🏿	umusuruveya ibara ry’uruhu rwirabura	none
+💂🏻‍♂	umurinzi w’ umugabo ibara ry’uruhu rwera	none
+💂🏼‍♂	umurinzi w’ umugabo ibara ry’uruhu rwera gahoro	none
+💂🏽‍♂	umurinzi w’ umugabo ibara ry’uruhu rw’inzobe	none
+💂🏾‍♂	umurinzi w’ umugabo ibara ry’uruhu rw’inzobe yirabura	none
+💂🏿‍♂	umurinzi w’ umugabo ibara ry’uruhu rwirabura	none
+💂🏻‍♀	umurinzi w’ umugore ibara ry’uruhu rwera	none
+💂🏼‍♀	umurinzi w’ umugore ibara ry’uruhu rwera gahoro	none
+💂🏽‍♀	umurinzi w’ umugore ibara ry’uruhu rw’inzobe	none
+💂🏾‍♀	umurinzi w’ umugore ibara ry’uruhu rw’inzobe yirabura	none
+💂🏿‍♀	umurinzi w’ umugore ibara ry’uruhu rwirabura	none
+👷🏻	umwubatsi ibara ry’uruhu rwera	none
+👷🏼	umwubatsi ibara ry’uruhu rwera gahoro	none
+👷🏽	umwubatsi ibara ry’uruhu rw’inzobe	none
+👷🏾	umwubatsi ibara ry’uruhu rw’inzobe yirabura	none
+👷🏿	umwubatsi ibara ry’uruhu rwirabura	none
+👷🏻‍♂	umufundi ibara ry’uruhu rwera	none
+👷🏼‍♂	umufundi ibara ry’uruhu rwera gahoro	none
+👷🏽‍♂	umufundi ibara ry’uruhu rw’inzobe	none
+👷🏾‍♂	umufundi ibara ry’uruhu rw’inzobe yirabura	none
+👷🏿‍♂	umufundi ibara ry’uruhu rwirabura	none
+👷🏻‍♀	umugore ukora mu bwubatsi ibara ry’uruhu rwera	none
+👷🏼‍♀	umugore ukora mu bwubatsi ibara ry’uruhu rwera gahoro	none
+👷🏽‍♀	umugore ukora mu bwubatsi ibara ry’uruhu rw’inzobe	none
+👷🏾‍♀	umugore ukora mu bwubatsi ibara ry’uruhu rw’inzobe yirabura	none
+👷🏿‍♀	umugore ukora mu bwubatsi ibara ry’uruhu rwirabura	none
+🤴🏻	igikomangoma ibara ry’uruhu rwera	none
+🤴🏼	igikomangoma ibara ry’uruhu rwera gahoro	none
+🤴🏽	igikomangoma ibara ry’uruhu rw’inzobe	none
+🤴🏾	igikomangoma ibara ry’uruhu rw’inzobe yirabura	none
+🤴🏿	igikomangoma ibara ry’uruhu rwirabura	none
+👸🏻	igikomangomakazi ibara ry’uruhu rwera	none
+👸🏼	igikomangomakazi ibara ry’uruhu rwera gahoro	none
+👸🏽	igikomangomakazi ibara ry’uruhu rw’inzobe	none
+👸🏾	igikomangomakazi ibara ry’uruhu rw’inzobe yirabura	none
+👸🏿	igikomangomakazi ibara ry’uruhu rwirabura	none
+👳🏻	umuntu witandiye ibara ry’uruhu rwera	none
+👳🏼	umuntu witandiye ibara ry’uruhu rwera gahoro	none
+👳🏽	umuntu witandiye ibara ry’uruhu rw’inzobe	none
+👳🏾	umuntu witandiye ibara ry’uruhu rw’inzobe yirabura	none
+👳🏿	umuntu witandiye ibara ry’uruhu rwirabura	none
+👳🏻‍♂	umugabo witeze igitambaro cyo mu mutwe ibara ry’uruhu rwera	none
+👳🏼‍♂	umugabo witeze igitambaro cyo mu mutwe ibara ry’uruhu rwera gahoro	none
+👳🏽‍♂	umugabo witeze igitambaro cyo mu mutwe ibara ry’uruhu rw’inzobe	none
+👳🏾‍♂	umugabo witeze igitambaro cyo mu mutwe ibara ry’uruhu rw’inzobe yirabura	none
+👳🏿‍♂	umugabo witeze igitambaro cyo mu mutwe ibara ry’uruhu rwirabura	none
+👳🏻‍♀	umugore witeze igitambaro cyo mu mutwe ibara ry’uruhu rwera	none
+👳🏼‍♀	umugore witeze igitambaro cyo mu mutwe ibara ry’uruhu rwera gahoro	none
+👳🏽‍♀	umugore witeze igitambaro cyo mu mutwe ibara ry’uruhu rw’inzobe	none
+👳🏾‍♀	umugore witeze igitambaro cyo mu mutwe ibara ry’uruhu rw’inzobe yirabura	none
+👳🏿‍♀	umugore witeze igitambaro cyo mu mutwe ibara ry’uruhu rwirabura	none
+👲🏻	umuntu wambaye ingofero y’abashinwa ibara ry’uruhu rwera	none
+👲🏼	umuntu wambaye ingofero y’abashinwa ibara ry’uruhu rwera gahoro	none
+👲🏽	umuntu wambaye ingofero y’abashinwa ibara ry’uruhu rw’inzobe	none
+👲🏾	umuntu wambaye ingofero y’abashinwa ibara ry’uruhu rw’inzobe yirabura	none
+👲🏿	umuntu wambaye ingofero y’abashinwa ibara ry’uruhu rwirabura	none
+🧕🏻	umugore wambaye igitambaro cyo mu mutwe ibara ry’uruhu rwera	none
+🧕🏼	umugore wambaye igitambaro cyo mu mutwe ibara ry’uruhu rwera gahoro	none
+🧕🏽	umugore wambaye igitambaro cyo mu mutwe ibara ry’uruhu rw’inzobe	none
+🧕🏾	umugore wambaye igitambaro cyo mu mutwe ibara ry’uruhu rw’inzobe yirabura	none
+🧕🏿	umugore wambaye igitambaro cyo mu mutwe ibara ry’uruhu rwirabura	none
+🤵🏻	umugabo wambaye ikoti ibara ry’uruhu rwera	none
+🤵🏼	umugabo wambaye ikoti ibara ry’uruhu rwera gahoro	none
+🤵🏽	umugabo wambaye ikoti ibara ry’uruhu rw’inzobe	none
+🤵🏾	umugabo wambaye ikoti ibara ry’uruhu rw’inzobe yirabura	none
+🤵🏿	umugabo wambaye ikoti ibara ry’uruhu rwirabura	none
+👰🏻	umugeni wambaye ivara ibara ry’uruhu rwera	none
+👰🏼	umugeni wambaye ivara ibara ry’uruhu rwera gahoro	none
+👰🏽	umugeni wambaye ivara ibara ry’uruhu rw’inzobe	none
+👰🏾	umugeni wambaye ivara ibara ry’uruhu rw’inzobe yirabura	none
+👰🏿	umugeni wambaye ivara ibara ry’uruhu rwirabura	none
+🤰🏻	umugore utwite ibara ry’uruhu rwera	none
+🤰🏼	umugore utwite ibara ry’uruhu rwera gahoro	none
+🤰🏽	umugore utwite ibara ry’uruhu rw’inzobe	none
+🤰🏾	umugore utwite ibara ry’uruhu rw’inzobe yirabura	none
+🤰🏿	umugore utwite ibara ry’uruhu rwirabura	none
+🤱🏻	konsa ibara ry’uruhu rwera	none
+🤱🏼	konsa ibara ry’uruhu rwera gahoro	none
+🤱🏽	konsa ibara ry’uruhu rw’inzobe	none
+🤱🏾	konsa ibara ry’uruhu rw’inzobe yirabura	none
+🤱🏿	konsa ibara ry’uruhu rwirabura	none
+👼🏻	akamalayika ibara ry’uruhu rwera	none
+👼🏼	akamalayika ibara ry’uruhu rwera gahoro	none
+👼🏽	akamalayika ibara ry’uruhu rw’inzobe	none
+👼🏾	akamalayika ibara ry’uruhu rw’inzobe yirabura	none
+👼🏿	akamalayika ibara ry’uruhu rwirabura	none
+🎅🏻	Papa Noheli ibara ry’uruhu rwera	none
+🎅🏼	Papa Noheli ibara ry’uruhu rwera gahoro	none
+🎅🏽	Papa Noheli ibara ry’uruhu rw’inzobe	none
+🎅🏾	Papa Noheli ibara ry’uruhu rw’inzobe yirabura	none
+🎅🏿	Papa Noheli ibara ry’uruhu rwirabura	none
+🤶🏻	Mama Noheli ibara ry’uruhu rwera	none
+🤶🏼	Mama Noheli ibara ry’uruhu rwera gahoro	none
+🤶🏽	Mama Noheli ibara ry’uruhu rw’inzobe	none
+🤶🏾	Mama Noheli ibara ry’uruhu rw’inzobe yirabura	none
+🤶🏿	Mama Noheli ibara ry’uruhu rwirabura	none
+🧙🏻	umumaji ibara ry’uruhu rwera	none
+🧙🏼	umumaji ibara ry’uruhu rwera gahoro	none
+🧙🏽	umumaji ibara ry’uruhu rw’inzobe	none
+🧙🏾	umumaji ibara ry’uruhu rw’inzobe yirabura	none
+🧙🏿	umumaji ibara ry’uruhu rwirabura	none
+🧙🏻‍♂	umumajigabo ibara ry’uruhu rwera	none
+🧙🏼‍♂	umumajigabo ibara ry’uruhu rwera gahoro	none
+🧙🏽‍♂	umumajigabo ibara ry’uruhu rw’inzobe	none
+🧙🏾‍♂	umumajigabo ibara ry’uruhu rw’inzobe yirabura	none
+🧙🏿‍♂	umumajigabo ibara ry’uruhu rwirabura	none
+🧙🏻‍♀	umumajikazi ibara ry’uruhu rwera	none
+🧙🏼‍♀	umumajikazi ibara ry’uruhu rwera gahoro	none
+🧙🏽‍♀	umumajikazi ibara ry’uruhu rw’inzobe	none
+🧙🏾‍♀	umumajikazi ibara ry’uruhu rw’inzobe yirabura	none
+🧙🏿‍♀	umumajikazi ibara ry’uruhu rwirabura	none
+🧚🏻	umuzimu ibara ry’uruhu rwera	none
+🧚🏼	umuzimu ibara ry’uruhu rwera gahoro	none
+🧚🏽	umuzimu ibara ry’uruhu rw’inzobe	none
+🧚🏾	umuzimu ibara ry’uruhu rw’inzobe yirabura	none
+🧚🏿	umuzimu ibara ry’uruhu rwirabura	none
+🧚🏻‍♂	umuzimugabo ibara ry’uruhu rwera	none
+🧚🏼‍♂	umuzimugabo ibara ry’uruhu rwera gahoro	none
+🧚🏽‍♂	umuzimugabo ibara ry’uruhu rw’inzobe	none
+🧚🏾‍♂	umuzimugabo ibara ry’uruhu rw’inzobe yirabura	none
+🧚🏿‍♂	umuzimugabo ibara ry’uruhu rwirabura	none
+🧚🏻‍♀	umuzimukazi ibara ry’uruhu rwera	none
+🧚🏼‍♀	umuzimukazi ibara ry’uruhu rwera gahoro	none
+🧚🏽‍♀	umuzimukazi ibara ry’uruhu rw’inzobe	none
+🧚🏾‍♀	umuzimukazi ibara ry’uruhu rw’inzobe yirabura	none
+🧚🏿‍♀	umuzimukazi ibara ry’uruhu rwirabura	none
+🧛🏻	ivampire ibara ry’uruhu rwera	none
+🧛🏼	ivampire ibara ry’uruhu rwera gahoro	none
+🧛🏽	ivampire ibara ry’uruhu rw’inzobe	none
+🧛🏾	ivampire ibara ry’uruhu rw’inzobe yirabura	none
+🧛🏿	ivampire ibara ry’uruhu rwirabura	none
+🧛🏻‍♂	ivampayagabo ibara ry’uruhu rwera	none
+🧛🏼‍♂	ivampayagabo ibara ry’uruhu rwera gahoro	none
+🧛🏽‍♂	ivampayagabo ibara ry’uruhu rw’inzobe	none
+🧛🏾‍♂	ivampayagabo ibara ry’uruhu rw’inzobe yirabura	none
+🧛🏿‍♂	ivampayagabo ibara ry’uruhu rwirabura	none
+🧛🏻‍♀	ivampayakazi ibara ry’uruhu rwera	none
+🧛🏼‍♀	ivampayakazi ibara ry’uruhu rwera gahoro	none
+🧛🏽‍♀	ivampayakazi ibara ry’uruhu rw’inzobe	none
+🧛🏾‍♀	ivampayakazi ibara ry’uruhu rw’inzobe yirabura	none
+🧛🏿‍♀	ivampayakazi ibara ry’uruhu rwirabura	none
+🧜🏻	muntusamaki ibara ry’uruhu rwera	none
+🧜🏼	muntusamaki ibara ry’uruhu rwera gahoro	none
+🧜🏽	muntusamaki ibara ry’uruhu rw’inzobe	none
+🧜🏾	muntusamaki ibara ry’uruhu rw’inzobe yirabura	none
+🧜🏿	muntusamaki ibara ry’uruhu rwirabura	none
+🧜🏻‍♂	mugabosamaki ibara ry’uruhu rwera	none
+🧜🏼‍♂	mugabosamaki ibara ry’uruhu rwera gahoro	none
+🧜🏽‍♂	mugabosamaki ibara ry’uruhu rw’inzobe	none
+🧜🏾‍♂	mugabosamaki ibara ry’uruhu rw’inzobe yirabura	none
+🧜🏿‍♂	mugabosamaki ibara ry’uruhu rwirabura	none
+🧜🏻‍♀	makobwasamaki ibara ry’uruhu rwera	none
+🧜🏼‍♀	makobwasamaki ibara ry’uruhu rwera gahoro	none
+🧜🏽‍♀	makobwasamaki ibara ry’uruhu rw’inzobe	none
+🧜🏾‍♀	makobwasamaki ibara ry’uruhu rw’inzobe yirabura	none
+🧜🏿‍♀	makobwasamaki ibara ry’uruhu rwirabura	none
+🧝🏻	ishitani ibara ry’uruhu rwera	none
+🧝🏼	ishitani ibara ry’uruhu rwera gahoro	none
+🧝🏽	ishitani ibara ry’uruhu rw’inzobe	none
+🧝🏾	ishitani ibara ry’uruhu rw’inzobe yirabura	none
+🧝🏿	ishitani ibara ry’uruhu rwirabura	none
+🧝🏻‍♂	ishitanigabo ibara ry’uruhu rwera	none
+🧝🏼‍♂	ishitanigabo ibara ry’uruhu rwera gahoro	none
+🧝🏽‍♂	ishitanigabo ibara ry’uruhu rw’inzobe	none
+🧝🏾‍♂	ishitanigabo ibara ry’uruhu rw’inzobe yirabura	none
+🧝🏿‍♂	ishitanigabo ibara ry’uruhu rwirabura	none
+🧝🏻‍♀	ishitanikazi ibara ry’uruhu rwera	none
+🧝🏼‍♀	ishitanikazi ibara ry’uruhu rwera gahoro	none
+🧝🏽‍♀	ishitanikazi ibara ry’uruhu rw’inzobe	none
+🧝🏾‍♀	ishitanikazi ibara ry’uruhu rw’inzobe yirabura	none
+🧝🏿‍♀	ishitanikazi ibara ry’uruhu rwirabura	none
+💆🏻	umuntu bari kumasa ibara ry’uruhu rwera	none
+💆🏼	umuntu bari kumasa ibara ry’uruhu rwera gahoro	none
+💆🏽	umuntu bari kumasa ibara ry’uruhu rw’inzobe	none
+💆🏾	umuntu bari kumasa ibara ry’uruhu rw’inzobe yirabura	none
+💆🏿	umuntu bari kumasa ibara ry’uruhu rwirabura	none
+💆🏻‍♂	umugabo wakirira ubutumwa ibara ry’uruhu rwera	none
+💆🏼‍♂	umugabo wakirira ubutumwa ibara ry’uruhu rwera gahoro	none
+💆🏽‍♂	umugabo wakirira ubutumwa ibara ry’uruhu rw’inzobe	none
+💆🏾‍♂	umugabo wakirira ubutumwa ibara ry’uruhu rw’inzobe yirabura	none
+💆🏿‍♂	umugabo wakirira ubutumwa ibara ry’uruhu rwirabura	none
+💆🏻‍♀	umugore wakirira ubutumwa ibara ry’uruhu rwera	none
+💆🏼‍♀	umugore wakirira ubutumwa ibara ry’uruhu rwera gahoro	none
+💆🏽‍♀	umugore wakirira ubutumwa ibara ry’uruhu rw’inzobe	none
+💆🏾‍♀	umugore wakirira ubutumwa ibara ry’uruhu rw’inzobe yirabura	none
+💆🏿‍♀	umugore wakirira ubutumwa ibara ry’uruhu rwirabura	none
+💇🏻	umuntu bari kogosha ibara ry’uruhu rwera	none
+💇🏼	umuntu bari kogosha ibara ry’uruhu rwera gahoro	none
+💇🏽	umuntu bari kogosha ibara ry’uruhu rw’inzobe	none
+💇🏾	umuntu bari kogosha ibara ry’uruhu rw’inzobe yirabura	none
+💇🏿	umuntu bari kogosha ibara ry’uruhu rwirabura	none
+💇🏻‍♂	umugabo wiyogoshesha ibara ry’uruhu rwera	none
+💇🏼‍♂	umugabo wiyogoshesha ibara ry’uruhu rwera gahoro	none
+💇🏽‍♂	umugabo wiyogoshesha ibara ry’uruhu rw’inzobe	none
+💇🏾‍♂	umugabo wiyogoshesha ibara ry’uruhu rw’inzobe yirabura	none
+💇🏿‍♂	umugabo wiyogoshesha ibara ry’uruhu rwirabura	none
+💇🏻‍♀	umugore wiyogoshesha ibara ry’uruhu rwera	none
+💇🏼‍♀	umugore wiyogoshesha ibara ry’uruhu rwera gahoro	none
+💇🏽‍♀	umugore wiyogoshesha ibara ry’uruhu rw’inzobe	none
+💇🏾‍♀	umugore wiyogoshesha ibara ry’uruhu rw’inzobe yirabura	none
+💇🏿‍♀	umugore wiyogoshesha ibara ry’uruhu rwirabura	none
+🚶🏻	umuntu uri kugenda ibara ry’uruhu rwera	none
+🚶🏼	umuntu uri kugenda ibara ry’uruhu rwera gahoro	none
+🚶🏽	umuntu uri kugenda ibara ry’uruhu rw’inzobe	none
+🚶🏾	umuntu uri kugenda ibara ry’uruhu rw’inzobe yirabura	none
+🚶🏿	umuntu uri kugenda ibara ry’uruhu rwirabura	none
+🚶🏻‍♂	umugabo ugenda n’amaguru ibara ry’uruhu rwera	none
+🚶🏼‍♂	umugabo ugenda n’amaguru ibara ry’uruhu rwera gahoro	none
+🚶🏽‍♂	umugabo ugenda n’amaguru ibara ry’uruhu rw’inzobe	none
+🚶🏾‍♂	umugabo ugenda n’amaguru ibara ry’uruhu rw’inzobe yirabura	none
+🚶🏿‍♂	umugabo ugenda n’amaguru ibara ry’uruhu rwirabura	none
+🚶🏻‍♀	umugore ugenda n’amaguru ibara ry’uruhu rwera	none
+🚶🏼‍♀	umugore ugenda n’amaguru ibara ry’uruhu rwera gahoro	none
+🚶🏽‍♀	umugore ugenda n’amaguru ibara ry’uruhu rw’inzobe	none
+🚶🏾‍♀	umugore ugenda n’amaguru ibara ry’uruhu rw’inzobe yirabura	none
+🚶🏿‍♀	umugore ugenda n’amaguru ibara ry’uruhu rwirabura	none
+🏃🏻	umuntu uri kwiruka ibara ry’uruhu rwera	none
+🏃🏼	umuntu uri kwiruka ibara ry’uruhu rwera gahoro	none
+🏃🏽	umuntu uri kwiruka ibara ry’uruhu rw’inzobe	none
+🏃🏾	umuntu uri kwiruka ibara ry’uruhu rw’inzobe yirabura	none
+🏃🏿	umuntu uri kwiruka ibara ry’uruhu rwirabura	none
+🏃🏻‍♂	umugabo wirukanka ibara ry’uruhu rwera	none
+🏃🏼‍♂	umugabo wirukanka ibara ry’uruhu rwera gahoro	none
+🏃🏽‍♂	umugabo wirukanka ibara ry’uruhu rw’inzobe	none
+🏃🏾‍♂	umugabo wirukanka ibara ry’uruhu rw’inzobe yirabura	none
+🏃🏿‍♂	umugabo wirukanka ibara ry’uruhu rwirabura	none
+🏃🏻‍♀	umugore wirukanka ibara ry’uruhu rwera	none
+🏃🏼‍♀	umugore wirukanka ibara ry’uruhu rwera gahoro	none
+🏃🏽‍♀	umugore wirukanka ibara ry’uruhu rw’inzobe	none
+🏃🏾‍♀	umugore wirukanka ibara ry’uruhu rw’inzobe yirabura	none
+🏃🏿‍♀	umugore wirukanka ibara ry’uruhu rwirabura	none
+💃🏻	umugore uri kubyina ibara ry’uruhu rwera	none
+💃🏼	umugore uri kubyina ibara ry’uruhu rwera gahoro	none
+💃🏽	umugore uri kubyina ibara ry’uruhu rw’inzobe	none
+💃🏾	umugore uri kubyina ibara ry’uruhu rw’inzobe yirabura	none
+💃🏿	umugore uri kubyina ibara ry’uruhu rwirabura	none
+🕺🏻	umugabo uri kubyina ibara ry’uruhu rwera	none
+🕺🏼	umugabo uri kubyina ibara ry’uruhu rwera gahoro	none
+🕺🏽	umugabo uri kubyina ibara ry’uruhu rw’inzobe	none
+🕺🏾	umugabo uri kubyina ibara ry’uruhu rw’inzobe yirabura	none
+🕺🏿	umugabo uri kubyina ibara ry’uruhu rwirabura	none
+🕴🏻	umuntu wambaye ikositimu uzamuye ibara ry’uruhu rwera	none
+🕴🏼	umuntu wambaye ikositimu uzamuye ibara ry’uruhu rwera gahoro	none
+🕴🏽	umuntu wambaye ikositimu uzamuye ibara ry’uruhu rw’inzobe	none
+🕴🏾	umuntu wambaye ikositimu uzamuye ibara ry’uruhu rw’inzobe yirabura	none
+🕴🏿	umuntu wambaye ikositimu uzamuye ibara ry’uruhu rwirabura	none
+👯🏻	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rwera	none
+👯🏼	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rwera gahoro	none
+👯🏽	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rw’inzobe	none
+👯🏾	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rw’inzobe yirabura	none
+👯🏿	abantu bambaye amatwi y’urukwavu bari mu birori ibara ry’uruhu rwirabura	none
+👯🏻‍♂	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera	none
+👯🏼‍♂	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera gahoro	none
+👯🏽‍♂	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe	none
+👯🏾‍♂	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe yirabura	none
+👯🏿‍♂	abagabo bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwirabura	none
+👯🏻‍♀	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera	none
+👯🏼‍♀	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwera gahoro	none
+👯🏽‍♀	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe	none
+👯🏾‍♀	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rw’inzobe yirabura	none
+👯🏿‍♀	abagore bambaye amatwi y’urukwavu bakora umunsi mukuru ibara ry’uruhu rwirabura	none
+🧖🏻	umuntu uri muri sawuna ibara ry’uruhu rwera	none
+🧖🏼	umuntu uri muri sawuna ibara ry’uruhu rwera gahoro	none
+🧖🏽	umuntu uri muri sawuna ibara ry’uruhu rw’inzobe	none
+🧖🏾	umuntu uri muri sawuna ibara ry’uruhu rw’inzobe yirabura	none
+🧖🏿	umuntu uri muri sawuna ibara ry’uruhu rwirabura	none
+🧖🏻‍♂	umugabo uri muri sawuna ibara ry’uruhu rwera	none
+🧖🏼‍♂	umugabo uri muri sawuna ibara ry’uruhu rwera gahoro	none
+🧖🏽‍♂	umugabo uri muri sawuna ibara ry’uruhu rw’inzobe	none
+🧖🏾‍♂	umugabo uri muri sawuna ibara ry’uruhu rw’inzobe yirabura	none
+🧖🏿‍♂	umugabo uri muri sawuna ibara ry’uruhu rwirabura	none
+🧖🏻‍♀	umugore uri muri sawuna ibara ry’uruhu rwera	none
+🧖🏼‍♀	umugore uri muri sawuna ibara ry’uruhu rwera gahoro	none
+🧖🏽‍♀	umugore uri muri sawuna ibara ry’uruhu rw’inzobe	none
+🧖🏾‍♀	umugore uri muri sawuna ibara ry’uruhu rw’inzobe yirabura	none
+🧖🏿‍♀	umugore uri muri sawuna ibara ry’uruhu rwirabura	none
+🧗🏻	umuntu wurira ibara ry’uruhu rwera	none
+🧗🏼	umuntu wurira ibara ry’uruhu rwera gahoro	none
+🧗🏽	umuntu wurira ibara ry’uruhu rw’inzobe	none
+🧗🏾	umuntu wurira ibara ry’uruhu rw’inzobe yirabura	none
+🧗🏿	umuntu wurira ibara ry’uruhu rwirabura	none
+🧗🏻‍♂	umugabo wurira ibara ry’uruhu rwera	none
+🧗🏼‍♂	umugabo wurira ibara ry’uruhu rwera gahoro	none
+🧗🏽‍♂	umugabo wurira ibara ry’uruhu rw’inzobe	none
+🧗🏾‍♂	umugabo wurira ibara ry’uruhu rw’inzobe yirabura	none
+🧗🏿‍♂	umugabo wurira ibara ry’uruhu rwirabura	none
+🧗🏻‍♀	umugore wurira ibara ry’uruhu rwera	none
+🧗🏼‍♀	umugore wurira ibara ry’uruhu rwera gahoro	none
+🧗🏽‍♀	umugore wurira ibara ry’uruhu rw’inzobe	none
+🧗🏾‍♀	umugore wurira ibara ry’uruhu rw’inzobe yirabura	none
+🧗🏿‍♀	umugore wurira ibara ry’uruhu rwirabura	none
+🏇🏻	gusiganwa ku ifarasi ibara ry’uruhu rwera	none
+🏇🏼	gusiganwa ku ifarasi ibara ry’uruhu rwera gahoro	none
+🏇🏽	gusiganwa ku ifarasi ibara ry’uruhu rw’inzobe	none
+🏇🏾	gusiganwa ku ifarasi ibara ry’uruhu rw’inzobe yirabura	none
+🏇🏿	gusiganwa ku ifarasi ibara ry’uruhu rwirabura	none
+🏂🏻	umukinnyi unyerera kuri siki ibara ry’uruhu rwera	none
+🏂🏼	umukinnyi unyerera kuri siki ibara ry’uruhu rwera gahoro	none
+🏂🏽	umukinnyi unyerera kuri siki ibara ry’uruhu rw’inzobe	none
+🏂🏾	umukinnyi unyerera kuri siki ibara ry’uruhu rw’inzobe yirabura	none
+🏂🏿	umukinnyi unyerera kuri siki ibara ry’uruhu rwirabura	none
+🏌🏻	gukina golufe ku giti cyawe ibara ry’uruhu rwera	none
+🏌🏼	gukina golufe ku giti cyawe ibara ry’uruhu rwera gahoro	none
+🏌🏽	gukina golufe ku giti cyawe ibara ry’uruhu rw’inzobe	none
+🏌🏾	gukina golufe ku giti cyawe ibara ry’uruhu rw’inzobe yirabura	none
+🏌🏿	gukina golufe ku giti cyawe ibara ry’uruhu rwirabura	none
+🏌🏻‍♂	abagabo bakina golufe ibara ry’uruhu rwera	none
+🏌🏼‍♂	abagabo bakina golufe ibara ry’uruhu rwera gahoro	none
+🏌🏽‍♂	abagabo bakina golufe ibara ry’uruhu rw’inzobe	none
+🏌🏾‍♂	abagabo bakina golufe ibara ry’uruhu rw’inzobe yirabura	none
+🏌🏿‍♂	abagabo bakina golufe ibara ry’uruhu rwirabura	none
+🏌🏻‍♀	abagore bakina golufe ibara ry’uruhu rwera	none
+🏌🏼‍♀	abagore bakina golufe ibara ry’uruhu rwera gahoro	none
+🏌🏽‍♀	abagore bakina golufe ibara ry’uruhu rw’inzobe	none
+🏌🏾‍♀	abagore bakina golufe ibara ry’uruhu rw’inzobe yirabura	none
+🏌🏿‍♀	abagore bakina golufe ibara ry’uruhu rwirabura	none
+🏄🏻	umuntu ugendera hejuru y’amazi ibara ry’uruhu rwera	none
+🏄🏼	umuntu ugendera hejuru y’amazi ibara ry’uruhu rwera gahoro	none
+🏄🏽	umuntu ugendera hejuru y’amazi ibara ry’uruhu rw’inzobe	none
+🏄🏾	umuntu ugendera hejuru y’amazi ibara ry’uruhu rw’inzobe yirabura	none
+🏄🏿	umuntu ugendera hejuru y’amazi ibara ry’uruhu rwirabura	none
+🏄🏻‍♂	umugabo winyereza ku mazi ibara ry’uruhu rwera	none
+🏄🏼‍♂	umugabo winyereza ku mazi ibara ry’uruhu rwera gahoro	none
+🏄🏽‍♂	umugabo winyereza ku mazi ibara ry’uruhu rw’inzobe	none
+🏄🏾‍♂	umugabo winyereza ku mazi ibara ry’uruhu rw’inzobe yirabura	none
+🏄🏿‍♂	umugabo winyereza ku mazi ibara ry’uruhu rwirabura	none
+🏄🏻‍♀	umugore winyereza ku mazi ibara ry’uruhu rwera	none
+🏄🏼‍♀	umugore winyereza ku mazi ibara ry’uruhu rwera gahoro	none
+🏄🏽‍♀	umugore winyereza ku mazi ibara ry’uruhu rw’inzobe	none
+🏄🏾‍♀	umugore winyereza ku mazi ibara ry’uruhu rw’inzobe yirabura	none
+🏄🏿‍♀	umugore winyereza ku mazi ibara ry’uruhu rwirabura	none
+🚣🏻	umuntu uri kugashya ibara ry’uruhu rwera	none
+🚣🏼	umuntu uri kugashya ibara ry’uruhu rwera gahoro	none
+🚣🏽	umuntu uri kugashya ibara ry’uruhu rw’inzobe	none
+🚣🏾	umuntu uri kugashya ibara ry’uruhu rw’inzobe yirabura	none
+🚣🏿	umuntu uri kugashya ibara ry’uruhu rwirabura	none
+🚣🏻‍♂	umugabo utwaye ubwato agashya ibara ry’uruhu rwera	none
+🚣🏼‍♂	umugabo utwaye ubwato agashya ibara ry’uruhu rwera gahoro	none
+🚣🏽‍♂	umugabo utwaye ubwato agashya ibara ry’uruhu rw’inzobe	none
+🚣🏾‍♂	umugabo utwaye ubwato agashya ibara ry’uruhu rw’inzobe yirabura	none
+🚣🏿‍♂	umugabo utwaye ubwato agashya ibara ry’uruhu rwirabura	none
+🚣🏻‍♀	umugore utwaye ubwato agashya ibara ry’uruhu rwera	none
+🚣🏼‍♀	umugore utwaye ubwato agashya ibara ry’uruhu rwera gahoro	none
+🚣🏽‍♀	umugore utwaye ubwato agashya ibara ry’uruhu rw’inzobe	none
+🚣🏾‍♀	umugore utwaye ubwato agashya ibara ry’uruhu rw’inzobe yirabura	none
+🚣🏿‍♀	umugore utwaye ubwato agashya ibara ry’uruhu rwirabura	none
+🏊🏻	umuntu uri koga ibara ry’uruhu rwera	none
+🏊🏼	umuntu uri koga ibara ry’uruhu rwera gahoro	none
+🏊🏽	umuntu uri koga ibara ry’uruhu rw’inzobe	none
+🏊🏾	umuntu uri koga ibara ry’uruhu rw’inzobe yirabura	none
+🏊🏿	umuntu uri koga ibara ry’uruhu rwirabura	none
+🏊🏻‍♂	umugabo uri koga ibara ry’uruhu rwera	none
+🏊🏼‍♂	umugabo uri koga ibara ry’uruhu rwera gahoro	none
+🏊🏽‍♂	umugabo uri koga ibara ry’uruhu rw’inzobe	none
+🏊🏾‍♂	umugabo uri koga ibara ry’uruhu rw’inzobe yirabura	none
+🏊🏿‍♂	umugabo uri koga ibara ry’uruhu rwirabura	none
+🏊🏻‍♀	umugore uri koga ibara ry’uruhu rwera	none
+🏊🏼‍♀	umugore uri koga ibara ry’uruhu rwera gahoro	none
+🏊🏽‍♀	umugore uri koga ibara ry’uruhu rw’inzobe	none
+🏊🏾‍♀	umugore uri koga ibara ry’uruhu rw’inzobe yirabura	none
+🏊🏿‍♀	umugore uri koga ibara ry’uruhu rwirabura	none
+⛹🏻	umuntu uri gutera umupira ibara ry’uruhu rwera	none
+⛹🏼	umuntu uri gutera umupira ibara ry’uruhu rwera gahoro	none
+⛹🏽	umuntu uri gutera umupira ibara ry’uruhu rw’inzobe	none
+⛹🏾	umuntu uri gutera umupira ibara ry’uruhu rw’inzobe yirabura	none
+⛹🏿	umuntu uri gutera umupira ibara ry’uruhu rwirabura	none
+⛹🏻‍♂	umugabo uri gutera umupira ibara ry’uruhu rwera	none
+⛹🏼‍♂	umugabo uri gutera umupira ibara ry’uruhu rwera gahoro	none
+⛹🏽‍♂	umugabo uri gutera umupira ibara ry’uruhu rw’inzobe	none
+⛹🏾‍♂	umugabo uri gutera umupira ibara ry’uruhu rw’inzobe yirabura	none
+⛹🏿‍♂	umugabo uri gutera umupira ibara ry’uruhu rwirabura	none
+⛹🏻‍♀	umugore uri gutera umupira ibara ry’uruhu rwera	none
+⛹🏼‍♀	umugore uri gutera umupira ibara ry’uruhu rwera gahoro	none
+⛹🏽‍♀	umugore uri gutera umupira ibara ry’uruhu rw’inzobe	none
+⛹🏾‍♀	umugore uri gutera umupira ibara ry’uruhu rw’inzobe yirabura	none
+⛹🏿‍♀	umugore uri gutera umupira ibara ry’uruhu rwirabura	none
+🏋🏻	umuntu uterura ibyuma ibara ry’uruhu rwera	none
+🏋🏼	umuntu uterura ibyuma ibara ry’uruhu rwera gahoro	none
+🏋🏽	umuntu uterura ibyuma ibara ry’uruhu rw’inzobe	none
+🏋🏾	umuntu uterura ibyuma ibara ry’uruhu rw’inzobe yirabura	none
+🏋🏿	umuntu uterura ibyuma ibara ry’uruhu rwirabura	none
+🏋🏻‍♂	umugabo uterura ibyuma ibara ry’uruhu rwera	none
+🏋🏼‍♂	umugabo uterura ibyuma ibara ry’uruhu rwera gahoro	none
+🏋🏽‍♂	umugabo uterura ibyuma ibara ry’uruhu rw’inzobe	none
+🏋🏾‍♂	umugabo uterura ibyuma ibara ry’uruhu rw’inzobe yirabura	none
+🏋🏿‍♂	umugabo uterura ibyuma ibara ry’uruhu rwirabura	none
+🏋🏻‍♀	umugore uterura ibyuma ibara ry’uruhu rwera	none
+🏋🏼‍♀	umugore uterura ibyuma ibara ry’uruhu rwera gahoro	none
+🏋🏽‍♀	umugore uterura ibyuma ibara ry’uruhu rw’inzobe	none
+🏋🏾‍♀	umugore uterura ibyuma ibara ry’uruhu rw’inzobe yirabura	none
+🏋🏿‍♀	umugore uterura ibyuma ibara ry’uruhu rwirabura	none
+🚴🏻	umuntu utwaye igare ibara ry’uruhu rwera	none
+🚴🏼	umuntu utwaye igare ibara ry’uruhu rwera gahoro	none
+🚴🏽	umuntu utwaye igare ibara ry’uruhu rw’inzobe	none
+🚴🏾	umuntu utwaye igare ibara ry’uruhu rw’inzobe yirabura	none
+🚴🏿	umuntu utwaye igare ibara ry’uruhu rwirabura	none
+🚴🏻‍♂	umugabo utwara igare ibara ry’uruhu rwera	none
+🚴🏼‍♂	umugabo utwara igare ibara ry’uruhu rwera gahoro	none
+🚴🏽‍♂	umugabo utwara igare ibara ry’uruhu rw’inzobe	none
+🚴🏾‍♂	umugabo utwara igare ibara ry’uruhu rw’inzobe yirabura	none
+🚴🏿‍♂	umugabo utwara igare ibara ry’uruhu rwirabura	none
+🚴🏻‍♀	umugore utwara igare ibara ry’uruhu rwera	none
+🚴🏼‍♀	umugore utwara igare ibara ry’uruhu rwera gahoro	none
+🚴🏽‍♀	umugore utwara igare ibara ry’uruhu rw’inzobe	none
+🚴🏾‍♀	umugore utwara igare ibara ry’uruhu rw’inzobe yirabura	none
+🚴🏿‍♀	umugore utwara igare ibara ry’uruhu rwirabura	none
+🚵🏻	umuntu utwaye igare mu misozi ibara ry’uruhu rwera	none
+🚵🏼	umuntu utwaye igare mu misozi ibara ry’uruhu rwera gahoro	none
+🚵🏽	umuntu utwaye igare mu misozi ibara ry’uruhu rw’inzobe	none
+🚵🏾	umuntu utwaye igare mu misozi ibara ry’uruhu rw’inzobe yirabura	none
+🚵🏿	umuntu utwaye igare mu misozi ibara ry’uruhu rwirabura	none
+🚵🏻‍♂	umugabo utwara igare ku musozi ibara ry’uruhu rwera	none
+🚵🏼‍♂	umugabo utwara igare ku musozi ibara ry’uruhu rwera gahoro	none
+🚵🏽‍♂	umugabo utwara igare ku musozi ibara ry’uruhu rw’inzobe	none
+🚵🏾‍♂	umugabo utwara igare ku musozi ibara ry’uruhu rw’inzobe yirabura	none
+🚵🏿‍♂	umugabo utwara igare ku musozi ibara ry’uruhu rwirabura	none
+🚵🏻‍♀	umugore utwara igare ku musozi ibara ry’uruhu rwera	none
+🚵🏼‍♀	umugore utwara igare ku musozi ibara ry’uruhu rwera gahoro	none
+🚵🏽‍♀	umugore utwara igare ku musozi ibara ry’uruhu rw’inzobe	none
+🚵🏾‍♀	umugore utwara igare ku musozi ibara ry’uruhu rw’inzobe yirabura	none
+🚵🏿‍♀	umugore utwara igare ku musozi ibara ry’uruhu rwirabura	none
+🤸🏻	umuntu uri kumangamanga ibara ry’uruhu rwera	none
+🤸🏼	umuntu uri kumangamanga ibara ry’uruhu rwera gahoro	none
+🤸🏽	umuntu uri kumangamanga ibara ry’uruhu rw’inzobe	none
+🤸🏾	umuntu uri kumangamanga ibara ry’uruhu rw’inzobe yirabura	none
+🤸🏿	umuntu uri kumangamanga ibara ry’uruhu rwirabura	none
+🤸🏻‍♂	umugabo umangamanga ibara ry’uruhu rwera	none
+🤸🏼‍♂	umugabo umangamanga ibara ry’uruhu rwera gahoro	none
+🤸🏽‍♂	umugabo umangamanga ibara ry’uruhu rw’inzobe	none
+🤸🏾‍♂	umugabo umangamanga ibara ry’uruhu rw’inzobe yirabura	none
+🤸🏿‍♂	umugabo umangamanga ibara ry’uruhu rwirabura	none
+🤸🏻‍♀	umugore umangamanga ibara ry’uruhu rwera	none
+🤸🏼‍♀	umugore umangamanga ibara ry’uruhu rwera gahoro	none
+🤸🏽‍♀	umugore umangamanga ibara ry’uruhu rw’inzobe	none
+🤸🏾‍♀	umugore umangamanga ibara ry’uruhu rw’inzobe yirabura	none
+🤸🏿‍♀	umugore umangamanga ibara ry’uruhu rwirabura	none
+🤼🏻	umuntu uri gukirana ibara ry’uruhu rwera	none
+🤼🏼	umuntu uri gukirana ibara ry’uruhu rwera gahoro	none
+🤼🏽	umuntu uri gukirana ibara ry’uruhu rw’inzobe	none
+🤼🏾	umuntu uri gukirana ibara ry’uruhu rw’inzobe yirabura	none
+🤼🏿	umuntu uri gukirana ibara ry’uruhu rwirabura	none
+🤼🏻‍♂	abagabo barushanwa ibara ry’uruhu rwera	none
+🤼🏼‍♂	abagabo barushanwa ibara ry’uruhu rwera gahoro	none
+🤼🏽‍♂	abagabo barushanwa ibara ry’uruhu rw’inzobe	none
+🤼🏾‍♂	abagabo barushanwa ibara ry’uruhu rw’inzobe yirabura	none
+🤼🏿‍♂	abagabo barushanwa ibara ry’uruhu rwirabura	none
+🤼🏻‍♀	abagore barushanwa ibara ry’uruhu rwera	none
+🤼🏼‍♀	abagore barushanwa ibara ry’uruhu rwera gahoro	none
+🤼🏽‍♀	abagore barushanwa ibara ry’uruhu rw’inzobe	none
+🤼🏾‍♀	abagore barushanwa ibara ry’uruhu rw’inzobe yirabura	none
+🤼🏿‍♀	abagore barushanwa ibara ry’uruhu rwirabura	none
+🤽🏻	umuntu uri gukina umukino wa water polo ibara ry’uruhu rwera	none
+🤽🏼	umuntu uri gukina umukino wa water polo ibara ry’uruhu rwera gahoro	none
+🤽🏽	umuntu uri gukina umukino wa water polo ibara ry’uruhu rw’inzobe	none
+🤽🏾	umuntu uri gukina umukino wa water polo ibara ry’uruhu rw’inzobe yirabura	none
+🤽🏿	umuntu uri gukina umukino wa water polo ibara ry’uruhu rwirabura	none
+🤽🏻‍♂	umugabo ukina umukino wa polo wo mu mazi ibara ry’uruhu rwera	none
+🤽🏼‍♂	umugabo ukina umukino wa polo wo mu mazi ibara ry’uruhu rwera gahoro	none
+🤽🏽‍♂	umugabo ukina umukino wa polo wo mu mazi ibara ry’uruhu rw’inzobe	none
+🤽🏾‍♂	umugabo ukina umukino wa polo wo mu mazi ibara ry’uruhu rw’inzobe yirabura	none
+🤽🏿‍♂	umugabo ukina umukino wa polo wo mu mazi ibara ry’uruhu rwirabura	none
+🤽🏻‍♀	umugore ukina umukino wa polo wo mu mazi ibara ry’uruhu rwera	none
+🤽🏼‍♀	umugore ukina umukino wa polo wo mu mazi ibara ry’uruhu rwera gahoro	none
+🤽🏽‍♀	umugore ukina umukino wa polo wo mu mazi ibara ry’uruhu rw’inzobe	none
+🤽🏾‍♀	umugore ukina umukino wa polo wo mu mazi ibara ry’uruhu rw’inzobe yirabura	none
+🤽🏿‍♀	umugore ukina umukino wa polo wo mu mazi ibara ry’uruhu rwirabura	none
+🤾🏻	umuntu uri gukina handball ibara ry’uruhu rwera	none
+🤾🏼	umuntu uri gukina handball ibara ry’uruhu rwera gahoro	none
+🤾🏽	umuntu uri gukina handball ibara ry’uruhu rw’inzobe	none
+🤾🏾	umuntu uri gukina handball ibara ry’uruhu rw’inzobe yirabura	none
+🤾🏿	umuntu uri gukina handball ibara ry’uruhu rwirabura	none
+🤾🏻‍♂	umugabo ukina handibali ibara ry’uruhu rwera	none
+🤾🏼‍♂	umugabo ukina handibali ibara ry’uruhu rwera gahoro	none
+🤾🏽‍♂	umugabo ukina handibali ibara ry’uruhu rw’inzobe	none
+🤾🏾‍♂	umugabo ukina handibali ibara ry’uruhu rw’inzobe yirabura	none
+🤾🏿‍♂	umugabo ukina handibali ibara ry’uruhu rwirabura	none
+🤾🏻‍♀	umugore ukina handibali ibara ry’uruhu rwera	none
+🤾🏼‍♀	umugore ukina handibali ibara ry’uruhu rwera gahoro	none
+🤾🏽‍♀	umugore ukina handibali ibara ry’uruhu rw’inzobe	none
+🤾🏾‍♀	umugore ukina handibali ibara ry’uruhu rw’inzobe yirabura	none
+🤾🏿‍♀	umugore ukina handibali ibara ry’uruhu rwirabura	none
+🤹🏻	umuntu uri gukina jongere ibara ry’uruhu rwera	none
+🤹🏼	umuntu uri gukina jongere ibara ry’uruhu rwera gahoro	none
+🤹🏽	umuntu uri gukina jongere ibara ry’uruhu rw’inzobe	none
+🤹🏾	umuntu uri gukina jongere ibara ry’uruhu rw’inzobe yirabura	none
+🤹🏿	umuntu uri gukina jongere ibara ry’uruhu rwirabura	none
+🤹🏻‍♂	umugabo usama ajugunya hejuru ibara ry’uruhu rwera	none
+🤹🏼‍♂	umugabo usama ajugunya hejuru ibara ry’uruhu rwera gahoro	none
+🤹🏽‍♂	umugabo usama ajugunya hejuru ibara ry’uruhu rw’inzobe	none
+🤹🏾‍♂	umugabo usama ajugunya hejuru ibara ry’uruhu rw’inzobe yirabura	none
+🤹🏿‍♂	umugabo usama ajugunya hejuru ibara ry’uruhu rwirabura	none
+🤹🏻‍♀	umugore usama ajugunya hejuru ibara ry’uruhu rwera	none
+🤹🏼‍♀	umugore usama ajugunya hejuru ibara ry’uruhu rwera gahoro	none
+🤹🏽‍♀	umugore usama ajugunya hejuru ibara ry’uruhu rw’inzobe	none
+🤹🏾‍♀	umugore usama ajugunya hejuru ibara ry’uruhu rw’inzobe yirabura	none
+🤹🏿‍♀	umugore usama ajugunya hejuru ibara ry’uruhu rwirabura	none
+🧘🏻	umuntu wicaye ageretse akaguru ku kandi ibara ry’uruhu rwera	none
+🧘🏼	umuntu wicaye ageretse akaguru ku kandi ibara ry’uruhu rwera gahoro	none
+🧘🏽	umuntu wicaye ageretse akaguru ku kandi ibara ry’uruhu rw’inzobe	none
+🧘🏾	umuntu wicaye ageretse akaguru ku kandi ibara ry’uruhu rw’inzobe yirabura	none
+🧘🏿	umuntu wicaye ageretse akaguru ku kandi ibara ry’uruhu rwirabura	none
+🧘🏻‍♂	umugabo wicaye ageretse akaguru ku kandi ibara ry’uruhu rwera	none
+🧘🏼‍♂	umugabo wicaye ageretse akaguru ku kandi ibara ry’uruhu rwera gahoro	none
+🧘🏽‍♂	umugabo wicaye ageretse akaguru ku kandi ibara ry’uruhu rw’inzobe	none
+🧘🏾‍♂	umugabo wicaye ageretse akaguru ku kandi ibara ry’uruhu rw’inzobe yirabura	none
+🧘🏿‍♂	umugabo wicaye ageretse akaguru ku kandi ibara ry’uruhu rwirabura	none
+🧘🏻‍♀	umugore wicaye ageretse akaguru ku kandi ibara ry’uruhu rwera	none
+🧘🏼‍♀	umugore wicaye ageretse akaguru ku kandi ibara ry’uruhu rwera gahoro	none
+🧘🏽‍♀	umugore wicaye ageretse akaguru ku kandi ibara ry’uruhu rw’inzobe	none
+🧘🏾‍♀	umugore wicaye ageretse akaguru ku kandi ibara ry’uruhu rw’inzobe yirabura	none
+🧘🏿‍♀	umugore wicaye ageretse akaguru ku kandi ibara ry’uruhu rwirabura	none
+🛀🏻	umuntu uri kwiyuhagira ibara ry’uruhu rwera	none
+🛀🏼	umuntu uri kwiyuhagira ibara ry’uruhu rwera gahoro	none
+🛀🏽	umuntu uri kwiyuhagira ibara ry’uruhu rw’inzobe	none
+🛀🏾	umuntu uri kwiyuhagira ibara ry’uruhu rw’inzobe yirabura	none
+🛀🏿	umuntu uri kwiyuhagira ibara ry’uruhu rwirabura	none
+🛌🏻	umuntu uryamye ibara ry’uruhu rwera	none
+🛌🏼	umuntu uryamye ibara ry’uruhu rwera gahoro	none
+🛌🏽	umuntu uryamye ibara ry’uruhu rw’inzobe	none
+🛌🏾	umuntu uryamye ibara ry’uruhu rw’inzobe yirabura	none
+🛌🏿	umuntu uryamye ibara ry’uruhu rwirabura	none
+👭🏻	abagore babiri bafatanye ibigaza ibara ry’uruhu rwera	none
+👩🏻‍🤝‍👩🏼	abagore babiri bafatanye ibigaza ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+👩🏻‍🤝‍👩🏽	abagore babiri bafatanye ibigaza ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+👩🏻‍🤝‍👩🏾	abagore babiri bafatanye ibigaza ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏻‍🤝‍👩🏿	abagore babiri bafatanye ibigaza ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+👩🏼‍🤝‍👩🏻	abagore babiri bafatanye ibigaza ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+👭🏼	abagore babiri bafatanye ibigaza ibara ry’uruhu rwera gahoro	none
+👩🏼‍🤝‍👩🏽	abagore babiri bafatanye ibigaza ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+👩🏼‍🤝‍👩🏾	abagore babiri bafatanye ibigaza ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏼‍🤝‍👩🏿	abagore babiri bafatanye ibigaza ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+👩🏽‍🤝‍👩🏻	abagore babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+👩🏽‍🤝‍👩🏼	abagore babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+👭🏽	abagore babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe	none
+👩🏽‍🤝‍👩🏾	abagore babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏽‍🤝‍👩🏿	abagore babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+👩🏾‍🤝‍👩🏻	abagore babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+👩🏾‍🤝‍👩🏼	abagore babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+👩🏾‍🤝‍👩🏽	abagore babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+👭🏾	abagore babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe yirabura	none
+👩🏾‍🤝‍👩🏿	abagore babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+👩🏿‍🤝‍👩🏻	abagore babiri bafatanye ibigaza ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+👩🏿‍🤝‍👩🏼	abagore babiri bafatanye ibigaza ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+👩🏿‍🤝‍👩🏽	abagore babiri bafatanye ibigaza ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+👩🏿‍🤝‍👩🏾	abagore babiri bafatanye ibigaza ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+👭🏿	abagore babiri bafatanye ibigaza ibara ry’uruhu rwirabura	none
+👫🏻	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rwera	none
+👩🏻‍🤝‍👨🏼	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+👩🏻‍🤝‍👨🏽	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+👩🏻‍🤝‍👨🏾	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏻‍🤝‍👨🏿	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+👩🏼‍🤝‍👨🏻	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+👫🏼	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rwera gahoro	none
+👩🏼‍🤝‍👨🏽	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+👩🏼‍🤝‍👨🏾	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏼‍🤝‍👨🏿	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+👩🏽‍🤝‍👨🏻	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+👩🏽‍🤝‍👨🏼	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+👫🏽	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rw’inzobe	none
+👩🏽‍🤝‍👨🏾	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+👩🏽‍🤝‍👨🏿	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+👩🏾‍🤝‍👨🏻	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+👩🏾‍🤝‍👨🏼	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+👩🏾‍🤝‍👨🏽	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+👫🏾	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rw’inzobe yirabura	none
+👩🏾‍🤝‍👨🏿	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+👩🏿‍🤝‍👨🏻	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+👩🏿‍🤝‍👨🏼	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+👩🏿‍🤝‍👨🏽	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+👩🏿‍🤝‍👨🏾	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+👫🏿	umugabo n’umugore bafatanye ibiganza ibara ry’uruhu rwirabura	none
+👬🏻	abagabo babiri bafatanye ibigaza ibara ry’uruhu rwera	none
+👨🏻‍🤝‍👨🏼	abagabo babiri bafatanye ibigaza ibara ry’uruhu rwera, ibara ry’uruhu rwera gahoro	none
+👨🏻‍🤝‍👨🏽	abagabo babiri bafatanye ibigaza ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe	none
+👨🏻‍🤝‍👨🏾	abagabo babiri bafatanye ibigaza ibara ry’uruhu rwera, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏻‍🤝‍👨🏿	abagabo babiri bafatanye ibigaza ibara ry’uruhu rwera, ibara ry’uruhu rwirabura	none
+👨🏼‍🤝‍👨🏻	abagabo babiri bafatanye ibigaza ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwera	none
+👬🏼	abagabo babiri bafatanye ibigaza ibara ry’uruhu rwera gahoro	none
+👨🏼‍🤝‍👨🏽	abagabo babiri bafatanye ibigaza ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe	none
+👨🏼‍🤝‍👨🏾	abagabo babiri bafatanye ibigaza ibara ry’uruhu rwera gahoro, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏼‍🤝‍👨🏿	abagabo babiri bafatanye ibigaza ibara ry’uruhu rwera gahoro, ibara ry’uruhu rwirabura	none
+👨🏽‍🤝‍👨🏻	abagabo babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera	none
+👨🏽‍🤝‍👨🏼	abagabo babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwera gahoro	none
+👬🏽	abagabo babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe	none
+👨🏽‍🤝‍👨🏾	abagabo babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe, ibara ry’uruhu rw’inzobe yirabura	none
+👨🏽‍🤝‍👨🏿	abagabo babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe, ibara ry’uruhu rwirabura	none
+👨🏾‍🤝‍👨🏻	abagabo babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera	none
+👨🏾‍🤝‍👨🏼	abagabo babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwera gahoro	none
+👨🏾‍🤝‍👨🏽	abagabo babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rw’inzobe	none
+👬🏾	abagabo babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe yirabura	none
+👨🏾‍🤝‍👨🏿	abagabo babiri bafatanye ibigaza ibara ry’uruhu rw’inzobe yirabura, ibara ry’uruhu rwirabura	none
+👨🏿‍🤝‍👨🏻	abagabo babiri bafatanye ibigaza ibara ry’uruhu rwirabura, ibara ry’uruhu rwera	none
+👨🏿‍🤝‍👨🏼	abagabo babiri bafatanye ibigaza ibara ry’uruhu rwirabura, ibara ry’uruhu rwera gahoro	none
+👨🏿‍🤝‍👨🏽	abagabo babiri bafatanye ibigaza ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe	none
+👨🏿‍🤝‍👨🏾	abagabo babiri bafatanye ibigaza ibara ry’uruhu rwirabura, ibara ry’uruhu rw’inzobe yirabura	none
+👬🏿	abagabo babiri bafatanye ibigaza ibara ry’uruhu rwirabura	none
+💏🏻	gusomana ibara ry’uruhu rwera	none
+💏🏼	gusomana ibara ry’uruhu rwera gahoro	none
+💏🏽	gusomana ibara ry’uruhu rw’inzobe	none
+💏🏾	gusomana ibara ry’uruhu rw’inzobe yirabura	none
+💏🏿	gusomana ibara ry’uruhu rwirabura	none
+👩‍❤‍💋‍👨	gusomana umugore, umugabo	none
+👨‍❤‍💋‍👨	gusomana umugabo, umugabo	none
+👩‍❤‍💋‍👩	gusomana umugore, umugore	none
+💑🏻	ikupule n’umutima ibara ry’uruhu rwera	none
+💑🏼	ikupule n’umutima ibara ry’uruhu rwera gahoro	none
+💑🏽	ikupule n’umutima ibara ry’uruhu rw’inzobe	none
+💑🏾	ikupule n’umutima ibara ry’uruhu rw’inzobe yirabura	none
+💑🏿	ikupule n’umutima ibara ry’uruhu rwirabura	none
+👩‍❤‍👨	ikupule n’umutima umugore, umugabo	none
+👨‍❤‍👨	ikupule n’umutima umugabo, umugabo	none
+👩‍❤‍👩	ikupule n’umutima umugore, umugore	none
+👨‍👩‍👦	umuryango umugabo, umugore, umuhungu	none
+👨‍👩‍👧	umuryango umugabo, umugore, umukobwa	none
+👨‍👩‍👧‍👦	umuryango umugabo, umugore, umukobwa, umuhungu	none
+👨‍👩‍👦‍👦	umuryango umugabo, umugore, umuhungu, umuhungu	none
+👨‍👩‍👧‍👧	umuryango umugabo, umugore, umukobwa, umukobwa	none
+👨‍👨‍👦	umuryango umugabo, umugabo, umuhungu	none
+👨‍👨‍👧	umuryango umugabo, umugabo, umukobwa	none
+👨‍👨‍👧‍👦	umuryango umugabo, umugabo, umukobwa, umuhungu	none
+👨‍👨‍👦‍👦	umuryango umugabo, umugabo, umuhungu, umuhungu	none
+👨‍👨‍👧‍👧	umuryango umugabo, umugabo, umukobwa, umukobwa	none
+👩‍👩‍👦	umuryango umugore, umugore, umuhungu	none
+👩‍👩‍👧	umuryango umugore, umugore, umukobwa	none
+👩‍👩‍👧‍👦	umuryango umugore, umugore, umukobwa, umuhungu	none
+👩‍👩‍👦‍👦	umuryango umugore, umugore, umuhungu, umuhungu	none
+👩‍👩‍👧‍👧	umuryango umugore, umugore, umukobwa, umukobwa	none
+👨‍👦	umuryango umugabo, umuhungu	none
+👨‍👦‍👦	umuryango umugabo, umuhungu, umuhungu	none
+👨‍👧	umuryango umugabo, umukobwa	none
+👨‍👧‍👦	umuryango umugabo, umukobwa, umuhungu	none
+👨‍👧‍👧	umuryango umugabo, umukobwa, umukobwa	none
+👩‍👦	umuryango umugore, umuhungu	none
+👩‍👦‍👦	umuryango umugore, umuhungu, umuhungu	none
+👩‍👧	umuryango umugore, umukobwa	none
+👩‍👧‍👦	umuryango umugore, umukobwa, umuhungu	none
+👩‍👧‍👧	umuryango umugore, umukobwa, umukobwa	none

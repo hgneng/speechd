@@ -101,7 +101,6 @@ symbols:
 🙈	ikke se	none
 🙉	ikke høre	none
 🙊	ikke tale	none
-💋	læbeaftryk	none
 💌	kærlighedsbrev	none
 💘	hjerte med pil	none
 💝	hjerte med bånd	none
@@ -119,6 +118,7 @@ symbols:
 💙	blåt hjerte	none
 💜	violet hjerte	none
 🖤	sort hjerte	none
+💋	læbeaftryk	none
 💯	100 point	none
 💢	vrede	none
 💥	kollision	none
@@ -126,7 +126,6 @@ symbols:
 💦	sveddråber	none
 💨	smutter	none
 🕳	hul	none
-💣	bombe	none
 💬	taleboble	none
 👁‍🗨	øje i taleboble	none
 🗨	taleboble til venstre	none
@@ -321,10 +320,10 @@ symbols:
 👬	to mænd	none
 💏	kys	none
 💑	par med hjerte	none
-👪	familie	none
 🗣	talende hoved	none
 👤	buste i silhuet	none
 👥	buster i silhuet	none
+👪	familie	none
 👣	fodspor	none
 🐵	abeansigt	none
 🐒	abe	none
@@ -399,6 +398,9 @@ symbols:
 🦈	haj	none
 🐙	blæksprutte	none
 🐚	konkylie	none
+🦀	krabbe	none
+🦐	reje	none
+🦑	sprutte	none
 🐌	snegl	none
 🦋	sommerfugl	none
 🐛	larve	none
@@ -430,6 +432,7 @@ symbols:
 🍁	blad	none
 🍂	faldende blade	none
 🍃	blad i vinden	none
+🍄	svamp	none
 🍇	vindruer	none
 🍈	melon	none
 🍉	vandmelon	none
@@ -452,7 +455,6 @@ symbols:
 🌽	majs	none
 🌶	chili	none
 🥒	agurk	none
-🍄	svamp	none
 🥜	peanuts	none
 🌰	kastanje	none
 🍞	brød	none
@@ -489,9 +491,6 @@ symbols:
 🍤	dybstegt reje	none
 🍥	fiskebolle	none
 🍡	iskugler på pind	none
-🦀	krabbe	none
-🦐	reje	none
-🦑	sprutte	none
 🍦	softice	none
 🍧	snedessert	none
 🍨	is	none
@@ -767,6 +766,7 @@ symbols:
 🎽	løbetrøje	none
 🎿	ski	none
 🎯	pletskud	none
+🔫	pistol	none
 🎱	billard	none
 🔮	krystalkugle	none
 🎮	videospil	none
@@ -830,9 +830,9 @@ symbols:
 🎧	hovedtelefon	none
 📻	radio	none
 🎷	saxofon	none
+🎺	trompet	none
 🎸	guitar	none
 🎹	klaver	none
-🎺	trompet	none
 🎻	violin	none
 🥁	tromme	none
 📱	mobil	none
@@ -948,7 +948,7 @@ symbols:
 🛠	hammer og skruenøgle	none
 🗡	daggert	none
 ⚔	korslagte sværd	none
-🔫	pistol	none
+💣	bombe	none
 🏹	bue og pil	none
 🛡	skjold	none
 🔧	skruenøgle	none
@@ -1149,3 +1149,34 @@ symbols:
 🏴	sort flag	none
 🏳	hvidt flag	none
 🏳‍🌈	regnbueflag	none
+👩‍❤‍💋‍👨	kys kvinde, mand	none
+👨‍❤‍💋‍👨	kys mand, mand	none
+👩‍❤‍💋‍👩	kys kvinde, kvinde	none
+👩‍❤‍👨	par med hjerte kvinde, mand	none
+👨‍❤‍👨	par med hjerte mand, mand	none
+👩‍❤‍👩	par med hjerte kvinde, kvinde	none
+👨‍👩‍👦	familie mand, kvinde, dreng	none
+👨‍👩‍👧	familie mand, kvinde, pige	none
+👨‍👩‍👧‍👦	familie mand, kvinde, pige, dreng	none
+👨‍👩‍👦‍👦	familie mand, kvinde, dreng, dreng	none
+👨‍👩‍👧‍👧	familie mand, kvinde, pige, pige	none
+👨‍👨‍👦	familie mand, mand, dreng	none
+👨‍👨‍👧	familie mand, mand, pige	none
+👨‍👨‍👧‍👦	familie mand, mand, pige, dreng	none
+👨‍👨‍👦‍👦	familie mand, mand, dreng, dreng	none
+👨‍👨‍👧‍👧	familie mand, mand, pige, pige	none
+👩‍👩‍👦	familie kvinde, kvinde, dreng	none
+👩‍👩‍👧	familie kvinde, kvinde, pige	none
+👩‍👩‍👧‍👦	familie kvinde, kvinde, pige, dreng	none
+👩‍👩‍👦‍👦	familie kvinde, kvinde, dreng, dreng	none
+👩‍👩‍👧‍👧	familie kvinde, kvinde, pige, pige	none
+👨‍👦	familie mand, dreng	none
+👨‍👦‍👦	familie mand, dreng, dreng	none
+👨‍👧	familie mand, pige	none
+👨‍👧‍👦	familie mand, pige, dreng	none
+👨‍👧‍👧	familie mand, pige, pige	none
+👩‍👦	familie kvinde, dreng	none
+👩‍👦‍👦	familie kvinde, dreng, dreng	none
+👩‍👧	familie kvinde, pige	none
+👩‍👧‍👦	familie kvinde, pige, dreng	none
+👩‍👧‍👧	familie kvinde, pige, pige	none

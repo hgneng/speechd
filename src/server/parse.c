@@ -69,7 +69,6 @@ char *parse(const char *buf, const int bytes, const int fd)
 	int reparted;
 	int msg_uid;
 	GString *ok_queued_reply;
-	char *reply;
 	TSpeechDSock *speechd_socket = speechd_socket_get_by_fd(fd);
 	assert(speechd_socket);
 
@@ -138,7 +137,7 @@ char *parse(const char *buf, const int bytes, const int fd)
 		return g_strdup(ERR_INVALID_COMMAND);
 
 		/* The other case is that we are in awaiting_data mode and
-		 * we are waiting for text that is comming through the chanel */
+		 * we are waiting for text that is coming through the chanel */
 	} else {
 enddata:
 		/* In the end of the data flow we got a "\r\n." NEWLINE command. */
@@ -201,9 +200,7 @@ enddata:
 			g_string_printf(ok_queued_reply,
 					C_OK_MESSAGE_QUEUED "-%d" NEWLINE
 					OK_MESSAGE_QUEUED, msg_uid);
-			reply = ok_queued_reply->str;
-			g_string_free(ok_queued_reply, 0);
-			return reply;
+			return g_string_free(ok_queued_reply, 0);
 		}
 
 		{
@@ -265,7 +262,7 @@ enddata:
 	CHECK_PARAM(name);
 
 /* Tests if cmd is the same as str AND deallocates cmd if
-   the test is succesful */
+   the test is successful */
 #define TEST_CMD(cmd, str) \
 	(!strcmp(cmd, str) ? g_free(cmd), 1 : 0 )
 
@@ -366,11 +363,9 @@ char *parse_history(const char *buf, const int bytes, const int fd,
 	} else if (TEST_CMD(cmd_main, "sort")) {
 		// TODO: everything :)
 		return g_strdup(ERR_NOT_IMPLEMENTED);
-	} else {
-		g_free(cmd_main);
-		return g_strdup(ERR_MISSING_PARAMETER);
 	}
 
+	g_free(cmd_main);
 	return g_strdup(ERR_INVALID_COMMAND);
 }
 
@@ -653,50 +648,47 @@ char *parse_set(const char *buf, const int bytes, const int fd,
 		SSIP_ON_OFF_PARAM(spelling,
 				  OK_SPELLING_SET, ERR_COULDNT_SET_SPELLING,
 				  NOT_ALLOWED_INSIDE_BLOCK())
-		    else
+	else
 		SSIP_ON_OFF_PARAM(ssml_mode,
 				  OK_SSML_MODE_SET, ERR_COULDNT_SET_SSML_MODE,
 				  ALLOWED_INSIDE_BLOCK())
-		    else
+	else
 		SSIP_ON_OFF_PARAM(debug,
 				  g_strdup_printf("262-%s" NEWLINE OK_DEBUGGING,
 						  SpeechdOptions.
 						  debug_destination),
 				  ERR_COULDNT_SET_DEBUGGING,;
 	    )
-	    else
-if (TEST_CMD(set_sub, "notification")) {
-	char *scope;
-	char *par_s;
-	int par;
+	else if (TEST_CMD(set_sub, "notification")) {
+		char *scope;
+		char *par_s;
+		int par;
 
-	if (who != 0)
-		return g_strdup(ERR_PARAMETER_INVALID);
+		if (who != 0)
+			return g_strdup(ERR_PARAMETER_INVALID);
 
-	GET_PARAM_STR(scope, 3, CONV_DOWN);
-	GET_PARAM_STR(par_s, 4, CONV_DOWN);
+		GET_PARAM_STR(scope, 3, CONV_DOWN);
+		GET_PARAM_STR(par_s, 4, CONV_DOWN);
 
-	if (TEST_CMD(par_s, "on"))
-		par = 1;
-	else if (TEST_CMD(par_s, "off"))
-		par = 0;
-	else {
-		g_free(par_s);
-		return g_strdup(ERR_PARAMETER_INVALID);
+		if (TEST_CMD(par_s, "on"))
+			par = 1;
+		else if (TEST_CMD(par_s, "off"))
+			par = 0;
+		else {
+			g_free(par_s);
+			return g_strdup(ERR_PARAMETER_INVALID);
+		}
+
+		ret = set_notification_self(fd, scope, par);
+		g_free(scope);
+
+		if (ret)
+			return g_strdup(ERR_COULDNT_SET_NOTIFICATION);
+		return g_strdup(OK_NOTIFICATION_SET);
 	}
 
-	ret = set_notification_self(fd, scope, par);
-	g_free(scope);
-
-	if (ret)
-		return g_strdup(ERR_COULDNT_SET_NOTIFICATION);
-	return g_strdup(OK_NOTIFICATION_SET);
-} else {
 	g_free(set_sub);
-	return g_strdup(ERR_PARAMETER_INVALID);
-}
-
-return g_strdup(ERR_INVALID_COMMAND);
+	return g_strdup(ERR_INVALID_COMMAND);
 }
 
 #undef SSIP_SET_COMMAND
@@ -865,7 +857,15 @@ char *parse_general_event(const char *buf, const int bytes, const int fd,
 		MSG(4,
 		    "ERROR: Invalid character encoding on event input (failed UTF-8 validation)");
 		MSG(4, "Rejecting this event (char/key/sound_icon).");
+		g_free(param);
 		return g_strdup(ERR_INVALID_ENCODING);
+	}
+
+	if ((type == SPD_MSGTYPE_CHAR || type == SPD_MSGTYPE_KEY)
+		&& !strcmp(param, "space"))
+	{
+		g_free(param);
+		param = g_strdup(" ");
 	}
 
 	msg = (TSpeechDMessage *) g_malloc(sizeof(TSpeechDMessage));
@@ -928,7 +928,6 @@ char *parse_list(const char *buf, const int bytes, const int fd,
 		return voice_list;
 	} else if (TEST_CMD(list_type, "output_modules")) {
 		GString *result = g_string_new("");
-		char *helper;
 		OutputModule *mod;
 		int i, len;
 
@@ -936,6 +935,7 @@ char *parse_list(const char *buf, const int bytes, const int fd,
 		for (i = 0; i < len; i++) {
 			mod = g_list_nth_data(output_modules, i);
 			if (strcmp(mod->name, "dummy") &&
+			    strcmp(mod->name, "espeak-ng-fallback") &&
 			    strcmp(mod->name, "generic"))
 				g_string_append_printf(result, C_OK_MODULES
 						       "-%s" NEWLINE,
@@ -943,27 +943,27 @@ char *parse_list(const char *buf, const int bytes, const int fd,
 		}
 
 		g_string_append(result, OK_MODULES_LIST_SENT);
-		helper = result->str;
-		g_string_free(result, 0);
-
-		return helper;
+		return g_string_free(result, 0);
 	} else if (TEST_CMD(list_type, "synthesis_voices")) {
-		char *module_name;
 		int uid;
 		TFDSetElement *settings;
 		SPDVoice **voices;
 		GString *result;
 		int i;
-		char *helper;
+		char *language;
+		char *variant;
 
 		uid = get_client_uid_by_fd(fd);
 		settings = get_client_settings_by_uid(uid);
 		if (settings == NULL)
 			return g_strdup(ERR_INTERNAL);
-		module_name = settings->output_module;
-		if (module_name == NULL)
-			return g_strdup(ERR_NO_OUTPUT_MODULE);
-		voices = output_list_voices(module_name);
+
+		language = get_param(buf, 2, bytes, NO_CONV);
+		variant = get_param(buf, 3, bytes, NO_CONV);
+
+		voices = output_list_voices(settings->output_module, language, variant);
+		g_free(language);
+		g_free(variant);
 		if (voices == NULL)
 			return g_strdup(ERR_CANT_REPORT_VOICES);
 
@@ -982,10 +982,8 @@ char *parse_list(const char *buf, const int bytes, const int fd,
 			g_free(voices[i]);
 		}
 		g_string_append(result, OK_VOICE_LIST_SENT);
-		helper = result->str;
-		g_string_free(result, 0);
 		g_free(voices);
-		return helper;
+		return g_string_free(result, 0);
 	} else {
 		g_free(list_type);
 		return g_strdup(ERR_PARAMETER_INVALID);
@@ -997,7 +995,6 @@ char *parse_get(const char *buf, const int bytes, const int fd,
 {
 	char *get_type;
 	GString *result;
-	char *helper;
 
 	TFDSetElement *settings;
 
@@ -1005,8 +1002,9 @@ char *parse_get(const char *buf, const int bytes, const int fd,
 	if (settings == NULL)
 		return g_strdup(ERR_INTERNAL);
 
-	result = g_string_new("");
 	GET_PARAM_STR(get_type, 1, CONV_DOWN);
+
+	result = g_string_new("");
 	if (TEST_CMD(get_type, "voice_type")) {
 		switch (settings->msg_settings.voice_type) {
 		case SPD_MALE1:
@@ -1064,9 +1062,7 @@ char *parse_get(const char *buf, const int bytes, const int fd,
 		g_free(get_type);
 		g_string_append(result, ERR_PARAMETER_INVALID);
 	}
-	helper = result->str;
-	g_string_free(result, 0);
-	return helper;
+	return g_string_free(result, 0);
 }
 
 char *parse_help(const char *buf, const int bytes, const int fd,

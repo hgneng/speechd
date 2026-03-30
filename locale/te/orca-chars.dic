@@ -2,7 +2,7 @@
 # DO NOT MODIFY IT!
 # See locale/README.md to know how to import dictionaries
 
-# locale/te/orca.dic
+# locale/te/orca-chars.dic
 # Copyright (C) 2004-2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the orca package.
 
@@ -29,6 +29,7 @@ symbols:
 Ô	O సర్‌కమ్‌ఫ్లక్స్‍	char	norep
 Õ	O టిల్డ్‍	char	norep
 Ö	O ఆమ్లౌట్	char	norep
+×	సమయాలు	some
 Ø	O స్ట్రోక్	char	norep
 Ù	U గ్రేవ్	char	norep
 Ú	U ఎక్యూట్	char	norep
@@ -57,6 +58,7 @@ symbols:
 ô	o సర్‌కమ్‌ఫ్లెక్స్‍	char	norep
 õ	o టిల్డ్‍	char	norep
 ö	o ఆమ్లౌట్	char	norep
+÷	దీని ద్వారా విభజించబడింది	some
 ø	o స్ట్రోక్	char	norep
 þ	థ్రోన్	char	norep
 ú	u ఎక్యూట్	char	norep

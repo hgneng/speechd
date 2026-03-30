@@ -12,7 +12,7 @@ symbols:
 😃	grande surriso con grande oculos	none
 😄	grande surriso con oculos surridente	none
 😁	visage radiante con oculos surridente	none
-😆	grande surriso con oculos clause	none
+😆	grande surriso con oculos semiclaudite	none
 😅	grande surriso con gutta de sudor	none
 🤣	rolante se per terra de rider	none
 😂	visage plorante de riso	none
@@ -38,6 +38,8 @@ symbols:
 👁	oculo	none
 👅	lingua	none
 👄	bucca	none
+🤵	persona in tuxedo	none
+👰	persona con vela	none
 🦰	capillos rosse	none
 🦱	capillos crispe	none
 🦳	capillos blanc	none
@@ -65,6 +67,10 @@ symbols:
 🚱	aqua non potabile	none
 🚷	prohibite al pedones	none
 📵	telephonos mobile prohibite	none
+✖	multiplication	none
+➕	plus	none
+➖	minus	none
+➗	division	none
 🏁	bandiera a quadros	none
 🚩	bandiera triangular	none
 🎌	bandieras cruciate	none
@@ -102,11 +108,23 @@ symbols:
 👃🏽	naso tono de pelle medie	none
 👃🏾	naso tono de pelle medio-obscur	none
 👃🏿	naso tono de pelle obscur	none
+🤵🏻	persona in tuxedo tono de pelle clar	none
+🤵🏼	persona in tuxedo tono de pelle medio clar	none
+🤵🏽	persona in tuxedo tono de pelle medie	none
+🤵🏾	persona in tuxedo tono de pelle medio-obscur	none
+🤵🏿	persona in tuxedo tono de pelle obscur	none
+👰🏻	persona con vela tono de pelle clar	none
+👰🏼	persona con vela tono de pelle medio clar	none
+👰🏽	persona con vela tono de pelle medie	none
+👰🏾	persona con vela tono de pelle medio-obscur	none
+👰🏿	persona con vela tono de pelle obscur	none
 🔟	clave 10	none
+🇦🇨	bandiera Insula del Ascension	none
 🇦🇩	bandiera Andorra	none
 🇦🇪	bandiera Emiratos Arabe Unite	none
 🇦🇫	bandiera Afghanistan	none
 🇦🇬	bandiera Antigua e Barbuda	none
+🇦🇮	bandiera Anguilla	none
 🇦🇱	bandiera Albania	none
 🇦🇲	bandiera Armenia	none
 🇦🇴	bandiera Angola	none
@@ -115,17 +133,23 @@ symbols:
 🇦🇸	bandiera Samoa american	none
 🇦🇹	bandiera Austria	none
 🇦🇺	bandiera Australia	none
+🇦🇼	bandiera Aruba	none
 🇦🇽	bandiera Insulas Åland	none
 🇦🇿	bandiera Azerbaidzhan	none
 🇧🇦	bandiera Bosnia e Herzegovina	none
+🇧🇧	bandiera Barbados	none
 🇧🇩	bandiera Bangladesh	none
 🇧🇪	bandiera Belgica	none
 🇧🇫	bandiera Burkina Faso	none
 🇧🇬	bandiera Bulgaria	none
+🇧🇭	bandiera Bahrain	none
 🇧🇮	bandiera Burundi	none
 🇧🇯	bandiera Benin	none
+🇧🇱	bandiera Sancte Bartholomeo	none
 🇧🇲	bandiera Bermuda	none
+🇧🇳	bandiera Brunei	none
 🇧🇴	bandiera Bolivia	none
+🇧🇶	bandiera Paises Basse caribe	none
 🇧🇷	bandiera Brasil	none
 🇧🇸	bandiera Bahamas	none
 🇧🇹	bandiera Bhutan	none
@@ -134,23 +158,34 @@ symbols:
 🇧🇾	bandiera Bielorussia	none
 🇧🇿	bandiera Belize	none
 🇨🇦	bandiera Canada	none
+🇨🇨	bandiera Insulas Cocos (Keeling)	none
+🇨🇩	bandiera Congo - Kinshasa	none
 🇨🇫	bandiera Republica African Central	none
-🇨🇬	bandiera Congo	none
+🇨🇬	bandiera Congo - Brazzaville	none
 🇨🇭	bandiera Suissa	none
+🇨🇮	bandiera Costa de Ebore	none
 🇨🇰	bandiera Insulas Cook	none
 🇨🇱	bandiera Chile	none
 🇨🇲	bandiera Camerun	none
 🇨🇳	bandiera China	none
 🇨🇴	bandiera Colombia	none
+🇨🇵	bandiera Insula Clipperton	none
+🇨🇶	bandiera Sark	none
 🇨🇷	bandiera Costa Rica	none
 🇨🇺	bandiera Cuba	none
+🇨🇻	bandiera Capo Verde	none
+🇨🇼	bandiera Curaçao	none
 🇨🇽	bandiera Insula de Natal	none
 🇨🇾	bandiera Cypro	none
 🇨🇿	bandiera Chechia	none
 🇩🇪	bandiera Germania	none
+🇩🇬	bandiera Diego Garcia	none
+🇩🇯	bandiera Djibuti	none
 🇩🇰	bandiera Danmark	none
+🇩🇲	bandiera Dominica	none
 🇩🇴	bandiera Republica Dominican	none
 🇩🇿	bandiera Algeria	none
+🇪🇦	bandiera Ceuta e Melilla	none
 🇪🇨	bandiera Ecuador	none
 🇪🇪	bandiera Estonia	none
 🇪🇬	bandiera Egypto	none
@@ -160,11 +195,14 @@ symbols:
 🇪🇹	bandiera Ethiopia	none
 🇪🇺	bandiera Union Europee	none
 🇫🇮	bandiera Finlandia	none
+🇫🇯	bandiera Fiji	none
+🇫🇰	bandiera Insulas Falkland	none
 🇫🇲	bandiera Micronesia	none
 🇫🇴	bandiera Insulas Feroe	none
 🇫🇷	bandiera Francia	none
 🇬🇦	bandiera Gabon	none
 🇬🇧	bandiera Regno Unite	none
+🇬🇩	bandiera Grenada	none
 🇬🇪	bandiera Georgia	none
 🇬🇫	bandiera Guyana francese	none
 🇬🇬	bandiera Guernsey	none
@@ -173,14 +211,21 @@ symbols:
 🇬🇱	bandiera Groenlandia	none
 🇬🇲	bandiera Gambia	none
 🇬🇳	bandiera Guinea	none
+🇬🇵	bandiera Guadeloupe	none
 🇬🇶	bandiera Guinea equatorial	none
 🇬🇷	bandiera Grecia	none
+🇬🇸	bandiera Georgia del Sud e Insulas Sandwich Austral	none
 🇬🇹	bandiera Guatemala	none
+🇬🇺	bandiera Guam	none
 🇬🇼	bandiera Guinea-Bissau	none
+🇬🇾	bandiera Guyana	none
+🇭🇰	bandiera Hongkong, R.A.S. de China	none
+🇭🇲	bandiera Insulas Heard e McDonald	none
 🇭🇳	bandiera Honduras	none
 🇭🇷	bandiera Croatia	none
 🇭🇹	bandiera Haiti	none
 🇭🇺	bandiera Hungaria	none
+🇮🇨	bandiera Insulas Canari	none
 🇮🇩	bandiera Indonesia	none
 🇮🇪	bandiera Irlanda	none
 🇮🇱	bandiera Israel	none
@@ -192,6 +237,7 @@ symbols:
 🇮🇸	bandiera Islanda	none
 🇮🇹	bandiera Italia	none
 🇯🇪	bandiera Jersey	none
+🇯🇲	bandiera Jamaica	none
 🇯🇴	bandiera Jordania	none
 🇯🇵	bandiera Japon	none
 🇰🇪	bandiera Kenya	none
@@ -202,8 +248,10 @@ symbols:
 🇰🇳	bandiera Sancte Christophoro e Nevis	none
 🇰🇵	bandiera Corea del Nord	none
 🇰🇷	bandiera Corea del Sud	none
+🇰🇼	bandiera Kuwait	none
 🇰🇾	bandiera Insulas de Caiman	none
 🇰🇿	bandiera Kazakhstan	none
+🇱🇦	bandiera Laos	none
 🇱🇧	bandiera Libano	none
 🇱🇨	bandiera Sancte Lucia	none
 🇱🇮	bandiera Liechtenstein	none
@@ -218,15 +266,21 @@ symbols:
 🇲🇨	bandiera Monaco	none
 🇲🇩	bandiera Moldavia	none
 🇲🇪	bandiera Montenegro	none
+🇲🇫	bandiera Sancte Martino francese	none
 🇲🇬	bandiera Madagascar	none
 🇲🇭	bandiera Insulas Marshall	none
-🇲🇰	bandiera Macedonia	none
+🇲🇰	bandiera Macedonia del Nord	none
 🇲🇱	bandiera Mali	none
-🇲🇲	bandiera Birmania/Myanmar	none
+🇲🇲	bandiera Myanmar (Birmania)	none
 🇲🇳	bandiera Mongolia	none
+🇲🇴	bandiera Macao, R.A.S. de China	none
 🇲🇵	bandiera Insulas Marianna del Nord	none
+🇲🇶	bandiera Martinica	none
 🇲🇷	bandiera Mauritania	none
+🇲🇸	bandiera Montserrat	none
 🇲🇹	bandiera Malta	none
+🇲🇺	bandiera Mauritio	none
+🇲🇻	bandiera Maldivas	none
 🇲🇼	bandiera Malawi	none
 🇲🇽	bandiera Mexico	none
 🇲🇾	bandiera Malaysia	none
@@ -240,6 +294,8 @@ symbols:
 🇳🇱	bandiera Nederlandia	none
 🇳🇴	bandiera Norvegia	none
 🇳🇵	bandiera Nepal	none
+🇳🇷	bandiera Nauru	none
+🇳🇺	bandiera Niue	none
 🇳🇿	bandiera Nove Zelanda	none
 🇴🇲	bandiera Oman	none
 🇵🇦	bandiera Panama	none
@@ -250,8 +306,14 @@ symbols:
 🇵🇰	bandiera Pakistan	none
 🇵🇱	bandiera Polonia	none
 🇵🇲	bandiera St. Pierre e Miquelon	none
+🇵🇳	bandiera Insulas Pitcairn	none
+🇵🇷	bandiera Porto Rico	none
+🇵🇸	bandiera Territorios palestin	none
 🇵🇹	bandiera Portugal	none
+🇵🇼	bandiera Palau	none
 🇵🇾	bandiera Paraguay	none
+🇶🇦	bandiera Qatar	none
+🇷🇪	bandiera Reunion	none
 🇷🇴	bandiera Romania	none
 🇷🇸	bandiera Serbia	none
 🇷🇺	bandiera Russia	none
@@ -261,6 +323,8 @@ symbols:
 🇸🇨	bandiera Seychelles	none
 🇸🇩	bandiera Sudan	none
 🇸🇪	bandiera Svedia	none
+🇸🇬	bandiera Singapur	none
+🇸🇭	bandiera Sancte Helena	none
 🇸🇮	bandiera Slovenia	none
 🇸🇯	bandiera Svalbard e Jan Mayen	none
 🇸🇰	bandiera Slovachia	none
@@ -270,9 +334,12 @@ symbols:
 🇸🇴	bandiera Somalia	none
 🇸🇷	bandiera Suriname	none
 🇸🇸	bandiera Sudan del Sud	none
+🇸🇹	bandiera São Tomé e Príncipe	none
 🇸🇻	bandiera El Salvador	none
+🇸🇽	bandiera Sancte Martino nederlandese	none
 🇸🇾	bandiera Syria	none
-🇸🇿	bandiera Swazilandia	none
+🇸🇿	bandiera Eswatini	none
+🇹🇦	bandiera Tristan da Cunha	none
 🇹🇨	bandiera Insulas Turcos e Caicos	none
 🇹🇩	bandiera Tchad	none
 🇹🇫	bandiera Territorios meridional francese	none
@@ -291,6 +358,7 @@ symbols:
 🇹🇿	bandiera Tanzania	none
 🇺🇦	bandiera Ukraina	none
 🇺🇬	bandiera Uganda	none
+🇺🇲	bandiera Insulas peripheric del SUA	none
 🇺🇳	bandiera Nationes Unite	none
 🇺🇸	bandiera Statos Unite	none
 🇺🇾	bandiera Uruguay	none
@@ -298,15 +366,28 @@ symbols:
 🇻🇦	bandiera Citate del Vaticano	none
 🇻🇨	bandiera Sancte Vincente e le Grenadinas	none
 🇻🇪	bandiera Venezuela	none
+🇻🇬	bandiera Insulas Virgine britannic	none
+🇻🇮	bandiera Insulas Virgine statounitese	none
+🇻🇳	bandiera Vietnam	none
 🇻🇺	bandiera Vanuatu	none
+🇼🇫	bandiera Wallis e Futuna	none
 🇼🇸	bandiera Samoa	none
 🇽🇰	bandiera Kosovo	none
 🇾🇪	bandiera Yemen	none
-🇿🇦	bandiera Sudafrica	none
+🇾🇹	bandiera Mayotte	none
+🇿🇦	bandiera Africa del Sud	none
 🇿🇲	bandiera Zambia	none
 🇿🇼	bandiera Zimbabwe	none
 ₡	colon costarican	none
 ₦	naira nigerian	none
+₪	nove shekel israeli	none
+₫	dong vietnamese	none
+₭	kip laotian	none
+₮	tugrik mongol	none
 ₲	guarani paraguayan	none
 ₴	hryvnia ukrainian	none
 ₵	cedi ghanese	none
+₸	tenge kazakh	none
+₺	lira turc	none
+₼	manat azeri	none
+₾	lari georgian	none

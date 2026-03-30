@@ -2,10 +2,12 @@
 # DO NOT MODIFY IT!
 # See locale/README.md to know how to import dictionaries
 
-# locale/ms/orca.dic
+# locale/ms/orca-chars.dic
 # Copyright (C) 2004-2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the orca package.
 
 symbols:
+Ø	O STROK	char	norep
+÷	dibahagi dengan	some
 	persegi hitam	none
 	berlian hitam	none

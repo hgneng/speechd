@@ -2,10 +2,9 @@
 # DO NOT MODIFY IT!
 # See locale/README.md to know how to import dictionaries
 
-﻿#locale/en/symbols.dic
-#A part of NonVisual Desktop Access (NVDA)
-#Copyright (c) 2011-2017 NVDA Contributors
-#This file is covered by the GNU General Public License.
+# A part of NonVisual Desktop Access (NVDA)
+# Copyright (c) 2011-2024 NVDA Contributors
+# This file is covered by the GNU General Public License.
 
 complexSymbols:
 # identifier	regexp
@@ -16,6 +15,9 @@ complexSymbols:
 # Phrase endings.
 ; phrase ending	(?<=[^\s;]);(?=\s|$)
 : phrase ending	(?<=[^\s:]):(?=\s|$)
+# Series of dots used for visual presentation, e.g. in table of contents
+multiple .	\.{4,}
+
 # Others
 decimal point	(?<![^\d -])\.(?=\d)
 in-word '	(?<=[^\W_])['’]
@@ -30,6 +32,7 @@ symbols:
 ? sentence ending	chấm hỏi	all	always
 ; phrase ending	chấm phẩy	most	always
 : phrase ending	hai chấm	most	always
+multiple .	multiple dots	all	always
 decimal point		none	always
 in-word '	nháy đơn	all	norep
 negative number	âm	none	norep
@@ -45,6 +48,7 @@ negative number	âm	none	norep
 
 # Standard punctuation/symbols
 !	chấm than	all
+！	chấm than all
 "	ngoặc kép	most
 \#	báo số	some
 $	đô la	all	norep
@@ -62,13 +66,21 @@ $	đô la	all	norep
 (	mở ngoặc tròn	most	always
 )	đóng ngoặc tròn	most	always
 *	sao	some
-,	phảy	all	always
--	gạch ngang	most
+,	phẩy	all	always
+、	tượng hình comma	all	always
+،	ả rập comma	all	always
+-	gạch ngang	most	always
 .	chấm	some
+．	fullwidth chấm	some
 /	trên	some
 :	hai chấm	most	norep
-;	chấm phảy	most
+：	hai chấm	most	norep
+;	chấm phẩy	most
+؛	chấm phẩy ả rập	most
+；	chấm phẩy	most
 ?	chấm hỏi	all
+؟	chấm hỏi ả rập mark	all
+？	chấm hỏi	all
 @	a móc	some
 [	mở ngoặc vuông	most
 ]	đóng ngoặc vuông	most
@@ -86,36 +98,37 @@ _	gạch dưới	most
 ·	chấm giữa	most
 ‚	nháy đơn thấp	most
 „	nháy kép thấp	most
-′	nguyên tố	some
-″	nguyên tố kép	some
-‴	ba nguyên tố	some
+′	đạo hàm	some
+″	đạo hàm bậc hai	some
+‴	đạo hàm bậc ba	some
 
 # Other characters
-•	bullet	some
+•	chấm đầu dòng	some
 …	ba chấm	all	always
 ...	ba chấm	all	always
 “	mở ngoặc kép	most
 ”	đóng ngoặc kép	most
-‘	mở ngoặc đơn	most
-’	đóng ngoặc đơn	most
+‘	nháy đơn trái	most
+’	nháy đơn phải	most
 –	gạch ngang	most	always
 —	gạch nối	most
+—	gạch nối	most	always
 ­	gạch nối mềm	most
-⁃	bullet gạch nối	none
-●	bullet tròn	most
+⁃	chấm gạch đầu dòng	none
+●	chấm tròn	most
 ○	vòng tròn trắng	most
 ¨	tách đôi	most
-¯	macron	most
-´	sắc	most
-¸	cedilla	most
+¯	nguyên âm dài	most
+´	dấu sắc	most
+¸	chữ c đuôi	most
 ‎	dấu trái qua phải	char
 ‏	dấu phải qua trái	char
 ¶	đánh dấu đoạn	most
-■	vuông đen	some
-▪	vuông đen	some
-◾	vuông đen	some
-□	vuông trắng	some
-◦	bullet trắng	some
+■	hình vuông đen	some
+▪	hình vuông đen	some
+◾	hình vuông đen	some
+□	hình vuông trắng	some
+◦	chấm trắng đầu dòng	some
 ⇨	mũi tên phải trắng	some
 ➔	mũi tên phải	some
 ➢	mũi tên phải	some
@@ -125,8 +138,8 @@ _	gạch dưới	most
 ◆	rô đen	some
 §	phần	all
 °	độ	some
-«	mở ngoặc vuông kép	none
-»	đóng ngoặc vuông kép	none
+«	mở ngoặc vuông kép	most	always
+»	đóng ngoặc vuông kép bracket	most	always
 µ	micro	some
 ⁰	chỉ số trên 0	some
 ¹	chỉ số trên 1	some
@@ -169,13 +182,13 @@ _	gạch dưới	most
 ✓	dấu kiểm	some
 ✔	dấu kiểm	some
 🡺	mũi tên phải	some
-†	dagger	some
-‣	bullet tam giác	none
-✗	x-shaped bullet	none
-⊕	circled plus	none
-⊖	circled minus	none
-⇄	right arrow over left arrow	none
-⇒	double right arrow	none
+†	dấu kiếm	some
+‣	chấm tam giác	none
+✗	dấu x	none
+⊕	dấu cộng khoanh tròn	none
+⊖	dấu trừ khoanh tròn	none
+⇄	mũi tên phải trên mũi tên trái	none
+⇒	Mũi tên phải kép	none
 
 #Arithmetic operators
 
@@ -183,7 +196,7 @@ _	gạch dưới	most
 −	trừ	some
 ×	nhân	some
 ⋅	nhân	some
-⨯	nhân	none
+⨯	tích hữu hướng	none
 ∕	chia	some
 ⁄	chia	some
 ÷	chia	some
@@ -191,66 +204,67 @@ _	gạch dưới	most
 ±	cộng trừ	some
 
 #Set operations
-∖	set minus	none
-⊍	set union	none
-𝒫	power set of the set	none
-𝔓	power set of the set	none
-℘	power set of the set	none
-∁	complement of the set	none
+∖	trừ tập hợp	none
+⊍	hợp	none
+𝒫	tập lũy thừa của tập hợp	none
+𝔓	tập lũy thừa của tập hợp	none
+℘	tập lũy thừa của tập hợp	none
+∁	phần bù của tập hợp	none
 
 #Set relations and set constructions
-∅	empty set	none
-⊂	subset of	none
-⊄	not a subset of	none
-⊃	superset of	none
-⊅	not a superset of	none
-⊆	subset of or equal to	none
-⊈	neither a subset of nor equal to	none
-⊇	superset of or equal to	none
-⊉	neither a superset of nor equal to	none
+∅	tập rỗng	none
+⊂	tập con của	none
+⊄	không thuộc	none
+⊃	tập cha của	none
+⊅	không phải tập cha của	none
+⊆	thuộc hoặc bằng	none
+⊈	Không thuộc hoặc khác	none
+⊈	tập cha	none
+⊇	chứa trong hoặc bằng	none
+⊉	không chứa trong hoặc khác	none
 ⊌	multiset	none
 
 #Equality signs
 =	bằng	some
-≃	asymptotically equal to	none
-≄	not asymptotically equal to	none
-≅	approximately equal to	none
-≆	approximately but not actually equal to	none
-≈	almost Equal to	none
-≌	all equal to	none
-≍	equivalent to	none
-≭	not equivalent to	none
+≃	tiệm cận với	none
+≄	không tiệm cận với	none
+≅	gần bằng	none
+≆	gần bằng	none
+≈	xấp xỉ	none
+≌	bằng	none
+≍	tương đương với	none
+≭	không tương đương với	none
 ≎	geometrically equivalent to	none
 ≑	geometrically equal to	none
-≚	equiangular to	none
-≬	between	none
-≠	not equal to	none
-≡	identical to	none
-≣	strictly identical to	none
-≢	not identical to	none
-∼	similar to	none
-≙	estimates	none
-≟	questioned equal to	none
+≚	đẳng giác với	none
+≬	ở giữa	none
+≠	khác với	none
+≡	bằng	none
+≣	tuyệt đối giống với	none
+≢	khác với	none
+∼	tương tự với	none
+≙	ước tính	none
+≟	chấm hỏi bằng	none
 
 #comparison signs
 <	nhỏ hơn	some
 >	lớn hơn	some
 ≤	nhỏ hơn hoặc bằng	none
-≦	less- than or equal to	none
-≪	much smaller than	none
-≥	greater-than or equal to	none
-+≧	greater-than or equal to	none
-≫	much bigger than	none
+≦	nhỏ hơn hoặc bằng	none
+≪	nhỏ hơn nhiều so với	none
+≥	lớn hơn hoặc bằng	none
++≧	lớn hơn hoặc bằng	none
+≫	lớn hơn nhiều so với	none
 ≶	lớn hơn hoặc bằng	none
 ≷	lớn hơn hoặc nhỏ hơn	none
 ≮	không nhỏ hơn	none
 ≯	không lớn hơn	none
 
-Functions
-⁻	inverse	some
-∘	ring Operator	none
-∂	partial derivative	none
-∇	gradient of	none
+#Functions
+⁻	nghịch đảo	some
+∘	hợp	none
+∂	đạo hàm riêng	none
+∇	gradient của	none
 
 #Geometry and linear Algebra
 ⃗	vector giữa	none
@@ -261,19 +275,19 @@ Functions
 ∥	song song với	none
 ∦	không song song với	none
 ⊥	vuông góc với	none
-⟂	ortogonal to	none
-‖	norm of vector	none
-̂	normalizes	none
-∿	sine wave	none
-∡	measured Angle	none
+⟂	trực giao với	none
+‖	độ lớn của véc tơ	none
+̂	chuẩn hóa	none
+∿	hình sin	none
+∡	measured angle	none
 ∢	spherical Angle	none
 
 #Logical operators
 ∀	cho tất cả	none
 ∃	có tồn tại	none
 ∄	không tồn tại	none
-⇏	does not imply	none
-⇐	is implied by	none
+⇏	không kéo theo	none
+⇐	được kéo theo bởi	none
 
 #Other mathematical Operators
 ∈	thuộc	none
@@ -283,13 +297,13 @@ Functions
 ∌	Không phải tập hợp con của	none
 ∍	tập hợp con nhỏ của	none
 ∎	kết quả của sự chứng minh	none
-∏	tích	none
+∏	tích đến n	none
 ∐	n-ary coproduct	none
-∑	n-ary summation	none
+∑	tổng đến n	none
 √	Căn bậc hai	none
 ∛	Căn bậc ba	none
 ∜	căn bậc bốn	none
-∝	tỷ lệ	none
+∝	tỷ lệ thuận với	none
 ∞	vô cực	none
 ∧	và	none
 ∨	hoặc	none
@@ -297,14 +311,14 @@ Functions
 ∩	giao nhau	none
 ∪	hợp	none
 ∫	tích phân	none
-∬	double Integral	none
-∭	tripple Integral	none
-∮	contour Integral	none
-∯	surface Integral	none
-∰	volume Integral	none
-∱	clockwise Integral	none
-∲	clockwise contour Integral	none
-∳	anticlockwise Contour Integral	none
+∬	tích phân bậc hai	none
+∭	tích phân bậc ba	none
+∮	tích phân đường	none
+∯	tích phân mặt	none
+∰	tích phân khối	none
+∱	tích phân theo chiều kim đồng hồ	none
+∲	tích phân đường theo chiều kim đồng hồ	none
+∳	tích phân đường ngược chiều kim đồng hồ	none
 ∴	kết luận	none
 ∵	vì	none
 ∶	tỉ suất	none
@@ -312,11 +326,11 @@ Functions
 ∹	excess	none
 ∺	geometric proportion	none
 ≀	wreath product	none
-≏	difference between	none
-≐	approaches the limit	none
+≏	hiệu	none
+≐	tiệm cận	none
 ∙	bullet Operator	none
-∣	divides	none
-∤	does not divide	none
+∣	chia	none
+∤	không chia	none
 ≔	colon equals	none
 ≕	equals colon	none
 ≺	precedes	none
@@ -324,7 +338,7 @@ Functions
 ⊀	does not precede	none
 ⊁	does not succeed	none
 
-# Vulgur Fractions U+2150 to U+215E
+# Vulgar Fractions U+2150 to U+215E
 ¼	một phần tư	none
 ½	một phần hai	none
 ¾	ba phần tư	none
@@ -345,18 +359,278 @@ Functions
 ⅞	bảy phần tám	none
 
 #Number sets
-𝔸	algebraic numbers	none
+𝔸	số đại số	none
 ℂ	số phức	none
-ℑ	imaginary part of complex number	none
+ℑ	Phần ảo của số phức	none
 ℍ	quaternions	none
 ℕ	số tự nhiên	none
-𝕁	nonnegative (whole) numbers	none
-ℚ	rational numbers	none
+𝕁	số nguyên không âm	none
+ℚ	số hữu tỉ	none
 ℝ	số thực	none
-ℜ	real part of complex number	none
+ℜ	phần thực của số phức	none
 ℤ	số nguyên	none
-ℵ	aleph number	none
-ℶ	beth number	none
+ℵ	SỐ aleph	none
+ℶ	SỐ beth	none
 
 # Miscellaneous Technical
 ⌘	phím mac Command	none
+⌥	phím mac Option none
+## 6-dot cell
+### note: the character on the next line is U+2800 (braille space), not U+0020 (ASCII space)
+⠀	space
+⠁	braille 1
+⠂	braille 2
+⠃	braille 1 2
+⠄	braille 3
+⠅	braille 1 3
+⠆	braille 2 3
+⠇	braille 1 2 3
+⠈	braille 4
+⠉	braille 1 4
+⠊	braille 2 4
+⠋	braille 1 2 4
+⠌	braille 3 4
+⠍	braille 1 3 4
+⠎	braille 2 3 4
+⠏	braille 1 2 3 4
+⠐	braille 5
+⠑	braille 1 5
+⠒	braille 2 5
+⠓	braille 1 2 5
+⠔	braille 3 5
+⠕	braille 1 3 5
+⠖	braille 2 3 5
+⠗	braille 1 2 3 5
+⠘	braille 4 5
+⠙	braille 1 4 5
+⠚	braille 2 4 5
+⠛	braille 1 2 4 5
+⠜	braille 3 4 5
+⠝	braille 1 3 4 5
+⠞	braille 2 3 4 5
+⠟	braille 1 2 3 4 5
+⠠	braille 6
+⠡	braille 1 6
+⠢	braille 2 6
+⠣	braille 1 2 6
+⠤	braille 3 6
+⠥	braille 1 3 6
+⠦	braille 2 3 6
+⠧	braille 1 2 3 6
+⠨	braille 4 6
+⠩	braille 1 4 6
+⠪	braille 2 4 6
+⠫	braille 1 2 4 6
+⠬	braille 3 4 6
+⠭	braille 1 3 4 6
+⠮	braille 2 3 4 6
+⠯	braille 1 2 3 4 6
+⠰	braille 5 6
+⠱	braille 1 5 6
+⠲	braille 2 5 6
+⠳	braille 1 2 5 6
+⠴	braille 3 5 6
+⠵	braille 1 3 5 6
+⠶	braille 2 3 5 6
+⠷	braille 1 2 3 5 6
+⠸	braille 4 5 6
+⠹	braille 1 4 5 6
+⠺	braille 2 4 5 6
+⠻	braille 1 2 4 5 6
+⠼	braille 3 4 5 6
+⠽	braille 1 3 4 5 6
+⠾	braille 2 3 4 5 6
+⠿	braille 1 2 3 4 5 6
+## 8-braille cell
+⡀	braille 7
+⡁	braille 1 7
+⡂	braille 2 7
+⡃	braille 1 2 7
+⡄	braille 3 7
+⡅	braille 1 3 7
+⡆	braille 2 3 7
+⡇	braille 1 2 3 7
+⡈	braille 4 7
+⡉	braille 1 4 7
+⡊	braille 2 4 7
+⡋	braille 1 2 4 7
+⡌	braille 3 4 7
+⡍	braille 1 3 4 7
+⡎	braille 2 3 4 7
+⡏	braille 1 2 3 4 7
+⡐	braille 5 7
+⡑	braille 1 5 7
+⡒	braille 2 5 7
+⡓	braille 1 2 5 7
+⡔	braille 3 5 7
+⡕	braille 1 3 5 7
+⡖	braille 2 3 5 7
+⡗	braille 1 2 3 5 7
+⡘	braille 4 5 7
+⡙	braille 1 4 5 7
+⡚	braille 2 4 5 7
+⡛	braille 1 2 4 5 7
+⡜	braille 3 4 5 7
+⡝	braille 1 3 4 5 7
+⡞	braille 2 3 4 5 7
+⡟	braille 1 2 3 4 5 7
+⡠	braille 6 7
+⡡	braille 1 6 7
+⡢	braille 2 6 7
+⡣	braille 1 2 6 7
+⡤	braille 3 6 7
+⡥	braille 1 3 6 7
+⡦	braille 2 3 6 7
+⡧	braille 1 2 3 6 7
+⡨	braille 4 6 7
+⡩	braille 1 4 6 7
+⡪	braille 2 4 6 7
+⡫	braille 1 2 4 6 7
+⡬	braille 3 4 6 7
+⡭	braille 1 3 4 6 7
+⡮	braille 2 3 4 6 7
+⡯	braille 1 2 3 4 6 7
+⡰	braille 5 6 7
+⡱	braille 1 5 6 7
+⡲	braille 2 5 6 7
+⡳	braille 1 2 5 6 7
+⡴	braille 3 5 6 7
+⡵	braille 1 3 5 6 7
+⡶	braille 2 3 5 6 7
+⡷	braille 1 2 3 5 6 7
+⡸	braille 1 2 3 7
+⡹	braille 1 4 5 6 7
+⡺	braille 2 4 5 6 7
+⡻	braille 1 2 4 5 6 7
+⡼	braille 3 4 5 6 7
+⡽	braille 1 3 4 5 6 7
+⡾	braille 2 3 4 5 6 7
+⡿	braille 1 2 3 4 5 6 7
+⢀	braille 8
+⢁	braille 1 8
+⢂	braille 2 8
+⢃	braille 1 2 8
+⢄	braille 3 8
+⢅	braille 1 3 8
+⢆	braille 2 3 8
+⢇	braille 1 2 3 8
+⢈	braille 4 8
+⢉	braille 1 4 8
+⢊	braille 2 4 8
+⢋	braille 1 2 4 8
+⢌	braille 3 4 8
+⢍	braille 1 3 4 8
+⢎	braille 2 3 4 8
+⢏	braille 1 2 3 4 8
+⢐	braille 5 8
+⢑	braille 1 5 8
+⢒	braille 2 5 8
+⢓	braille 1 2 5 8
+⢔	braille 3 5 8
+⢕	braille 1 3 5 8
+⢖	braille 2 3 5 8
+⢗	braille 1 2 3 5 8
+⢘	braille 4 5 8
+⢙	braille 1 4 5 8
+⢚	braille 2 4 5 8
+⢛	braille 1 2 4 5 8
+⢜	braille 3 4 5 8
+⢝	braille 1 3 4 5 8
+⢞	braille 2 3 4 5 8
+⢟	braille 1 2 3 4 5 8
+⢠	braille 6 8
+⢡	braille 1 6 8
+⢢	braille 2 6 8
+⢣	braille 1 2 6 8
+⢤	braille 3 6 8
+⢥	braille 1 3 6 8
+⢦	braille 2 3 6 8
+⢧	braille 1 2 3 6 8
+⢨	braille 4 6 8
+⢩	braille 1 4 6 8
+⢪	braille 2 4 6 8
+⢫	braille 1 2 4 6 8
+⢬	braille 3 4 6 8
+⢭	braille 1 3 4 6 8
+⢮	braille 2 3 4 6 8
+⢯	braille 1 2 3 4 6 8
+⢰	braille 5 6 8
+⢱	braille 1 5 6 8
+⢲	braille 2 5 6 8
+⢳	braille 1 2 5 6 8
+⢴	braille 3 5 6 8
+⢵	braille 1 3 5 6 8
+⢶	braille 2 3 5 6 8
+⢷	braille 1 2 3 5 6 8
+⢸	braille 1 2 3 8
+⢹	braille 1 4 5 6 8
+⢺	braille 2 4 5 6 8
+⢻	braille 1 2 4 5 6 8
+⢼	braille 3 4 5 6 8
+⢽	braille 1 3 4 5 6 8
+⢾	braille 2 3 4 5 6 8
+⢿	braille 1 2 3 4 5 6 8
+⣀	braille 7 8
+⣁	braille 1 7 8
+⣂	braille 2 7 8
+⣃	braille 1 2 7 8
+⣄	braille 3 7 8
+⣅	braille 1 3 7 8
+⣆	braille 2 3 7 8
+⣇	braille 1 2 3 7 8
+⣈	braille 4 7 8
+⣉	braille 1 4 7 8
+⣊	braille 2 4 7 8
+⣋	braille 1 2 4 7 8
+⣌	braille 3 4 7 8
+⣍	braille 1 3 4 7 8
+⣎	braille 2 3 4 7 8
+⣏	braille 1 2 3 4 7 8
+⣐	braille 5 7 8
+⣑	braille 1 5 7 8
+⣒	braille 2 5 7 8
+⣓	braille 1 2 5 7 8
+⣔	braille 3 5 7 8
+⣕	braille 1 3 5 7 8
+⣖	braille 2 3 5 7 8
+⣗	braille 1 2 3 5 7 8
+⣘	braille 4 5 7 8
+⣙	braille 1 4 5 7 8
+⣚	braille 2 4 5 7 8
+⣛	braille 1 2 4 5 7 8
+⣜	braille 3 4 5 7 8
+⣝	braille 1 3 4 5 7 8
+⣞	braille 2 3 4 5 7 8
+⣟	braille 1 2 3 4 5 7 8
+⣠	braille 6 7 8
+⣡	braille 1 6 7 8
+⣢	braille 2 6 7 8
+⣣	braille 1 2 6 7 8
+⣤	braille 3 6 7 8
+⣥	braille 1 3 6 7 8
+⣦	braille 2 3 6 7 8
+⣧	braille 1 2 3 6 7 8
+⣨	braille 4 6 7 8
+⣩	braille 1 4 6 7 8
+⣪	braille 2 4 6 7 8
+⣫	braille 1 2 4 6 7 8
+⣬	braille 3 4 6 7 8
+⣭	braille 1 3 4 6 7 8
+⣮	braille 2 3 4 6 7 8
+⣯	braille 1 2 3 4 6 7 8
+⣰	braille 5 6 7 8
+⣱	braille 1 5 6 7 8
+⣲	braille 2 5 6 7 8
+⣳	braille 1 2 5 6 7 8
+⣴	braille 3 5 6 7 8
+⣵	braille 1 3 5 6 7 8
+⣶	braille 2 3 5 6 7 8
+⣷	braille 1 2 3 5 6 7 8
+⣸	braille 1 2 3 7 8
+⣹	braille 1 4 5 6 7 8
+⣺	braille 2 4 5 6 7 8
+⣻	braille 1 2 4 5 6 7 8
+⣼	braille 3 4 5 6 7 8
+⣽	braille 1 3 4 5 6 7 8
+⣾	braille 2 3 4 5 6 7 8
+⣿	braille 1 2 3 4 5 6 7 8

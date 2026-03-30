@@ -58,8 +58,12 @@ General Public License''
 
 @end titlepage
 
+@summarycontents
+@contents
+
 @ifnottex
 @node Top, Introduction, (dir), (dir)
+@top Speech Dispatcher
 
 This manual documents Speech Dispatcher, version @value{VERSION}.
 
@@ -148,7 +152,7 @@ details of the various synthesizers.
 The absence of such a common and standardized interface and thus the
 difficulty for programmers to use software speech synthesis has
 been a major reason why the potential of speech synthesis technology
-is still not fully expoited.
+is still not fully exploited.
 
 Ideally, there would be little distinction for applications whether
 they output messages on the screen or via speech. Speech Dispatcher
@@ -208,13 +212,13 @@ accessibility tools should send the same message twice for these two
 different kinds of output used by blind people (often simultaneously).
 Outside the world of accessibility, applications also want to either
 have full control over the sound (bypass prioritisation) or to only
-retrieve the synthesized data, but not play them immediatelly.
+retrieve the synthesized data, but not play them immediately.
 
 We want to eventually split Speech Dispatcher into two independent
 components: one providing a low-level interface to speech synthesis
 drivers, which we now call TTS API Provider and is already largely
 implemented in the Free(b)Soft project, and the second doing message
-managemenet, called Message Dispatcher. This will allow Message
+management, called Message Dispatcher. This will allow Message
 Dispatcher to also output on Braille as well as to use the TTS API
 Provider separately.
 
@@ -228,7 +232,7 @@ inner design of the new components is much better.
 
 While a good API and its implementation for Braille are already
 existent in the form of BrlAPI, the API for speech is now under
-developement. Please see another architecture diagram showing how we
+development. Please see another architecture diagram showing how we
 imagine Message Dispatcher in the future.
 
 @image{figures/architecture-future,155mm,,Speech Dispatcher architecture}
@@ -563,7 +567,7 @@ If this doesn't reveal the problem, please run
 spd-conf -D
 @end example
 
-Which will genereate a very detailed logfile archive
+Which will generate a very detailed logfile archive
 which you can examine yourself or send to us with
 a request for help.
 
@@ -592,6 +596,12 @@ set correctly by trying to connect to the port Festival server is
 running on via an ordinary telnet (by default like this: @code{telnet
 localhost 1314}). If you are not rejected, it works.
 
+@item
+One can connect to the speech-dispatcher server by hand by using
+@example
+	socat $XDG_RUNTIME_DIR/speech-dispatcher/speechd.sock,crlf STDIO
+@end example
+
 @end itemize
 
 @node Configuration, Tools, Troubleshooting, User's Documentation
@@ -614,6 +624,7 @@ application for details about application specific configuration.
 @menu
 * Configuration file syntax::   Basic rules.
 * Configuration options::       What to configure.
+* Symbols processing configuration:: How text is processed with symbols.
 * Audio Output Configuration::  How to switch to ALSA, Pulse...
 * Client Specific Configuration::  Specific default values for applications.
 * Output Modules Configuration::  Adding and customizing output modules.
@@ -654,7 +665,7 @@ Boolean values use On (for true) and Off (for false).
 Debug Off
 @end example
 
-@node Configuration options, Audio Output Configuration, Configuration file syntax, Configuration
+@node Configuration options, Symbols processing configuration, Configuration file syntax, Configuration
 @subsection Configuration options
 
 All available options are documented directly in the file and examples
@@ -662,7 +673,34 @@ are provided.  Most of the options are set to their default value and
 commented out.  If you want to change them, just change the value and
 remove the comment symbol @code{#}.
 
-@node Audio Output Configuration, Client Specific Configuration, Configuration options, Configuration
+@node Symbols processing configuration, Audio Output Configuration, Configuration options, Configuration
+@subsection Symbols processing configuration
+
+Speech Dispatcher preprocesses text before giving it to output modules, to
+support ample sets of characters (including emojis) and provide a homogeneous
+behavior.
+
+This is configured through the use of the @code{SymbolsPreprocFile} lines in
+the main configuration file, which load a series of dictionaries. When text is
+preprocessed, each dictionary is applied, in the order of appearance in the
+configuration file. The principle is to first apply quite generic
+transformations (e.g. various unicode fonts forms) before applying more specific
+transformations (e.g. abbreviations).
+
+The dictionaries are localized, to provide translation adapted to each
+language. They can be found in locale-named directories in
+@file{/usr/share/speech-dispatcher/locale/}
+Speech-dispatcher tries to open them from most specific locales to least
+specific: for instance for brazilian speech, it will first try to load from
+@file{pt_BR}, then from @file{pt}, before falling back to @file{base}.
+
+Users can override the dictionaries by copying a dictionary into their
+@file{~/.config/speech-dispatcher/locale/} directory, or even locale-named
+subdirectories of it, and modifying them at will. They can also add
+@code{SymbolsPreprocFile} in the configuration file to add their own dictionary
+files along the series, before, after or among the existing dictionaries.
+
+@node Audio Output Configuration, Client Specific Configuration, Symbols processing configuration, Configuration
 @subsection Audio Output Configuration
 
 Audio output method (ALSA, Pulse etc.) can be configured centrally
@@ -672,7 +710,7 @@ options labeled as @code{AudioALSA...} or @code{AudioPulse...} provide
 a more detailed configuration of the given audio output method.
 
 It is possible to use a list of preferred audio output methods,
-in which case each output module attempts to use the first availble
+in which case each output module attempts to use the first available
 in the given order.
 
 The example below prefers Pulse Audio, but will use ALSA if unable
@@ -687,6 +725,9 @@ settings and use their own means of audio output which can't be
 influenced this way. On the other hand, the fallback dummy output
 module tries to use any available means of audio output to deliver its
 error message.
+
+The @emph{SPEECHD_PLUGIN_DIR} environment variable allows to specify which
+directory the audio modules should be loaded from.
 
 @node Client Specific Configuration, Output Modules Configuration, Audio Output Configuration, Configuration
 @subsection Client Specific Configuration
@@ -819,7 +860,7 @@ in such a case. If not specified, the @code{no_voice} string is passed instead.
 
 @var{name} is a name specific for the given output module.
 
-@item ModuleDelimiters "@var{delimiters}", ModuleMaxChunkLength @var{length}
+@item GenericDelimiters "@var{delimiters}", GenericMaxChunkLength @var{length}
 
 Normally, the output module doesn't try to synthesize all
 incoming text at once, but instead it cuts it into smaller
@@ -827,9 +868,6 @@ chunks (sentences, parts of sentences) and then synthesizes
 them one by one. This second approach, used by some output
 modules, is much faster, however it limits the ability of
 the output module to provide good intonation.
-
-NOTE: The Festival module does not use ModuleDelimiters and
-ModuleMaxChunkLength.
 
 For this reason, you can configure at which characters
 (@var{delimiters}) the text should be cut into smaller blocks
@@ -847,7 +885,7 @@ sentence.
 The same applies to @code{MaxChunkLength}, it's better
 to set higher values for faster computers.
 
-For example, curently the default for Flite is
+For example, currently the default for Flite is
 
 @example
     FestivalMaxChunkLength  500
@@ -859,6 +897,16 @@ only if they are followed by a space. This way for example
 ``file123.tmp'' would not be cut in two parts, but ``The horse
 raced around the fence, that was lately painted green, fell.''
 would be. (This is an interesting sentence, by the way.)
+
+Note: Due to
+@uref{https://gist.github.com/guest271314/8279ddaeeb44b9ef5f1855f6f1588d33,Bug #102 (Empty options yield to a warning)},
+to remove extended silence between sentences a workaround is to
+include charcters that are not used in the text to speech output in the configuration,
+for example in a @code{~/.config/speech-dispatcher/modules/piper.conf} file
+
+@example
+    GenericDelimiters  "|"
+@end example
 @end itemize
 
 @node Configuration of the Generic Output Module,  , Configuration files of output modules, Output Modules Configuration
@@ -892,7 +940,7 @@ the command.
 The text data that should be said. The string's characters that would interfere
 with bash processing are already escaped. However, it may be necessary to put
 double quotes around it (like this: @code{\"$DATA\"}).
-@item @code{$LANG}
+@item @code{$LANGUAGE}
 The language identification string (it's defined by GenericLanguage).
 @item @code{$VOICE}
 The voice identification string (it's defined by AddVoice).
@@ -907,7 +955,7 @@ The desired rate or speed (a float number defined in GenericRateAdd and GenericR
 Here is an example from @file{etc/speech-dispatcher/modules/epos-generic.conf}
 @example
 GenericExecuteSynth \
-"epos-say -o --language $LANG --voice $VOICE --init_f $PITCH --init_t $RATE \
+"epos-say -o --language $LANGUAGE --voice $VOICE --init_f $PITCH --init_t $RATE \
 \"$DATA\" | sed -e s+unknown.*$++ >/tmp/epos-said.wav && play /tmp/epos-said.wav >/dev/null"
 @end example
 @end defvr
@@ -916,12 +964,22 @@ GenericExecuteSynth \
 @xref{AddVoice}.
 @end defvr
 
+@defvr {GenericModuleConfiguration} GenericDefaultCharset "character-set"
+
+Defines the default character set in which the text will be passed to the
+module. If unset, it defaults to @code{iso-8859-1}.
+
+@example
+GenericDefaultCharset "iso-8859-2"
+@end example
+@end defvr
+
 @defvr {GenericModuleConfiguration} GenericLanguage "iso-code" "string-subst" "character-set"
 
-Defines which string @code{string-subst} should be substituted for @code{$LANG}
+Defines which string @code{string-subst} should be substituted for @code{$LANGUAGE}
 given an @code{iso-code} language code. Optionally, the character set in which
 the text will be passed to the module can be specified. If unset, it will
-default to iso-8859-1.
+default to the @code{GenericDefaultCharset} parameter.
 
 Another example from Epos generic:
 @example
@@ -1075,9 +1133,18 @@ output modules provide good synchronization, you can combine them when
 reading messages.  For example if module1 can speak English and Czech while
 module2 speaks only German, the idea is that if there is some message in
 German, module2 is used, while module1 is used for the other languages.
-However the language is not the only criteria for the decision.  The rules for
-selection of an output module can be influenced through the configuration file
-@file{speech-dispatcher/speechd.conf}.
+However the language is not the only criteria for the decision.
+
+The set of modules can be set in @file{speech-dispatcher/speechd.conf}, or left
+to be determined automatically. It can be refreshed by making Speech Dispatcher
+reload the configuration, with e.g.
+
+@example
+killall -HUP speech-dispatcher
+@end example
+
+The rules for selection of an output module can be influenced through the
+configuration file @file{speech-dispatcher/speechd.conf}.
 
 @menu
 * Provided Functionality::      Some synthesizers don't support the full set of SSIP features.
@@ -1164,7 +1231,7 @@ connect to Speech Dispatcher on a specified port, theoretically
 everyone could connect to it. The access is by default restricted only
 for connections originating on the same machine, which can be changed
 via the LocalhostAccessOnly option in the server configuration
-file. In such a case, the user is reponsible to set appropriate
+file. In such a case, the user is responsible to set appropriate
 security restrictions on the access to the given port on his machine
 from the outside network using a firewall or similar mechanism.
 
@@ -1183,7 +1250,7 @@ from the outside network using a firewall or similar mechanism.
 @section Communication mechanisms
 
 Speech Dispatcher supports two communication mechanisms: UNIX-style
-and Inet sockets, which are refered as 'unix-socket' and 'inet-socket'
+and Inet sockets, which are referred as 'unix-socket' and 'inet-socket'
 respectively. The communication mechanism is decided on startup and
 cannot be changed at runtime. Unix sockets are now the default and
 preferred variant for local communication, Inet sockets are necessary
@@ -1231,13 +1298,13 @@ and the default pair (localhost, 6560).
 @node Address specification, Actions performed on startup, Communication mechanisms, Technical Specifications
 @section Address specification
 
-Speech Dispatcher provies several methods of communication and can be
+Speech Dispatcher provides several methods of communication and can be
 used both locally and over network. @xref{Communication
 mechanisms}. Client applications and interface libraries need to
 recognize an address, which specifies how and where to contact the
 appropriate server.
 
-Address specification consits from the method and one or more of its
+Address specification consists from the method and one or more of its
 parameters, each item separated by a colon:
 
 @example
@@ -1267,7 +1334,7 @@ inet_socket:192.168.0.34:6563
 Clients implement different mechanisms how the user can set the
 address. Clients should respect the @var{SPEECHD_ADDRESS} environment
 variable @xref{Setting Communication Method}, unless the user
-ovverrides its value by settins in the client application
+overrides its value by settings in the client application
 itself. Clients should fallback to the default address, if neither the
 environment variable or their specific configuration is set.
 
@@ -1512,6 +1579,24 @@ running.
 be filled with an error message if some error occurs. That message must be freed
 with @code{free}.
 
+@end deffn
+
+@deffn {C API function}  int spd_fd(SPDConnection *connection)
+@findex spd_fd()
+
+This returns the OS-level file descriptor used for this connection. This returns
+@code{-1} in case an error was detected and thus libspeechd closed the connection.
+
+@code{connection} is the SPDConnection connection obtained by spd_open().
+
+It must be noted that in @code{SPD_MODE_THREADED} mode, the value returned by
+@code{spd_fd()} can change to @code{-1} unexpectedly, since the even handler
+runs concurrently in its own thread and will catch errors. The value should thus
+be taken with care, as it may not actually be a valid file descriptor, or it
+could even have been re-used in between. The only thing that is really sure is
+that when it returns @code{-1}, the socket was closed because of an error. In
+@code{SPD_MODE_SINGLE} mode, the value only changes during @code{spd_*} function
+calls.
 @end deffn
 
 @deffn {C API function}  int spd_get_client_id(SPDConnection *connection)
@@ -1907,6 +1992,22 @@ Gets the current output module in use for synthesis.
 It returns the output module name under which the module was loaded into Speech
 Dispatcher in its configuration (``flite'', ``festival'',  ``espeak''... )
 
+The caller has to @code{free} the returned string.
+
+@end deffn
+
+@deffn {C API function} char* spd_get_language(SPDConnection* connection);
+@findex spd_get_language()
+@anchor{spd_get_language}
+
+Gets the current language in use for synthesis.
+
+@code{connection} is the SPDConnection* connection created by spd_open().
+
+It returns the name of the currently used language (``en-US'', ``fr-FR'', ...)
+
+The caller has to @code{free} the returned string.
+
 @end deffn
 
 @deffn {C API function}  int spd_set_punctuation(SPDConnection* connection, SPDPunctuation type);
@@ -1962,7 +2063,7 @@ effect until the output module in use is changed (via
 
 @code{connection} is the SPDConnection* connection created by spd_open().
 
-@code{voice_name} is any of the voice name values retrieved by @xref{spd_list_synthesis_voices}.
+@code{voice_name} is any of the voice name values retrieved by @xref{spd_list_synthesis_voices} or @xref{spd_list_synthesis_voices}.
 
 @end deffn
 
@@ -2068,6 +2169,8 @@ a NULL pointer.
 
 @code{connection} is the SPDConnection* connection created by spd_open().
 
+The caller has to call @code{free_spd_modules} to free the returned array.
+
 @end deffn
 
 @deffn {C API function}  char** spd_list_voices(SPDConnection* connection)
@@ -2082,22 +2185,28 @@ Please note that this is a fixed list independent of the synthesizer
 in use. The given voices can be mapped to specific synthesizer voices
 according to user wish or may, for example, all be mapped to the same
 voice. To choose directly from the raw list of voices as implemented
-in the synthesizer, @xref{spd_list_synthesis_voices}.
+in the synthesizer, @xref{spd_list_synthesis_voices2} can be used.
 
 In case of error, the return value is a NULL pointer.
 
 @code{connection} is the SPDConnection* connection created by spd_open().
 
+The caller has to call @code{free_spd_symbolic_voices} to free the returned array.
+
 @end deffn
 
-@deffn {C API function}  char** spd_list_synthesis_voices(SPDConnection* connection)
-@findex spd_list_synthesis_voices()
-@anchor{spd_list_synthesis_voices}
+@deffn {C API function}  char** spd_list_synthesis_voices2(SPDConnection* connection, const char *language, const char *variant)
+@findex spd_list_synthesis_voices2()
+@anchor{spd_list_synthesis_voices2}
 
 Returns a null-terminated array of identification names of
 @code{SPDVoice*} structures describing the available voices as given
 by the synthesizer. You can subsequently set the desired voice with
 @code{spd_set_synthesis_voice()}.
+
+When @code{language} is non-@code{NULL}, only the voices matching this language
+will be returned. When additionally @code{variant} is non-@code{NULL}, only the
+voices matching this language and this variant will be returned.
 
 @example
 typedef struct@{
@@ -2117,6 +2226,16 @@ names which are independent of the synthesizer in use, @xref{spd_list_voices}.
 In case of error, the return value is a NULL pointer.
 
 @code{connection} is the SPDConnection* connection created by spd_open().
+
+The caller has to call @code{free_spd_voices} to free the returned array.
+
+@end deffn
+
+@deffn {C API function}  char** spd_list_synthesis_voices(SPDConnection* connection, const char *language, const char *variant)
+@findex spd_list_synthesis_voices()
+@anchor{spd_list_synthesis_voices}
+
+This is equivalent to calling @code{spd_list_synthesis_voices2(connection, NULL, NULL)}.
 
 @end deffn
 
@@ -2262,7 +2381,7 @@ main(int argc, char **argv)
    conn = spd_open("say","main", NULL, SPD_MODE_THREADED);
 
    /* Set callback handler for 'end' and 'cancel' events. */
-   conn->callback_end = con->callback_cancel = end_of_speech;
+   conn->callback_end = conn->callback_cancel = end_of_speech;
 
    /* Ask Speech Dispatcher to notify us about these events. */
    spd_set_notification_on(conn, SPD_END);
@@ -2415,7 +2534,7 @@ class CallbackExample(object):
             elif callback_type == speechd.CallbackType.END:
                 print "Speech completed:", text
             elif callback_type == speechd.CallbackType.CANCEL:
-                print "Speech interupted:", text
+                print "Speech interrupted:", text
         self._client.speak(text, callback=callback,
                            event_types=(speechd.CallbackType.BEGIN,
                                         speechd.CallbackType.CANCEL,
@@ -2491,10 +2610,6 @@ fallback to the @code{SPD_SPAWN_CMD} compile-time constant, i.e.
 The client library should redirect its stdout and stderr outputs
 either to nowhere or to its logging system. It should subsequently
 completely detach from the newly spawned process.
-
-Due to a bug in Speech Dispatcher, it is currently necessary to
-include a wait statement after the autospawn for about 0.5 seconds
-before attempting a connection.
 
 Please see how autospawn is implemented in the C API and in the Python
 API for an example.
@@ -2819,8 +2934,18 @@ punctuation_some=NULL
 
 @item AUDIO
 Audio has exactly the same structure as @code{SET}, but is transmitted
-only once immediatelly after @code{INIT} to transmit the requested audio
+only once immediately after @code{INIT} to transmit the requested audio
 parameters and tell the output module to open the audio device.
+
+Here is an example:
+@example
+AUDIO
+207 OK RECEIVING AUDIO SETTINGS
+audio_output_method=pulse
+audio_pulse_device=default
+.
+203 OK AUDIO INITIALIZED
+@end example
 
 @item QUIT
 Terminates the output module. It should send the response, deallocate
@@ -2880,7 +3005,7 @@ given message because it reached its end. If this is not possible, it
 can issue this event when it is ready to receive a new message after
 speaking the previous message.
 
-Each @code{END} must always be preceeded (possibly not directly) by a
+Each @code{END} must always be preceded (possibly not directly) by a
 @code{BEGIN}.
 
 It is prepended by the code @code{702} and takes the form
@@ -2897,7 +3022,7 @@ receiving the STOP command or because of some error) not because of
 a @code{PAUSE} command. When the synthesizer in use doesn't allow
 the module to decide, the event @code{END} can be used instead.
 
-Each @code{STOP} must always be preceeded (possibly not directly) by a
+Each @code{STOP} must always be preceded (possibly not directly) by a
 @code{BEGIN}.
 
 It is prepended by the code @code{703} and takes the form
@@ -2912,7 +3037,7 @@ This event should be issued whenever the module terminates speaking
 the given message without reaching its end because of receiving the
 @code{PAUSE} command.
 
-Each @code{PAUSE} must always be preceeded (possibly not directly) by a
+Each @code{PAUSE} must always be preceded (possibly not directly) by a
 @code{BEGIN}.
 
 It is prepended by the code @code{704} and takes the form
@@ -2925,7 +3050,7 @@ It is prepended by the code @code{704} and takes the form
 
 This event should be issued by the output module (if supported)
 whenever an index mark (SSML tag @code{<mark/>}) is passed while speaking
-a message. It is preceeded by the code @code{700} and takes the form
+a message. It is preceded by the code @code{700} and takes the form
 
 @example
 700-name
@@ -2938,7 +3063,7 @@ the tag @code{<mark/>}.
 @item AUDIO
 
 This event should be issued by the output module to produce audio through the
-server. It is preceeded by the code @code{705} and takes the form
+server. It is preceded by the code @code{705} and takes the form
 
 @example
 705-bits=16
@@ -2958,7 +3083,7 @@ the data, its 5th bit is inverted and it is prefixed with @code{0x7D}.
 @item ICON
 
 This event should be issued by the output module to emit a sound icon through
-the server. It is preceeded by the code @code{706} and takes the form
+the server. It is preceded by the code @code{706} and takes the form
 
 @example
 706-name
@@ -2978,10 +3103,9 @@ ways to do it.
 Either you can program it all yourself, which is fine as long as you stick to
 the definition of an output module and its communication protocol.
 
-You can also use our @file{module_main.c}, @file{module_readline.c},
-@file{module_process.c}, and @file{module_main.h}, which deal with the
+You can also use our @file{libspeechd_module} library, which deals with the
 communication protocol and other formal things that are common for all modules.
-They are provided under a BSD licence and thus allow to integrate them along
+It is provided under a BSD license and thus allows to integrate it along
 proprietary software. You will have to provide a series of functions, an example
 is provided in @code{src/modules/skeleton0.c}, which can freely serve as a basic
 for your module. You can also read @code{src/modules/skeleton0_espeak-ng*.c},
@@ -3027,9 +3151,8 @@ If you go for the BSD-provided skeleton way, you can start
 with @code{skeleton0.c}. Add the synthesis initialization call
 with default parameters to @code{module_init}, the synchronous
 synthesizing call to @code{module_speak_sync}, and the synthesis
-shutdown call to @code{module_close}. Compile this along
-@file{module_main.c}, @file{module_readline.c}, @file{module_process.c}, and
-@file{module_main.h}. Install this along other modules, and create an empty
+shutdown call to @code{module_close}. Link this with
+@file{libspeechd_module}. Install this along other modules, and create an empty
 configuration file for it. This should already provide you with a working
 module, though with very limited support.
 
@@ -3038,7 +3161,38 @@ The next step would be to add support for selecting the voice. Fix
 @code{module_set}, when @code{var} is @code{voice}, @code{synthesis_voice}, or
 @code{language}, select a voice according to @code{val}.
 
-This stage of development is examplified in @file{src/modules/skeleton0_espeak-ng0.c}.
+This stage of development is examplified in @file{src/modules/skeleton0_espeak-ng-sync.c}.
+
+The following testcase examples should then be working:
+
+@example
+# lists all voices
+spd-say -o $mymodule -L
+
+spd-say -w -o $mymodule -l en-US Hello
+# Should pronounce Bonjour in french
+spd-say -w -o $mymodule -l fr-FR Bonjour
+
+spd-say -w -o $mymodule -l en-US Hello
+# Should pronounce Bonjour with the specified french voice, as named in the -L output
+spd-say -w -o $mymodule -y "$afrenchvoice" Bonjour
+
+spd-say -w -o $mymodule -l en-US Hello
+# Should pronounce Bonjour in french with the specified french voice
+spd-say -w -o $mymodule -l fr-FR -y "$afrenchvoice" Bonjour
+
+spd-say -w -o $mymodule -l en-US Hello
+# Should pronounce Bonjour in french with a female voice (if available)
+spd-say -w -o $mymodule -l fr-FR -t female1 Bonjour
+
+spd-say -w -o $mymodule -l en-US Hello
+# Should pronounce Bonjour in french with a different female voice (if available)
+spd-say -w -o $mymodule -l fr-FR -t female2 Bonjour
+
+spd-say -w -o $mymodule -l en-US Hello
+# Should pronounce Bonjour in french even we passed a bogus voice name
+spd-say -w -o $mymodule -l fr-FR -y bleaaaarg Bonjour
+@end example
 
 A most useful next step is to support stopping the synthesis. This can be
 supported two ways. Either the synthesis can call a callback from times to
@@ -3047,14 +3201,14 @@ for messages from the server. Or the synthesis can run asynchronously in a
 separate thread, in which case you need to use
 @code{module_speak} instead of @code{module_speak_sync}: it should return
 immediately after starting the production of synthesis. Then
-@code{module_speak_begin()} should be called when it actually
-starts emitting audio, and @code{module_speak_end()} should be called when it is
+@code{module_report_event_begin()} should be called when it actually
+starts emitting audio, and @code{module_report_event_end()} should be called when it is
 finished emitting audio. In either cases, if @code{module_stop}
 is getting called, the synthesis should stop as soon as possible and
-@code{module_speak_stop()} be called instead of @code{module_speak_end()}.
+@code{module_report_event_stop()} be called instead of @code{module_report_event_end()}.
 Similarly, if @code{module_pause} is getting called, the synthesis should stop
 on next mark whose name starts with @code{__spd_}, and
-@code{module_speak_pause()} be called instead of @code{module_speak_end()}.
+@code{module_report_event_paused()} be called instead of @code{module_report_event_end()}.
 As a first step, @code{module_pause} can be made to behave just like
 @code{module_stop}.
 
@@ -3089,6 +3243,10 @@ accordingly.
 
 @node The Skeleton of an Output Module, Output Module Functions, How to Write New Output Module, Output Modules
 @subsection The Skeleton of an Output Module
+
+The previous section documented how to write an output module in general. In this
+section, we document the preferred way for writing modules to be shipped with
+speech-dispatcher.
 
 Each output module should include @file{module_utils.h} where the
 SPDMsgSettings structure is defined to be able to handle the different
@@ -3246,6 +3404,11 @@ should clean up everything, cancel threads, deallocate memory etc.; no
 more functions of this output module will be touched (except for other
 tries to load and initialize the module).
 
+It is very important that @code{module_init} tries to check that the synthesis
+works as much as possible. Otherwise, if users switch to this module and it does
+not emit sound at all without reporting errors, blind users will have no audio
+feedback to be able to switch back to a working module.
+
 Example from Flite:
 
 @example
@@ -3344,13 +3507,13 @@ Example from festival:
 
 Once this function has checked that everything is OK, it must call
 @code{module_speak_ok()} to let the server know that the speak was
-accepted. From then on, the server may send stop requests, so reseting the stop
+accepted. From then on, the server may send stop requests, so resetting the stop
 state must be done before calling this.
 On errors, @code{module_speak_error()} has to be called instead.
 
-When actual synthesis starts, @code{module_speak_begin()} must be called to let
-the server know of this. On synthesis termination, @code{module_speak_end()}
-should be called (or @code{module_speak_pause()}, @code{module_speak_stopped()}
+When actual synthesis starts, @code{module_report_event_begin()} must be called to let
+the server know of this. On synthesis termination, @code{module_report_event_end()}
+should be called (or @code{module_report_event_paused()}, @code{module_report_event_stop()}
 if the synthesis was interrupted through @code{module_pause()} or @code{module_stop()}).
 
 This function should return only when it is finished with synthesizing.  It
@@ -3378,7 +3541,8 @@ server, but in that case @code{module_speak_sync} could as well be used.
 Note: if the synthesis creates separate threads, you have to set
 them to ignore all signals. The simplest way to do this is to use
 @code{spd_pthread_create()} (which is defined in
-module_utils.c) instead of @code{pthread_create()}.
+module_utils.c) instead of @code{pthread_create()}. It is also interesting to
+call @code{spd_thread_setname} to set the thread name for debugging.
 @end deffn
 
 @deffn {Output module function}  {int module_stop} (void)
@@ -3678,7 +3842,7 @@ for synthesis.
 
 @code{msgtype} is  the type of the message for synthesis.
 
-@code{maxlen} is the maximum number of bytes that should be transfered
+@code{maxlen} is the maximum number of bytes that should be transferred
 over the pipe.
 
 @code{dividers} is a NULL-terminated string containing the punctuation characters
@@ -3813,7 +3977,7 @@ the text it sends to its output modules. They have the form:
 @end example
 
 @code{id} is the identifier associated with each index
-mark. Within a @code{module_speak()} message, each identifer is unique.
+mark. Within a @code{module_speak()} message, each identifier is unique.
 It consists of the string @code{__spd_} and a counter number.  Numbers
 begin from zero for each message.  For example, the fourth index mark
 within a message looks like
@@ -3846,14 +4010,14 @@ try to look at @uref{http://www.rpmfind.net/}.
 
 If you want to contact us, please look at
 @uref{http://www.freebsoft.org/contact}
-or use the email @email{users@@lists.freebsoft.org}.
+or use the email @email{speechd-discuss@@nongnu.org}.
 
 @node Reporting Bugs, How You Can Help, Download and Contact, Top
 @chapter Reporting Bugs
 
 If you believe you found a bug in Speech Dispatcher, we will be very
 grateful if you let us know about it. Please do it by email on the
-address @email{speechd@@bugs.freebsoft.org}, but please don't send us
+address @email{speechd-discuss@@nongnu.org}, but please don't send us
 messages larger than half a megabyte unless we ask you.
 
 To report a bug in a way that is useful for the developers is not
@@ -3911,7 +4075,7 @@ information instead, please do so.
 
 If you want to contribute to the development of Speech Dispatcher,
 we will be very happy if you do so. Please contact us on
-@email{users@@lists.freebsoft.org}.
+@email{speechd-discuss@@nongnu.org}.
 
 Here is a short, definitively not exhaustive, list of how you can
 help us and other users.
@@ -3931,7 +4095,7 @@ us about the bugs and inconveniences he encounters. A good user community that
 reports bugs is a crucial part of development of a good Free Software package.
 We can't test our software under all circumstances and on all platforms, so each
 constructive bug report is highly appreciated. You can report bugs in Speech
-Dispatcher on @email{speechd@@bugs.freebsoft.org}.
+Dispatcher on @email{speechd-discuss@@nongnu.org}.
 
 @item
 @emph{Write or modify an application to support synthesis:} With
@@ -4019,4 +4183,4 @@ and Free Software.
 @c  LocalWords:  su AddModule DefaultModule xref identd printindex Dectalk GTK
 
 @c speechd.texi ends here
-@c  LocalWords:  emph soundcard precission archieved succes Dispatcher When
+@c  LocalWords:  emph soundcard precision archieved success Dispatcher When
