@@ -482,7 +482,7 @@ unlock_and_fail:
 }
 
 static int spd_pa_simple_flush(spd_pa_simple *p) {
-	if (p == NULL) return;
+	if (p == NULL) return 0;
 	
 	pa_threaded_mainloop_lock(p->mainloop);
 
