@@ -86,8 +86,8 @@ int module_init(char **status_info) {
     gpEkho = new Ekho();
     gpEkho->setSpeakIsolatedPunctuation();
     module_list_voices();
-    //gpEkho->enableZhtts(true);
-    gpEkho->enablePiper(true);
+    gpEkho->enableZhtts(false);
+    gpEkho->enablePiperEnglish(false);
 
     // @TODO: confirm the proper size
     ret = module_speak_queue_init(4410000, status_info);
